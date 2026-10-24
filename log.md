@@ -2,6 +2,10 @@
 
 只追加，新的在最上面。動作僅三種：`ingest` / `query` / `lint`（另有人類的 `裁決`）。
 
+## [2026-10-25] lint | 改為公開網站
+
+依使用者決定：全文改連 PMC、PDF 不進 git、原圖逐圖標出處。三篇來源頁的 citation 與資料表「出處」列改為 PMC 連結，本機 PDF 檔名移到隱藏註解；`tools/scan.py` 改讀註解；21 張圖加出處行；`.gitignore` 排除 `papers/*.pdf`，第一個 commit 改寫為不含 PDF；`tools/build_site.py` 不再連結 `papers/`；新增 `.github/workflows/pages.yml`；`CLAUDE.md`、`papers/README.md`、頁面規格、範本、`README.md` 同步。[[syn-changelog]] 加階段二。
+
 ## [2026-10-25] lint | 主題頁、綜述頁、README 的冷讀與更正
 
 - 冷讀 4 輪（每輪換新讀者）：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]、[[syn-contradictions]]、`README.md` 與 `index.md`。[[syn-contradictions]] 於第 3 輪起無「看不懂」。

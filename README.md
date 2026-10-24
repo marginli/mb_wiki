@@ -4,6 +4,8 @@
 
 本庫的頁面由 AI（Claude）閱讀論文後撰寫，人負責挑論文、提問與裁決。它不是論文摘要的堆疊：每篇論文會被拆開，重新組織到「主題」、「概念」與「實體」頁上；論文之間說法不同的地方會被標出來，而不會被抹平成一段通順的話。作法沿用本實驗室（BSC）的另一座知識庫 `research_with_AI`，原型是 Andrej Karpathy 提出的「LLM Wiki」，也就是由 AI 持續撰寫與維護一組互相連結的筆記頁。只想讀內容的人可以略過這段背景。
 
+**網站：https://marginli.github.io/mb_wiki/**　　點開就能讀，不需要帳號，頁面之間的連結都能點，也能全文搜尋。
+
 ## 建議的閱讀順序
 
 第一次來，照這個順序讀就好：
@@ -16,9 +18,9 @@
 
 [index.md](index.md) 是總索引，列出每條主題底下有哪些頁。
 
-## 全部頁面（在 GitHub 上可直接點）
+## 全部頁面（在 GitHub 上也能直接點）
 
-頁面內部用 `[[頁名]]` 互相連結。**這種連結在 GitHub 網頁上不能點**，要回到這份目錄找同名的頁。檔名開頭代表頁的種類，也決定它放在哪個資料夾：
+頁面內部用 `[[頁名]]` 互相連結。在網站上都能點；**在 GitHub 網頁上不能點**，要回到這份目錄找同名的頁。檔名開頭代表頁的種類，也決定它放在哪個資料夾：
 
 | 開頭 | 種類 | 資料夾 | 內容 |
 |---|---|---|---|
@@ -72,66 +74,32 @@
 | `⚠️ 矛盾` | **兩篇不同的論文**說法互相牴觸，等人裁決 |
 | `⚠️`（後面沒有「矛盾」二字） | **同一篇論文**自己前後不一致，例如摘要和圖對不上。只記錄，不需裁決 |
 
-## 在自己電腦上打開（選用）
+## 其他看法（選用）
 
-只想讀內容，直接在 GitHub 網頁上看就夠了。想要頁面之間能直接點，有兩條路。**不熟電腦的話，請選第一條**，不用打任何指令。
+一般讀者用上面的網站就好。以下給想離線閱讀或協助維護的人。
 
-### 不用打指令：下載 ZIP，用 Obsidian 開
+**用 Obsidian 離線讀，不用打指令。** Obsidian 是一個免費的筆記軟體（https://obsidian.md ），能直接讀這種 Markdown 檔案。在本 repo 的 GitHub 頁面按綠色的「Code」按鈕，選「Download ZIP」並解壓縮（若出現兩層同名資料夾，用看得到 `index.md` 的那一層）。在 Obsidian 選「Open folder as vault」（中文介面為對應的中文選項），選那個資料夾即可。ZIP 不會自動更新，有新內容時要重新下載。
 
-Obsidian 是一個免費的筆記軟體（https://obsidian.md ），能直接讀這種 Markdown 檔案，頁面之間的 `[[ ]]` 連結都能點，還能看頁面之間的關係圖。
-
-1. 確認你有權限。這是私有 repo，你的 GitHub 帳號要先被 repo 擁有者加為協作者，並接受 GitHub 寄來的邀請 email。如果你現在正在 GitHub 上讀這份說明，就表示已經有權限，可以跳過這一步。
-2. 在 GitHub 的 repo 頁面，按綠色的「Code」按鈕，選「Download ZIP」，把下載的壓縮檔解壓縮。解壓後有時會出現「資料夾裡還有一層同名資料夾」，要用的是裡面看得到 `index.md` 的那一層。
-3. 安裝並打開 Obsidian，選「Open folder as vault」（把資料夾當成筆記庫開啟），選剛才那個看得到 `index.md` 的資料夾。介面若是中文，這個選項會是對應的中文名稱。
-4. 從 `index.md` 開始讀。
-
-缺點是 ZIP 不會自動更新；知識庫有新內容時，要重新下載一次。
-
-### 開成網站：需要用終端機
-
-這條路能全文搜尋，也能用 `git pull` 隨時更新。需要用到終端機，也就是輸入文字指令的視窗：macOS 是「應用程式 → 工具程式 → 終端機」，Linux 是 Terminal。Windows 請先安裝 WSL（Windows Subsystem for Linux，讓 Windows 能執行 Linux 指令）：在開始選單搜尋「PowerShell」，以系統管理員身分開啟，輸入 `wsl --install`，完成後重新開機，再從開始選單打開「Ubuntu」，之後的指令都在這個視窗裡輸入。
-
-**1. 確認工具。** 在終端機輸入以下兩行，各自印出版本號碼就表示已安裝：
+**在自己電腦上預覽網站（維護者用）。** 需要 git、Python 3，以及在終端機輸入指令：
 
 ```bash
-git --version
-python3 --version
+git clone https://github.com/marginli/mb_wiki.git
+cd mb_wiki
+pip install markdown pillow     # 第一次需要；被拒絕時改用 python3 -m pip install --user markdown pillow
+./tools/serve.sh                # 終端機會印出網址，用瀏覽器打開 http://127.0.0.1:8788/
 ```
 
-沒有的話：macOS 到 https://git-scm.com 與 https://www.python.org 安裝；Linux 與 WSL 的 Ubuntu 輸入 `sudo apt install git python3-pip`。另外要安裝 GitHub 的命令列工具 `gh`，各系統的安裝方式在 https://cli.github.com 。Windows 使用者要照其中 Linux 的說明，在 Ubuntu 視窗裡安裝，不是安裝 Windows 版。
-
-**2. 登入並下載。** 第一次使用 `gh` 時執行一次 `gh auth login`，依提示選 GitHub.com、HTTPS、用瀏覽器登入。接著下載 repo。指令裡的「擁有者帳號」，就是 repo 網址 `https://github.com/擁有者帳號/mb_wiki` 中間那一段，可以從瀏覽器網址列複製。
-
-```bash
-gh auth login                        # 第一次才需要
-gh repo clone 擁有者帳號/mb_wiki       # 下載到目前所在的資料夾
-cd mb_wiki                           # 進入剛下載的資料夾
-```
-
-**3. 開成網站。**
-
-```bash
-pip install markdown pillow     # 第一次需要
-./tools/serve.sh                # 產生網站並啟動；保持這個視窗開著
-```
-
-成功時，終端機會印出 `→ http://127.0.0.1:8788/index.html`。腳本不會自動開瀏覽器，請自己打開瀏覽器前往這個網址，會看到左側有搜尋框與頁面清單的網站。看完在終端機按 Ctrl-C 結束。之後要取得新內容，在 `mb_wiki` 資料夾裡輸入 `git pull`。
-
-**如果出錯：**
-
-| 狀況 | 改用 |
-|---|---|
-| `./tools/serve.sh` 顯示權限不足 | `bash tools/serve.sh` |
-| 找不到 `pip`，或 `pip install` 被系統拒絕 | `python3 -m pip install --user markdown pillow` |
-| 8788 埠已被占用 | `./tools/serve.sh 9000`，再開 `http://127.0.0.1:9000/` |
+看完在終端機按 Ctrl-C 結束。8788 埠被占用時，改用 `./tools/serve.sh 9000`。
 
 ## 版權
 
-`papers/` 內的 PDF 與 `assets/` 內從論文擷取的圖，版權屬原出版社。這些論文可免費下載，但「可以免費讀」不等於「可以再散布」。**本 repo 為私有，只開放給受邀的同事，請勿轉為公開或轉傳。** 若日後要公開，先把非 CC 授權的 PDF 與原圖移出 repo。
+- **全文：** 本庫不放論文全文。每篇論文的來源頁都附 PMC（美國國家醫學圖書館的免費全文庫）連結，請由那裡閱讀。
+- **圖片：** `assets/` 裡的圖擷取自原論文，版權屬原出版社（目前三篇都是 Elsevier）。本庫以教學與評論目的引用，每張圖下方都標明出處，這不代表出版社授權。若要在別處使用這些圖，請向出版社取得授權。
+- **文字：** 頁面上的中文說明、解讀與比較是本庫自己寫的。
 
 ## 想加論文或協作（只讀者可略過）
 
-規則全部寫在 [CLAUDE.md](CLAUDE.md)。收錄新論文需要 Claude Code（Anthropic 的 AI 程式助理，需自己的帳號）。流程是：把 PDF 放進 `papers/`，在 repo 根目錄開 Claude Code，說「更新」。Claude 會先跑對帳腳本找出新論文，再依 `.claude/skills/ingest-paper/` 的流程收錄，並回頭改寫受影響的主題頁。
+規則全部寫在 [CLAUDE.md](CLAUDE.md)。收錄新論文需要 Claude Code（Anthropic 的 AI 程式助理，需自己的帳號），以及 repo 的寫入權限。流程是：把 PDF 放進 `papers/`（PDF 只留在自己電腦，不會進 git），在 repo 根目錄開 Claude Code，說「更新」。推上 GitHub 後，網站會在幾分鐘內自動更新。Claude 會先跑對帳腳本找出新論文，再依 `.claude/skills/ingest-paper/` 的流程收錄，並回頭改寫受影響的主題頁。
 
 ```bash
 python3 tools/scan.py      # 哪些 PDF 還沒收錄、有沒有重複或不一致

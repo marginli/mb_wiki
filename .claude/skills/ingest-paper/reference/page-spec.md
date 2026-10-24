@@ -1,7 +1,7 @@
 # 來源頁版面規格
 
 > 改編自母庫 `research_with_AI`。下表與文中的實例（s-chiang-2011-flycircuit 等）都是母庫的頁面，本庫沒有，留著是為了說明規則的來歷。
-> **本庫與母庫唯一的政策差異：本庫是 GitHub 上的私有 repo**（以協作者身分開放給同事），PDF 與擷取的原圖都進 repo。授權寫法見 2.1。
+> **本庫與母庫的政策差異：本庫是公開網站。** 全文 PDF 不進 repo，「出處」連到 PMC 等免費全文；本機 PDF 檔名寫在隱藏註解裡供對帳；原圖保留作為教學引用，每張圖下方標明出處。見第一節、2.1 與 3.0b。
 
 規格反推自 `wiki/sources/` 的**六篇實例**（2026-08-27 全部寫完）。
 字數為實測值，是參考量級而非硬性配額。
@@ -26,7 +26,7 @@ Chiang 2011 有八張主圖就放八張，Frontiers 那兩篇各五張就放五�
 ```yaml
 ---
 title: "論文英文全名"        # 加引號，不含斜體標記
-citation: "Current Biology 21(1), 1–11 (2011). doi: 10.1016/j.cub.2010.11.056 [全文 PDF](../../papers/檔名.pdf)"
+citation: "Neuron 64(4), 510–521 (2009). doi: 10.1016/j.neuron.2009.09.029 [全文（PMC 免費閱讀）](https://pmc.ncbi.nlm.nih.gov/articles/PMC4080329/)"
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 tags: [source, active]       # 頁型 ＋ 狀態（active | superseded | stub）；日後主題標籤也放這裡
@@ -37,13 +37,16 @@ confidence: high             # high | medium | low
 **`citation` 一欄包辦出處。** 格式固定：
 
 ```
-<期刊> <卷>(<期>), <起頁>–<迄頁> (<年>). doi: <DOI> [全文 PDF](<本機相對路徑>)
+<期刊> <卷>(<期>), <起頁>–<迄頁> (<年>). doi: <DOI> [全文（PMC 免費閱讀）](<PMC 網址>)
 ```
 
-- **一定要有全文 PDF 的相對連結。** 本庫是私有 repo、不公開散布，
-  因此直接連到 `papers/` 底下的原始檔，不必只給 DOI。
-- 路徑自 `wiki/sources/` 算起為 `../../papers/`，**檔名內的空白要 URL 編碼成 `%20`**，
-  否則 markdown 連結會斷。寫完用 `urllib.parse.unquote` 驗證檔案真的存在。
+- **連到免費全文，不連本機 PDF。** 本庫是公開網站，全文 PDF 不進 repo。優先用 PMC
+  （`https://pmc.ncbi.nlm.nih.gov/articles/PMCxxxxxxx/`；PMC 編號可用 DOI 查
+  `https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/?ids=<DOI>&format=json`），
+  其次是出版社的免費版或 bioRxiv。都沒有時只給 DOI，並在 `intake.md` 備註。
+- **本機 PDF 寫在隱藏註解裡**，緊接在 frontmatter 之後，一份 PDF 一行：
+  `<!-- 本機 PDF：papers/<檔名，空白編碼為 %20>.pdf -->`。`tools/scan.py` 靠它對帳；
+  寫完用 `urllib.parse.unquote` 驗證檔案真的存在。
 - 卷期頁缺漏時據實寫（例：`Neuroinformatics (2018, 線上先行；本 PDF 未載卷期頁). doi: …`）。
 - **`citation` 的字串要與可見資料表的「出處」列一字不差**——一個給機器查詢，一個給人點。
 
@@ -73,7 +76,7 @@ confidence: high             # high | medium | low
 
 | 列 | 規則 |
 |---|---|
-| **出處** | **首列。與 frontmatter 的 `citation` 一字不差，含可點的 `[全文 PDF]` 本機連結** |
+| **出處** | **首列。與 frontmatter 的 `citation` 一字不差，含可點的免費全文連結** |
 | 日期 | 線上先行／刊期／（投稿・修訂・接受）四個日期都要 |
 | 通訊作者 | 中英名 ＋ email |
 | 作者 | 總人數 ＋ 標出共同第一作者 ＋ **粗體標出與本庫有關的人** |
@@ -84,14 +87,13 @@ confidence: high             # high | medium | low
 
 **授權必查。** 在 PDF 內搜 `Creative Commons|CC BY|open-access|distributed under`。
 
-**注意授權影響的不是 PDF 連結，而是對外散布。** 本庫是 GitHub 私有 repo、不公開散布，
-所以**不論授權為何，「出處」列一律連到 repo 內的全文 PDF**。差別只在引言塊怎麼寫。
-**「可免費下載」不等於「可再散布」**（PMC 作者稿與出版社免費版的版權仍屬出版社）。**repo 若要改為公開，先移除非 CC 授權的 PDF 與原圖**：
+**授權決定能散布什麼。** 本庫是公開網站。**「可免費下載」不等於「可再散布」**：PMC 作者稿與出版社免費版的版權仍屬出版社。
+所以非 CC 授權的論文只給全文連結、不放 PDF；原圖以教學與評論目的引用，逐圖標明出處（3.0b）。
 
 | 授權 | 引言塊寫法 |
 |---|---|
-| 付費期刊 | 「付費期刊（版權屬出版社）。**本庫為私有 repo，只開放給受邀的同事**，故資料表的「出處」列直接連到 repo 內的全文 PDF。」 |
-| CC BY | 「**本篇為 CC BY 開放取用**，圖片與 PDF 可自由使用與散布。」 |
+| 付費期刊 | 「付費期刊（版權屬出版社）。全文請由資料表「出處」列的連結到 PMC 免費閱讀（說明是作者稿或出版社版）。**本庫不散布全文 PDF。** 本頁的圖擷取自原文，版權屬原出版社，以教學與評論目的引用，每張圖下方標明出處。」 |
+| CC BY | 「**本篇為 CC BY 開放取用**，圖片與 PDF 可自由使用與散布。」仍逐圖標明出處與授權 |
 
 表下緊接引言塊：與本庫有關的作者要點名（例如 BSC 成員），再加上授權說明。
 
@@ -198,10 +200,12 @@ im.crop((int(w*0.13),int(h*0.435),int(w*0.87),int(h*0.815))).save('assets/名字
 
 ### 3.0b 四件套的順序
 
-順序不可換：
+順序不可換。**圖下方的出處行是本庫公開網站的必要條件，不可省略**（CC 授權者把「教學引用」改成授權名稱）：
 
 ```markdown
 ![Figure 5D：中文說明](../../assets/chiang2011-fig5.jpg)
+
+<small>圖片出處：作者（全部，或前三位 et al.）. *期刊* 卷(期):頁 (年)，Figure 5。© 年 出版社 教學引用；全文見 [PMC](<PMC 網址>)。</small>
 
 > **原圖說（Figure 5）：** 英文原文照抄，含 (A)(B)(C)(D) 分項
 
@@ -282,7 +286,7 @@ LYNSU 的例子最清楚：論文的 Figure 4C 只有兩列（3D U-Net、LYNSU�
 
 （完整書目：全部作者、期刊斜體、DOI 完整網址）
 
-圖片擷取自原文 PDF，版權屬原出版社。**本庫為私有 repo，只開放給受邀的同事。**（CC BY 者改寫為可自由使用與散布）
+圖片擷取自原文，版權屬原出版社（© 年 出版社），本庫以教學與評論目的引用，不代表出版社授權。全文請至 <PMC 網址> 免費閱讀。（CC BY 者改寫為授權名稱與可自由使用）
 ```
 
 **已存在的頁用 `[[ ]]`，待開的頁用反引號**——讓兩者在視覺上分得開。

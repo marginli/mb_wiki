@@ -11,15 +11,17 @@
 不得新增只對某個子領域成立的 frontmatter 欄位。遇到新類型的論文，先問「現有規則哪一條不適用」。
 與蘑菇體沾不上邊的論文，停下來問人類，不自行擴充範圍。
 
-**本庫是 GitHub 上的私有 repo，以協作者身分開放給受邀的同事。** PDF 與從論文擷取的原圖都放在 repo 裡，
-來源頁直接連到 `papers/` 底下的全文 PDF。**「可免費下載」不等於「可再散布」**：
-目前收錄的論文是 PMC 作者稿或出版社免費版，版權仍屬出版社。
-**repo 若要改為公開，先把非 CC 授權的 PDF 與原圖移出 repo**（或改寫歷史），不可直接切換可見度。
+**本庫是公開網站（GitHub 公開 repo ＋ GitHub Pages），供教學使用。** 版權的處理方式如下（2026-10-25 使用者決定）：
+
+- **全文 PDF 不進 repo。** PDF 只存在各人電腦的 `papers/`，由 `.gitignore` 排除。來源頁的「出處」連到 PMC 等**免費全文**，讀者由那裡閱讀。「可免費下載」不等於「可再散布」，所以本庫只給連結、不轉載全文。
+- **原圖保留，作為教學與評論的引用。** 每張圖下方必須有一行出處：作者、期刊、卷期頁、年份、圖號、版權持有者，以及全文連結（格式見 skill 的 `reference/page-spec.md`）。
+- **CC 授權的論文**可直接放 PDF 與圖，但仍要標出處與授權。
+- 找不到免費全文的論文，「出處」只給 DOI，並在登記簿備註。
 
 ## 目錄
 
 ```
-papers/    原始 PDF。唯讀。
+papers/    原始 PDF。只在本機，不進 git（.gitignore）。唯讀。
 assets/    從來源抽出的圖，命名 `第一作者姓氏＋年份-figN.jpg`（機械規則，不用工具名或主題名）
 wiki/
   sources/    s-   一篇論文一頁
@@ -39,7 +41,7 @@ numbers.md 數字登記簿。log.md  日誌，只追加。
 
 > 以下規則中的實例（Chiang 2011、natverse 等）都發生在母庫，本庫沒有那些頁面；留著是為了說明每條規則被哪一次錯誤逼出來。
 
-- **不得寫入 `papers/`**：不修改、不移動、不改名、不刪除。
+- **不得改動 `papers/` 裡的 PDF**：不修改、不移動、不改名、不刪除（`papers/README.md` 是說明檔，不在此限）。
 - **不刪頁**。被取代時把 frontmatter `tags` 裡的 `active` 改為 `superseded`，並註明被誰取代。
 - **不憑記憶回答**。答案必須來自 `wiki/` 頁面或 `papers/` 原文。
 - **不要寫「論文沒有 X」，除非搜過。** 稽核的價值全在這種否定句上，而它們最容易錯——
@@ -68,8 +70,10 @@ numbers.md 數字登記簿。log.md  日誌，只追加。
 - 內部連結 `[[頁名]]`（不含 `.md`）。**尚未存在的頁不用 `[[ ]]`**，
   改用反引號列在該頁的「待開頁面」。
 - 圖片放庫根 `assets/`，頁內以 `../../assets/` 引用。
-- 來源頁的 frontmatter 只有六欄，出處由單一 `citation` 欄包辦（含本機 PDF 連結）；
-  格式見 skill 的 `reference/page-spec.md` 第一節。
+- 來源頁的 frontmatter 只有六欄，出處由單一 `citation` 欄包辦，連到免費全文（PMC 等）；
+  本機 PDF 的檔名寫在 frontmatter 之後的隱藏註解 `<!-- 本機 PDF：papers/<URL 編碼檔名> -->`，
+  一份一行，網頁上看不到，只給 `tools/scan.py` 對帳用。格式見 skill 的 `reference/page-spec.md` 第一節。
+- 每張圖下方一行 `<small>圖片出處：…</small>`，見頁首的版權處理方式。
 - `log.md` 只寫「做了什麼」，不寫「接下來要做什麼」。待辦另放報告。
 
 ## 索引與四種非來源頁
@@ -117,8 +121,9 @@ python3 tools/scan.py --todo   # 只印待處理的檔名，一行一個
 python3 tools/links.py         # 壞連結／該改成連結的反引號／孤兒頁
 ```
 
-腳本比對三個真相來源——`papers/` 實際存在的 PDF、`wiki/sources/*.md` 的 `citation` 欄
-指向的 PDF、`intake.md` 的登記表。**它只報告，不自動修正。**
+腳本比對三個真相來源——`papers/` 實際存在的 PDF、`wiki/sources/*.md` 的「本機 PDF」註解
+指向的 PDF、`intake.md` 的登記表。**PDF 不進 git，所以剛 clone 的人 `papers/` 是空的，對帳會回報異常**；
+要收錄或對帳，先依 `papers/README.md` 下載 PDF。**它只報告，不自動修正。**
 
 **這三個來源全部以檔名為鍵，所以「同一篇論文換個檔名再丟一次」對帳抓不到。**
 `scan.py` 另外跑一輪不看檔名的重複偵測，四道指紋任一成立就列為異常：
@@ -178,11 +183,9 @@ Chiang 2011 的「in press」引用橫幅只黏在 41 頁中的 11 頁（27%）�
 
 ## 要看知識庫時
 
-三種看法，內容相同：
-
-1. **GitHub 網頁**：受邀的同事直接在 repo 頁面讀 `index.md` 與 `wiki/`。mermaid 流程圖會渲染，
-   但 `[[頁名]]` 不會變成可點的連結（GitHub 不支援 wiki 連結語法），要自己到對應目錄找檔案。
-2. **本機靜態網站**（最完整：連結、反向連結、全文搜尋、縮圖）：
+1. **公開網站**（給讀者）：GitHub Pages，網址 `https://<帳號>.github.io/mb_wiki/`。每次推上 `main`，
+   `.github/workflows/pages.yml` 會自動跑 `tools/build_site.py` 並部署，不必手動上傳。
+2. **本機預覽**（給維護者，改完先看）：
 
    ```bash
    pip install markdown pillow          # 第一次
@@ -191,13 +194,15 @@ Chiang 2011 的「in press」引用橫幅只黏在 41 頁中的 11 頁（27%）�
    ```
 
    只綁 127.0.0.1。`site/` 是產物，**不進 git**，可隨時重建。新增圖檔之後要跑完整版（不加 `--fast`）。
-3. **Obsidian**：把 repo 根目錄當成 vault 開啟即可，`[[ ]]` 連結與關係圖都能用。
+   `site/` **不含 PDF**：`build_site.py` 不再把 `papers/` 連進網站。
+3. **GitHub 網頁或 Obsidian**：直接讀 markdown。GitHub 上 `[[頁名]]` 不能點，README 有可點的全頁目錄；
+   Obsidian 把 repo 根目錄當成 vault 開啟即可。
 
 ## 推上 GitHub
 
-- `.gitignore` 排除 `.cache/`（抽取中間檔）、`site/`（網站產物）、`__pycache__/`、Obsidian 的個人工作區設定。
-- **`papers/` 與 `assets/` 進 repo**（見頁首的授權說明）。
-- commit 前跑 `tools/scan.py` 與 `tools/links.py`，兩者都要乾淨。
+- `.gitignore` 排除 `papers/*.pdf`、`.cache/`（抽取中間檔）、`site/`（網站產物）、`__pycache__/`、Obsidian 的個人工作區設定。
+- **`assets/` 進 repo**，每張圖都要有出處行（見頁首）。
+- commit 前跑 `tools/scan.py` 與 `tools/links.py`，兩者都要乾淨。**推之前再確認一次 `git ls-files | grep -i '\.pdf$'` 沒有輸出。**
 - 同事要協作時，一樣依本檔規則收錄；**收錄用的 skill 在 `.claude/skills/ingest-paper/`**，
   在 repo 根目錄開 Claude Code 就會載入。
 

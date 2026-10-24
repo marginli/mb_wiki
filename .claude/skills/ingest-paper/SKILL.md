@@ -82,6 +82,7 @@ natverse 那次就是在這一步中斷的，筆記裡有**三項**判斷在動�
 
 依 `reference/page-spec.md`。檔名 `s-姓氏-年份-關鍵字.md`。
 圖片複製到庫根 `assets/`，命名 `姓氏年份-figN.jpg`。
+**本庫是公開網站**：`citation` 連到 PMC 等免費全文，本機 PDF 檔名寫進 frontmatter 後的 `<!-- 本機 PDF：papers/… -->` 註解；每張圖下方一定要加 `<small>圖片出處：…</small>` 一行（格式見 `page-spec.md` 3.0b）。
 
 **最花工的是每張圖的「解讀」段**——規格第四節列了五條判準，逐條對照著寫。
 一句都不要複述圖說。
