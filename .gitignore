@@ -1,0 +1,12 @@
+# 抽取中間檔（文字、整頁渲染），可由 extract.sh 重建
+.cache/
+# 靜態網站產物，可由 tools/build_site.py 重建
+site/
+__pycache__/
+*.pyc
+# Obsidian 的個人工作區設定（vault 設定本身可共用）
+.obsidian/workspace*.json
+.obsidian/cache
+.DS_Store
+# 全文 PDF 不進 repo（本庫是公開網站，版權屬出版社）。全文由來源頁連到 PMC。
+papers/*.pdf
