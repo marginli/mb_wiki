@@ -37,6 +37,9 @@ confidence: medium
 |---|---|---|
 | [[s-hige-2015-heterosynaptic-plasticity]] | 氣味配一顆 DAN 的光活化，直接量突觸 | **單向減弱**：MBON-γ1pedc 配對氣味放電降 80% ± 5.7%、電荷降 90% ± 3.7%，至少 40 分鐘；MBON 不放電也會發生（表示由 KC 與 DAN 決定，不需突觸後的活動）；逆向配對無效 |
 | [[s-handler-2019-dopamine-receptor-timing]] | 不同時間差配對；剔除受體 | **雙向**：γ4 MBON 對 KC 刺激的峰值反應（ΔF/F）逆向（−1.2 s）配對前約 1.22 → 配對後 2.8，增強；順向（+0.5 s）配對前約 1.22 → 配對後 0.42，減弱；DopR1 剔除後不再減弱，DopR2 剔除後不再增強 |
+| [[s-cohn-2015-coordinated-neuromodulation]] | 離體：P2X2＋ATP 活化 γ4/γ5 DAN，膜片鉗或鈣影像量 γ4 MBON；配對（＜ 500 ms）與不配對（＞ 45 s）輪流做 | **不配對也會改變，而且是變強**：γ4 MBON 的 EPSC 約 1.5 → 16 pA，ΔF/F0 約 0.7 → 2.5；配對讓已被增強的反應壓回（約 2.0 → 0.35）；活體雙氣味實驗中，配對氣味相對未配對氣味的比值約 1.35 → 0.6 |
+| [[s-felsenberg-2017-re-evaluation]] | 糖獎賞訓練後 3 小時，活體量 γ2α′1 MBON 對 CS+、CS− 的鈣反應 | **沒配糖的 CS− 反應變大**（標準化 AUC 約 +14% 與 +24%），CS+ 不變；V2 群 MBON 不變 |
+| [[s-felsenberg-2018-memory-extinction]] | 電擊訓練或訓練後再消退，活體量 MVP2、M4β′、M6 的樹突與軸突 | MVP2 樹突 CS+ ＜ CS−（嫌惡痕跡），消退後仍在；M6 樹突在消退後新出現 CS+ ＜ CS−；只訓練時 M6 軸突 CS+ 較大、樹突沒有 |
 | [[s-tomchik-2009-camp-dynamics]] | **沒量 KC→MBON 突觸。** 量的是 KC 軸突本身的鈣反應在 cAMP 拉高後是否變大 | forskolin 使 α 葉鈣反應約 3.2 倍、多巴胺約 2 倍；作者稱「突觸前可塑性」，討論中稱其為異突觸 |
 
 > 數值見 [[numbers]]；γ4 與 Tomchik 的倍數為從圖判讀。
@@ -47,12 +50,16 @@ confidence: medium
 2. **Hige 2015 的「九成」是電荷總量。** 電流一開始的峰值大致保留，少掉的是之後的持續段。
 3. **Hige 2015 只活化可取代嫌惡電擊的 PPL1 型 DAN**，沒看到增強不代表不存在；逆向「無效」與 Handler 2019 逆向「增強」的不同，見 [[syn-contradictions]] 1.1。
 4. **Handler 2019 的增強證據較薄**：離體只有 −1.2 s 一點顯著；在體實驗是順向、逆向交替訓練，逆向造成的增強只把前一次順向壓低的反應部分拉回。
-5. **改變在突觸前還是突觸後未定**（Hige 2015 自陳）。
+5. **改變在突觸前還是突觸後未定**（Hige 2015 自陳）。Cohn 2015 直接量了 KC 突觸前末梢的鈣，看到它隨多巴胺逐格改變，但沒有量**配對後**的末梢鈣，所以仍沒回答配對造成的減弱在哪一側（見 [[c-presynaptic-calcium]]）。Felsenberg 2018 引言把突觸前減弱列為已知，合併引用的文獻包括 Tomchik 2009 與 Hige 2015；本庫對這兩篇的紀錄並不支持這個說法（Tomchik 量到的是 KC 鈣反應**變大**）。
+6. **Cohn 2015 的「配對減弱」有兩個條件。** 離體實驗是從已被增強的狀態開始配對；活體實驗量的是配對氣味對未配對氣味的比值，比值下降也可能來自未配對氣味被增強。
+7. **「不配對」的時間尺度兩篇對不上。** Cohn 2015 相隔 ＞ 45 s 讓 γ4 突觸變強；Handler 2019 相隔 6 s 幾乎不變。見 [[syn-contradictions]] 1.3，未裁決。
+8. **現有規則只處理與 DAN 配對的氣味。** Felsenberg 2017 的 CS− 反應變大發生在沒有與糖配對的氣味上，本頁整理的規則無法直接解釋（[[syn-contradictions]] 3.7）。Ichinose 2015 的模型隱含配對後 CS+ 仍能驅動 MBON-α1，與「順向配對讓突觸變弱」有張力（[[syn-contradictions]] 3.6）；該篇本身沒有量突觸變強或變弱。
+9. **樹突沒變不等於輸出沒變。** Felsenberg 2018：學習讓 M6 軸突的 CS+ 反應變大，樹突卻看不出差別；作者以鄰格 MVP2 的抑制性輸入作用在 M6 樹突根部附近解釋。只量樹突會漏掉這類網路造成的改變。
 
 ## 相關
 
-- 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]
-- 概念：[[c-mb-compartment]]、[[c-camp-signaling]]、[[c-cs-us-timing]]
-- 實體：[[e-kenyon-cell]]、[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-gcamp]]
+- 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]、[[t-memory-updating]]
+- 概念：[[c-mb-compartment]]、[[c-camp-signaling]]、[[c-cs-us-timing]]、[[c-presynaptic-calcium]]、[[c-whole-cell-patch-clamp]]
+- 實體：[[e-kenyon-cell]]、[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-gcamp]]、[[e-mbon-gamma4]]、[[e-mbon-gamma1pedc]]、[[e-mbon-gamma2alpha1]]、[[e-mbon-gamma5beta2a]]、[[e-dopamine-receptor]]
 - 綜述：[[syn-contradictions]]
-- 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]
+- 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]

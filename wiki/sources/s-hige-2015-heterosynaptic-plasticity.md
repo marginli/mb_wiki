@@ -241,7 +241,7 @@ flowchart TD
 
 **解讀：**
 
-- **這張圖有兩個方向的實驗，邏輯不同。** A–D 是「活化鄰區 DAN，本區 MBON 不變」（多巴胺不外溢到鄰區）。這裡用的 MB099C 標記四型 PPL1 DAN（PPL1-γ2α′1、α′2α2、α′3、α3），依論文所述從不標記 PPL1-γ1pedc；四型中與 γ1 相鄰的是投射到 γ2 的那一型。E–H 是正對照（TH-GAL4 以 TH 基因〔酪胺酸羥化酶，tyrosine hydroxylase，合成多巴胺的酵素〕的調控序列驅動表現，依圖說標記多數 PPL1 DAN、少數 PAM DAN 及 MB 以外的許多 DAN；只要包含 PPL1-γ1pedc 就有效），I–L 是「本區誘發 LTD，鄰區 MBON 不變」（同一條 KC 軸突上的訊號不沿軸突擴散到下一個區室）。兩者檢驗的是兩種不同的「外溢」。A–D 問的是細胞**外**：DAN 在 γ2 區釋放的多巴胺，會不會擴散到隔壁的 γ1 區。I–L 問的是細胞**內**：γ1 區的多巴胺活化 KC 軸突上的受器後，軸突內的第二傳訊者會不會沿著同一條軸突擴散到 γ2 區，連帶改變 KC 通往 MBON-γ2α′1 的突觸。後者較難預測，因為兩個區室共用同一批 KC 軸突，所以這個陰性結果更有份量。
+- **這張圖有兩個方向的實驗，邏輯不同。** A–D 是「活化鄰區 DAN，本區 MBON 不變」（多巴胺不外溢到鄰區）。這裡用的 MB099C，依本篇所述標記四型 PPL1 DAN（PPL1-γ2α′1、α′2α2、α′3、α3），從不標記 PPL1-γ1pedc。⚠️ 矛盾｜[[s-aso-2016-dan-cell-type-rules]] 說同一品系只標記 PPL1-γ2α′1 與 PPL1-α′2α2 兩型｜未裁決，見 [[syn-contradictions]] 1.4（2026-10-25 第二批加註）；不論哪一種說法，都不含 PPL1-γ1pedc。四型中與 γ1 相鄰的是投射到 γ2 的那一型。E–H 是正對照（TH-GAL4 以 TH 基因〔酪胺酸羥化酶，tyrosine hydroxylase，合成多巴胺的酵素〕的調控序列驅動表現，依圖說標記多數 PPL1 DAN、少數 PAM DAN 及 MB 以外的許多 DAN；只要包含 PPL1-γ1pedc 就有效），I–L 是「本區誘發 LTD，鄰區 MBON 不變」（同一條 KC 軸突上的訊號不沿軸突擴散到下一個區室）。兩者檢驗的是兩種不同的「外溢」。A–D 問的是細胞**外**：DAN 在 γ2 區釋放的多巴胺，會不會擴散到隔壁的 γ1 區。I–L 問的是細胞**內**：γ1 區的多巴胺活化 KC 軸突上的受器後，軸突內的第二傳訊者會不會沿著同一條軸突擴散到 γ2 區，連帶改變 KC 通往 MBON-γ2α′1 的突觸。後者較難預測，因為兩個區室共用同一批 KC 軸突，所以這個陰性結果更有份量。
 - **I–L 的陰性結果有一個論文沒處理的替代解釋。** 本篇第 3.6 節自己證明了不同區室的誘發門檻不同（α2 要 1 分鐘）。所以「γ1 誘發 LTD 時 γ2α′1 不變」有兩種讀法：多巴胺的作用真的沒有擴散；或者有微量擴散，但不足以跨過 γ2 區的誘發門檻。γ2 區的門檻不一定與 γ1 相同（α2 區的門檻就比 γ1 高），本篇沒有測 γ2 區自己的門檻，無法區分。※ 推論。
 - **檢定力**：L 格 n = 6，個別果蠅的線方向分散，CS+（OCT）尖峰數平均約 105 → 91（約 −13%，※ 從圖判讀）。這個 n 能排除「像 γ1 那樣八成的下降」，排除不了一、二成的小變化。
 - **基線差異**：A–D（MB099C）的 MBON-γ1pedc 基線約 75 spikes（OCT），明顯低於圖 1 的 118（※ 從圖判讀）。基因型不同，論文沒有評論。這不推翻 A–D 的陰性結論，但表示不同品系的 MBON 起點不同，跨圖比較絕對尖峰數時要小心。
@@ -329,7 +329,7 @@ flowchart TD
 
 **4. 其他突觸前元件。** 作者自陳：除了 KC 之外，其他把訊號送到 MBON 的神經元（例如 DPM 神經元）可能也有貢獻。
 
-**5. 區室比較的混淆因子。** α2 vs γ1 用不同驅動品系（MB099C 四型 DAN vs MB320C 一型），協定同時改變氣味時長與光脈衝數。
+**5. 區室比較的混淆因子。** α2 vs γ1 用不同驅動品系（MB099C 依本篇為四型 DAN、依 Aso 2016 為兩型，見 [[syn-contradictions]] 1.4；vs MB320C 一型），協定同時改變氣味時長與光脈衝數。
 
 **6. 只測一個方向的突觸改變。** 全篇只看到抑制，從未看到增強；但活化的都是 PPL1 群 DAN（TH-GAL4 那組另含少數 PAM 群 DAN），以 PPL1-γ1pedc 為主，也就是本篇引用的嫌惡學習路徑。論文引言提到，負責獎賞記憶與嫌惡記憶的 DAN 投射到 MB 葉的不同部位（Perisse et al. 2013）；獎賞那一類 DAN 誘發的可塑性方向，本篇沒有測。
 
@@ -364,7 +364,8 @@ flowchart TD
 - [[numbers]] — 本篇貢獻 MBON-γ1pedc 的 LTD 幅度（尖峰 −80%、電荷 −90%）、CS− 的部分抑制（27% vs 20%）、KC 重疊（30%／33%）、類化相關 r = 0.90、各實驗 n 與協定參數
 - 本庫已有的相關頁：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-split-gal4]]、[[e-cschrimson]]、[[e-gcamp]]、[[c-kc-mbon-plasticity]]、[[c-mb-compartment]]、[[c-cs-us-timing]]、[[c-us-substitution]]、[[c-performance-index]]、[[e-dopaminergic-neuron]]、[[e-mbon]]
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]；矛盾與空缺：[[syn-contradictions]]
-- 待開頁面：`e-mbon-gamma1pedc`、`e-ppl1-gamma1pedc`、`e-mbon-alpha2sc`、`e-mbon-gamma2alpha1`、`e-mb320c`、`e-mb099c`、`e-th-gal4`、`e-campbell-2013-odor-set`、`c-sparse-coding`、`c-synaptic-interference`、`c-odor-generalization`、`c-valence-coding`、`c-whole-cell-patch-clamp`
+- 本批（2026-10-25 第二批）已開頁、與本篇相關：[[e-mbon-gamma1pedc]]、[[e-ppl1-gamma1pedc]]、[[e-mbon-gamma2alpha1]]、[[e-mb099c]]、[[e-th-gal4]]、[[c-odor-generalization]]、[[c-whole-cell-patch-clamp]]
+- 待開頁面：`e-mbon-alpha2sc`、`e-campbell-2013-odor-set`、`c-sparse-coding`、`c-synaptic-interference`、`c-valence-coding`
 
 ## 出處
 

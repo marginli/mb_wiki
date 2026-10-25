@@ -32,6 +32,8 @@ confidence: medium
 
 **Tomchik 2009 的驗證**：用 forskolin（直接活化製造 cAMP 的酵素）確認感測器有濃度依賴的反應，最高可達約 40%（從圖判讀，見 [[numbers]]），而多巴胺即使加到最高劑量（10 mM），ΔR/R0 也只升到約 12%（見 [[numbers]]），可見多巴胺停在約 12% 不是感測器到頂；若 YFP 自己因褪色等原因變暗，CFP/YFP 比值也會上升、像是 cAMP 升高；作者用 514 nm 的光只激發 YFP，看到 YFP 沒有變暗，排除了這種假訊號；另一種結構相近的訊號分子 cGMP 也可能讓感測器反應，這項干擾的檢查在補充圖 2：？待查。Handler 2019 的正文與方法沒有提到這類驗證（已搜 forskolin、validat、bleach；補充圖未取得，裡面有沒有：？待查），作者在討論中自陳感測器的靈敏度與動態範圍有限。
 
+**2015–2018 新收的五篇（Cohn、Ichinose、Aso、Felsenberg 2017、2018）都沒有用 cAMP 感測器**（全文 grep `epac` 無結果）。
+
 ## 已知的問題
 
 - **兩篇的 cAMP 結論不同，本頁不裁決。** Tomchik：只有乙醯膽鹼在前、多巴胺在後才出現協同，倒過來沒有。Handler：順向、逆向都產生 cAMP，同時發生最多，因此 cAMP「分不出先後」。見 [[syn-contradictions]] 1.2 與 [[c-coincidence-detection]]。

@@ -101,7 +101,7 @@ confidence: medium
 
 **發表當時的領域現狀（2019）。**
 - 行為層：時序相依的價性反轉已在果蠅（Tanimoto et al. 2004；Aso & Rubin 2016；König et al. 2018）與多物種（Gerber et al. 2014）被描述，但機制不明。
-- 突觸層：順向配對造成 KC→MBON 突觸減弱已有多篇（Séjourné et al. 2011；Cohn et al. 2015；Hige et al. 2015；Owald et al. 2015）；**沒有氣味時的強烈多巴胺釋放**造成增強，見於 Cohn et al. 2015、Berry et al. 2018。
+- 突觸層：順向配對造成 KC→MBON 突觸減弱已有多篇（Séjourné et al. 2011；Cohn et al. 2015；Hige et al. 2015；Owald et al. 2015）；**沒有氣味時的強烈多巴胺釋放**造成增強，見於 Cohn et al. 2015、Berry et al. 2018。（2026-10-25 加註：「強烈」是本篇對 Cohn 2015 的描述；[[s-cohn-2015-coordinated-neuromodulation]] 主文沒有給 DAN 刺激的強度或時長，它的「不配對」是指 DAN 與 KC 刺激相隔 > 45 s。這與本篇 ±6 s 幾乎無可塑性的結果並列為 ⚠️ 矛盾，見 [[syn-contradictions]] 1.3。）
 - 分子層：DopR1 被認為是寫入記憶所必需（Kim et al. 2007；Qin et al. 2012），DopR2（論文引用的 Han et al. 1996、Himmelreich et al. 2017 與所用抗體稱之為 DAMB）被認為參與遺忘（Berry et al. 2012；Himmelreich et al. 2017）；體外實驗顯示 DopR1 偏好接 Gαs（刺激 cAMP 生成，Sugamori et al. 1995），DopR2 偏好接 Gαq（增加胞內鈣，Feng et al. 1996；Han et al. 1996；Himmelreich et al. 2017）。鈣敏感的腺苷酸環化酶（adenylate cyclase，製造 cAMP 的酵素）被視為分子層的「同時性偵測器」（Livingstone et al. 1984；Tomchik & Davis 2009；Gervasi et al. 2010）。兩種受體在突觸層各扮演什麼角色，在本篇之前不清楚。
 - 同類的時序規則在突觸生理學裡叫「放電時序相依可塑性」（spike-timing dependent plasticity, STDP，前後兩個神經元誰先放電決定突觸變強或變弱），但它的時間窗是毫秒級，比聯結學習所需的秒級短得多（論文 Discussion，text.txt 第 733–744 行）。
 
@@ -382,7 +382,8 @@ flowchart TD
 - [[numbers]] — 本篇的行為與離體 ISI 曲線、閉迴路相關係數、第二傳訊者與受體突變讀值、刺激參數（併入登記簿的草稿在 `.cache/2019-distinct-dopamine-receptor-pathways-underlie-the-tempor/numbers-section.md`）
 - 本庫已有的相關頁：[[c-cs-us-timing]]、[[c-kc-mbon-plasticity]]、[[c-coincidence-detection]]、[[c-mb-compartment]]、[[c-camp-signaling]]、[[e-dopaminergic-neuron]]、[[e-kenyon-cell]]、[[e-epac-camp-sensor]]、[[e-gcamp]]、[[e-cschrimson]]、[[e-mbon]]、[[e-mushroom-body]]、[[e-split-gal4]]
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]；矛盾與空缺：[[syn-contradictions]]
-- 待開頁面：`e-dopr1`、`e-dopr2-damb`、`e-gamma4-mbon`、`e-grab-da`、`e-p2x2`、`e-closed-loop-olfactory-ball`、`e-ok107-gal4`、`e-r58e02`
+- 本批（2026-10-25 第二批）已開頁、與本篇相關：[[e-dopamine-receptor]]、[[e-mbon-gamma4]]、[[e-p2x2]]、[[e-r58e02]]
+- 待開頁面：`e-grab-da`、`e-closed-loop-olfactory-ball`、`e-ok107-gal4`
 
 ## 出處
 

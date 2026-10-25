@@ -39,6 +39,8 @@ confidence: medium
 | [[s-handler-2019-dopamine-receptor-timing]] | 不同時間差下的 cAMP；剔除受體 DopR1、DopR2 | 六個時間差都有 cAMP，0 s 最高；DopR1−/− 降到野生型約 27%，DopR2−/− 不變 → cAMP 主要走 DopR1；cAMP 被歸為推動突觸**減弱**的一方 |
 
 > 數值見 [[numbers]]。**Hige 2015 只提到**：討論中引 Boto et al. 2014（cAMP 上升侷限在被活化 DAN 支配的區室）與「遺傳證據顯示 cAMP 是蘑菇體可塑性誘發的核心」，本身沒有量或操作 cAMP。
+>
+> **2015–2018 新收的五篇都沒有量或操作 cAMP**（Cohn 2015 grep `cAMP|PKA|rutabaga` 無結果；Ichinose 2015 只在背景引 *rutabaga*；Felsenberg 2018 引言轉述 Schwaerzel et al. 2002 的「消退在 KC 內對抗 cAMP 訊號」，並主張自己的結果是細胞之間而非細胞內的拮抗）。cAMP 上游受體 DopR1 的用法見 [[e-dopamine-receptor]]。
 
 ## 引用時的陷阱
 
@@ -51,6 +53,6 @@ confidence: medium
 
 - 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]
 - 概念：[[c-coincidence-detection]]、[[c-kc-mbon-plasticity]]、[[c-mb-compartment]]
-- 實體：[[e-epac-camp-sensor]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]
+- 實體：[[e-epac-camp-sensor]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-dopamine-receptor]]
 - 綜述：[[syn-contradictions]]
 - 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-hige-2015-heterosynaptic-plasticity]]

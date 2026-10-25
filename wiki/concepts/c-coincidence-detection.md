@@ -36,6 +36,8 @@ confidence: medium
 | [[s-handler-2019-dopamine-receptor-timing]] | 以六個時間差下的 cAMP 大小判定 | cAMP 在 0 s 最大（約 0.15 ΔR/R），其餘時間差都較小但都顯著大於零 |
 
 > 數值為從圖判讀，見 [[numbers]]。Hige 2015 只提到：討論中說「KC 與 DAN 的共同活動是可塑性的唯一決定因素」，但沒有量任何分子訊號，所以不列入表。
+>
+> **2015–2018 新收的五篇都只提到、沒有量分子層的巧合偵測，所以不列入表**：Cohn 2015 在討論中推測方向可能取決於能偵測「KC 活動與多巴胺是否同時出現」的下游訊號，資料上只比較了配對（＜ 500 ms）與不配對（＞ 45 s）的突觸方向（見 [[c-cs-us-timing]]）；Ichinose 2015 引 Trannoy et al. 2011 稱 *rutabaga* 為巧合偵測者；Aso 2016、Felsenberg 2017、Felsenberg 2018 沒有操作 cAMP 或其上游酵素（Felsenberg 2018 只在引言轉述 Schwaerzel et al. 2002 的「細胞內拮抗」）。
 
 ## 引用時的陷阱
 

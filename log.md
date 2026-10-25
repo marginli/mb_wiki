@@ -2,6 +2,35 @@
 
 只追加，新的在最上面。動作僅三種：`ingest` / `query` / `lint`（另有人類的 `裁決`）。
 
+## [2026-10-25] lint | 第二批整合：主題、概念、實體、索引、登記簿
+
+- 新研究問題群「記憶寫入之後：鞏固、更新與迴路回饋」（`index.md` 新 H2，`tags` 值 `mb-memory-dynamics`）。新主題 [[t-memory-updating]]（冷讀 4 輪）、[[t-mbon-dan-feedback]]（冷讀 4 輪）。改寫 [[t-timing-rules]]（冷讀 4 輪）、[[t-dopamine-to-plasticity]]（冷讀 3 輪）。
+- 概念頁 7 → 14、實體頁 8 → 25：新開 24 頁（核心 9 頁、選配 5 頁、回查各來源頁待開清單後 10 頁），既有 15 頁全部補「庫內的用法」列。新頁冷讀 1 輪。
+- [[syn-contradictions]]：跨來源矛盾 2 → 6 條（新增 1.3 不配對多巴胺的時間尺度、1.4 MB099C、1.5 R58E02-LexA、1.6 γ2 MBON→DAN 的正負號）；1.1 加入 Aso 2016 的並列資料；空缺 5 → 8 條（新增 3.6、3.7、3.8），3.1–3.4 補上新進展；4.1、4.3、4.4 更新；單篇自身不一致索引加五列。
+- 更正既有頁：MB099C「四型」（六頁改並列）、R58E02-LexA「γ4–5」（兩頁改並列）、區室獨立性的措辭（三處）、時間尺度二分法、P.I. 正負號約定（六篇）、KC 總數 ？待查回填（Aso 2016、Cohn 2015）。[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-cohn-2015-coordinated-neuromodulation]] 加註。
+- 八篇來源頁「待開頁面」中已開的名稱改為連結；兄弟篇之間的純文字提及改為實際對照與連結；新來源頁的 `tags` 加上 `mb-memory-dynamics`。
+- `numbers.md` 併入五篇的數字節。`index.md`、`intake.md`（五篇改為已收錄）、`README.md`（閱讀順序、全頁目錄、圖片授權分兩類）。[[syn-changelog]] 加階段三，更正清單加 25 處，新開癸、子兩類。
+
+## [2026-10-25] ingest | Felsenberg et al. 2018, Cell（嫌惡記憶的消退：並行的相反記憶）
+
+新增 [[s-felsenberg-2018-memory-extinction]]，圖 7 張，CC BY 4.0。冷讀 3 輪後無「看不懂」。單篇自身不一致 8 項＋輕微 2 項。表 S1（全部 n 與 p 值）未取得。
+
+## [2026-10-25] ingest | Felsenberg et al. 2017, Nature（獎賞記憶的消退與再鞏固）
+
+新增 [[s-felsenberg-2017-re-evaluation]]，圖 4 張（延伸圖未收）。冷讀 4 輪（上限），最後一輪 2 項已改寫未再驗證。單篇自身不一致 7 項。新矛盾：R58E02-LexA 的標記範圍。
+
+## [2026-10-25] ingest | Aso & Rubin 2016, eLife（各型 DAN 的寫入與更新規則）
+
+新增 [[s-aso-2016-dan-cell-type-rules]]，圖 5 張，CC BY。冷讀 4 輪後無「看不懂」。單篇自身不一致 6 項。新矛盾：MB099C 標記幾型 DAN。
+
+## [2026-10-25] ingest | Ichinose et al. 2015, eLife（PAM-α1／MBON-α1 迴圈與獎賞型長期記憶）
+
+新增 [[s-ichinose-2015-reward-recurrent-circuit]]，圖 11 張，CC BY。冷讀 4 輪（上限），最後一輪 2 項已改寫未再驗證。單篇自身不一致 9 項。
+
+## [2026-10-25] ingest | Cohn, Morantte & Ruta 2015, Cell（DAN 網路協調與分區的 KC→MBON 調節）
+
+新增 [[s-cohn-2015-coordinated-neuromodulation]]，圖 7 張。冷讀 4 輪後無「看不懂」。單篇自身不一致 8 項。新矛盾：不配對多巴胺 > 45 s 增強 vs Handler 2019 的 6 s 幾乎不變。補充資料未取得。
+
 ## [2026-10-25] lint | 改為公開網站
 
 依使用者決定：全文改連 PMC、PDF 不進 git、原圖逐圖標出處。三篇來源頁的 citation 與資料表「出處」列改為 PMC 連結，本機 PDF 檔名移到隱藏註解；`tools/scan.py` 改讀註解；21 張圖加出處行；`.gitignore` 排除 `papers/*.pdf`，第一個 commit 改寫為不含 PDF；`tools/build_site.py` 不再連結 `papers/`；新增 `.github/workflows/pages.yml`；`CLAUDE.md`、`papers/README.md`、頁面規格、範本、`README.md` 同步。[[syn-changelog]] 加階段二。

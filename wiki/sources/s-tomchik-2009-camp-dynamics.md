@@ -345,7 +345,8 @@ flowchart TD
 - [[numbers]]（本庫的數字登記簿頁面，列出每個數字的定義與出處）— 本篇的劑量反應、協同測試的 n 與 p、時間窗、行為 P.I.、forskolin 增強倍數
 - 本庫已有的相關頁：[[e-epac-camp-sensor]]、[[e-gcamp]]、[[e-kenyon-cell]]、[[c-coincidence-detection]]、[[c-camp-signaling]]、[[c-cs-us-timing]]、[[c-performance-index]]、[[e-mushroom-body]]
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]；矛盾與空缺：[[syn-contradictions]]
-- 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，如基因、工具、細胞；`c-` 開頭為概念頁）：`e-rutabaga`、`e-238y-gal4`、`e-c739-gal4`、`e-dpm-neuron`、`c-presynaptic-facilitation`、`c-octopamine-reward-signal`
+- 本批（2026-10-25 第二批）已開頁、與本篇相關：[[e-c739-gal4]]
+- 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，如基因、工具、細胞；`c-` 開頭為概念頁）：`e-rutabaga`、`e-238y-gal4`、`e-dpm-neuron`、`c-presynaptic-facilitation`、`c-octopamine-reward-signal`
 
 ## 出處
 
