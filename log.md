@@ -2,6 +2,10 @@
 
 只追加，新的在最上面。動作僅三種：`ingest` / `query` / `lint`（另有人類的 `裁決`）。
 
+## [2026-10-26] lint | Tully 1985「為什麼重要」段落改寫
+
+- 使用者指出「缺的是一種受鈣訊號刺激、會製造 cAMP 的酵素」一句沒頭沒尾。改寫 [[s-tully-1985-classical-conditioning]] 該段：先白話說明海兔模型的配對放大（US 啟動腺苷酸環化酶、CS 帶來的鈣讓它更猛），再說 *rutabaga* 失去的是「被鈣催得更猛」的能力，並補上「模型認定學習只來自配對放大」這一步推理；Tomchik 2009 的藥物補註乙醯膽鹼／多巴胺各代替什麼。數字、引用與結論未動。冷讀 1 輪。
+
 ## [2026-10-26] ingest | Tully & Quinn 1985, J Comp Physiol A（T 迷宮古典制約與突變株的記憶保留）
 
 - 新增 [[s-tully-1985-classical-conditioning]]，圖 10 張＋表 1 重製，© Springer-Verlag，無免費全文（出處只給 DOI）。掃描版 PDF 無文字層，以 300 dpi 渲染＋tesseract OCR 轉出，數字逐一對照頁面影像校正。全文不提蘑菇體，經使用者同意收錄。
