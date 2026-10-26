@@ -1,7 +1,7 @@
 ---
 title: 巧合偵測（coincidence detection）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-26
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
@@ -18,7 +18,7 @@ confidence: medium
 - **乙醯膽鹼**（acetylcholine）：嗅覺訊號傳給 KC 時用的化學物質；在取出的腦上噴它，等於「假裝聞到氣味」。
 - **章魚胺**（octopamine）：昆蟲腦中類似腎上腺素的物質，Tomchik 2009 當時被認為傳遞獎賞，所以拿來和多巴胺對照。
 - **ΔR/R、ΔF/F**：螢光感測器的訊號（兩色亮度比值，或亮度）相對刺激前基線的變化比例，例如 0.15＝高了 15%。只能在同一實驗內比大小。
-- **rut¹、238Y、c739、MB320C 等**：*rut¹* 是 *rutabaga* 基因的一個突變版本；其餘是「驅動品系」代號，即決定外加基因只在哪些細胞表現的果蠅品系。
+- **rut¹、238Y、c739、MB320C 等**：*rut¹* 是 *rutabaga* 基因（[[e-rutabaga]]）的一個突變版本；其餘是「驅動品系」代號，即決定外加基因只在哪些細胞表現的果蠅品系。
 - **DopR1、DopR2、內質網鈣**：KC 上兩種多巴胺受體。DopR1 接上製造 cAMP 的路徑；DopR2 接上讓內質網（細胞內存鈣的小倉庫）放出鈣的路徑，所以量內質網鈣就是在看 DopR2 路徑有沒有啟動。
 
 ## 怎麼算 / 怎麼判定
@@ -38,6 +38,8 @@ confidence: medium
 > 數值為從圖判讀，見 [[numbers]]。Hige 2015 只提到：討論中說「KC 與 DAN 的共同活動是可塑性的唯一決定因素」，但沒有量任何分子訊號，所以不列入表。
 >
 > **2015–2018 新收的五篇都只提到、沒有量分子層的巧合偵測，所以不列入表**：Cohn 2015 在討論中推測方向可能取決於能偵測「KC 活動與多巴胺是否同時出現」的下游訊號，資料上只比較了配對（＜ 500 ms）與不配對（＞ 45 s）的突觸方向（見 [[c-cs-us-timing]]）；Ichinose 2015 引 Trannoy et al. 2011 稱 *rutabaga* 為巧合偵測者；Aso 2016、Felsenberg 2017、Felsenberg 2018 沒有操作 cAMP 或其上游酵素（Felsenberg 2018 只在引言轉述 Schwaerzel et al. 2002 的「細胞內拮抗」）。
+>
+> **[[s-tully-1985-classical-conditioning]] 依同一條規則也不列入表**：它沒有量任何分子訊號，只量整隻果蠅的行為。它在討論中轉述海兔（*Aplysia*）的生化模型（Kandel et al. 1983），該模型把受鈣／攜鈣素（calmodulin，與鈣結合後去啟動其他酵素的蛋白）刺激的腺苷酸環化酶當成 CS（制約刺激）與 US（非制約刺激，如電擊）交會的點（原文「point of convergence」，PDF 第 275 頁），再用突變株的行為分數指出三處對不上，其中一處是：*rut* 缺這種環化酶活性，照模型應該學不會，實際上仍學到 Λ ≈ 0.41（Λ 是該篇的行為學習分數，0＝沒學到、1＝全部躲開被電的氣味）。它用到的是「模型的預測」，不是巧合偵測的量測。
 
 ## 引用時的陷阱
 
@@ -45,11 +47,12 @@ confidence: medium
 2. **巧合偵測 ≠ 先後偵測。** Tomchik 2009 的協同只在順向出現；Handler 2019 的 cAMP 兩種順序都有，先後交給 DopR2 的內質網放鈣路徑去分辨。兩篇對「cAMP 能否分辨先後」說法不同，見 [[syn-contradictions]] 1.2，本頁不裁決。
 3. **Tomchik 2009 的證據限制**：缺「基因型 × 條件」的交互作用檢定；刺激是離體腦上的藥物模擬；協同幅度是多約五成，不是倍增。
 4. **Handler 2019 的「0 s 最大」沒有被檢定**：論文方法章節（STAR Methods）的統計段對圖 5E 只列了「對零」的檢定，沒有檢定 0 s 是否高於相鄰時間差；「最大」是六個點的形狀。
+5. **「*rut* 是巧合偵測器」不等於「學習全靠它」。** Tully 1985 的 *rut* 突變果蠅仍學得到 Λ ≈ 0.41（同日野生型 0.87）；Tomchik 2009 自己的討論也寫，*rut* 突變株的表現「降低但沒有消失」，所以至少還有一條其他的可塑性路徑（全文 text.txt 第 654–656 行）。Tomchik 2009 的協同在 *rut¹* 中消失，但兩篇的等位基因不同（*rut*^PS511 vs *rut¹*），是否為同一突變：？待查。
 
 ## 相關
 
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]
 - 概念：[[c-camp-signaling]]、[[c-cs-us-timing]]、[[c-us-substitution]]
-- 實體：[[e-kenyon-cell]]、[[e-epac-camp-sensor]]
+- 實體：[[e-rutabaga]]、[[e-kenyon-cell]]、[[e-epac-camp-sensor]]
 - 綜述：[[syn-contradictions]]
-- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-hige-2015-heterosynaptic-plasticity]]
+- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-tully-1985-classical-conditioning]]（只提到）

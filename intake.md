@@ -52,6 +52,7 @@ python3 tools/scan.py --todo   # 只印待處理的檔名，一行一個
 | `2016-Dopaminergic neurons write and update memories with cell-type-specific rules.pdf` | 已收錄 | [[s-aso-2016-dan-cell-type-rules]] | 記憶寫入之後；學習的訊號機制 | 2026-10-25 | *eLife*，CC BY（PMC4987137）。PDF 依規則仍不進 git。**figure supplement（含其他區室的時間差曲線）與影片未取得**，見 https://elifesciences.org/articles/16135 |
 | `2017-Re-evaluation of learned information in Drosophila.pdf` | 已收錄 | [[s-felsenberg-2017-re-evaluation]] | 記憶寫入之後 | 2026-10-25 | 出版社版，© Springer Nature；免費全文為 Europe PMC 作者稿（PMC5392358）。PDF 含方法與延伸圖 1–6；**Supplementary Information 與 Source Data 未取得** |
 | `2018-Integration of parallel opposing memories underlies memory extinction.pdf` | 已收錄 | [[s-felsenberg-2018-memory-extinction]] | 記憶寫入之後 | 2026-10-25 | *Cell*，CC BY 4.0（PMC6198041）。PDF 依規則仍不進 git。含補充圖 S1–S7；**表 S1（全部 n 與 p 值）未取得**，需人工從 https://pmc.ncbi.nlm.nih.gov/articles/PMC6198041/ 下載 |
+| `TullyQuinn1985.pdf` | 已收錄 | [[s-tully-1985-classical-conditioning]] | 學習的訊號機制；記憶寫入之後 | 2026-10-26 | *J Comp Physiol A* 157(2):263–277（1985），© Springer-Verlag。**無免費全文**（無 PMC），出處只給 DOI 10.1007/BF01350033。掃描版 PDF 無文字層，以 OCR 轉出（`.cache/tullyquinn1985/ocr.txt`）並對照頁面影像校正。**全文不提蘑菇體**，2026-10-26 經使用者同意收錄（理由：本庫 T 迷宮協定與學習指數的源頭，被 Tomchik 2009、Felsenberg 2018 引用）。1985 年無補充資料制度 |
 
 ## 不收錄的判定紀錄
 

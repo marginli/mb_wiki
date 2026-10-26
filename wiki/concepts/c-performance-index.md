@@ -1,7 +1,7 @@
 ---
 title: 表現指數（performance index, P.I.）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-26
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
@@ -15,6 +15,8 @@ confidence: medium
 - **DAN**：多巴胺神經元（dopaminergic neuron），送出代表懲罰或獎賞的多巴胺。
 - **光**：指光遺傳活化 DAN，即讓 DAN 帶上照紅光就放電的蛋白，用光代替真的懲罰或獎賞（見 [[c-us-substitution]]）。
 - **CS+、CS−**：CS 是條件刺激（conditioned stimulus），本庫都是氣味。CS+ 是訓練時配了懲罰或獎賞的氣味，CS− 是沒配、當比較基準的另一個氣味。
+- **OCT、MCH**：3-辛醇（3-octanol）與 4-甲基環己醇（4-methylcyclohexanol），T 迷宮最常用的一對訓練氣味。
+- **聯結、非聯結**：聯結學習＝因為「氣味與懲罰湊在一起」而改變；非聯結改變＝不靠配對的改變，例如只聞氣味聞久了變遲鈍，或挨過電之後對什麼都比較敏感。
 - **T 迷宮、競技場**：兩種測驗裝置。T 迷宮讓果蠅從中央選左右兩臂之一，各接一種氣味（[[e-t-maze]]）；四象限競技場是圓形小室，對角象限吹同一種氣味（[[e-olfactory-arena]]）。
 
 ## 怎麼算 / 怎麼判定
@@ -23,17 +25,19 @@ confidence: medium
 
 | 來源 | 裝置 | 公式（原文有寫才列） | 正值代表 |
 |---|---|---|---|
+| Tully 1985 | T 迷宮 | 稱學習指數 Λ（lambda）：躲 CS+ 的比例 − 躲 CS− 的比例；走進另一個氣味那一臂，就算躲開這個氣味；OCT 為 CS+ 一組、MCH 為 CS+ 一組（各約 150 隻），兩組平均為一個 N。論文自述算法「如 Quinn et al.（1974）」（PDF 第 266 頁）。分母方法節沒寫；※ 推論：分母含「留在中央」的果蠅（2 分鐘內沒走進任何一臂、留在中央小室者）。依據：正文說 Λ ＝ 0.89 時「93% 躲 CS+、4% 躲 CS−、3% 留中央」，93% − 4% ＝ 0.89 與 Λ 吻合，而三個比例加起來是 100%，表示它們都以「全部果蠅（含中央）」為分母；若分母不含中央者，前兩項應加成 100%。這是由一組「typically」的例子推得，方法節沒有明文 | 躲 CS+；沒學＝0，全部躲 CS+＝1 |
 | Tomchik 2009 | T 迷宮 | 未寫；正文只定義 P.I.＝0 為 50:50、P.I.＝1 為全部選對（避開 CS+） | 避開 CS+ |
 | Hige 2015 | 競技場 | 只在補充資料：？待查 | 相對迴避受測氣味 |
 | Aso 2016 | 競技場 | 〔（氣味 A 象限隻數）−（氣味 B 象限隻數）〕／總隻數，A＝配光的氣味；取測驗最後 30 s 平均；A、B 互換兩群取平均 | 趨近配光氣味（圖 1、4）；圖 2、3 把嫌惡型品系**改號**，正值＝學到了 |
 | Ichinose 2015 | T 迷宮 | 稱學習指數（learning index, LI）：取 2 分鐘選擇的最後 60 s 算偏好指數，互為對照的兩組取平均；偏好指數的換算公式未寫 | 選配過糖的氣味 |
 | Felsenberg 2017 | T 迷宮 | 未寫，「如文獻 17（Krashes & Waddell 2008）所述」 | 偏向 CS+（獎賞） |
-| Felsenberg 2018 | T 迷宮 | （CS+ 臂隻數 − CS− 臂隻數）÷ 總數（引 Tully & Quinn 1985）；MCH、OCT 輪流當 CS+，兩組平均為一個 n | 偏向 CS+；本篇是電擊訓練，所以**躲 CS+ 時為負值** |
+| Felsenberg 2018 | T 迷宮 | （CS+ 臂隻數 − CS− 臂隻數）÷ 總數（引 Tully & Quinn 1985）；MCH、OCT 輪流當 CS+，兩組平均為一個 n。**與 Tully 的 Λ 方向相反：** Tully 把走進另一個氣味那一臂的果蠅算成躲開這個氣味（PDF 第 266 頁）。所以待在 CS− 臂的果蠅＝躲開了 CS+，待在 CS+ 臂的＝躲開了 CS−。代入本式：（躲 CS− 的隻數 − 躲 CS+ 的隻數）÷ 總數，正好是 Λ 的兩項對調，即 −Λ。白話：Felsenberg 2018 的分數就是 Tully 的分數加上負號。※ 推論：只有兩篇的分母都是同一種「總數」時才完全等於 −Λ；若一篇含、一篇不含留在中央的果蠅，數值會略有不同。本篇原文只寫「total number of flies」，含不含中央者：？待查 | 偏向 CS+；本篇是電擊訓練，所以**躲 CS+ 時為負值** |
 
 ## 庫內的用法
 
 | 來源 | 怎麼用 | 得到什麼 |
 |---|---|---|
+| [[s-tully-1985-classical-conditioning]] | 用 Λ 量訓練參數（循環數、電擊下數、電壓、氣味濃度、時序）、消退、保留與品系；並以非聯結對照檢查 Λ 是否只量聯結學習（圖 8、9） | 1 循環 0.89 ± 0.01（N ＝ 5）；非聯結對照組 Λ ≈ −0.02 至 +0.03，但改測「單一氣味 vs 乾淨空氣」時這些組的躲避比未受訓組低約 5–10%（陷阱 6） |
 | [[s-tomchik-2009-camp-dynamics]] | 量 trace 制約的行為時間窗，與 cAMP 協同的時間窗並列 | 氣味與電擊同時給約 0.72；倒序（電擊先）約 0.04；trace（氣味結束後空白 0／15／30／45 s 才電擊）約 0.47／0.22／0.13／0.05；n＝6 |
 | [[s-hige-2015-heterosynaptic-plasticity]] | 量學到的迴避會不會類化到相似氣味（[[c-odor-generalization]]） | PA 與光配對約 67、不配對（光與 PA 錯開給的對照組）約 5；BA 約 42 vs 9；HP 約 38 vs −2；每組 n＝10 |
 | [[s-aso-2016-dan-cell-type-rules]] | 同一群果蠅在競技場裡反覆訓練與測驗；比較六組 DAN 品系的學習速率、保留、削弱、容量 | 單一 DAN（MB320C）的時間差掃描：嫌惡最低約 −0.45、逆向 20–60 s 喜好約 +0.15；對照組約 0.07 與 −0.01 |
@@ -41,19 +45,21 @@ confidence: medium
 | [[s-felsenberg-2017-re-evaluation]] | 糖獎賞記憶再聞 CS+ 或 CS− 後，6 小時的 PI | 消退後約 0.01，其他組約 0.2–0.3（見 [[c-memory-extinction]]） |
 | [[s-felsenberg-2018-memory-extinction]] | 電擊記憶再聞 CS+ 後，1 小時的 P.I. | 例：不再暴露約 −0.39、再聞 CS+ 兩次約 −0.20，躲避少了約一半 |
 
-> 數值皆為從圖判讀，見 [[numbers]] 與各來源頁。**Handler 2019 不用 P.I.**（全文 grep `performance` 無結果）：它的行為指標是一盒 4–7 隻果蠅的群體重心在 2 s 氣味期間往上風（氣味源）移動的距離（mm）；正值＝往氣味走＝吸引。Cohn 2015 沒有任何行為選擇測驗。
+> 除 Tully 1985 的 0.89 ± 0.01 與 5–10% 取自正文外，數值皆為從圖判讀，見 [[numbers]] 與各來源頁。**Handler 2019 不用 P.I.**（全文 grep `performance` 無結果）：它的行為指標是一盒 4–7 隻果蠅的群體重心在 2 s 氣味期間往上風（氣味源）移動的距離（mm）；正值＝往氣味走＝吸引。Cohn 2015 沒有任何行為選擇測驗。
 
 ## 引用時的陷阱
 
-1. **刻度不同。** Tomchik 2009、Aso 2016、Felsenberg 兩篇的值落在 −1 到 +1；Hige 2015 圖上的值在數十，上下限與換算方式都 ？待查。跨篇不要直接比數值。
-2. **正負號至少有三種約定。** 正值＝躲 CS+（Tomchik 2009、Hige 2015）；正值＝偏向 CS+，所以電擊記憶為負（Felsenberg 2018）；正值＝偏向配過獎賞的 CS+（Felsenberg 2017、Ichinose 2015）。Aso 2016 同一篇裡圖 1、4 未改號（負＝躲）、圖 2、3 改號（正＝學到）。Handler 2019 的位移正值＝吸引。並列時要先對齊方向。
-3. **n 是「群」不是「隻」。** P.I. 是一群果蠅算出一個數（Felsenberg 2017 每群 50–100 隻，Aso 2016 約 20 隻）；Tomchik 2009 的 n＝6 是 6 次 P.I.。Aso 2016 的 N 是一群還是一對互換群，PDF 沒說：？待查。
+1. **刻度不同。** Tully 1985、Tomchik 2009、Aso 2016、Felsenberg 兩篇的值落在 −1 到 +1（Tully 1985 正文只定義 0 與 1 兩端）；Hige 2015 圖上的值在數十，上下限與換算方式都 ？待查。跨篇不要直接比數值。
+2. **正負號至少有三種約定。** 正值＝躲 CS+（Tully 1985、Tomchik 2009、Hige 2015）；正值＝偏向 CS+，所以電擊記憶為負（Felsenberg 2018）；正值＝偏向配過獎賞的 CS+（Felsenberg 2017、Ichinose 2015）。Aso 2016 同一篇裡圖 1、4 未改號（負＝躲）、圖 2、3 改號（正＝學到）。Handler 2019 的位移正值＝吸引。並列時要先對齊方向。
+3. **n 是「群」不是「隻」。** n（或 N）是樣本數，即一個平均值由幾個分數平均而來。Tully 1985 寫大寫 N，而且有兩種意思（PDF 第 266 頁）：報 Λ 時，1 個 N ＝ 1 次完整實驗 ＝ 兩群果蠅（一群電 OCT、一群電 MCH，各約 150 隻）的平均；報躲避百分比時，1 個 N ＝ 1 群約 150 隻。所以同樣「N ＝ 8」，前者用了 16 群、後者 8 群。P.I. 是一群果蠅算出一個數（Felsenberg 2017 每群 50–100 隻，Aso 2016 約 20 隻）；Tomchik 2009 的 n＝6 是 6 次 P.I.。Aso 2016 的 N 是一群還是一對互換群，PDF 沒說：？待查。
 4. **行為與生理常不是同一批果蠅。** Hige 2015 的 PI 與突觸記錄來自不同果蠅、不同光協定；Felsenberg 2018 的成像組在顯微鏡下訓練，與行為組不是同一批。
 5. **「降到 0」有兩種讀法。** 二選一的分數是兩個氣味記憶的差。Felsenberg 2017 再聞 CS− 後 PI 歸零，可能是忘了 CS+，也可能是對 CS− 也產生了偏好；該篇只在一個操作上改用新氣味對照來分辨（圖 2f）。Aso 2016 圖 3E 的低分也同樣分不出「新記憶學不起來」與「新舊相抵」。
+
+6. **Λ ≈ 0 表示沒有聯結學習，不表示果蠅對氣味的反應沒改變；而且這個保證只在特定設計下成立。** Tully 1985 圖 8：只給氣味、只給電擊、氣味與電擊錯開等非聯結對照，Λ 都約為 0；圖 9 改測「單一氣味 vs 乾淨空氣」，同樣這些對照組的躲避其實比未受訓組低約 5–10%（只給 CS、不配對約 −10%，只給 US 約 −5%），只是兩個氣味降得差不多；Λ 是「躲 CS+ 減躲 CS−」，兩邊一起降，相減後就看不到了（該頁 3.6 節）。※ 推論：這個抵銷只在「測驗時兩個氣味相減、且兩組互換 CS+ 取平均」的設計下成立；只測一個氣味對空氣、或不互換 CS+ 的分數，會把這類非聯結下降算進去。另兩點限制：該篇摘要說非聯結對照「對兩種氣味的影響相同」，但它自己的統計顯示兩個氣味受影響的程度不完全一樣（氣味與訓練方式有顯著交互作用，F[4,70] ＝ 3.234），見來源頁 ⚠️；驗證只用了 OCT 與 MCH 一對氣味。
 
 ## 相關
 
 - 主題：[[t-timing-rules]]、[[t-memory-updating]]
 - 概念：[[c-cs-us-timing]]、[[c-us-substitution]]、[[c-memory-extinction]]、[[c-odor-generalization]]
 - 實體：[[e-t-maze]]、[[e-olfactory-arena]]
-- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]

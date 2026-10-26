@@ -38,6 +38,7 @@
 - [t-timing-rules](wiki/topics/t-timing-rules.md)：先後與間隔：氣味和多巴胺的時序如何決定學到什麼
 
 **來源（論文，依發表年）**
+- [s-tully-1985-classical-conditioning](wiki/sources/s-tully-1985-classical-conditioning.md)：Tully & Quinn 1985, *J Comp Physiol A*
 - [s-tomchik-2009-camp-dynamics](wiki/sources/s-tomchik-2009-camp-dynamics.md)：Tomchik & Davis 2009, *Neuron*
 - [s-hige-2015-heterosynaptic-plasticity](wiki/sources/s-hige-2015-heterosynaptic-plasticity.md)：Hige et al. 2015, *Neuron*
 - [s-cohn-2015-coordinated-neuromodulation](wiki/sources/s-cohn-2015-coordinated-neuromodulation.md)：Cohn, Morantte & Ruta 2015, *Cell*
@@ -85,6 +86,7 @@
 - [e-ppl1-gamma1pedc](wiki/entities/e-ppl1-gamma1pedc.md)：PPL1-γ1pedc 多巴胺神經元（PPL1-γ1pedc, MB-MP1）
 - [e-ppl1-gamma2alpha1](wiki/entities/e-ppl1-gamma2alpha1.md)：PPL1-γ2α′1 多巴胺神經元（PPL1-γ2α′1, MB-MV1）
 - [e-r58e02](wiki/entities/e-r58e02.md)：R58E02 驅動品系（R58E02 driver lines）
+- [e-rutabaga](wiki/entities/e-rutabaga.md)：*rutabaga* 基因與突變株（rutabaga）
 - [e-shibire-ts](wiki/entities/e-shibire-ts.md)：溫度敏感型阻斷工具（shibire^ts1）
 - [e-split-gal4](wiki/entities/e-split-gal4.md)：split-GAL4 驅動品系（split-GAL4 driver lines）
 - [e-t-maze](wiki/entities/e-t-maze.md)：T 迷宮（T-maze）
@@ -125,9 +127,9 @@ pip install markdown pillow     # 第一次需要；被拒絕時改用 python3 -
 
 ## 版權
 
-- **全文：** 本庫不放論文全文。每篇論文的來源頁都附 PMC（美國國家醫學圖書館的免費全文庫）連結，請由那裡閱讀。
+- **全文：** 本庫不放論文全文。每篇論文的來源頁都附 PMC（美國國家醫學圖書館的免費全文庫）連結，請由那裡閱讀。唯一的例外是 Tully & Quinn 1985：它沒有免費全文，來源頁只附 DOI（出版社的付費頁面）。
 - **圖片：** `assets/` 裡的圖擷取自原論文。授權分兩類，每張圖下方的出處行都寫明是哪一類：
-  - **出版社持有版權**（Tomchik 2009、Hige 2015、Cohn 2015、Handler 2019 屬 Elsevier；Felsenberg 2017 屬 Springer Nature）：本庫以教學與評論目的引用，這不代表出版社授權。若要在別處使用這些圖，請向出版社取得授權。
+  - **出版社持有版權**（Tomchik 2009、Hige 2015、Cohn 2015、Handler 2019 屬 Elsevier；Felsenberg 2017 屬 Springer Nature；Tully 1985 屬 Springer-Verlag）：本庫以教學與評論目的引用，這不代表出版社授權。若要在別處使用這些圖，請向出版社取得授權。
   - **CC BY 授權**（Ichinose 2015、Aso & Rubin 2016、Felsenberg 2018）：標明原作者與出處即可自由使用。
 - **文字：** 頁面上的中文說明、解讀與比較是本庫自己寫的。
 

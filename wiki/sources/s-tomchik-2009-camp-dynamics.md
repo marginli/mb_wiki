@@ -2,7 +2,7 @@
 title: "Dynamics of learning-related cAMP signaling and stimulus integration in the Drosophila olfactory pathway"
 citation: "Neuron 64(4), 510–521 (2009). doi: 10.1016/j.neuron.2009.09.029 [全文（PMC 免費閱讀）](https://pmc.ncbi.nlm.nih.gov/articles/PMC4080329/)"
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-26
 tags: [source, active, mb-learning]
 confidence: medium
 ---
@@ -265,6 +265,7 @@ flowchart TD
 
 - **以「CS 開始」為準，兩個時間窗至少差 2–3 倍**：成像在 30 秒延遲就失去協同，而行為在 CS 開始後 60–75 秒才給電擊仍學得到（P.I. 0.47、0.22）。作者說「相近」，成立的前提是把成像的 ACh 脈衝類比為氣味的**結束**，也就是假設 KC 在氣味結束那一刻的狀態才是關鍵。這個假設論文沒有寫出來。※ 推論：60 秒的氣味會讓 KC 持續放電，鈣與 cAMP 的時間進程都和一個秒級的 ACh 脈衝不同，所以兩個時間窗的對應只能算是定性相似。
 - **衰減的形狀也不同。** 行為上 P.I. 隨間隔漸減（0.47 → 0.22 → 0.13 → 0.05）；成像上 1 秒與 15 秒的協同幅度差不多（配對 ÷ 相加 ≈ 1.58 與 ≈ 1.52），到 30 秒才突然消失。成像只取了 3 個順向點，看不出漸減還是陡降。
+- **行為部分是 Tully & Quinn 1985 圖 7 的重做。** 本篇方法節說 T 迷宮依 Tully and Quinn 1985，圖 6A 的六組（同時、倒序、trace 0／15／30／45 s）也與該篇圖 7 相同。兩篇的 trace 0 s 與 15 s 都約 0.47 與 0.22，同時組約 0.72 對 0.79、30 s 約 0.13 對 0.05（皆 ※ 從圖判讀），逐列對照見 [[s-tully-1985-classical-conditioning]] 3.5 節。該篇的倒序組電擊在氣味開始前就結束、不重疊，結果同樣接近 0。
 - **成像沒有測「同時」**，而行為上「同時」是學得最好的條件（P.I. ≈ 0.72）。最接近的成像條件是 1 秒延遲。
 - **倒序也不完全是「先 US 後 CS」。** 依 A 格示意圖，倒序組的 60 秒電擊大約在氣味開始前 45 秒開始、開始後 15 秒才結束（※ 由示意圖量，可能只是示意不精確），兩者有約 15 秒重疊。成像倒序組的配對比相加高約 0.8 個百分點、p ＝ 0.14——**不顯著，但不是零**。
 - **1 秒延遲在圖 5 與圖 6 的 n 不同**（圖 5I：n ＝ 11，p ＝ 0.041；圖 6D：n ＝ 7，p ＝ 0.022），幅度也略有不同（圖 5I 相加/配對約 6.4/9.8，圖 6D 約 5.7/9.0）。論文沒有說明兩組是否為獨立資料。
@@ -346,7 +347,8 @@ flowchart TD
 - 本庫已有的相關頁：[[e-epac-camp-sensor]]、[[e-gcamp]]、[[e-kenyon-cell]]、[[c-coincidence-detection]]、[[c-camp-signaling]]、[[c-cs-us-timing]]、[[c-performance-index]]、[[e-mushroom-body]]
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]；矛盾與空缺：[[syn-contradictions]]
 - 本批（2026-10-25 第二批）已開頁、與本篇相關：[[e-c739-gal4]]
-- 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，如基因、工具、細胞；`c-` 開頭為概念頁）：`e-rutabaga`、`e-238y-gal4`、`e-dpm-neuron`、`c-presynaptic-facilitation`、`c-octopamine-reward-signal`
+- 2026-10-26 因 [[s-tully-1985-classical-conditioning]] 收錄而過門檻、新開的頁：[[e-rutabaga]]
+- 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，如基因、工具、細胞；`c-` 開頭為概念頁）：`e-238y-gal4`、`e-dpm-neuron`、`c-presynaptic-facilitation`、`c-octopamine-reward-signal`
 
 ## 出處
 

@@ -2,6 +2,16 @@
 
 只追加，新的在最上面。動作僅三種：`ingest` / `query` / `lint`（另有人類的 `裁決`）。
 
+## [2026-10-26] ingest | Tully & Quinn 1985, J Comp Physiol A（T 迷宮古典制約與突變株的記憶保留）
+
+- 新增 [[s-tully-1985-classical-conditioning]]，圖 10 張＋表 1 重製，© Springer-Verlag，無免費全文（出處只給 DOI）。掃描版 PDF 無文字層，以 300 dpi 渲染＋tesseract OCR 轉出，數字逐一對照頁面影像校正。全文不提蘑菇體，經使用者同意收錄。
+- 先依 skill 預設停點與使用者討論五個關鍵發現，再動筆。
+- 單篇自身不一致 4 項（95% vs 93%、循環數「up to four」、「兩氣味影響相同」vs 顯著交互作用、對照組三個 vs 四個）。
+- [[syn-contradictions]]：1.1 加入本篇的純逆向（不重疊）資料，裁決條件不變；第二節加一列；新增空缺 3.9（突變株兩段式衰減）、3.10（逆轉訓練的兩種讀法）、3.11（*dnc*／*rut* 與殘餘學習路徑）；4.1、4.3 篇數與說明更新。
+- 新開 [[e-rutabaga]]（Tomchik 2009 待開清單，本篇為第二篇來源）。更新主題 [[t-timing-rules]]、[[t-dopamine-to-plasticity]]、[[t-memory-updating]]；概念與實體 [[c-cs-us-timing]]、[[c-memory-extinction]]、[[c-memory-consolidation]]、[[c-camp-signaling]]、[[c-coincidence-detection]]、[[c-performance-index]]、[[e-t-maze]]。
+- [[s-tomchik-2009-camp-dynamics]] 圖 6 加入與本篇圖 7 的重做對照、待開清單移除 `e-rutabaga`；[[s-felsenberg-2018-memory-extinction]] 兩處引用改連本篇並註明定義差異。
+- `numbers.md` 加 Tully 1985 段（出處用期刊頁碼）。`index.md`、`intake.md`、`README.md` 更新。[[syn-changelog]] 加階段四。
+
 ## [2026-10-25] lint | 第二批整合：主題、概念、實體、索引、登記簿
 
 - 新研究問題群「記憶寫入之後：鞏固、更新與迴路回饋」（`index.md` 新 H2，`tags` 值 `mb-memory-dynamics`）。新主題 [[t-memory-updating]]（冷讀 4 輪）、[[t-mbon-dan-feedback]]（冷讀 4 輪）。改寫 [[t-timing-rules]]（冷讀 4 輪）、[[t-dopamine-to-plasticity]]（冷讀 3 輪）。

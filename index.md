@@ -3,7 +3,7 @@
 **[[syn-changelog|更新履歷]]**：這座知識庫怎麼長成現在的樣子，以及它更正過自己幾次
 **[[syn-contradictions|矛盾與空缺]]**：論文之間說法不同、等人裁決的地方，以及沒有人做過的實驗
 
-範圍是果蠅（*Drosophila*）蘑菇體（mushroom body）的研究。蘑菇體是果蠅腦中負責「把氣味和好壞結果連起來」的區域，是研究學習與記憶最常用的模型之一。目前 **8 篇來源**、4 條主題、14 個概念、25 個實體、2 個綜述，分屬兩個研究問題群。
+範圍是果蠅（*Drosophila*）蘑菇體（mushroom body）的研究。蘑菇體是果蠅腦中負責「把氣味和好壞結果連起來」的區域，是研究學習與記憶最常用的模型之一。目前 **9 篇來源**、4 條主題、14 個概念、26 個實體、2 個綜述，分屬兩個研究問題群。
 
 **怎麼讀這份索引。** 第一層是**研究問題群**，第二層是**主題**。主題頁（`t-`）回答「這批論文對這件事說了什麼、彼此怎麼對話」，用白話寫成，是讀者的入口。概念頁（`c-`）與實體頁（`e-`）掛在主題底下，供查詞。來源頁（`s-`）是一篇論文一頁，含科普文、專業文與每張主圖的解讀。完整的來源清單在文末。
 
@@ -13,7 +13,7 @@
 
 ## 學習的訊號機制：多巴胺如何改變 KC→MBON 突觸
 
-蘑菇體的學習模型是：每個氣味活化一小群 Kenyon 細胞（KC），所以「哪一群 KC 在活動」就代表是哪個氣味；多巴胺神經元（DAN）帶來好壞訊號（在實驗裡常用電擊當懲罰、用糖當獎賞）；兩者同時出現時，KC 與輸出神經元（MBON，它的活動推動果蠅靠近或走開）之間的接點（突觸）會變強或變弱。蘑菇體沿長度分成一格一格的區室，每格由一型 DAN 支配、一型 MBON 讀取。最早收錄的三篇都在這條線上，分別量了 KC 內部的化學訊號、輸出突觸的電流、以及受體與時序的關係；第二批的 Cohn 2015 直接看了 KC 送訊號那一端的鈣，Aso 2016 在行為上比較了各型多巴胺神經元的時序規則。
+蘑菇體的學習模型是：每個氣味活化一小群 Kenyon 細胞（KC），所以「哪一群 KC 在活動」就代表是哪個氣味；多巴胺神經元（DAN）帶來好壞訊號（在實驗裡常用電擊當懲罰、用糖當獎賞）；兩者同時出現時，KC 與輸出神經元（MBON，它的活動推動果蠅靠近或走開）之間的接點（突觸）會變強或變弱。蘑菇體沿長度分成一格一格的區室，每格由一型 DAN 支配、一型 MBON 讀取。最早收錄的三篇都在這條線上，分別量了 KC 內部的化學訊號、輸出突觸的電流、以及受體與時序的關係；第二批的 Cohn 2015 直接看了 KC 送訊號那一端的鈣，Aso 2016 在行為上比較了各型多巴胺神經元的時序規則。2026-10-26 收錄的 Tully 1985 年代最早、全文沒有提到蘑菇體：它建立了庫內多篇沿用的 T 迷宮「氣味—電擊」學習測驗，用它量了電擊要在氣味之後多快來才學得到，並比較了 *rutabaga* 等學習突變株的記憶曲線；（「這些基因都和 cAMP 有關」是作者引用前人的生化結果，本篇沒有量 cAMP。）
 
 ### [[t-timing-rules]]｜先後與間隔：氣味和多巴胺的時序如何決定學到什麼
 
@@ -27,12 +27,13 @@
 
 - 概念：[[c-cs-us-timing]]、[[c-coincidence-detection]]、[[c-kc-mbon-plasticity]]、[[c-us-substitution]]、[[c-performance-index]]
 - 實體：[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-kenyon-cell]]
-- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-handler-2019-dopamine-receptor-timing]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-handler-2019-dopamine-receptor-timing]]
 
 ### [[t-dopamine-to-plasticity]]｜從多巴胺到突觸改變：KC 軸突怎麼讀出增強訊號
 
 多巴胺神經元送來的多巴胺量，不論氣味先還是多巴胺先都一樣（Handler 2019 量過）；差別在 KC 的軸突收到多巴胺之後，細胞內啟動了哪些化學反應。兩篇給了不同的答案：
 
+- **問題的起點（Tully 1985）：** 只有行為與遺傳。學不好的突變株，壞掉的基因都落在製造或分解 cAMP 的路徑上；但 *rutabaga* 突變株缺了被認為負責偵測「氣味與懲罰同時到」的酵素活性，卻仍學得到一些，作者因此指出，以海兔（*Aplysia*）提出的「這個酵素是學習必需」的模型解釋不了果蠅。
 - **較早的答案（Tomchik 2009）：** *rutabaga* 基因製造的一個酵素負責製造 cAMP（一種細胞內的訊號分子）。它要同時收到兩種訊號才大量工作：氣味讓 KC 活動時流進細胞的鈣，以及多巴胺。所以它像一個「兩者都到才響」的偵測器；作者還發現，只有氣味先、多巴胺後時，cAMP 才會多出來。
 - **較新的答案（Handler 2019）：** KC 上有兩種多巴胺受體，各接一條路徑。一條製造 cAMP，讓突觸變弱；這篇量到的 cAMP 不論誰先都會上升。另一條讓內質網（細胞內儲存鈣的構造）放出鈣，讓突觸變強，只在多巴胺先到時才發生。所以氣味先到時只有變弱的那條在作用；多巴胺先到時兩條都在作用，變強的那條勝出。
 
@@ -42,13 +43,14 @@
 - 實體：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-epac-camp-sensor]]
 - 概念（第二批）：[[c-presynaptic-calcium]]、[[c-ex-vivo-explant]]、[[c-whole-cell-patch-clamp]]、[[c-odor-generalization]]
 - 實體（第二批）：[[e-dopamine-receptor]]、[[e-mbon-gamma4]]、[[e-mbon-gamma1pedc]]、[[e-ppl1-gamma1pedc]]
-- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]
+- 實體（2026-10-26）：[[e-rutabaga]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]
 
 ---
 
 ## 記憶寫入之後：鞏固、更新與迴路回饋
 
-記憶寫下之後並沒有定案。它要經過一段時間才穩定（鞏固）；再遇到同一個氣味卻沒有獎賞或懲罰時，它會被改寫（消退、再鞏固）。上一節的圖像是單向的：氣味從 KC 流到 MBON，DAN 從旁改寫兩者之間的接點。這些過程卻需要反方向的路：MBON 回頭改變 DAN 的活動。2026-10-25 第二批收錄的五篇（Cohn 2015、Ichinose 2015、Aso 2016、Felsenberg 2017、Felsenberg 2018）大多落在這裡。
+記憶寫下之後並沒有定案。它要經過一段時間才穩定（鞏固）；再遇到同一個氣味卻沒有獎賞或懲罰時，它會被改寫（消退、再鞏固）。上一節的圖像是單向的：氣味從 KC 流到 MBON，DAN 從旁改寫兩者之間的接點。這些過程卻需要反方向的路：MBON 回頭改變 DAN 的活動。2026-10-25 第二批收錄的五篇（Cohn 2015、Ichinose 2015、Aso 2016、Felsenberg 2017、Felsenberg 2018）大多落在這裡。2026-10-26 收錄的 Tully 1985 提供了最早的行為資料：學會之後只聞氣味、不再挨電（消退），要 20 輪（約 1 小時）才讓分數減半；先學「甲是壞的」再學「乙是壞的」，學習分數（0＝沒學到、1＝全部躲開被電的氣味）只有 0.26（單學一次約 0.89），果蠅只略偏向較近的那一次。
 
 ### [[t-memory-updating]]｜記憶怎麼被改寫：消退、再鞏固與新舊記憶並存
 
@@ -56,7 +58,7 @@
 
 - 概念：[[c-memory-extinction]]、[[c-memory-consolidation]]、[[c-spaced-training]]、[[c-performance-index]]
 - 實體：[[e-shibire-ts]]、[[e-t-maze]]、[[e-olfactory-arena]]、[[e-mb504b]]、[[e-r58e02]]、[[e-mbon-gamma5beta2a]]、[[e-mbon-gamma2alpha1]]、[[e-ppl1-gamma2alpha1]]
-- 來源：[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]
 
 ### [[t-mbon-dan-feedback]]｜輸出神經元回頭指揮多巴胺神經元：MBON→DAN 回饋迴路
 
@@ -84,7 +86,7 @@
 - [[e-split-gal4]]：只在少數幾型神經元表現的驅動品系，決定「活化了誰」。個別品系另有頁：[[e-mb099c]]、[[e-mb504b]]、[[e-r58e02]]、[[e-th-gal4]]、[[e-c739-gal4]]；其中 MB099C 與 R58E02 標記了哪些神經元，各篇說法不同，列為待裁決
 - [[e-p2x2]]：遇到 ATP 就打開的通道，用化學方法活化神經元
 - [[e-shibire-ts]]：升溫時暫時阻斷神經元輸出的工具，用來問「哪段時間需要哪群神經元」
-- [[e-t-maze]]、[[e-olfactory-arena]]：兩種量果蠅氣味偏好的行為裝置
+- [[e-t-maze]]、[[e-olfactory-arena]]：兩種量果蠅氣味偏好的行為裝置；T 迷宮的古典制約版本來自 Tully 1985
 - [[c-ex-vivo-explant]]、[[c-whole-cell-patch-clamp]]：取出整顆腦做實驗、以電極記錄單顆神經元的兩種方法
 
 ---
@@ -93,6 +95,7 @@
 
 每行最後的日期是本庫收錄日，不是發表日。
 
+- [[s-tully-1985-classical-conditioning]] — Tully & Quinn, *J Comp Physiol A*：建立 T 迷宮的氣味—電擊古典制約測驗，量了時序、消退、非聯結對照與學習突變株的記憶曲線；全文不涉及蘑菇體 · 2026-10-26
 - [[s-tomchik-2009-camp-dynamics]] — Tomchik & Davis, *Neuron*：在離體腦中直接看到 KC 軸突裡的 cAMP 協同依賴 *rutabaga* 與先後順序 · 2026-10-25
 - [[s-hige-2015-heterosynaptic-plasticity]] — Hige et al., *Neuron*：活體記錄到多巴胺讓 KC→MBON 突觸長期抑制，區室專一、依賴順序 · 2026-10-25
 - [[s-cohn-2015-coordinated-neuromodulation]] — Cohn, Morantte & Ruta, *Cell*：多巴胺神經元整群協調活動；同一條 KC 軸突在各格的末梢鈣不同；沒有氣味時活化多巴胺神經元讓突觸變強 · 2026-10-25

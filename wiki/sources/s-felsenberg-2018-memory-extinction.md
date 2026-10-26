@@ -2,7 +2,7 @@
 title: "Integration of Parallel Opposing Memories Underlies Memory Extinction"
 citation: "Cell 175(3), 709–722.e5 (2018). doi: 10.1016/j.cell.2018.08.021 [全文（PMC 免費閱讀）](https://pmc.ncbi.nlm.nih.gov/articles/PMC6198041/)"
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-26
 tags: [source, active, mb-memory-dynamics]
 confidence: medium
 ---
@@ -120,7 +120,7 @@ confidence: medium
 
 **發表當時的領域現狀（2018，依本篇引言與討論）。**
 
-- 果蠅嗅覺記憶可以被部分消退，最早見於 Quinn et al. 1974、Dudai 1977、Tully & Quinn 1985。
+- 果蠅嗅覺記憶可以被部分消退，最早見於 Quinn et al. 1974、Dudai 1977、Tully & Quinn 1985。本庫已收 Tully & Quinn 1985（[[s-tully-1985-classical-conditioning]]）：它的「消退」是訓練後立即、兩個氣味都重複給而不配電擊，20 個循環（約 60 分鐘）才降到約一半，與本篇「30 分鐘後只再聞 CS+ 兩次」的操作不同，見 [[c-memory-extinction]]。
 - Schwaerzel et al. 2002 認為嫌惡學習與其消退發生在同一群 KC 內，並提出「細胞內拮抗」：消退在 KC 細胞內部，去對抗形成記憶所需的 cAMP 訊號。cAMP 是細胞內傳遞訊號的一種小分子，本庫的 [[c-camp-signaling]] 有說明。本篇的結論與之不同：記憶確實寫在同一群 KC 上，但兩個記憶寫在這些 KC 於不同區室、接給不同 MBON 的輸出突觸上，兩者是在下游的 MBON 之間互相抵消，屬於「細胞之間的拮抗」。
 - 同團隊的 Felsenberg et al. 2017（[[s-felsenberg-2017-re-evaluation]]）已顯示，獎賞記憶的消退需要 PPL1 群的 DAN，也就是「該來的獎賞沒來」被當成壞事記。本篇是它的鏡像實驗。
 - 嫌惡學習會壓低 KC 送到推動靠近的 MBON 的訊號，例如 MBON-V2α（另一顆放出乙醯膽鹼、推動靠近的 MBON，本篇沒有量它）與 MVP2，並讓推動走開的 M4β′／M6 對 CS+ 的反應相對增強；獎賞學習則壓低送到 M4β′／M6 的訊號（Séjourné et al. 2011；Owald et al. 2015；Hige et al. 2015；Perisse et al. 2016）。
@@ -182,7 +182,7 @@ flowchart TD
 - 環境：23 °C、相對濕度 55–65%。只在要阻斷的時段升到 30–33 °C：多數實驗是再暴露那段時間；圖 S1E 一組改在測驗時阻斷，用來排除另一種解釋：PAM 不是在再暴露時負責學習，而只是在測驗時負責讓果蠅把行為表現出來（見 3.1）。
 - 氣味：4-甲基環己醇（MCH）與 3-辛醇（OCT），以礦物油稀釋到 10⁻⁴ 或 10⁻⁶。
 - 訓練：CS+ 1 分鐘，配 12 下 90 V 電擊，每 5 秒一下；清潔空氣 45 秒；CS− 1 分鐘。測驗：T 迷宮 2 分鐘。
-- P.I.：（CS+ 臂數 − CS− 臂數）÷ 總數（引 Tully & Quinn 1985）。MCH 與 OCT 輪流當 CS+：一組以 MCH 為 CS+、另一組以 OCT 為 CS+，兩組的 P.I. 取平均算一個 n。
+- P.I.：（CS+ 臂數 − CS− 臂數）÷ 總數（引 Tully & Quinn 1985）。該篇（[[s-tully-1985-classical-conditioning]]）原本的定義是「躲 CS+ 的比例 − 躲 CS− 的比例」，躲 CS+ 的果蠅就在 CS− 臂，所以兩式只差正負號；本篇取「偏向 CS+ 為正」。MCH 與 OCT 輪流當 CS+：一組以 MCH 為 CS+、另一組以 OCT 為 CS+，兩組的 P.I. 取平均算一個 n。
 - 消退協定：改自 Schwaerzel et al. 2002，選用的氣味濃度須讓「未訓練的果蠅連續聞幾次」不改變牠們的選擇（圖 S1A），以排除「只是多聞幾次就讓偏好改變」。圖 S1A 顯示高濃度（10⁻³）會有這個問題，所以全篇用低濃度。
 
 **離體光遺傳 × 成像。**
