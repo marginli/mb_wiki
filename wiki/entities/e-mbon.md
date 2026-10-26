@@ -12,7 +12,7 @@ confidence: medium
 
 讀取 [[e-kenyon-cell]]（KC）訊號、再把結果送出 [[e-mushroom-body]] 去影響行為的神經元。每型 MBON 的樹突佔據葉上的一個區室（[[c-mb-compartment]]），在那裡收 KC 軸突送來的訊號；同一區室裡另有一型 [[e-dopaminergic-neuron]]（DAN）調整這個「KC → MBON」突觸的強弱。MBON 以所在區室命名，例如 MBON-γ1pedc 的樹突在 γ1pedc 區室。
 
-**價值（valence）**：直接活化不同的 MBON，會讓果蠅靠近或走開。Hige 2015 與 Handler 2019 都引 Aso et al. 2014b 說明這件事；Hige 2015 另引該文說，一般而言 MBON 推動的行為方向，與同區室 DAN 傳遞的價值相反（例如懲罰 DAN 配推動靠近的 MBON）。因此學到「這個氣味不好」，就是把推動靠近的 MBON 對該氣味的反應壓低。
+**價值（valence）**：直接活化不同的 MBON，會讓果蠅靠近或走開。Hige 2015 與 Handler 2019 都引 Aso et al. 2014b 說明這件事；Hige 2015 另引該文說，一般而言 MBON 推動的行為方向，與同區室 DAN 傳遞的價值相反（例如懲罰 DAN 配推動靠近的 MBON）。而懲罰 DAN 放出的多巴胺，會讓同區室 KC→MBON 的突觸變弱（例：Hige 2015 的 γ1pedc，見下表）。因此學到「這個氣味不好」，就是把推動靠近的 MBON 對該氣味的反應壓低。
 
 ## 庫內誰用了它
 

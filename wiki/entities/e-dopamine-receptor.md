@@ -34,7 +34,7 @@ confidence: medium
 | Handler 2019 | DopR1−/−、DopR2−/−（基因型表寫 DopR1null、DopR2attP） | 全身 |
 | Ichinose 2015 | 以 c739、MB008B 在 α/β KC，或以 MB310C、MB323B 在 MBON-α1 用 RNAi 降低 DopR1；在 *dumb²*（DopR1 失效的突變）背景下以 MB247 在 KC 補回 DopR1（救援） | RNAi 限選定細胞；降低程度未驗證 |
 
-另：Aso 2016 討論中引 Crocker et al. 2016 說 KC 表現四種多巴胺受體，可能在各區室用法不同；本篇沒有操作受體，只是提到。
+另：Aso 2016 討論中引 Crocker et al. 2016 說 KC 表現四種多巴胺受體，可能在各區室用法不同；Aso 2016 本身沒有操作受體，只是提到。
 
 ## 庫內誰用了它
 
@@ -50,8 +50,8 @@ confidence: medium
 
 - **「救回」與「回到原水準」不同。** Ichinose 2015 的救援組與野生型「無顯著差異」，但柱高約為野生型七成，且 n＝7、缺「同型合子只帶 MB247」的對照。
 - **突變與 RNAi 結果不一定一致。** Cohn 2015 的 DopR2 突變是「倒轉」，RNAi 是「變平」；可能是減量不完全，也可能有 KC 以外的 DopR2 參與（該來源頁的推論，論文未討論）。突變為全身性，不能單獨定位到 KC。
-- **量的東西不同，方向不能直接拼。** Cohn 量末梢鈣分布（不是突觸強弱，也不是配對後）；Handler 量配對後的 KC→MBON 突觸；Ichinose 量行為。「DopR2 與變強有關」在 Cohn 是推論（見該來源頁第六節）。
-- **Handler 的 DopR1−/− 在順向配對後反成弱增強**，它的模型解釋不了（見該來源頁 3.6）。
+- **量的東西不同，方向不能直接拼。** Cohn 量末梢鈣分布（不是突觸強弱，也不是配對後）；Handler 量配對後的 KC→MBON 突觸；Ichinose 量行為。Cohn 只看到 DopR2 影響 KC 末梢的鈣分布；說 DopR2 與突觸「變強」有關，是該篇討論段的推測，配對實驗中沒有操弄受體（見 [[s-cohn-2015-coordinated-neuromodulation]] 第六節）。
+- **Handler 的 DopR1−/− 在順向配對後反成弱增強，Handler 的模型解釋不了。** 這個模型把突觸變化看成兩條路相減：DopR1（cAMP）推向減弱，DopR2（內質網放鈣）推向增強；內質網只在多巴胺先到時才放鈣（見 [[e-gcamp]]），DopR1−/− 在順向配對時也沒有放鈣。照模型，拿掉 DopR1 只會讓「減弱」消失，不會變成增強（見 [[s-handler-2019-dopamine-receptor-timing]] 3.6）。
 - RNAi 是持續性的，Ichinose 2015 無法區分 DopR1 在獲得、鞏固或提取哪一段被需要。
 
 ## 相關

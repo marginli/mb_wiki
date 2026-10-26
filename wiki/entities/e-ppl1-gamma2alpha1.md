@@ -50,7 +50,7 @@ confidence: medium
 
 - **Handler 的「γ2 DAN」是不是這一型。** ※ 推論：Felsenberg 2017 說 R73F07-GAL4 只標 PPL1-γ2α′1，Handler 用 73F07-LexA 標「γ2 DAN」，兩者可能是同一型；但 GAL4 與 LexA 版本標到的範圍不一定相同，兩篇沒有比對：？待查。Cohn 2015 也活化「γ2 DAN」（圖 6C、6E），品系名主文沒寫，是否同一型無從判斷。
 - **只有 Felsenberg 2017 單獨操作它。** Hige 2015 與 Aso 2016 都經由 MB099C 和其他型一起活化，結果不能歸給這一型。
-- **懲罰型 DAN 為何保住獎賞記憶，Felsenberg 2017 沒有解釋。** 離體連結實驗沒有氣味、n 小，不能說明是直接突觸。
+- **懲罰型 DAN 為何保住獎賞記憶，Felsenberg 2017 沒有解釋。** γ2α′1 MBON 與這型 DAN 的連結，證據只有離體實驗（光活化 MBON、量這型 DAN 的鈣），沒有氣味、n 小，不能說明兩者之間是直接突觸。
 - **MB099C 的組成兩篇不同**，見 [[syn-contradictions]] 1.4。
 
 ## 相關

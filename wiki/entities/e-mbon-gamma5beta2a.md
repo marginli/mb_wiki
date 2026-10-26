@@ -24,7 +24,7 @@ confidence: medium
 
 ## 是什麼
 
-蘑菇體輸出神經元（[[e-mbon]]）的一型。新名 MBON-γ5β′2a 串了 γ 葉第 5 格（γ5）與 β′ 葉 β′2a 小區兩個位置；舊名 M6（Felsenberg 2018 的寫法）。依 Felsenberg 2018，它放出麩胺酸（glutamate），活化時讓果蠅「走開」，樹突在 γ5 格，左右腦各一顆（摘要稱「a pair」）。它被 [[e-mbon-gamma1pedc]]（MVP2）以 GABA 抑制，這是 Felsenberg 2018 消退模型的骨架。另兩篇只以區室稱它「γ5 MBON」。
+蘑菇體輸出神經元（[[e-mbon]]）的一型。新名 MBON-γ5β′2a 串了 γ 葉第 5 格（γ5）與 β′ 葉 β′2a 小區兩個位置；舊名 M6（Felsenberg 2018 的寫法）；Handler 2019 與 Cohn 2015 則不用這兩個名字，只用它樹突所在的區室（γ5 格）稱它「γ5 MBON」。依 Felsenberg 2018，它放出麩胺酸（glutamate），活化時讓果蠅「走開」，樹突在 γ5 格，左右腦各一顆（摘要稱「a pair」）。它被 [[e-mbon-gamma1pedc]]（MVP2）以 GABA 抑制。這條連結是 Felsenberg 2018 解釋消退的關鍵：消退後 MVP2 上的舊痕跡（對 CS+ 的反應比 CS− 小）仍在，M6 的樹突卻新出現痕跡，使軸突的 CS+／CS− 差別變得不顯著（見下表與 [[c-memory-extinction]]）。
 
 ## 版本與規模（標記它的品系）
 
