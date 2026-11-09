@@ -1,7 +1,7 @@
 ---
 title: T 迷宮（T-maze）
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-11-09
 tags: [entity, active, cross-domain]
 confidence: high
 ---
@@ -58,7 +58,8 @@ Handler 2019 不用 T 迷宮，只在正文把它當成對照，說自己的小�
 
 ## 已知的問題
 
-- **正負號約定不一致，跨篇並列前要先對齊。** Tully 1985：Λ 正值＝躲 CS+（全部躲開＝1）。Tomchik 2009：正值＝避開被電的氣味（1＝全部選對）。Felsenberg 2018：（CS+ − CS−）÷ 總數，**躲 CS+ 是負值**。Felsenberg 2017：正值＝偏向 CS+（糖獎賞）。Ichinose 2015：LI 正值＝選配糖的氣味，但換算公式沒寫。五篇中寫出公式的是 Tully 1985 與 Felsenberg 2018，兩式方向相反（Felsenberg 2018 的值約等於 −Λ）；但兩篇的分母是否都含留在中央的果蠅不確定，見 [[c-performance-index]]。
+- **正負號約定不一致，跨篇並列前要先對齊。** Tully 1985：Λ 正值＝躲 CS+（全部躲開＝1）。Tomchik 2009：正值＝避開被電的氣味（1＝全部選對）。Felsenberg 2018：（CS+ − CS−）÷ 總數，**躲 CS+ 是負值**。Felsenberg 2017：正值＝偏向 CS+（糖獎賞）。Ichinose 2015：LI 正值＝選配糖的氣味，但換算公式沒寫。五篇中寫出公式的是 Tully 1985 與 Felsenberg 2018，兩式方向相反（Felsenberg 2018 的值約等於 −Λ）；但兩篇的分母是否都含留在中央的果蠅不確定（Tully 1985 ※ 推論含；Felsenberg 2018 ？待查），見 [[c-performance-index]] 陷阱 7。
+- **分母要先對齊才能並排。** 2 分鐘內沒進臂、留在中央的果蠅（Tully 1985 每群通常 5–10 隻）算不算進分母，會讓同一組果蠅算出兩個分數；以全部果蠅為分母時這些果蠅等於 0 分，分數被往 0 壓。拿模擬或自製裝置的分數（常以已進臂隻數為分母）和 Tully 式的 Λ 並排前要先換成同一種算法，見 [[c-performance-index]] 陷阱 7。
 - **公式與上下限未寫的，只能做同篇內的相對比較**（Tomchik、Ichinose、Felsenberg 2017）。
 - **氣味互換取平均。** Tully 1985（OCT 為 CS+ 一組、MCH 為 CS+ 一組，兩組平均為一個 N）、Ichinose、Felsenberg 2017／2018 都讓兩種氣味輪流當 CS+，兩組平均成一個 n；Tomchik 的作法：？待查。
 - **測驗時點不同**：0–24 小時的保留曲線（Tully 1985）、3 分鐘、5 分鐘、60 分鐘、6 小時、24 小時都有，「記憶強弱」不能跨篇比。
