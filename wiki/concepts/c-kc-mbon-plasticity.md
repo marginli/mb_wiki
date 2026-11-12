@@ -1,7 +1,7 @@
 ---
 title: KC→MBON 突觸可塑性（KC-MBON synaptic plasticity）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-12
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
@@ -42,6 +42,7 @@ confidence: medium
 | [[s-felsenberg-2017-re-evaluation]] | 糖獎賞訓練後 3 小時，活體量 γ2α′1 MBON 對 CS+、CS− 的鈣反應 | **沒配糖的 CS− 反應變大**（標準化 AUC 約 +14% 與 +24%），CS+ 不變；V2 群 MBON 不變 |
 | [[s-felsenberg-2018-memory-extinction]] | 電擊訓練或訓練後再消退，活體量 MVP2、M4β′、M6 的樹突與軸突 | MVP2 樹突 CS+ ＜ CS−（嫌惡痕跡），消退後仍在；M6 樹突在消退後新出現 CS+ ＜ CS−；只訓練時 M6 軸突 CS+ 較大、樹突沒有 |
 | [[s-tomchik-2009-camp-dynamics]] | **沒量 KC→MBON 突觸。** 量的是 KC 軸突本身的鈣反應在 cAMP 拉高後是否變大 | forskolin 使 α 葉鈣反應約 3.2 倍、多巴胺約 2 倍；作者稱「突觸前可塑性」，討論中稱其為異突觸 |
+| [[s-minnick-2026-untrained-connectome]] | **不是實驗，是模擬**：讓嫌惡區室的 8,377 條 KC→MBON 連結在增強訊號下依適任痕跡變弱，其餘 7,146 條不動 | 平均權重 0.513 → 0.138 mV；推動趨近的 MBON 由每步 103 個脈衝降到 37、推動躲避的維持 50，價性由 +1.41 轉為 −0.33，行為由趨近轉為躲避。**但在原樣讀出的網路中，不給氣味也一樣會減弱**（見 [[c-sparse-coding]] 陷阱 2） |
 
 > 數值見 [[numbers]]；γ4 與 Tomchik 的倍數為從圖判讀。
 

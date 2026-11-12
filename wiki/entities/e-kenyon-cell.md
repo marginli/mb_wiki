@@ -1,7 +1,7 @@
 ---
 title: Kenyon 細胞（Kenyon cell, KC）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-12
 tags: [entity, active, mb-learning]
 confidence: high
 ---
@@ -27,6 +27,7 @@ confidence: high
 | [[s-handler-2019-dopamine-receptor-timing]] | GAL4：OK107（論文標為「KCs」，涵蓋哪幾類沒有寫：？待查） | **軸突**在 γ4/γ5 區室的 cAMP、內質網鈣（細胞內儲鈣小倉庫放出的鈣）與收到的多巴胺；KC 軸突上的兩種多巴胺受體 DopR1、DopR2 | 乙醯膽鹼 10 mM 以離子導入（用電流把藥從玻璃細針推出）送到萼部，脈衝 500 ms |
 | [[s-cohn-2015-coordinated-neuromodulation]] | 讓全部 γ KC 表現 sytGCaMP（啟動子名稱 ？待查）；另以稀疏標記只標少數幾顆 | **突觸前末梢**的鈣，逐格比較同一條軸突；KC 本身的膜電位與放電（膜片鉗，補充圖 S6B：？待查） | 活體用真的氣味；離體以乙醯膽鹼離子導入萼部 |
 | [[s-ichinose-2015-reward-recurrent-circuit]] | α/β KC：c739（[[e-c739-gal4]]）、MB008B；KC：MB247 | **沒有量 KC 活動**；以 shibire^ts 阻斷 α/β KC 輸出、以 RNAi 在 α/β KC 降低 DopR1（[[e-dopamine-receptor]]） | 真的氣味與糖（行為） |
+| [[s-minnick-2026-untrained-connectome]] | **不是實驗，是模擬**：BANC 連結體中的 4,504 顆 KC，每顆為一個 LIF 單元 | 活化比例與兩種氣味的重疊度（見 [[c-sparse-coding]]）；KC→MBON 的 28,415 個突觸中 8,377 條可塑 | 模擬的氣味驅動受體神經元；增強訊號為外加的純量 |
 
 > 「驅動品系」是決定外加基因只在哪些細胞表現的果蠅品系；GAL4 與 LexA 是兩套互不干擾的系統，所以同一隻果蠅可以用一套標 DAN、另一套標 KC 或 MBON。split-GAL4 見 [[e-split-gal4]]。
 

@@ -126,6 +126,12 @@ Felsenberg 2018 還有一處和本環有關：它的引言把「突觸前那一�
 
 ## 這條線卡在哪
 
+**從另一個方向逼問同一條線：如果只有接線呢？** 本頁各篇量的都是真果蠅身上的分子、突觸或行為。[[s-minnick-2026-untrained-connectome]]（2026）換了一個作法：把一整份果蠅的接線圖（腦加腹神經索，17 萬餘顆神經元）直接當程式跑，參數全部沿用別人發表的值、一個都不調，然後在裡面執行本頁講的那個機制——讓嫌惡區室的 KC→MBON 突觸在增強訊號下變弱。
+
+結果分兩半。行為那一半成功了：價性由 +1.41 轉為 −0.33，訓練前 20 隻全部走到氣味源，訓練後一隻都沒有。但學習那一半失敗了：**不給氣味、只給增強訊號，突觸照樣變弱、果蠅照樣躲開**，兩組在突觸、價性與行為三個層次都分不出來。原因不在學習規則，而在編碼——照接線原樣讀出來的網路，Kenyon 細胞在完全沒有輸入時仍有 67% 在放電，所以增強訊號不論何時來，都會碰到「正在活動」的突觸。把嗅葉一類局部神經元的輸出調小、讓 Kenyon 細胞只在有氣味時放電之後，配對才恢復成必要條件。
+
+**這對本頁的意義是：本頁整條線所講的機制，光有接線還不夠。** 它還需要一個接線圖沒有記錄的條件——Kenyon 細胞的活動必須跟著氣味走。值得注意的是，該篇的校正版在氣味出現時仍有 68% 的 Kenyon 細胞在活動，一樣是密的；所以讓學習成立的不是稀疏，而是**對刺激的依賴**（見 [[c-sparse-coding]]）。
+
 **一個由作者自己劃出的界線。** 本頁整條線都建立在一個假設上：學習就是 KC→MBON 突觸的強弱改變。[[s-tumkaya-2025-synthetic-memory-inception]]（2025）提醒這個假設還沒有被它那類實驗證明。該篇只用光同時活化 ORN 與多巴胺神經元，就造出了行為上的記憶，這很容易被讀成「突觸可塑性假說又多一個證據」；但作者明說，這類實驗**沒有直接操作任何一個突觸**，所以不能用來論證突觸權重的改變本身。這句話值得記住，因為它適用的範圍比那一篇大——本頁引用的行為實驗（Tully 1985、Aso 2016、Ichinose 2015）都有同樣的限制，差別只在那些篇沒有把話說出來。真正直接量突觸的，庫內只有 Hige 2015 與 Handler 2019 的離體記錄，以及 Cohn 2015 的鈣成像。
 
 **最容易被誤讀的一點：「cAMP 推動突觸變弱」與「cAMP 分得出先後」是兩件不同的事。** 在 Handler 2019 的模型裡，cAMP 參與決定突觸往哪個方向改（它推動變弱），但判斷氣味與多巴胺誰先誰後的，是放鈣那條路徑。把它讀成「cAMP 偵測先後」，就讀反了 Handler 2019 的結論。但 Tomchik 2009 用另一種量法得到相反的看法，所以就整個庫而言，cAMP 分不分得出先後仍沒有定論。
@@ -153,7 +159,8 @@ Felsenberg 2018 還有一處和本環有關：它的引言把「突觸前那一�
 - [[s-felsenberg-2018-memory-extinction]]：MBON 樹突沒變不等於輸出沒變；引言的「突觸前變弱」是合併引用
 - [[s-felsenberg-2017-re-evaluation]]：獎賞訓練後，沒有配糖的氣味反而讓某一格輸出神經元反應變大，現有的配對規則解釋不了（[[syn-contradictions]] 3.7）
 - [[s-tumkaya-2025-synthetic-memory-inception]]：只同時活化 ORN 與多巴胺神經元就造出記憶；作者自陳沒有直接操作突觸，不能據此論證突觸可塑性假說
-- 概念：[[c-camp-signaling]]、[[c-coincidence-detection]]、[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-cs-us-timing]]、[[c-us-substitution]]、[[c-ex-vivo-explant]]、[[c-memory-consolidation]]、[[c-memory-extinction]]
+- [[s-minnick-2026-untrained-connectome]]：在未調參的全腦連結體模擬中執行本頁的機制；行為翻轉成功，但原樣網路的 Kenyon 細胞不依賴氣味，學習因此不是聯結式的
+- 概念：[[c-camp-signaling]]、[[c-coincidence-detection]]、[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-cs-us-timing]]、[[c-us-substitution]]、[[c-sparse-coding]]、[[c-ex-vivo-explant]]、[[c-memory-consolidation]]、[[c-memory-extinction]]
 - 實體：[[e-rutabaga]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-mushroom-body]]、[[e-epac-camp-sensor]]、[[e-gcamp]]、[[e-dopamine-receptor]]、[[e-p2x2]]、[[e-r58e02]]、[[e-t-maze]]
 - 其他主題：[[t-timing-rules]]、[[t-mbon-dan-feedback]]、[[t-memory-updating]]
 - 矛盾與空缺：[[syn-contradictions]]

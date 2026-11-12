@@ -2,7 +2,7 @@
 title: "Heterosynaptic Plasticity Underlies Aversive Olfactory Learning in Drosophila"
 citation: "Neuron 88(5), 985–998 (2015). doi: 10.1016/j.neuron.2015.11.003 [全文（PMC 免費閱讀）](https://pmc.ncbi.nlm.nih.gov/articles/PMC4674068/)"
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-12
 tags: [source, active, mb-learning]
 confidence: high
 ---
@@ -365,7 +365,8 @@ flowchart TD
 - 本庫已有的相關頁：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-split-gal4]]、[[e-cschrimson]]、[[e-gcamp]]、[[c-kc-mbon-plasticity]]、[[c-mb-compartment]]、[[c-cs-us-timing]]、[[c-us-substitution]]、[[c-performance-index]]、[[e-dopaminergic-neuron]]、[[e-mbon]]
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]；矛盾與空缺：[[syn-contradictions]]
 - 本批（2026-10-25 第二批）已開頁、與本篇相關：[[e-mbon-gamma1pedc]]、[[e-ppl1-gamma1pedc]]、[[e-mbon-gamma2alpha1]]、[[e-mb099c]]、[[e-th-gal4]]、[[c-odor-generalization]]、[[c-whole-cell-patch-clamp]]
-- 待開頁面：`e-mbon-alpha2sc`、`e-campbell-2013-odor-set`、`c-sparse-coding`、`c-synaptic-interference`、`c-valence-coding`
+- 概念：[[c-sparse-coding]]（本篇與 [[s-minnick-2026-untrained-connectome]] 使它在 2026-11-12 達到開頁門檻）
+- 待開頁面：`e-mbon-alpha2sc`、`e-campbell-2013-odor-set`、`c-synaptic-interference`、`c-valence-coding`
 
 ## 出處
 

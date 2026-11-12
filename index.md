@@ -3,7 +3,7 @@
 **[[syn-changelog|更新履歷]]**：這座知識庫怎麼長成現在的樣子，以及它更正過自己幾次
 **[[syn-contradictions|矛盾與空缺]]**：論文之間說法不同、等人裁決的地方，以及沒有人做過的實驗
 
-範圍是果蠅（*Drosophila*）的學習與記憶研究，以及蕈狀體（mushroom body）本身的研究（2026-11-12 由只收蕈狀體擴大而來）。蕈狀體是果蠅腦中負責「把氣味和好壞結果連起來」的區域，是研究學習與記憶最常用的模型，也是目前已收論文的共同主軸；蕈狀體以外的學習記憶研究（例如中央複合體的空間學習、求偶制約、幼蟲的學習），收到論文後會各自成為新的研究問題群。目前 **10 篇來源**、4 條主題、14 個概念、26 個實體、2 個綜述，分屬兩個研究問題群。
+範圍是果蠅（*Drosophila*）的學習與記憶研究，以及蕈狀體（mushroom body）本身的研究（2026-11-12 由只收蕈狀體擴大而來）。蕈狀體是果蠅腦中負責「把氣味和好壞結果連起來」的區域，是研究學習與記憶最常用的模型，也是目前已收論文的共同主軸；蕈狀體以外的學習記憶研究（例如中央複合體的空間學習、求偶制約、幼蟲的學習），收到論文後會各自成為新的研究問題群。目前 **11 篇來源**、4 條主題、15 個概念、26 個實體、2 個綜述，分屬兩個研究問題群。
 
 **怎麼讀這份索引。** 第一層是**研究問題群**，第二層是**主題**。主題頁（`t-`）回答「這批論文對這件事說了什麼、彼此怎麼對話」，用白話寫成，是讀者的入口。概念頁（`c-`）與實體頁（`e-`）掛在主題底下，供查詞。來源頁（`s-`）是一篇論文一頁，含科普文、專業文與每張主圖的解讀。完整的來源清單在文末。
 
@@ -39,12 +39,12 @@
 
 **兩篇對「cAMP 分不分得出先後」說法相反，列為待裁決**（Handler 2019 正文沒有點名 *rutabaga*，它量到的 cAMP 是不是同一個酵素製造的，沒有交代）。另外兩點：學習造成的突觸改變主要限在一格（區室）之內，但 Cohn 2015 發現活化一格的多巴胺神經元時，別格的 MBON 反應也會小幅下降；Cohn 2015 也直接看到 KC 送訊號那一端（末梢）的鈣會隨多巴胺改變，不過那是沒有配對氣味時的結果。**配對之後末梢怎麼變沒有人量過，所以學習的改變發生在 KC 這一側（突觸前）還是 MBON 那一側（突觸後），仍沒有答案。**
 
-- 概念：[[c-camp-signaling]]、[[c-coincidence-detection]]、[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]
+- 概念：[[c-camp-signaling]]、[[c-coincidence-detection]]、[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-sparse-coding]]
 - 實體：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-epac-camp-sensor]]
 - 概念（第二批）：[[c-presynaptic-calcium]]、[[c-ex-vivo-explant]]、[[c-whole-cell-patch-clamp]]、[[c-odor-generalization]]
 - 實體（第二批）：[[e-dopamine-receptor]]、[[e-mbon-gamma4]]、[[e-mbon-gamma1pedc]]、[[e-ppl1-gamma1pedc]]
 - 實體（2026-10-26）：[[e-rutabaga]]
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tumkaya-2025-synthetic-memory-inception]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-minnick-2026-untrained-connectome]]
 
 ---
 
@@ -105,6 +105,7 @@
 - [[s-felsenberg-2018-memory-extinction]] — Felsenberg et al., *Cell*：懲罰記憶的消退由獎賞型多巴胺神經元寫下一筆相反的記憶，新舊兩筆在一顆叫 M6 的輸出神經元（讀取 γ5 格）上整合 · 2026-10-25
 - [[s-handler-2019-dopamine-receptor-timing]] — Handler et al., *Cell*：DopR1 與 DopR2 兩條路徑讓同一突觸依先後變弱或變強 · 2026-10-25
 - [[s-tumkaya-2025-synthetic-memory-inception]] — Tumkaya et al., *iScience*：氣味與增強訊號都換成光，整場訓練沒有自然刺激，果蠅照樣形成記憶；ORN 放電的時間節奏則學不起來 · 2026-11-12
+- [[s-minnick-2026-untrained-connectome]] — Minnick et al., *arXiv* 預印本：把整份果蠅連結體原樣跑成脈衝網路並放進模擬身體；蕈狀體的學習讓趨近變成躲避，但原樣網路的 Kenyon 細胞不依賴氣味，那個學習並非聯結式 · 2026-11-12
 
 ---
 
