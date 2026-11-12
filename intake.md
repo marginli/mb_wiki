@@ -55,7 +55,7 @@ python3 tools/scan.py --todo   # 只印待處理的檔名，一行一個
 | `TullyQuinn1985.pdf` | 已收錄 | [[s-tully-1985-classical-conditioning]] | 學習的訊號機制；記憶寫入之後 | 2026-10-26 | *J Comp Physiol A* 157(2):263–277（1985），© Springer-Verlag。**無免費全文**（無 PMC），出處只給 DOI 10.1007/BF01350033。掃描版 PDF 無文字層，以 OCR 轉出（`.cache/tullyquinn1985/ocr.txt`）並對照頁面影像校正。**全文不提蕈狀體**，2026-10-26 經使用者同意收錄（理由：本庫 T 迷宮協定與學習指數的源頭，被 Tomchik 2009、Felsenberg 2018 引用）。1985 年無補充資料制度 |
 | `2025-Entirely synthetic memory inception via dual optogenetic activation of sensory and dopaminergic neurons.pdf` | 已收錄 | [[s-tumkaya-2025-synthetic-memory-inception]] | 學習的訊號機制 | 2026-11-12 | *iScience* 28(10):113540，**CC BY-NC 4.0**（PMC12529362）。PDF 依規則仍不進 git。**無補充圖表**，STAR Methods 在正文內；行為資料、共軛焦 Z 堆疊與分析程式在 Zenodo（10.5281/zenodo.13935194），本庫未下載 |
 | `2025-Sexual dimorphism in the complete connectome of the Drosophila male central nervous system.pdf` | 不收錄 | — | — | 2026-11-12 | 暫時擱置（2026-11-12 使用者決定）。理由見下方「不收錄的判定紀錄」 |
-| `2026-Sensorimotor behaviour from an untrained brain-and-nerve-cord connectome.pdf` | 待處理 | — | — | 2026-11-12 | arXiv:2610.33881v1 [q-bio.NC]，2026-10-24，42 頁，UC Santa Cruz（Minnick 等）。使用者於 2026-11-12 16:35 放入，尚未判定收錄。初步檢查：全文提到 mushroom body 30 次、Kenyon 66 次、dopamine 44 次、plasticity 26 次，應在範圍內 |
+| `2026-Sensorimotor behaviour from an untrained brain-and-nerve-cord connectome.pdf` | 處理中 | — | — | 2026-11-12 | arXiv:2610.33881v1 [q-bio.NC]，2026-10-24，42 頁，UC Santa Cruz（Minnick 等）。使用者於 2026-11-12 16:35 放入，尚未判定收錄。初步檢查：全文提到 mushroom body 30 次、Kenyon 66 次、dopamine 44 次、plasticity 26 次，應在範圍內 |
 
 ## 不收錄的判定紀錄
 
