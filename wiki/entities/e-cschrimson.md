@@ -1,7 +1,7 @@
 ---
 title: CsChrimson（紅光活化通道）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-12
 tags: [entity, active, mb-learning]
 confidence: high
 ---
@@ -13,6 +13,8 @@ confidence: high
 一種照紅光就打開、讓正離子流進細胞的通道蛋白（光敏感通道，opsin）。用驅動品系讓特定神經元製造它，紅光一照，那群神經元就放電。這種「用光控制神經元」的方法叫光遺傳（optogenetics）。在本庫，它主要用來直接活化 [[e-dopaminergic-neuron]]（DAN），代替電擊或糖水當作懲罰或獎賞（見 [[c-us-substitution]]）；Felsenberg 2017、2018 則用它在取出的腦裡活化輸出神經元（MBON），看 DAN 會不會跟著反應（見 [[t-mbon-dan-feedback]]）。優點是時間精確到毫秒，而且只動被標記的那幾顆 DAN。
 
 它需要視黃醛（retinal）當輔因子，所以果蠅要先吃含全反式視黃醛的飼料、養在暗處。
+
+**Chr2XXL** 是另一種**藍光**活化的通道（峰值約 460 nm），Tumkaya 2025 用它活化 DAN，把紅光留給 ORN，因此能在同一隻果蠅上分別控制兩條路徑。該篇指出它**關閉得慢**，而這個特性改變了實驗設計：獎賞制約沿用 12 次脈衝時做不出記憶，改成只給一次 3 秒的光才成功（見 [[s-tumkaya-2025-synthetic-memory-inception]]）。
 
 **ChrimsonR** 是另一種紅光活化的通道，Handler 2019 只在閉迴路實驗用它（果蠅頭固定在顯微鏡下、腳踩泡沫球，球的轉動帶動送氣管，可同時看腦與行為）。兩者的差別本庫各篇都沒有說明：？待查。
 
@@ -39,6 +41,7 @@ confidence: high
 | [[s-aso-2016-dan-cell-type-rules]] | 六組品系（MB320C、MB099C、MB630B、MB043C、MB213B、MB315C＋MB109B），另以 VT045661-LexA 驅動 LexA 版 CsChrimson；行為：627 nm、34.9 µW/mm²，標準訓練 60 s 內 30 下、每下 1 s；視黃醛羽化前 0.2 mM、之後 0.4 mM | 競技場中代替電擊或糖訓練，比較各型 DAN 的學習規則 |
 | [[s-felsenberg-2017-re-evaluation]] | **活化的是 MBON 不是 DAN**：V2 群（R71D08-LexA 等）、γ2α′1 MBON（R25D01-LexA、MB077C）；離體腦，630 nm、0.85 mW/mm²，40 Hz × 10 ms 共 500 ms（圖 4d 為 200 ms）；視黃醛 1 mM | 看活化 MBON 後 PPL1 或 PAM 的鈣反應（MBON → DAN 的功能連結） |
 | [[s-felsenberg-2018-memory-extinction]] | **活化的是 MBON**：M4β′ 與 M6（VT1211-LexA）；離體腦，參數同 Felsenberg 2017（500 ms） | 活化後 γ5 的 PAM 末梢 ΔF/F0 約 +1.75（5 個腦），γ4 無反應 |
+| [[s-tumkaya-2025-synthetic-memory-inception]] | **活化的是感覺神經元不是 DAN**：Orco-Gal4 的 ORN（另有 Or42b、Gr21a）。論文寫「Chrimson」，品系為 BDSC:55135（帶 mVenus 標籤）；視黃醛 0.5 mM、實驗前 2 天換飼料、全程暗養 | 以紅光代替氣味當 CS。紅光由微投影機照半條通道，形成明暗選擇；該篇的 DAN 改用藍光的 Chr2XXL，兩色互不干擾 |
 
 ## 已知的問題
 

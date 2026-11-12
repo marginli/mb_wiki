@@ -3,7 +3,7 @@
 **[[syn-changelog|更新履歷]]**：這座知識庫怎麼長成現在的樣子，以及它更正過自己幾次
 **[[syn-contradictions|矛盾與空缺]]**：論文之間說法不同、等人裁決的地方，以及沒有人做過的實驗
 
-範圍是果蠅（*Drosophila*）的學習與記憶研究，以及蕈狀體（mushroom body）本身的研究（2026-11-12 由只收蕈狀體擴大而來）。蕈狀體是果蠅腦中負責「把氣味和好壞結果連起來」的區域，是研究學習與記憶最常用的模型，也是目前已收論文的共同主軸；蕈狀體以外的學習記憶研究（例如中央複合體的空間學習、求偶制約、幼蟲的學習），收到論文後會各自成為新的研究問題群。目前 **9 篇來源**、4 條主題、14 個概念、26 個實體、2 個綜述，分屬兩個研究問題群。
+範圍是果蠅（*Drosophila*）的學習與記憶研究，以及蕈狀體（mushroom body）本身的研究（2026-11-12 由只收蕈狀體擴大而來）。蕈狀體是果蠅腦中負責「把氣味和好壞結果連起來」的區域，是研究學習與記憶最常用的模型，也是目前已收論文的共同主軸；蕈狀體以外的學習記憶研究（例如中央複合體的空間學習、求偶制約、幼蟲的學習），收到論文後會各自成為新的研究問題群。目前 **10 篇來源**、4 條主題、14 個概念、26 個實體、2 個綜述，分屬兩個研究問題群。
 
 **怎麼讀這份索引。** 第一層是**研究問題群**，第二層是**主題**。主題頁（`t-`）回答「這批論文對這件事說了什麼、彼此怎麼對話」，用白話寫成，是讀者的入口。概念頁（`c-`）與實體頁（`e-`）掛在主題底下，供查詞。來源頁（`s-`）是一篇論文一頁，含科普文、專業文與每張主圖的解讀。完整的來源清單在文末。
 
@@ -13,7 +13,7 @@
 
 ## 學習的訊號機制：多巴胺如何改變 KC→MBON 突觸
 
-蕈狀體的學習模型是：每個氣味活化一小群 Kenyon 細胞（KC），所以「哪一群 KC 在活動」就代表是哪個氣味；多巴胺神經元（DAN）帶來好壞訊號（在實驗裡常用電擊當懲罰、用糖當獎賞）；兩者同時出現時，KC 與輸出神經元（MBON，它的活動推動果蠅靠近或走開）之間的接點（突觸）會變強或變弱。蕈狀體沿長度分成一格一格的區室，每格由一型 DAN 支配、一型 MBON 讀取。最早收錄的三篇都在這條線上，分別量了 KC 內部的化學訊號、輸出突觸的電流、以及受體與時序的關係；第二批的 Cohn 2015 直接看了 KC 送訊號那一端的鈣，Aso 2016 在行為上比較了各型多巴胺神經元的時序規則。2026-10-26 收錄的 Tully 1985 年代最早、全文沒有提到蕈狀體：它建立了庫內多篇沿用的 T 迷宮「氣味—電擊」學習測驗，用它量了電擊要在氣味之後多快來才學得到，並比較了 *rutabaga* 等學習突變株的記憶曲線。這些突變株壞掉的基因都在製造或分解 cAMP 的路徑上，但這是作者引用前人的生化結果，本篇自己沒有量 cAMP。
+蕈狀體的學習模型是：每個氣味活化一小群 Kenyon 細胞（KC），所以「哪一群 KC 在活動」就代表是哪個氣味；多巴胺神經元（DAN）帶來好壞訊號（在實驗裡常用電擊當懲罰、用糖當獎賞）；兩者同時出現時，KC 與輸出神經元（MBON，它的活動推動果蠅靠近或走開）之間的接點（突觸）會變強或變弱。蕈狀體沿長度分成一格一格的區室，每格由一型 DAN 支配、一型 MBON 讀取。最早收錄的三篇都在這條線上，分別量了 KC 內部的化學訊號、輸出突觸的電流、以及受體與時序的關係；第二批的 Cohn 2015 直接看了 KC 送訊號那一端的鈣，Aso 2016 在行為上比較了各型多巴胺神經元的時序規則。2026-10-26 收錄的 Tully 1985 年代最早、全文沒有提到蕈狀體：它建立了庫內多篇沿用的 T 迷宮「氣味—電擊」學習測驗，用它量了電擊要在氣味之後多快來才學得到，並比較了 *rutabaga* 等學習突變株的記憶曲線。這些突變株壞掉的基因都在製造或分解 cAMP 的路徑上，但這是作者引用前人的生化結果，本篇自己沒有量 cAMP。 2026-11-12 收錄的 Tumkaya 2025 走到這條線的另一端：它把氣味和懲罰（或獎賞）都換成光，整場訓練沒有任何自然刺激，果蠅照樣學得起來，可見「兩條路徑同時有活動」就足以指揮記憶形成；同一篇也發現，ORN 放電的精細節奏果蠅學不起來。
 
 ### [[t-timing-rules]]｜先後與間隔：氣味和多巴胺的時序如何決定學到什麼
 
@@ -27,7 +27,7 @@
 
 - 概念：[[c-cs-us-timing]]、[[c-coincidence-detection]]、[[c-kc-mbon-plasticity]]、[[c-us-substitution]]、[[c-performance-index]]
 - 實體：[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-kenyon-cell]]
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-handler-2019-dopamine-receptor-timing]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tumkaya-2025-synthetic-memory-inception]]
 
 ### [[t-dopamine-to-plasticity]]｜從多巴胺到突觸改變：KC 軸突怎麼讀出增強訊號
 
@@ -44,7 +44,7 @@
 - 概念（第二批）：[[c-presynaptic-calcium]]、[[c-ex-vivo-explant]]、[[c-whole-cell-patch-clamp]]、[[c-odor-generalization]]
 - 實體（第二批）：[[e-dopamine-receptor]]、[[e-mbon-gamma4]]、[[e-mbon-gamma1pedc]]、[[e-ppl1-gamma1pedc]]
 - 實體（2026-10-26）：[[e-rutabaga]]
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tumkaya-2025-synthetic-memory-inception]]
 
 ---
 
@@ -104,6 +104,7 @@
 - [[s-felsenberg-2017-re-evaluation]] — Felsenberg et al., *Nature*：再聞受訓氣味不給糖會消退、再聞對照氣味會再鞏固，兩者走不同的迴路 · 2026-10-25
 - [[s-felsenberg-2018-memory-extinction]] — Felsenberg et al., *Cell*：懲罰記憶的消退由獎賞型多巴胺神經元寫下一筆相反的記憶，新舊兩筆在一顆叫 M6 的輸出神經元（讀取 γ5 格）上整合 · 2026-10-25
 - [[s-handler-2019-dopamine-receptor-timing]] — Handler et al., *Cell*：DopR1 與 DopR2 兩條路徑讓同一突觸依先後變弱或變強 · 2026-10-25
+- [[s-tumkaya-2025-synthetic-memory-inception]] — Tumkaya et al., *iScience*：氣味與增強訊號都換成光，整場訓練沒有自然刺激，果蠅照樣形成記憶；ORN 放電的時間節奏則學不起來 · 2026-11-12
 
 ---
 

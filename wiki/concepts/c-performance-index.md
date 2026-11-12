@@ -1,7 +1,7 @@
 ---
 title: 表現指數（performance index, P.I.）
 created: 2026-10-25
-updated: 2026-11-09
+updated: 2026-11-12
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
@@ -31,6 +31,7 @@ confidence: medium
 | Aso 2016 | 競技場 | 〔（氣味 A 象限隻數）−（氣味 B 象限隻數）〕／總隻數，A＝配光的氣味；取測驗最後 30 s 平均；A、B 互換兩群取平均 | 趨近配光氣味（圖 1、4）；圖 2、3 把嫌惡型品系**改號**，正值＝學到了 |
 | Ichinose 2015 | T 迷宮 | 稱學習指數（learning index, LI）：取 2 分鐘選擇的最後 60 s 算偏好指數，互為對照的兩組取平均；偏好指數的換算公式未寫 | 選配過糖的氣味 |
 | Felsenberg 2017 | T 迷宮 | 未寫，「如文獻 17（Krashes & Waddell 2008）所述」 | 偏向 CS+（獎賞） |
+| Tumkaya 2025 | MOT／WALISAR 線形通道 | PI ＝（受訓區隻數 − 對照區隻數）／總隻數，取測驗最後 30 s 的平均。**報的是 ΔPI ＝ PI(測驗) − PI(同一批果蠅的事前偏好檢查)**，不是測驗當下的 PI。另外**只報半 PI**：反 OCT 與反 MCH（或紅光在左與紅光在右）兩組分開報，不合併 | 依實驗而定：嫌惡制約為負（躲開受訓的氣味或光區），獎賞制約為正 |
 | Felsenberg 2018 | T 迷宮 | （CS+ 臂隻數 − CS− 臂隻數）÷ 總數（引 Tully & Quinn 1985）；MCH、OCT 輪流當 CS+，兩組平均為一個 n。**與 Tully 的 Λ 方向相反：** Tully 把走進另一個氣味那一臂的果蠅算成躲開這個氣味（PDF 第 266 頁）。所以待在 CS− 臂的果蠅＝躲開了 CS+，待在 CS+ 臂的＝躲開了 CS−。代入本式：（躲 CS− 的隻數 − 躲 CS+ 的隻數）÷ 總數，正好是 Λ 的兩項對調，即 −Λ。白話：Felsenberg 2018 的分數就是 Tully 的分數加上負號。※ 推論：只有兩篇的分母都是同一種「總數」時才完全等於 −Λ；若一篇含、一篇不含留在中央的果蠅，數值會略有不同。本篇原文只寫「total number of flies」，含不含中央者：？待查 | 偏向 CS+；本篇是電擊訓練，所以**躲 CS+ 時為負值** |
 
 ## 庫內的用法
@@ -44,6 +45,7 @@ confidence: medium
 | [[s-ichinose-2015-reward-recurrent-circuit]] | 以 LI 比較阻斷或降低受體後的 5 分鐘與 24 小時記憶 | 例：活化 MBON-α1 代替糖，24 h LI 約 0.15，真糖訓練的對照多在 0.3–0.45 |
 | [[s-felsenberg-2017-re-evaluation]] | 糖獎賞記憶再聞 CS+ 或 CS− 後，6 小時的 PI | 消退後約 0.01，其他組約 0.2–0.3（見 [[c-memory-extinction]]） |
 | [[s-felsenberg-2018-memory-extinction]] | 電擊記憶再聞 CS+ 後，1 小時的 P.I. | 例：不再暴露約 −0.39、再聞 CS+ 兩次約 −0.20，躲避少了約一半 |
+| [[s-tumkaya-2025-synthetic-memory-inception]] | 以 ΔPI 當效果量，比較自然、半合成與全合成制約；以 DABEST 拔靴重抽報 95% 信賴區間，**刻意不報 p 值** | 自然氣味＋電擊 −0.44 至 −0.72；紅光取代氣味＋電擊 −0.92；全合成嫌惡 −0.33（MOT）／+0.07（WALISAR）；全合成喜好 +0.50（MOT）／+0.38（WALISAR） |
 
 > 除 Tully 1985 的 0.89 ± 0.01 與 5–10% 取自正文外，數值皆為從圖判讀，見 [[numbers]] 與各來源頁。**Handler 2019 不用 P.I.**（全文 grep `performance` 無結果）：它的行為指標是一盒 4–7 隻果蠅的群體重心在 2 s 氣味期間往上風（氣味源）移動的距離（mm）；正值＝往氣味走＝吸引。Cohn 2015 沒有任何行為選擇測驗。
 
@@ -59,9 +61,16 @@ confidence: medium
 
 7. **分母含不含「留在中央」的果蠅，同一組果蠅會算出兩個不同的分數。** T 迷宮測驗結束時總有一些果蠅還沒走進任何一臂（Tully 1985 每群約 150 隻中通常 5–10 隻）。分母若是全部果蠅，這些果蠅等於算 0 分，分數被往 0 壓；分母若只算已進臂的，分數會較高，而且進臂的果蠅越少、分數越不穩。庫內各篇的分母：Tully 1985 ※ 推論含留在中央者（依據見上表該列：93% − 4% ＝ 0.89，三個比例加起來 100%）；Felsenberg 2018 只寫「總隻數」，含不含中央者 ？待查；Aso 2016 的競技場沒有「中央」，每隻果蠅必在某個象限，沒有這個問題。**並排兩個分數之前先確認兩邊的分母是同一種**，尤其是模擬或自製裝置算出的分數：模擬常以「已進臂隻數」為分母，和 Tully 式的「全部果蠅」不是同一個量，差距取決於留在中央的比例，要先換成同一種算法才能比。※ 推論：Λ ＝ 0.89 時 Tully 的果蠅只有 3% 留在中央，所以兩種分母在這個條件下差不到 0.03；但進臂比例低時（例如模擬裡 40 秒內只有七、八成進臂）差距可達 0.2 以上。
 
+8. **ΔPI（前後之差）與 PI（測驗當下）不是同一個量。** [[s-tumkaya-2025-synthetic-memory-inception]] 報的是每一批果蠅自己訓練前後的差值，等於把牠對光或氣味的天生偏好扣掉；庫內其他篇多半直接報測驗時的 PI，天生偏好是靠「兩群互換 CS+ 再平均」來抵銷的。兩種做法都能去掉天生偏好，但**差值的變異是兩次測量的變異相加**，所以 ΔPI 的信賴區間天生比單次 PI 寬，不能因為「區間比較寬」就說該篇的資料比較吵。要並排比較時，先確認對方報的是哪一種。
+
+9. **半 PI 與全 PI 差一個約定，數值不可直接並排。** 慣例上 T 迷宮把「OCT 當 CS+」與「MCH 當 CS+」兩群合併成一個全 PI；[[s-tumkaya-2025-synthetic-memory-inception]] 明說改報半 PI（兩群各自的分數），理由該篇未展開。該篇的 `Ns` 也要看裝置：MOT 的一個 N 是一條通道（6–8 隻），WALISAR 的一個 N 是一隻果蠅，所以同一篇裡 N＝26 與 N＝52 代表的果蠅數相差數倍。
+
+10. **不報 p 值不等於沒做統計。** [[s-tumkaya-2025-synthetic-memory-inception]] 使用 DABEST 的估計統計：以拔靴重抽算效果量與 95% 信賴區間，並引用文獻主張這是較好的作法。判讀時看區間含不含 0，而不是找星號。要注意這個標準在邊界上很脆弱：該篇全合成嫌惡記憶的 ΔPI 是 −0.33 [−0.64, **−0.01**]，區間上界離 0 只有 0.01。
+
 ## 相關
 
 - 主題：[[t-timing-rules]]、[[t-memory-updating]]
 - 概念：[[c-cs-us-timing]]、[[c-us-substitution]]、[[c-memory-extinction]]、[[c-odor-generalization]]
 - 實體：[[e-t-maze]]、[[e-olfactory-arena]]
+- 來源：本頁的用法表列出全部七篇；另見 [[s-tumkaya-2025-synthetic-memory-inception]] 的 ΔPI 與半 PI
 - 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]

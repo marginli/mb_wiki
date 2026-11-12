@@ -2,6 +2,16 @@
 
 只追加，新的在最上面。動作僅三種：`ingest` / `query` / `lint`（另有人類的 `裁決`）。
 
+## [2026-11-12] ingest | Tumkaya 2025：全合成記憶植入
+
+新增 [[s-tumkaya-2025-synthetic-memory-inception]]，圖 6 張（CC BY-NC 4.0，逐圖標出處與授權）。本篇無補充圖表，故全頁沒有「補充資料未取得」的待查。
+
+更新 9 頁：主題 [[t-timing-rules]]（新增「刺激自己的節奏」一節，並在缺口補「同時給有多寬容沒人量過」）、[[t-dopamine-to-plasticity]]（新增作者自劃的界線：未直接操作突觸）；概念 [[c-us-substitution]]（新增陷阱 6：取代 CS 的證據強度分方向）、[[c-performance-index]]（新增陷阱 8–10：ΔPI vs PI、半 PI vs 全 PI、不報 p 值不等於沒做統計）、[[c-coincidence-detection]]（陷阱 6–7）、[[c-cs-us-timing]]（陷阱 8–9：兩種「時間結構」別混用）；實體 [[e-r58e02]]、[[e-th-gal4]]、[[e-cschrimson]]（新增 Chr2XXL 段）、[[e-dopaminergic-neuron]]、[[e-t-maze]]（新增 MOT／WALISAR 對照）。另更新 `index.md`、`numbers.md`、`intake.md` 與 [[syn-changelog]]（新增階段五）。
+
+單篇自身不一致 4 項、論文未做的計算或未討論的資料 5 項，全部登記在 [[syn-contradictions]] 第二節與來源頁「五、問題與限制」第 4 條。無新的跨來源矛盾。新增空缺 2 條（3.12 全合成記憶與自然記憶是否相同、3.13 全光學方法尚未用來掃時間差），空缺總數 11 → 13。
+
+判定 `2025-Sexual dimorphism...（MaleCNS 連結體預印本）` **暫不收錄**（使用者裁示），理由與重新考慮的條件寫在 `intake.md` 的「不收錄的判定紀錄」。另登記使用者於同日放入的 `2026-Sensorimotor behaviour from an untrained brain-and-nerve-cord connectome.pdf` 為待處理。
+
 ## [2026-11-12] lint | 譯名統一：蘑菇體 → 蕈狀體
 
 依使用者的用語規則，全庫 wiki 頁、`README.md`、`index.md`、`intake.md`、`CLAUDE.md` 與 skill 的「蘑菇體」一律改為「蕈狀體」（約 210 處）。本日誌較早條目照「只追加」原則保留原字。數字、引用與結論未動。

@@ -1,7 +1,7 @@
 ---
 title: 從多巴胺到突觸改變：KC 軸突怎麼讀出增強訊號
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-11-12
 tags: [topic, active, mb-learning]
 confidence: medium
 ---
@@ -126,6 +126,8 @@ Felsenberg 2018 還有一處和本環有關：它的引言把「突觸前那一�
 
 ## 這條線卡在哪
 
+**一個由作者自己劃出的界線。** 本頁整條線都建立在一個假設上：學習就是 KC→MBON 突觸的強弱改變。[[s-tumkaya-2025-synthetic-memory-inception]]（2025）提醒這個假設還沒有被它那類實驗證明。該篇只用光同時活化 ORN 與多巴胺神經元，就造出了行為上的記憶，這很容易被讀成「突觸可塑性假說又多一個證據」；但作者明說，這類實驗**沒有直接操作任何一個突觸**，所以不能用來論證突觸權重的改變本身。這句話值得記住，因為它適用的範圍比那一篇大——本頁引用的行為實驗（Tully 1985、Aso 2016、Ichinose 2015）都有同樣的限制，差別只在那些篇沒有把話說出來。真正直接量突觸的，庫內只有 Hige 2015 與 Handler 2019 的離體記錄，以及 Cohn 2015 的鈣成像。
+
 **最容易被誤讀的一點：「cAMP 推動突觸變弱」與「cAMP 分得出先後」是兩件不同的事。** 在 Handler 2019 的模型裡，cAMP 參與決定突觸往哪個方向改（它推動變弱），但判斷氣味與多巴胺誰先誰後的，是放鈣那條路徑。把它讀成「cAMP 偵測先後」，就讀反了 Handler 2019 的結論。但 Tomchik 2009 用另一種量法得到相反的看法，所以就整個庫而言，cAMP 分不分得出先後仍沒有定論。
 
 **沒有人處理的缺口：**
@@ -137,6 +139,7 @@ Felsenberg 2018 還有一處和本環有關：它的引言把「突觸前那一�
 - 1985 年指出的三處不合中，*dunce* 與 *rutabaga* 的 cAMP 方向相反卻缺陷相似、雙突變株 cAMP 接近正常卻學得更差這兩點，本庫之後的來源都沒有回頭處理（已在 `wiki/sources/` 搜尋 dunce、dnc）；*rutabaga* 突變後剩下的學習靠哪條路徑，也沒有人測過。
 - Tomchik 2009 發現章魚胺（octopamine，昆蟲腦中另一種調節物質）與乙醯膽鹼配對時，cAMP 反而少於分開給的總和，方向與多巴胺相反。之後收錄的各篇都沒有回頭檢驗（[[syn-contradictions]] 3.5）。
 - Handler 2019 的突變是全身性的，不只在 KC 上剔除受體，所以行為缺陷不一定全部來自蕈狀體。Cohn 2015 的 DopR2 突變（倒過來）與只在 KC 減少 DopR2（變平）結果不同，也提示 KC 以外的受體可能有作用（※ 推論）。
+- 全人工制約造出的記憶，和自然制約造出的是不是同一個東西，沒有人比較過。[[s-tumkaya-2025-synthetic-memory-inception]] 只比了行為分數的大小（全合成約為自然的四分之三到一半），沒有比較兩者在 KC→MBON 突觸上的改變、在各格之間的分布，或在保留與消退上的差別。分數較小可能是記憶較弱，也可能是性質不同，該篇的資料分不出來。把全光學制約接上離體記錄，是庫內現成可做的檢驗（[[c-ex-vivo-explant]]）。
 
 ## 相關
 
@@ -149,6 +152,7 @@ Felsenberg 2018 還有一處和本環有關：它的引言把「突觸前那一�
 - [[s-ichinose-2015-reward-recurrent-circuit]]：獎賞型長期記憶需要 α/β KC 上的 DopR1
 - [[s-felsenberg-2018-memory-extinction]]：MBON 樹突沒變不等於輸出沒變；引言的「突觸前變弱」是合併引用
 - [[s-felsenberg-2017-re-evaluation]]：獎賞訓練後，沒有配糖的氣味反而讓某一格輸出神經元反應變大，現有的配對規則解釋不了（[[syn-contradictions]] 3.7）
+- [[s-tumkaya-2025-synthetic-memory-inception]]：只同時活化 ORN 與多巴胺神經元就造出記憶；作者自陳沒有直接操作突觸，不能據此論證突觸可塑性假說
 - 概念：[[c-camp-signaling]]、[[c-coincidence-detection]]、[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-cs-us-timing]]、[[c-us-substitution]]、[[c-ex-vivo-explant]]、[[c-memory-consolidation]]、[[c-memory-extinction]]
 - 實體：[[e-rutabaga]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-mushroom-body]]、[[e-epac-camp-sensor]]、[[e-gcamp]]、[[e-dopamine-receptor]]、[[e-p2x2]]、[[e-r58e02]]、[[e-t-maze]]
 - 其他主題：[[t-timing-rules]]、[[t-mbon-dan-feedback]]、[[t-memory-updating]]

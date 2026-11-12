@@ -1,7 +1,7 @@
 ---
 title: 多巴胺神經元（dopaminergic neuron, DAN）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-12
 tags: [entity, active, mb-learning]
 confidence: medium
 ---
@@ -33,6 +33,7 @@ confidence: medium
 | [[s-ichinose-2015-reward-recurrent-circuit]] | 以 shibire^ts 阻斷（[[e-shibire-ts]]）、RNAi 降低 NMDA 受體 | PAM-α1（MB299B；雙標記用 R72D01-LexA） |
 | [[s-felsenberg-2017-re-evaluation]] | **阻斷而非活化**：shibire^ts 在記憶再活化期間關掉 DAN；離體量 DAN 對 MBON 活化的鈣反應 | TH-GAL4（全部六型 PPL1）、MB504B（四型 PPL1）、R58E02（13 型 PAM）、MB296B／R73F07（PPL1-γ2α′1）等 |
 | [[s-felsenberg-2018-memory-extinction]] | 阻斷：shibire^ts；離體成像 PAM 末梢 | R58E02-GAL4（PAM，阻斷後消退消失）、MB504B（PPL1，阻斷後消退照常）；R48B04-GAL4 成像 γ4、γ5、β′2p、β′2m 的 PAM |
+| [[s-tumkaya-2025-synthetic-memory-inception]] | 光遺傳：DAN 表現**藍光**活化的 Chr2XXL，把紅光讓給 ORN（見 [[e-cschrimson]]） | **TH-LexA**，自述為「含 PPL1 在內的 TH⁺ 子集」，未列型別（見 [[e-th-gal4]]）；**R58E02-LexA**，只寫「PAM」，未列型別（見 [[e-r58e02]]）。兩個品系的涵蓋範圍本篇都沒有交代，免疫染色也分辨不出來（anti-ChR2 同時認兩種通道蛋白） |
 
 品系的專一性問題見 [[e-split-gal4]]。
 

@@ -1,7 +1,7 @@
 ---
 title: 制約刺激與非制約刺激的時序（CS–US timing）
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-11-12
 tags: [concept, active, mb-learning]
 confidence: high
 ---
@@ -47,6 +47,7 @@ confidence: high
 | [[s-cohn-2015-coordinated-neuromodulation]] | 離體 γ4：同一顆腦輪流做配對與不配對 | 配對讓 γ4 MBON 反應下降（約 2.0 → 0.35 ΔF/F0，但起點是已被增強的狀態）；不配對讓它上升（約 0.6 → 2.0）。無行為讀數 |
 | [[s-aso-2016-dan-cell-type-rules]] | 行為：單一型 DAN（PPL1-γ1pedc，MB320C）的十點時間差掃描 | 光在氣味開始後 0–20 s → 嫌惡（PI 最低約 −0.45）；光早 20–60 s → 喜好（約 +0.15）；早 10 s、早 90 s、晚 30 s、晚 60 s 無效 |
 | [[s-handler-2019-dopamine-receptor-timing]] | 同一套 ISI 並排量行為、γ4 突觸、cAMP 與內質網鈣 | 離體 −1.2 s 時 KC→MBON 突觸增強，0 與 +0.5 s 減弱，±6 s 幾乎不變；行為也隨順序在吸引與迴避之間翻轉 |
+| [[s-tumkaya-2025-synthetic-memory-inception]] | **沒有掃時間差**：CS 與 US 完全同時給。改為檢驗 CS **自身內部**的時間結構能不能被學——連續光 vs 20 Hz 脈衝光，哪一種被罰過 | 果蠅分不出來（六組中五組的實驗組 ΔPI 在 −0.14 到 +0.14；唯一例外是 Or42b 靜態光 −0.54）。作者結論：ORN 活動的精確時間編碼不是聯結學習的關鍵決定因素 |
 
 > 各點數值見 [[numbers]]。
 
@@ -60,10 +61,13 @@ confidence: high
 6. **數十秒不只是「學不學得到」。** 本庫主題頁 [[t-timing-rules]] 原本把行為的數十秒時間窗讀成「學不學得到」、把突觸的一秒尺度讀成「往哪個方向」；Aso 2016 在行為上看到方向也在數十秒尺度翻轉（嫌惡 ↔ 喜好），這個二分法要附條件。
 7. **Tully 1985 的時序圖要附三個條件。** (a) trace 間隔從 60 s 氣味的**結束**算起，「trace 0 s」從氣味開始算是 60 s，不能和 Hige、Aso、Handler 那種從刺激開始算的秒級時間差放在同一條軸上；與 Tomchik 2009 行為的起算點相同，可直接對照。逆向組因電擊時長未寫，換算不出起點的時間差。(b) Tully 1985 每次訓練先後給兩個氣味，一個配電擊（CS+）、一個不配（CS−）；除逆向組外，圖 7 各組都把 CS+ 排在第二個出場。同一篇圖 6 的第 2 組正是「電擊配第二個氣味」的排法，顯示這種排法本身就讓分數降約 7%；所以同時組 ≈ 0.79 應與圖 6 第 2 組（≈ 0.79）比，不是與標準程序的 0.89 比（來源頁 3.4 節）。(c) 圖 7 沒有報告任何檢定，「逆向不產生學習」「trace 隨間隔變差」都是看平均值；Tomchik 2009 重做時才有檢定，且只比較倒序組與其他組。
 
+8. **「時間結構」有兩個不同的意思，別混用。** 本頁其餘各列講的是 **CS 與 US 之間的間隔**（ISI）；[[s-tumkaya-2025-synthetic-memory-inception]] 講的是 **CS 自己內部的放電節奏**（連續 vs 20 Hz 脈衝）。該篇說「時間結構並非必要」，指的是後者，不能讀成「ISI 不重要」——它根本沒有掃過 ISI，而且在討論裡還引用文獻強調突觸強度對毫秒級的輸入相關性很敏感。
+9. **該篇的陰性結果有靈敏度支持，但有一格對照鬆動了它的前提。** 那六組的 N 在 18–39 之間，比該篇其他實驗的 9–12 大數倍，而同一套裝置在別處測得 −0.92，所以不是整體測不到東西。但圖 3E 中不帶 Chrimson 的 Gr21a-Gal4 對照 ΔPI 達 −0.37，大於同格實驗組的 −0.14；那一格的偏好變化無法由光遺傳解釋，論文未討論。
+
 ## 相關
 
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]
 - 概念：[[c-coincidence-detection]]、[[c-us-substitution]]、[[c-performance-index]]、[[c-kc-mbon-plasticity]]
 - 實體：[[e-ppl1-gamma1pedc]]、[[e-mbon-gamma4]]
 - 綜述：[[syn-contradictions]]
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-tumkaya-2025-synthetic-memory-inception]]

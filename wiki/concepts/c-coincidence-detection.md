@@ -1,7 +1,7 @@
 ---
 title: 巧合偵測（coincidence detection）
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-11-12
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
@@ -34,6 +34,7 @@ confidence: medium
 |---|---|---|
 | [[s-tomchik-2009-camp-dynamics]] | 用「配對 vs 相加」檢驗 *rut* 是不是巧合偵測器 | 238Y α 葉配對約為相加的 1.53 倍；*rut¹* 中約 0.94，協同消失；章魚胺配對反而次加成 |
 | [[s-handler-2019-dopamine-receptor-timing]] | 以六個時間差下的 cAMP 大小判定 | cAMP 在 0 s 最大（約 0.15 ΔR/R），其餘時間差都較小但都顯著大於零 |
+| [[s-tumkaya-2025-synthetic-memory-inception]] | 在**行為**層次檢驗「同時活化是否足夠」：兩條路徑都以光人工驅動、完全同時給，看記憶形不形得成 | 形得成。全合成喜好 ΔPI +0.50（MOT）／+0.38（WALISAR）；全合成嫌惡 −0.33（MOT），但 WALISAR 測不到（+0.07）。作者據此主張自然刺激的複雜時間或細胞組合樣式並非必要 |
 
 > 數值為從圖判讀，見 [[numbers]]。Hige 2015 只提到：討論中說「KC 與 DAN 的共同活動是可塑性的唯一決定因素」，但沒有量任何分子訊號，所以不列入表。
 >
@@ -49,10 +50,13 @@ confidence: medium
 4. **Handler 2019 的「0 s 最大」沒有被檢定**：論文方法章節（STAR Methods）的統計段對圖 5E 只列了「對零」的檢定，沒有檢定 0 s 是否高於相鄰時間差；「最大」是六個點的形狀。
 5. **「*rut* 是巧合偵測器」不等於「學習全靠它」。** Tully 1985 的 *rut* 突變果蠅仍學得到 Λ ≈ 0.41（同日野生型 0.87）；Tomchik 2009 自己的討論也寫，*rut* 突變株的表現「降低但沒有消失」，所以至少還有一條其他的可塑性路徑（全文 text.txt 第 654–656 行）。Tomchik 2009 的協同是在 *rut¹* 中消失；Tully 1985 用的則是 *rutabaga* 的另一個突變版本（等位基因）*rut*^PS511。兩者若不是同一種缺損，就不能把「*rut¹* 沒有協同」和「*rut*^PS511 仍學得到」拼成同一隻果蠅的結論；兩者是否為同一突變：？待查。
 
+6. **「同時活化就足夠」是充分性，不是必要性，而且沒有碰到分子層次。** [[s-tumkaya-2025-synthetic-memory-inception]] 的證據全部在行為上：牠沒有量 cAMP、沒有量鈣、也沒有記錄任何神經元的放電，所以不能用來支持或反對「*rut* 是分子層次的巧合偵測器」。作者自己還加了一層限制：整套實驗沒有直接操作突觸，因此不能用來論證記憶形成的突觸可塑性假說。引用該篇時要把「足以指揮記憶形成」和「巧合偵測的機制是什麼」分開講。
+7. **該篇的「同時」只有一個點。** 它的 CS 與 US 完全同時給，沒有掃過任何時間差，所以它說的是「同時給有效」，不是「同時是最佳時點」。庫內掃過時間差的是 Aso 2016（行為十點）與 Handler 2019（突觸五點），見 [[c-cs-us-timing]]。
+
 ## 相關
 
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]
 - 概念：[[c-camp-signaling]]、[[c-cs-us-timing]]、[[c-us-substitution]]
 - 實體：[[e-rutabaga]]、[[e-kenyon-cell]]、[[e-epac-camp-sensor]]
 - 綜述：[[syn-contradictions]]
-- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-tully-1985-classical-conditioning]]（只提到）
+- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-tully-1985-classical-conditioning]]（只提到）

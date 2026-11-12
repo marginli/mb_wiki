@@ -1,7 +1,7 @@
 ---
 title: TH-GAL4 與 TH＋DDC 驅動（TH-GAL4 and TH/DDC drivers）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-12
 tags: [entity, active, cross-domain]
 confidence: medium
 ---
@@ -33,6 +33,7 @@ confidence: medium
 | Hige 2015 | TH-GAL4 | 多數 PPL1（含 PPL1-γ1pedc）、少數 PAM，以及蕈狀體以外的許多 DAN |
 | Felsenberg 2017 | TH-GAL4 | 全腦大範圍的 DAN，含全部六型支配蕈狀體的 PPL1（γ1pedc、γ1、γ2α′1、α′2α2、α3、α′3；延伸圖 6b） |
 | Handler 2019 | TH-Gal4（基因型表標「DAN subset」）＋ DDC-Gal4 | 用來在 DAN 表現多巴胺釋放感測器 VMAT-pHluorin |
+| Tumkaya 2025 | **TH-LexA**（BDSC:99050，不是 TH-GAL4） | 自述為「含 PPL1 神經元在內的 TH⁺ 神經元子集」，**沒有列出型別或顆數**。論文的 Highlights 卻直接寫成「PPL1 neurons」 |
 | Cohn 2015 | 「TH 與 DDC 啟動子」 | γ 葉各區室的 DAN；**主文沒寫品系名**（全文搜 Gal4 只找到 58E02-LexA），是不是 TH-GAL4 與 DDC-GAL4 兩個品系：？待查（補充資料未取得） |
 
 ## 庫內誰用了它
@@ -42,6 +43,7 @@ confidence: medium
 | [[s-hige-2015-heterosynaptic-plasticity]] | CsChrimson（[[e-cschrimson]]） | 正對照（已知應該有效、用來確認方法可行的組）：氣味配光後 MBON-γ1pedc 對配對氣味的放電約 98 → 14（n＝5，圖判讀） |
 | [[s-felsenberg-2017-re-evaluation]] | shibire<sup>ts1</sup>（[[e-shibire-ts]]） | 再聞 CS+ 時關掉 → 消退只部分發生（PI 0.17，與 MB504B 的 0.13 並列，以「沒有消退」的偏好為 100%，阻斷後約保住 45–57%，本庫以柱高推算）；再聞 CS− 時關掉 → 記憶消失（見 [[c-memory-extinction]]） |
 | [[s-handler-2019-dopamine-receptor-timing]] | VMAT-pHluorin（與 DDC-Gal4 合用） | 確認順向與逆向配對時 DAN 放出的多巴胺一樣多 |
+| [[s-tumkaya-2025-synthetic-memory-inception]] | **TH-LexA** 驅動 Chr2XXL（藍光） | 代替電擊當懲罰：配真氣味 ΔPI −0.44；與紅光活化的 ORN 同時給（全合成）則 −0.33（MOT），但 WALISAR 測不到（+0.07） |
 | [[s-cohn-2015-coordinated-neuromodulation]] | sytGCaMP（只在突觸前末梢發光的鈣感測器）、PA-GFP | 看吃糖、電擊、掙扎時各格 DAN 的活動；看活化單一 MBON 時各格 DAN 怎麼變（見 [[t-mbon-dan-feedback]]） |
 
 數值見 [[numbers]]。
