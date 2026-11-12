@@ -23,6 +23,7 @@ confidence: high
 | 來源 | 標記 KC 的驅動品系 | 量 KC 的哪個部位、量什麼 | 怎麼刺激 KC |
 |---|---|---|---|
 | [[s-tomchik-2009-camp-dynamics]] | GAL4：238Y（三類都標）、c739（α/β）、c305a（α′/β′）、1471（γ） | 軸突（α、α′、γ 葉）與樹突（萼部）；cAMP（[[e-epac-camp-sensor]]）與鈣（[[e-gcamp]]） | 乙醯膽鹼 30 mM 噴萼部，模擬氣味 |
+| [[s-gervasi-2010-pka-dynamics]] | GAL4：238Y（[[e-238y-gal4]]，三類都標，但不只表現於蕈狀體） | 活體：萼部（樹突）與 α、β、γ 葉（軸突）的 PKA（感測器 AKAR2）；α′、β′ 葉太暗、量不到；細胞體對 forskolin 幾乎不反應，之後不量 | 浴灌藥物：forskolin、IBMX、多巴胺、章魚胺、乙醯膽鹼（模擬氣味） |
 | [[s-hige-2015-heterosynaptic-plasticity]] | LexA（另一套表現系統，見表下說明；該篇的 GAL4 已用來讓 DAN 帶上光敏感通道）：R13F02-LexA（全部 KC）表現 GCaMP6f；R14H06-LexA 標 γ KC | **細胞體**的鈣反應，確認「配對」（讓氣味與 DAN 活化同時出現，即實驗中的學習操作）前後 KC 對氣味的反應沒有改變；γ KC 是否變得較難放電（興奮性），以電極直接記錄的測試在補充圖 S7：？待查 | 真的氣味（OCT、MCH） |
 | [[s-handler-2019-dopamine-receptor-timing]] | GAL4：OK107（論文標為「KCs」，涵蓋哪幾類沒有寫：？待查） | **軸突**在 γ4/γ5 區室的 cAMP、內質網鈣（細胞內儲鈣小倉庫放出的鈣）與收到的多巴胺；KC 軸突上的兩種多巴胺受體 DopR1、DopR2 | 乙醯膽鹼 10 mM 以離子導入（用電流把藥從玻璃細針推出）送到萼部，脈衝 500 ms |
 | [[s-cohn-2015-coordinated-neuromodulation]] | 讓全部 γ KC 表現 sytGCaMP（啟動子名稱 ？待查）；另以稀疏標記只標少數幾顆 | **突觸前末梢**的鈣，逐格比較同一條軸突；KC 本身的膜電位與放電（膜片鉗，補充圖 S6B：？待查） | 活體用真的氣味；離體以乙醯膽鹼離子導入萼部 |

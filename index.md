@@ -37,6 +37,8 @@
 - **較早的答案（Tomchik 2009）：** *rutabaga* 基因製造的一個酵素負責製造 cAMP（一種細胞內的訊號分子）。它要同時收到兩種訊號才大量工作：氣味讓 KC 活動時流進細胞的鈣，以及多巴胺。所以它像一個「兩者都到才響」的偵測器；作者還發現，只有氣味先、多巴胺後時，cAMP 才會多出來。
 - **較新的答案（Handler 2019）：** KC 上有兩種多巴胺受體，各接一條路徑。一條製造 cAMP，讓突觸變弱；這篇量到的 cAMP 不論誰先都會上升。另一條讓內質網（細胞內儲存鈣的構造）放出鈣，讓突觸變強，只在多巴胺先到時才發生。所以氣味先到時只有變弱的那條在作用；多巴胺先到時兩條都在作用，變強的那條勝出。
 
+- **往下游量一步（Gervasi 2010）：** 在活的果蠅裡看 cAMP 打開的下一個酵素 PKA。多巴胺只在 α 葉打開 PKA，拿掉分解 cAMP 的 Dunce 後就打開所有葉，作者據此主張 *dunce* 的問題在 cAMP 的「位置」而非「量」。它也重做了配對的放大，但 *rutabaga* 突變只測了配對組；與 Tomchik 2009 另有兩處相反，列為待裁決
+
 **兩篇對「cAMP 分不分得出先後」說法相反，列為待裁決**（Handler 2019 正文沒有點名 *rutabaga*，它量到的 cAMP 是不是同一個酵素製造的，沒有交代）。另外兩點：學習造成的突觸改變主要限在一格（區室）之內，但 Cohn 2015 發現活化一格的多巴胺神經元時，別格的 MBON 反應也會小幅下降；Cohn 2015 也直接看到 KC 送訊號那一端（末梢）的鈣會隨多巴胺改變，不過那是沒有配對氣味時的結果。**配對之後末梢怎麼變沒有人量過，所以學習的改變發生在 KC 這一側（突觸前）還是 MBON 那一側（突觸後），仍沒有答案。**
 
 - 概念：[[c-camp-signaling]]、[[c-coincidence-detection]]、[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-sparse-coding]]
@@ -44,7 +46,8 @@
 - 概念（第二批）：[[c-presynaptic-calcium]]、[[c-ex-vivo-explant]]、[[c-whole-cell-patch-clamp]]、[[c-odor-generalization]]
 - 實體（第二批）：[[e-dopamine-receptor]]、[[e-mbon-gamma4]]、[[e-mbon-gamma1pedc]]、[[e-ppl1-gamma1pedc]]
 - 實體（2026-10-26）：[[e-rutabaga]]
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-minnick-2026-untrained-connectome]]
+- 2026-11-12 因 Gervasi 2010 新開：[[e-dunce]]、[[e-238y-gal4]]、[[c-octopamine-reward-signal]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-minnick-2026-untrained-connectome]]
 
 ---
 
@@ -83,7 +86,7 @@
 - [[e-gcamp]]：鈣感測器，神經元活動時會變亮。庫內各篇用了六種版本，各自的亮度變化（ΔF/F：變化量除以基線亮度）不能跨篇比較
 - [[e-epac-camp-sensor]]：cAMP 感測器
 - [[e-cschrimson]]：紅光活化的光遺傳通道，用來以光代替懲罰或獎賞
-- [[e-split-gal4]]：只在少數幾型神經元表現的驅動品系，決定「活化了誰」。個別品系另有頁：[[e-mb099c]]、[[e-mb504b]]、[[e-r58e02]]、[[e-th-gal4]]、[[e-c739-gal4]]；其中 MB099C 與 R58E02 標記了哪些神經元，各篇說法不同，列為待裁決
+- [[e-split-gal4]]：只在少數幾型神經元表現的驅動品系，決定「活化了誰」。個別品系另有頁：[[e-mb099c]]、[[e-mb504b]]、[[e-r58e02]]、[[e-th-gal4]]、[[e-c739-gal4]]、[[e-238y-gal4]]；其中 MB099C 與 R58E02 標記了哪些神經元，各篇說法不同，列為待裁決
 - [[e-p2x2]]：遇到 ATP 就打開的通道，用化學方法活化神經元
 - [[e-shibire-ts]]：升溫時暫時阻斷神經元輸出的工具，用來問「哪段時間需要哪群神經元」
 - [[e-t-maze]]、[[e-olfactory-arena]]：兩種量果蠅氣味偏好的行為裝置；T 迷宮的古典制約版本來自 Tully 1985
@@ -97,6 +100,7 @@
 
 - [[s-tully-1985-classical-conditioning]] — Tully & Quinn, *J Comp Physiol A*：建立 T 迷宮的氣味—電擊古典制約測驗，量了時序、消退、非聯結對照與學習突變株的記憶曲線；全文不涉及蕈狀體 · 2026-10-26
 - [[s-tomchik-2009-camp-dynamics]] — Tomchik & Davis, *Neuron*：在離體腦中直接看到 KC 軸突裡的 cAMP 協同依賴 *rutabaga* 與先後順序 · 2026-10-25
+- [[s-gervasi-2010-pka-dynamics]] — Gervasi, Tchénio & Preat, *Neuron*：活果蠅 KC 內的 PKA 成像；多巴胺只在 α 葉打開 PKA，*dunce* 突變中打開全部；配對協同在 *rutabaga* 中消失，但只測了配對組 · 2026-11-12
 - [[s-hige-2015-heterosynaptic-plasticity]] — Hige et al., *Neuron*：活體記錄到多巴胺讓 KC→MBON 突觸長期抑制，區室專一、依賴順序 · 2026-10-25
 - [[s-cohn-2015-coordinated-neuromodulation]] — Cohn, Morantte & Ruta, *Cell*：多巴胺神經元整群協調活動；同一條 KC 軸突在各格的末梢鈣不同；沒有氣味時活化多巴胺神經元讓突觸變強 · 2026-10-25
 - [[s-ichinose-2015-reward-recurrent-circuit]] — Ichinose et al., *eLife*：MBON-α1 與 PAM-α1 形成迴圈，訓練後第一小時需要它，獎賞的長期記憶才會形成 · 2026-10-25

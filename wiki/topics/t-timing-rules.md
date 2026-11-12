@@ -166,6 +166,7 @@ Handler 2019 給了一個分子層級的答案：KC 軸突上有兩種多巴胺�
 - 突觸層級的完整時間差掃描，只有 Handler 2019 在 γ4 格做過；行為層級，Aso 2016 在單一型多巴胺神經元（γ1pedc）上掃了十個時間差。兩者不同格、不同量法。其他格是否有同樣的翻轉、翻轉點是否相同，庫內沒有資料（[[syn-contradictions]] 3.3）。Aso 2016 正文說其他驅動品系的最佳時間關係「相似但不完全相同」，曲線在補充資料裡，本庫沒有取得（？待查）。
 - 不同格對多巴胺的敏感度不同。Hige 2015 在 γ1pedc 格只要 1 秒氣味、4 下以內的光，就能讓突觸變弱；在 α2 格則要 1 分鐘氣味、120 下光。Aso 2016 在行為上看到同方向的差別：把訓練從 60 秒縮成 10 秒，只活化 γ1pedc 那一型時，學到的量減少得較少；另外三個只活化獎賞型多巴胺神經元的品系，學到的量就少了很多，約只剩一半。一格需要的刺激越多，訓練就得越長，而訓練越長，「先後」就越難界定。門檻差異會不會讓各格的時間窗也不同，是時序問題的一部分，目前沒有資料能回答。
 - 多巴胺與 KC 刺激相隔 6 秒到 45 秒之間，突觸會怎樣，本庫沒有資料；這正是矛盾 1.3 卡住的地方。
+- 分子層級的巧合偵測，只有 cAMP 測過先後。[[s-gervasi-2010-pka-dynamics]] 在 cAMP 的下游 PKA 上看到乙醯膽鹼（模擬氣味）與多巴胺一起給時的數倍放大，但兩者都是泡進整個腦、沒有規定誰先誰後，影像也每 15 秒才拍一張，所以 PKA 是否分得出先後，本庫沒有資料。
 - 「同時給」到底有多寬容，沒有人量過。[[s-tumkaya-2025-synthetic-memory-inception]] 證明兩條路徑完全同時活化就足以造出記憶，但它只做了「同時」這一個點。全光學的作法原本最適合掃時間差——兩邊都由光控制，精度可到毫秒——該篇卻把這件事留給未來，作者自己也把「用這套方法研究 CS–US 延遲」列為後續方向。把 Aso 2016 的數十秒行為掃描、Handler 2019 的一秒突觸掃描，與這種兩邊都是人工刺激的乾淨條件接起來，是庫內目前最明確的一個開口。
 - 本頁的規則只處理「與多巴胺神經元配對的氣味」。[[s-felsenberg-2017-re-evaluation]] 用糖當獎賞訓練果蠅：一個氣味配糖，另一個氣味單獨出現、不配糖。訓練後，γ2α′1 格的輸出神經元對**沒有配糖**的那個氣味反應反而變大。這個氣味從未和多巴胺訊號湊在一起，本頁的規則解釋不了（[[syn-contradictions]] 3.7）。
 - 記憶寫入之後要改寫時，負責改寫的那陣多巴胺（教學訊號）可以由氣味本身經輸出神經元回頭觸發（[[s-felsenberg-2018-memory-extinction]]，見 [[t-mbon-dan-feedback]]）。※ 推論：這時多巴胺必然在氣味開始之後才出現，屬於順向；但那篇沒有量氣味與多巴胺神經元之間的時間差。
@@ -182,6 +183,7 @@ Handler 2019 給了一個分子層級的答案：KC 軸突上有兩種多巴胺�
 - [[s-ichinose-2015-reward-recurrent-circuit]]：訓練後一小時的鞏固窗；屬於 [[t-memory-updating]] 與 [[t-mbon-dan-feedback]]
 - [[s-felsenberg-2017-re-evaluation]]：沒有配對的氣味反應變大，超出本頁規則（3.7）
 - [[s-felsenberg-2018-memory-extinction]]：由氣味經輸出神經元觸發的教學訊號，必在氣味之後（※ 推論）
+- [[s-gervasi-2010-pka-dynamics]]：PKA 層級的配對協同，但配對沒有時序、取樣每 15 秒一張，無法回答先後問題
 - [[s-tumkaya-2025-synthetic-memory-inception]]：刺激自身的節奏（連續 vs 20 Hz）學不起來；CS 與 US 完全同時給，沒有掃時間差
 - 概念：[[c-cs-us-timing]]、[[c-coincidence-detection]]、[[c-kc-mbon-plasticity]]、[[c-us-substitution]]、[[c-performance-index]]、[[c-mb-compartment]]、[[c-camp-signaling]]、[[c-ex-vivo-explant]]、[[c-memory-consolidation]]
 - 實體：[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-kenyon-cell]]、[[e-mushroom-body]]、[[e-epac-camp-sensor]]、[[e-cschrimson]]、[[e-split-gal4]]、[[e-p2x2]]、[[e-r58e02]]、[[e-mb504b]]、[[e-dopamine-receptor]]、[[e-t-maze]]、[[e-shibire-ts]]、[[e-rutabaga]]

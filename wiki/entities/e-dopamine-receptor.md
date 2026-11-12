@@ -1,7 +1,7 @@
 ---
 title: KC 上的多巴胺受體（dopamine receptors DopR1／DopR2）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-12
 tags: [entity, active, mb-learning]
 confidence: medium
 ---
@@ -34,7 +34,7 @@ confidence: medium
 | Handler 2019 | DopR1−/−、DopR2−/−（基因型表寫 DopR1null、DopR2attP） | 全身 |
 | Ichinose 2015 | 以 c739、MB008B 在 α/β KC，或以 MB310C、MB323B 在 MBON-α1 用 RNAi 降低 DopR1；在 *dumb²*（DopR1 失效的突變）背景下以 MB247 在 KC 補回 DopR1（救援） | RNAi 限選定細胞；降低程度未驗證 |
 
-另：Aso 2016 討論中引 Crocker et al. 2016 說 KC 表現四種多巴胺受體，可能在各區室用法不同；Aso 2016 本身沒有操作受體，只是提到。
+另：Aso 2016 討論中引 Crocker et al. 2016 說 KC 表現四種多巴胺受體，可能在各區室用法不同；Aso 2016 本身沒有操作受體，只是提到。[[s-gervasi-2010-pka-dynamics]] 也只是提到：它的模型（圖 8）只有「一個 D1 型受體」、沒有指名；討論中說 dDA1 與 DAMB 兩種受體都「正向偶聯到環化酶」、而且在各葉平均分布（PDF 第 11 頁）。這與 Handler 2019 的「DopR2（即 DAMB）偏好 Gαq、走內質網放鈣」不同；dDA1 是否即 DopR1：？待查。
 
 ## 庫內誰用了它
 

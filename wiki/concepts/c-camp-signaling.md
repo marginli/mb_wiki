@@ -1,7 +1,7 @@
 ---
 title: cAMP 訊號（cAMP signaling）
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-11-12
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
@@ -23,6 +23,8 @@ confidence: medium
 - **rut¹、238Y、c739、MB320C 等**：*rut¹* 是 *rutabaga* 基因（[[e-rutabaga]]）的一個突變版本；其餘是「驅動品系」代號，即決定外加基因只在哪些細胞表現的果蠅品系。
 - ***rut*^PS511、*dunce*（*dnc*）、雙突變株**：Tully 1985 用的突變果蠅。*rut*^PS511 是 *rutabaga* 的另一個突變版本；*dunce* 缺分解 cAMP 的酵素；雙突變株同時帶兩者。Λ 是該篇的行為學習分數，0＝沒學到、1＝全部躲開被電的氣味（見 [[c-performance-index]]）。
 - **−/−**：該基因兩份都被剔除。
+- **PKA、AKAR2**：PKA（蛋白質激酶 A）是被 cAMP 打開、把磷酸根掛到其他蛋白質上的酵素；cAMP 是傳令，PKA 才是動手改變細胞的那一步。AKAR2 是 Gervasi 2010 用的 PKA 螢光感測器。
+- **IBMX、*rut2080*、*dnc1***：IBMX 同時擋住多數分解 cAMP 的酵素（PDE）；*rut2080*、*dnc1* 是 Gervasi 2010 用的 *rutabaga*、*dunce*（[[e-dunce]]）突變版本。
 - **DopR1、DopR2、內質網鈣**：KC 上兩種多巴胺受體。DopR1 接上製造 cAMP 的路徑；DopR2 接上讓內質網（細胞內存鈣的小倉庫）放出鈣的路徑，所以量內質網鈣就是在看 DopR2 路徑有沒有啟動。
 
 ## 怎麼算 / 怎麼判定
@@ -32,6 +34,8 @@ confidence: medium
 - Tomchik 2009：Epac1-camps，共軛焦成像，記為 ΔR/R0（R0＝刺激前的基線比值，與 ΔR/R 意思相同；CFP 為青色、YFP 為黃色螢光蛋白）；在葉部末端或萼部劃範圍量。
 - Handler 2019：EPAC，雙光子 850 nm 激發，記為 ΔR/R；在 γ4/γ5 區室量，取多巴胺神經元活化後 4 s 的平均。
 
+Gervasi 2010 量的不是 cAMP，而是下游的 PKA：感測器 AKAR2 一樣是青、黃兩色的 FRET 感測器，讀「YFP/CFP 比值相對給藥前基線上升了幾 %」；活果蠅、雙光子、每 15 秒一張，量萼部與 α、β、γ 葉。它報告的是「PKA 磷酸化」與「磷酸酶把磷酸根拿掉」兩者的淨結果。
+
 Tully 1985 沒有量 cAMP：它用改變 cAMP 製造或分解的全身突變果蠅，量行為學習分數，cAMP 的多寡引自前人的全身生化測量（Livingstone et al. 1984；Byers et al. 1981）。
 
 ## 庫內的用法
@@ -40,6 +44,7 @@ Tully 1985 沒有量 cAMP：它用改變 cAMP 製造或分解的全身突變果�
 |---|---|---|
 | [[s-tomchik-2009-camp-dynamics]] | 浴灌多巴胺／章魚胺的劑量反應；乙醯膽鹼＋多巴胺配對的協同；用 forskolin（直接活化 AC 的藥）拉高 cAMP | 浴灌多巴胺的最大 cAMP 反應約 11.9 ± 1.3% ΔR/R0（forskolin 可讓同一感測器讀到約 40%，表示 11.9% 不是感測器的上限）；配對比相加多約五成，*rut¹* 中消失；cAMP 拉高後 KC 對同樣刺激的鈣反應（神經元被激發時細胞內鈣上升，常用作活動的指標）變大（α 葉約 3.2 倍），作者視為 KC 變得更容易被激起 |
 | [[s-tully-1985-classical-conditioning]] | 以全身突變操作 cAMP 路徑：*rut*（缺受鈣／攜鈣素刺激的環化酶活性，全身 cAMP 較低）、*dnc*（缺分解 cAMP 的第二型磷酸二酯酶，cAMP 較高）、兩者的雙突變（全身 cAMP 接近正常）；量整隻果蠅的學習與記憶，拿去對照海兔的 cAMP 學習模型 | *rut*/*rut* Λ ＝ 0.41、*dnc*^M11 0.34、雙突變 0.16（同日 C-S 0.84–0.87）；cAMP 往相反方向偏的兩個突變缺陷相似、cAMP 接近正常的雙突變反而最差，作者據此指出海兔模型對不上的三點；本篇全文沒有提到蕈狀體 |
+| [[s-gervasi-2010-pka-dynamics]] | 量 cAMP 的下游 PKA：forskolin、IBMX 直接推高 cAMP；浴灌多巴胺、章魚胺；與乙醯膽鹼配對；比較 *rut2080*、*dnc1* 與對照 | PKA 反應在軸突比樹突大（約 1.6 倍）、快（約 1.8 倍）；浴灌多巴胺只打開 α 葉（約 3.5%，約為 forskolin 上限的四分之一），章魚胺打開全部；在 *dnc1* 中多巴胺打開所有葉，作者主張 Dunce 把 cAMP 的作用侷限在 α 葉；IBMX 顯示有一個不是 Rut、持續活動的環化酶（以上 ※ 從圖判讀） |
 | [[s-handler-2019-dopamine-receptor-timing]] | 不同時間差下的 cAMP；剔除受體 DopR1、DopR2 | 六個時間差都有 cAMP，0 s 最高；DopR1−/− 降到野生型約 27%，DopR2−/− 不變 → cAMP 主要走 DopR1；cAMP 被歸為推動突觸**減弱**的一方 |
 
 > 數值見 [[numbers]]。**Hige 2015 只提到**：討論中引 Boto et al. 2014（cAMP 上升侷限在被活化 DAN 支配的區室）與「遺傳證據顯示 cAMP 是蕈狀體可塑性誘發的核心」，本身沒有量或操作 cAMP。
@@ -51,13 +56,15 @@ Tully 1985 沒有量 cAMP：它用改變 cAMP 製造或分解的全身突變果�
 1. **Tomchik 2009 與 Handler 2019 的數字不能直接比大小。** 都是比值變化，但感測器版本、驅動品系、顯微鏡、讀法不同；連 Tomchik 2009 自己不同遺傳背景的圖之間，多巴胺的最大反應都不同（約 11.9% vs 約 8.5%）。
 2. **cAMP 能否分辨先後，兩篇說法不同。** Tomchik 2009 看的是「協同」，只在順向出現；Handler 2019 看的是 cAMP 本身，兩種順序都有（在圖 5E 與圖 6B 野生型這兩批資料中，順向都比逆向高約 28–36%，論文未檢定，稱「相當」）。見 [[syn-contradictions]] 1.2，不在本頁裁決。
 3. **cAMP 的「方向」量在不同位置。** Tomchik 2009：cAMP 上升讓 KC **內部**的鈣反應變大；Handler 2019：DopR1–cAMP 路徑讓 KC→MBON **突觸**變弱。兩者不是同一個量，方向看似相反不等於矛盾，見 [[c-kc-mbon-plasticity]]。
-4. **殘留的 cAMP 來源不明。** Tomchik 2009 的 *rut¹* 突變果蠅單獨給多巴胺時，cAMP 照樣上升、與對照組無差異，所以 *rut* 之外還有來源（作者推測是其他 AC）；Handler 2019 的 DopR1−/− 仍有約 27%，論文未討論來源。行為上也對得上這一點：如果學習所需的 cAMP 只能由 *rut* 的酵素製造，*rut* 突變果蠅應該完全學不會；但 Tully 1985 的 *rut* 突變果蠅仍學得到 Λ ≈ 0.41，不是 0。
+4. **殘留的 cAMP 來源不明。** Tomchik 2009 的 *rut¹* 突變果蠅單獨給多巴胺時，cAMP 照樣上升、與對照組無差異，所以 *rut* 之外還有來源（作者推測是其他 AC）；Handler 2019 的 DopR1−/− 仍有約 27%，論文未討論來源。Gervasi 2010 用 IBMX 找到一個不是 Rut、持續活動的環化酶，但它不被多巴胺與章魚胺活化（作者語），所以與 Tomchik 2009 看到的「*rut¹* 中多巴胺照樣提高 cAMP」不完全對得上（見 [[syn-contradictions]] 1.7）。行為上也對得上這一點：如果學習所需的 cAMP 只能由 *rut* 的酵素製造，*rut* 突變果蠅應該完全學不會；但 Tully 1985 的 *rut* 突變果蠅仍學得到 Λ ≈ 0.41，不是 0。
 5. **全身 cAMP 量不是學習的讀數。** Tully 1985 的雙突變株全身 cAMP 接近正常，學得卻比兩個單突變都差；它的 cAMP 數字是整隻果蠅的生化測量，不知道在哪個細胞、哪個時刻。※ 推論（依 [[s-tully-1985-classical-conditioning]] 專業文第四節第 6 條的評價）：要問 cAMP 與學習的關係，得在對的細胞、對的時間量，也就是 Tomchik 2009、Handler 2019 在 KC 軸突裡做的事。
+6. **cAMP 與 PKA 不是同一個量，兩者的「大小」可以差很多。** Tomchik 2009 浴灌多巴胺的最大 cAMP 反應與 10 µM forskolin 相當；Gervasi 2010 浴灌多巴胺的最大 PKA 反應只有 forskolin 上限的約四分之一（見 [[s-gervasi-2010-pka-dynamics]] 3.1 節）。兩篇的協同倍數也差很多（cAMP 約 1.25–1.53 倍，PKA 約 3.6–13 倍）。※ 推論：PKA 對 cAMP 可能有門檻，所以 cAMP 的變化傳到 PKA 時會被放大或抹平；兩篇的數字只能各自在篇內比。兩篇另有兩處結論相反，見 [[syn-contradictions]] 1.7、1.8。
+7. **「在哪裡」可能和「有多少」一樣重要。** Gervasi 2010 的 *dnc1* 實驗顯示，同一個多巴胺刺激，Dunce 在時只打開 α 葉的 PKA，拿掉它就打開全部；作者據此提出 *dnc* 的學習缺陷可能來自失去空間上的專一性。這是本庫唯一處理這個問題的來源，而且作者沒有把空間專一性與行為連起來（見 [[e-dunce]]、[[syn-contradictions]] 3.11）。
 
 ## 相關
 
 - 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]
-- 概念：[[c-coincidence-detection]]、[[c-kc-mbon-plasticity]]、[[c-mb-compartment]]
-- 實體：[[e-rutabaga]]、[[e-epac-camp-sensor]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-dopamine-receptor]]
+- 概念：[[c-coincidence-detection]]、[[c-kc-mbon-plasticity]]、[[c-mb-compartment]]、[[c-octopamine-reward-signal]]
+- 實體：[[e-rutabaga]]、[[e-dunce]]、[[e-238y-gal4]]、[[e-epac-camp-sensor]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-dopamine-receptor]]
 - 綜述：[[syn-contradictions]]
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-hige-2015-heterosynaptic-plasticity]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-hige-2015-heterosynaptic-plasticity]]

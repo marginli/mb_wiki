@@ -348,7 +348,8 @@ flowchart TD
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]；矛盾與空缺：[[syn-contradictions]]
 - 本批（2026-10-25 第二批）已開頁、與本篇相關：[[e-c739-gal4]]
 - 2026-10-26 因 [[s-tully-1985-classical-conditioning]] 收錄而過門檻、新開的頁：[[e-rutabaga]]
-- 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，如基因、工具、細胞；`c-` 開頭為概念頁）：`e-238y-gal4`、`e-dpm-neuron`、`c-presynaptic-facilitation`、`c-octopamine-reward-signal`
+- 2026-11-12 因 [[s-gervasi-2010-pka-dynamics]] 收錄而過門檻、新開的頁：[[e-238y-gal4]]、[[c-octopamine-reward-signal]]
+- 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，如基因、工具、細胞；`c-` 開頭為概念頁）：`e-dpm-neuron`、`c-presynaptic-facilitation`
 
 ## 出處
 

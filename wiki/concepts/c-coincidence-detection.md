@@ -19,13 +19,14 @@ confidence: medium
 - **章魚胺**（octopamine）：昆蟲腦中類似腎上腺素的物質，Tomchik 2009 當時被認為傳遞獎賞，所以拿來和多巴胺對照。
 - **ΔR/R、ΔF/F**：螢光感測器的訊號（兩色亮度比值，或亮度）相對刺激前基線的變化比例，例如 0.15＝高了 15%。只能在同一實驗內比大小。
 - **rut¹、238Y、c739、MB320C 等**：*rut¹* 是 *rutabaga* 基因（[[e-rutabaga]]）的一個突變版本；其餘是「驅動品系」代號，即決定外加基因只在哪些細胞表現的果蠅品系。
+- **PKA、*rut2080***：PKA 是被 cAMP 打開、真正改變細胞的酵素（cAMP 的下游）；*rut2080* 是 Gervasi 2010 用的 *rutabaga* 突變版本。
 - **DopR1、DopR2、內質網鈣**：KC 上兩種多巴胺受體。DopR1 接上製造 cAMP 的路徑；DopR2 接上讓內質網（細胞內存鈣的小倉庫）放出鈣的路徑，所以量內質網鈣就是在看 DopR2 路徑有沒有啟動。
 
 ## 怎麼算 / 怎麼判定
 
-本庫有兩種操作型定義，**判準不同**：
+本庫有兩種操作型定義，**判準不同**（第一種有兩篇用，量的分子不同）：
 
-- **Tomchik 2009：配對 vs 單獨相加。** 同一顆腦分別量「單獨乙醯膽鹼（代表氣味讓 KC 活動）」「單獨多巴胺」「兩者配對（乙醯膽鹼先 1 秒）」的 cAMP 上升。配對 ＞ 兩次單獨之和＝協同（synergy），算是巧合偵測；配對 ＜ 和＝次加成（sub-additive）。再看協同在 *rutabaga*（*rut*，製造 cAMP 的酵素腺苷酸環化酶的基因）突變果蠅是否消失。
+- **Tomchik 2009：配對 vs 單獨相加。** 同一顆腦分別量「單獨乙醯膽鹼（代表氣味讓 KC 活動）」「單獨多巴胺」「兩者配對（乙醯膽鹼先 1 秒）」的 cAMP 上升。配對 ＞ 兩次單獨之和＝協同（synergy），算是巧合偵測；配對 ＜ 和＝次加成（sub-additive）。再看協同在 *rutabaga*（*rut*，製造 cAMP 的酵素腺苷酸環化酶的基因）突變果蠅是否消失。**Gervasi 2010 用同一個判準，但量的是 cAMP 下游的 PKA**，而且乙醯膽鹼與多巴胺都是浴灌、沒有規定先後。
 - **Handler 2019：cAMP 在時間差 0 最大。** 改變多巴胺與 KC 刺激的時間差，看 cAMP 在哪個時間差最高；同時開始時最高，作者稱 DopR1（一種多巴胺受體）的 cAMP 路徑為巧合偵測器，同時強調它「不能單獨編碼先後」。
 
 ## 庫內的用法
@@ -33,6 +34,7 @@ confidence: medium
 | 來源 | 怎麼用 | 得到什麼 |
 |---|---|---|
 | [[s-tomchik-2009-camp-dynamics]] | 用「配對 vs 相加」檢驗 *rut* 是不是巧合偵測器 | 238Y α 葉配對約為相加的 1.53 倍；*rut¹* 中約 0.94，協同消失；章魚胺配對反而次加成 |
+| [[s-gervasi-2010-pka-dynamics]] | 同樣用「配對 vs 相加」，但量 PKA、在活果蠅上；乙醯膽鹼 10 mM 配多巴胺 10 µM 或章魚胺 3 µM | 多巴胺：只在 α 葉協同，配對約為相加的 6 倍；章魚胺：四處都協同，約 3.6–13 倍；*rut2080* 中兩者的協同都消失。**但 *rut2080* 只測了配對組**，而同篇 *rut2080* 中多巴胺的單獨反應已只剩約 30%，所以「協同消失」與「多巴胺本身沒反應」分不開（以上 ※ 從圖判讀） |
 | [[s-handler-2019-dopamine-receptor-timing]] | 以六個時間差下的 cAMP 大小判定 | cAMP 在 0 s 最大（約 0.15 ΔR/R），其餘時間差都較小但都顯著大於零 |
 | [[s-minnick-2026-untrained-connectome]] | 在**模擬**中檢驗同一件事的反面：若 KC 不論有沒有氣味都在放電，配對還成不成立 | 不成立。原樣版的非配對組（只給增強訊號）與配對組在突觸、價性與行為三個層次都無法區分（最近接近距離 P＝0.49、δ＝+0.13）。把 KC 改成只在有氣味時放電之後，配對才恢復必要性 |
 | [[s-tumkaya-2025-synthetic-memory-inception]] | 在**行為**層次檢驗「同時活化是否足夠」：兩條路徑都以光人工驅動、完全同時給，看記憶形不形得成 | 形得成。全合成喜好 ΔPI +0.50（MOT）／+0.38（WALISAR）；全合成嫌惡 −0.33（MOT），但 WALISAR 測不到（+0.07）。作者據此主張自然刺激的複雜時間或細胞組合樣式並非必要 |
@@ -53,11 +55,13 @@ confidence: medium
 
 6. **「同時活化就足夠」是充分性，不是必要性，而且沒有碰到分子層次。** [[s-tumkaya-2025-synthetic-memory-inception]] 的證據全部在行為上：牠沒有量 cAMP、沒有量鈣、也沒有記錄任何神經元的放電，所以不能用來支持或反對「*rut* 是分子層次的巧合偵測器」。作者自己還加了一層限制：整套實驗沒有直接操作突觸，因此不能用來論證記憶形成的突觸可塑性假說。引用該篇時要把「足以指揮記憶形成」和「巧合偵測的機制是什麼」分開講。
 7. **該篇的「同時」只有一個點。** 它的 CS 與 US 完全同時給，沒有掃過任何時間差，所以它說的是「同時給有效」，不是「同時是最佳時點」。庫內掃過時間差的是 Aso 2016（行為十點）與 Handler 2019（突觸五點），見 [[c-cs-us-timing]]。
+8. **PKA 的協同倍數不能和 cAMP 的比。** Gervasi 2010 的 3.6–13 倍遠大於 Tomchik 2009 的約 1.25–1.53 倍，但兩篇量的是不同層級（PKA 對 cAMP），而且 Gervasi 2010 的單獨刺激刻意放在剛要起反應的低濃度，分母很小，倍數對判讀誤差很敏感。※ 推論：PKA 對 cAMP 可能有門檻，使 cAMP 的小幅協同在 PKA 上變成數倍。
+9. **Gervasi 2010 的「Rut 是巧合偵測器」在該篇內沒有被專一地證明。** Tomchik 2009 先證明 *rut¹* 中單獨反應正常、再證明協同消失；Gervasi 2010 只測了 *rut2080* 的配對組（見上表）。兩篇對章魚胺配對的結論也相反（協同對次加成），見 [[syn-contradictions]] 1.8。
 
 ## 相關
 
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]
-- 概念：[[c-camp-signaling]]、[[c-cs-us-timing]]、[[c-us-substitution]]
-- 實體：[[e-rutabaga]]、[[e-kenyon-cell]]、[[e-epac-camp-sensor]]
+- 概念：[[c-camp-signaling]]、[[c-cs-us-timing]]、[[c-us-substitution]]、[[c-octopamine-reward-signal]]
+- 實體：[[e-rutabaga]]、[[e-dunce]]、[[e-238y-gal4]]、[[e-kenyon-cell]]、[[e-epac-camp-sensor]]
 - 綜述：[[syn-contradictions]]
-- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-tully-1985-classical-conditioning]]（只提到）
+- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-tully-1985-classical-conditioning]]（只提到）

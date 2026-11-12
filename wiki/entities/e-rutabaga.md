@@ -1,7 +1,7 @@
 ---
 title: rutabaga 基因（rutabaga, rut）
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-11-12
 tags: [entity, active, mb-learning]
 confidence: medium
 ---
@@ -49,8 +49,9 @@ confidence: medium
 |---|---|---|---|
 | [[s-tully-1985-classical-conditioning]] | *rut*^PS511 同型合子；*rut*/Df(1)KA9（KA9 是缺了 12E1–13A5、涵蓋 *rut* 的 X 染色體缺失）；*dnc*^M11, *rut* 雙突變 | 為了抵銷修飾基因讓分數往正常漂，每株維持 12–24 條亞系、只留學得最差（最接近原始突變）的；必要時把自體染色體換成 C-S 的 | 同日 C-S；FM7a/*rut*（正常 *rut*）與 KA9/*rut*（缺 *rut*）混在同一群一起訓練與測驗，事後依外觀分開計分，用來確認同群果蠅互不影響，實驗者也事先分不出誰是誰 |
 | [[s-tomchik-2009-camp-dynamics]] | *rut¹*（帶 238Y-GAL4>UAS-epac1-camps） | 正文未述 | *rut¹*/+ 異型合子，學習表現正常（論文引補充圖 3） |
+| [[s-gervasi-2010-pka-dynamics]] | *rut2080*/Y 雄蠅（P 因子插入 *rut* 編碼區；作者引 Levin et al. 1992 稱為無效突變），帶 AKAR2 與 238Y（[[e-238y-gal4]]） | Canton-S 背景 | AKAR2/+;238Y/+；*rut2080*/+ 雌蠅 2 h 記憶與 forskolin 反應正常 |
 
-兩篇的等位基因是否為同一突變：？待查。
+三篇的等位基因各不相同（*rut*^PS511、*rut¹*、*rut2080*），是否同樣完全失去功能：？待查。
 
 ## 庫內誰用了它
 
@@ -58,23 +59,26 @@ confidence: medium
 |---|---|---|
 | [[s-tully-1985-classical-conditioning]] | 整隻果蠅的 T 迷宮古典制約：學習、0–24 h 記憶保留；與 *dunce*、*amnesiac*、雙突變株比較；以三種遺傳背景檢查修飾基因 | *rut*/*rut* Λ ＝ 0.41 ± 0.01（同日 C-S 0.87）；KA9/*rut* 0.45、FM7a/*rut* 0.88；1 h ≈ 0.29、3 h ≈ 0.10、7 h ≈ 0.07（※ 從圖判讀），3 h 三種背景皆 0.10；雙突變 0.16。作者據此指出海兔 cAMP 學習模型對不上的三點（見 [[t-dopamine-to-plasticity]]） |
 | [[s-tomchik-2009-camp-dynamics]] | 取出的腦，KC 內 cAMP 成像：單獨給藥的劑量反應；乙醯膽鹼＋多巴胺配對的協同；比較 *rut¹* 與 *rut¹*/+ | 單獨給多巴胺、章魚胺的 cAMP 反應不受 *rut¹* 影響（p ＝ 0.59、0.29，n ＝ 13）；配對協同在 *rut¹* 中消失（配對／相加 ≈ 0.94，異型合子 ≈ 1.46，n ＝ 9）；章魚胺的次加成在 *rut¹* 中仍在 |
+| [[s-gervasi-2010-pka-dynamics]] | 活果蠅 KC 內 PKA 成像：forskolin、IBMX、多巴胺、章魚胺單獨給藥；乙醯膽鹼＋多巴胺或章魚胺配對；另測 2 h 記憶 | forskolin 反應四個部位都降到約一半（0.42–0.51 倍）；IBMX 單獨的反應與對照相同（基礎 cAMP 不是 Rut 做的）；單獨給多巴胺、章魚胺（100 µM）的 PKA 反應剩約 10–30%；配對的協同在 *rut2080* 中消失，**但只測了配對組**；2 h 記憶 PI 約 24，對照約 46（以上 ※ 從圖判讀） |
 
-> 數值見 [[numbers]]。**只提到、未使用的來源**：[[s-ichinose-2015-reward-recurrent-circuit]] 在背景引 Trannoy et al. 2011，稱 *rut* 的環化酶在 α/β KC 中作用於長期記憶，本身沒有用 *rut* 突變。其餘六篇來源頁以文字搜尋 `rutabaga`、`rut` 都找不到。
+> 數值見 [[numbers]]。**只提到、未使用的來源**：[[s-ichinose-2015-reward-recurrent-circuit]] 在背景引 Trannoy et al. 2011，稱 *rut* 的環化酶在 α/β KC 中作用於長期記憶，本身沒有用 *rut* 突變。其餘來源頁以文字搜尋 `rutabaga`、`rut` 都找不到（2026-10-26 搜尋；之後收錄的 Tumkaya 2025、Minnick 2026 也不用 *rut* 突變）。
 
 ## 已知的問題（引用時的陷阱）
 
 1. **「學不會」是相對的，而且依測驗而定。** 同一個 *rut*^PS511，在舊測驗中 Λ ≤ 0.05，在 Tully 1985 的古典制約中 Λ ≈ 0.41；以同日正常果蠅 0.87 為基準，0.41 ÷ 0.87 ≈ 0.47，約為正常的一半（本庫計算）。Tomchik 2009 的討論也寫，*rut* 突變株的表現「降低但沒有消失」，所以至少還有一條其他的可塑性路徑（text.txt 第 654–656 行）。※ 推論：0.47 與 Tomchik 所引「約 50% 依賴 *rut*」量級相近，但等位基因、測驗與算法都不同，不能當作互相印證。
 2. **修飾基因會讓分數漂移。** Tully 1985 說同型合子的突變株會慢慢累積修飾基因，讓學習分數往野生型漂（未發表資料）；它的檢查只做了 *rut*、只看 3 h。所以不同實驗室、不同年代的 *rut* 分數不宜直接比大小。
 3. **全身突變不等於只在 KC 內缺。** 兩篇用的都是全身突變。Tomchik 2009 沒有做只在 KC 內剔除或恢復 *rut* 的實驗（[[s-tomchik-2009-camp-dynamics]] 專業文第四節第 1 條）；Tully 1985 全篇沒有提到蕈狀體。「*rut* 在蕈狀體裡就夠」在庫內只是 Tomchik 2009 引前人的背景，本庫沒有收錄那些研究。
-4. **不同等位基因。** Tully 1985 用 *rut*^PS511，Tomchik 2009 用 *rut¹*。Tully 引 Livingstone et al. 1984 說「*rut*」缺鈣／攜鈣素刺激的活性；Tomchik 引 Livingstone et al. 1984 與 Livingstone 1985 說「*rut¹*」中偵測不到鈣敏感的環化酶活性（text.txt 第 574–576 行）。Livingstone 1984 量的是哪個等位基因：？待查。
+4. **不同等位基因。** Tully 1985 用 *rut*^PS511，Tomchik 2009 用 *rut¹*。Tully 引 Livingstone et al. 1984 說「*rut*」缺鈣／攜鈣素刺激的活性；Tomchik 引 Livingstone et al. 1984 與 Livingstone 1985 說「*rut¹*」中偵測不到鈣敏感的環化酶活性（text.txt 第 574–576 行）。Livingstone 1984 量的是哪個等位基因：？待查。Gervasi 2010 用第三個等位基因 *rut2080*，三篇的 *rut* 結果不一定能直接比。
 5. **缺鈣／攜鈣素刺激不等於沒有 cAMP。** Tomchik 2009 的 *rut¹* KC 單獨給乙醯膽鹼或多巴胺，cAMP 照樣上升，作者推測來自其他環化酶（DAC39E、DAC78C 等）或其他途徑，沒有檢驗。*dunce* 缺分解 cAMP 的酵素、*rut* 缺製造 cAMP 的酵素，兩者對 cAMP 的影響方向相反；Tully 1985 的雙突變株（兩個突變都帶）全身 cAMP 接近正常（引 Livingstone et al. 1984），卻學得比兩個單突變都差。所以全身 cAMP 的多寡不能直接當成學習的讀數（[[s-tully-1985-classical-conditioning]] 專業文第四節第 6 條的評價）。
 6. **Tomchik 2009 的「依賴 *rut*」少了一個關鍵檢定。** 它分別在兩組裡比「配對 vs 相加」：突變組 p ＝ 0.53（不顯著）、異型合子組 p ＝ 0.027（顯著）。但「一組看得到差、另一組看不到」不等於「兩組的差彼此有顯著不同」；後者要把兩組的「配對 − 相加」直接拿來比（稱交互作用檢定），論文沒有做（見 [[s-tomchik-2009-camp-dynamics]] 專業文 3.3 節）。
+7. **Gervasi 2010 的「依賴 *rut*」少了另一個對照。** 該篇的 *rut2080* 只做了「配對」一組，沒做單獨給乙醯膽鹼、單獨給多巴胺。而同篇另一個實驗已顯示 *rut2080* 中 100 µM 多巴胺的單獨反應只剩約 30%。所以「配對的協同在 *rut2080* 中消失」可以是「Rut 負責巧合偵測」，也可以是「Rut 負責多巴胺訊號本身、連單獨的反應都沒了」，兩者分不開。Tomchik 2009 的設計正好相反：先證明 *rut¹* 中單獨反應正常，再證明協同消失（見 [[s-gervasi-2010-pka-dynamics]] 3.5 節）。
+8. **單獨給多巴胺時是否依賴 *rut*，兩篇相反。** Tomchik 2009（cAMP、離體、*rut¹*）不依賴；Gervasi 2010（PKA、活體、*rut2080*）依賴。未裁決，見 [[syn-contradictions]] 1.7。
 
 ## 相關
 
 - 概念：[[c-camp-signaling]]、[[c-coincidence-detection]]、[[c-performance-index]]、[[c-memory-consolidation]]
-- 實體：[[e-kenyon-cell]]、[[e-mushroom-body]]、[[e-epac-camp-sensor]]、[[e-t-maze]]、[[e-dopamine-receptor]]
+- 實體：[[e-dunce]]、[[e-238y-gal4]]、[[e-kenyon-cell]]、[[e-mushroom-body]]、[[e-epac-camp-sensor]]、[[e-t-maze]]、[[e-dopamine-receptor]]
 - 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]
 - 綜述：[[syn-contradictions]]（3.9 突變株的兩段式記憶衰減）
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-ichinose-2015-reward-recurrent-circuit]]
-- 待開頁面：`e-dunce`、`e-amnesiac`
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-ichinose-2015-reward-recurrent-circuit]]
+- 待開頁面：`e-amnesiac`

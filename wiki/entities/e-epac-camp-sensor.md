@@ -1,7 +1,7 @@
 ---
 title: Epac 系 cAMP 感測器（Epac-based cAMP sensor）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-12
 tags: [entity, active, mb-learning]
 confidence: medium
 ---
@@ -33,6 +33,8 @@ confidence: medium
 **Tomchik 2009 的驗證**：用 forskolin（直接活化製造 cAMP 的酵素）確認感測器有濃度依賴的反應，最高可達約 40%（從圖判讀，見 [[numbers]]），而多巴胺即使加到最高劑量（10 mM），ΔR/R0 也只升到約 12%（見 [[numbers]]），可見多巴胺停在約 12% 不是感測器到頂；若 YFP 自己因褪色等原因變暗，CFP/YFP 比值也會上升、像是 cAMP 升高；作者用 514 nm 的光只激發 YFP，看到 YFP 沒有變暗，排除了這種假訊號；另一種結構相近的訊號分子 cGMP 也可能讓感測器反應，這項干擾的檢查在補充圖 2：？待查。Handler 2019 的正文與方法沒有提到這類驗證（已搜 forskolin、validat、bleach；補充圖未取得，裡面有沒有：？待查），作者在討論中自陳感測器的靈敏度與動態範圍有限。
 
 **2015–2018 新收的五篇（Cohn、Ichinose、Aso、Felsenberg 2017、2018）都沒有用 cAMP 感測器**（全文 grep `epac` 無結果）。
+
+**[[s-gervasi-2010-pka-dynamics]] 沒有用它，但用它的靈敏度解釋與 Tomchik 2009 的分歧**：Epac1-camps 對 cAMP 的 EC50 約 2.4 µM（引 Nikolaev et al. 2004），PKA 的調節次單元約 100–500 nM，所以 PKA 感測器 AKAR2 看得到的少量 cAMP，Epac1-camps 可能看不到（PDF 第 9 頁）。這個解釋對多巴胺的劑量差異說得通、對章魚胺說不通，見 [[syn-contradictions]] 1.7。
 
 ## 已知的問題
 

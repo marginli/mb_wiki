@@ -1,7 +1,7 @@
 ---
 title: 蕈狀體區室（MB compartment）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-12
 tags: [concept, active, mb-learning]
 confidence: high
 ---
@@ -38,6 +38,7 @@ confidence: high
 | [[s-felsenberg-2017-re-evaluation]] | 阻斷某一格或某一群的 MBON／DAN，看記憶被重新評估時需要哪幾格 | 再鞏固用同一格的 γ2α′1 MBON 與 PPL1-γ2α′1；消退用 α/α′ 葉的 V2 群 MBON 與鄰格的 PPL1 群 |
 | [[s-felsenberg-2018-memory-extinction]] | 比較同一氣味在不同格留下的痕跡 | 消退後，γ1pedc 格（MVP2）的舊嫌惡痕跡仍在，γ5 格（M6 樹突）新出現獎賞型痕跡；兩者在 M6 的輸出端相抵 |
 | [[s-tomchik-2009-camp-dynamics]] | **不是區室層級。** 比較的是萼部（calyx，KC 樹突所在）vs 葉部（KC 軸突），以及 α、α′、γ 等不同葉（不同類 KC 的軸突） | cAMP 協同只在葉部出現；多巴胺在萼部的 cAMP 反應有升有降 |
+| [[s-gervasi-2010-pka-dynamics]] | **也不是區室層級。** 比較萼部與 α、β、γ 三條葉的 PKA；藥物浴灌、全腦同時泡到 | 浴灌多巴胺只打開 α 葉的 PKA，章魚胺打開全部；作者自己承認，β、γ 葉可能有感測器看不到的小區域被打開，而真實的多巴胺是由特定神經元送到特定區室，本篇沒有量 |
 
 > 數值見 [[numbers]]。
 

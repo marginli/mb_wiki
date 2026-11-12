@@ -513,8 +513,9 @@ flowchart TD
 - [[numbers]]（本庫的數字登記簿）— 本篇的訓練參數、Λ 的各種條件值、時序曲線、非聯結對照、保留曲線與表 1
 - 本庫已有的相關頁：[[e-t-maze]]、[[e-olfactory-arena]]、[[c-performance-index]]、[[c-cs-us-timing]]、[[c-memory-extinction]]、[[c-memory-consolidation]]、[[c-camp-signaling]]、[[c-coincidence-detection]]、[[c-odor-generalization]]
 - 本篇新開、因本篇而過門檻的頁：[[e-rutabaga]]（原列在 Tomchik 2009 的待開清單，本篇是第二篇使用它的來源）
+- 2026-11-12 因 [[s-gervasi-2010-pka-dynamics]] 收錄而過門檻、新開的頁：[[e-dunce]]
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]、[[t-memory-updating]]；矛盾與空缺：[[syn-contradictions]]
-- 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，`c-` 開頭為概念頁）：`e-dunce`、`e-amnesiac`、`c-nonassociative-learning`
+- 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，`c-` 開頭為概念頁）：`e-amnesiac`、`c-nonassociative-learning`
 
 ## 出處
 
