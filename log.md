@@ -2,6 +2,10 @@
 
 只追加，新的在最上面。動作僅三種：`ingest` / `query` / `lint`（另有人類的 `裁決`）。
 
+## [2026-11-12] lint | 譯名統一：蘑菇體 → 蕈狀體
+
+依使用者的用語規則，全庫 wiki 頁、`README.md`、`index.md`、`intake.md`、`CLAUDE.md` 與 skill 的「蘑菇體」一律改為「蕈狀體」（約 210 處）。本日誌較早條目照「只追加」原則保留原字。數字、引用與結論未動。
+
 ## [2026-11-12] 裁決 | 範圍擴大為果蠅學習與記憶
 
 使用者決定把本庫範圍由「果蠅蕈狀體研究」擴大為「果蠅的學習與記憶研究（不限腦區、含幼蟲與習慣化、敏感化等非聯結式可塑性），以及蕈狀體本身的研究」，不另開新庫。改了 `CLAUDE.md`（範圍段、研究問題群的 tag 命名）、`.claude/skills/ingest-paper/SKILL.md` 的範圍段、`README.md` 與 `index.md` 的標題和開頭介紹。repo 名稱與網址不變；現有 tag `mb-learning`、`mb-memory-dynamics` 不改名。

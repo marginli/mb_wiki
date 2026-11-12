@@ -12,9 +12,9 @@ confidence: medium
 
 **本頁用語**（每頁可單獨查閱，故重複列出）：
 
-- **蘑菇體、KC、葉、區室**：蘑菇體（mushroom body）是果蠅腦中把氣味和好壞經驗連起來的構造；代表氣味的 Kenyon 細胞（KC）把軸突成束排成幾條「葉」，每條葉沿長度切成一格一格的「區室」（例如 γ1pedc、γ4、α1），細胞以所在區室命名（見 [[e-mushroom-body]]、[[c-mb-compartment]]）。
+- **蕈狀體、KC、葉、區室**：蕈狀體（mushroom body）是果蠅腦中把氣味和好壞經驗連起來的構造；代表氣味的 Kenyon 細胞（KC）把軸突成束排成幾條「葉」，每條葉沿長度切成一格一格的「區室」（例如 γ1pedc、γ4、α1），細胞以所在區室命名（見 [[e-mushroom-body]]、[[c-mb-compartment]]）。
 - **常見詞**：PAM／PPL1＝兩群多巴胺神經元（DAN），分別多傳遞獎賞／懲罰；光遺傳＝讓神經元帶上照光就放電的蛋白（[[e-cschrimson]]）；離體＝把腦取出泡在養液裡，活體＝活果蠅固定後看腦；順向配對＝氣味先、多巴胺後，逆向＝多巴胺先；「未配對」＝兩種刺激錯開、不同時出現；cAMP＝多巴胺受體被活化後在細胞內產生的訊號小分子；※ 推論＝本庫推得、原文沒明說，？待查＝要靠其他資料確認。
-- **KC、MBON、DAN**：Kenyon 細胞、蘑菇體輸出神經元、多巴胺神經元（見 [[e-kenyon-cell]]、[[e-mbon]]、[[e-dopaminergic-neuron]]）。
+- **KC、MBON、DAN**：Kenyon 細胞、蕈狀體輸出神經元、多巴胺神經元（見 [[e-kenyon-cell]]、[[e-mbon]]、[[e-dopaminergic-neuron]]）。
 - **GCaMP**：遇鈣變亮的螢光蛋白（見 [[e-gcamp]]）；**sytGCaMP** 是 Cohn 2015 把它接在只待在突觸小泡上的蛋白 synaptotagmin 上，只在末梢發光。
 - **forskolin**：直接活化製造 cAMP 的酵素的藥。
 - **區室**：葉沿長度切成的一格，例如 γ2–γ5（見 [[c-mb-compartment]]）。

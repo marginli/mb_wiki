@@ -29,8 +29,8 @@ confidence: medium
 
 **讀這一頁需要的幾個詞**（每頁可單獨查閱，故重複列出）：
 
-- **蘑菇體（mushroom body, MB）**：果蠅腦中把氣味和好壞經驗連起來的構造。見 [[e-mushroom-body]]。
-- **KC、MBON、DAN**：Kenyon 細胞（Kenyon cell, KC）代表氣味，每種氣味只活化其中一小群；蘑菇體輸出神經元（MB output neuron, MBON）接收 KC 的訊號，推動果蠅「靠近」或「走開」；多巴胺神經元（dopaminergic neuron, DAN）送出代表懲罰或獎賞的多巴胺，調整 KC→MBON 突觸（神經元之間傳訊號的接點）的強弱。見 [[e-kenyon-cell]]、[[e-mbon]]、[[e-dopaminergic-neuron]]。
+- **蕈狀體（mushroom body, MB）**：果蠅腦中把氣味和好壞經驗連起來的構造。見 [[e-mushroom-body]]。
+- **KC、MBON、DAN**：Kenyon 細胞（Kenyon cell, KC）代表氣味，每種氣味只活化其中一小群；蕈狀體輸出神經元（MB output neuron, MBON）接收 KC 的訊號，推動果蠅「靠近」或「走開」；多巴胺神經元（dopaminergic neuron, DAN）送出代表懲罰或獎賞的多巴胺，調整 KC→MBON 突觸（神經元之間傳訊號的接點）的強弱。見 [[e-kenyon-cell]]、[[e-mbon]]、[[e-dopaminergic-neuron]]。
 - **區室（compartment）**：KC 的軸突（送出訊號的長纖維）成束排成幾條「葉」（lobe），葉沿長度切成一格一格，每格由一型 DAN 支配、一型 MBON 讀取，名字取自位置，例如 γ5、β′2、γ1pedc。見 [[c-mb-compartment]]。
 - **PAM、PPL1**：兩群多巴胺神經元的名字。本篇說 PAM 裡「有許多」能送獎賞訊號，PPL1 裡「有許多」能送懲罰訊號。
 - **本篇的三顆 MBON**（論文用舊名，括號內是以區室命名的新名）：
@@ -79,7 +79,7 @@ confidence: medium
 
 **中譯**（本節為忠實翻譯，非自撰內容）：
 
-> 要準確預測一個結果，動物必須從先後發生的經驗中，學到支持的證據與相互矛盾的證據。在哺乳類與無脊椎動物中，學來的恐懼反應可以藉由「經歷預測線索卻沒有懲罰」而被壓制，這個過程稱為記憶消退。我們在此顯示，果蠅嫌惡記憶的消退需要特定的多巴胺神經元，這表示懲罰的缺席被記成一次正向的經驗。功能性成像顯示，原本的嫌惡記憶與一個新的、帶獎賞性質的消退記憶，兩者在細胞內的鈣痕跡同時存在於蘑菇體輸出神經元網路的不同位置。光學與超微結構（電子顯微鏡）的解剖，符合「並行且彼此競爭的記憶在指揮迴避的蘑菇體輸出神經元內被合併」的說法。的確，消退在一對這類神經元中誘發的可塑性，抵消了嫌惡學習在網路中造成的、增強了的氣味反應。因此，果蠅藉由累積並整合相互衝突事件的記憶，來追蹤所學預期的準確度。
+> 要準確預測一個結果，動物必須從先後發生的經驗中，學到支持的證據與相互矛盾的證據。在哺乳類與無脊椎動物中，學來的恐懼反應可以藉由「經歷預測線索卻沒有懲罰」而被壓制，這個過程稱為記憶消退。我們在此顯示，果蠅嫌惡記憶的消退需要特定的多巴胺神經元，這表示懲罰的缺席被記成一次正向的經驗。功能性成像顯示，原本的嫌惡記憶與一個新的、帶獎賞性質的消退記憶，兩者在細胞內的鈣痕跡同時存在於蕈狀體輸出神經元網路的不同位置。光學與超微結構（電子顯微鏡）的解剖，符合「並行且彼此競爭的記憶在指揮迴避的蕈狀體輸出神經元內被合併」的說法。的確，消退在一對這類神經元中誘發的可塑性，抵消了嫌惡學習在網路中造成的、增強了的氣味反應。因此，果蠅藉由累積並整合相互衝突事件的記憶，來追蹤所學預期的準確度。
 
 **Highlights（原文四點，中譯）：** 預期中的懲罰沒有出現，會讓學來的躲避行為消退；缺少懲罰被學成一次正向的經驗；原本的嫌惡記憶與新的獎賞記憶並存於不同位置；相反的記憶在特定輸出神經元內被整合，以指揮行為。
 
@@ -93,7 +93,7 @@ confidence: medium
 
 **難題一：誰在教「這次沒被電」？** 寫入「這個氣味很糟」靠的是送懲罰訊號的多巴胺神經元（PPL1 群）。直覺上，消退也許是讓 PPL1 把當初改過的突觸再改回去。作者用溫度開關（Shi^ts1，見頁首的詞表）在重新聞氣味的那段時間，分別關掉兩群多巴胺神經元。關掉送懲罰的 PPL1，消退照常發生；關掉 PAM 群（其中有許多送獎賞訊號），消退就不見了。**所以教「這次沒被電」的，是獎賞那一邊的神經元。** 作者據此說，「該來的懲罰沒來」在果蠅腦裡被當成一件好事來記。
 
-**難題二：沒有糖、沒有水，獎賞訊號從哪裡來？** 這裡要用到蘑菇體的網路結構。氣味經由 KC 送到好幾顆輸出神經元（MBON）：有的推動果蠅靠近，有的推動走開。過去的研究（本篇引用）說，嫌惡學習會讓 KC 送到「靠近」那一顆（MVP2）的訊號變弱，結果 CS+ 主要去驅動「走開」那兩顆（M4β′ 與 M6）。而 M4β′ 與 M6 的輸出端，正好伸到 PAM 多巴胺神經元附近。作者把一塊果蠅腦取出來，用紅光直接活化 M4β′／M6，看 PAM 神經元有沒有反應：管 γ5 這一格的 PAM 神經元明顯被活化，管其他格的沒有。他們也在重新聞氣味時關掉 M4β′／M6，消退就變弱了。**整條路是：學過之後，CS+ 主要驅動「走開」的神經元；它們再去叫醒管 γ5 的獎賞神經元；獎賞訊號回頭改寫 γ5 格的突觸，也就是 KC 送到 M6 的那些突觸（M6 的樹突在 γ5 格）。** 網路自己產生了「這次沒事」的教學訊號。
+**難題二：沒有糖、沒有水，獎賞訊號從哪裡來？** 這裡要用到蕈狀體的網路結構。氣味經由 KC 送到好幾顆輸出神經元（MBON）：有的推動果蠅靠近，有的推動走開。過去的研究（本篇引用）說，嫌惡學習會讓 KC 送到「靠近」那一顆（MVP2）的訊號變弱，結果 CS+ 主要去驅動「走開」那兩顆（M4β′ 與 M6）。而 M4β′ 與 M6 的輸出端，正好伸到 PAM 多巴胺神經元附近。作者把一塊果蠅腦取出來，用紅光直接活化 M4β′／M6，看 PAM 神經元有沒有反應：管 γ5 這一格的 PAM 神經元明顯被活化，管其他格的沒有。他們也在重新聞氣味時關掉 M4β′／M6，消退就變弱了。**整條路是：學過之後，CS+ 主要驅動「走開」的神經元；它們再去叫醒管 γ5 的獎賞神經元；獎賞訊號回頭改寫 γ5 格的突觸，也就是 KC 送到 M6 的那些突觸（M6 的樹突在 γ5 格）。** 網路自己產生了「這次沒事」的教學訊號。
 
 **難題三：舊記憶被擦掉了嗎？** 作者在活的果蠅頭上開個小窗，用螢光蛋白（GCaMP）看三顆 MBON 對氣味的反應，比較「只訓練」與「訓練後再消退」兩組。
 
@@ -374,7 +374,7 @@ flowchart TD
 
 > **原圖說（Figure 7）：** Model of Extinction: Aversive Memory Expression Is Limited by Competition with a Parallel Extinction Memory of Opposite Valence. (A) Individual DANs from the PPL1 and PAM clusters innervate distinct mushroom body lobe compartments. PPL1-DANs (red) provide teaching signals during aversive conditioning and PAM-DANs (green) for appetitive conditioning. Each compartment, innervated by a particular DAN also houses dendrites of a corresponding MBON, which are GABAergic (blue), glutamatergic (magenta), or cholinergic (not shown). MBONs receive excitatory acetylcholine from odor coding KCs (black). Terminals of PPL1 DANs overlap dendrites of MBONs promoting approach behavior (blue), whereas PAM DANs overlap MBONs directing avoidance (magenta). MBONs drawn are valence-coding MBONs described to harbor traces of aversive or appetitive memory (Owald et al., 2015; Perisse et al., 2016). (B) When a naive fly detects neutral odor, odor-specific KCs (black) drive an equally weighted network of approach and avoidance promoting MBONs. This balanced network configuration does not promote directed behavior. (C) During aversive conditioning, CS+ induced activity in KCs and downstream MBONs coincides with activity of PPL1 DANs, leading to compartment restricted synaptic depression between odor-activated KCs and respective MBON. (D) Following aversive conditioning, CS+ drive to approach MBONs is reduced (smaller triangle) and as result of reduced odor-specific MVP2-mediated feedforward inhibition, CS+ drive to avoidance promoting M4β′/M6 is also potentiated. (E) During extinction, learned configuration of the MBON network favors CS+ activation of avoidance promoting MBONs, which, in turn, drives appetitively reinforcing γ5 PAM DANs. Coincidence of CS+ during extinction and γ5 DAN activity depresses odor-activated KC synapses onto M6 MBONs. (F) After extinction, reduced CS+ drive to avoidance coding M6 (smaller triangle) partially compensates for the network potentiation of M6 neuron response induced during initial aversive training.
 
-**圖說中譯：** 消退的模型：嫌惡記憶的表現受到一個價值相反的並行消退記憶競爭而受限。(A) 來自 PPL1 與 PAM 群的個別 DAN 支配蘑菇體葉的不同區室。PPL1-DAN（紅）在嫌惡制約時提供教學訊號，PAM-DAN（綠）在獎賞制約時提供。每個區室由一型 DAN 支配，也容納一型對應 MBON 的樹突；MBON 為 GABA 能（藍）、麩胺酸能（洋紅）或膽鹼能（未畫出）。MBON 從編碼氣味的 KC（黑）接收興奮性的乙醯膽鹼。PPL1 DAN 的末梢與推動靠近的 MBON（藍）樹突重疊，PAM DAN 則與指揮迴避的 MBON（洋紅）重疊。圖中畫的是已知帶有嫌惡或獎賞記憶痕跡的價值編碼 MBON（Owald et al. 2015；Perisse et al. 2016）。(B) 未受訓練的果蠅聞到中性氣味時，氣味專一的 KC（黑）驅動一個權重相等的網路，包含推動靠近與推動迴避的 MBON。這個平衡的網路配置不會產生有方向的行為。(C) 嫌惡制約時，CS+ 在 KC 與下游 MBON 引起的活動與 PPL1 DAN 的活動同時發生，造成限於該區室的、被氣味活化的 KC 與相應 MBON 之間的突觸變弱（synaptic depression；不是 MVP2 那種抑制性連接）。(D) 嫌惡制約後，CS+ 對推動靠近的 MBON 的驅動減少（較小的三角形）；而且因為 MVP2 介導的、氣味專一的前饋抑制減少，CS+ 對推動迴避的 M4β′／M6 的驅動也被增強。(E) 消退時，學過的 MBON 網路配置有利於 CS+ 活化推動迴避的 MBON，後者再驅動能送出獎賞教學訊號的 γ5 PAM DAN。消退時 CS+ 與 γ5 DAN 活動同時發生，壓低被氣味活化的 KC 對 M6 MBON 的突觸。(F) 消退後，CS+ 對編碼迴避的 M6 的驅動減少（較小的三角形），部分補償了初始嫌惡訓練在網路中造成的 M6 反應增強。
+**圖說中譯：** 消退的模型：嫌惡記憶的表現受到一個價值相反的並行消退記憶競爭而受限。(A) 來自 PPL1 與 PAM 群的個別 DAN 支配蕈狀體葉的不同區室。PPL1-DAN（紅）在嫌惡制約時提供教學訊號，PAM-DAN（綠）在獎賞制約時提供。每個區室由一型 DAN 支配，也容納一型對應 MBON 的樹突；MBON 為 GABA 能（藍）、麩胺酸能（洋紅）或膽鹼能（未畫出）。MBON 從編碼氣味的 KC（黑）接收興奮性的乙醯膽鹼。PPL1 DAN 的末梢與推動靠近的 MBON（藍）樹突重疊，PAM DAN 則與指揮迴避的 MBON（洋紅）重疊。圖中畫的是已知帶有嫌惡或獎賞記憶痕跡的價值編碼 MBON（Owald et al. 2015；Perisse et al. 2016）。(B) 未受訓練的果蠅聞到中性氣味時，氣味專一的 KC（黑）驅動一個權重相等的網路，包含推動靠近與推動迴避的 MBON。這個平衡的網路配置不會產生有方向的行為。(C) 嫌惡制約時，CS+ 在 KC 與下游 MBON 引起的活動與 PPL1 DAN 的活動同時發生，造成限於該區室的、被氣味活化的 KC 與相應 MBON 之間的突觸變弱（synaptic depression；不是 MVP2 那種抑制性連接）。(D) 嫌惡制約後，CS+ 對推動靠近的 MBON 的驅動減少（較小的三角形）；而且因為 MVP2 介導的、氣味專一的前饋抑制減少，CS+ 對推動迴避的 M4β′／M6 的驅動也被增強。(E) 消退時，學過的 MBON 網路配置有利於 CS+ 活化推動迴避的 MBON，後者再驅動能送出獎賞教學訊號的 γ5 PAM DAN。消退時 CS+ 與 γ5 DAN 活動同時發生，壓低被氣味活化的 KC 對 M6 MBON 的突觸。(F) 消退後，CS+ 對編碼迴避的 M6 的驅動減少（較小的三角形），部分補償了初始嫌惡訓練在網路中造成的 M6 反應增強。
 
 **解讀：**
 

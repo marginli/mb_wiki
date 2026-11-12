@@ -1,12 +1,12 @@
 ---
-title: 蘑菇體輸出神經元（mushroom body output neuron, MBON）
+title: 蕈狀體輸出神經元（mushroom body output neuron, MBON）
 created: 2026-10-25
 updated: 2026-10-25
 tags: [entity, active, mb-learning]
 confidence: medium
 ---
 
-# 蘑菇體輸出神經元（mushroom body output neuron, MBON）
+# 蕈狀體輸出神經元（mushroom body output neuron, MBON）
 
 ## 是什麼
 

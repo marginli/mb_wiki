@@ -12,9 +12,9 @@ confidence: medium
 
 **本頁用語**（每頁可單獨查閱，故重複列出）：
 
-- **KC**：Kenyon 細胞（Kenyon cell），蘑菇體（mushroom body，果蠅腦中把氣味和好壞連起來的構造）裡代表氣味的神經元，每種氣味只活化一小群。
+- **KC**：Kenyon 細胞（Kenyon cell），蕈狀體（mushroom body，果蠅腦中把氣味和好壞連起來的構造）裡代表氣味的神經元，每種氣味只活化一小群。
 - **DAN**：多巴胺神經元（dopaminergic neuron），送出代表懲罰或獎賞的多巴胺。依 Handler 2019 的說法，PAM 群多報告獎賞、PPL（PPL1）群多報告懲罰。
-- **MBON**：蘑菇體輸出神經元（MB output neuron），接收 KC 的訊號，推動果蠅靠近或走開。
+- **MBON**：蕈狀體輸出神經元（MB output neuron），接收 KC 的訊號，推動果蠅靠近或走開。
 - **葉、萼部**：KC 的軸突（送出訊號的長枝）成束排成 α、α′、γ 等「葉」（lobe）；KC 的樹突（接收端）聚在「萼部」（calyx）。
 - **區室**：葉沿長度切成的一格，以 γ1pedc、γ2、γ4、α2 等編號命名；細胞也以所在區室命名，例如 MBON-γ1pedc、PPL1-γ1pedc。詳見 [[c-mb-compartment]]。
 - **章魚胺**（octopamine）：昆蟲腦中類似腎上腺素的物質，Tomchik 2009 當時被認為傳遞獎賞，所以拿來和多巴胺對照。
@@ -39,10 +39,10 @@ Tully 1985 沒有量 cAMP：它用改變 cAMP 製造或分解的全身突變果�
 | 來源 | 怎麼用 | 得到什麼 |
 |---|---|---|
 | [[s-tomchik-2009-camp-dynamics]] | 浴灌多巴胺／章魚胺的劑量反應；乙醯膽鹼＋多巴胺配對的協同；用 forskolin（直接活化 AC 的藥）拉高 cAMP | 浴灌多巴胺的最大 cAMP 反應約 11.9 ± 1.3% ΔR/R0（forskolin 可讓同一感測器讀到約 40%，表示 11.9% 不是感測器的上限）；配對比相加多約五成，*rut¹* 中消失；cAMP 拉高後 KC 對同樣刺激的鈣反應（神經元被激發時細胞內鈣上升，常用作活動的指標）變大（α 葉約 3.2 倍），作者視為 KC 變得更容易被激起 |
-| [[s-tully-1985-classical-conditioning]] | 以全身突變操作 cAMP 路徑：*rut*（缺受鈣／攜鈣素刺激的環化酶活性，全身 cAMP 較低）、*dnc*（缺分解 cAMP 的第二型磷酸二酯酶，cAMP 較高）、兩者的雙突變（全身 cAMP 接近正常）；量整隻果蠅的學習與記憶，拿去對照海兔的 cAMP 學習模型 | *rut*/*rut* Λ ＝ 0.41、*dnc*^M11 0.34、雙突變 0.16（同日 C-S 0.84–0.87）；cAMP 往相反方向偏的兩個突變缺陷相似、cAMP 接近正常的雙突變反而最差，作者據此指出海兔模型對不上的三點；本篇全文沒有提到蘑菇體 |
+| [[s-tully-1985-classical-conditioning]] | 以全身突變操作 cAMP 路徑：*rut*（缺受鈣／攜鈣素刺激的環化酶活性，全身 cAMP 較低）、*dnc*（缺分解 cAMP 的第二型磷酸二酯酶，cAMP 較高）、兩者的雙突變（全身 cAMP 接近正常）；量整隻果蠅的學習與記憶，拿去對照海兔的 cAMP 學習模型 | *rut*/*rut* Λ ＝ 0.41、*dnc*^M11 0.34、雙突變 0.16（同日 C-S 0.84–0.87）；cAMP 往相反方向偏的兩個突變缺陷相似、cAMP 接近正常的雙突變反而最差，作者據此指出海兔模型對不上的三點；本篇全文沒有提到蕈狀體 |
 | [[s-handler-2019-dopamine-receptor-timing]] | 不同時間差下的 cAMP；剔除受體 DopR1、DopR2 | 六個時間差都有 cAMP，0 s 最高；DopR1−/− 降到野生型約 27%，DopR2−/− 不變 → cAMP 主要走 DopR1；cAMP 被歸為推動突觸**減弱**的一方 |
 
-> 數值見 [[numbers]]。**Hige 2015 只提到**：討論中引 Boto et al. 2014（cAMP 上升侷限在被活化 DAN 支配的區室）與「遺傳證據顯示 cAMP 是蘑菇體可塑性誘發的核心」，本身沒有量或操作 cAMP。
+> 數值見 [[numbers]]。**Hige 2015 只提到**：討論中引 Boto et al. 2014（cAMP 上升侷限在被活化 DAN 支配的區室）與「遺傳證據顯示 cAMP 是蕈狀體可塑性誘發的核心」，本身沒有量或操作 cAMP。
 >
 > **2015–2018 新收的五篇都沒有量或操作 cAMP**（Cohn 2015 grep `cAMP|PKA|rutabaga` 無結果；Ichinose 2015 只在背景引 *rutabaga*；Felsenberg 2018 引言轉述 Schwaerzel et al. 2002 的「消退在 KC 內對抗 cAMP 訊號」，並主張自己的結果是細胞之間而非細胞內的拮抗）。cAMP 上游受體 DopR1 的用法見 [[e-dopamine-receptor]]。
 

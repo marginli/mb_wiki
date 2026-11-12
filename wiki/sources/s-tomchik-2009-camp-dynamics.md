@@ -31,9 +31,9 @@ confidence: medium
 
 ## 為什麼重要
 
-果蠅學會「某個氣味＝會被電」，靠的是腦中一個叫蘑菇體（mushroom body）的構造。蘑菇體裡的 Kenyon 細胞（Kenyon cell, KC；蘑菇體的主要神經元，每顆只對少數氣味有反應）負責代表氣味；懲罰或獎賞則由釋放多巴胺（dopamine）等物質的神經元送來。1980–2000 年代的遺傳學已經知道：一個叫 *rutabaga*（*rut*）的基因壞掉，果蠅就學不好，而它編碼的是一種腺苷酸環化酶（adenylyl cyclase, AC；製造細胞內訊號分子 cAMP 的酵素）。生化實驗又發現這個酵素同時受鈣離子（神經元被氣味活化時會進來）與 G 蛋白（多巴胺受體活化後會啟動）刺激。於是有一個作者在討論中稱為「長久以來被假設、卻從未被充分檢驗」（long-hypothesized yet never adequately tested）的假說（論文引用的最早生化證據是 Livingstone et al. 1984）：**rut 是一個「巧合偵測器」，只有氣味和懲罰同時到，才會製造大量 cAMP，從而啟動記憶。** 但在本篇之前，這個假說幾乎只有細胞膜碎片上的生化證據，主要來自海兔（*Aplysia*，一種海生軟體動物，是研究學習細胞機制的經典動物；牠的同類酵素也同時受鈣與另一種神經傳遞物刺激）。沒有人在神經迴路還完整的果蠅腦裡直接看過。
+果蠅學會「某個氣味＝會被電」，靠的是腦中一個叫蕈狀體（mushroom body）的構造。蕈狀體裡的 Kenyon 細胞（Kenyon cell, KC；蕈狀體的主要神經元，每顆只對少數氣味有反應）負責代表氣味；懲罰或獎賞則由釋放多巴胺（dopamine）等物質的神經元送來。1980–2000 年代的遺傳學已經知道：一個叫 *rutabaga*（*rut*）的基因壞掉，果蠅就學不好，而它編碼的是一種腺苷酸環化酶（adenylyl cyclase, AC；製造細胞內訊號分子 cAMP 的酵素）。生化實驗又發現這個酵素同時受鈣離子（神經元被氣味活化時會進來）與 G 蛋白（多巴胺受體活化後會啟動）刺激。於是有一個作者在討論中稱為「長久以來被假設、卻從未被充分檢驗」（long-hypothesized yet never adequately tested）的假說（論文引用的最早生化證據是 Livingstone et al. 1984）：**rut 是一個「巧合偵測器」，只有氣味和懲罰同時到，才會製造大量 cAMP，從而啟動記憶。** 但在本篇之前，這個假說幾乎只有細胞膜碎片上的生化證據，主要來自海兔（*Aplysia*，一種海生軟體動物，是研究學習細胞機制的經典動物；牠的同類酵素也同時受鈣與另一種神經傳遞物刺激）。沒有人在神經迴路還完整的果蠅腦裡直接看過。
 
-本篇用「遺傳編碼的 cAMP 感測器」直接在果蠅腦裡「看見」這件事。這種感測器是一個會隨 cAMP 濃度改變螢光顏色的蛋白質，用基因工程讓 KC 自己製造出來，所以在顯微鏡下就能看到 KC 裡 cAMP 的起落（原理見科普文）。作者把整顆腦取出、保持存活，在蘑菇體上用兩根玻璃細管分別滴乙醯膽鹼（acetylcholine, ACh；把氣味訊號傳給 KC 的神經元所釋放的傳遞物，因此用來模擬氣味輸入）和多巴胺（模擬懲罰），同時錄 cAMP 的變化。他們報告三件事：(1) 先給乙醯膽鹼、1 秒後給多巴胺，cAMP 的上升比兩者分開給的總和還大（「協同」），而這個協同在 *rut* 突變果蠅消失；(2) 協同只在多巴胺「在後」且間隔不超過約 15 秒時出現，順序倒過來或間隔 30 秒就沒有，作者把這個時間窗與行為學習並列（行為上電擊緊接在氣味之後學得最好，間隔 30–45 秒就幾乎學不到）；(3) 人為提高 cAMP 會讓 KC 對乙醯膽鹼的鈣反應變大。作者認為這是「突觸前可塑性」的一種形式：可塑性（plasticity）指神經元的反應或連結強度能被經驗改變，被認為是記憶的細胞基礎；「突觸前」指訊號送出端，也就是 KC 的軸突末梢。作者用這個詞指 KC 本身對輸入的反應增強；本篇沒有量末梢實際送出多少訊號。
+本篇用「遺傳編碼的 cAMP 感測器」直接在果蠅腦裡「看見」這件事。這種感測器是一個會隨 cAMP 濃度改變螢光顏色的蛋白質，用基因工程讓 KC 自己製造出來，所以在顯微鏡下就能看到 KC 裡 cAMP 的起落（原理見科普文）。作者把整顆腦取出、保持存活，在蕈狀體上用兩根玻璃細管分別滴乙醯膽鹼（acetylcholine, ACh；把氣味訊號傳給 KC 的神經元所釋放的傳遞物，因此用來模擬氣味輸入）和多巴胺（模擬懲罰），同時錄 cAMP 的變化。他們報告三件事：(1) 先給乙醯膽鹼、1 秒後給多巴胺，cAMP 的上升比兩者分開給的總和還大（「協同」），而這個協同在 *rut* 突變果蠅消失；(2) 協同只在多巴胺「在後」且間隔不超過約 15 秒時出現，順序倒過來或間隔 30 秒就沒有，作者把這個時間窗與行為學習並列（行為上電擊緊接在氣味之後學得最好，間隔 30–45 秒就幾乎學不到）；(3) 人為提高 cAMP 會讓 KC 對乙醯膽鹼的鈣反應變大。作者認為這是「突觸前可塑性」的一種形式：可塑性（plasticity）指神經元的反應或連結強度能被經驗改變，被認為是記憶的細胞基礎；「突觸前」指訊號送出端，也就是 KC 的軸突末梢。作者用這個詞指 KC 本身對輸入的反應增強；本篇沒有量末梢實際送出多少訊號。
 
 對本庫而言，這一篇是「學習的時序規則」與「多巴胺訊號如何被 KC 讀出」兩條線的起點：它把行為上的「先氣味、後懲罰才學得會」對應到 KC 軸突裡的一個分子事件。它的限制也一樣重要：所有細胞層級的實驗都是離體腦加上藥物滴注，刺激的時間尺度（秒）和行為訓練（60 秒的氣味與電擊）並不相同，而且它量的是 KC 內部的 cAMP 與鈣，**沒有量 KC 的輸出突觸**——果蠅的行為最終取決於 KC 傳給下游神經元的訊號，KC 內部的變化要變成輸出的變化才會影響行為，所以這是從分子到行為之間缺的一環。另一個缺口是本篇沒有辨認多巴胺經由哪個受體作用。本庫另外兩篇補上了這兩個缺口的一部分：[[s-hige-2015-heterosynaptic-plasticity]] 直接量了 KC 的輸出突觸，[[s-handler-2019-dopamine-receptor-timing]] 辨認了兩種多巴胺受體。但兩篇與本篇也有說法不同之處，見「未來」一節與 [[syn-contradictions]]。
 
@@ -47,7 +47,7 @@ confidence: medium
 
 **中譯**（本節為忠實翻譯，非自撰內容；譯文後附名詞註）：
 
-> **摘要：** 本研究以遺傳編碼的鈣與 cAMP 報告分子進行功能性成像，探討果蠅學習背後的訊號整合。多巴胺與章魚胺以空間上不同的樣式調節蘑菇體神經元內的 cAMP。將神經元去極化與其後施加的多巴胺配對，會在蘑菇體各葉中引起 cAMP 的協同性上升，且此上升依賴 rutabaga 腺苷酸環化酶。這種協同只限於蘑菇體神經元的軸突，且只在順向配對、時間間隔與行為制約所需相近時才出現。相對地，神經元去極化與章魚胺的順向配對對 cAMP 產生次加成的效果。最後，提高細胞內 cAMP 會增強蘑菇體神經元的鈣暫態，顯示 cAMP 上升足以誘發突觸前可塑性。這些資料顯示 rutabaga 在完整的神經迴路中扮演巧合偵測器，而多巴胺與章魚胺雙向地影響 cAMP 的生成。
+> **摘要：** 本研究以遺傳編碼的鈣與 cAMP 報告分子進行功能性成像，探討果蠅學習背後的訊號整合。多巴胺與章魚胺以空間上不同的樣式調節蕈狀體神經元內的 cAMP。將神經元去極化與其後施加的多巴胺配對，會在蕈狀體各葉中引起 cAMP 的協同性上升，且此上升依賴 rutabaga 腺苷酸環化酶。這種協同只限於蕈狀體神經元的軸突，且只在順向配對、時間間隔與行為制約所需相近時才出現。相對地，神經元去極化與章魚胺的順向配對對 cAMP 產生次加成的效果。最後，提高細胞內 cAMP 會增強蕈狀體神經元的鈣暫態，顯示 cAMP 上升足以誘發突觸前可塑性。這些資料顯示 rutabaga 在完整的神經迴路中扮演巧合偵測器，而多巴胺與章魚胺雙向地影響 cAMP 的生成。
 
 名詞註（非譯文）：**去極化**（depolarization）＝神經元膜電位往正的方向變、也就是神經元被激發，本篇用乙醯膽鹼造成；**章魚胺**（octopamine）＝昆蟲腦中類似腎上腺素的物質，當時被認為傳遞「獎賞」；**空間上不同的樣式**＝在 KC 的樹突與軸突、各類 KC 之間反應不同（見 3.2 節）；**葉**（lobe）＝KC 軸突聚集成的分枝狀構造（見專業文開頭讀前說明）；**順向配對**＝先給 KC 的刺激（乙醯膽鹼）、後給多巴胺，順序與「先氣味、後懲罰」相同；**次加成**（sub-additive）＝配對的反應比兩者單獨反應的總和還小，與「協同」相反；**鈣暫態**（calcium transient）＝神經元被激發時短暫的鈣濃度上升。
 
@@ -59,7 +59,7 @@ confidence: medium
 
 **難題：鎖在哪裡？**
 
-果蠅腦中負責這種學習的地方叫蘑菇體。氣味進來時，會讓一小群 Kenyon 細胞（蘑菇體裡的主要神經元）興奮，鈣離子湧入這些細胞；電擊這類懲罰，則由另一群神經元釋放多巴胺，灑在 Kenyon 細胞的軸突（神經元往外送訊號的長枝）上。所以每顆 Kenyon 細胞都可能同時收到兩種訊號：「我現在代表的氣味出現了」（鈣）和「剛剛發生了壞事」（多巴胺）。
+果蠅腦中負責這種學習的地方叫蕈狀體。氣味進來時，會讓一小群 Kenyon 細胞（蕈狀體裡的主要神經元）興奮，鈣離子湧入這些細胞；電擊這類懲罰，則由另一群神經元釋放多巴胺，灑在 Kenyon 細胞的軸突（神經元往外送訊號的長枝）上。所以每顆 Kenyon 細胞都可能同時收到兩種訊號：「我現在代表的氣味出現了」（鈣）和「剛剛發生了壞事」（多巴胺）。
 
 早在 1980 年代，遺傳學家就找到一個突變果蠅，學習成績特別差，這個基因被取名為 *rutabaga*（蕪菁，果蠅基因常用這種俏皮名字）。後來發現 *rutabaga* 做出來的是一種酵素，專門製造一種叫 cAMP（環腺苷酸）的小分子。cAMP 是細胞內的「傳令兵」：它的濃度一高，就會啟動一連串蛋白質去改變細胞的性質。更巧的是，這個酵素同時受鈣離子和多巴胺受體兩種訊號開啟。於是大家猜：**rutabaga 就是那把雙鑰匙鎖**——氣味給一把鑰匙，多巴胺給另一把，兩把一起插進去，cAMP 就會大量產生。
 
@@ -89,7 +89,7 @@ confidence: medium
 
 ## 專業文
 
-**讀前說明。** (1) 蘑菇體 KC 分三類：α/β、α′/β′、γ。每顆 KC 的樹突在萼部（calyx）接收嗅覺輸入，軸突往外延伸成「葉」（lobe）：α/β 與 α′/β′ KC 的軸突分岔成往上的垂直葉（α、α′ 葉）與往內的水平葉（β、β′ 葉），γ KC 只有水平的 γ 葉。所以「α 葉」量到的是 α/β KC 的軸突。(2) 鈣訊號以 ΔF/F0 表示：螢光比刺激前基線（F0）增加了百分之幾；cAMP 訊號以 ΔR/R0 表示：兩種螢光的比值比基線增加了百分之幾。兩者都是相對變化，只能在同一感測器、同一種實驗準備方式（文中稱「製備」，preparation，例如取出的整顆腦、或打碎後的細胞膜）內比大小。(3) *rut¹* 是 *rut* 基因的一個突變版本（等位基因，allele：同一基因的不同版本）；*rut¹*/+ 是「異型合子」，即一對染色體中一條帶突變、一條正常，學習表現正常（論文引補充圖 3），因此是與突變果蠅遺傳背景最接近的對照。(4) 「⚠️ 單篇不一致」指同一篇論文的摘要、正文、圖之間互相對不上（不是與其他論文矛盾）；「※ 推論」指論文沒有明說、由本頁推得；「※ 從圖判讀」指數值是本頁從圖上量出，有判讀誤差。(5) 「PDF 第 N 頁」指本庫所存作者稿 PDF 的頁碼。
+**讀前說明。** (1) 蕈狀體 KC 分三類：α/β、α′/β′、γ。每顆 KC 的樹突在萼部（calyx）接收嗅覺輸入，軸突往外延伸成「葉」（lobe）：α/β 與 α′/β′ KC 的軸突分岔成往上的垂直葉（α、α′ 葉）與往內的水平葉（β、β′ 葉），γ KC 只有水平的 γ 葉。所以「α 葉」量到的是 α/β KC 的軸突。(2) 鈣訊號以 ΔF/F0 表示：螢光比刺激前基線（F0）增加了百分之幾；cAMP 訊號以 ΔR/R0 表示：兩種螢光的比值比基線增加了百分之幾。兩者都是相對變化，只能在同一感測器、同一種實驗準備方式（文中稱「製備」，preparation，例如取出的整顆腦、或打碎後的細胞膜）內比大小。(3) *rut¹* 是 *rut* 基因的一個突變版本（等位基因，allele：同一基因的不同版本）；*rut¹*/+ 是「異型合子」，即一對染色體中一條帶突變、一條正常，學習表現正常（論文引補充圖 3），因此是與突變果蠅遺傳背景最接近的對照。(4) 「⚠️ 單篇不一致」指同一篇論文的摘要、正文、圖之間互相對不上（不是與其他論文矛盾）；「※ 推論」指論文沒有明說、由本頁推得；「※ 從圖判讀」指數值是本頁從圖上量出，有判讀誤差。(5) 「PDF 第 N 頁」指本庫所存作者稿 PDF 的頁碼。
 
 ### 一、概述
 
@@ -100,9 +100,9 @@ confidence: medium
 **發表當時的領域現狀（2009）。** 論文所引的座標包括：
 - *rut* 的生化性質：Livingstone et al. 1984（*rut* 突變使 AC 失去 Ca²⁺/CaM 反應性）；哺乳類 AC1 在 HEK 細胞（一種常用來表現外來蛋白的人類培養細胞株）中，只在 Gs（即 Gαs）刺激與鈣同時存在時產生協同 cAMP（Wayman et al. 1994）。
 - 海兔的先例：Abrams et al. 1991、Yovell & Abrams 1992 在細胞膜製備中看到鈣與血清素配對的協同 cAMP 上升；Kandel 實驗室（以海兔研究學習機制的代表團隊）在保留完整的神經節（ganglion，無脊椎動物的神經細胞團）上局部滴藥，解析細胞層級的記憶（Martin et al. 1997）。本篇明言其製備「類似」這條路線——同樣是保留迴路、再局部給藥（PDF 第 2 頁）。
-- *rut* 在蘑菇體的足夠性：在 *rut* 突變果蠅中，用基因工程只讓成蟲的蘑菇體重新表現正常的 *rut*，就能救回嫌惡性制約（aversive conditioning：氣味配電擊、學會避開該氣味的學習）（Zars et al. 2000；McGuire et al. 2003；Mao et al. 2004）。
+- *rut* 在蕈狀體的足夠性：在 *rut* 突變果蠅中，用基因工程只讓成蟲的蕈狀體重新表現正常的 *rut*，就能救回嫌惡性制約（aversive conditioning：氣味配電擊、學會避開該氣味的學習）（Zars et al. 2000；McGuire et al. 2003；Mao et al. 2004）。
 - US 的傳遞者：Schwaerzel et al. 2003 主張多巴胺傳遞懲罰、章魚胺傳遞獎賞；但 Kim et al. 2007 發現 D1 類受體 dDA1 在嫌惡與獎賞學習中都需要——也就是多巴胺不只參與懲罰，這動搖了「多巴胺＝懲罰、章魚胺＝獎賞」的分工，與本篇章魚胺的結果（3.3 節）有關。
-- 記憶痕跡的成像：DPM 神經元（dorsal paired medial neuron；一對支配整個蘑菇體葉部的大型神經元）、APL 神經元（anterior paired lateral neuron；一對釋放抑制性傳遞物 GABA 的神經元）、觸角葉（antennal lobe，嗅覺的第一站）、α/β 與 α′/β′ KC 都已觀察到學習後的鈣或突觸傳遞改變（Yu et al. 2003、2005、2006；Wang et al. 2008；Liu & Davis 2009）。
+- 記憶痕跡的成像：DPM 神經元（dorsal paired medial neuron；一對支配整個蕈狀體葉部的大型神經元）、APL 神經元（anterior paired lateral neuron；一對釋放抑制性傳遞物 GABA 的神經元）、觸角葉（antennal lobe，嗅覺的第一站）、α/β 與 α′/β′ KC 都已觀察到學習後的鈣或突觸傳遞改變（Yu et al. 2003、2005、2006；Wang et al. 2008；Liu & Davis 2009）。
 - cAMP 感測器：Epac1-camps（Nikolaev et al. 2004）已由 Shafer et al. 2008 用於果蠅。
 
 **體裁。** 原著研究論文：離體腦的鈣與 cAMP 成像，加一組行為實驗。
@@ -122,7 +122,7 @@ flowchart TD
     G --> J
 ```
 
-**感測器與表現系統。** GAL4-UAS 是果蠅的雙元表現系統：一個「驅動品系」（GAL4 line）決定在哪些細胞表現，一個「報告品系」（UAS）決定表現什麼。本篇用的驅動品系與它們標記的細胞：238Y（三類 KC：α/β、α′/β′、γ）、c739（α/β KC）、c305a（α′/β′ KC）、1471（γ KC）、c316（DPM 神經元）、GH146（觸角葉投射神經元，projection neuron, PN；把嗅覺訊號從觸角葉送到蘑菇體萼部的神經元）。鈣感測器是 G-CaMP 1.6；cAMP 感測器是 Epac1-camps，一個以螢光共振能量轉移（Förster resonance energy transfer, FRET）運作的蛋白。FRET 的原理是：青色螢光蛋白（CFP）與黃色螢光蛋白（YFP）靠得很近時，CFP 吸收的能量會轉給 YFP，於是發黃光多、青光少；cAMP 結合後兩者分開，能量不再轉移，青光相對於黃光上升，因此以「反 FRET 比」（CFP:YFP）的變化率 ΔR/R0 表示 cAMP 上升。
+**感測器與表現系統。** GAL4-UAS 是果蠅的雙元表現系統：一個「驅動品系」（GAL4 line）決定在哪些細胞表現，一個「報告品系」（UAS）決定表現什麼。本篇用的驅動品系與它們標記的細胞：238Y（三類 KC：α/β、α′/β′、γ）、c739（α/β KC）、c305a（α′/β′ KC）、1471（γ KC）、c316（DPM 神經元）、GH146（觸角葉投射神經元，projection neuron, PN；把嗅覺訊號從觸角葉送到蕈狀體萼部的神經元）。鈣感測器是 G-CaMP 1.6；cAMP 感測器是 Epac1-camps，一個以螢光共振能量轉移（Förster resonance energy transfer, FRET）運作的蛋白。FRET 的原理是：青色螢光蛋白（CFP）與黃色螢光蛋白（YFP）靠得很近時，CFP 吸收的能量會轉給 YFP，於是發黃光多、青光少；cAMP 結合後兩者分開，能量不再轉移，青光相對於黃光上升，因此以「反 FRET 比」（CFP:YFP）的變化率 ΔR/R0 表示 cAMP 上升。
 
 **感測器的驗證。** 作者以 forskolin（直接活化腺苷酸環化酶的藥物）確認 Epac1-camps 在 KC 中有濃度依賴的反應；用 514 nm 雷射只激發 YFP，YFP 螢光沒有下降（若 YFP 自己因褪色等原因變暗，CFP:YFP 比值也會上升，造成假的「cAMP 上升」；這個檢查排除了這種可能）；並以補充圖 2 排除 cGMP（另一種結構相近的細胞內傳訊分子，有報告指出此感測器也會對它反應）的干擾（內容：？待查（補充資料未取得））。
 
@@ -155,7 +155,7 @@ flowchart TD
 
 > **原圖說（Figure 2）：** Forskolin, dopamine, and octopamine increase cAMP in mushroom body neurons in a rutabaga-independent manner. Error bars in all panels indicate S.E.M. (A) Confocal image showing CFP and YFP emission from the mushroom body α and α' lobes in the brain of a 238Y-GAL4>UAS-epac1-camps fly. The image was collected across 256×256 pixels, the same as used for time series imaging. Scale bar = 10 µm. (B) Responses of the α lobe to three concentrations of forskolin. The data are plotted in terms of the change in inverse FRET ratio (ΔR/R0). (C) Pseudocolor images showing the time course of a representative response to forskolin (100 µM). (D) Dose-response curve for mushroom body α lobe cAMP responses to forskolin in 238Y-GAL4>UAS-epac1-camps flies (n = 7). (E) Dose-response curves for mushroom body α lobe cAMP responses to bathapplied dopamine and octopamine in 238Y-GAL4>UAS-epac1-camps flies (n = 5). Responses were fit with a four parameter logistic curve. Cyclic AMP responses were observed at lower concentrations of dopamine and octopamine than that required to evoke detectable changes in intracellular calcium (Figure 1). The average maximal responses to dopamine and octopamine (11.9 ± 1.3% and 11.5 ± 1.9% ΔR/R0, respectively) were similar to the response to 10 µM forskolin (11.2 ± 1.2% ΔR/R0). (F) Dose-response curves for dopamine from rut1 mutants and heterozygous control flies (n = 13). Responses were recorded in the α lobe of brains from 238Y-GAL4>UAS-epac1-camps rut1 or control flies (rut1 heterozygotes). (G) Dose-response curves for octopamine from rut1 mutants and heterozygous control flies (n = 13). Data are from the same set of flies in panel F.
 
-**圖說中譯：** forskolin、多巴胺與章魚胺以不依賴 rutabaga 的方式提高蘑菇體神經元的 cAMP。各格誤差棒均為 S.E.M.。(A) 238Y-GAL4>UAS-epac1-camps 果蠅腦中蘑菇體 α 與 α′ 葉的 CFP 與 YFP 螢光共軛焦影像，以 256×256 像素取像，與時間序列相同；比例尺 10 µm。(B) α 葉對三種濃度 forskolin 的反應，以反 FRET 比的變化（ΔR/R0）表示。(C) 對 forskolin（100 µM）代表性反應的時間序列偽色影像。(D) 238Y-GAL4>UAS-epac1-camps 果蠅 α 葉 cAMP 對 forskolin 的劑量反應曲線（n ＝ 7）。(E) 同品系 α 葉 cAMP 對浴灌多巴胺與章魚胺的劑量反應曲線（n ＝ 5），以四參數邏輯曲線擬合。引起 cAMP 反應所需的多巴胺與章魚胺濃度低於引起可偵測鈣變化所需（圖 1）。多巴胺與章魚胺的平均最大反應（分別為 11.9 ± 1.3% 與 11.5 ± 1.9% ΔR/R0）與 10 µM forskolin 的反應（11.2 ± 1.2% ΔR/R0）相近。(F) *rut¹* 突變與異型合子對照果蠅對多巴胺的劑量反應曲線（n ＝ 13），記錄自 238Y-GAL4>UAS-epac1-camps *rut¹* 或對照（*rut¹* 異型合子）果蠅腦的 α 葉。(G) 同上，對章魚胺（n ＝ 13），與 F 格為同一批果蠅。
+**圖說中譯：** forskolin、多巴胺與章魚胺以不依賴 rutabaga 的方式提高蕈狀體神經元的 cAMP。各格誤差棒均為 S.E.M.。(A) 238Y-GAL4>UAS-epac1-camps 果蠅腦中蕈狀體 α 與 α′ 葉的 CFP 與 YFP 螢光共軛焦影像，以 256×256 像素取像，與時間序列相同；比例尺 10 µm。(B) α 葉對三種濃度 forskolin 的反應，以反 FRET 比的變化（ΔR/R0）表示。(C) 對 forskolin（100 µM）代表性反應的時間序列偽色影像。(D) 238Y-GAL4>UAS-epac1-camps 果蠅 α 葉 cAMP 對 forskolin 的劑量反應曲線（n ＝ 7）。(E) 同品系 α 葉 cAMP 對浴灌多巴胺與章魚胺的劑量反應曲線（n ＝ 5），以四參數邏輯曲線擬合。引起 cAMP 反應所需的多巴胺與章魚胺濃度低於引起可偵測鈣變化所需（圖 1）。多巴胺與章魚胺的平均最大反應（分別為 11.9 ± 1.3% 與 11.5 ± 1.9% ΔR/R0）與 10 µM forskolin 的反應（11.2 ± 1.2% ΔR/R0）相近。(F) *rut¹* 突變與異型合子對照果蠅對多巴胺的劑量反應曲線（n ＝ 13），記錄自 238Y-GAL4>UAS-epac1-camps *rut¹* 或對照（*rut¹* 異型合子）果蠅腦的 α 葉。(G) 同上，對章魚胺（n ＝ 13），與 F 格為同一批果蠅。
 
 **解讀：**
 
@@ -173,7 +173,7 @@ flowchart TD
 
 > **原圖說（Figure 3）：** Dopamine has different effects on cAMP in the dendrites (calyx) and axons (α lobe) of mushroom body α/β neurons. (A) Examples of cAMP responses to 1 mM dopamine in the lobe of brains isolated from c739-GAL4>UAS-epac1-camps flies. Dopamine reliably increased cAMP in recordings. Horizontal black bar = stimulus application. (B) Examples of cAMP responses to 100 µM dopamine in the calyx of brains isolated from c739-GAL4>UAS-epac1-camps flies. Since the epac1-camps reporter was expressed in mushroom body neurons and not projection neurons, these recordings represent the changes in cAMP in the dendrites of mushroom body α/β neurons. The calyx responses were heterogeneous; in some cases, dopamine elevated cAMP (black arrowhead), and in others dopamine decreased cAMP (unfilled arrowheads). In some brains there was an increase, followed by an abrupt decrease and then another increase (gray arrowhead). (C) Dose-response curves for dopamine recorded in the α lobe and calyx (n = 5). In the lobe only increases in cAMP were observed, resulting in a sigmoid dose-response curve. However, in the calyx, the heterogeneity of the responses resulted in a non-sigmoid dose-response relationship (data from the calyx are consequently not fitted with a curve). (D) Dose-response curves for octopamine recorded in the α lobe and calyx (n = 5). In both the α lobe and calyx, consistent increases in cAMP were observed, resulting in a sigmoid dose-response curve. The calyx and α lobe recordings were taken from the same two sets of brains as the calyx and α lobe recordings in panel C (respectively).
 
-**圖說中譯：** 多巴胺對蘑菇體 α/β 神經元樹突（萼部）與軸突（α 葉）的 cAMP 作用不同。(A) c739-GAL4>UAS-epac1-camps 果蠅離體腦葉部對 1 mM 多巴胺的 cAMP 反應範例，多巴胺可靠地提高 cAMP；黑色橫條為給藥期間。(B) 同品系萼部對 100 µM 多巴胺的 cAMP 反應範例。由於 Epac1-camps 表現在蘑菇體神經元而非投射神經元，這些紀錄代表 α/β 神經元樹突內的 cAMP 變化。萼部反應不一致：有時多巴胺提高 cAMP（黑色箭頭），有時降低（空心箭頭）；有些腦先升、再驟降、再升（灰色箭頭）。(C) α 葉與萼部對多巴胺的劑量反應曲線（n ＝ 5）。葉部只見上升，呈 S 形；萼部因反應不一致而非 S 形（故未擬合曲線）。(D) α 葉與萼部對章魚胺的劑量反應曲線（n ＝ 5）。兩處都一致上升，呈 S 形。萼部與 α 葉的紀錄分別來自與 C 格相同的兩組腦。
+**圖說中譯：** 多巴胺對蕈狀體 α/β 神經元樹突（萼部）與軸突（α 葉）的 cAMP 作用不同。(A) c739-GAL4>UAS-epac1-camps 果蠅離體腦葉部對 1 mM 多巴胺的 cAMP 反應範例，多巴胺可靠地提高 cAMP；黑色橫條為給藥期間。(B) 同品系萼部對 100 µM 多巴胺的 cAMP 反應範例。由於 Epac1-camps 表現在蕈狀體神經元而非投射神經元，這些紀錄代表 α/β 神經元樹突內的 cAMP 變化。萼部反應不一致：有時多巴胺提高 cAMP（黑色箭頭），有時降低（空心箭頭）；有些腦先升、再驟降、再升（灰色箭頭）。(C) α 葉與萼部對多巴胺的劑量反應曲線（n ＝ 5）。葉部只見上升，呈 S 形；萼部因反應不一致而非 S 形（故未擬合曲線）。(D) α 葉與萼部對章魚胺的劑量反應曲線（n ＝ 5）。兩處都一致上升，呈 S 形。萼部與 α 葉的紀錄分別來自與 C 格相同的兩組腦。
 
 **解讀：**
 
@@ -188,7 +188,7 @@ flowchart TD
 
 > **原圖說（Figure 4）：** Dopamine and octopamine elevate cAMP in multiple anatomical loci across the olfactory system. Four parameter logistic curves were fitted to the responses. Error bars in all panels indicate S.E.M., n = 5 each. (A) Axons of γ lobe neurons, recorded in the mushroom body γ lobe of brains from 1471-GAL4>UAS-epac1-camps flies. (B) Axons of α'/β' neurons, recorded in the mushroom body α' lobe of brains from c305a-GAL4>UAS-epac1-camps flies. (C) Neurites of the DPM neuron, recorded in the mushroom body α lobe of brains from c316-GAL4>UAS-epac1-camps flies. (D) Dendrites of projections neurons (PN), recorded in the antennal lobes of brains from GH146-GAL4>UAS-epac1-camps flies. (E) Axons of projection neurons, recorded in the mushroom body calyx in brains from GH146-GAL4>UAS-epac1-camps flies.
 
-**圖說中譯：** 多巴胺與章魚胺在嗅覺系統的多個解剖位置提高 cAMP。各組反應以四參數邏輯曲線擬合；各格誤差棒為 S.E.M.，每組 n ＝ 5。(A) γ 葉神經元的軸突，記錄自 1471-GAL4>UAS-epac1-camps 果蠅腦的 γ 葉。(B) α′/β′ 神經元的軸突，記錄自 c305a-GAL4>UAS-epac1-camps 的 α′ 葉。(C) DPM 神經元的神經突，記錄自 c316-GAL4>UAS-epac1-camps 的 α 葉。(D) 投射神經元（PN）的樹突，記錄自 GH146-GAL4>UAS-epac1-camps 的觸角葉。(E) 投射神經元的軸突，記錄自同品系的蘑菇體萼部。
+**圖說中譯：** 多巴胺與章魚胺在嗅覺系統的多個解剖位置提高 cAMP。各組反應以四參數邏輯曲線擬合；各格誤差棒為 S.E.M.，每組 n ＝ 5。(A) γ 葉神經元的軸突，記錄自 1471-GAL4>UAS-epac1-camps 果蠅腦的 γ 葉。(B) α′/β′ 神經元的軸突，記錄自 c305a-GAL4>UAS-epac1-camps 的 α′ 葉。(C) DPM 神經元的神經突，記錄自 c316-GAL4>UAS-epac1-camps 的 α 葉。(D) 投射神經元（PN）的樹突，記錄自 GH146-GAL4>UAS-epac1-camps 的觸角葉。(E) 投射神經元的軸突，記錄自同品系的蕈狀體萼部。
 
 **解讀：**
 
@@ -206,7 +206,7 @@ flowchart TD
 
 > **原圖說（Figure 5）：** Pairing of neuronal depolarization with dopamine induced a rutabaga-dependent synergistic elevation of cAMP in mushroom body neurons, while pairing of neuronal depolarization with octopamine resulted in sub-additive 43 increases in cAMP. Panels C–H show cAMP imaging traces recorded from the α lobe of 238Y-GAL4>UAS-epac1-camps brains. (A) Schematic showing placement of the focal application pipettes. The underlying image is an inverted grayscale confocal image of the brain of a 238Y-GAL4> UAS-epac1-camps fly. The pipettes were placed directly anterior to the α lobe and posterior to the calyx. (B) Schematic of the stimulus paradigm. Each stimulus was presented three minutes apart. (C) Recordings from the α lobe of individual brains (thin lines) and the mean response (thick line) during application of dopamine (DA) to the mushroom body vertical lobes. Arrow indicates the stimulus time. (D) Recordings from the α lobe during application of acetylcholine (ACh) to the calyx. (E) The sum of the responses to application of DA and ACh were calculated for each brain. (F) Recordings in which the application of DA and ACh were paired. ACh was applied 1 s before DA. The data from panels C–F are from the same set of brains. (G) Comparison of the responses from the sum (panel E) and paired (panel F) conditions. The cAMP response to paired application of ACh and DA was synergistic. The shaded area bracketing the mean response (solid line) represents the S.E.M. The horizontal gray bracket denotes an 8 s window in which pairwise tests revealed significantly larger (p < 0.01) paired responses (Fisher's LSD following significant difference with ANOVA). (H) Comparison of the responses from the sum and paired conditions in rut1 mutant flies. The response to paired application of ACh and DA was not synergistic in rut1 mutants. (I) Sum and paired response magnitudes from dopamine/acetylcholine experiments for different driver lines and regions imaged. Error bars indicate S.E.M.; *p<0.05. (J) Sum and paired response magnitudes from octopamine/acetylcholine experiments for different driver lines and regions imaged. Error bars indicate S.E.M.; *p<0.05.
 
-**圖說中譯：** 神經元去極化與多巴胺配對，在蘑菇體神經元中引起依賴 rutabaga 的協同性 cAMP 上升；與章魚胺配對則造成次加成的 cAMP 上升（原文此處多出一個「43」，應為排版殘留）。C–H 格為 238Y-GAL4>UAS-epac1-camps 腦 α 葉的 cAMP 紀錄。(A) 局部給藥微管位置示意；底圖為該品系果蠅腦的反相灰階共軛焦影像；微管分別置於 α 葉正前方與萼部後方。(B) 刺激流程示意，各刺激間隔 3 分鐘。(C) 對垂直葉施加多巴胺（DA）時 α 葉的紀錄，細線為個別腦，粗線為平均；箭頭為給藥時點。(D) 對萼部施加乙醯膽鹼（ACh）時 α 葉的紀錄。(E) 每顆腦對 DA 與 ACh 的反應相加。(F) DA 與 ACh 配對的紀錄，ACh 比 DA 早 1 秒。C–F 格來自同一組腦。(G) 相加（E）與配對（F）的比較，配對反應為協同；實線為平均、陰影為 S.E.M.；灰色橫括號標出一段 8 秒的時間窗，其中逐點檢定顯示配對反應顯著較大（p < 0.01；ANOVA 顯著後接 Fisher's LSD）。(H) *rut¹* 突變果蠅中相加與配對的比較，配對反應沒有協同。(I) 不同驅動品系與成像區域在 DA/ACh 實驗中的相加與配對反應幅度；誤差棒為 S.E.M.，*p<0.05。(J) 同上，章魚胺/ACh 實驗。
+**圖說中譯：** 神經元去極化與多巴胺配對，在蕈狀體神經元中引起依賴 rutabaga 的協同性 cAMP 上升；與章魚胺配對則造成次加成的 cAMP 上升（原文此處多出一個「43」，應為排版殘留）。C–H 格為 238Y-GAL4>UAS-epac1-camps 腦 α 葉的 cAMP 紀錄。(A) 局部給藥微管位置示意；底圖為該品系果蠅腦的反相灰階共軛焦影像；微管分別置於 α 葉正前方與萼部後方。(B) 刺激流程示意，各刺激間隔 3 分鐘。(C) 對垂直葉施加多巴胺（DA）時 α 葉的紀錄，細線為個別腦，粗線為平均；箭頭為給藥時點。(D) 對萼部施加乙醯膽鹼（ACh）時 α 葉的紀錄。(E) 每顆腦對 DA 與 ACh 的反應相加。(F) DA 與 ACh 配對的紀錄，ACh 比 DA 早 1 秒。C–F 格來自同一組腦。(G) 相加（E）與配對（F）的比較，配對反應為協同；實線為平均、陰影為 S.E.M.；灰色橫括號標出一段 8 秒的時間窗，其中逐點檢定顯示配對反應顯著較大（p < 0.01；ANOVA 顯著後接 Fisher's LSD）。(H) *rut¹* 突變果蠅中相加與配對的比較，配對反應沒有協同。(I) 不同驅動品系與成像區域在 DA/ACh 實驗中的相加與配對反應幅度；誤差棒為 S.E.M.，*p<0.05。(J) 同上，章魚胺/ACh 實驗。
 
 **解讀：**
 
@@ -273,13 +273,13 @@ flowchart TD
 
 #### 3.5 提高 cAMP 會增強 KC 的鈣反應
 
-![Figure 7：提高 cAMP 增強蘑菇體神經元的反應](../../assets/tomchik2009-fig7.jpg)
+![Figure 7：提高 cAMP 增強蕈狀體神經元的反應](../../assets/tomchik2009-fig7.jpg)
 
 <small>圖片出處：Tomchik SM, Davis RL. *Neuron* 64(4):510–521 (2009)，Figure 7。© 2009 Elsevier Inc. 教學引用；全文見 [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4080329/)。</small>
 
 > **原圖說（Figure 7）：** Elevation of cAMP facilitates responses in mushroom body neurons. Data are from 238Y-GAL4>UAS-G-CaMP flies. Scale bars in panels B–E indicate 5% ΔF/F0 and 10 s. Error bars indicate S.E.M., *p<0.05. (A) The experimental protocol. Acetylcholine was focally applied to the mushroom body calyx and calcium responses recorded in the mushroom body α and α' lobes. Recordings were taken every 3 m. Following the second recording, 10 µM forskolin was applied for 2 m. The third recording was taken in the presence of forskolin, which was subsequently washed out. (B) Acetylcholine-evoked calcium responses in the mushroom body calyx before and after application of 10 µM forskolin. (C) Acetylcholine-evoked calcium responses in the mushroom body α lobe before and after application of 10 µM forskolin. (D) Acetylcholine-evoked calcium responses in the mushroom body α lobe before and after application of 10 µM 1,9-dideoxyforskolin (dd-fsk). (E) Acetylcholine-evoked calcium responses in the mushroom body α lobe before and after application of 10 mM dopamine. (F) Magnitude of acetylcholine-evoked calcium responses in the α lobe, α' lobe, and calyx (cx) (recorded simultaneously in each brain), before (pre) and after (post) application of forskolin (10 µM in 0.01% DMSO; n = 13), 1,9-dideoxyforskolin (10 µM in 0.01% DMSO; n = 11), vehicle control (0.01% DMSO; α lobe; n = 7), and dopamine (10 mM in saline; n = 13). *p < 0.05 (t tests).
 
-**圖說中譯：** 提高 cAMP 增強蘑菇體神經元的反應。資料來自 238Y-GAL4>UAS-G-CaMP 果蠅；B–E 格的比例尺為 5% ΔF/F0 與 10 秒；誤差棒為 S.E.M.，*p<0.05。(A) 實驗流程：對萼部局部施加乙醯膽鹼，在 α 與 α′ 葉記錄鈣反應，每 3 分鐘記錄一次。第二次記錄後浴灌 10 µM forskolin 2 分鐘，第三次記錄在 forskolin 存在下進行，之後洗掉。(B) 施加 10 µM forskolin 前後，萼部對乙醯膽鹼的鈣反應。(C) 同上，α 葉。(D) 施加 10 µM 1,9-dideoxyforskolin（dd-fsk）前後，α 葉的反應。(E) 施加 10 mM 多巴胺前後，α 葉的反應。(F) α 葉、α′ 葉與萼部（cx；每顆腦同時記錄）在施加 forskolin（10 µM，溶於 0.01% DMSO；n ＝ 13）、dd-fsk（10 µM，溶於 0.01% DMSO；n ＝ 11）、溶劑對照（0.01% DMSO；僅 α 葉；n ＝ 7）與多巴胺（10 mM，溶於養液；n ＝ 13）前（pre）後（post）的反應幅度；*p < 0.05（t 檢定）。
+**圖說中譯：** 提高 cAMP 增強蕈狀體神經元的反應。資料來自 238Y-GAL4>UAS-G-CaMP 果蠅；B–E 格的比例尺為 5% ΔF/F0 與 10 秒；誤差棒為 S.E.M.，*p<0.05。(A) 實驗流程：對萼部局部施加乙醯膽鹼，在 α 與 α′ 葉記錄鈣反應，每 3 分鐘記錄一次。第二次記錄後浴灌 10 µM forskolin 2 分鐘，第三次記錄在 forskolin 存在下進行，之後洗掉。(B) 施加 10 µM forskolin 前後，萼部對乙醯膽鹼的鈣反應。(C) 同上，α 葉。(D) 施加 10 µM 1,9-dideoxyforskolin（dd-fsk）前後，α 葉的反應。(E) 施加 10 mM 多巴胺前後，α 葉的反應。(F) α 葉、α′ 葉與萼部（cx；每顆腦同時記錄）在施加 forskolin（10 µM，溶於 0.01% DMSO；n ＝ 13）、dd-fsk（10 µM，溶於 0.01% DMSO；n ＝ 11）、溶劑對照（0.01% DMSO；僅 α 葉；n ＝ 7）與多巴胺（10 mM，溶於養液；n ＝ 13）前（pre）後（post）的反應幅度；*p < 0.05（t 檢定）。
 
 **藥物先說明：** forskolin 直接活化腺苷酸環化酶、提高 cAMP；它另有一個與 cAMP 無關的副作用，會阻斷某些電壓門控鉀離子通道。鉀通道負責讓神經元在激發後回到靜止，被阻斷時神經元較容易持續激發，鈣反應本身就可能變大——所以必須排除「鈣反應變大其實是鉀通道被阻斷」的可能。1,9-dideoxyforskolin（dd-fsk）是它的類似物，有同樣的副作用但不提高 cAMP，因此是「排除副作用」的對照。DMSO 是溶劑。
 
@@ -288,7 +288,7 @@ flowchart TD
 - **增強的倍數（※ 從 F 格判讀）：** forskolin 使 α 葉由約 7.8% 升到約 24.6%（約 3.2 倍）、α′ 葉約 15.9% → 32%（約 2 倍）、萼部約 17.1% → 29.4%（約 1.7 倍）；多巴胺使 α 葉約 5.2% → 10.6%（約 2 倍）、α′ 葉約 18.9% → 30.8%（約 1.6 倍），萼部不變（約 22.4% → 21.8%）。dd-fsk 與溶劑都沒有變化。對照設計是完整的。
 - **A 格透露了一件正文沒說的事：增強是可逆的。** 圖說稱 A 格為「實驗流程」，但它畫的是一顆腦的 α 葉連續八次紀錄的實際曲線（每 3 分鐘一次；第三次在 forskolin 中）。洗掉 forskolin 後，接下來五次紀錄的峰值逐次回落，最後一次接近給藥前的高度（※ 從這一個範例判讀，論文沒說是哪一顆腦）。論文沒有量化增強持續多久。※ 推論：這看起來是「cAMP 高的時候 KC 比較容易被激起」，而不是一個在 cAMP 回落後仍持續的變化；把它稱為「可塑性」時，要記得它的時間尺度是分鐘，而記憶測試在訓練後 3 分鐘（行為實驗）到數小時以上。
 - **摘要說「突觸前可塑性」，正文的證據是「大多數腦整個神經元都增強」。** 「突觸前」指 KC 軸突末梢這一側；若增強只發生在突觸前，萼部（樹突，屬於接收端）應該不變。但 forskolin 下萼部也顯著增強（p < 0.001）。作者為了論證「軸突可以獨立增強」，舉出 13 顆腦中有 3 顆只有葉部增強、萼部不變（補充圖 8：？待查（補充資料未取得））。多巴胺的結果較支持軸突特異（萼部不變）；保留之處在於那是浴灌 10 mM 多巴胺，同時作用在整顆腦，無法分辨它是直接作用在 KC 軸突，還是經由其他細胞間接造成。⚠️ 單篇不一致：摘要的「presynaptic」比正文的證據強。
-- **「鈣上升」不等於「釋放更多神經傳遞物」。** 軸突的鈣是突觸前活動的間接指標；本篇沒有量 KC 對下游 MBON（mushroom body output neuron，蘑菇體輸出神經元，讀取 KC 訊號並影響行為的神經元）的突觸傳遞。
+- **「鈣上升」不等於「釋放更多神經傳遞物」。** 軸突的鈣是突觸前活動的間接指標；本篇沒有量 KC 對下游 MBON（mushroom body output neuron，蕈狀體輸出神經元，讀取 KC 訊號並影響行為的神經元）的突觸傳遞。
 - **這張圖沒有把配對與增強連起來。** 增強是用 forskolin 或單獨的多巴胺誘發的；論文沒有測「ACh 與 DA 配對之後，KC 對下一次 ACh 的反應是否變大」（已讀遍結果節，3.3–3.5 的實驗都沒有這個組合）。所以「巧合 → 協同 cAMP → 增強」這條鏈的三段，是分別在不同實驗中看到的，沒有在同一個實驗裡串起來。
 - **多巴胺的濃度在正文沒寫，只在圖說寫 10 mM**；正文只說「1 分鐘的多巴胺」（PDF 第 8 頁）。而方法節說浴灌給藥是換灌流液 30 秒（PDF 第 11 頁）。⚠️ 單篇不一致：給藥時間 30 秒 vs 1 分鐘，可能是不同實驗用不同時長，論文沒有說明。
 
@@ -337,7 +337,7 @@ flowchart TD
 - **逆向配對的行為**：本篇倒序組的 P.I. 約 0.04，接近沒學到；Handler 2019 的逆向配對卻讓果蠅學到相反的偏好。本篇倒序組的電擊長 60 秒、與氣味重疊約 15 秒，條件差很多，見 [[syn-contradictions]] 1.1。
 - 兩條主題頁把三篇並排：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]。
 
-**尚未被回答的。** (1) 在完整、清醒的果蠅中，真的氣味與真的電擊配對時，KC 軸突的 cAMP 是否同樣出現協同？(2) 協同 cAMP 是否沿 KC 軸突分區（compartment）不同？本篇引用的 Mao & Davis 2009 題為「八種不同的多巴胺神經元支配蘑菇體神經纖維區」；※ 推論：若不同多巴胺神經元支配葉部的不同段落，協同就可能只出現在收到多巴胺的那一段。本篇只量了葉部末端，空間解析度到「葉」為止，無法回答。(3) 協同 cAMP 與 KC 輸出突觸改變之間的因果關係。(4) 60 秒的氣味與秒級的 ACh 脈衝如何對應，行為時間窗的哪一部分由 *rut* 的動力學決定。
+**尚未被回答的。** (1) 在完整、清醒的果蠅中，真的氣味與真的電擊配對時，KC 軸突的 cAMP 是否同樣出現協同？(2) 協同 cAMP 是否沿 KC 軸突分區（compartment）不同？本篇引用的 Mao & Davis 2009 題為「八種不同的多巴胺神經元支配蕈狀體神經纖維區」；※ 推論：若不同多巴胺神經元支配葉部的不同段落，協同就可能只出現在收到多巴胺的那一段。本篇只量了葉部末端，空間解析度到「葉」為止，無法回答。(3) 協同 cAMP 與 KC 輸出突觸改變之間的因果關係。(4) 60 秒的氣味與秒級的 ACh 脈衝如何對應，行為時間窗的哪一部分由 *rut* 的動力學決定。
 
 ---
 

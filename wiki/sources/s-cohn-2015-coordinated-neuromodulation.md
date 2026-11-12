@@ -31,7 +31,7 @@ confidence: high
 
 ## 為什麼重要
 
-果蠅的蘑菇體（mushroom body, MB）是腦中一個區域，依本篇引言，它最為人知的角色是嗅覺學習：過去的經驗改變果蠅之後對某個氣味的反應。MB 裡約 2,000 顆 Kenyon 細胞（Kenyon cell, KC）以稀疏的小群代表氣味（每種氣味只活化一小群）。KC 的軸突（送出訊號的長纖維）成束排成幾條「葉」（lobe），本篇研究的是 γ 型 KC 和它們組成的 γ 葉；每顆 γ KC 只有一條軸突，橫穿整條 γ 葉。γ 葉沿長度分成 γ1–γ5 五格，稱為區室（compartment）。每一格各有自己的輸出神經元（MB output neuron, MBON）接收 KC 的訊號，也各有自己的多巴胺神經元（dopaminergic neuron, DAN）把軸突伸進來（以上取自本篇引言與圖 1）。KC 交訊號給 MBON 的接點叫突觸（synapse），同樣的 KC 活動讓 MBON 收到多少，就是這個突觸的「強度」。論文引言說，獎賞與懲罰分別活化不同的 DAN，而 MBON 是 MB 唯一已知的對外出口。從這個解剖排列，作者推出一個猜想：**同一條 KC 軸突在不同格的突觸，可能被各格自己的 DAN 調成不同強度，於是同一個氣味能經由不同的 MBON 送出不同的訊息。** 在本篇之前，這只是從解剖推出來的可能。
+果蠅的蕈狀體（mushroom body, MB）是腦中一個區域，依本篇引言，它最為人知的角色是嗅覺學習：過去的經驗改變果蠅之後對某個氣味的反應。MB 裡約 2,000 顆 Kenyon 細胞（Kenyon cell, KC）以稀疏的小群代表氣味（每種氣味只活化一小群）。KC 的軸突（送出訊號的長纖維）成束排成幾條「葉」（lobe），本篇研究的是 γ 型 KC 和它們組成的 γ 葉；每顆 γ KC 只有一條軸突，橫穿整條 γ 葉。γ 葉沿長度分成 γ1–γ5 五格，稱為區室（compartment）。每一格各有自己的輸出神經元（MB output neuron, MBON）接收 KC 的訊號，也各有自己的多巴胺神經元（dopaminergic neuron, DAN）把軸突伸進來（以上取自本篇引言與圖 1）。KC 交訊號給 MBON 的接點叫突觸（synapse），同樣的 KC 活動讓 MBON 收到多少，就是這個突觸的「強度」。論文引言說，獎賞與懲罰分別活化不同的 DAN，而 MBON 是 MB 唯一已知的對外出口。從這個解剖排列，作者推出一個猜想：**同一條 KC 軸突在不同格的突觸，可能被各格自己的 DAN 調成不同強度，於是同一個氣味能經由不同的 MBON 送出不同的訊息。** 在本篇之前，這只是從解剖推出來的可能。
 
 本篇用三種新做法測這個猜想。第一，sytGCaMP：神經元活動時細胞內的鈣會升高，鈣指示蛋白（GCaMP）遇鈣就變亮；作者把它綁在只存在於突觸前末梢（軸突上把訊號交出去的那一點）的蛋白上，於是只有末梢會發光，可以逐格看 KC 末梢與 DAN 末梢的活動。第二，用基因工程讓選定的神經元多帶一種遇 ATP 就打開的通道（P2X2），再噴 ATP，就只活化那幾格的 DAN 或某一顆 MBON。第三，用電極記錄 γ4 MBON 收到的突觸電流。結果有三層。**(1) DAN 不是各自為政**：吃糖時 γ4/γ5 的 DAN 興奮、γ2/γ3 的 DAN 被抑制，電擊時正好相反；被固定住的果蠅掙扎時，DAN 出現像電擊的樣式，靜止時出現像吃糖的樣式；活化任何一格的 MBON 都會改變每一格的 DAN。**(2) 同一條 KC 軸突在不同格的末梢反應不同**：在活的果蠅身上，γ2/γ3 的末梢鈣反應強、γ4/γ5 弱。作者用三條證據說明這個差別來自多巴胺，也就是「DAN 越活躍的格，KC 末梢反應越強」：第一，頭被固定的果蠅最常處在掙扎樣式，而掙扎時正是 γ2/γ3 的 DAN 活躍；第二，把腦取出來放在培養液裡做實驗時，DAN 的自發活動大幅減少（作者說資料未在論文中呈現），這個差別也跟著消失；第三，剔除多巴胺受體 DopR2（接收多巴胺的分子；本篇另以只在 KC 減少它的實驗確認它在 KC 上起作用）的突變果蠅，強弱樣式整個倒過來。**(3) 多巴胺能把 KC→MBON 突觸往兩個方向調**：不搭配 KC 刺激、單獨活化 γ4/γ5 的 DAN，γ4 MBON 對所有測過的氣味收到的訊號都變強；同一批 DAN 若和 KC 刺激（在取出的腦裡把乙醯膽鹼這種化學物質滴到 KC 的接收端，模擬氣味）同時活化（相隔 < 500 ms），訊號反而變弱。
 
@@ -47,7 +47,7 @@ confidence: high
 
 **中譯**（本節為忠實翻譯，非自撰內容）：
 
-> 學習而來的與適應性的行為，仰賴能把同一個感覺輸入彈性地接到不同輸出路徑的神經迴路。我們在此顯示，果蠅的蘑菇體運作起來像一台交換機：神經調節依果蠅的狀態與經驗，把同一個氣味訊號改接到不同的行為迴路。藉由功能性突觸成像與電生理，我們揭示蘑菇體的多巴胺輸入以極精細的空間專一性調節突觸傳遞，讓單一神經元能把嗅覺訊號以不同方式傳給它的每一個突觸後目標。此外，我們顯示多巴胺神經元以一個彼此相連的網路運作，同時編碼動物的外在情境與內在狀態，以協調整個蘑菇體的突觸可塑性。我們的資料提示一種行為彈性的普遍迴路機制：神經調節網路以突觸層級的精度作用，把單一感覺輸入轉換成不同的輸出活動樣式。
+> 學習而來的與適應性的行為，仰賴能把同一個感覺輸入彈性地接到不同輸出路徑的神經迴路。我們在此顯示，果蠅的蕈狀體運作起來像一台交換機：神經調節依果蠅的狀態與經驗，把同一個氣味訊號改接到不同的行為迴路。藉由功能性突觸成像與電生理，我們揭示蕈狀體的多巴胺輸入以極精細的空間專一性調節突觸傳遞，讓單一神經元能把嗅覺訊號以不同方式傳給它的每一個突觸後目標。此外，我們顯示多巴胺神經元以一個彼此相連的網路運作，同時編碼動物的外在情境與內在狀態，以協調整個蕈狀體的突觸可塑性。我們的資料提示一種行為彈性的普遍迴路機制：神經調節網路以突觸層級的精度作用，把單一感覺輸入轉換成不同的輸出活動樣式。
 
 ---
 
@@ -149,13 +149,13 @@ flowchart TD
 
 #### 3.1 區室的解剖與 sytGCaMP（圖 1）
 
-![Figure 1：蘑菇體 γ 葉的區室構造與 sytGCaMP](../../assets/cohn2015-fig1.jpg)
+![Figure 1：蕈狀體 γ 葉的區室構造與 sytGCaMP](../../assets/cohn2015-fig1.jpg)
 
 <small>圖片出處：Cohn R, Morantte I, Ruta V. *Cell* 163(7):1742–1755 (2015)，Figure 1。© 2015 Elsevier Inc. 教學引用；全文見 [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4732734/)。</small>
 
 > **原圖說（Figure 1）：** Compartmentalized Architecture of the Mushroom Body. (A) Schematic of mushroom body anatomy focusing on the γ lobe. Each γ Kenyon cell (KC, blue) receives olfactory input in the calyx and projects a single axon into the γ lobe (dashed line). KCs form en passant synapses with mushroom body output neurons (MBONs, green) and receive modulatory input from dopaminergic neurons (DANs, magenta) within discrete anatomic compartments (shown for γ2–γ5). (B) A single γ KC axon photolabeled with PA-GFP projects its axon across the complete length of the lobe (dashed line). (C) Segregated dendritic innervation of MBONs is revealed by expression of GFP in pairs of MBONs in each panel using MBON-specific drivers. (D) Compartmentalized axonal projections of DANs photolabeled with PA-GFP in alternating compartments. PA-GFP is expressed under the TH and DDC promoters. (E) sytGCaMP expressed in all γ KCs with only a single KC functionally activated. Maximum intensity projection shows peak fluorescence from multiple T-series in different Z planes. Magnified view shows individual KC synaptic puncta (right). See also Figure S1.
 
-**圖說中譯：** 蘑菇體的區室構造。(A) 以 γ 葉為主的 MB 解剖示意圖。每顆 γ Kenyon 細胞（KC，藍）在萼部接收嗅覺輸入，並把單一軸突伸進 γ 葉（虛線）。KC 以「路過式」（en passant，軸突經過時順路形成）突觸連到 MBON（綠），並在各個分立的解剖區室內接收 DAN（洋紅）的調節輸入（圖中畫出 γ2–γ5）。(B) 以 PA-GFP 光標記的單一 γ KC 軸突橫越整條葉（虛線）。(C) 用 MBON 專一的驅動品系（見術語表），每格畫面讓一對 MBON 表現 GFP，顯示 MBON 的樹突彼此分隔。(D) 在相間的區室以 PA-GFP 光標記 DAN，顯示其軸突投射分區；PA-GFP 由 TH 與 DDC 啟動子驅動。(E) 全部 γ KC 表現 sytGCaMP，但只功能性地活化一顆 KC；最大強度投影顯示不同 Z 平面多組時間序列的峰值螢光；右為放大圖，可見單顆 KC 的突觸點。另見圖 S1。
+**圖說中譯：** 蕈狀體的區室構造。(A) 以 γ 葉為主的 MB 解剖示意圖。每顆 γ Kenyon 細胞（KC，藍）在萼部接收嗅覺輸入，並把單一軸突伸進 γ 葉（虛線）。KC 以「路過式」（en passant，軸突經過時順路形成）突觸連到 MBON（綠），並在各個分立的解剖區室內接收 DAN（洋紅）的調節輸入（圖中畫出 γ2–γ5）。(B) 以 PA-GFP 光標記的單一 γ KC 軸突橫越整條葉（虛線）。(C) 用 MBON 專一的驅動品系（見術語表），每格畫面讓一對 MBON 表現 GFP，顯示 MBON 的樹突彼此分隔。(D) 在相間的區室以 PA-GFP 光標記 DAN，顯示其軸突投射分區；PA-GFP 由 TH 與 DDC 啟動子驅動。(E) 全部 γ KC 表現 sytGCaMP，但只功能性地活化一顆 KC；最大強度投影顯示不同 Z 平面多組時間序列的峰值螢光；右為放大圖，可見單顆 KC 的突觸點。另見圖 S1。
 
 **解讀：**
 
@@ -325,7 +325,7 @@ flowchart TD
 
 **1. 沒有行為讀出。** 摘要的「把同一個氣味改接到不同的行為迴路」與標題的「塑造感覺處理」，都止於 MBON 的活動。果蠅是否因此改變對氣味的選擇，本篇沒有量。
 
-**2. 只在 γ 葉，且以 γ2–γ5 為主。** γ1「沒有常規成像」；其他葉只有補充圖 S3G 的 KC 末梢鈣（？待查）。摘要寫「協調整個蘑菇體的突觸可塑性」，討論寫「所有 15 個區室」，都超出資料範圍。⚠️ 論文自身不一致（摘要與討論的範圍大於結果）。
+**2. 只在 γ 葉，且以 γ2–γ5 為主。** γ1「沒有常規成像」；其他葉只有補充圖 S3G 的 KC 末梢鈣（？待查）。摘要寫「協調整個蕈狀體的突觸可塑性」，討論寫「所有 15 個區室」，都超出資料範圍。⚠️ 論文自身不一致（摘要與討論的範圍大於結果）。
 
 **3. 活化是人工的。** 自然刺激只有吃糖（用在 DAN、KC 末梢與 MBON 三種實驗）和電擊（只用在 DAN 成像）；其餘實驗的 DAN 都用 P2X2＋ATP 活化；只有補充圖 S6A 的一組改用「紅移 channelrhodopsin」（一種照紅光就讓神經元放電的外加通道，論文沒寫是哪一種，見二、方法）。ATP 的時長、壓力、P2X2 表現量，主文都沒寫（？待查）。58E02 對 γ3 的標記不穩定（3.3），所以「活化 γ4/γ5 DAN」有時也包括 γ3。
 

@@ -4,14 +4,14 @@
 
 本庫的頁面由 AI（Claude）閱讀論文後撰寫，人負責挑論文、提問與裁決。它不是論文摘要的堆疊：每篇論文會被拆開，重新組織到「主題」、「概念」與「實體」頁上；論文之間說法不同的地方會被標出來，而不會被抹平成一段通順的話。作法沿用本實驗室（BSC）的另一座知識庫 `research_with_AI`，原型是 Andrej Karpathy 提出的「LLM Wiki」，也就是由 AI 持續撰寫與維護一組互相連結的筆記頁。只想讀內容的人可以略過這段背景。
 
-**網站：https://marginli.github.io/mb_wiki/**　　點開就能讀，不需要帳號。網站左側有搜尋框與全部頁面的清單，頁面之間的連結都能點。下面的閱讀順序在網站上同樣適用，例如在搜尋框輸入「蘑菇體」就能找到第一頁。
+**網站：https://marginli.github.io/mb_wiki/**　　點開就能讀，不需要帳號。網站左側有搜尋框與全部頁面的清單，頁面之間的連結都能點。下面的閱讀順序在網站上同樣適用，例如在搜尋框輸入「蕈狀體」就能找到第一頁。
 
 ## 建議的閱讀順序
 
 第一次來，照這個順序讀就好：
 
-1. [蘑菇體](wiki/entities/e-mushroom-body.md)：先知道這個腦區長什麼樣（短頁）
-2. [Kenyon 細胞](wiki/entities/e-kenyon-cell.md)：蘑菇體裡代表氣味的主要神經元（短頁）
+1. [蕈狀體](wiki/entities/e-mushroom-body.md)：先知道這個腦區長什麼樣（短頁）
+2. [Kenyon 細胞](wiki/entities/e-kenyon-cell.md)：蕈狀體裡代表氣味的主要神經元（短頁）
 3. [先後與間隔：氣味和多巴胺的時序如何決定學到什麼](wiki/topics/t-timing-rules.md)：第一條主題，白話文章
 4. [從多巴胺到突觸改變：KC 軸突怎麼讀出增強訊號](wiki/topics/t-dopamine-to-plasticity.md)：第二條主題
 5. [記憶怎麼被改寫：消退、再鞏固與新舊記憶並存](wiki/topics/t-memory-updating.md)與[輸出神經元回頭指揮多巴胺神經元](wiki/topics/t-mbon-dan-feedback.md)：記憶寫下之後發生什麼事
@@ -54,7 +54,7 @@
 - [c-cs-us-timing](wiki/concepts/c-cs-us-timing.md)：制約刺激與非制約刺激的時序（CS–US timing）
 - [c-ex-vivo-explant](wiki/concepts/c-ex-vivo-explant.md)：離體全腦製備（ex vivo brain explant）
 - [c-kc-mbon-plasticity](wiki/concepts/c-kc-mbon-plasticity.md)：KC→MBON 突觸可塑性（KC-MBON synaptic plasticity）
-- [c-mb-compartment](wiki/concepts/c-mb-compartment.md)：蘑菇體區室（MB compartment）
+- [c-mb-compartment](wiki/concepts/c-mb-compartment.md)：蕈狀體區室（MB compartment）
 - [c-memory-consolidation](wiki/concepts/c-memory-consolidation.md)：記憶鞏固與再鞏固（memory consolidation and reconsolidation）
 - [c-memory-extinction](wiki/concepts/c-memory-extinction.md)：記憶消退（memory extinction）
 - [c-odor-generalization](wiki/concepts/c-odor-generalization.md)：氣味類化（odor generalization）
@@ -78,8 +78,8 @@
 - [e-mbon-gamma2alpha1](wiki/entities/e-mbon-gamma2alpha1.md)：MBON-γ2α′1（γ2α′1 輸出神經元）
 - [e-mbon-gamma4](wiki/entities/e-mbon-gamma4.md)：γ4 輸出神經元（γ4 MBON）
 - [e-mbon-gamma5beta2a](wiki/entities/e-mbon-gamma5beta2a.md)：MBON-γ5β′2a（M6；γ5 MBON）
-- [e-mbon](wiki/entities/e-mbon.md)：蘑菇體輸出神經元（mushroom body output neuron, MBON）
-- [e-mushroom-body](wiki/entities/e-mushroom-body.md)：蘑菇體（mushroom body）
+- [e-mbon](wiki/entities/e-mbon.md)：蕈狀體輸出神經元（mushroom body output neuron, MBON）
+- [e-mushroom-body](wiki/entities/e-mushroom-body.md)：蕈狀體（mushroom body）
 - [e-olfactory-arena](wiki/entities/e-olfactory-arena.md)：四象限光遺傳嗅覺競技場（optogenetic olfactory arena）
 - [e-p2x2](wiki/entities/e-p2x2.md)：ATP 門控通道 P2X2（化學活化，chemogenetic activation）
 - [e-pam-alpha1](wiki/entities/e-pam-alpha1.md)：PAM-α1 多巴胺神經元（PAM-α1）

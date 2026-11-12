@@ -31,9 +31,9 @@ confidence: medium
 
 ## 為什麼重要
 
-古典制約（classical conditioning）的教科書版本是「氣味要先出現，獎賞或懲罰後到，動物才會學到氣味預告了什麼」。這裡的獎賞或懲罰統稱為「增強訊號」（reinforcement），在果蠅腦中由多巴胺（dopamine）神經元負責傳達。但果蠅的行為實驗早就發現反過來也會學：懲罰**之後**才出現的氣味，果蠅反而會喜歡（論文引 Tanimoto et al. 2004、Aso & Rubin 2016、König et al. 2018）。同一對刺激，只差先後，學到的方向相反。這表示蘑菇體（mushroom body，果蠅腦中負責把「氣味」和「好壞」連起來的構造）裡有某種東西能分辨「氣味在前」還是「增強訊號在前」。本篇要回答的就是：**這個分辨先後的機制在哪裡、是什麼分子**。
+古典制約（classical conditioning）的教科書版本是「氣味要先出現，獎賞或懲罰後到，動物才會學到氣味預告了什麼」。這裡的獎賞或懲罰統稱為「增強訊號」（reinforcement），在果蠅腦中由多巴胺（dopamine）神經元負責傳達。但果蠅的行為實驗早就發現反過來也會學：懲罰**之後**才出現的氣味，果蠅反而會喜歡（論文引 Tanimoto et al. 2004、Aso & Rubin 2016、König et al. 2018）。同一對刺激，只差先後，學到的方向相反。這表示蕈狀體（mushroom body，果蠅腦中負責把「氣味」和「好壞」連起來的構造）裡有某種東西能分辨「氣味在前」還是「增強訊號在前」。本篇要回答的就是：**這個分辨先後的機制在哪裡、是什麼分子**。
 
-先交代三個角色。Kenyon 細胞（Kenyon cell, KC）是蘑菇體的主要神經元，每個氣味會活化其中一小群；KC 把訊號沿著長長的輸出纖維（軸突，axon）送出去，交給蘑菇體輸出神經元（mushroom body output neuron, MBON），MBON 再告訴身體「靠近」或「走開」。學習改變的，就是 KC 與 MBON 之間的接點（突觸，synapse）的強弱。本篇的答案落在 KC 的軸突上，由兩種多巴胺受體（receptor，細胞表面接收多巴胺的蛋白質）分工：DopR1 啟動細胞內一條製造 cAMP（一種把外界訊號帶進細胞內部的小分子，稱為「第二傳訊者」）的路徑，讓 KC→MBON 的突觸**變弱**；DopR2 啟動另一條讓內質網（細胞內儲存鈣離子的小倉庫）放出鈣的路徑，讓同一個突觸**變強**。關鍵在於：cAMP 那條路徑不論先後都會被啟動，放鈣那條路徑卻只在「多巴胺先到、KC 後活動（也就是氣味後到）」時才被啟動。兩條都開的時候，放鈣帶來的「變強」勝過 cAMP 帶來的「變弱」，突觸淨結果是變強；只有 cAMP 開的時候，突觸變弱。**所以是先後次序決定了放鈣路徑開或不開，進而決定突觸往哪個方向改、行為往哪個方向變。** 在本篇之前，「突觸變弱」那一半已有不少證據（論文引 Cohn et al. 2015、Hige et al. 2015、Owald et al. 2015、Séjourné et al. 2011），「變強」那一半與兩種受體的分工則還不清楚。
+先交代三個角色。Kenyon 細胞（Kenyon cell, KC）是蕈狀體的主要神經元，每個氣味會活化其中一小群；KC 把訊號沿著長長的輸出纖維（軸突，axon）送出去，交給蕈狀體輸出神經元（mushroom body output neuron, MBON），MBON 再告訴身體「靠近」或「走開」。學習改變的，就是 KC 與 MBON 之間的接點（突觸，synapse）的強弱。本篇的答案落在 KC 的軸突上，由兩種多巴胺受體（receptor，細胞表面接收多巴胺的蛋白質）分工：DopR1 啟動細胞內一條製造 cAMP（一種把外界訊號帶進細胞內部的小分子，稱為「第二傳訊者」）的路徑，讓 KC→MBON 的突觸**變弱**；DopR2 啟動另一條讓內質網（細胞內儲存鈣離子的小倉庫）放出鈣的路徑，讓同一個突觸**變強**。關鍵在於：cAMP 那條路徑不論先後都會被啟動，放鈣那條路徑卻只在「多巴胺先到、KC 後活動（也就是氣味後到）」時才被啟動。兩條都開的時候，放鈣帶來的「變強」勝過 cAMP 帶來的「變弱」，突觸淨結果是變強；只有 cAMP 開的時候，突觸變弱。**所以是先後次序決定了放鈣路徑開或不開，進而決定突觸往哪個方向改、行為往哪個方向變。** 在本篇之前，「突觸變弱」那一半已有不少證據（論文引 Cohn et al. 2015、Hige et al. 2015、Owald et al. 2015、Séjourné et al. 2011），「變強」那一半與兩種受體的分工則還不清楚。
 
 對這個知識庫（以下稱本庫），它同時回答兩個問題：「氣味與增強訊號的先後如何決定學到什麼」（時序規則），以及「多巴胺送到 KC 之後，是由哪些受體、哪些細胞內訊號解讀的」。它用同一套時間差（橫軸是「多巴胺比氣味早或晚幾秒」），分別量了行為改變多少、單一突觸改變多少、細胞內 cAMP 與鈣改變多少，把三條曲線並排比較。本庫另外收錄的兩篇，正好可以和它對照著讀：Tomchik & Davis 2009（*Neuron*）也量 KC 軸突裡的 cAMP，本篇對 cAMP 角色的結論（「只偵測同時，不偵測先後」）可以拿那篇的資料檢驗；Hige et al. 2015（*Neuron*）研究的是同一類 KC→MBON 突觸如何被多巴胺減弱，本篇補上了「變強」的那一半。
 
@@ -47,7 +47,7 @@ confidence: medium
 
 **中譯**（本節為忠實翻譯，非自撰內容）：
 
-> 動物依賴環境中事件的相對時序來形成並更新預測性的聯結，但這種時間敏感度背後的分子與迴路機制仍未被完整理解。我們在此顯示，果蠅的嗅覺聯結可以依照氣味線索與多巴胺增強訊號之間的時間關係，逐次（trial-by-trial）寫入與反轉。透過同步記錄神經活動與行為，我們顯示習得的氣味吸引力的反轉，與蘑菇體（果蠅的聯結式嗅覺中樞）中的雙向神經可塑性相關。兩種多巴胺受體 DopR1 與 DopR2 藉由耦合到不同的第二傳訊者、分別指揮突觸的減弱或增強，促成這種時間敏感度。我們的結果揭示多巴胺受體訊號路徑如何偵測事件的次序，以指揮方向相反的突觸與行為可塑性，使動物能在動態環境中彈性地更新其聯結。
+> 動物依賴環境中事件的相對時序來形成並更新預測性的聯結，但這種時間敏感度背後的分子與迴路機制仍未被完整理解。我們在此顯示，果蠅的嗅覺聯結可以依照氣味線索與多巴胺增強訊號之間的時間關係，逐次（trial-by-trial）寫入與反轉。透過同步記錄神經活動與行為，我們顯示習得的氣味吸引力的反轉，與蕈狀體（果蠅的聯結式嗅覺中樞）中的雙向神經可塑性相關。兩種多巴胺受體 DopR1 與 DopR2 藉由耦合到不同的第二傳訊者、分別指揮突觸的減弱或增強，促成這種時間敏感度。我們的結果揭示多巴胺受體訊號路徑如何偵測事件的次序，以指揮方向相反的突觸與行為可塑性，使動物能在動態環境中彈性地更新其聯結。
 
 （譯文用語說明，非原文：「可塑性」＝突觸強度可以被經驗改變；「雙向」＝可以變強也可以變弱；「聯結式嗅覺中樞」＝負責把氣味和好壞連在一起的腦區；「耦合到第二傳訊者」＝受體被多巴胺啟動後，接著啟動細胞內某一種小分子訊號；「寫入」一個聯結＝形成一個新的「這個氣味代表好或壞」的記憶；「一次（trial）」＝給一次氣味與多巴胺的組合。）
 
@@ -57,9 +57,9 @@ confidence: medium
 
 想像你小時候去看牙醫。鑽牙的聲音很可怕，而每次鑽完、終於結束時，診間牆上的一盞綠燈會亮起。幾次之後，你一看到綠燈亮就鬆一口氣，甚至有點喜歡它——因為它代表「壞事結束了」。但如果綠燈總是在鑽牙**之前**亮，你看到它只會緊張，因為它預告「壞事要來了」。**同樣一盞燈、同樣的鑽牙聲，只差誰先誰後，意義完全相反。**
 
-果蠅也是這樣學氣味的。牠腦中的蘑菇體負責把「聞到什麼」和「好事或壞事」連起來。聞到氣味時，蘑菇體裡一小群叫 Kenyon 細胞的神經元會發訊號；「好事或壞事」則由多巴胺神經元（dopaminergic neuron, DAN）廣播。有一群多巴胺神經元報告懲罰（論文用的是 PPL 這一群），另一群報告獎賞（PAM 這一群）。Kenyon 細胞再把訊號交給蘑菇體輸出神經元（MBON），由輸出神經元告訴身體「靠近」或「走開」。
+果蠅也是這樣學氣味的。牠腦中的蕈狀體負責把「聞到什麼」和「好事或壞事」連起來。聞到氣味時，蕈狀體裡一小群叫 Kenyon 細胞的神經元會發訊號；「好事或壞事」則由多巴胺神經元（dopaminergic neuron, DAN）廣播。有一群多巴胺神經元報告懲罰（論文用的是 PPL 這一群），另一群報告獎賞（PAM 這一群）。Kenyon 細胞再把訊號交給蕈狀體輸出神經元（MBON），由輸出神經元告訴身體「靠近」或「走開」。
 
-這裡有一個理解全篇的關鍵：**輸出神經元有兩種，一種推動「靠近」，一種推動「走開」；報告獎賞與報告懲罰的多巴胺神經元，各自管不同的輸出神經元。** 學習的方式，是把 Kenyon 細胞與輸出神經元之間的接點（突觸）變強或變弱。蘑菇體被切成一格一格，γ2、γ4 這類名字就是格子的編號，「γ4 輸出神經元」即住在第 4 格的那一個。本篇只要記住一件事：
+這裡有一個理解全篇的關鍵：**輸出神經元有兩種，一種推動「靠近」，一種推動「走開」；報告獎賞與報告懲罰的多巴胺神經元，各自管不同的輸出神經元。** 學習的方式，是把 Kenyon 細胞與輸出神經元之間的接點（突觸）變強或變弱。蕈狀體被切成一格一格，γ2、γ4 這類名字就是格子的編號，「γ4 輸出神經元」即住在第 4 格的那一個。本篇只要記住一件事：
 
 - **γ4 輸出神經元推動「走開」，由獎賞（PAM）多巴胺調整。** 它的接點變弱 → 果蠅更愛追氣味；變強 → 比較不想追。
 - 懲罰（PPL）那一邊，論文的說法是懲罰會讓推動「靠近」的輸出神經元（例如 γ2）變弱，所以結果是不想追。
@@ -78,7 +78,7 @@ confidence: medium
 
 最後，作者把兩種受體分別剔除。少了 DopR1，cAMP 大幅下降，原本該變弱的接點不但沒變弱，反而微微變強（為什麼會變強，論文沒有解釋：這時放鈣路徑照理沒有開）；少了 DopR2，內質網不再放鈣，原本該變強的接點反而變弱。也就是說，**每一種突變都讓接點只能往單一方向改。** 行為上，兩種突變果蠅都失去了「一次配對就翻轉」的能力。少了 DopR1 的果蠅，γ4（推動走開）的接點只能變強，於是一直不太追蘋果醋；少了 DopR2 的果蠅，γ4 的接點只能變弱，於是一直很追。
 
-**代價**有三個。其一，最乾淨的時間曲線來自取出來的腦，刺激是人工滴藥，時間長度和真的氣味不同。論文正文寫「時間差只改幾百毫秒就能讓行為翻轉」，但行為實驗只測了五個時間差，最近的兩個也差一整秒，這句話在行為上其實沒有被直接量到。其二，突變是全身的，不是只拿掉 Kenyon 細胞上的受體，行為缺陷不一定全部來自蘑菇體——作者自己也承認這一點。其三，「放鈣減 cAMP」的模型只比對了六個時間差。cAMP 與鈣的量測單位不同，不能直接相減，所以作者把兩條曲線各自拉伸到 0 到 1 之間再相減；而要拿相減的結果去和突觸變化比，又得再選一次縱軸比例。比例是研究者選的，選得好就容易看起來像，所以兩條曲線長得像只能算定性的吻合，不算模型被證實。
+**代價**有三個。其一，最乾淨的時間曲線來自取出來的腦，刺激是人工滴藥，時間長度和真的氣味不同。論文正文寫「時間差只改幾百毫秒就能讓行為翻轉」，但行為實驗只測了五個時間差，最近的兩個也差一整秒，這句話在行為上其實沒有被直接量到。其二，突變是全身的，不是只拿掉 Kenyon 細胞上的受體，行為缺陷不一定全部來自蕈狀體——作者自己也承認這一點。其三，「放鈣減 cAMP」的模型只比對了六個時間差。cAMP 與鈣的量測單位不同，不能直接相減，所以作者把兩條曲線各自拉伸到 0 到 1 之間再相減；而要拿相減的結果去和突觸變化比，又得再選一次縱軸比例。比例是研究者選的，選得好就容易看起來像，所以兩條曲線長得像只能算定性的吻合，不算模型被證實。
 
 **最容易被誤讀的一點：cAMP 確實參與決定突觸往哪邊改（它推動變弱），但它分不出誰先誰後。** cAMP 在兩種順序下都會出現，它只對「兩件事是否幾乎同時」敏感；真正讀出「誰先誰後」的，是只在多巴胺先到時才啟動的放鈣路徑。若把本篇讀成「cAMP 本身偵測先後」，就正好讀反了。
 
@@ -89,7 +89,7 @@ confidence: medium
 > **讀本節之前：標記、縮寫與正負號。**
 >
 > - **標記**：`※ 推論`＝論文沒有明說、由本頁推得；`※ 從圖判讀`＝本頁從圖上目測讀出的數值，誤差約為最小刻度的一半；`？待查`＝內容只在本 PDF 沒有收錄的補充圖（S1–S8）裡，本頁沒看到、不猜；`⚠️`＝論文自身前後不一致。「text.txt 第 N 行」指本庫抽取的論文純文字檔（`.cache/` 目錄下，由 PDF 轉出），方便回查原句。STAR Methods 是 *Cell* 期刊的方法章節格式，Key Resources Table 是其中列出全部品系、試劑的表。
-> - **縮寫**：KC＝Kenyon 細胞；DAN＝多巴胺神經元；MBON＝蘑菇體輸出神經元；PAM、PPL＝兩群多巴胺神經元（PAM 多報告獎賞，PPL 多報告懲罰）；區室（compartment）＝蘑菇體葉上的一格，由特定 DAN 的軸突與特定 MBON 的樹突共同占據；γ1–γ5＝γ 葉上的五個區室，γ4 MBON 即樹突在 γ4 區室的輸出神經元；ACV＝蘋果醋（apple cider vinegar）；FP／BP＝順向／逆向配對（forward／backward pairing）；ISI＝刺激間隔。MB042B、MB504B、R58E02、VT026001、OK107 等是果蠅的基因驅動品系代號（split-GAL4、LexA、GAL4 系統），作用是「只讓某一群細胞表現某個外加基因」。
+> - **縮寫**：KC＝Kenyon 細胞；DAN＝多巴胺神經元；MBON＝蕈狀體輸出神經元；PAM、PPL＝兩群多巴胺神經元（PAM 多報告獎賞，PPL 多報告懲罰）；區室（compartment）＝蕈狀體葉上的一格，由特定 DAN 的軸突與特定 MBON 的樹突共同占據；γ1–γ5＝γ 葉上的五個區室，γ4 MBON 即樹突在 γ4 區室的輸出神經元；ACV＝蘋果醋（apple cider vinegar）；FP／BP＝順向／逆向配對（forward／backward pairing）；ISI＝刺激間隔。MB042B、MB504B、R58E02、VT026001、OK107 等是果蠅的基因驅動品系代號（split-GAL4、LexA、GAL4 系統），作用是「只讓某一群細胞表現某個外加基因」。
 > - **「增強」兩義**：本頁的「增強訊號／增強刺激」指制約中的獎賞或懲罰（reinforcement）；單獨說「突觸增強」或「增強」指突觸變強（potentiation）。
 > - **正負號（全篇最容易卡住的地方）**：論文引 Aso et al. 2014b 說明，γ4、γ5 MBON 推動「走開」，γ2 MBON 推動「靠近」（text.txt 第 372–377 行）。因此 **γ4 突觸變弱 → 果蠅更愛追氣味；γ4 突觸變強 → 更不愛追**。PAM 順向配對減弱 γ4 → 吸引；PAM 逆向配對增強 γ4 → 厭惡。PPL 順向配對則減弱推動「靠近」的 MBON → 厭惡（這一句是論文的一般性說法，本篇沒有量 PPL 驅動株支配的 MBON）。行為的「逆風位移」**正值＝往氣味源（上風）走＝吸引**。
 
@@ -97,7 +97,7 @@ confidence: medium
 
 **主要問題。** 果蠅能依氣味與增強訊號的先後學到相反的價性（valence，「好」或「壞」）。這種對時間次序的敏感，是在迴路的哪一層、由哪些分子實現的？作者提出兩個候選：(i) 不同區室分別記錄「順向」與「逆向」記憶（類似 Felsenberg et al. 2018 對記憶消退提出的平行對立記憶）；(ii) 同一個區室裡的同一組 KC→MBON 突觸可以雙向改變。本篇支持 (ii)，並把次序偵測歸到 KC 軸突中兩種多巴胺受體的下游訊號。
 
-**重要性。** 蘑菇體的葉（lobe）被切成一格一格的區室（compartment）：每一格由一小群多巴胺神經元的軸突和一到兩個 MBON 的樹突共同定義（論文引 Aso et al. 2014a、Tanaka et al. 2008），每一格可以獨立調整 KC→MBON 突觸。本篇第一次在**同一個區室、同一套 ISI（inter-stimulus interval，刺激間隔）**上，把行為、突觸可塑性、第二傳訊者三條時間曲線並排，並在同一隻果蠅身上同步記錄神經與行為。
+**重要性。** 蕈狀體的葉（lobe）被切成一格一格的區室（compartment）：每一格由一小群多巴胺神經元的軸突和一到兩個 MBON 的樹突共同定義（論文引 Aso et al. 2014a、Tanaka et al. 2008），每一格可以獨立調整 KC→MBON 突觸。本篇第一次在**同一個區室、同一套 ISI（inter-stimulus interval，刺激間隔）**上，把行為、突觸可塑性、第二傳訊者三條時間曲線並排，並在同一隻果蠅身上同步記錄神經與行為。
 
 **發表當時的領域現狀（2019）。**
 - 行為層：時序相依的價性反轉已在果蠅（Tanimoto et al. 2004；Aso & Rubin 2016；König et al. 2018）與多物種（Gerber et al. 2014）被描述，但機制不明。
@@ -159,7 +159,7 @@ flowchart TD
 
 > **原圖說（Figure 1）：** Forward and Backward Conditioning Drives the Formation of Opposing Olfactory Associations. (A) Anatomy of PPL (teal) and PAM (magenta) dopamine neuron (DAN) drivers that selectively innervate the mushroom body. (B) Top: Behavioral protocol to compare tracking of apple cider vinegar (ACV) odor after forward pairing (FP) and backward pairing (BP) with optogenetic activation of PPL>CsChrimson flies. Bottom: Trajectories of individual flies from a representative experiment, aligned to common origin and wind direction. Flies that did not move in response to the odor were positioned at origin. The odor-evoked upwind displacement of all flies in odor is measured as a change in their center of mass (teal bar). (C) Upwind velocity of PPL>CsChrimson flies in baseline, post-FP, and post-BP trials (odor indicated by gray box) measured as a change in the center of mass in the upwind direction of flies over the course of a trial. Gray lines: individual experiments; teal line: representative example from (B); black line: mean upwind velocity (n=8 experiments). (D) Left: Raster plot of mean upwind velocity of PPL>CsChrimson flies across trials. The first row corresponds to the baseline response of naïve flies. Subsequent rows show behavioral response to odor after alternating FP and BP trials. Right: Mean odor-evoked upwind displacement for the corresponding row in the raster plot. (E) Same as (D) using PAM>CsChrimson flies. (F-G) Change in upwind displacement in odor after FP and BP for PPL conditioned (F) and PAM conditioned (G) animals measured relative to the preceding odor trial. n=8 experiments. One-sample t-test against zero with Bonferroni correction: \*\*\*p≤0.001. For (D-G) data presented as mean±SEM.
 
-**圖說中譯：** 順向與逆向制約造成相反的嗅覺聯結。(A) 選擇性支配蘑菇體的 PPL（藍綠）與 PAM（洋紅）多巴胺神經元驅動株的解剖。(B) 上：比較 PPL>CsChrimson 果蠅在順向配對（FP）與逆向配對（BP）光遺傳活化後追蹤蘋果醋（ACV）氣味的行為流程。下：一次代表性實驗中各果蠅的軌跡，對齊到共同起點與風向；對氣味沒有移動的果蠅放在原點。所有果蠅在氣味中的逆風位移以其重心的變化量測（藍綠色條）。(C) PPL>CsChrimson 果蠅在基線、FP 後、BP 後測試中的逆風速度（灰框為氣味期間），以果蠅重心在逆風方向上的變化量測。灰線：各次實驗；藍綠線：(B) 的代表例；黑線：平均逆風速度（n＝8 次實驗）。(D) 左：PPL>CsChrimson 果蠅各次測試平均逆風速度的點陣圖，第一列是未訓練果蠅的基線，之後各列為 FP、BP 交替後的反應。右：對應列的平均氣味誘發逆風位移。(E) 同 (D)，但為 PAM>CsChrimson 果蠅。(F–G) PPL (F) 與 PAM (G) 制約後，氣味中逆風位移相對於前一次測試的變化。n＝8 次實驗；對零的單樣本 t 檢定並做 Bonferroni 校正：\*\*\*p≤0.001。(D)–(G) 為平均 ± 標準誤。
+**圖說中譯：** 順向與逆向制約造成相反的嗅覺聯結。(A) 選擇性支配蕈狀體的 PPL（藍綠）與 PAM（洋紅）多巴胺神經元驅動株的解剖。(B) 上：比較 PPL>CsChrimson 果蠅在順向配對（FP）與逆向配對（BP）光遺傳活化後追蹤蘋果醋（ACV）氣味的行為流程。下：一次代表性實驗中各果蠅的軌跡，對齊到共同起點與風向；對氣味沒有移動的果蠅放在原點。所有果蠅在氣味中的逆風位移以其重心的變化量測（藍綠色條）。(C) PPL>CsChrimson 果蠅在基線、FP 後、BP 後測試中的逆風速度（灰框為氣味期間），以果蠅重心在逆風方向上的變化量測。灰線：各次實驗；藍綠線：(B) 的代表例；黑線：平均逆風速度（n＝8 次實驗）。(D) 左：PPL>CsChrimson 果蠅各次測試平均逆風速度的點陣圖，第一列是未訓練果蠅的基線，之後各列為 FP、BP 交替後的反應。右：對應列的平均氣味誘發逆風位移。(E) 同 (D)，但為 PAM>CsChrimson 果蠅。(F–G) PPL (F) 與 PAM (G) 制約後，氣味中逆風位移相對於前一次測試的變化。n＝8 次實驗；對零的單樣本 t 檢定並做 Bonferroni 校正：\*\*\*p≤0.001。(D)–(G) 為平均 ± 標準誤。
 
 **解讀：**
 
@@ -176,7 +176,7 @@ flowchart TD
 
 > **原圖說（Figure 2）：** Relating Behavioral and Neural Modulation. (A) Top: Protocol varying inter-stimulus interval (ISI) between ACV odor and optogenetic activation of DANs during behavioral conditioning. Bottom: Change in upwind displacement after conditioning, measured relative to the preceding odor trial. PPL>CsChrimson (teal), PAM>CsChrimson (magenta), and CsChrimson only controls (black). n=6–7 experiments. Mann-Whitney test with Bonferroni correction: \*\*p≤0.01, \*<0.05, NS≥0.05. (B) Overlay of data from (A) to compare temporal dependence of conditioning using PPL and PAM DANs. (C) Schematic of mushroom body preparation used to measure KC-MBON plasticity. (D) Top: Protocol varying inter-stimulus interval (ISI) between KC stimulation and chemogenetic activation of DANs during conditioning. Bottom: Average KC-evoked responses in the γ4 MBON pre and post conditioning with different ISIs. Arrowhead denotes time of KC stimulation. (E) Black: Change in mean peak γ4 MBON response plotted as a function of ISI. n=5–6 flies for each ISI tested. Magenta: Behavioral data for PAM>CsChrimson animals re-plotted from (B). Significant change in γ4 MBON response after pairing was detected for the following ISI: −1.2 s p≤0.001, 0 s p<0.05, and 0.5 s p≤0.01; one-sample t-test against zero with Bonferroni correction. All data shown are presented as mean±SEM.
 
-**圖說中譯：** 行為與神經調節的對應。(A) 上：行為制約中改變 ACV 氣味與光遺傳活化 DAN 之間刺激間隔（ISI）的流程。下：制約後逆風位移相對於前一次測試的變化。PPL>CsChrimson（藍綠）、PAM>CsChrimson（洋紅）、只帶 CsChrimson 的對照（黑）。n＝6–7 次實驗；Mann-Whitney 檢定並做 Bonferroni 校正：\*\*p≤0.01、\*<0.05、NS≥0.05。(B) 將 (A) 的資料疊圖，比較 PPL 與 PAM 制約的時間相依性。(C) 用來量測 KC→MBON 可塑性的蘑菇體製備示意。(D) 上：制約時改變 KC 刺激與化學遺傳活化 DAN 之間 ISI 的流程。下：不同 ISI 制約前後 γ4 MBON 對 KC 刺激的平均反應；箭頭為 KC 刺激時間。(E) 黑：γ4 MBON 平均峰值反應的變化對 ISI 作圖，每個 ISI n＝5–6 隻。洋紅：由 (B) 重繪的 PAM>CsChrimson 行為資料。配對後 γ4 MBON 反應有顯著變化的 ISI：−1.2 s p≤0.001、0 s p<0.05、0.5 s p≤0.01；對零的單樣本 t 檢定並做 Bonferroni 校正。全部為平均 ± 標準誤。
+**圖說中譯：** 行為與神經調節的對應。(A) 上：行為制約中改變 ACV 氣味與光遺傳活化 DAN 之間刺激間隔（ISI）的流程。下：制約後逆風位移相對於前一次測試的變化。PPL>CsChrimson（藍綠）、PAM>CsChrimson（洋紅）、只帶 CsChrimson 的對照（黑）。n＝6–7 次實驗；Mann-Whitney 檢定並做 Bonferroni 校正：\*\*p≤0.01、\*<0.05、NS≥0.05。(B) 將 (A) 的資料疊圖，比較 PPL 與 PAM 制約的時間相依性。(C) 用來量測 KC→MBON 可塑性的蕈狀體製備示意。(D) 上：制約時改變 KC 刺激與化學遺傳活化 DAN 之間 ISI 的流程。下：不同 ISI 制約前後 γ4 MBON 對 KC 刺激的平均反應；箭頭為 KC 刺激時間。(E) 黑：γ4 MBON 平均峰值反應的變化對 ISI 作圖，每個 ISI n＝5–6 隻。洋紅：由 (B) 重繪的 PAM>CsChrimson 行為資料。配對後 γ4 MBON 反應有顯著變化的 ISI：−1.2 s p≤0.001、0 s p<0.05、0.5 s p≤0.01；對零的單樣本 t 檢定並做 Bonferroni 校正。全部為平均 ± 標準誤。
 
 **表 2：圖 2 逐點讀值（※ 從圖判讀，單位見欄名）**
 
@@ -321,7 +321,7 @@ flowchart TD
 - **正文說每種突變只缺一個方向，圖 7C–D 的指標卻顯示兩種突變都兩個方向皆缺。** 正文說：DopR1 突變在 FP 後「無法積極追蹤」，DopR2 突變在 FP 與 BP 後「都強烈追蹤」、能形成正向聯結但無法覆寫（text.txt 第 627–638 行）。但 C、D 顯示**兩種突變在 FP 與 BP 兩個方向的變化量都顯著小於野生型**（\*\*\*\*）：DopR1−/− 約 +0.6／−0.6 mm，DopR2−/− 約 +1.0／−0.8 mm，對照組約 ±5 mm（※ 從圖判讀）。「DopR2 突變能形成正向聯結」在 Δ 指標上看不出來（+1.0 vs +4.9）。
 - **作者的讀法靠的是「絕對位移」，不是「變化量」。** A、B 右欄顯示：DopR1−/− 的位移整場平平地停在約 2–4 mm（低），DopR2−/− 停在約 8–12 mm（高）（※ 從圖判讀）。這與 3.6 節表 3 的突觸結果一致（DopR1 突變的 γ4 突觸在兩種配對後都變強，DopR2 突變都變弱）：DopR1−/− 只能增強 γ4（γ4 驅動迴避）→ 追蹤低；DopR2−/− 只能減弱 γ4 → 追蹤高。**在交替訓練下，只能單向改變的突觸很快飽和，於是每一次的變化量都趨近零。** 這個讀法合理，但它需要的「絕對位移的突變 vs 野生型比較」在 S8C–D（？待查），正文主圖只給了變化量。
 - **DopR1−/− 的第一列看起來已經比野生型低**（指 A 右側位移圖最上面的第 1 個點，即訓練前的基線測試；A 右欄：野生型第 1 列約 8 mm、DopR1−/− 約 3 mm，※ 從圖判讀）。正文說兩種突變「未訓練時的追蹤與野生型無法區分」，引的是 S8E–S（另一批專做基線比較的實驗：每基因型 4 盒、合計 20 隻，即每盒約 5 隻，9 次氣味測試，見 STAR Methods 表；？待查）。兩者可以並存（S8 的實驗沒有打光、沒有配對），但讀者若只看主圖，會以為 DopR1 突變在訓練前就不愛追蘋果醋。
-- **突變是全身性的**：Key Resources Table 中 DopR1 null 與 DopR2 attP 都是基因體突變，不是只在 KC 剔除。作者在討論中承認受體可能在蘑菇體以外的位置也影響時間敏感度（text.txt 第 781–797 行）。行為缺陷因此不能全歸給 KC 軸突上的受體。
+- **突變是全身性的**：Key Resources Table 中 DopR1 null 與 DopR2 attP 都是基因體突變，不是只在 KC 剔除。作者在討論中承認受體可能在蕈狀體以外的位置也影響時間敏感度（text.txt 第 781–797 行）。行為缺陷因此不能全歸給 KC 軸突上的受體。
 
 ### 四、討論
 

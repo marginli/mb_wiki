@@ -10,7 +10,7 @@ confidence: high
 
 ## 是什麼
 
-[[e-mushroom-body]]（蘑菇體）的主體神經元，負責在蘑菇體裡代表氣味。KC 的樹突在萼部（calyx）接收嗅覺輸入，軸突沿著「葉」往外延伸，經由突觸（神經元之間傳訊號的接點）把訊號交給蘑菇體輸出神經元（[[e-mbon]]）。多巴胺神經元（[[e-dopaminergic-neuron]]）的末梢就伸在這些突觸旁邊，本庫各篇都認為學習改變的是「KC → MBON」這個突觸（見 [[c-kc-mbon-plasticity]]）。
+[[e-mushroom-body]]（蕈狀體）的主體神經元，負責在蕈狀體裡代表氣味。KC 的樹突在萼部（calyx）接收嗅覺輸入，軸突沿著「葉」往外延伸，經由突觸（神經元之間傳訊號的接點）把訊號交給蕈狀體輸出神經元（[[e-mbon]]）。多巴胺神經元（[[e-dopaminergic-neuron]]）的末梢就伸在這些突觸旁邊，本庫各篇都認為學習改變的是「KC → MBON」這個突觸（見 [[c-kc-mbon-plasticity]]）。
 
 **數量**：約 2,000 顆（Aso 2016 引言「~2000」，引 Laurent & Naraghi 1994、Perez-Orive et al. 2002；Cohn 2015 引言「~2,000」）。兩篇都是在引言中轉述，沒有自己計數。
 

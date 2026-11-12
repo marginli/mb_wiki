@@ -1,20 +1,20 @@
 ---
-title: 蘑菇體區室（MB compartment）
+title: 蕈狀體區室（MB compartment）
 created: 2026-10-25
 updated: 2026-10-25
 tags: [concept, active, mb-learning]
 confidence: high
 ---
 
-# 蘑菇體區室（MB compartment）
+# 蕈狀體區室（MB compartment）
 
 **Kenyon 細胞（KC）的軸突成束排成幾條「葉」（lobe）；每條葉沿長度再切成一格一格的區室，每一格由特定一型多巴胺神經元（DAN）的軸突與特定一型輸出神經元（MBON）的樹突共同占據。** 一條 KC 軸突依序穿過好幾格，沿途與每格的 MBON 形成突觸；每格的 DAN **主要**調整自己那一格的 KC→MBON 突觸，但有例外（見陷阱 5）。Hige 2015、Aso 2016、Felsenberg 2017 都引 Aso et al. 2014a：共 15 個區室。
 
 **本頁用語**（每頁可單獨查閱，故重複列出）：
 
-- **KC**：Kenyon 細胞（Kenyon cell），蘑菇體（mushroom body，果蠅腦中把氣味和好壞連起來的構造）裡代表氣味的神經元，每種氣味只活化一小群。
+- **KC**：Kenyon 細胞（Kenyon cell），蕈狀體（mushroom body，果蠅腦中把氣味和好壞連起來的構造）裡代表氣味的神經元，每種氣味只活化一小群。
 - **DAN**：多巴胺神經元（dopaminergic neuron），送出代表懲罰或獎賞的多巴胺。依 Handler 2019 的說法，PAM 群多報告獎賞、PPL（PPL1）群多報告懲罰。
-- **MBON**：蘑菇體輸出神經元（MB output neuron），接收 KC 的訊號，推動果蠅靠近或走開。
+- **MBON**：蕈狀體輸出神經元（MB output neuron），接收 KC 的訊號，推動果蠅靠近或走開。
 - **葉、萼部**：KC 的軸突（送出訊號的長枝）成束排成 α、α′、γ 等「葉」（lobe）；KC 的樹突（接收端）聚在「萼部」（calyx）。
 - **光**：指光遺傳活化 DAN，即讓 DAN 帶上照紅光就放電的蛋白，用光代替真的懲罰或獎賞（見 [[c-us-substitution]]）。
 - **乙醯膽鹼**（acetylcholine）：嗅覺訊號傳給 KC 時用的化學物質；在取出的腦上噴它，等於「假裝聞到氣味」。

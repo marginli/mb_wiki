@@ -8,13 +8,13 @@ confidence: medium
 
 # KC→MBON 突觸可塑性（KC-MBON synaptic plasticity）
 
-**Kenyon 細胞（KC）把氣味訊號經突觸交給蘑菇體輸出神經元（MBON），MBON 再推動果蠅「靠近」或「走開」；這個突觸的強度被多巴胺改變，就是 KC→MBON 突觸可塑性。** 變弱並持續稱長期抑制（long-term depression, LTD），變強稱增強（potentiation）。由第三個神經元（這裡是多巴胺神經元 DAN）改變另外兩者之間突觸的現象，稱**異突觸可塑性（heterosynaptic plasticity）**；只由突觸兩端自身活動決定的，稱同突觸（homosynaptic）可塑性。
+**Kenyon 細胞（KC）把氣味訊號經突觸交給蕈狀體輸出神經元（MBON），MBON 再推動果蠅「靠近」或「走開」；這個突觸的強度被多巴胺改變，就是 KC→MBON 突觸可塑性。** 變弱並持續稱長期抑制（long-term depression, LTD），變強稱增強（potentiation）。由第三個神經元（這裡是多巴胺神經元 DAN）改變另外兩者之間突觸的現象，稱**異突觸可塑性（heterosynaptic plasticity）**；只由突觸兩端自身活動決定的，稱同突觸（homosynaptic）可塑性。
 
 **本頁用語**（每頁可單獨查閱，故重複列出）：
 
-- **KC**：Kenyon 細胞（Kenyon cell），蘑菇體（mushroom body，果蠅腦中把氣味和好壞連起來的構造）裡代表氣味的神經元，每種氣味只活化一小群。
+- **KC**：Kenyon 細胞（Kenyon cell），蕈狀體（mushroom body，果蠅腦中把氣味和好壞連起來的構造）裡代表氣味的神經元，每種氣味只活化一小群。
 - **DAN**：多巴胺神經元（dopaminergic neuron），送出代表懲罰或獎賞的多巴胺。依 Handler 2019 的說法，PAM 群多報告獎賞、PPL（PPL1）群多報告懲罰。
-- **MBON**：蘑菇體輸出神經元（MB output neuron），接收 KC 的訊號，推動果蠅靠近或走開。
+- **MBON**：蕈狀體輸出神經元（MB output neuron），接收 KC 的訊號，推動果蠅靠近或走開。
 - **葉、萼部**：KC 的軸突（送出訊號的長枝）成束排成 α、α′、γ 等「葉」（lobe）；KC 的樹突（接收端）聚在「萼部」（calyx）。
 - **區室**：葉沿長度切成的一格，以 γ1pedc、γ2、γ4、α2 等編號命名；細胞也以所在區室命名，例如 MBON-γ1pedc、PPL1-γ1pedc。詳見 [[c-mb-compartment]]。
 - **光**：指光遺傳活化 DAN，即讓 DAN 帶上照紅光就放電的蛋白，用光代替真的懲罰或獎賞（見 [[c-us-substitution]]）。

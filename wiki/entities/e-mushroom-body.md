@@ -1,20 +1,20 @@
 ---
-title: 蘑菇體（mushroom body）
+title: 蕈狀體（mushroom body）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-12
 tags: [entity, active, mb-learning]
 confidence: high
 ---
 
-# 蘑菇體（mushroom body）
+# 蕈狀體（mushroom body）
 
 ## 是什麼
 
-果蠅腦中負責把「聞到什麼」和「好事或壞事」連起來的構造，簡稱 MB。本庫各篇來源都把它當成嗅覺學習發生的地方。它由三種神經元的纖維交織而成：
+果蠅腦中負責把「聞到什麼」和「好事或壞事」連起來的構造，簡稱 MB。中文也有人譯作「蘑菇體」，本庫一律寫「蕈狀體」。本庫各篇來源都把它當成嗅覺學習發生的地方。它由三種神經元的纖維交織而成：
 
-- **Kenyon 細胞**（[[e-kenyon-cell]]，KC）：蘑菇體的主體神經元，負責代表氣味。
+- **Kenyon 細胞**（[[e-kenyon-cell]]，KC）：蕈狀體的主體神經元，負責代表氣味。
 - **多巴胺神經元**（[[e-dopaminergic-neuron]]，DAN）：送來懲罰或獎賞訊號。
-- **蘑菇體輸出神經元**（[[e-mbon]]，MBON）：讀取 KC 的訊號，影響行為。
+- **蕈狀體輸出神經元**（[[e-mbon]]，MBON）：讀取 KC 的訊號，影響行為。
 
 **結構**（依 [[s-tomchik-2009-camp-dynamics]] 的讀前說明與 [[s-hige-2015-heterosynaptic-plasticity]]）：
 
@@ -36,9 +36,9 @@ MBON 與 DAN 都以所在區室命名，例如 MBON-γ1pedc（γ1pedc 區的輸�
 
 ## 庫內誰用了它
 
-| 來源 | 量了蘑菇體的哪一部分 | 空間解析度 |
+| 來源 | 量了蕈狀體的哪一部分 | 空間解析度 |
 |---|---|---|
-| [[s-tomchik-2009-camp-dynamics]] | α 葉末端、α′ 葉、γ 葉（KC 軸突）與萼部（KC 樹突）；另量萼部的 PN 軸突、α 葉上 DPM 神經元（一對支配整個蘑菇體葉部的大型神經元）的神經突。在萼部噴乙醯膽鹼（嗅覺訊號傳給 KC 時用的物質，用來模擬氣味），在垂直葉噴多巴胺（模擬懲罰） | 到「葉」為止，沒有分區室 |
+| [[s-tomchik-2009-camp-dynamics]] | α 葉末端、α′ 葉、γ 葉（KC 軸突）與萼部（KC 樹突）；另量萼部的 PN 軸突、α 葉上 DPM 神經元（一對支配整個蕈狀體葉部的大型神經元）的神經突。在萼部噴乙醯膽鹼（嗅覺訊號傳給 KC 時用的物質，用來模擬氣味），在垂直葉噴多巴胺（模擬懲罰） | 到「葉」為止，沒有分區室 |
 | [[s-hige-2015-heterosynaptic-plasticity]] | 三個區室的 MBON：γ1pedc、γ2α′1、α2（MBON-α2sc）；另以鈣影像量 KC 細胞體層 | 區室 |
 | [[s-handler-2019-dopamine-receptor-timing]] | γ 葉的 γ2、γ4、γ5 區室的 MBON；KC 軸突在 γ4/γ5 區室的 cAMP（多巴胺受體被活化後在細胞內升高的訊號分子）與內質網鈣（細胞內儲鈣小倉庫放出的鈣）；γ2/γ3 的比較在補充圖 S6D–F：？待查。乙醯膽鹼以離子導入（用電流把藥從玻璃細針推出）送到萼部模擬氣味 | 區室 |
 | [[s-cohn-2015-coordinated-neuromodulation]] | γ 葉的 γ2–γ5：KC 末梢、DAN 末梢、MBON（γ1 沒有常規成像） | 區室；KC 末梢到單一突觸小結 |

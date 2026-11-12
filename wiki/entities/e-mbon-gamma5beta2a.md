@@ -11,9 +11,9 @@ confidence: medium
 
 **本頁用語**（每頁可單獨查閱，故重複列出）：
 
-- **蘑菇體（mushroom body）**：果蠅腦中把氣味和好壞經驗連起來的構造。代表氣味的 Kenyon 細胞（KC）把軸突成束排成幾條「葉」（α、α′、β、β′、γ），每條葉沿長度切成一格一格的「區室」（例如 γ1pedc、γ2、α1）；細胞以所在區室命名。見 [[e-mushroom-body]]、[[c-mb-compartment]]。
+- **蕈狀體（mushroom body）**：果蠅腦中把氣味和好壞經驗連起來的構造。代表氣味的 Kenyon 細胞（KC）把軸突成束排成幾條「葉」（α、α′、β、β′、γ），每條葉沿長度切成一格一格的「區室」（例如 γ1pedc、γ2、α1）；細胞以所在區室命名。見 [[e-mushroom-body]]、[[c-mb-compartment]]。
 - **DAN、PAM、PPL1**：多巴胺神經元（dopaminergic neuron）送出代表懲罰或獎賞的多巴胺；PAM 群多傳遞獎賞，PPL1 群（Handler 2019 寫作 PPL）多傳遞懲罰。
-- **MBON**：蘑菇體輸出神經元，接收 KC 的訊號、推動果蠅靠近或走開；學習改變的是 KC→MBON 突觸的強弱。
+- **MBON**：蕈狀體輸出神經元，接收 KC 的訊號、推動果蠅靠近或走開；學習改變的是 KC→MBON 突觸的強弱。
 - **CS+／CS−、順向／逆向**：訓練時配了糖、電擊或 DAN 活化的氣味（CS+），與沒配的對照氣味（CS−）。順向配對＝氣味先、多巴胺後；逆向配對＝多巴胺先、氣味後。
 - **PI（表現指數）、LI（學習指數）**：行為分數。一群果蠅在兩種氣味間選擇，換算成一個數；多數篇落在 −1 到 +1（Hige 2015 的刻度不同），0＝沒有偏好，正負號的意思各篇不同（見 [[c-performance-index]]）。
 - **消退、再鞏固**：學會後再聞 CS+ 卻沒有糖或電擊，學到的反應減弱，叫消退（[[c-memory-extinction]]）；記憶被叫出來後暫時變得不穩定、再重新存好，叫再鞏固（[[c-memory-consolidation]]）。
@@ -24,7 +24,7 @@ confidence: medium
 
 ## 是什麼
 
-蘑菇體輸出神經元（[[e-mbon]]）的一型。新名 MBON-γ5β′2a 串了 γ 葉第 5 格（γ5）與 β′ 葉 β′2a 小區兩個位置；舊名 M6（Felsenberg 2018 的寫法）；Handler 2019 與 Cohn 2015 則不用這兩個名字，只用它樹突所在的區室（γ5 格）稱它「γ5 MBON」。依 Felsenberg 2018，它放出麩胺酸（glutamate），活化時讓果蠅「走開」，樹突在 γ5 格，左右腦各一顆（摘要稱「a pair」）。它被 [[e-mbon-gamma1pedc]]（MVP2）以 GABA 抑制。這條連結是 Felsenberg 2018 解釋消退的關鍵：消退後 MVP2 上的舊痕跡（對 CS+ 的反應比 CS− 小）仍在，M6 的樹突卻新出現痕跡，使軸突的 CS+／CS− 差別變得不顯著（見下表與 [[c-memory-extinction]]）。
+蕈狀體輸出神經元（[[e-mbon]]）的一型。新名 MBON-γ5β′2a 串了 γ 葉第 5 格（γ5）與 β′ 葉 β′2a 小區兩個位置；舊名 M6（Felsenberg 2018 的寫法）；Handler 2019 與 Cohn 2015 則不用這兩個名字，只用它樹突所在的區室（γ5 格）稱它「γ5 MBON」。依 Felsenberg 2018，它放出麩胺酸（glutamate），活化時讓果蠅「走開」，樹突在 γ5 格，左右腦各一顆（摘要稱「a pair」）。它被 [[e-mbon-gamma1pedc]]（MVP2）以 GABA 抑制。這條連結是 Felsenberg 2018 解釋消退的關鍵：消退後 MVP2 上的舊痕跡（對 CS+ 的反應比 CS− 小）仍在，M6 的樹突卻新出現痕跡，使軸突的 CS+／CS− 差別變得不顯著（見下表與 [[c-memory-extinction]]）。
 
 ## 版本與規模（標記它的品系）
 

@@ -10,9 +10,9 @@ confidence: medium
 
 ## 是什麼
 
-釋放多巴胺（dopamine）的神經元。在蘑菇體學習的模型裡，DAN 把「剛剛發生了壞事或好事」送進 [[e-mushroom-body]]：它的軸突末梢伸到 [[e-kenyon-cell]]（KC）與 [[e-mbon]]（MBON）之間的突觸旁，每一型 DAN 只支配葉上的一個或幾個區室（[[c-mb-compartment]]）。DAN 也不只是被動轉播外界的獎懲：Ichinose 2015、Cohn 2015、Felsenberg 2017、2018 都顯示輸出神經元（MBON）會回頭影響 DAN 的活動（見 [[t-mbon-dan-feedback]]）。
+釋放多巴胺（dopamine）的神經元。在蕈狀體學習的模型裡，DAN 把「剛剛發生了壞事或好事」送進 [[e-mushroom-body]]：它的軸突末梢伸到 [[e-kenyon-cell]]（KC）與 [[e-mbon]]（MBON）之間的突觸旁，每一型 DAN 只支配葉上的一個或幾個區室（[[c-mb-compartment]]）。DAN 也不只是被動轉播外界的獎懲：Ichinose 2015、Cohn 2015、Felsenberg 2017、2018 都顯示輸出神經元（MBON）會回頭影響 DAN 的活動（見 [[t-mbon-dan-feedback]]）。
 
-本庫各篇提到兩群與蘑菇體有關的 DAN（以細胞體所在的位置命名的細胞群）：
+本庫各篇提到兩群與蕈狀體有關的 DAN（以細胞體所在的位置命名的細胞群）：
 
 | 細胞群 | 來源怎麼描述 |
 |---|---|
@@ -25,8 +25,8 @@ confidence: medium
 
 | 來源 | 怎麼讓多巴胺出現 | 用到的 DAN 與驅動品系 |
 |---|---|---|
-| [[s-tomchik-2009-camp-dynamics]] | **沒有活化 DAN。** 直接把多巴胺加進灌流液（浴灌，10 nM–10 mM），或用玻璃細管噴在垂直葉（細管內 1 mM） | 無。只引 Mao & Davis 2009 說明多巴胺神經元支配蘑菇體 |
-| [[s-hige-2015-heterosynaptic-plasticity]] | 光遺傳：DAN 表現 [[e-cschrimson]]，紅光一照就放電 | **PPL1-γ1pedc**（舊名 MB-MP1），由 MB320C 標記，只標這一顆；**MB099C** 依 Hige 2015 標四型 PPL1（γ2α′1、α′2α2、α′3、α3），依 Aso 2016 只標 γ2α′1 與 α′2α2 兩型（[[e-mb099c]]、[[syn-contradictions]] 1.4），兩篇都說不標 PPL1-γ1pedc；**TH-GAL4** 標多數 PPL1（含 γ1pedc）、少數 PAM 與蘑菇體以外的許多 DAN，當正對照（已知應該有效的組，用來確認方法本身有用） |
+| [[s-tomchik-2009-camp-dynamics]] | **沒有活化 DAN。** 直接把多巴胺加進灌流液（浴灌，10 nM–10 mM），或用玻璃細管噴在垂直葉（細管內 1 mM） | 無。只引 Mao & Davis 2009 說明多巴胺神經元支配蕈狀體 |
+| [[s-hige-2015-heterosynaptic-plasticity]] | 光遺傳：DAN 表現 [[e-cschrimson]]，紅光一照就放電 | **PPL1-γ1pedc**（舊名 MB-MP1），由 MB320C 標記，只標這一顆；**MB099C** 依 Hige 2015 標四型 PPL1（γ2α′1、α′2α2、α′3、α3），依 Aso 2016 只標 γ2α′1 與 α′2α2 兩型（[[e-mb099c]]、[[syn-contradictions]] 1.4），兩篇都說不標 PPL1-γ1pedc；**TH-GAL4** 標多數 PPL1（含 γ1pedc）、少數 PAM 與蕈狀體以外的許多 DAN，當正對照（已知應該有效的組，用來確認方法本身有用） |
 | [[s-handler-2019-dopamine-receptor-timing]] | 行為：光遺傳（CsChrimson；閉迴路實驗用 ChrimsonR。閉迴路＝果蠅頭固定在顯微鏡下、腳踩泡沫球，球的轉動帶動送氣管，可同時看腦與行為）；離體腦：化學遺傳，DAN 表現 ATP 門控通道 P2X2，滴 ATP 使其放電；另有一組用真的電擊（補充圖 S3E：？待查） | **PAM**：MB042B（行為、閉迴路）、R58E02-LexA（離體；基因型表標為「γ4–5 DANs」，但 Felsenberg 2017 說同一品系標 13 型 PAM，見 [[e-r58e02]]、[[syn-contradictions]] 1.5）；**PPL**：MB504B（行為，論文說它支配六個區室，沒列出是哪六個）；γ2 DAN：73F07-LexA（補充圖 S3D）；TH-Gal4 加 DDC-Gal4 用來在 DAN 表現 VMAT-pHluorin（見下段） |
 | [[s-cohn-2015-coordinated-neuromodulation]] | 化學遺傳：P2X2＋ATP（[[e-p2x2]]）活化 58E02 標記的 DAN（含 γ4、γ5，γ3 不穩定）或 γ2 DAN；另量 DAN 本身：TH 與 DDC 啟動子讓各格 DAN 末梢表現只在突觸前發光的 sytGCaMP | 吃糖時 γ4/γ5 DAN 興奮、γ2/γ3 被抑制，電擊相反；固定果蠅掙扎時像電擊、靜止時像吃糖；活化任一格 γ MBON 都改變各格 DAN |
 | [[s-aso-2016-dan-cell-type-rules]] | 光遺傳（CsChrimson），六組驅動品系各活化一或兩型 DAN | PPL1-γ1pedc（MB320C）、PPL1-γ2α′1＋α′2α2（MB099C）、PPL1-α3（MB630B，新做）、PAM-α1（MB043C）、β1/β2 的 PAM（MB213B）、γ5/β′2a 的 PAM（MB315C＋MB109B）；R58E02-GAL4 約 90 顆 PAM |

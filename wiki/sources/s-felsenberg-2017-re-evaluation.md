@@ -31,13 +31,13 @@ confidence: medium
 
 ## 為什麼重要
 
-先交代幾個名詞（本庫其他頁有較完整的說明）。蘑菇體（mushroom body, MB）是果蠅腦中把氣味和好壞連起來的構造。氣味由其中的 Kenyon 細胞（Kenyon cell, KC）代表；KC 把訊號經由神經元之間的接點（突觸，synapse）交給輸出神經元（MB output neuron, MBON），MBON 推動果蠅靠近或走開；多巴胺神經元（dopaminergic neuron, DAN）傳遞懲罰或獎賞，改變 KC→MBON 突觸的強弱，這就是學習（見 [[e-mushroom-body]]、[[c-kc-mbon-plasticity]]）。
+先交代幾個名詞（本庫其他頁有較完整的說明）。蕈狀體（mushroom body, MB）是果蠅腦中把氣味和好壞連起來的構造。氣味由其中的 Kenyon 細胞（Kenyon cell, KC）代表；KC 把訊號經由神經元之間的接點（突觸，synapse）交給輸出神經元（MB output neuron, MBON），MBON 推動果蠅靠近或走開；多巴胺神經元（dopaminergic neuron, DAN）傳遞懲罰或獎賞，改變 KC→MBON 突觸的強弱，這就是學習（見 [[e-mushroom-body]]、[[c-kc-mbon-plasticity]]）。
 
 本庫先前收錄的三篇論文（[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]）問的都是「一次訓練怎麼把記憶寫進去」。本篇問的是下一步：**記憶寫好之後，再次被叫出來時會發生什麼事。** 學到的記憶可以看成一個預測，例如「聞到這個氣味，就會有糖」。依論文引言，記憶在訓練後數小時內逐漸變穩定，這叫鞏固（consolidation）。已鞏固的記憶被提取時，若預測不準（聞到了卻沒有糖），記憶可以被「消退」（extinction）抵銷；若預測大致準確，記憶會先變得不穩定，經過一段「再鞏固」（reconsolidation）期間後被保留下來（引 Dunsmoor et al. 2015、Nader 2015）。論文也提到，消退與再鞏固被視為緩解人類問題記憶的機會（引 Kindt et al. 2009、Schiller et al. 2010、Xue et al. 2012），但機制上的了解還很少。
 
 本篇用的是糖獎賞的嗅覺記憶。訓練時果蠅聞兩種氣味：一種配糖，記作 CS+；另一種不配糖，記作 CS−。訓練後再讓果蠅聞氣味、不給糖，論文稱為「再活化」（reactivation），也就是讓記憶被提取一次。3 小時後讓牠再聞 CS+ 兩次但不給糖，預期有糖卻沒有，6 小時測驗時對 CS+ 的偏好就消失了（消退）。改成再聞 CS−，本來就預期沒有糖，結果也沒有，偏好保住了；但這時記憶會進入一段不穩定期：聞完 CS− 後立刻或 30 分鐘時把果蠅放在冰上 2 分鐘麻醉（冷休克），記憶就會消失；90 分鐘後再冰，記憶就不受影響（再鞏固）。
 
-要讀懂結果，需要知道蘑菇體的空間分格。KC 的軸突（往外送訊號的長纖維）成束排成幾條「葉」（lobe），以希臘字母命名，例如 α、α′、β、β′、γ。每條葉沿長度再分成一格一格的區室（compartment），每格由一型 DAN 支配（軸突末梢伸進這一格）、由一型 MBON 讀取（MBON 的樹突，也就是接收訊號的分支，伸進這一格），區室名是「葉名＋格的序號」，例如 γ2、α′1（見 [[c-mb-compartment]]）。細胞也以所在的格命名；名稱像 γ2α′1 這樣串起兩格的，表示它橫跨 γ2 與 α′1 兩格（※ 推論，依命名方式）。依本篇，DAN 分兩群：PPL1 群傳遞懲罰，主要支配垂直方向的葉；PAM 群傳遞獎賞，支配水平方向的葉。依論文延伸圖 1 的示意，α、α′ 是垂直的葉，β、β′、γ 是水平的葉（※ 從圖判讀）；延伸圖 6 的細胞名單顯示，PPL1 各型分布在 α、α′ 葉，以及水平葉靠近根部的 γ1、γ2 兩格，PAM 各型則分布在 β、β′ 葉與 γ3–γ5 等較末端的格（另有 α1）。依本篇延伸圖 1b，PPL1 支配的格裡的 MBON 推動「靠近」，PAM 支配的格裡的 MBON 推動「走開」（理由見科普文的收發室比喻）。
+要讀懂結果，需要知道蕈狀體的空間分格。KC 的軸突（往外送訊號的長纖維）成束排成幾條「葉」（lobe），以希臘字母命名，例如 α、α′、β、β′、γ。每條葉沿長度再分成一格一格的區室（compartment），每格由一型 DAN 支配（軸突末梢伸進這一格）、由一型 MBON 讀取（MBON 的樹突，也就是接收訊號的分支，伸進這一格），區室名是「葉名＋格的序號」，例如 γ2、α′1（見 [[c-mb-compartment]]）。細胞也以所在的格命名；名稱像 γ2α′1 這樣串起兩格的，表示它橫跨 γ2 與 α′1 兩格（※ 推論，依命名方式）。依本篇，DAN 分兩群：PPL1 群傳遞懲罰，主要支配垂直方向的葉；PAM 群傳遞獎賞，支配水平方向的葉。依論文延伸圖 1 的示意，α、α′ 是垂直的葉，β、β′、γ 是水平的葉（※ 從圖判讀）；延伸圖 6 的細胞名單顯示，PPL1 各型分布在 α、α′ 葉，以及水平葉靠近根部的 γ1、γ2 兩格，PAM 各型則分布在 β、β′ 葉與 γ3–γ5 等較末端的格（另有 α1）。依本篇延伸圖 1b，PPL1 支配的格裡的 MBON 推動「靠近」，PAM 支配的格裡的 MBON 推動「走開」（理由見科普文的收發室比喻）。
 
 作者用溫度敏感的阻斷工具，只在「重新聞氣味」前後那段時間關掉特定神經元，找出兩條不同的路：**消退需要 α／α′ 葉上的一群 MBON（V2 群，屬於推動靠近的一邊）與 PPL1 群 DAN；再鞏固需要 γ2α′1 MBON、與它在同一格的 PPL1-γ2α′1 DAN，以及聞完之後一段時間內的 PAM 群 DAN。** 一般的模型裡，訊號由 KC 流向 MBON，DAN 從旁調整。本篇的核心主張是：MBON 也會回頭驅動 DAN，讓記憶能依「預期與實際的差距」（論文稱獎賞預測誤差，reward-prediction error）被更新。
 
@@ -47,13 +47,13 @@ confidence: medium
 
 ## 論文摘要（原文與中譯）
 
-> 本篇是 *Nature* 的 Letter，摘要為不分段的單段（不是 Background／Results／Conclusion 結構），以下照原文排列。摘要中的「MBON」指蘑菇體輸出神經元；「γ2α′1」是一個區室（compartment）的名稱；「negatively／positively reinforcing dopaminergic neurons」指傳遞懲罰／獎賞的多巴胺神經元。
+> 本篇是 *Nature* 的 Letter，摘要為不分段的單段（不是 Background／Results／Conclusion 結構），以下照原文排列。摘要中的「MBON」指蕈狀體輸出神經元；「γ2α′1」是一個區室（compartment）的名稱；「negatively／positively reinforcing dopaminergic neurons」指傳遞懲罰／獎賞的多巴胺神經元。
 >
 > Animals constantly assess the reliability of learned information to optimize their behaviour. On retrieval, consolidated long-term memory can be neutralized by extinction if the learned prediction was inaccurate. Alternatively, retrieved memory can be maintained, following a period of reconsolidation during which it is labile. Although extinction and reconsolidation provide opportunities to alleviate problematic human memories, we lack a detailed mechanistic understanding of memory updating. Here we identify neural operations underpinning the re-evaluation of memory in *Drosophila*. Reactivation of reward-reinforced olfactory memory can lead to either extinction or reconsolidation, depending on prediction accuracy. Each process recruits activity in specific parts of the mushroom body output network and distinct subsets of reinforcing dopaminergic neurons. Memory extinction requires output neurons with dendrites in the α and α′ lobes of the mushroom body, which drive negatively reinforcing dopaminergic neurons that innervate neighbouring zones. The aversive valence of these new extinction memories neutralizes previously learned odour preference. Memory reconsolidation requires the γ2α′1 mushroom body output neurons. This pathway recruits negatively reinforcing dopaminergic neurons innervating the same compartment and re-engages positively reinforcing dopaminergic neurons to reconsolidate the original reward memory. These data establish that recurrent and hierarchical connectivity between mushroom body output neurons and dopaminergic neurons enables memory re-evaluation driven by reward-prediction error.
 
 **中譯**（本節為忠實翻譯，非自撰內容）：
 
-> 動物不斷評估已學得資訊的可靠性，以使行為最佳化。在提取時，若當初學到的預測不準確，已鞏固的長期記憶可以被消退所抵銷。另一種情況是，被提取的記憶可以被保留，但要先經過一段再鞏固期，期間記憶是不穩定的。雖然消退與再鞏固為緩解人類的問題記憶提供了機會，我們對記憶更新的機制仍缺乏詳細的了解。本研究找出果蠅記憶重新評估背後的神經運作。由獎賞增強的嗅覺記憶被再活化時，可以導向消退或再鞏固，取決於預測的準確度。兩種過程各自動用蘑菇體輸出網路的特定部分，以及不同子集的增強型多巴胺神經元。記憶消退需要樹突位於蘑菇體 α 與 α′ 葉的輸出神經元，它們驅動支配鄰近區域、傳遞負向增強的多巴胺神經元。這些新形成的消退記憶帶有嫌惡價值，抵銷了先前學到的氣味偏好。記憶再鞏固需要 γ2α′1 蘑菇體輸出神經元。這條路徑動用支配同一區室、傳遞負向增強的多巴胺神經元，並重新啟動傳遞正向增強的多巴胺神經元，以再鞏固原本的獎賞記憶。這些資料確立：蘑菇體輸出神經元與多巴胺神經元之間的回返性與階層性連結，使由獎賞預測誤差驅動的記憶重新評估成為可能。
+> 動物不斷評估已學得資訊的可靠性，以使行為最佳化。在提取時，若當初學到的預測不準確，已鞏固的長期記憶可以被消退所抵銷。另一種情況是，被提取的記憶可以被保留，但要先經過一段再鞏固期，期間記憶是不穩定的。雖然消退與再鞏固為緩解人類的問題記憶提供了機會，我們對記憶更新的機制仍缺乏詳細的了解。本研究找出果蠅記憶重新評估背後的神經運作。由獎賞增強的嗅覺記憶被再活化時，可以導向消退或再鞏固，取決於預測的準確度。兩種過程各自動用蕈狀體輸出網路的特定部分，以及不同子集的增強型多巴胺神經元。記憶消退需要樹突位於蕈狀體 α 與 α′ 葉的輸出神經元，它們驅動支配鄰近區域、傳遞負向增強的多巴胺神經元。這些新形成的消退記憶帶有嫌惡價值，抵銷了先前學到的氣味偏好。記憶再鞏固需要 γ2α′1 蕈狀體輸出神經元。這條路徑動用支配同一區室、傳遞負向增強的多巴胺神經元，並重新啟動傳遞正向增強的多巴胺神經元，以再鞏固原本的獎賞記憶。這些資料確立：蕈狀體輸出神經元與多巴胺神經元之間的回返性與階層性連結，使由獎賞預測誤差驅動的記憶重新評估成為可能。
 
 > 中譯用詞說明：「增強」（reinforcement）是懲罰或獎賞的統稱，所以「由獎賞增強的記憶」就是用糖建立的記憶，「負向／正向增強的 DAN」就是傳遞懲罰／獎賞的 DAN。「嫌惡價值」指這筆記憶會讓果蠅想避開該氣味。「支配」指 DAN 的末梢伸進某一格。「鄰近區域」指 V2 MBON 所在的格旁邊的格。「回返性連結」指 MBON 連回同一格的 DAN（論文延伸圖 1c 稱為局部回饋迴路）；「階層性連結」論文沒有定義，※ 推論：指 MBON 連到其他格的 DAN，例如 V2 MBON 連到鄰格的 PPL1 DAN、γ2α′1 MBON 連到水平葉的 PAM DAN。
 
@@ -67,7 +67,7 @@ confidence: medium
 
 **難題**在於：同樣是「再聞一次氣味、但沒有糖」，結果卻可以相反。訓練後 3 小時讓果蠅聞兩次 CS+、不給糖，6 小時測驗時偏好就不見了（PI 從約 0.3 掉到約 0），而且到訓練後 24 小時都沒有回來，這是消退。改讓牠聞兩次 CS−，偏好照樣保持；但作者發現，這時記憶變得「怕冷」：聞完 CS− 後立刻或 30 分鐘時把果蠅放在冰上麻醉 2 分鐘（冷休克），6 小時的偏好就沒了；90 分鐘後再冰，偏好就保住了。沒有重新聞氣味的果蠅，3 小時時被冰一下並不受影響。所以聞 CS− 會讓穩定的記憶重新進入一段不穩定期，再慢慢存回去，這就是再鞏固。
 
-要問的是：腦中哪些神經元負責這兩件事？本庫其他頁用過一個比喻：蘑菇體像一間收發室，Kenyon 細胞是寫信的員工，輸出神經元（MBON）是讀信的主管，主管決定果蠅「靠近」還是「走開」；多巴胺神經元（DAN）是督察，每位只管一段信箱（一段信箱＝一格區室），出聲代表「剛才有好事或壞事」，那段信箱裡剛剛有人投信的投遞口（突觸）就會被調窄（見 [[t-dopamine-to-plasticity]]）。
+要問的是：腦中哪些神經元負責這兩件事？本庫其他頁用過一個比喻：蕈狀體像一間收發室，Kenyon 細胞是寫信的員工，輸出神經元（MBON）是讀信的主管，主管決定果蠅「靠近」還是「走開」；多巴胺神經元（DAN）是督察，每位只管一段信箱（一段信箱＝一格區室），出聲代表「剛才有好事或壞事」，那段信箱裡剛剛有人投信的投遞口（突觸）就會被調窄（見 [[t-dopamine-to-plasticity]]）。
 
 依本篇的整理，督察分兩群：PAM 群報獎賞、PPL1 群報懲罰。乍看違反直覺的是：報獎賞的督察管的是「推動走開」的主管那幾段信箱，報懲罰的督察管的是「推動靠近」的主管那幾段。道理在於督察的作用是「調窄」。依本篇引用的文獻，糖獎賞學習時，報獎賞的督察讓學到的氣味送到「走開」主管的信變少；走開的力量弱了，果蠅就相對偏向靠近這個氣味。懲罰學習則反過來，讓氣味送到「靠近」主管的信變少，果蠅就相對偏向走開。
 
@@ -89,9 +89,9 @@ confidence: medium
 
 ### 一、概述
 
-**主要問題。** 已鞏固的糖獎賞嗅覺記憶被再活化（reactivation，即訓練後再讓果蠅聞氣味、不給糖）時，消退與再鞏固分別由蘑菇體的哪些 MBON 與 DAN 執行？兩者如何被分流？
+**主要問題。** 已鞏固的糖獎賞嗅覺記憶被再活化（reactivation，即訓練後再讓果蠅聞氣味、不給糖）時，消退與再鞏固分別由蕈狀體的哪些 MBON 與 DAN 執行？兩者如何被分流？
 
-**重要性。** 依本篇的說法，消退與再鞏固在哺乳類與人類研究中被視為改寫問題記憶的機會，但神經迴路層級的機制不明。果蠅的 MB 有已知的區室架構（葉與區室的說明見「為什麼重要」第四段）：Aso et al. 2014a（本篇引文 22）把 MB 葉分成 15 個區室，每格由一型 DAN 支配、一型 MBON 讀取，並指出 MBON 的軸突末梢（送出訊號的一端）與 DAN 的樹突（接收訊號的一端）在同一處重疊，所以 MBON 可能把訊號送給 DAN，形成 KC→MBON→DAN→回到蘑菇體的回饋迴路。本篇用行為與成像檢驗這些回饋迴路在記憶更新中的功能。
+**重要性。** 依本篇的說法，消退與再鞏固在哺乳類與人類研究中被視為改寫問題記憶的機會，但神經迴路層級的機制不明。果蠅的 MB 有已知的區室架構（葉與區室的說明見「為什麼重要」第四段）：Aso et al. 2014a（本篇引文 22）把 MB 葉分成 15 個區室，每格由一型 DAN 支配、一型 MBON 讀取，並指出 MBON 的軸突末梢（送出訊號的一端）與 DAN 的樹突（接收訊號的一端）在同一處重疊，所以 MBON 可能把訊號送給 DAN，形成 KC→MBON→DAN→回到蕈狀體的回饋迴路。本篇用行為與成像檢驗這些回饋迴路在記憶更新中的功能。
 
 **發表當時的領域現狀（2017）。** 本篇引用的背景：
 - 果蠅的記憶價值以 MBON 網路的「偏斜」（skew）編碼（Aso et al. 2014b；Owald & Waddell 2015）。依本篇延伸圖 1d–f：未訓練的果蠅，一個氣味送到「推動靠近」與「推動走開」兩類 MBON 的驅動大致平衡；學習改變其中一類的驅動，天平就往另一邊傾斜。
@@ -151,7 +151,7 @@ flowchart TD
 
 **溫度。** 正文寫「升到 32 °C」，各圖時間軸也標 32 °C；Methods 寫「shifted to restrictive 33 °C」。⚠️ 論文自身不一致（見「五、問題與限制」第 8 條）。
 
-**離體光遺傳與鈣影像。** 果蠅在含 1 mM 視黃醛（retinal）的飼料上養 1–3 天。取出的腦放在充 95% O<sub>2</sub>／5% CO<sub>2</sub> 的緩衝液中；雙光子顯微鏡（Scientifica），910 nm 激發，256 × 256 像素、5.92 Hz。先錄 10 s 基線，再給光。PPL1 DAN 在細胞體成像，論文說是為了避免成像雷射誤觸 CsChrimson（※ 推論：帶 CsChrimson 的 MBON 纖維集中在蘑菇體，PPL1 的細胞體離那裡較遠）；PAM DAN 在 γ5 區室成像。量化：F<sub>0</sub> 為刺激前 9 s 至前 1 s 的平均；比較刺激前 1 s 與刺激開始後 1 s 的 ΔF/F<sub>0</sub>，用成對 t 檢定。
+**離體光遺傳與鈣影像。** 果蠅在含 1 mM 視黃醛（retinal）的飼料上養 1–3 天。取出的腦放在充 95% O<sub>2</sub>／5% CO<sub>2</sub> 的緩衝液中；雙光子顯微鏡（Scientifica），910 nm 激發，256 × 256 像素、5.92 Hz。先錄 10 s 基線，再給光。PPL1 DAN 在細胞體成像，論文說是為了避免成像雷射誤觸 CsChrimson（※ 推論：帶 CsChrimson 的 MBON 纖維集中在蕈狀體，PPL1 的細胞體離那裡較遠）；PAM DAN 在 γ5 區室成像。量化：F<sub>0</sub> 為刺激前 9 s 至前 1 s 的平均；比較刺激前 1 s 與刺激開始後 1 s 的 ΔF/F<sub>0</sub>，用成對 t 檢定。
 
 **在體鈣影像。** 3–8 日齡果蠅，冰上短暫麻醉後固定，打開頭殼。先 40 s 乾淨空氣，再依序給兩種訓練氣味與新氣味 IAA 各 5 s，間隔 15 s；重複三次；Methods 說圖中只呈現第一次，分析是否也只用第一次，原文沒有明說。每個 AUC 再除以同一隻果蠅對 IAA 的 AUC，論文說目的是減少果蠅之間的變異。看不到任何氣味反應的果蠅被排除：圖 4e 排除 73 隻中的 15 隻（假訓練 9、訓練 6）；延伸圖 4e 排除 56 隻中的 9 隻（5、4）；延伸圖 4f 寫「34 隻中排除 3 隻（假訓練 MP1：1，訓練 MP1：3）」，括號內相加為 4。⚠️ 論文自身不一致。
 
@@ -225,7 +225,7 @@ flowchart TD
 
 > **原圖說（Figure 4）：** The γ2α′1 MBONs orchestrate CS−-triggered reconsolidation. a, Blocking γ2α′1 MBONs during CS− reactivation significantly impairs reconsolidation of 6 h memory but spares CS+-driven extinction (n ≥ 12). b, γ2α′1 MBON output is required for 3 h memory expression (n ≥ 15). c, d, Light-triggered activation (red bar) of R25D01-LexA or MB077C-GAL4 γ2α′1 MBONs evokes calcium responses in aversive MB296B-GAL4 MB-MV1 DANs (c) and in rewarding R58E02-LexA DANs (d). Arrows, time points quantified before and after light stimulation. For c and d asterisks denote significant difference (P < 0.05, t-test) between pre- and post-activation responses. e, Sugar-reward training specifically enhances CS− odour-evoked calcium responses in γ2α′1 MBONs (n ≥ 13). Responses to CS−, CS+ and novel odour were measured in projections outside the mushroom body (example traces, lower left panel). Calcium transients during CS− and CS+ re-exposure were normalized to responses recorded in the same preparation to novel odour (isoamyl acetate, IAA). Solid lines, mean response; shaded area, s.e.m.; colour background, odour presentation; NS, not significant. Groups trained with 4-methylcyclohexanol (MCH) or 3-octanol (OCT) as the trained odour (see Methods) are shown separately. AU, arbitrary units. f, Blocking rewarding DANs immediately, but not 90 min, after CS− re-exposure abolishes reconsolidation of 6 h memory (n ≥ 9).
 
-**圖說中譯：** γ2α′1 MBON 主導 CS− 觸發的再鞏固。a，在 CS− 再活化期間阻斷 γ2α′1 MBON，顯著損害 6 小時記憶的再鞏固，但不影響 CS+ 驅動的消退（n ≥ 12）。b，表現 3 小時記憶需要 γ2α′1 MBON 的輸出（n ≥ 15）。c、d，以光（紅條）活化 R25D01-LexA 或 MB077C-GAL4 的 γ2α′1 MBON，在嫌惡的 MB296B-GAL4 MB-MV1 DAN（c）與獎賞的 R58E02-LexA DAN（d）中誘發鈣反應。箭頭為光刺激前後被量化的時間點。c 與 d 的星號表示活化前後反應有顯著差異（P < 0.05，t 檢定）。e，糖獎賞訓練專一地提高 γ2α′1 MBON 中 CS− 氣味誘發的鈣反應（n ≥ 13）。CS−、CS+ 與新氣味的反應在蘑菇體外的投射纖維上量測（左下為範例軌跡）。重新暴露於 CS− 與 CS+ 時的鈣暫態，以同一製備中對新氣味（乙酸異戊酯，IAA）的反應標準化。實線為平均反應；陰影為標準誤；色底為氣味給予期間；NS，不顯著。以 4-甲基環己醇（MCH）或 3-辛醇（OCT）為訓練氣味的組分開呈現（見 Methods）。AU，任意單位。f，在重新暴露於 CS− 之後立即（而非 90 分鐘後）阻斷獎賞 DAN，消除 6 小時記憶的再鞏固（n ≥ 9）。
+**圖說中譯：** γ2α′1 MBON 主導 CS− 觸發的再鞏固。a，在 CS− 再活化期間阻斷 γ2α′1 MBON，顯著損害 6 小時記憶的再鞏固，但不影響 CS+ 驅動的消退（n ≥ 12）。b，表現 3 小時記憶需要 γ2α′1 MBON 的輸出（n ≥ 15）。c、d，以光（紅條）活化 R25D01-LexA 或 MB077C-GAL4 的 γ2α′1 MBON，在嫌惡的 MB296B-GAL4 MB-MV1 DAN（c）與獎賞的 R58E02-LexA DAN（d）中誘發鈣反應。箭頭為光刺激前後被量化的時間點。c 與 d 的星號表示活化前後反應有顯著差異（P < 0.05，t 檢定）。e，糖獎賞訓練專一地提高 γ2α′1 MBON 中 CS− 氣味誘發的鈣反應（n ≥ 13）。CS−、CS+ 與新氣味的反應在蕈狀體外的投射纖維上量測（左下為範例軌跡）。重新暴露於 CS− 與 CS+ 時的鈣暫態，以同一製備中對新氣味（乙酸異戊酯，IAA）的反應標準化。實線為平均反應；陰影為標準誤；色底為氣味給予期間；NS，不顯著。以 4-甲基環己醇（MCH）或 3-辛醇（OCT）為訓練氣味的組分開呈現（見 Methods）。AU，任意單位。f，在重新暴露於 CS− 之後立即（而非 90 分鐘後）阻斷獎賞 DAN，消除 6 小時記憶的再鞏固（n ≥ 9）。
 
 **解讀：**
 
