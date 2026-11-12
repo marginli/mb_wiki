@@ -154,13 +154,50 @@ img.zoom{position:fixed;inset:0;margin:auto;max-width:96vw;max-height:96vh;z-ind
 .bl{margin-top:3.5em;border-top:1px solid #e3e3e0;padding-top:1em;font-size:.86rem}
 .bl b{color:#8a8a85;font-weight:600;font-size:.78rem;letter-spacing:.05em}
 .bl a{margin-right:.55em}
-@media(max-width:900px){body{flex-direction:column}#side{width:100%;height:auto;position:static}main{padding:20px}}
+#top,#scrim{display:none}
+/* ---- 手機與窄螢幕：側欄改成抽屜，頂端固定一條標題列 ---- */
+@media(max-width:900px){
+ body{display:block}
+ #top{display:flex;align-items:center;gap:10px;position:sticky;top:0;z-index:50;
+  height:50px;padding:0 12px;padding-left:max(12px,env(safe-area-inset-left));
+  background:#f6f6f4;border-bottom:1px solid #e3e3e0}
+ #top button{border:1px solid #d6d6d2;background:#fff;border-radius:7px;
+  width:42px;height:36px;font-size:1.25rem;line-height:1;color:#333;flex:none}
+ #top a{flex:1;min-width:0;color:#1f2328;text-decoration:none;font-weight:600;font-size:.95rem;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ #side{position:fixed;top:0;left:0;bottom:0;z-index:70;width:86vw;max-width:340px;min-width:0;
+  height:100%;transform:translateX(-102%);transition:transform .22s ease;
+  box-shadow:2px 0 14px rgba(0,0,0,.18);padding-bottom:40px}
+ body.nav-open #side{transform:none}
+ body.nav-open #scrim{display:block;position:fixed;inset:0;z-index:60;background:rgba(0,0,0,.35)}
+ body.nav-open{overflow:hidden}
+ #side input{font-size:16px;padding:9px 10px;position:sticky;top:-12px;z-index:2;box-shadow:0 -12px 0 12px #f6f6f4}
+ #side a{padding:8px 9px;font-size:.92rem}
+ main{padding:18px 16px 80px;max-width:none;overflow-wrap:anywhere}
+ h1{font-size:1.45rem} h2{font-size:1.18rem} h3{font-size:1.04rem}
+ body{line-height:1.75}
+ table{font-size:.82rem;-webkit-overflow-scrolling:touch}
+ th,td{padding:5px 7px;min-width:4.5em}
+ blockquote{padding:.6em .85em;margin:1em 0}
+ pre{font-size:.8rem}
+ .meta{font-size:.7rem;word-break:break-all}
+ .bl a{display:inline-block;margin:2px .5em 2px 0}
+}
 """
 
 JS = """
 document.addEventListener('click',e=>{
   if(e.target.tagName==='IMG') e.target.classList.toggle('zoom');
 });
+// 手機抽屜：☰ 開、點遮罩或連結關；開啟時把目前頁捲到看得見
+const B=document.body;
+function nav(open){B.classList.toggle('nav-open',open);
+  if(open){const c=document.querySelector('#side a.cur'); if(c) c.scrollIntoView({block:'center'});}}
+const mb=document.getElementById('menu'); if(mb) mb.addEventListener('click',()=>nav(!B.classList.contains('nav-open')));
+const sc=document.getElementById('scrim'); if(sc) sc.addEventListener('click',()=>nav(false));
+document.getElementById('side').addEventListener('click',e=>{if(e.target.closest('a')) nav(false)});
+// 桌機：側欄一開始就捲到目前頁
+if(window.innerWidth>900){const c=document.querySelector('#side a.cur'); if(c) c.scrollIntoView({block:'center'});}
 let IDX=null;
 const q=document.getElementById('q'), res=document.getElementById('results'), tree=document.getElementById('tree');
 async function idx(){ if(!IDX) IDX=await (await fetch('search.json')).json(); return IDX; }
@@ -185,7 +222,7 @@ async function run(){
         (o.ctx?`<span class="ctx">…${o.ctx.replace(/</g,'&lt;')}…</span>`:'')+`</a>`).join('')
     : '<div class="ctx" style="padding:6px 8px">沒有結果</div>';
 }
-q.addEventListener('keydown',e=>{if(e.key==='Escape'){q.value='';run()}});
+q.addEventListener('keydown',e=>{if(e.key==='Escape'){q.value='';run();nav(false)}});
 document.addEventListener('keydown',e=>{
   if(e.key==='/'&&document.activeElement!==q){e.preventDefault();q.focus()}
 });
@@ -205,6 +242,8 @@ def page_html(pg, has_mermaid):
     return f"""<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(pg['title'])}</title><link rel="stylesheet" href="style.css"></head><body>
+<header id="top"><button id="menu" aria-label="開啟目錄與搜尋">☰</button><a href="index.html">果蠅學習與記憶知識庫</a></header>
+<div id="scrim"></div>
 {sidebar(pg['slug'])}
 <main><div class="meta">{pg['layer']} / {pg['slug']}.md</div>
 {body}{blhtml}</main>
