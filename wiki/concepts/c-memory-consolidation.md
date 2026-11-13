@@ -1,7 +1,7 @@
 ---
 title: 記憶鞏固與再鞏固（memory consolidation and reconsolidation）
 created: 2026-10-25
-updated: 2026-10-26
+updated: 2026-11-13
 tags: [concept, active, mb-memory-dynamics]
 confidence: medium
 ---
@@ -14,11 +14,12 @@ confidence: medium
 
 - **蕈狀體、KC、葉、區室**：蕈狀體（mushroom body）是果蠅腦中把氣味和好壞經驗連起來的構造；代表氣味的 Kenyon 細胞（KC）把軸突成束排成幾條「葉」，每條葉沿長度切成一格一格的「區室」（例如 γ1pedc、γ4、α1），細胞以所在區室命名（見 [[e-mushroom-body]]、[[c-mb-compartment]]）。
 - **常見詞**：PAM／PPL1＝兩群多巴胺神經元（DAN），分別多傳遞獎賞／懲罰；光遺傳＝讓神經元帶上照光就放電的蛋白（[[e-cschrimson]]）；離體＝把腦取出泡在養液裡，活體＝活果蠅固定後看腦；順向配對＝氣味先、多巴胺後，逆向＝多巴胺先；「未配對」＝兩種刺激錯開、不同時出現；cAMP＝多巴胺受體被活化後在細胞內產生的訊號小分子；※ 推論＝本庫推得、原文沒明說，？待查＝要靠其他資料確認。
-- **STM／LTM**：短期／長期記憶；在 Ichinose 2015 分別指訓練後 5 分鐘與 24 小時測得的記憶。
+- **STM／LTM**：短期／長期記憶；在 Ichinose 2015 分別指訓練後 5 分鐘與 24 小時測得的記憶；在 Huang 2024 指 MBON 放電的改變持續不到約 1 小時（γ1pedc）與 3 到 24 小時（α3）。
 - **CS+／CS−**：訓練時配了糖的氣味／沒配糖的對照氣味。
 - **冷休克**（cold shock）：迅速降溫讓果蠅麻醉，用來擾亂不穩定的記憶；Felsenberg 2017 的作法是放在冰上 2 分鐘。Tully 1985 引用的冷休克資料未發表，該篇沒有寫作法。
 - **學習突變株**：*amnesiac*（*amn*）、*rutabaga*（*rut*，見 [[e-rutabaga]]）、*dunce*（*dnc*）是 X 染色體上的隱性學習突變（Tully 1985 引言所列，至 1985 年共五個）；Tully 1985 拿這三株的記憶曲線和野生型比。
 - **shibire^ts**（簡寫 shi）：升溫時暫時關掉選定神經元輸出的工具，見 [[e-shibire-ts]]。
+- **Gal80ts**：溫度敏感的 GAL4 抑制蛋白，低溫壓住、升溫放開，用來把基因操作限制在成蟲期。
 - **DAN、MBON、KC**：多巴胺神經元、蕈狀體輸出神經元、Kenyon 細胞（見 [[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-kenyon-cell]]）。
 
 ## 怎麼算 / 怎麼判定
@@ -36,6 +37,10 @@ confidence: medium
 | [[s-ichinose-2015-reward-recurrent-circuit]] | 糖獎賞一次訓練；以 shi 在訓練時、訓練後立刻 1 h、訓練後 22 h 起 1 h、或測試時阻斷 PAM-α1、MBON-α1、α/β KC | 訓練時或訓練後 0–1 h 阻斷都傷 24 h 記憶，22 h 後阻斷不傷；5 分鐘記憶未顯著受損（但實驗組比一個對照低約四成）；提取需要 MBON-α1、不需要 PAM-α1（後者 n 小）；作者模型「迴圈讓多巴胺在糖拿走後繼續釋放」未直接量過 |
 | [[s-felsenberg-2017-re-evaluation]] | 糖獎賞記憶訓練後 3 h（或 21 h）再暴露 CS−（訓練時本來就沒有糖的那個氣味；聞到它「沒有糖」符合預期，作者認為這會叫出記憶卻不引發消退），再在 0／30／90 分鐘給冷休克，或在再暴露期間／之後阻斷 DAN 與 MBON | 0 與 30 分鐘冷休克使 6 h 記憶消失；90 分鐘時約回到未冰組的六成（從圖判讀，與未冰組差異不顯著）；再暴露期間需要 PPL1-γ2α′1（MB-MV1）與 MBON-γ2α′1，再暴露後立刻需要 PAM，90 分鐘後不需要 |
 | [[s-aso-2016-dan-cell-type-rules]] | 以單型 DAN 光遺傳訓練，比較即時、1 日、4 日記憶；單次 vs 10 次間隔訓練（見 [[c-spaced-training]]） | MB320C（PPL1-γ1pedc）即時最強但 10 次訓練後仍無 4 日記憶；MB630B（PPL1-α3）即時不顯著、10 次後有 4 日記憶；作者稱記憶穩定度是區室的性質，並說形成與鞏固「與在各區室平行、獨立進行一致」 |
+| [[s-aso-2019-nitric-oxide-cotransmitter]] | 以 PPL1-α3 光活化代替電擊做 10×1 min 間隔訓練，測 0 h 到 96 h 的保留曲線（圖 9A）；並以模型檢驗「記憶衰退＝背景 DAN 活動」 | **記憶在訓練後立即與 1 h 都量不到，3 h 才顯著**，之後維持到 96 h；作者連到「訓練後頭 3 小時 MBON-α3 需要蛋白質合成」的前人結果（Pai 2013、Wu 2017）。模型解釋不了 10× 後記憶變持久，作者說模型不含突觸後參數，間隔訓練應另外招募了鞏固機制 |
+| [[s-pribbenow-2022-postsynaptic-plasticity]] | 以「立即」與「3 小時」兩個時間點分辨記憶的誘發與表現；在 M4/6 MBON 以 RNAi 降低乙醯膽鹼受體 α 次單元與 Dlg，並以 Gal80ts 把 RNAi 限制在成蟲期最後 3–5 天 | 糖獎賞：α5 影響立即與 3 小時記憶，α1／α2／Dlg 只影響 3 小時；嫌惡記憶不受影響。作者據此提出受體依序作用的時間線（圖 9），但那條線是五組不同實驗的時間點拼起來的，沒有一組實驗掃過全程 |
+| [[s-huang-2024-dopamine-memory-dynamics]] | 電壓成像追蹤 MBON 放電改變的持續時間（5 分鐘到 24 小時）；問短期區室（γ1pedc）與長期區室（α3）怎麼互動 | MBON-γ1pedc>α/β 對 CS+ 的改變不到 1 小時消失，MBON-α3 的改變持續 24 小時以上；訓練時讓 γ1pedc 的 MBON 持續放電 → 5 分鐘記憶正常、3 小時記憶消失。作者主張記憶**不是從短期區「轉移」到長期區**，而是短期區的改變減弱了對 PPL1-α3 的抑制，打開長期區在訓練期間的寫入閘門。※ 推論：這為 Aso 2016「各區室平行、獨立進行」的說法加了一個條件——區室之間經由 MBON→DAN 回饋相連（Huang 摘要的用語是「共享回饋連結的平行學習單元」） |
+| [[s-kaldun-2025-dop1r2-memory-phases]] | 以 CRISPR 條件式剔除 Dop1R2，分別在全蕈狀體、γ、α/β、α′/β′ 葉，測 0、2、24 小時記憶；嫌惡 24 小時用六循環間隔訓練（引 Tully et al. 1994），獎賞用一次訓練（引 Krashes & Waddell 2008） | α/β 與 α′/β′ 葉的 Dop1R2 為 2 與 24 小時記憶所必需，γ 葉不需要。「LTM」只由時間點（24 小時）定義，沒有做蛋白質合成抑制或冷休克的檢驗 |
 
 > 數值見 [[numbers]]；鞏固、再鞏固與消退在記憶更新中的關係見 [[t-memory-updating]]，迴路回饋見 [[t-mbon-dan-feedback]]。
 
@@ -49,9 +54,14 @@ confidence: medium
 6. **各篇的「長期」不同**：Ichinose 24 h、Felsenberg 2017 測 6 h（再暴露在 3 h）、Aso 1 日與 4 日；Tully 1985 的「後期記憶期」指突變株衰退變慢之後的那一段（依摘要，轉折約在訓練後 30 分鐘），最長測到 24 h。
 7. **Tully 1985 的「突變株只傷早期記憶」證據中等偏弱**（[[s-tully-1985-classical-conditioning]] 第四節第 4 條的評價）：(a)「兩段式」是目視判斷，沒有擬合、沒有檢定，正文只說「看起來由兩個成分組成」，討論才寫成「影響早期記憶期、保留後期記憶期」；(b) 把轉折時間連到鞏固的冷休克資料未發表；(c) 突變株在訓練剛結束時就比野生型低很多，※ 推論（來源頁 3.7 節）：後段「衰減變慢」可能有一部分是地板效應，分數已接近 0、能掉的空間本來就少；(d)「兩段式」也可能是族群裡混了帶修飾基因、記憶接近正常的果蠅，後段其實是這群果蠅撐起來的；作者用三種遺傳背景的 *rut* 檢查這個解釋，但只做了 *rut*、只看 3 h。引用時寫「作者提議」，不要寫成已證明。另外，不要把 Tully 1985 當成「鞏固發生在蕈狀體」的證據：它只做行為測驗與突變株比較，全文沒有提到蕈狀體。
 
+8. **Huang 2024 的「長期記憶」不是需要蛋白質合成的 LTM。** 它的「長期」是 MBON-α3 持續 3 到 24 小時的放電改變，沒有用蛋白質合成抑制劑、沒有測 4 天記憶；行為只測到 3 小時。它「閘控而非轉移」的主張只檢驗了訓練期間的閘控，沒有排除訓練後另有離線的鞏固過程（該來源頁第四節主張四）。
+
+9. **以時間點定義的「LTM」不等於需要蛋白質合成的長期記憶。** Kaldun 2025 的 24 小時記憶與 Aso 2014b、Aso 2019 引用的蛋白質合成結果，都沒有在該篇自己檢驗；穩定記憶至少還有一種不需新蛋白質的抗麻醉記憶（Kaldun 2025 第五節）。Kaldun 2025 的 24 小時與 2 小時用了不同裝置、電壓與飢餓處理，分數不能並排比較。
+10. **Pribbenow 2022 的「誘發在前、表現在後」時間線是拼出來的**（見上表）；「3 小時才需要 α1／α2／Dlg」是 RNAi 的結果，RNAi 效率未驗證。
+
 ## 相關
 
 - 主題：[[t-memory-updating]]、[[t-mbon-dan-feedback]]
 - 概念：[[c-memory-extinction]]、[[c-spaced-training]]、[[c-performance-index]]
-- 實體：[[e-shibire-ts]]、[[e-t-maze]]、[[e-pam-alpha1]]、[[e-ppl1-gamma2alpha1]]、[[e-mbon-gamma2alpha1]]、[[e-dopamine-receptor]]
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-aso-2016-dan-cell-type-rules]]
+- 實體：[[e-shibire-ts]]、[[e-t-maze]]、[[e-pam-alpha1]]、[[e-ppl1-gamma2alpha1]]、[[e-mbon-gamma2alpha1]]、[[e-mbon-gamma1pedc]]、[[e-dopamine-receptor]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-kaldun-2025-dop1r2-memory-phases]]

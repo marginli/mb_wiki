@@ -1,7 +1,7 @@
 ---
 title: 巧合偵測（coincidence detection）
 created: 2026-10-25
-updated: 2026-11-12
+updated: 2026-11-13
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
@@ -44,6 +44,8 @@ confidence: medium
 > **2015–2018 新收的五篇都只提到、沒有量分子層的巧合偵測，所以不列入表**：Cohn 2015 在討論中推測方向可能取決於能偵測「KC 活動與多巴胺是否同時出現」的下游訊號，資料上只比較了配對（＜ 500 ms）與不配對（＞ 45 s）的突觸方向（見 [[c-cs-us-timing]]）；Ichinose 2015 引 Trannoy et al. 2011 稱 *rutabaga* 為巧合偵測者；Aso 2016、Felsenberg 2017、Felsenberg 2018 沒有操作 cAMP 或其上游酵素（Felsenberg 2018 只在引言轉述 Schwaerzel et al. 2002 的「細胞內拮抗」）。
 >
 > **[[s-tully-1985-classical-conditioning]] 依同一條規則也不列入表**：它沒有量任何分子訊號，只量整隻果蠅的行為。它在討論中轉述海兔（*Aplysia*）的生化模型（Kandel et al. 1983），該模型把受鈣／攜鈣素（calmodulin，與鈣結合後去啟動其他酵素的蛋白）刺激的腺苷酸環化酶當成 CS（制約刺激）與 US（非制約刺激，如電擊）交會的點（原文「point of convergence」，PDF 第 275 頁），再用突變株的行為分數指出三處對不上，其中一處是：*rut* 缺這種環化酶活性，照模型應該學不會，實際上仍學到 Λ ≈ 0.41（Λ 是該篇的行為學習分數，0＝沒學到、1＝全部躲開被電的氣味）。它用到的是「模型的預測」，不是巧合偵測的量測。
+>
+> **[[s-dylla-2017-trace-conditioning-dan-plasticity]] 也不列入表**：它沒有量 cAMP 或其他分子訊號，但提出一個與 Tomchik 2009 方向相反的論點。作者的兩個理由：痕跡制約（氣味 10 s、空白 5 s 再電擊）時，電擊來時 KC 的氣味鈣反應已回到基線（自己的鈣成像，圖 2D）；痕跡制約不需要 *rutabaga*（引 Shuai 2011，本庫未收錄）。所以「鈣＋多巴胺同時到、由 *rutabaga* 偵測」解釋不了痕跡制約，作者提出非 *rutabaga* 的腺苷酸環化酶或蛋白激酶 C 為候選。來源頁的評價：Tomchik 2009 在離體腦上乙醯膽鹼開始後 15 s 才給多巴胺仍有依賴 *rutabaga* 的協同，所以「鈣已回到基線」不足以排除 *rutabaga*（見 [[syn-contradictions]]）。
 
 ## 引用時的陷阱
 
@@ -64,4 +66,4 @@ confidence: medium
 - 概念：[[c-camp-signaling]]、[[c-cs-us-timing]]、[[c-us-substitution]]、[[c-octopamine-reward-signal]]
 - 實體：[[e-rutabaga]]、[[e-dunce]]、[[e-238y-gal4]]、[[e-kenyon-cell]]、[[e-epac-camp-sensor]]
 - 綜述：[[syn-contradictions]]
-- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-tully-1985-classical-conditioning]]（只提到）
+- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-tully-1985-classical-conditioning]]（只提到）、[[s-dylla-2017-trace-conditioning-dan-plasticity]]（只提到）

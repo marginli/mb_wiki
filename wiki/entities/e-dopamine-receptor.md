@@ -1,7 +1,7 @@
 ---
 title: KC 上的多巴胺受體（dopamine receptors DopR1／DopR2）
 created: 2026-10-25
-updated: 2026-11-12
+updated: 2026-11-13
 tags: [entity, active, mb-learning]
 confidence: medium
 ---
@@ -32,9 +32,12 @@ confidence: medium
 |---|---|---|
 | Cohn 2015 | DopR1、DopR2 突變；DopR1/DopR2 雙突變；另有多巴胺回收轉運子 DAT 突變；只在 γ KC 以 RNAi 降低 DopR2 | 突變為全身；RNAi 限 γ KC |
 | Handler 2019 | DopR1−/−、DopR2−/−（基因型表寫 DopR1null、DopR2attP） | 全身 |
+| Kaldun 2025 | **條件式剔除**（CRISPR-Cas9 把 Dop1R2 的兩個共同編碼外顯子加上 FRT 與 3×HA 標籤，再以 UAS-FLP 切掉；那兩段含全部七個跨膜結構域，三個轉錄本一起失效） | 由 GAL4 決定：OK107（全蕈狀體）、5HTR1B（γ 葉）、c739（α/β 葉）、c305a（α′/β′ 葉）、elav（泛神經元，只用於補充實驗） |
 | Ichinose 2015 | 以 c739、MB008B 在 α/β KC，或以 MB310C、MB323B 在 MBON-α1 用 RNAi 降低 DopR1；在 *dumb²*（DopR1 失效的突變）背景下以 MB247 在 KC 補回 DopR1（救援） | RNAi 限選定細胞；降低程度未驗證 |
 
-另：Aso 2016 討論中引 Crocker et al. 2016 說 KC 表現四種多巴胺受體，可能在各區室用法不同；Aso 2016 本身沒有操作受體，只是提到。[[s-gervasi-2010-pka-dynamics]] 也只是提到：它的模型（圖 8）只有「一個 D1 型受體」、沒有指名；討論中說 dDA1 與 DAMB 兩種受體都「正向偶聯到環化酶」、而且在各葉平均分布（PDF 第 11 頁）。這與 Handler 2019 的「DopR2（即 DAMB）偏好 Gαq、走內質網放鈣」不同；dDA1 是否即 DopR1：？待查。
+另：Aso 2016 討論中引 Crocker et al. 2016 說 KC 表現四種多巴胺受體，可能在各區室用法不同；Aso 2016 本身沒有操作受體，只是提到。[[s-gervasi-2010-pka-dynamics]] 也只是提到：它的模型（圖 8）只有「一個 D1 型受體」、沒有指名；討論中說 dDA1 與 DAMB 兩種受體都「正向偶聯到環化酶」、而且在各葉平均分布（PDF 第 11 頁）。這與 Handler 2019 的「DopR2（即 DAMB）偏好 Gαq、走內質網放鈣」不同。
+
+**dDA1 就是本庫寫的 DopR1**（※ 推論，依據照搬 [[s-kaldun-2025-dop1r2-memory-phases]]：該篇把自己的 **Dop1R1** 註明別名 **Dumb**、並引 Kim et al. 2003 為來源文獻，而 Kim et al. 2003 的標題把同一個受體稱作 **dDA1／DmDOP1**；沒有任何一篇並列兩種寫法明文斷言兩者相同）。同理，**Kaldun 2025 的 Dop1R2 與 Handler 2019 的 DopR2、Damb／DAMB 是同一個受體**（※ 推論，依據同樣照搬該來源頁：兩篇寫的別名與所引文獻 Feng et al. 1996、Han et al. 1996 完全重疊，Handler 2019 用的還是 anti-DAMB 抗體；兩篇都沒有並列對方的寫法）。
 
 ## 庫內誰用了它
 
@@ -43,6 +46,8 @@ confidence: medium
 | [[s-cohn-2015-coordinated-neuromodulation]] | γ KC 突觸前末梢的鈣沿 γ 葉的分布（見 [[c-presynaptic-calcium]]） | DopR2 突變讓「γ2/γ3 強、γ4/γ5 弱」的樣式**倒過來**；γ KC 的 DopR2 RNAi 讓它**變平**（正文寫「similarly altered」）；DopR1 突變表型「較細微」、雙突變仍不對稱（補充圖，？待查） |
 | [[s-handler-2019-dopamine-receptor-timing]] | 離體 γ4/γ5 的 KC 軸突 cAMP、內質網鈣；γ4 MBON 的突觸變化；行為 | DopR1−/− 的 cAMP 降到野生型約 27%；DopR1−/−（兩份 DopR1 基因都剔除）不再出現順向配對（KC 先、多巴胺後）的減弱，DopR2−/− 不再出現逆向配對（多巴胺先、KC 後）的增強；兩種突變的行為彈性都受損 |
 | [[s-ichinose-2015-reward-recurrent-circuit]] | 24 小時糖獎賞記憶（LTM，見 [[c-memory-consolidation]]） | 在 α/β KC 降低 DopR1，LTM 約 0.13（c739）與約 0（MB008B），對照約 0.43–0.53；在 MBON-α1 降低則 n.s.；*dumb²* 救援組約 0.40、野生型約 0.57（圖判讀） |
+| [[s-burke-2012-octopamine-dopamine-reward]] | 在 *dumb¹*（DopR 突變，全身）中以 dTrpA1 活化章魚胺神經元，看能不能造出人工的糖記憶 | 帶 *dumb¹* 的各組都形不成記憶（全部 p > 0.05），同圖非突變的 Tdc2-GAL4;uas-dTrpA1 對照 p < 0.001（n ≥ 8）。作者據此主張多巴胺系統在章魚胺的下游；本篇沒有做細胞專一的救援，「DopR 要在 KC 上」是引 Kim et al. 2007 |
+| [[s-kaldun-2025-dop1r2-memory-phases]] | 嫌惡（電擊）與獎賞（糖）制約後 0、2、24 小時的學習指數，四種剔除範圍 | 剔除 Dop1R2（即 DopR2）**不影響當場測的記憶**（八格全部 ns）；2 與 24 小時的記憶在 α/β 與 α′/β′ 葉受損、γ 葉不受影響。剔除組相對於三組對照平均的殘存比例：2 小時嫌惡 15–21%、2 小時獎賞 53–59%、24 小時兩種訓練 12–25%（※ 從圖判讀，本庫計算） |
 
 數值見 [[numbers]]。
 
@@ -53,6 +58,9 @@ confidence: medium
 - **量的東西不同，方向不能直接拼。** Cohn 量末梢鈣分布（不是突觸強弱，也不是配對後）；Handler 量配對後的 KC→MBON 突觸；Ichinose 量行為。Cohn 只看到 DopR2 影響 KC 末梢的鈣分布；說 DopR2 與突觸「變強」有關，是該篇討論段的推測，配對實驗中沒有操弄受體（見 [[s-cohn-2015-coordinated-neuromodulation]] 第六節）。
 - **Handler 的 DopR1−/− 在順向配對後反成弱增強，Handler 的模型解釋不了。** 這個模型把突觸變化看成兩條路相減：DopR1（cAMP）推向減弱，DopR2（內質網放鈣）推向增強；內質網只在多巴胺先到時才放鈣（見 [[e-gcamp]]），DopR1−/− 在順向配對時也沒有放鈣。照模型，拿掉 DopR1 只會讓「減弱」消失，不會變成增強（見 [[s-handler-2019-dopamine-receptor-timing]] 3.6）。
 - RNAi 是持續性的，Ichinose 2015 無法區分 DopR1 在獲得、鞏固或提取哪一段被需要。
+- **三種工具的強度不同，陰性結果的份量也不同。** 全身突變（Cohn 2015、Handler 2019、Burke 2012）、RNA 干擾（Cohn 2015、Ichinose 2015）、條件式剔除（Kaldun 2025）。條件式剔除最乾淨——它把基因整段切掉，而且只在指定的細胞——但 [[s-kaldun-2025-dop1r2-memory-phases]] 只用染色驗證了 OK107（全蕈狀體）那一組的剪除效率，三個分葉品系一次都沒驗證，**所以它的「γ 葉不需要 Dop1R2」不能當定論**：受體根本沒被剪掉也會得到同樣的結果。
+- **同一個受體可以接不只一條下游，描述不同不一定是衝突。** [[s-kaldun-2025-dop1r2-memory-phases]] 引言寫 Dop1R2 同時能接 Gαs（cAMP）與 Gαq（鈣）（引 Han 1996、Himmelreich 2017、Sun 2020）。若真是如此，Gervasi 2010 的「dDA1 與 DAMB 都正向偶聯到環化酶」與 Handler 2019 的「DopR2 走 Gαq、內質網放鈣」可以並存，差別變成在哪個細胞、哪個時刻以哪一條為主。這不表示那組歧異已經解決（見 [[syn-contradictions]]）。
+- **Kaldun 2025 全篇只有行為分數。** 沒有量過任何一顆神經元的活動，也沒有量剔除後受體少了多少；「Dop1R2 在 α/β 做了什麼」該篇答不出來，只知道少了它 2 小時以後分數會掉。另外三個時間點用了兩台裝置（24 小時嫌惡改 Y 迷宮）與兩種電壓，三個時間點的分數不能互相比大小。
 
 ## 相關
 
@@ -60,4 +68,4 @@ confidence: medium
 - 概念：[[c-camp-signaling]]、[[c-kc-mbon-plasticity]]、[[c-coincidence-detection]]、[[c-presynaptic-calcium]]、[[c-memory-consolidation]]
 - 品系：[[e-c739-gal4]]
 - 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]
-- 來源：[[s-cohn-2015-coordinated-neuromodulation]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]
+- 來源：[[s-cohn-2015-coordinated-neuromodulation]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-kaldun-2025-dop1r2-memory-phases]]

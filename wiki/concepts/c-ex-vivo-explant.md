@@ -1,7 +1,7 @@
 ---
 title: 離體全腦製備（ex vivo brain explant）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-13
 tags: [concept, active, cross-domain]
 confidence: high
 ---
@@ -19,6 +19,8 @@ confidence: high
 - **離子導入**：用電流把藥從玻璃細針推出。
 - **P2X2＋ATP、CsChrimson**：讓選定神經元遇 ATP 或紅光就放電的兩種外加通道（見 [[e-p2x2]]、[[e-cschrimson]]）。
 - **ΔF/F0、ΔR/R0**：螢光（或兩色比值）相對刺激前的變化比例。
+- **TTX、PTX、MCA**：三種藥。TTX（河豚毒素）讓神經元不能放電、使網路安靜；PTX（picrotoxin）阻斷 GABA 與麩胺酸的氯離子通道受體，拿掉抑制；MCA（mecamylamine）阻斷菸鹼型乙醯膽鹼受體，拿掉興奮。
+- **DA2m**：遇到多巴胺會變亮的螢光感測器，表現在 KC 上可看多巴胺落在哪一格。
 
 ## 怎麼算 / 怎麼判定
 
@@ -33,6 +35,10 @@ confidence: high
 | [[s-handler-2019-dopamine-receptor-timing]] | 1–4 日齡腦；10 mM 乙醯膽鹼離子導入 500 ms；P2X2＋2 mM ATP，5 × 100 ms | γ4 突觸的時間差曲線（時間差＝DAN 活化開始減 KC 刺激開始，負值＝多巴胺先到：−1.2 s 增強、0 與 +0.5 s 減弱、±6 s 幾乎不變）；cAMP 與內質網鈣 |
 | [[s-felsenberg-2017-re-evaluation]] | 腦泡充氧緩衝液；CsChrimson 活化 MBON（630 nm，40 Hz × 10 ms），GCaMP 看 DAN | 活化 γ2α′1 MBON 使 MB-MV1 與 γ5 的 PAM 鈣上升（約 0.03 → 0.72，4 筆；約 0.01 → 0.53，5 筆，從圖判讀）；活化 V2 MBON 使 PPL1 細胞體一升一降一不顯著 |
 | [[s-felsenberg-2018-memory-extinction]] | 同上協定；VT1211-LexA 活化 M4β′／M6，R48B04 看 PAM 末梢 | γ5 PAM ΔF/F0 約 +1.75（5 腦，從圖判讀），γ4 無反應，β′2p／β′2m 輕微抑制 |
+| [[s-eschbach-2021-learned-innate-valence-integration]] | **幼蟲**中樞神經系統離體；CsChrimson 活化全部 KC（625 nm、3 s × 4 次），同一樣本依序在食鹽水、0.1 mM PTX（拿掉抑制）、0.1 mM MCA（拿掉乙醯膽鹼興奮）中各測一次 | MBON-m1（n ＝ 9）約 0.07 → PTX 下 0.45 → MCA 下約 0.1；CN-33（n ＝ 8）約 0 → 0.55 → 約 0（※ 從圖判讀）：蕈狀體同時給興奮與抑制。PTX 分不出抑制來自哪一型 MBON |
+| [[s-pribbenow-2022-postsynaptic-plasticity]] | 腦取出後灌流通氧溶液並加 TTX 2 µM；玻璃微管噴 0.1 mM 乙醯膽鹼（15 ms，3–8 psi）於 M6（MBON-γ5β′2a）樹突，同時紅光 2 s 活化 PAM（R58E02-LexA>CsChrimson），配對 5 次 | 配對後乙醯膽鹼誘發的鈣反應增強約 6%，只給其一無效；KC 對噴上的乙醯膽鹼無鈣反應、無囊泡釋放訊號，證明可塑性能在 KC 不活化下誘發。方向與活體糖訓練的減弱（約 35%）相反，作者定位為原理證明 |
+| [[s-aso-2023-upwind-neurons]] | 離體腦雙光子鈣成像 UpWiN（GCaMP6s），光活化 MBON 1 s、9 次平均 | 活化 MBON-α3 時峰值約 0.43、MBON-α1 看不到下降、兩者同時約 0.04（三組不同果蠅，無統計檢定）；UpWiN 之間有興奮性互連（圖 4 補充圖 1，未取得，依正文） |
+| [[s-yamada-2023-second-order-conditioning]] | 取出的腦；KC 表現多巴胺感測器 DA2m，660 nm 光 1 s、12 µW/mm² 活化帶 Chrimson88 的 DAN、SMP353/354 或 SMP108；雙光子掃描含蕈狀體葉的體積（231 × 231 × 42 µm，約 1.07 Hz），重複 10 次 | 活化 SMP108 使 β′2、γ4 釋放最多多巴胺（約 0.8、0.6，※ 從圖判讀），α1 不亮。沒有氣味、沒有 KC 配對活動，只說明「這條路能走通」 |
 
 > 參數見 [[numbers]]。
 
@@ -44,9 +50,13 @@ confidence: high
 4. **離體 n 常很小**（Felsenberg 2017 為 4、5 筆；Felsenberg 2018 為 5 腦）。
 5. **同類製備、不同結果要先比參數。** Cohn 2015 與 Handler 2019 同實驗室、同 γ4 MBON、同 P2X2 製備，對「未配對的多巴胺」得到不同結果：Cohn 2015 相隔 ＞ 45 s 突觸變強，Handler 2019 相隔 6 s 幾乎不變（見 [[syn-contradictions]] 1.3），不在本頁裁決。
 
+6. **TTX 讓網路安靜，也拿掉了網路效應。** Pribbenow 2022 加 TTX 使 MBON 之間的去抑制與回饋都消失；它離體量到「增強」、活體糖訓練量到「減弱」，作者列的三個理由都未經實驗檢驗。
+7. **幼蟲的離體製備是整個中樞神經系統，不是成蟲的腦。** Eschbach 2021 的結果不能直接當成蟲證據。
+8. **離體多巴胺成像只證明路徑能走通。** Yamada 2023 與 Aso 2023 都在沒有氣味、沒有 KC 配對活動的腦上以人工活化做，不代表訓練時真的這樣走。
+
 ## 相關
 
 - 概念：[[c-whole-cell-patch-clamp]]、[[c-presynaptic-calcium]]、[[c-us-substitution]]、[[c-kc-mbon-plasticity]]
 - 實體：[[e-p2x2]]、[[e-cschrimson]]、[[e-gcamp]]、[[e-epac-camp-sensor]]
 - 主題：[[t-dopamine-to-plasticity]]、[[t-mbon-dan-feedback]]；矛盾：[[syn-contradictions]]
-- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]
+- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-eschbach-2021-learned-innate-valence-integration]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]

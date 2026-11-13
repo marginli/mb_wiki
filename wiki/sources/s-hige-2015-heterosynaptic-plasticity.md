@@ -366,7 +366,8 @@ flowchart TD
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]；矛盾與空缺：[[syn-contradictions]]
 - 本批（2026-10-25 第二批）已開頁、與本篇相關：[[e-mbon-gamma1pedc]]、[[e-ppl1-gamma1pedc]]、[[e-mbon-gamma2alpha1]]、[[e-mb099c]]、[[e-th-gal4]]、[[c-odor-generalization]]、[[c-whole-cell-patch-clamp]]
 - 概念：[[c-sparse-coding]]（本篇與 [[s-minnick-2026-untrained-connectome]] 使它在 2026-11-12 達到開頁門檻）
-- 待開頁面：`e-mbon-alpha2sc`、`e-campbell-2013-odor-set`、`c-synaptic-interference`、`c-valence-coding`
+- 實體：[[e-mbon-alpha2sc]]、[[e-ppl1-alpha2alpha2]]（因 [[s-huang-2024-dopamine-memory-dynamics]] 在 2026-11-13 達到開頁門檻）
+- 待開頁面：`e-campbell-2013-odor-set`、`c-synaptic-interference`、[[c-valence-coding]]
 
 ## 出處
 

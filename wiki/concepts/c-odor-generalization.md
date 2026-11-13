@@ -1,14 +1,14 @@
 ---
 title: 氣味類化（odor generalization）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-13
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
 
 # 氣味類化（odor generalization）
 
-**果蠅學會對某個氣味靠近或躲開之後，對沒受訓、但相似的氣味也出現同樣的反應，叫類化。** 類化越強，記憶越不「專一」。本庫兩篇用它問兩件事：類化從哪裡來（突觸層級的重疊），以及長期記憶是否比短期記憶更不專一。
+**果蠅學會對某個氣味靠近或躲開之後，對沒受訓、但相似的氣味也出現同樣的反應，叫類化。** 類化越強，記憶越不「專一」。本庫兩篇用它問兩件事：類化從哪裡來（突觸層級的重疊），以及長期記憶是否比短期記憶更不專一；第三篇（Huang 2024）看到沒受訓的對照氣味一起改變，但不一定是類化（見陷阱 6）。
 
 **本頁用語**（每頁可單獨查閱，故重複列出）：
 
@@ -20,6 +20,8 @@ confidence: medium
 - **STM／LTM**：短期／長期記憶（Ichinose 2015：訓練後 5 分鐘／24 小時）。
 - **PI、LI**：行為分數（表現指數、學習指數），見 [[c-performance-index]]。
 - **PA、BA、HP、EL、4-MCH、2-MCH**：乙酸戊酯、乙酸丁酯、2-庚酮、乳酸乙酯、4-甲基環己醇、2-甲基環己醇。
+- **OCT、BEN、ACV、EtA**：3-辛醇、苯甲醛、蘋果醋、乙酸乙酯（Huang 2024；前兩者果蠅天生討厭，後兩者天生喜歡）。
+- **偏差（bias）**：Huang 2024 的讀數，MBON 放電的 (CS+ 改變 − CS− 改變) 減去訓練前的同一值，單位每秒放電次數。
 
 ## 怎麼算 / 怎麼判定
 
@@ -31,8 +33,9 @@ confidence: medium
 |---|---|---|
 | [[s-hige-2015-heterosynaptic-plasticity]] | 生理：PA 或 EL 與 PPL1-γ1pedc 活化配對，記錄 MBON-γ1pedc 對四種氣味的反應；行為：以光代替電擊訓練 PA，測 PA、BA、HP 各對 EL | 生理：PA 配對後 BA、HP（與 PA 的 KC 重疊高）被抑制約為 PA 的八成上下，EL 的下降不顯著；重疊與抑制比例的相關 r＝0.90（本庫去掉兩個必然點後重算約 0.85）。行為：PI 約 PA 67、BA 42、HP 38（從圖判讀），即約 PA 的 55–65% |
 | [[s-ichinose-2015-reward-recurrent-circuit]] | 4-MCH 配糖；測驗為空氣 vs 4-MCH 與 2-MCH 的不同比例混合，比較 STM 與 LTM | 測驗只有 2-MCH 時，STM 剩約 27%、LTM 剩約 74%（本庫由圖判讀值計算）；作者歸因於訓練後延長的多巴胺釋放（假說，未檢驗） |
+| [[s-huang-2024-dopamine-memory-dynamics]] | 電壓成像量 MBON-α3 對 CS+ 與 CS− 的放電；比較兩種都被喜歡的氣味（ACV、1% EtA）與兩種都被討厭的氣味（OCT、0.3% BEN）互換當 CS+／CS− | 吸引氣味對：訓練後只有 CS+ 的反應下降。嫌惡氣味對：訓練三回合後 CS+ **與 CS−** 都大幅下降（延伸圖 8a、圖 4d），所以 3 小時前的偏差不顯著——不是 α3 沒學，是兩種氣味一起變了 |
 
-> [[s-aso-2016-dan-cell-type-rules]] 圖 3F 把「未受訓的那一對氣味」放進測驗（接近 0），用來**排除**類化對「記住兩組配對」的解釋；它沒有量類化本身，故不列入表。數值見 [[numbers]]。
+> [[s-aso-2016-dan-cell-type-rules]] 圖 3F 把「未受訓的那一對氣味」放進測驗（接近 0），用來**排除**類化對「記住兩組配對」的解釋；它沒有量類化本身，故不列入表。[[s-yamada-2023-second-order-conditioning]] 同理不列入表：二階制約實驗每組有一半把 PA 與 EL 的角色對調、圖上報兩半平均，作者說這樣可抵銷位置偏差、先天偏好與 S1（MCH）類化到 PA 或 EL 的成分；它沒有量類化的大小。其不配對對照組 PI 約 0.12 而非 0，作者在方法中歸因於餓過的果蠅對 MCH 的先天偏好，不是類化。數值見 [[numbers]]。
 
 ## 引用時的陷阱
 
@@ -42,9 +45,11 @@ confidence: medium
 4. **兩篇的機制不同**：Hige 2015 是 KC 重疊（有生理資料），Ichinose 2015 是「延長的多巴胺作用在沒對 CS+ 反應的 KC 上」（假說）；後者需要多巴胺在 KC 沒有活動時也能改變突觸，與「KC 正在活動、同時多巴胺到達，突觸才會改變」這個前提（[[c-coincidence-detection]]）有張力（原文用 may，見 [[s-ichinose-2015-reward-recurrent-circuit]] 第五節）。
 5. **行為的類化比突觸層級弱**（Hige 2015：約 55–65% 對約八成）；※ 推論：突觸記錄只量了 γ1pedc 一格，而行為由多個區室合成，其他格的類化可能較弱，拉低了行為上的比例。
 
+6. **Huang 2024 的 CS− 一起下降不一定是類化。** 嫌惡氣味對訓練後，沒罰過的 CS− 也大幅下降；來源頁的評價是這等於「嫌惡氣味對的記憶有相當成分不是聯結式的」，本庫來源頁沒有記載該篇量過兩種氣味的 KC 重疊，也沒有「相似度 → 類化程度」那種對照（比較 Hige 2015）。引用時不要直接寫成類化。另外只看偏差（CS+ 減 CS−）會漏掉這個變化，並低估 CS+ 本身的改變。
+
 ## 相關
 
 - 概念：[[c-kc-mbon-plasticity]]、[[c-coincidence-detection]]、[[c-memory-consolidation]]、[[c-performance-index]]
 - 實體：[[e-kenyon-cell]]、[[e-mbon-gamma1pedc]]、[[e-ppl1-gamma1pedc]]、[[e-pam-alpha1]]
 - 主題：[[t-dopamine-to-plasticity]]
-- 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]
+- 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-yamada-2023-second-order-conditioning]]

@@ -1,7 +1,7 @@
 ---
 title: KC→MBON 突觸可塑性（KC-MBON synaptic plasticity）
 created: 2026-10-25
-updated: 2026-11-12
+updated: 2026-11-13
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
@@ -22,6 +22,7 @@ confidence: medium
 - **ΔR/R、ΔF/F**：螢光感測器的訊號（兩色亮度比值，或亮度）相對刺激前基線的變化比例，例如 0.15＝高了 15%。只能在同一實驗內比大小。
 - **離體、在體、閉迴路**：離體＝取出的腦泡在養液裡；在體＝活果蠅頭部固定、打開腦殼；閉迴路＝頭部固定的果蠅踩在球上走，送氣管隨牠的轉向轉動，可同時記錄行為與腦。
 - **CS+／CS−**：訓練時配了糖或電擊的氣味／沒配的對照氣味。
+- **電壓成像、anti-Hebbian**：電壓成像＝用會隨膜電壓變亮的螢光蛋白看每一次放電（Huang 2024）；anti-Hebbian 規則＝KC 放電時，同格 DAN 放電增加則 KC→MBON 變弱、DAN 被抑制則變強（Huang 2024 模型的假設）。
 - **−/−**：該基因兩份都被剔除。
 - **DopR1、DopR2、內質網鈣**：KC 上兩種多巴胺受體。DopR1 接上製造 cAMP 的路徑；DopR2 接上讓內質網（細胞內存鈣的小倉庫）放出鈣的路徑，所以量內質網鈣就是在看 DopR2 路徑有沒有啟動。
 
@@ -43,6 +44,7 @@ confidence: medium
 | [[s-felsenberg-2018-memory-extinction]] | 電擊訓練或訓練後再消退，活體量 MVP2、M4β′、M6 的樹突與軸突 | MVP2 樹突 CS+ ＜ CS−（嫌惡痕跡），消退後仍在；M6 樹突在消退後新出現 CS+ ＜ CS−；只訓練時 M6 軸突 CS+ 較大、樹突沒有 |
 | [[s-tomchik-2009-camp-dynamics]] | **沒量 KC→MBON 突觸。** 量的是 KC 軸突本身的鈣反應在 cAMP 拉高後是否變大 | forskolin 使 α 葉鈣反應約 3.2 倍、多巴胺約 2 倍；作者稱「突觸前可塑性」，討論中稱其為異突觸 |
 | [[s-minnick-2026-untrained-connectome]] | **不是實驗，是模擬**：讓嫌惡區室的 8,377 條 KC→MBON 連結在增強訊號下依適任痕跡變弱，其餘 7,146 條不動 | 平均權重 0.513 → 0.138 mV；推動趨近的 MBON 由每步 103 個脈衝降到 37、推動躲避的維持 50，價性由 +1.41 轉為 −0.33，行為由趨近轉為躲避。**但在原樣讀出的網路中，不給氣味也一樣會減弱**（見 [[c-sparse-coding]] 陷阱 2） |
+| [[s-huang-2024-dopamine-memory-dynamics]] | 活體電壓成像量 MBON 對 CS+、CS− 的放電改變（不是直接量突觸）；九神經元模型以**雙向 anti-Hebbian 規則**更新 KC→MBON 權重，參數擬合 86 個放電率 | 實測：電擊訓練後 MBON-γ1pedc>α/β、γ2α′1 對 CS+ 下降、約 1 小時恢復；MBON-α3 下降持續 24 小時以上。模型：γ 區室可塑性時間常數約 30 分鐘、α 區室約 100 分鐘；吸引氣味的 CS− 讓 DAN 安靜，依規則 KC2→MBON 變強。**雙向規則是模型假設，不是量測** |
 
 > 數值見 [[numbers]]；γ4 與 Tomchik 的倍數為從圖判讀。
 
@@ -58,10 +60,12 @@ confidence: medium
 8. **現有規則只處理與 DAN 配對的氣味。** Felsenberg 2017 的 CS− 反應變大發生在沒有與糖配對的氣味上，本頁整理的規則無法直接解釋（[[syn-contradictions]] 3.7）。Ichinose 2015 的模型是 MBON-α1 回頭讓同格的 PAM-α1 更活躍、延長多巴胺釋放（見 [[t-mbon-dan-feedback]]）；這隱含配對後 CS+ 仍能驅動 MBON-α1，與「順向配對讓突觸變弱」有張力（[[syn-contradictions]] 3.6）；Ichinose 2015 本身沒有量突觸變強或變弱。
 9. **樹突沒變不等於輸出沒變。** Felsenberg 2018：學習讓 M6 軸突的 CS+ 反應變大，樹突卻看不出差別；作者以鄰格 MVP2 的抑制性輸入作用在 M6 樹突根部附近解釋。只量樹突會漏掉這類網路造成的改變。
 
+10. **Huang 2024 的「DAN 被抑制時突觸變強」與 Hige 2015 在 γ1pedc 的直接量測牴觸。** 模型在 γ1 模組也用這條規則；Hige 2015 讓多巴胺比氣味早約 2.0 s，突觸完全不變。Huang 自己的圖 3f 中，MBON-γ1pedc>α/β 對吸引氣味 CS− 的反應在訓練中途也是**下降**（模型歸因於感覺適應），沒看到變強。⚠️ 矛盾｜未裁決，見 [[syn-contradictions]] 1.9。另外 Huang 量的是 MBON 對氣味的放電，不是 KC→MBON 的突觸電流；※ 推論：放電改變可能混有回饋與鄰格 MBON 的影響（比照陷阱 9）。
+
 ## 相關
 
 - 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]、[[t-memory-updating]]
 - 概念：[[c-mb-compartment]]、[[c-camp-signaling]]、[[c-cs-us-timing]]、[[c-presynaptic-calcium]]、[[c-whole-cell-patch-clamp]]
 - 實體：[[e-kenyon-cell]]、[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-gcamp]]、[[e-mbon-gamma4]]、[[e-mbon-gamma1pedc]]、[[e-mbon-gamma2alpha1]]、[[e-mbon-gamma5beta2a]]、[[e-dopamine-receptor]]
 - 綜述：[[syn-contradictions]]
-- 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]
+- 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]

@@ -1,7 +1,7 @@
 ---
 title: MB504B 驅動品系（MB504B split-GAL4）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-13
 tags: [entity, active, cross-domain]
 confidence: medium
 ---
@@ -24,7 +24,7 @@ confidence: medium
 
 ## 是什麼
 
-**MB504B 是一個 split-GAL4 驅動品系，讓外加基因只在 PPL1 群（傳遞懲罰的那群多巴胺神經元，DAN）中的幾型表現。** split-GAL4 把開啟基因的 GAL4 拆成兩半，各由一段調控序列控制，兩半都在的細胞才有作用（見 [[e-split-gal4]]）。依 Handler 2019 的基因型表，MB504B 的兩半是 52H03-p65.AD 與 TH-Gal4.DBD（TH 是合成多巴胺所需酵素的調控序列）。本庫三篇用它：一篇用來活化 PPL1、兩篇用來阻斷。
+**MB504B 是一個 split-GAL4 驅動品系，讓外加基因只在 PPL1 群（傳遞懲罰的那群多巴胺神經元，DAN）中的幾型表現。** split-GAL4 把開啟基因的 GAL4 拆成兩半，各由一段調控序列控制，兩半都在的細胞才有作用（見 [[e-split-gal4]]）。依 Handler 2019 的基因型表，MB504B 的兩半是 52H03-p65.AD 與 TH-Gal4.DBD（TH 是合成多巴胺所需酵素的調控序列）。本庫四篇用它：一篇用來活化 PPL1、兩篇用來阻斷、一篇用來表現電壓指示劑。
 
 ## 版本與規模（它標到誰）
 
@@ -33,6 +33,9 @@ confidence: medium
 | Handler 2019 | 「支配蕈狀體六個區室的一部分 PPL 神經元」（text.txt 第 196–197 行）；沒列是哪六個 |
 | Felsenberg 2017 | 延伸圖 6c：四型 PPL1——PPL1-γ1pedc（MB-MP1）、PPL1-γ2α′1（MB-MV1）、PPL1-α′2α2（MB-V1）、PPL1-α3 |
 | Felsenberg 2018 | 「獲得嫌惡記憶所必需」的 PPL1 群；沒列型別 |
+| Huang 2024 | 圖 1b：pAce 在 PPL1-γ1pedc、-γ2α′1、-α′2α2 表現的螢光影像（品系 MB504B-GAL4）。只點名這三型，**沒有說它標不標 PPL1-α3** |
+
+**舊名對照的出處。** Felsenberg 2017 在型名旁附的舊名（MB-MP1、MB-MV1、MB-V1）與 [[s-aso-2014-mb-architecture]] 表 1 一致：MB-MP1 ＝ PPL1-γ1pedc、MB-MV1 ＝ PPL1-γ2α′1、MB-V1 ＝ PPL1-α′2α2（三者都引 Tanaka 2008）。該表另列出每一型 PPL1 的專屬 split-GAL4（γ1pedc：MB438B；γ2α′1：MB296B、MB439B；α′2α2：MB058B；α′3：MB304B；α3：MB065B、MB060B），**但沒有 MB504B**（全文搜過品系名，Aso 2014a 一次都沒提到它）。所以 MB504B 標到哪幾型，仍只能靠 Felsenberg 2017 的延伸圖 6c。
 
 ※ 推論：Felsenberg 2017 的四型，名稱裡的區室恰好是 γ1pedc、γ2、α′1、α′2、α2、α3 六個，可能就是 Handler 說的「六個區室」；但兩篇都沒有這樣對照，而且 γ1pedc 算一格還是兩格（γ1 與 pedc），來源之間也不一致（見 [[s-aso-2016-dan-cell-type-rules]] 對區室計數的討論）。
 
@@ -43,12 +46,15 @@ confidence: medium
 | [[s-handler-2019-dopamine-receptor-timing]] | CsChrimson | 行為：以光活化 PPL，與氣味依不同時間差配對，量果蠅之後追氣味的變化 |
 | [[s-felsenberg-2017-re-evaluation]] | shi^ts1 | 糖獎賞記憶再聞 CS+ 時阻斷：消退被部分擋住（PI 約 0.13，見該來源頁 3.1 節）；再聞 CS− 時阻斷：記憶喪失 |
 | [[s-felsenberg-2018-memory-extinction]] | Shi^ts1 | 嫌惡記憶再暴露期間阻斷：消退照常（圖 1D） |
+| [[s-huang-2024-dopamine-memory-dynamics]] | pAce（電壓指示劑） | 電壓成像量 PPL1 各型的單次放電；三型在影像中分得開，是因為它們支配不同區室（圖 1b）。各型實際用哪個品系量，在延伸表 1，未印出（？待查） |
 
 數值見各來源頁與 [[numbers]]。
 
 ## 已知的問題
 
+- **Huang 2024 只點名三型，不是說它只標三型。** 圖 1b 列出 γ1pedc、γ2α′1、α′2α2；α3 有沒有被標，該圖說沒有交代，不能拿來反駁 Felsenberg 2017 的四型。
 - **一個品系＝四型 DAN 一起動。** 讀到「阻斷 MB504B」時要記得是四型 PPL1 同時被關；Felsenberg 2017 逐一阻斷單一型時，消退都不受影響。
+- **γ1 可能還有第二型 DAN。** [[s-aso-2014-mb-architecture]] 表 1 列出一型稀疏支配 γ1 的 PPL1-γ1，它做不出 split-GAL4、只在 TH-GAL4 的隨機標記中看得到。MB504B 標不標它，沒有來源說過：？待查。
 - **PPL 與 PPL1 是不是同一群。** Handler 寫 PPL、Felsenberg 兩篇寫 PPL1，但三篇用的是同一個品系名，這讓「指同一群」的說法有了品系上的依據；見 [[syn-contradictions]] 4.4（部分解決）。Felsenberg 2017 延伸圖 6b 另列支配蕈狀體的 PPL1 共六型（多了 PPL1-γ1 與 PPL1-α′3），MB504B 沒標這兩型。
 - **兩個記憶方向、兩種結果。** 同一個品系，阻斷時對獎賞記憶的消退有影響（Felsenberg 2017），對嫌惡記憶的消退沒有影響（Felsenberg 2018）。這是不同實驗的不同結論，不是矛盾；兩篇的記憶種類、訓練與時間點都不同。
 - **Felsenberg 2018 的 PPL1 實驗缺允許溫度對照**（該來源頁 3.1 第 4 點）。
@@ -56,7 +62,7 @@ confidence: medium
 ## 相關
 
 - 品系：[[e-split-gal4]]、[[e-r58e02]]、[[e-mb099c]]
-- 細胞：[[e-dopaminergic-neuron]]、[[e-ppl1-gamma1pedc]]、[[e-ppl1-gamma2alpha1]]
+- 細胞：[[e-dopaminergic-neuron]]、[[e-ppl1-gamma1pedc]]、[[e-ppl1-gamma2alpha1]]、[[e-ppl1-alpha2alpha2]]、[[e-ppl1-alpha3]]
 - 工具：[[e-shibire-ts]]、[[e-cschrimson]]
 - 概念與主題：[[c-memory-extinction]]、[[t-memory-updating]]、[[t-timing-rules]]；矛盾：[[syn-contradictions]]
-- 來源：[[s-handler-2019-dopamine-receptor-timing]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]
+- 來源：[[s-handler-2019-dopamine-receptor-timing]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-aso-2014-mb-architecture]]

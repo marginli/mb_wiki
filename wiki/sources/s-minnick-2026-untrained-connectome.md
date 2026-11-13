@@ -321,7 +321,7 @@ flowchart TD
 - 主題：[[t-dopamine-to-plasticity]]（在一個完全由接線決定的網路裡跑同一個機制）、[[t-mbon-dan-feedback]]（論文把「以網路自身的多巴胺神經元產生增強訊號」列為下一步）
 - 概念：[[c-kc-mbon-plasticity]]、[[c-coincidence-detection]]（聯結性的直接檢驗）、[[c-mb-compartment]]（可塑連結以嫌惡區室界定）、[[c-us-substitution]]（本篇的增強訊號是外加的純量，不是活化真的多巴胺神經元）
 - 實體：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-mbon]]、[[e-dopaminergic-neuron]]
-- 待開頁面：`e-banc`（連結體資料集）、`e-flywire`、`c-connectome-model`（以連結體建模的作法）、`e-apl-neuron`、`c-eligibility-trace`
+- 待開頁面：`e-banc`（連結體資料集）、`e-flywire`、`c-connectome-model`（以連結體建模的作法）、[[e-apl-neuron]]、`c-eligibility-trace`
 
 ## 出處
 

@@ -1,7 +1,7 @@
 ---
 title: 制約刺激與非制約刺激的時序（CS–US timing）
 created: 2026-10-25
-updated: 2026-11-12
+updated: 2026-11-13
 tags: [concept, active, mb-learning]
 confidence: high
 ---
@@ -21,6 +21,7 @@ confidence: high
 - **離體、在體、閉迴路**：離體＝取出的腦泡在養液裡；在體＝活果蠅頭部固定、打開腦殼；閉迴路＝頭部固定的果蠅踩在球上走，送氣管隨牠的轉向轉動，可同時記錄行為與腦。
 - **協同**：兩個刺激配對時的反應，大於兩者分別單獨給的反應相加（見 [[c-coincidence-detection]]）。
 - **價性**（valence）：氣味被學成「好」（吸引）或「壞」（迴避）。
+- **junction**：Dylla 2017 自訂的區域，指各葉在根部交會處；該篇把它當成一個區室。
 - **DopR1、DopR2、內質網鈣**：KC 上兩種多巴胺受體。DopR1 接上製造 cAMP 的路徑；DopR2 接上讓內質網（細胞內存鈣的小倉庫）放出鈣的路徑，所以量內質網鈣就是在看 DopR2 路徑有沒有啟動。
 
 ## 怎麼算 / 怎麼判定
@@ -36,6 +37,7 @@ confidence: high
 | Cohn 2015 | DAN 刺激與 KC 刺激的相隔（不分先後） | 只有兩種：「配對」＜ 500 ms、「不配對」＞ 45 s |
 | Aso 2016 | 光（DAN）開始 − 氣味遞送開始；氣味 10 s，光為 10 s 內三下、每下 1 s；零點是閥門開啟還是氣味到達，論文沒說 | −90、−60、−30、−20、−10、0、+10、+20、+30、+60 s |
 | Handler 2019 | 多巴胺神經元（DAN）開始 − 氣味／KC 開始，稱刺激間隔（inter-stimulus interval, ISI）；**只看起點，不計持續時間** | 行為 −6、−2、0、+1、+6 s；離體 −6、−1.2、−0.6、0、+0.5、+6 s；閉迴路 +9、−2 s |
+| Dylla 2017 | 氣味（CS）**開始** → 電擊開始 ＝ 15 s；氣味 10 s，所以氣味結束到電擊為 5 s（痕跡）；電擊 4 下 × 1.5 s、90 V | 只有配對（15 s）與不配對（CS 與 US 開始相隔 90 s、順序隨機）兩種 |
 
 ## 庫內的用法
 
@@ -47,6 +49,7 @@ confidence: high
 | [[s-cohn-2015-coordinated-neuromodulation]] | 離體 γ4：同一顆腦輪流做配對與不配對 | 配對讓 γ4 MBON 反應下降（約 2.0 → 0.35 ΔF/F0，但起點是已被增強的狀態）；不配對讓它上升（約 0.6 → 2.0）。無行為讀數 |
 | [[s-aso-2016-dan-cell-type-rules]] | 行為：單一型 DAN（PPL1-γ1pedc，MB320C）的十點時間差掃描 | 光在氣味開始後 0–20 s → 嫌惡（PI 最低約 −0.45）；光早 20–60 s → 喜好（約 +0.15）；早 10 s、早 90 s、晚 30 s、晚 60 s 無效 |
 | [[s-handler-2019-dopamine-receptor-timing]] | 同一套 ISI 並排量行為、γ4 突觸、cAMP 與內質網鈣 | 離體 −1.2 s 時 KC→MBON 突觸增強，0 與 +0.5 s 減弱，±6 s 幾乎不變；行為也隨順序在吸引與迴避之間翻轉 |
+| [[s-dylla-2017-trace-conditioning-dan-plasticity]] | 活果蠅頭部固定，痕跡制約（空白 5 s），以鈣成像比較配對與不配對組在九個蕈狀體區室的 DAN 與 KC 反應 | 配對組 DAN 對 CS 的反應比不配對組大（9 區中 8 區）；β′ 葉兩格與 junction 的 KC 較小；電擊來時 KC 的氣味鈣反應已接近基線（※ 從圖 2D 判讀）。無行為讀數，未掃時間差 |
 | [[s-tumkaya-2025-synthetic-memory-inception]] | **沒有掃時間差**：CS 與 US 完全同時給。改為檢驗 CS **自身內部**的時間結構能不能被學——連續光 vs 20 Hz 脈衝光，哪一種被罰過 | 果蠅分不出來（六組中五組的實驗組 ΔPI 在 −0.14 到 +0.14；唯一例外是 Or42b 靜態光 −0.54）。作者結論：ORN 活動的精確時間編碼不是聯結學習的關鍵決定因素 |
 
 > 各點數值見 [[numbers]]。
@@ -64,10 +67,12 @@ confidence: high
 8. **「時間結構」有兩個不同的意思，別混用。** 本頁其餘各列講的是 **CS 與 US 之間的間隔**（ISI）；[[s-tumkaya-2025-synthetic-memory-inception]] 講的是 **CS 自己內部的放電節奏**（連續 vs 20 Hz 脈衝）。該篇說「時間結構並非必要」，指的是後者，不能讀成「ISI 不重要」——它根本沒有掃過 ISI，而且在討論裡還引用文獻強調突觸強度對毫秒級的輸入相關性很敏感。
 9. **該篇的陰性結果有靈敏度支持，但有一格對照鬆動了它的前提。** 那六組的 N 在 18–39 之間，比該篇其他實驗的 9–12 大數倍，而同一套裝置在別處測得 −0.92，所以不是整體測不到東西。但圖 3E 中不帶 Chrimson 的 Gr21a-Gal4 對照 ΔPI 達 −0.37，大於同格實驗組的 −0.14。該對照不帶光敏通道，而圖 3 的測驗是在連續光與 20 Hz 脈衝光之間選邊、兩半都有紅光，**所以牠是靠眼睛分辨並學會躲開其中一種閃爍**。因此這篇能支持的說法要收窄成「**經由 ORN 傳遞的**時間結構學不起來」——同一個時間樣式經由視覺是學得起來的。論文未討論這一格。
 
+10. **Dylla 2017 的「15 s」從氣味開始算。** 換成 Tully 1985、Tomchik 2009 行為的算法（從氣味結束算）是 5 s；但它的氣味只有 10 s，那兩篇是 60 s，不能把那兩篇的行為分數套到這個協定上。該篇頭部固定、沒有行為讀數，作者只說「協定和行為實驗相近，相信學會了」。※ 推論：它的不配對組相隔 90 s，依本頁第 5 條（Cohn 2015 相隔 ＞ 45 s 仍改變突觸），不一定是中性對照。
+
 ## 相關
 
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]
 - 概念：[[c-coincidence-detection]]、[[c-us-substitution]]、[[c-performance-index]]、[[c-kc-mbon-plasticity]]
 - 實體：[[e-ppl1-gamma1pedc]]、[[e-mbon-gamma4]]
 - 綜述：[[syn-contradictions]]
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-tumkaya-2025-synthetic-memory-inception]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-tumkaya-2025-synthetic-memory-inception]]

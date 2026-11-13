@@ -1,7 +1,7 @@
 ---
 title: 稀疏編碼（sparse coding）
 created: 2026-11-12
-updated: 2026-11-12
+updated: 2026-11-13
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
@@ -59,7 +59,6 @@ confidence: medium
 
 - 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]
 - 概念：[[c-kc-mbon-plasticity]]、[[c-odor-generalization]]、[[c-coincidence-detection]]、[[c-mb-compartment]]
-- 實體：[[e-kenyon-cell]]、[[e-mbon]]、[[e-mushroom-body]]、[[e-gcamp]]
+- 實體：[[e-kenyon-cell]]、[[e-mbon]]、[[e-mushroom-body]]、[[e-gcamp]]、[[e-apl-neuron]]
 - 綜述：[[syn-contradictions]]
 - 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-minnick-2026-untrained-connectome]]
-- 待開頁面：`e-apl-neuron`

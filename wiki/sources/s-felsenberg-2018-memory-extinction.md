@@ -469,7 +469,7 @@ flowchart TD
 - 本庫其他來源：[[s-hige-2015-heterosynaptic-plasticity]]（同一顆 MBON-γ1pedc／MVP2）、[[s-handler-2019-dopamine-receptor-timing]]（R58E02 與 66C08 品系、γ4／γ5 區室）、[[s-tomchik-2009-camp-dynamics]]
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]；矛盾與空缺：[[syn-contradictions]]
 - 本批（2026-10-25 第二批）已開頁、與本篇相關：[[c-memory-extinction]]、[[t-mbon-dan-feedback]]、[[t-memory-updating]]、[[e-shibire-ts]]、[[e-mbon-gamma5beta2a]]、[[e-mbon-gamma1pedc]]、[[e-dopaminergic-neuron]]、[[e-r58e02]]、[[e-mb504b]]
-- 待開頁面：`c-feedforward-inhibition`、`e-mbon-beta2mp`（M4β′）、`e-vt1211`、`e-fafb`、`e-catmaid`
+- 待開頁面：[[c-feedforward-inhibition]]、`e-mbon-beta2mp`（M4β′）、`e-vt1211`、`e-fafb`、[[e-catmaid]]
 
 ## 出處
 

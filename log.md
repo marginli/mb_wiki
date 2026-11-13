@@ -2,6 +2,40 @@
 
 只追加，新的在最上面。動作僅三種：`ingest` / `query` / `lint`（另有人類的 `裁決`）。
 
+## [2026-11-13] ingest | 第一批 11 篇（learning_memory_fly.docx 參考文獻）
+
+使用者要求下載 learning_memory_fly.docx 參考文獻中可合法取得的全文：117 篇中抓到 33 篇；範圍外 7 篇（全腦連結體與身體模擬 6 篇、撤稿 1 篇）依使用者裁示不收錄、未放入 papers/；26 篇放入 papers/，其中第一批 11 篇收錄（區室與回路、學習的訊號機制），其餘 15 篇待處理。
+
+**新增來源 11 篇：** [[s-mao-2009-dopaminergic-neuron-types]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-eschbach-2021-learned-innate-valence-integration]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]、[[s-kaldun-2025-dop1r2-memory-phases]]。每篇由一個收錄代理平行撰寫，`numbers.md` 併入 11 段。
+
+**冷讀：** 冷讀途中多個子代理被 Anthropic 安全機制中斷（標為生物研究相關），使用者決定本批跳過冷讀。Dylla、Mao、Kaldun 三篇已併入中斷前完成且核對過數字與引用的改寫；Burke 2012 依主持代理回查原文的 4 處事實更正已改入。其餘各篇未經冷讀。
+
+**主題頁：** 新開 [[t-mbon-to-action]]、[[t-innate-learned-integration]]（使用者同意）。[[t-dopamine-to-plasticity]] 已整合 9 篇；[[t-mbon-dan-feedback]] 整合到一半時被中斷，頁首加維護註記；[[t-timing-rules]]、[[t-memory-updating]] 尚未整合本批。
+
+**概念與實體：** 新開 15 頁（[[e-mbon-alpha1]]、[[e-mbon-alpha3]]、[[e-ppl1-alpha3prime]]、[[e-catmaid]]、[[e-hemibrain]]、[[e-mcfo]]、[[e-grasp]]、[[e-apl-neuron]]、[[e-dpm-neuron]]、[[c-appetitive-memory]]、[[c-valence-coding]]、[[c-prediction-error]]、[[c-nonassociative-learning]]、[[c-feedforward-inhibition]]、[[c-second-order-conditioning]]）；另 6 頁（e-ok107-gal4、e-c305a-gal4、e-gal80ts、e-vt1211、e-dtrpa1、e-tnt）的建頁被中斷，維持待開。既有概念與實體頁的「庫內的用法」由整合代理補列。
+
+**矛盾清單：** 新增 1.10（*rutabaga* 能否解釋痕跡制約）、1.11（只聞氣味是否讓 PPL1 反應下降，前提待確認），待裁決 9→11；1.9 補 Aso 2019、1.3 補 Pribbenow 2022；4.4 依 Aso 2014a 部分解決；單篇自身不一致索引補 11 篇。空缺 3.2、3.6 的更新與新空缺（DAN 習得反應來源、γ 葉是否需要 Dop1R2、MBON-α1 對下游的正負號等）**尚未寫入**，草稿在各篇整合建議檔。
+
+**既有概念與實體頁（代理 C）：** 約 30 頁已補列；c-octopamine-reward-signal、c-performance-index、c-us-substitution、c-kc-mbon-plasticity、c-mb-compartment、c-memory-extinction、e-gcamp、e-cschrimson、e-shibire-ts、e-olfactory-arena 共 10 頁被安全機制中斷、未改。待統一：pedc、sc 字尾的寫法（e-ppl1-gamma1pedc、e-mbon-gamma1pedc、e-mbon-alpha2sc 寫成確定，e-mushroom-body 寫成 ※ 推論）。
+
+**其他頁的更正：** 依 Aso 2014b 更正 Handler 2019 頁（γ5 MBON 推動走開）、Ichinose 2015 頁（前人集中在提取、MBON-α1 推動走開）三處；「外側角」統一為「側角」；Eschbach 2021 頁一句宣稱唯一性已更正。
+
+## [2026-11-13] ingest | Huang 2024：電壓成像下的 PPL1 價值整合與短期／長期記憶單元的交互
+
+新增 [[s-huang-2024-dopamine-memory-dynamics]]（*Nature* 634:1141–1149，CC BY 4.0），主圖 5 張與延伸圖 13 共 6 張圖；`numbers.md` 新增一段（PPL1 五型與 MBON 六型的自發、電擊、糖放電率，模型時間常數與回饋移除效應，間隔與消退實驗數值）。冷讀 4 輪：看不懂約 20→10→9→2，最後 2 項由主持者直接改寫，未再讀；吃力每塊仍有 3–10 項。
+
+**矛盾清單**：新增 1.9（γ1pedc 在多巴胺先到或被壓低時突觸會不會變強：Huang 2024 模型假設 vs Hige 2015 實測），使用者 2026-11-13 裁示標為跨篇矛盾；待裁決由 8 條增為 9 條。單篇自身不一致索引加一列。4.3 改為十三篇。
+
+**主題頁**：[[t-mbon-dan-feedback]] 新增「第四個難題」一節與證據表一列（第一條有活體活動證據的回饋），篇數改為五篇；[[t-timing-rules]]、[[t-memory-updating]]（新增「消退的時機」一節）、[[t-dopamine-to-plasticity]] 各加一段。
+
+**概念與實體**：18 頁加「庫內的用法」一列；新開 [[e-ppl1-alpha3]]、[[e-ppl1-alpha2alpha2]]、[[e-mbon-alpha2sc]]（皆由本篇湊滿兩篇門檻），Hige 2015 等來源頁的待開清單已改為連結。
+
+**登記簿**：本篇已收錄；同時把 11-12 放入的 Hige 2015 補充檔 `mmc1.pdf`、`mmc2.pdf` 登記為不收錄（暫時擱置，待補寫 Hige 補充資料時改用 `mmc2.pdf`）。
+
+## [2026-11-13] lint | 規則：經使用者要求可下載新 PDF 放入 papers/
+
+`CLAUDE.md` 硬規則「不得改動 `papers/`」加上唯一例外：使用者要求時，Claude 可新增合法免費全文 PDF，放入前先做重複偵測；已有的檔仍不得動。
+
 ## [2026-11-12] ingest | Gervasi 2010：活果蠅 KC 內的 PKA（自 10-27 的「處理中」恢復）
 
 [[s-gervasi-2010-pka-dynamics]] 的來源頁與 8 張圖在 10-27 已寫好（冷讀 4 輪），整合未做。依「中斷筆記一律待驗證」，先對照頁面影像抽查圖 6C（*rut2080* 只做了配對組）與圖 7（*dnc1* 的數值），都成立。來源頁補上「本頁用語」表（38 詞），並在 3.4、3.5 節末與討論第 5、6 點標明對應的矛盾編號。

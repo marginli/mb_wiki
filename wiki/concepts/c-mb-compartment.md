@@ -1,7 +1,7 @@
 ---
 title: 蕈狀體區室（MB compartment）
 created: 2026-10-25
-updated: 2026-11-12
+updated: 2026-11-13
 tags: [concept, active, mb-learning]
 confidence: high
 ---
@@ -39,6 +39,7 @@ confidence: high
 | [[s-felsenberg-2018-memory-extinction]] | 比較同一氣味在不同格留下的痕跡 | 消退後，γ1pedc 格（MVP2）的舊嫌惡痕跡仍在，γ5 格（M6 樹突）新出現獎賞型痕跡；兩者在 M6 的輸出端相抵 |
 | [[s-tomchik-2009-camp-dynamics]] | **不是區室層級。** 比較的是萼部（calyx，KC 樹突所在）vs 葉部（KC 軸突），以及 α、α′、γ 等不同葉（不同類 KC 的軸突） | cAMP 協同只在葉部出現；多巴胺在萼部的 cAMP 反應有升有降 |
 | [[s-gervasi-2010-pka-dynamics]] | **也不是區室層級。** 比較萼部與 α、β、γ 三條葉的 PKA；藥物浴灌、全腦同時泡到 | 浴灌多巴胺只打開 α 葉的 PKA，章魚胺打開全部；作者自己承認，β、γ 葉可能有感測器看不到的小區域被打開，而真實的多巴胺是由特定神經元送到特定區室，本篇沒有量 |
+| [[s-huang-2024-dopamine-memory-dynamics]] | 以區室為單位量五型 PPL1 與六型 MBON 的放電（電壓成像）；模型分 γ1、α2、α3 三個模組，接線依連結體 hemibrain v1.2.1 | 改變的持續時間依區室而異：MBON-γ1pedc>α/β 不到 1 小時（短期），MBON-α3 超過 24 小時（長期）；**區室之間經由回饋相連**——γ1pedc 的 MBON 抑制 α3（與 α′2α2）的 DAN，訓練讓這條抑制減弱，α3 的 DAN 才開始對 CS+ 放電。模型的可塑性時間常數 γ 約 30 分鐘、α 約 100 分鐘 |
 
 > 數值見 [[numbers]]。
 
@@ -52,10 +53,12 @@ confidence: high
 6. **MBON 的樹突沒變，不等於這一格的輸出沒變。** Felsenberg 2018 中，嫌惡學習後 M6 樹突（γ5 格）的 CS+／CS− 反應沒有差別，軸突卻有：鄰格的 MVP2 經抑制性連結在 M6 樹突根部附近作用。一格的讀數會被別格的 MBON 改寫。
 7. **區室的計數方式不一。** Aso 2016 正文說六組品系涵蓋 15 個區室中的 11 個，但圖上把 γ1pedc 畫成 γ1 與 pedc 兩格，數出來是 12 格（單篇自身不一致）。
 
+8. **Huang 2024 模型裡「α2 沒有作用」是擬合結果，不是實驗排除。** MBON-α2sc 與 MBON-α3 到 PPL1-α3 的興奮性回饋擬合出來近乎為 0，兩模組版（只有 γ1 與 α3）的參數也和三模組版無差異；原文承認 α2 的結果與前人報告不一致。圖 1a 畫出來的連線，不等於模型裡有作用的連線。另外它的「短期／長期」區室是以 MBON 放電改變持續多久來分，不是以需要蛋白質合成與否來分（見 [[c-memory-consolidation]]）。
+
 ## 相關
 
 - 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]、[[t-mbon-dan-feedback]]、[[t-memory-updating]]
-- 概念：[[c-kc-mbon-plasticity]]、[[c-camp-signaling]]
+- 概念：[[c-kc-mbon-plasticity]]、[[c-camp-signaling]]、[[c-memory-consolidation]]
 - 實體：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-split-gal4]]、[[e-mb099c]]、[[e-p2x2]]
 - 綜述：[[syn-contradictions]]
-- 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]
+- 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]

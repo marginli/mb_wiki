@@ -317,7 +317,7 @@ flowchart TD
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]
 - 同庫來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]
 - 本批（2026-10-25 第二批）已開頁、與本篇相關：[[c-memory-extinction]]、[[c-memory-consolidation]]、[[t-mbon-dan-feedback]]、[[e-shibire-ts]]、[[e-dopaminergic-neuron]]、[[e-mbon-gamma2alpha1]]、[[e-ppl1-gamma2alpha1]]、[[e-mb504b]]、[[e-r58e02]]、[[e-th-gal4]]、[[e-t-maze]]
-- 待開頁面：`c-cold-shock-anaesthesia`、`c-reward-prediction-error`、`c-valence-coding`、`e-mbon-v2-cluster`
+- 待開頁面：`c-cold-shock-anaesthesia`、`c-reward-prediction-error`、[[c-valence-coding]]、`e-mbon-v2-cluster`
 
 ## 出處
 

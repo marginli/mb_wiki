@@ -1,7 +1,7 @@
 ---
 title: GCaMP 系鈣感測器（GCaMP calcium indicators）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-13
 tags: [entity, active, mb-learning]
 confidence: high
 ---
@@ -36,6 +36,7 @@ confidence: high
 | [[s-cohn-2015-coordinated-neuromodulation]] | sytGCaMP；GCaMP6s | sytGCaMP：γ KC 末梢、各格 DAN 末梢（TH＋DDC 啟動子）；GCaMP6s：成對的 γ MBON | 活體與離體，雙光子；γ 葉 12–18 層體積成像；KC 末梢以正規化強度輪廓呈現（相對值） | 同一條 KC 軸突在不同格的末梢鈣不同；DAN 群體的相反樣式；MBON 增強與減弱 |
 | [[s-felsenberg-2017-re-evaluation]] | GCaMP6f／6m | PPL1 DAN 細胞體（MB504B 等）、PAM 的 γ5 區（R58E02-LexA，6m）；γ2α′1 MBON、V2 MBON | 離體 910 nm；活體以 5 s 氣味的 AUC 除以同一隻對新氣味的 AUC | MBON 活化後 DAN 的反應；訓練後 γ2α′1 MBON 對 CS− 反應變大 |
 | [[s-felsenberg-2018-memory-extinction]] | GCaMP6f／6m | PAM 末梢（R48B04）；MVP2、M4β′、M6 的樹突與軸突 | 同 Felsenberg 2017 的讀法 | γ5 PAM 被 M4β′／M6 活化；消退前後新舊記憶的鈣痕跡 |
+| [[s-huang-2024-dopamine-memory-dynamics]] | jGCaMP7b | PPL1-α′2α2（R82C10-LexA）、PPL1-α3（MB065B） | 頭固定的活果蠅；氣味 5 s 或 10 s 期間相對基線的平均 ΔF/F；只當對照，主實驗用電壓成像 | **與同型細胞的電壓成像對照**（延伸圖 13）：吸引氣味讓 PPL1-α3 放電明顯下降，鈣訊號卻幾乎不變（ACV 與基線無統計差異）；OCT 配電擊時鈣訊號小於兩者分別給的相加，作者歸因於指示劑飽和 |
 
 各篇的參數與數值見 [[numbers]]。
 
@@ -46,6 +47,7 @@ confidence: high
 - **鈣上升不等於送出更多訊號。** Tomchik 2009 用 KC 軸突的鈣增強推論「突觸前可塑性」，但沒有量 KC 對 MBON 的傳遞（見 [[t-dopamine-to-plasticity]]）；Cohn 2015 的 sytGCaMP 雖然只在末梢發光，量的仍是鈣，不是傳遞物質的釋放量，DAN 末梢的鈣也只是多巴胺釋放的代替指標。
 - **正規化後只剩相對值。** Cohn 2015 的 KC 末梢輪廓經正規化，四格的變化相加約為零，一格變亮必然伴隨別格「相對」變暗。
 - **同一顆神經元，樹突與軸突的讀數可以不同。** Felsenberg 2018：學習後 M6 的軸突對 CS+ 反應較大、樹突沒有差別。
+- **看不到放電「減少」，強刺激時又會飽和。** Huang 2024 延伸圖 13：同一型 PPL1-α3，電壓成像看到吸引氣味讓放電下降，jGCaMP7b 幾乎看不出來；氣味加電擊時鈣訊號又低於相加。所以用 GCaMP 量 DAN 時，「沒看到下降」不能讀成「沒有下降」，「不到相加」也可能只是飽和。限制：兩種成像是不同批果蠅（鈣 14 隻、電壓 16 隻），PPL1-α′2α2 的鈣成像與電壓成像也用不同品系。
 - **對小變化不敏感。** Tomchik 來源頁提醒，G-CaMP 1.6 測不到細胞電位的小幅變化，所以「多巴胺不會激發 KC（不引起去極化）」只能讀成「不引起可偵測的鈣上升」。
 - **ER-GCaMP 的方向容易讀反。** 變暗代表放鈣。Handler 2019 在順向配對（KC 在前、DAN 在後）時量到一個顯著的小幅變亮，正文沒有提；來源頁的推論是可能代表內質網回收鈣，也可能是感測器假象（見該來源頁 3.5 節）。
 
@@ -56,4 +58,4 @@ confidence: high
 - 製備：[[c-ex-vivo-explant]]
 - 概念：[[c-kc-mbon-plasticity]]、[[c-camp-signaling]]、[[c-presynaptic-calcium]]
 - 主題：[[t-dopamine-to-plasticity]]
-- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]
+- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]

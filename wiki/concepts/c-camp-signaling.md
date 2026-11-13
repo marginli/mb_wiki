@@ -1,7 +1,7 @@
 ---
 title: cAMP 訊號（cAMP signaling）
 created: 2026-10-25
-updated: 2026-11-12
+updated: 2026-11-13
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
@@ -50,6 +50,8 @@ Tully 1985 沒有量 cAMP：它用改變 cAMP 製造或分解的全身突變果�
 > 數值見 [[numbers]]。**Hige 2015 只提到**：討論中引 Boto et al. 2014（cAMP 上升侷限在被活化 DAN 支配的區室）與「遺傳證據顯示 cAMP 是蕈狀體可塑性誘發的核心」，本身沒有量或操作 cAMP。
 >
 > **2015–2018 新收的五篇都沒有量或操作 cAMP**（Cohn 2015 grep `cAMP|PKA|rutabaga` 無結果；Ichinose 2015 只在背景引 *rutabaga*；Felsenberg 2018 引言轉述 Schwaerzel et al. 2002 的「消退在 KC 內對抗 cAMP 訊號」，並主張自己的結果是細胞之間而非細胞內的拮抗）。cAMP 上游受體 DopR1 的用法見 [[e-dopamine-receptor]]。
+>
+> **[[s-aso-2019-nitric-oxide-cotransmitter]] 也不列入表**：它沒有量或操作 cAMP，量的是平行的另一條路——DAN 放出的一氧化氮（NO）作用在 KC 的可溶性鳥苷酸環化酶（sGC），產生 cGMP。它與 cAMP 的關係只在討論中出現：作者在 KC 裡測不到兩個果蠅 PKG 基因，但有環核苷酸閘控通道與 cGMP 專一的磷酸二酯酶 Pde9；並引用 sGC 可被 PKA 磷酸化、*rutabaga* 突變腦的 sGC 活性較低，暗示 cAMP 與 cGMP 互相串話（引用，未自己檢驗）。
 
 ## 引用時的陷阱
 
@@ -67,4 +69,4 @@ Tully 1985 沒有量 cAMP：它用改變 cAMP 製造或分解的全身突變果�
 - 概念：[[c-coincidence-detection]]、[[c-kc-mbon-plasticity]]、[[c-mb-compartment]]、[[c-octopamine-reward-signal]]
 - 實體：[[e-rutabaga]]、[[e-dunce]]、[[e-238y-gal4]]、[[e-epac-camp-sensor]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-dopamine-receptor]]
 - 綜述：[[syn-contradictions]]
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-hige-2015-heterosynaptic-plasticity]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-aso-2019-nitric-oxide-cotransmitter]]（只提到）

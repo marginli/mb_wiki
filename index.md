@@ -3,7 +3,7 @@
 **[[syn-changelog|更新履歷]]**：這座知識庫怎麼長成現在的樣子，以及它更正過自己幾次
 **[[syn-contradictions|矛盾與空缺]]**：論文之間說法不同、等人裁決的地方，以及沒有人做過的實驗
 
-範圍是果蠅（*Drosophila*）的學習與記憶研究，以及蕈狀體（mushroom body）本身的研究（2026-11-12 由只收蕈狀體擴大而來）。蕈狀體是果蠅腦中負責「把氣味和好壞結果連起來」的區域，是研究學習與記憶最常用的模型，也是目前已收論文的共同主軸；蕈狀體以外的學習記憶研究（例如中央複合體的空間學習、求偶制約、幼蟲的學習），收到論文後會各自成為新的研究問題群。目前 **11 篇來源**、4 條主題、15 個概念、26 個實體、2 個綜述，分屬兩個研究問題群。
+範圍是果蠅（*Drosophila*）的學習與記憶研究，以及蕈狀體（mushroom body）本身的研究（2026-11-12 由只收蕈狀體擴大而來）。蕈狀體是果蠅腦中負責「把氣味和好壞結果連起來」的區域，是研究學習與記憶最常用的模型，也是目前已收論文的共同主軸；蕈狀體以外的學習記憶研究（例如中央複合體的空間學習、求偶制約、幼蟲的學習），收到論文後會各自成為新的研究問題群。目前 **24 篇來源**、6 條主題、22 個概念、40 個實體、2 個綜述，分屬兩個研究問題群。
 
 **怎麼讀這份索引。** 第一層是**研究問題群**，第二層是**主題**。主題頁（`t-`）回答「這批論文對這件事說了什麼、彼此怎麼對話」，用白話寫成，是讀者的入口。概念頁（`c-`）與實體頁（`e-`）掛在主題底下，供查詞。來源頁（`s-`）是一篇論文一頁，含科普文、專業文與每張主圖的解讀。完整的來源清單在文末。
 
@@ -27,7 +27,7 @@
 
 - 概念：[[c-cs-us-timing]]、[[c-coincidence-detection]]、[[c-kc-mbon-plasticity]]、[[c-us-substitution]]、[[c-performance-index]]
 - 實體：[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-kenyon-cell]]
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tumkaya-2025-synthetic-memory-inception]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-huang-2024-dopamine-memory-dynamics]]
 
 ### [[t-dopamine-to-plasticity]]｜從多巴胺到突觸改變：KC 軸突怎麼讀出增強訊號
 
@@ -47,7 +47,7 @@
 - 實體（第二批）：[[e-dopamine-receptor]]、[[e-mbon-gamma4]]、[[e-mbon-gamma1pedc]]、[[e-ppl1-gamma1pedc]]
 - 實體（2026-10-26）：[[e-rutabaga]]
 - 2026-11-12 因 Gervasi 2010 新開：[[e-dunce]]、[[e-238y-gal4]]、[[c-octopamine-reward-signal]]
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-minnick-2026-untrained-connectome]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-minnick-2026-untrained-connectome]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-yamada-2023-second-order-conditioning]]、[[s-kaldun-2025-dop1r2-memory-phases]]
 
 ---
 
@@ -61,21 +61,35 @@
 
 - 概念：[[c-memory-extinction]]、[[c-memory-consolidation]]、[[c-spaced-training]]、[[c-performance-index]]
 - 實體：[[e-shibire-ts]]、[[e-t-maze]]、[[e-olfactory-arena]]、[[e-mb504b]]、[[e-r58e02]]、[[e-mbon-gamma5beta2a]]、[[e-mbon-gamma2alpha1]]、[[e-ppl1-gamma2alpha1]]
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]
 
 ### [[t-mbon-dan-feedback]]｜輸出神經元回頭指揮多巴胺神經元：MBON→DAN 回饋迴路
 
-教科書上的蕈狀體是單向的：氣味從 KC 流到輸出神經元，多巴胺神經元從旁改寫兩者之間的接點。四篇論文各找到反方向的路，主要有三種：
+教科書上的蕈狀體是單向的：氣味從 KC 流到輸出神經元，多巴胺神經元從旁改寫兩者之間的接點。五篇論文各找到反方向的路，主要有四種：
 
 1. 同一格裡的迴路（Ichinose 2015）：α1 格的 MBON 回頭讓同格的 DAN 更活躍，糖吃完之後獎賞訊號還能延續一段時間；少了這段延續，就形成不了長期記憶。
 2. 一型牽動全體（Cohn 2015）：活化任一型 MBON，各格 DAN 的活動都跟著改變。
 3. 預期落空時的跨格回饋（Felsenberg 2017、2018）：一格的 MBON 去叫醒另一格、代表相反好壞的 DAN，用來寫下消退記憶。
+4. 短期記憶打開長期記憶的閘門（Huang 2024）：γ1pedc 格的 MBON 平常抑制 α3 格的 DAN；訓練讓這條抑制放鬆，α3 的 DAN 才對受訓氣味放電，長期改變才寫進 α3。
 
-**這些路的位置、作用時機與證據強度都不同，多數只有解剖上的相鄰，或在取出的腦（離體製備）裡的少量紀錄，沒有一條在活的果蠅身上被直接量到正在作用。** 其中一處，兩篇說法相反：活化 γ2 格的 MBON 之後，同一格的 DAN 是變安靜（Cohn 2015）還是被叫醒（Felsenberg 2017），列為待裁決。
+**這些路的位置、作用時機與證據強度都不同，多數只有解剖上的相鄰，或在取出的腦（離體製備）裡的少量紀錄。只有第 4 種在活的果蠅學習時量到 DAN 隨 MBON 改變（電壓成像），但阻斷用的是從發育期就作用的毒素，成像與行為也是不同的果蠅。** 其中一處，兩篇說法相反：活化 γ2 格的 MBON 之後，同一格的 DAN 是變安靜（Cohn 2015）還是被叫醒（Felsenberg 2017），列為待裁決。
 
 - 概念：[[c-memory-consolidation]]、[[c-memory-extinction]]、[[c-ex-vivo-explant]]
-- 實體：[[e-pam-alpha1]]、[[e-mbon-gamma2alpha1]]、[[e-ppl1-gamma2alpha1]]、[[e-mbon-gamma5beta2a]]、[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-p2x2]]
-- 來源：[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]
+- 實體：[[e-pam-alpha1]]、[[e-mbon-gamma2alpha1]]、[[e-ppl1-gamma2alpha1]]、[[e-mbon-gamma5beta2a]]、[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-p2x2]]、[[e-ppl1-alpha3]]、[[e-ppl1-alpha2alpha2]]、[[e-mbon-alpha2sc]]
+- 來源：[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-yamada-2023-second-order-conditioning]]
+
+
+### [[t-mbon-to-action]]｜學到的價值怎麼變成動作：MBON 下游的讀出
+
+MBON 的活動怎麼變成果蠅的動作？成蟲的逐型活化顯示推動靠近或走開大致依傳遞物質分邊，而迎風神經元把兩型 MBON 的訊號整合成迎風移動；二選一的分數和迎風行為可以分開，所以「學到了」和「怎麼走過去」是兩件事。幼蟲的通則與成蟲不同。
+
+- 來源：[[s-aso-2014-mbon-valence]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-eschbach-2021-learned-innate-valence-integration]]、[[s-tully-1985-classical-conditioning]]
+
+### [[t-innate-learned-integration]]｜先天與習得的價值在哪裡整合
+
+天生的好惡與學來的好惡在哪裡加總？三篇給了三個位置：神經氈的匯聚區（解剖推測）、成蟲的多巴胺神經元（電壓成像）、幼蟲 MBON 下游的匯聚神經元（電顯追蹤）。三者不互斥，也沒有一篇在同一個實驗裡同時測過兩處。
+
+- 來源：[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-eschbach-2021-learned-innate-valence-integration]]、[[s-aso-2023-upwind-neurons]]
 
 ---
 
@@ -99,16 +113,28 @@
 每行最後的日期是本庫收錄日，不是發表日。
 
 - [[s-tully-1985-classical-conditioning]] — Tully & Quinn, *J Comp Physiol A*：建立 T 迷宮的氣味—電擊古典制約測驗，量了時序、消退、非聯結對照與學習突變株的記憶曲線；全文不涉及蕈狀體 · 2026-10-26
+- [[s-mao-2009-dopaminergic-neuron-types]] — Mao & Davis, *Front Neural Circuits*：單細胞選殖把支配蕈狀體的多巴胺神經元拆成八型，PPL1 五型各占垂直葉一段（舊名 MB-V1、MB-MV1、MB-MP1 的出處）；鈣成像看到各段對電擊與氣味的偏好不同 · 2026-11-13
 - [[s-tomchik-2009-camp-dynamics]] — Tomchik & Davis, *Neuron*：在離體腦中直接看到 KC 軸突裡的 cAMP 協同依賴 *rutabaga* 與先後順序 · 2026-10-25
 - [[s-gervasi-2010-pka-dynamics]] — Gervasi, Tchénio & Preat, *Neuron*：活果蠅 KC 內的 PKA 成像；多巴胺只在 α 葉打開 PKA，*dunce* 突變中打開全部；配對協同在 *rutabaga* 中消失，但只測了配對組 · 2026-11-12
+- [[s-burke-2012-octopamine-dopamine-reward]] — Burke et al., *Nature*：獎賞訊號分層，章魚胺只傳遞糖的甜味那一份，經 PAM 多巴胺神經元上的受體接到多巴胺 · 2026-11-13
+- [[s-aso-2014-mb-architecture]] — Aso et al. 2014a, *eLife*：蕈狀體區室、DAN 與 MBON 型別與 split-GAL4 品系的解剖總圖譜，含新舊名對照表 · 2026-11-13
+- [[s-aso-2014-mbon-valence]] — Aso et al. 2014b, *eLife*：逐型活化 MBON，推動靠近或走開依傳遞物質分邊；各種學習作業需要哪些 MBON · 2026-11-13
 - [[s-hige-2015-heterosynaptic-plasticity]] — Hige et al., *Neuron*：活體記錄到多巴胺讓 KC→MBON 突觸長期抑制，區室專一、依賴順序 · 2026-10-25
 - [[s-cohn-2015-coordinated-neuromodulation]] — Cohn, Morantte & Ruta, *Cell*：多巴胺神經元整群協調活動；同一條 KC 軸突在各格的末梢鈣不同；沒有氣味時活化多巴胺神經元讓突觸變強 · 2026-10-25
 - [[s-ichinose-2015-reward-recurrent-circuit]] — Ichinose et al., *eLife*：MBON-α1 與 PAM-α1 形成迴圈，訓練後第一小時需要它，獎賞的長期記憶才會形成 · 2026-10-25
 - [[s-aso-2016-dan-cell-type-rules]] — Aso & Rubin, *eLife*：各型多巴胺神經元寫入與更新記憶的規則不同；同一型依時序寫入相反的記憶 · 2026-10-25
+- [[s-dylla-2017-trace-conditioning-dan-plasticity]] — Dylla et al., *Front Neural Circuits*：痕跡制約中 KC 與 DAN 的鈣反應改變，配對差異多來自不配對組下降 · 2026-11-13
 - [[s-felsenberg-2017-re-evaluation]] — Felsenberg et al., *Nature*：再聞受訓氣味不給糖會消退、再聞對照氣味會再鞏固，兩者走不同的迴路 · 2026-10-25
 - [[s-felsenberg-2018-memory-extinction]] — Felsenberg et al., *Cell*：懲罰記憶的消退由獎賞型多巴胺神經元寫下一筆相反的記憶，新舊兩筆在一顆叫 M6 的輸出神經元（讀取 γ5 格）上整合 · 2026-10-25
 - [[s-handler-2019-dopamine-receptor-timing]] — Handler et al., *Cell*：DopR1 與 DopR2 兩條路徑讓同一突觸依先後變弱或變強 · 2026-10-25
+- [[s-aso-2019-nitric-oxide-cotransmitter]] — Aso et al., *eLife*：部分 DAN 以一氧化氮為共同傳遞物，經 cGMP 路徑讓各區室的記憶動態不同 · 2026-11-13
+- [[s-eschbach-2021-learned-innate-valence-integration]] — Eschbach et al., *eLife*（幼蟲）：電顯追蹤 MBON 與側角輸出的下游，找到兩邊匯聚的神經元 · 2026-11-13
+- [[s-pribbenow-2022-postsynaptic-plasticity]] — Pribbenow et al., *eLife*：MBON 上乙醯膽鹼受體次單元是獎賞與熟悉度記憶所需，給出突觸後可塑性的證據 · 2026-11-13
+- [[s-aso-2023-upwind-neurons]] — Aso et al., *eLife*：迎風神經元整合 MBON-α1 與 MBON-α3 的輸入，把學到的氣味價值轉成迎風移動 · 2026-11-13
+- [[s-yamada-2023-second-order-conditioning]] — Yamada et al., *eLife*：二階制約由 α1 的記憶經兩層中間神經元教別格的多巴胺神經元 · 2026-11-13
+- [[s-huang-2024-dopamine-memory-dynamics]] — Huang et al., *Nature*：電壓成像量到 PPL1 多巴胺神經元的單次放電，喜歡的氣味與糖讓牠們低於平常；短期記憶區的輸出神經元放鬆對長期記憶區多巴胺神經元的抑制，閘控長期記憶寫入；模型的雙向規則與 Hige 2015 牴觸（矛盾 1.9） · 2026-11-13
 - [[s-tumkaya-2025-synthetic-memory-inception]] — Tumkaya et al., *iScience*：氣味與增強訊號都換成光，整場訓練沒有自然刺激，果蠅照樣形成記憶；ORN 放電的時間節奏則學不起來 · 2026-11-12
+- [[s-kaldun-2025-dop1r2-memory-phases]] — Kaldun et al., *eLife*：細胞專一剔除多巴胺受體 Dop1R2，較晚的記憶在 α/β、α′/β′ 葉需要它 · 2026-11-13
 - [[s-minnick-2026-untrained-connectome]] — Minnick et al., *arXiv* 預印本：把整份果蠅連結體原樣跑成脈衝網路並放進模擬身體；蕈狀體的學習讓趨近變成躲避，但原樣網路的 Kenyon 細胞不依賴氣味，那個學習並非聯結式 · 2026-11-12
 
 ---

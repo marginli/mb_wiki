@@ -1,7 +1,7 @@
 ---
 title: rutabaga 基因（rutabaga, rut）
 created: 2026-10-26
-updated: 2026-11-12
+updated: 2026-11-13
 tags: [entity, active, mb-learning]
 confidence: medium
 ---
@@ -61,7 +61,10 @@ confidence: medium
 | [[s-tomchik-2009-camp-dynamics]] | 取出的腦，KC 內 cAMP 成像：單獨給藥的劑量反應；乙醯膽鹼＋多巴胺配對的協同；比較 *rut¹* 與 *rut¹*/+ | 單獨給多巴胺、章魚胺的 cAMP 反應不受 *rut¹* 影響（p ＝ 0.59、0.29，n ＝ 13）；配對協同在 *rut¹* 中消失（配對／相加 ≈ 0.94，異型合子 ≈ 1.46，n ＝ 9）；章魚胺的次加成在 *rut¹* 中仍在 |
 | [[s-gervasi-2010-pka-dynamics]] | 活果蠅 KC 內 PKA 成像：forskolin、IBMX、多巴胺、章魚胺單獨給藥；乙醯膽鹼＋多巴胺或章魚胺配對；另測 2 h 記憶 | forskolin 反應四個部位都降到約一半（0.42–0.51 倍）；IBMX 單獨的反應與對照相同（基礎 cAMP 不是 Rut 做的）；單獨給多巴胺、章魚胺（100 µM）的 PKA 反應剩約 10–30%；配對的協同在 *rut2080* 中消失，**但只測了配對組**；2 h 記憶 PI 約 24，對照約 46（以上 ※ 從圖判讀） |
 
-> 數值見 [[numbers]]。**只提到、未使用的來源**：[[s-ichinose-2015-reward-recurrent-circuit]] 在背景引 Trannoy et al. 2011，稱 *rut* 的環化酶在 α/β KC 中作用於長期記憶，本身沒有用 *rut* 突變。其餘來源頁以文字搜尋 `rutabaga`、`rut` 都找不到（2026-10-26 搜尋；之後收錄的 Tumkaya 2025、Minnick 2026 也不用 *rut* 突變）。
+> 數值見 [[numbers]]。**只提到、未使用的來源**：[[s-ichinose-2015-reward-recurrent-circuit]] 在背景引 Trannoy et al. 2011，稱 *rut* 的環化酶在 α/β KC 中作用於長期記憶，本身沒有用 *rut* 突變。其餘來源頁以文字搜尋 `rutabaga`、`rut` 都找不到（2026-10-26 搜尋；之後收錄的 Tumkaya 2025、Minnick 2026 也不用 *rut* 突變）。2026-11-13 新收的 11 篇中另有兩篇只是提到：
+>
+> - [[s-aso-2019-nitric-oxide-cotransmitter]]：沒有用 *rut* 突變株，只在討論中引生化文獻說 sGC 可以被 PKA 磷酸化、而且 *rutabaga* 突變腦的 sGC 活性較低，用來暗示 cAMP 與 cGMP 兩條路互相串話。這是庫內第一次出現「cAMP 路徑影響 cGMP 路徑」的線索，但來自被引用的文獻，不是該篇自己的量測。
+> - [[s-dylla-2017-trace-conditioning-dan-plasticity]]：也沒有用 *rut* 突變株，只在討論中引 Shuai et al. 2011 主張痕跡制約不需要 *rutabaga*，據此推論痕跡制約可能用另一種分子做巧合偵測——與 Tomchik 2009 把 *rut* 協同和痕跡時間窗並列的看法不同。
 
 ## 已知的問題（引用時的陷阱）
 
@@ -80,5 +83,5 @@ confidence: medium
 - 實體：[[e-dunce]]、[[e-238y-gal4]]、[[e-kenyon-cell]]、[[e-mushroom-body]]、[[e-epac-camp-sensor]]、[[e-t-maze]]、[[e-dopamine-receptor]]
 - 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]
 - 綜述：[[syn-contradictions]]（3.9 突變株的兩段式記憶衰減）
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-ichinose-2015-reward-recurrent-circuit]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]
 - 待開頁面：`e-amnesiac`

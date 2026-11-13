@@ -1,7 +1,7 @@
 ---
 title: CsChrimson（紅光活化通道）
 created: 2026-10-25
-updated: 2026-11-12
+updated: 2026-11-13
 tags: [entity, active, mb-learning]
 confidence: high
 ---
@@ -42,6 +42,7 @@ confidence: high
 | [[s-felsenberg-2017-re-evaluation]] | **活化的是 MBON 不是 DAN**：V2 群（R71D08-LexA 等）、γ2α′1 MBON（R25D01-LexA、MB077C）；離體腦，630 nm、0.85 mW/mm²，40 Hz × 10 ms 共 500 ms（圖 4d 為 200 ms）；視黃醛 1 mM | 看活化 MBON 後 PPL1 或 PAM 的鈣反應（MBON → DAN 的功能連結） |
 | [[s-felsenberg-2018-memory-extinction]] | **活化的是 MBON**：M4β′ 與 M6（VT1211-LexA）；離體腦，參數同 Felsenberg 2017（500 ms） | 活化後 γ5 的 PAM 末梢 ΔF/F0 約 +1.75（5 個腦），γ4 無反應 |
 | [[s-tumkaya-2025-synthetic-memory-inception]] | **活化的是感覺神經元不是 DAN**：Orco-Gal4 的 ORN（另有 Or42b、Gr21a）。論文寫「Chrimson」，品系為 BDSC:55135（帶 mVenus 標籤）；視黃醛 0.5 mM、實驗前 2 天換飼料、全程暗養 | 以紅光代替氣味當 CS。紅光由微投影機照半條通道，形成明暗選擇；該篇的 DAN 改用藍光的 Chr2XXL，兩色互不干擾 |
+| [[s-huang-2024-dopamine-memory-dynamics]] | **活化的是 MBON**：MBON-γ1pedc>α/β（MB085C／UAS-CsChrimson-tdT）；頭固定、腳踩小球的活果蠅；625 nm、25 µW/mm²，30 下、每下 0.5 s、0.5 Hz，訓練時 CS+ 與 CS− 期間都照；全反式視黃醛 400 µM 餵 3–5 天 | 訓練期間讓這顆 MBON 持續放電，使它對 PPL1-α3 的抑制性回饋降不下來：照光的實驗組 5 分鐘記憶正常、3 小時記憶消失；照光的對照組（MB085C/+）與兩個不照光組 3 小時都正常（2 × 2 四組，每組 12 隻） |
 
 ## 已知的問題
 
@@ -50,6 +51,7 @@ confidence: high
 - **「光照有效」靠補充資料。** Hige 2015 說光脈衝能讓 PPL1-γ1pedc 與 PPL1-α′2α2 可靠放電，證據在補充圖 S2：？待查。Hige 2015 比較了兩個區室的誘發門檻（要多少次「氣味＋光」配對才會讓突觸變弱）：γ1pedc 用 MB320C（一顆 DAN），α2 用 MB099C（多型 DAN）。不同品系每次光照放出的多巴胺可能不同，所以門檻差異可能部分來自活化強度，是這項比較的混淆因子（見 [[e-mb099c]]、[[e-mushroom-body]]）。
 - **光本身的作用要排除。** Handler 2019 的行為指標是「訓練後果蠅往氣味源走的距離比訓練前多幾 mm」。只帶 CsChrimson、沒有 DAN 驅動品系（所以光照不會活化 DAN）的對照組，在 DAN 晚氣味 1 s 的時序下也多走了約 0.7 mm（見 [[numbers]]），表示光與流程本身就有小幅效果；光照單獨的對照在補充圖 S1D–E：？待查。
 - **「活化 MBON 讓 DAN 有反應」只說明功能上相連。** Felsenberg 2017、2018 的離體實驗沒有氣味、n 小（4–5），不能區分直接突觸與間接路徑；Felsenberg 2018 的 VT1211 同時標 M4β′ 與 M6，分不出是哪一顆在驅動 γ5。
+- **Huang 2024 的活化不是代替懲罰，而是「壓住可塑性的後果」。** 它照的是 MBON，目的是抵消訓練讓這顆 MBON 對 CS+ 變弱的效果；結果只測了 3 小時一個長時間點，行為只在小球上測。
 - **Cohn 2015 也提到一種「紅移的 channelrhodopsin」**（補充圖 S6A），論文沒寫是哪一種，本頁不把它算成 CsChrimson。
 
 ## 相關
@@ -57,4 +59,4 @@ confidence: high
 - 細胞：[[e-dopaminergic-neuron]]；品系：[[e-split-gal4]]
 - 概念：[[c-us-substitution]]、[[c-cs-us-timing]]、[[c-performance-index]]
 - 主題：[[t-timing-rules]]、[[t-mbon-dan-feedback]]
-- 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]
+- 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]

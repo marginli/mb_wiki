@@ -1,7 +1,7 @@
 ---
 title: T 迷宮（T-maze）
 created: 2026-10-25
-updated: 2026-11-12
+updated: 2026-11-13
 tags: [entity, active, cross-domain]
 confidence: high
 ---
@@ -40,8 +40,14 @@ confidence: high
 | Ichinose 2015 | 乾燥蔗糖紙；兩氣味各 1 min | 3-OCT 1%、4-MCH 2%（石蠟油稀釋） | 約 50 隻 | 2 分鐘，取後 60 s；5 min（STM）或 24 h（LTM） | 學習指數 LI，偏好指數公式未寫 |
 | Felsenberg 2017 | 乾蔗糖；CS− 2 min → 空氣 30 s → CS+ 2 min | OCT、MCH（礦物油稀釋） | 50–100 隻 | 2 分鐘；訓練後 6 h（部分 3 h、24 h） | PI，公式只引 Krashes & Waddell 2008 |
 | Felsenberg 2018 | 90 V 電擊 12 下、每 5 s；CS+ 1 min → 空氣 45 s → CS− 1 min | MCH、OCT（礦物油稀釋 10⁻⁴ 或 10⁻⁶） | 約 80–100 隻 | 2 分鐘；訓練後 60 min | P.I.＝（CS+ 臂數 − CS− 臂數）÷ 總數（引 Tully & Quinn 1985）；躲 CS+ 為負 |
+| Burke 2012 | **獎賞**，糖分三種（蔗糖＝甜＋有熱量、阿拉伯糖＝甜無熱量、阿拉伯糖＋山梨醇）；人工增強則以 dTrpA1 升溫代替糖：氣味 A 在 23 °C 給 2 min → 換管 → 氣味 B 在 31 °C 給 2 min | 3-辛醇 9.2 µl 或 MCH 18 µl，各溶於 8 ml 礦物油 | 正文未寫：？待查 | 立即（3 min）、30 min、3 h、24 h | PI＝（選受訓氣味 − 選對照氣味）÷ 總數；一個 PI 是同基因型以兩種氣味各訓練一次的平均。走向 CS+ 為正 |
+| Aso 2014b | 嫌惡：CS+ 1 min 配 12 下 1.5 s、90 V 電擊，CS− 1 min 不配；獎賞：飢餓到約 10% 死亡率，糖紙配對。長期記憶另用 5 次間隔訓練（間隔 15 min），每次 12 下 1.5 s、60 V | OCT 1%、MCH 2%（石蠟油稀釋）；長期記憶 OCT 0.36 mM、MCH 0.325 mM | 約 50 隻 | 2 分鐘全程錄影，取最後 10 秒各時刻 PI 的平均；訓練後 2 h（長期記憶 24 h） | PI，嫌惡畫為負值（圖 6A 公式） |
+| Pribbenow 2022 | 嫌惡：CS+ 1 min 內給 12 下 1.5 s、**120 V** 電擊（刺激間隔 3.5 s）→ 空氣 45 s → CS− 1 min。獎賞：飢餓 20–24 h，CS− 2 min → 空氣 30 s → CS+ 配糖 2 min → 空氣 30 s | OCT、MCH（礦物油稀釋，嫌惡約 1:100、獎賞約 1:1000，濃度微調以避免氣味偏好） | 正文未寫：？待查 | 2 分鐘，在暗中；立即或 3 h | PI，公式引 Owald et al. 2015；嫌惡畫負值 |
+| Kaldun 2025 | 依 Tully & Quinn 設計、改成四組並行的機器。嫌惡：適應 90 s → CS+ 60 s 配 12 下 1.5 s、**100 V**（間隔 3.5 s）→ 空氣 30 s → CS− 60 s。獎賞：先餓 19–21 h，適應 90 s → 氣味 120 s（清水濾紙）→ 空氣 60 s → 氣味 120 s（1.5 M 蔗糖濾紙）。24 h 嫌惡改六循環、**90 V**、循環間隔 15 min，而且改用 Y 迷宮 | 3-辛醇與 MCH，石蠟油稀釋 1:100、260 µl、杯內徑 14 mm，氣流 7 l/min | 50–100 隻（一次實驗＝一個 LI） | 兩臂二選一 60 s；訓練後約 3 min（0 h）、2 h 或 24 h | LI＝兩次互換氣味制約的 PREF 平均，刻度 −100 到 +100；PREF＝(一臂隻數 − 另一臂隻數)×100÷總數，論文沒指明哪一臂當被減數 |
 
 與 Tully 1985 的差別一眼可見：Felsenberg 2018 只在計分公式引用本篇，電壓（90 V 對 60 V）、兩氣味之間的空白（45 s 對 30 s）、隻數（80–100 對約 150）、氣味給法（稀釋液對純液）都不同；Ichinose 2015 與 Felsenberg 2017 是糖獎賞版，CS− 先給的排法（Felsenberg 2017）也與本篇相反。排法本身會影響分數：Tully 1985 圖 6 的電擊訓練中，把標準的「CS+ 在前」改成「CS+ 在後」，Λ 低 7%（※ 從圖判讀約 0.86 → 0.79；差異達統計顯著，P < 0.05）；糖獎賞是否同樣如此，庫內沒有資料。
+
+**電擊的強度也一路往上。** 庫內最低的是 Tully 1985 的 60 V、每下 1.25 s（該篇自己掃過電壓，60 V 的 Λ 最高）；之後是 Aso 2014b 與 Felsenberg 2018 的 90 V、Kaldun 2025 的 100 V，最高的是 Pribbenow 2022 的 120 V，每下都拉長到 1.5 s。Kaldun 2025 在同一篇裡就用了兩種電壓（0／2 小時 100 V、24 小時 90 V），論文沒有說明原因。
 
 參數見 [[numbers]]。
 
@@ -55,12 +61,16 @@ confidence: high
 | [[s-ichinose-2015-reward-recurrent-circuit]] | 以 [[e-shibire-ts]] 在不同時段關掉迴路後的 STM 與 LTM；類化（換成相似氣味測，見 [[c-odor-generalization]]） | 訓練時與訓練後 1 h 內需要 PAM-α1、MBON-α1、α/β KC，只影響 LTM（見 [[c-memory-consolidation]]） |
 | [[s-felsenberg-2017-re-evaluation]] | 訓練後再聞 CS+ 或 CS−（不給糖）之後的 6 h 記憶 | 再聞 CS+ → 消退（PI 約 0.3 → 約 0）；再聞 CS− → 再鞏固（見 [[c-memory-extinction]]、[[c-memory-consolidation]]） |
 | [[s-felsenberg-2018-memory-extinction]] | 嫌惡記憶在再聞 CS+ 之後的 60 min 記憶 | 消退只消掉約三分之一到一半的躲避（例：約 −0.39 → −0.20，圖判讀） |
+| [[s-burke-2012-octopamine-dopamine-reward]] | 三種糖的欲求記憶：阻斷章魚胺神經元、阻斷 PAM 多巴胺神經元，以及以人工活化代替糖 | 阻斷章魚胺神經元只損害「甜但沒有熱量」的阿拉伯糖記憶（約 0.065 對三組對照平均 0.25，降幅約 74%，本庫推算）；阻斷約 40 顆 PAM 則連阿拉伯糖記憶都消除。活化章魚胺神經元可代替糖（30 分鐘仍顯著），但在 DopR 突變株 *dumb¹* 中無效 |
+| [[s-aso-2014-mbon-valence]] | 逐型阻斷 MBON 後的 2 h 嫌惡與獎賞氣味記憶、24 h 長期記憶 | 嫌惡 2 h：23 條品系初篩 9 條有下降，以弱效應子複篩只剩 MB112C（MBON-γ1pedc>α/β）；獎賞 2 h 有 8 條；24 h 長期記憶只在測驗時阻斷，需要 V2 群（MB052B） |
+| [[s-pribbenow-2022-postsynaptic-plasticity]] | MBON 專一的受體 RNAi、訓練時阻斷 KC 之後的獎賞與嫌惡記憶 | 訓練時阻斷 KC：獎賞記憶消失（PI 約 0.28 → 約 −0.03），嫌惡記憶只略降且不顯著；在 M4/6 降低乙醯膽鹼受體 α5 損害立即獎賞記憶，降低 α1／α2／Dlg 損害 3 小時獎賞記憶，嫌惡記憶除 α7 外都不受影響 |
+| [[s-kaldun-2025-dop1r2-memory-phases]] | 把多巴胺受體 Dop1R2 從全蕈狀體或單條葉條件式剔除後，0／2／24 小時的學習指數（24 h 嫌惡改用 Y 迷宮） | 0 小時八格全部不顯著；2 與 24 小時在 α/β 與 α′/β′ 葉垮掉、γ 葉不受影響（見 [[e-dopamine-receptor]]） |
 
 Handler 2019 不用 T 迷宮，只在正文把它當成對照，說自己的小室能反覆訓練與測驗；它的裝置與指標見 [[c-performance-index]]。
 
 ## 已知的問題
 
-- **正負號約定不一致，跨篇並列前要先對齊。** Tully 1985：Λ 正值＝躲 CS+（全部躲開＝1）。Tomchik 2009：正值＝避開被電的氣味（1＝全部選對）。Felsenberg 2018：（CS+ − CS−）÷ 總數，**躲 CS+ 是負值**。Felsenberg 2017：正值＝偏向 CS+（糖獎賞）。Ichinose 2015：LI 正值＝選配糖的氣味，但換算公式沒寫。五篇中寫出公式的是 Tully 1985 與 Felsenberg 2018，兩式方向相反（Felsenberg 2018 的值約等於 −Λ）；但兩篇的分母是否都含留在中央的果蠅不確定（Tully 1985 ※ 推論含；Felsenberg 2018 ？待查），見 [[c-performance-index]] 陷阱 7。
+- **正負號約定不一致，跨篇並列前要先對齊。** Tully 1985：Λ 正值＝躲 CS+（全部躲開＝1）。Tomchik 2009：正值＝避開被電的氣味（1＝全部選對）。Felsenberg 2018：（CS+ − CS−）÷ 總數，**躲 CS+ 是負值**。Felsenberg 2017：正值＝偏向 CS+（糖獎賞）。Ichinose 2015：LI 正值＝選配糖的氣味，但換算公式沒寫。Burke 2012：正值＝走向配糖的氣味。Aso 2014b 與 Pribbenow 2022：嫌惡畫成負值。Kaldun 2025：LI 刻度 −100 到 +100、正值＝學得好，但公式只寫「一臂減另一臂」，沒指明哪一臂當被減數。寫出公式的是 Tully 1985 與 Felsenberg 2018，兩式方向相反（Felsenberg 2018 的值約等於 −Λ）；但兩篇的分母是否都含留在中央的果蠅不確定（Tully 1985 ※ 推論含；Felsenberg 2018 ？待查），見 [[c-performance-index]] 陷阱 7。
 - **分母要先對齊才能並排。** 2 分鐘內沒進臂、留在中央的果蠅（Tully 1985 每群通常 5–10 隻）算不算進分母，會讓同一組果蠅算出兩個分數；以全部果蠅為分母時這些果蠅等於 0 分，分數被往 0 壓。拿模擬或自製裝置的分數（常以已進臂隻數為分母）和 Tully 式的 Λ 並排前要先換成同一種算法，見 [[c-performance-index]] 陷阱 7。
 - **公式與上下限未寫的，只能做同篇內的相對比較**（Tomchik、Ichinose、Felsenberg 2017）。
 - **氣味互換取平均。** Tully 1985（OCT 為 CS+ 一組、MCH 為 CS+ 一組，兩組平均為一個 N）、Ichinose、Felsenberg 2017／2018 都讓兩種氣味輪流當 CS+，兩組平均成一個 n；Tomchik 的作法：？待查。
@@ -73,4 +83,4 @@ Handler 2019 不用 T 迷宮，只在正文把它當成對照，說自己的小�
 - 概念：[[c-performance-index]]、[[c-memory-extinction]]、[[c-memory-consolidation]]、[[c-cs-us-timing]]、[[c-odor-generalization]]
 - 工具：[[e-shibire-ts]]、[[e-olfactory-arena]]
 - 主題：[[t-timing-rules]]、[[t-memory-updating]]
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2014-mbon-valence]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-kaldun-2025-dop1r2-memory-phases]]

@@ -91,7 +91,7 @@ confidence: medium
 
 - PAM 群傳遞糖獎賞（Burke et al. 2012；Liu et al. 2012），並可再分為誘發 STM 與誘發 LTM 的型（Huetteroth et al. 2015；Yamagata et al. 2015）。
 - 誘發出的 LTM 在訓練剛結束時量不到、隨時間逐漸出現（Das et al. 2014；Huetteroth et al. 2015；Yamagata et al. 2015）。這是「訓練後還有東西在推動」的線索。
-- 先前關於 MBON 在學習中的研究集中在記憶**提取**（Séjourné et al. 2011；Pai et al. 2013；Plaçais et al. 2013；Aso et al. 2014b）；MBON-α3（樹突在 α 葉尖端的區室 α3）參與獎賞型 LTM 的提取、但不參與獲得（Plaçais et al. 2013）。本篇要問 MBON 是否也參與獲得。
+- 先前關於 MBON 在學習中的研究集中在記憶**提取**（Séjourné et al. 2011；Pai et al. 2013；Plaçais et al. 2013；Aso et al. 2014b）〔這是 Ichinose 2015 對前人的歸納；[[s-aso-2014-mbon-valence]] 的 2 小時氣味記憶、顏色記憶與酒精記憶都是在訓練、保留、測驗全程阻斷 MBON，作者明說預期會偵測到任何記憶處理階段的損害，只有長期記憶是只在測驗時阻斷，並承認「仍待證明這些 MBON 的輸出是在提取時短暫需要」；所以 Aso 2014b 多數阻斷不分階段，不是「集中在提取」（2026-11-13 依 Aso 2014b 更正）〕；MBON-α3（樹突在 α 葉尖端的區室 α3）參與獎賞型 LTM 的提取、但不參與獲得（Plaçais et al. 2013）。本篇要問 MBON 是否也參與獲得。
 
 背景：
 
@@ -330,6 +330,7 @@ flowchart TD
 - **B 格是陰性結果，n 只有 7、7、10**，而且連對照組的 LI 都只有約 0.24 與 0.33，低於同篇其他 LTM 實驗的對照（多在 0.3–0.45）。對照分數低，實驗組可以往下掉的空間就小，即使真有損害也較難達到顯著。「提取不需要 PAM-α1」是在低檢定力下的不顯著，不是正面證明。
 - **本圖與本庫既有的 MBON 模型相容（※ 推論，論文未討論）。** 分三步說：
   1. 本庫 [[e-mbon]] 頁記載一條一般規則（Hige 2015 引 Aso et al. 2014b）：每型 MBON 被活化時會推動果蠅靠近或走開；同一區室的 DAN 若傳遞獎賞，那格的 MBON 通常推動「走開」。學習時，多巴胺把該 MBON 對 CS+ 的反應**壓低**，於是 CS+ 引起的「走開」變弱，而另一個氣味仍引起正常的「走開」；果蠅偏向 CS+，靠的就是這個差距。
+     但 MBON-α1 本身不符合這條規則的預測：[[s-aso-2014-mbon-valence]] 圖 2C 以 MB310C（只標 MBON-α1）光遺傳活化未受訓練的果蠅，沒有偏好（中位數約 0）；同篇圖 7 則顯示 MB310C 是 2 小時氣味—糖記憶所需。所以下面「MBON-α1 推動走開」這個讀法沒有直接支持；但 Aso 2014b 只用一條品系、又是陰性結果，也不能排除（2026-11-13 依 Aso 2014b 更正）。
   2. 照這條規則，測試時把 MBON-α1 整個關掉，兩個氣味經由 MBON-α1 的「走開」訊號都歸零，這個差距跟著消失，學習指數應該下降。
   3. 本圖正是如此。所以圖 8 有兩種讀法：作者的讀法（圖 11）是 MBON-α1 在提取時經其他下游推動「趨近」；本頁補上的讀法是 MBON-α1 推動「走開」、學習壓低它對 CS+ 的反應。兩種讀法都能解釋圖 8，本篇的資料無法區分。後一種讀法要求學習讓 MBON-α1 對 CS+ 的反應**變弱**；3.11 會說明，作者的迴圈模型隱含的卻是「維持或變強」，兩者方向相反。
 
@@ -493,7 +494,7 @@ flowchart TD
 - 本庫其他來源：[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]
 - 主題：[[t-mbon-dan-feedback]]（MBON-α1 → PAM-α1 迴圈）、[[t-memory-updating]]（訓練後第一小時的鞏固窗）、[[t-dopamine-to-plasticity]]、[[t-timing-rules]]
 - 本批（2026-10-25 第二批）已開頁、與本篇相關：[[e-pam-alpha1]]、[[e-c739-gal4]]、[[e-shibire-ts]]、[[e-dopamine-receptor]]、[[c-memory-consolidation]]、[[t-mbon-dan-feedback]]、[[c-odor-generalization]]
-- 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，如細胞、基因、工具，`c-` 開頭為概念頁）：`e-mbon-alpha1`、`e-mb310c`、`e-mb323b`、`e-mb008b`、`e-mb247-gal4`、`e-dtrpa1`、`e-nmda-receptor`、`e-grasp`、`e-mcfo`、`c-appetitive-memory`
+- 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，如細胞、基因、工具，`c-` 開頭為概念頁）：[[e-mbon-alpha1]]、`e-mb310c`、`e-mb323b`、`e-mb008b`、`e-mb247-gal4`、`e-dtrpa1`、`e-nmda-receptor`、[[e-grasp]]、[[e-mcfo]]、[[c-appetitive-memory]]
 
 ## 出處
 

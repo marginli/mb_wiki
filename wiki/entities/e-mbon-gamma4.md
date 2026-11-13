@@ -1,7 +1,7 @@
 ---
 title: γ4 輸出神經元（γ4 MBON）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-13
 tags: [entity, active, mb-learning]
 confidence: medium
 ---
@@ -24,7 +24,7 @@ confidence: medium
 
 ## 是什麼
 
-樹突在 γ 葉第 4 格（γ4 區室）的蕈狀體輸出神經元（[[e-mbon]]）。γ 葉沿長度分 γ1–γ5 五格，每格有自己的 MBON 讀取 Kenyon 細胞（KC）的訊號，也有自己的多巴胺神經元（DAN）調整這個突觸（見 [[c-mb-compartment]]）。γ4 格的 DAN 屬於 PAM 群，以 58E02／R58E02 這段調控序列標記（見 [[e-r58e02]]）。庫內兩篇都只用區室名稱呼它（「γ4 MBON」），沒有給更完整的細胞名；兩篇出自同一實驗室（Ruta 實驗室），量的是 KC→γ4 MBON 突觸往哪個方向變。
+樹突在 γ 葉第 4 格（γ4 區室）的蕈狀體輸出神經元（[[e-mbon]]）。γ 葉沿長度分 γ1–γ5 五格，每格有自己的 MBON 讀取 Kenyon 細胞（KC）的訊號，也有自己的多巴胺神經元（DAN）調整這個突觸（見 [[c-mb-compartment]]）。γ4 格的 DAN 屬於 PAM 群，以 58E02／R58E02 這段調控序列標記（見 [[e-r58e02]]）。庫內量它的兩篇（Cohn 2015、Handler 2019）都只用區室名稱呼它（「γ4 MBON」），沒有給更完整的細胞名；兩篇出自同一實驗室（Ruta 實驗室），量的是 KC→γ4 MBON 突觸往哪個方向變。完整型名與形態出自 [[s-aso-2014-mb-architecture]]：**MBON-γ4>γ1γ2**，麩胺酸性，每側一顆。
 
 ## 版本與規模（標記它的品系）
 
@@ -32,14 +32,18 @@ confidence: medium
 |---|---|
 | Cohn 2015 | 主文沒寫品系名（論文稱 MBON-specific drivers；？待查） |
 | Handler 2019 | 離體 VT026001-Gal4；在體與閉迴路 R53C03-LexA |
+| Aso 2014a | 本型的命名與形態出處：**MBON-γ4>γ1γ2**（麩胺酸性，每側 1 顆，表 1 未給舊名）；品系 MB434B、MB298B |
+| Aso 2014b | MB298B（只標 MBON-γ4>γ1γ2；AD／DBD ＝ R53C03／R24E12）、MB434B（γ4>γ1γ2 ＋ β1>α）、MB433B（(γ4>γ1γ2) ＋ β1>α） |
 
-※ 推論：兩篇的「γ4 MBON」是同一型細胞。依據：同一實驗室、同以區室命名、都用 58E02 標的 DAN 去調它；但 Cohn 沒寫品系，無法逐一比對。
+※ 推論：Cohn 2015 與 Handler 2019 的「γ4 MBON」是同一型細胞，而且就是 Aso 2014a 命名的 MBON-γ4>γ1γ2。依據：同一實驗室、同以區室命名、都用 58E02 標的 DAN 去調它；Handler 在體用的 R53C03-LexA 與 Aso 2014b 的 MB298B 取的是同一段增強子（R53C03 為其 AD 半）。不確定之處：Cohn 沒寫品系，無法逐一比對；同一段序列做成不同品系，標到的細胞不一定相同。
 
 ## 庫內誰用了它
 
 | 來源 | 怎麼用 | 看到什麼 |
 |---|---|---|
 | [[s-cohn-2015-coordinated-neuromodulation]] | 離體膜片鉗（[[c-whole-cell-patch-clamp]]）與鈣成像；活體氣味成像；DAN 以 [[e-p2x2]]＋ATP 活化 | 單獨活化 58E02 DAN（與 KC 相隔 > 45 s）：誘發電流約 1.5 → 16 pA（n＝5），ΔF/F0 約 0.7 → 2.5；活體對氣味約 0.15 → 0.53；只活化 γ2 DAN 時小幅下降約 1.4 → 1.1（顯著）；與 KC 配對（< 500 ms）從已增強狀態壓回，約 2.0 → 0.35；活化它本身會改變各格 DAN |
+| [[s-aso-2014-mb-architecture]] | 對位影像、MCFO 單細胞標記、抗體判傳遞物質 | 麩胺酸性；樹突在 γ4，**軸突送回葉內、終止於 γ1 與 γ2**（圖 17A），作者推測它抑制 MBON-γ1pedc>α/β 與 MBON-γ2α′1（正負號本篇沒有量）；同一格另有一型樹突在 γ1、γ2 而末梢在 γ4 的 DAN（PAM-γ4<γ1γ2），可能構成回饋 |
+| [[s-aso-2014-mbon-valence]] | CsChrimson 光遺傳活化（MB298B 單型、MB434B 為兩型合併）；shibire<sup>ts</sup> 阻斷六種記憶作業；dTrpA1 活化看睡眠 | 活化 → **走開**（MB298B \*\*\*，是該篇少數有單型證據的方向之一）；促醒；24 小時氣味—酒精記憶需要它（MB298B、MB434B 兩條都顯著）；顏色獎賞記憶 MB434B 顯著 |
 | [[s-handler-2019-dopamine-receptor-timing]] | 離體以乙醯膽鹼刺激 KC、P2X2 活化 PAM，掃描時間差；DopR1、DopR2 剔除；閉迴路同時記錄行為 | 峰值 ΔF/F：逆向（−1.2 s）約 1.22 → 2.8，增強；順向（+0.5 s）約 1.22 → 0.42，減弱；±6 s 幾乎不變；DopR1 剔除後不再減弱、DopR2 剔除後不再增強（見 [[e-dopamine-receptor]]） |
 
 > 數值多為從圖判讀（約），見各來源頁與 [[numbers]]。
@@ -49,7 +53,8 @@ confidence: medium
 - **「相隔多久就不再有作用」兩篇不同。** Cohn 相隔 > 45 s 仍讓突觸變強，Handler 相隔 6 s 就幾乎不變，見 [[syn-contradictions]] 1.3。
 - **Cohn 的「配對減弱」有起點條件。** 圖 7I 的配對組從已被增強的狀態開始；活體實驗中「只有配對的氣味變弱」這個結果，用的讀數是兩種氣味反應的比值（約 1.35 → 0.6），所以分不出是配對氣味變弱，還是未配對氣味變強。
 - **讀法不同不能並排。** Cohn 圖 6A 用電流（pA），其餘與 Handler 用 GCaMP 的 ΔF/F；同一種讀法在不同實驗的起點也不同（Cohn 圖 6B 約 0.7、圖 7C 約 1.5–2）。
-- **「推動走開」是引用。** Handler 2019 引 Aso 2014b；庫內沒有來源自己測 γ4 MBON 的行為效果，Cohn 2015 全篇沒有行為讀出。
+- **「推動走開」的原始資料來自 [[s-aso-2014-mbon-valence]]。** Handler 2019 引的就是它；Cohn 2015 全篇沒有行為讀出。本型是該篇中少數以**單一品系、單一型別**取得顯著方向的 MBON（MB298B \*\*\*），證據層級高於 γ5β′2a 那類只有整群證據的型別。但要注意該篇的「走開」量的是未訓練果蠅在光照象限的偏好，不是學習後的行為。
+- **庫內兩篇用的細胞名比原文短。** Cohn 2015 與 Handler 2019 都只寫「γ4 MBON」，原文的型名是 MBON-γ4>γ1γ2——名字後半的「>γ1γ2」正是它把軸突送回 γ1、γ2 的意思（[[s-aso-2014-mb-architecture]] 圖 17A）。讀「γ4 MBON 的突觸變弱」時，要記得它的輸出落在別的區室。
 - **行為不只來自 γ4**（Handler 作者自承），單一 γ4 的變化不能完全代表行為。
 
 ## 相關
@@ -58,4 +63,4 @@ confidence: medium
 - 工具：[[e-p2x2]]、[[e-r58e02]]、[[e-gcamp]]；製備：[[c-ex-vivo-explant]]
 - 概念：[[c-kc-mbon-plasticity]]、[[c-cs-us-timing]]、[[c-mb-compartment]]
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]、[[t-mbon-dan-feedback]]
-- 來源：[[s-cohn-2015-coordinated-neuromodulation]]、[[s-handler-2019-dopamine-receptor-timing]]
+- 來源：[[s-cohn-2015-coordinated-neuromodulation]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]
