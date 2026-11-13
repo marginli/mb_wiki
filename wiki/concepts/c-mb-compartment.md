@@ -8,7 +8,7 @@ confidence: high
 
 # 蕈狀體區室（MB compartment）
 
-**Kenyon 細胞（KC）的軸突成束排成幾條「葉」（lobe）；每條葉沿長度再切成一格一格的區室，每一格由特定一型多巴胺神經元（DAN）的軸突與特定一型輸出神經元（MBON）的樹突共同占據。** 一條 KC 軸突依序穿過好幾格，沿途與每格的 MBON 形成突觸；每格的 DAN **主要**調整自己那一格的 KC→MBON 突觸，但有例外（見陷阱 5）。Hige 2015、Aso 2016、Felsenberg 2017 都引 Aso et al. 2014a：共 15 個區室。
+**Kenyon 細胞（KC）的軸突成束排成幾條「葉」（lobe）；每條葉沿長度再切成一格一格的區室，每一格由特定一型多巴胺神經元（DAN）的軸突與特定一型輸出神經元（MBON）的樹突共同占據。** 一條 KC 軸突依序穿過好幾格，沿途與每格的 MBON 形成突觸；每格的 DAN **主要**調整自己那一格的 KC→MBON 突觸，但有例外（見陷阱 5）。Hige 2015、Aso 2016、Felsenberg 2017、Pribbenow 2022 都引 Aso et al. 2014a（本庫 [[s-aso-2014-mb-architecture]]）：葉上共 15 個區室（γ、α′/β′、α/β 各 5），另有柄遠端核心 pedc 由一型 MBON 與一型 DAN 專屬支配、不計入 15（見陷阱 10）。
 
 **本頁用語**（每頁可單獨查閱，故重複列出）：
 
@@ -23,7 +23,8 @@ confidence: high
 
 ## 怎麼算 / 怎麼判定
 
-- **界定**：依 DAN 與 MBON 的解剖投射範圍（Aso et al. 2014a）。細胞以所在區室命名，例如 PPL1-γ1pedc（投射到 γ1pedc 的多巴胺神經元）、MBON-α2sc、γ4 MBON。
+- **界定**：依 DAN 與 MBON 的解剖投射範圍（[[s-aso-2014-mb-architecture]]）。細胞以所在區室命名，例如 PPL1-γ1pedc（投射到 γ1pedc 的多巴胺神經元）、MBON-α2sc、γ4 MBON。該篇把 21 型 MBON 的樹突與 20 型 DAN 的末梢分別對位到同一個標準腦，看它們如何鋪排，並以雙色標記與 MCFO 檢驗相鄰區室的界線。
+- **區室之下還有一層**：每個區室再依「哪幾型 KC 的軸突經過那一層」細分成**基本分區**（elemental subdivision，Tanaka et al. 2008 稱 synaptic unit），全葉共 37 個（含 pedc）。MBON-α2sc 只取表層與核心層的 KC、MBON-α2p3p 只取後層，差別就在這一層（見陷阱 9）。
 - **實驗用法**：用 [[e-split-gal4]] 等驅動品系只活化某一格的 DAN，再記錄同一格或鄰格的 MBON，看改變會不會越界。
 
 ## 庫內的用法
@@ -40,6 +41,14 @@ confidence: high
 | [[s-tomchik-2009-camp-dynamics]] | **不是區室層級。** 比較的是萼部（calyx，KC 樹突所在）vs 葉部（KC 軸突），以及 α、α′、γ 等不同葉（不同類 KC 的軸突） | cAMP 協同只在葉部出現；多巴胺在萼部的 cAMP 反應有升有降 |
 | [[s-gervasi-2010-pka-dynamics]] | **也不是區室層級。** 比較萼部與 α、β、γ 三條葉的 PKA；藥物浴灌、全腦同時泡到 | 浴灌多巴胺只打開 α 葉的 PKA，章魚胺打開全部；作者自己承認，β、γ 葉可能有感測器看不到的小區域被打開，而真實的多巴胺是由特定神經元送到特定區室，本篇沒有量 |
 | [[s-huang-2024-dopamine-memory-dynamics]] | 以區室為單位量五型 PPL1 與六型 MBON 的放電（電壓成像）；模型分 γ1、α2、α3 三個模組，接線依連結體 hemibrain v1.2.1 | 改變的持續時間依區室而異：MBON-γ1pedc>α/β 不到 1 小時（短期），MBON-α3 超過 24 小時（長期）；**區室之間經由回饋相連**——γ1pedc 的 MBON 抑制 α3（與 α′2α2）的 DAN，訓練讓這條抑制減弱，α3 的 DAN 才開始對 CS+ 放電。模型的可塑性時間常數 γ 約 30 分鐘、α 約 100 分鐘 |
+| [[s-aso-2014-mb-architecture]] | **本概念的出處。** 把 21 型 MBON 的樹突與 20 型 DAN 的末梢分別對位到標準腦，看它們如何鋪排；另在同一顆腦裡以雙色標記與 MCFO 檢驗相鄰區室的界線 | 葉上 15 個區室（γ、α′/β′、α/β 各 5）＋ 柄遠端核心 pedc；**12 個受測交界中確認了 11 個**（β1 與 β2 之間因為缺品系沒測），交界處樹突之間有空隙、Bruchpilot 突觸密度較低。13 型 MBON 只進一格、8 型進兩格；20 型 DAN 中 17 型只投射到一格、3 型兩格。**包鞘膠細胞只分隔三條葉，不出現在同一條葉的區室之間** |
+| [[s-mao-2009-dopaminergic-neuron-types]] | 本概念的前身之一。以 flip-out 單細胞選殖看 DAN 一端的分段；以 TH-GAL4 群體鈣成像逐段比較 DAN 末梢 | PPL1 約 12 顆、分出五型伸進葉：α 尖端、α′ 尖端、上段、下段連交界、腳跟連柄末端。四段 DAN 對電擊與氣味的偏好不同（電擊：下段連交界約 74% ＞ α 尖端約 48% ＞ α′ 尖端與上段約 6–8% ΔF/F，※ 從圖判讀）。抗 TH 在水平葉也呈分段，γ 葉分得出 γ3、γ4、γ5（圖 4A3，編號是作者自己標的）。**本篇寫的是 zone、sub-area，還沒有用 compartment 一詞** |
+| [[s-dylla-2017-trace-conditioning-dan-plasticity]] | 在活果蠅上以鈣成像同時看九個區室（γ1–γ5、β′1、β′2、α1/α′1、junction）的 DAN 與 KC，並把九區的反應組成向量比較空間樣式 | 各區對氣味與電擊的反應比例不同：γ1、γ2 的 DAN 電擊反應大於氣味，β′ 葉相反。配對造成的改變在 DAN 出現於 9 區中的 8 區，在 KC 只出現於 β′1、β′2、junction。該篇說葉共 15 格，另把 junction 與合併的「α1/α′1」也當區室稱呼——**是自訂的分區，不是 Aso 2014a 的 15 格** |
+| [[s-aso-2019-nitric-oxide-cotransmitter]] | 以「每格的 DAN 用不用一氧化氮」當作區分區室的新維度；以抗 NOS 染色量化各區室的訊號（n＝12）；再把 NOS 異位表現到本來沒有的格 | γ1 與 γ5 兩格的 NOS 最高（γ1 顯著高於 12 個區室、γ5 高於 8 個）。在本來沒有內生 NOS 的 PPL1-α3 裡表現 NOS，TH 突變果蠅經 3×1 分鐘訓練就形成正價性記憶（約 +0.18）→ **區室的性質至少有一部分由支配它的 DAN 決定，而不是那一格的 KC 軸突**。保留：γ4 的抗體訊號其實第二高，但 PAM-γ4 的 NOS 轉錄本很低，抗體與 RNA 兩套證據在 γ4 上不一致 |
+| [[s-aso-2023-upwind-neurons]] | 比較四個獎賞區室（α1、β1β2、γ4、γ5β′2a）的記憶在讀出時叫出什麼動作 | 四組的二選一 PI 都顯著，但只有 α1、β1β2 的記憶引發迎風移動。作者推測 α/β 葉等成蟲專有的輸出路徑專職循風趨性，γ、β′ 葉多源自幼蟲——**這是假說，本篇沒有檢驗** |
+| [[s-yamada-2023-second-order-conditioning]] | 以區室為單位比較「誰能當老師、誰是學生」：光活化四組 PAM 分別寫入 α1、γ5/β′2a、β1/β2、γ4，再測它們教出二階記憶的能力；另以多巴胺感測器 DA2m 看活化 SMP108 時各區室收到多少多巴胺 | 只有 α1 的記憶在一天後仍能當老師（γ5/β′2a 只在訓練完 2 分鐘時有效）。活化 SMP108 時 β′2（約 0.8）、γ4（約 0.6）最亮，γ5、β2、β1 較小，**α1 不亮**（N＝8–12，※ 從圖 6B 判讀）。論文說 DAN 與 MBON 在 KC 軸突上形成 **16 個**區室（與 Aso 2014a 的 15 不同，見陷阱 10） |
+| [[s-pribbenow-2022-postsynaptic-plasticity]] | 以 CRISPR 內生 GFP 標記量七種成分（α1、α2、α4–α7、Dlg；**α3 次單元未做成標記**）在各區室的相對螢光；RNAi 後以鄰格正規化（γ5 對 γ4、β′2 對 β′1） | 每個次單元的分布都不同，受體組成在各格並不一致：α5 在整個 γ 葉含 γ5 都高、β′2 略低，α2 在 β′2 與 γ5 同樣偏高，兩者在 α′3 也測得到。**正文寫「至少 15 個區室」，但圖 4b 的熱圖橫軸只有 13 格**（γ5、γ4、γ3、γ2、γ1、β′2、β2、β′1、β1、α′1/1、α′2/2、α′3、α3；※ 從圖判讀），論文沒有說明少了哪幾格 |
+| [[s-eschbach-2021-learned-innate-valence-integration]] | **幼蟲**的區室系統：萼、柄、側附區、垂直葉、垂直葉上段、內側葉——**與成蟲的 α/β、α′/β′、γ 葉 15 格不是同一套命名**，論文沒有把兩者對應。區室的記憶方向引自 Eschbach 2020 | 正價值（推動靠近）MBON 多半（4/6）住在懲罰記憶的區室，負價值多半（3/5）住在獎賞記憶的區室——與成蟲同一個原則。萼與垂直葉上段各有一對效果相反的 MBON（a1/a2、e1/e2） |
 
 > 數值見 [[numbers]]。
 
@@ -55,10 +64,20 @@ confidence: high
 
 8. **Huang 2024 模型裡「α2 沒有作用」是擬合結果，不是實驗排除。** MBON-α2sc 與 MBON-α3 到 PPL1-α3 的興奮性回饋擬合出來近乎為 0，兩模組版（只有 γ1 與 α3）的參數也和三模組版無差異；原文承認 α2 的結果與前人報告不一致。圖 1a 畫出來的連線，不等於模型裡有作用的連線。另外它的「短期／長期」區室是以 MBON 放電改變持續多久來分，不是以需要蛋白質合成與否來分（見 [[c-memory-consolidation]]）。
 
+9. **「15」與「37」是兩個層級。** 15 是區室（MBON 樹突鋪出來的格），37 是基本分區（再依 KC 的層細分）。[[s-aso-2014-mb-architecture]] 的圖 12A 矩陣是後者，圖 10G–L 是前者；該來源頁已逐欄數過 37。庫內寫「每格由一型 DAN 與一型 MBON 負責」時，實際上有三種樣式（一對一、一型 MBON 配兩型 DAN、一型 DAN 配三型 MBON），該篇圖 12B–D 各舉一例。
+
+10. **格數在庫內至少有五個數字，來源各不相同。** [[s-aso-2014-mb-architecture]] 的頭條數字是 **15**（不含柄核心），但它的圖 1C 把 pedc 畫成與區室並列的第 16 格、圖 12A 的矩陣也給它一欄、圖 17J 更把「γ1 ＋ pedc」算成「跨葉」的一例（圖 12C 則只算四型跨葉）；[[s-yamada-2023-second-order-conditioning]] 寫 **16**；[[s-aso-2016-dan-cell-type-rules]] 正文寫六組品系涵蓋 15 格中的 11 格、圖 5B 卻數得出 12 格（單篇自身不一致，根源就是 pedc 算不算）；[[s-dylla-2017-trace-conditioning-dan-plasticity]] 說葉共 15 格，但它實際分析的是自訂的**九區**（含 junction 與合併的 α1/α′1）；[[s-pribbenow-2022-postsynaptic-plasticity]] 正文寫「至少 15」，熱圖只量了 **13** 格。引用任何一個數字前，先確認它指的是「Aso 2014a 的 15 格」「含 pedc 的 16」「某篇自己量到的幾格」還是「37 個基本分區」。
+
+11. **幼蟲的區室不是成蟲的區室。** [[s-eschbach-2021-learned-innate-valence-integration]] 用的是幼蟲命名（萼、柄、側附區、垂直葉、垂直葉上段、內側葉）與幼蟲 MBON 編號（a1…q1），論文沒有把兩套系統逐一對應。可以借用的是**原則**（推動靠近的 MBON 多住在懲罰記憶的區室、推動走開的多住在獎賞記憶的區室），不能借用名字。該篇也顯示另一條成蟲通則在幼蟲不成立：成蟲推動走開的 MBON 全是麩胺酸性，幼蟲推動走開的卻有 GABA 性（h1、h2）與乙醯膽鹼性（a2）（※ 依該篇圖 3d 符號推論）。
+
+12. **「區室的性質由誰決定」有兩個方向的證據。** [[s-aso-2019-nitric-oxide-cotransmitter]] 把 NOS 異位表現到 PPL1-α3，那一格就獲得了原本屬於 γ1pedc／γ5 的「無多巴胺時寫入正價性記憶」的性質——支持性質由支配該格的 DAN 帶來。但 [[s-pribbenow-2022-postsynaptic-plasticity]] 顯示突觸後的受體組成也逐格不同（α5、α2 在 γ5、β′2 偏高），所以讀出端本身也不一致。兩者不衝突，但「換掉 DAN 就換掉這一格」的說法只被測過一個方向（加上 NOS），沒有人做過相反的移植。
+
+13. **區室交界處「突觸密度較低」只看過一種染色。** [[s-aso-2014-mb-architecture]] 的依據是 Bruchpilot 染色與樹突之間的空隙，**沒有量 KC 在交界處的突觸**；該篇自己把「是真的有物理屏障，還是只是兩型樹突的邊界」列為未答（該來源頁第六節）。它同時指出包鞘膠細胞只分隔三條葉、不分隔同一條葉的區室——所以「格」不是由膠細胞隔出來的。
+
 ## 相關
 
 - 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]、[[t-mbon-dan-feedback]]、[[t-memory-updating]]
 - 概念：[[c-kc-mbon-plasticity]]、[[c-camp-signaling]]、[[c-memory-consolidation]]
-- 實體：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-split-gal4]]、[[e-mb099c]]、[[e-p2x2]]
+- 實體：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-split-gal4]]、[[e-mb099c]]、[[e-p2x2]]、[[e-gcamp]]、[[e-th-gal4]]、[[e-mcfo]]
 - 綜述：[[syn-contradictions]]
-- 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]
+- 來源：[[s-aso-2014-mb-architecture]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-eschbach-2021-learned-innate-valence-integration]]

@@ -1035,7 +1035,7 @@
 |---|---|---|---|
 | 作者數 | 16 | Pribbenow 等，Charité – Universitätsmedizin Berlin；Owald 為通訊作者 | Chen、Heim、Laber、Reubold、Reynolds 五人標「貢獻相同」 |
 | 刊期 | *eLife* 11:e80445，2022-10-17 刊出 | 預印本 2022-07-16；投稿 2022-05-20；接受 2022-10-17 | CC BY（PDF 未印版本號），PMC9733945 |
-| 蕈狀體區室數 | 「至少 15 個」 | 引言對 DAN 分割蕈狀體的描述 | 第 139 行。圖 4b 的熱圖橫軸列出 12 格 |
+| 蕈狀體區室數 | 「至少 15 個」 | 引言對 DAN 分割蕈狀體的描述 | 第 139 行。圖 4b 的熱圖橫軸列出 13 格（※ 從圖判讀；⚠️ 與正文「至少 15 個」不一致，見來源頁第五節） |
 | GFP 標記的次單元 | 7 種：α1、α2、α4、α5、α6、α7 與 Dlg | CRISPR 在內生基因上接 EGFP（WellGenetics 製作） | **α3 沒有做成標記**（正文明寫 with the exception of α3）；但 α3 的 RNAi 有進圖 2 的行為篩選 |
 | RNAi 品系 | 7 個 α 次單元：Bloomington 28688、27493、27671、31985、25943、27251、25835；另有 DlgS97-RNAi | 引自 Barnstedt 2016、Cervantes-Sandoval 2017 | **編號與次單元的對應未列，降低效率未驗證**（grep efficien／qPCR／validat 全文） |
 | 嫌惡 T 迷宮協定 | CS+ 1 min 內 12 下電擊，每下 1.5 s、120 V，刺激間隔 3.5 s；→45 s 空氣→CS− 1 min→30 s 空氣 | 氣味 OCT／MCH，礦物油約 1:100 | 第 2128–2131 行。驗算：1.5＋3.5＝5 s ×12 ＝ 60 s，剛好填滿 1 分鐘 |

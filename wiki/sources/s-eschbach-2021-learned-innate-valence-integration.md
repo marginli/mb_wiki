@@ -339,7 +339,7 @@ CN-33 的品系 SS02108 每側標兩顆形態相似的神經元（CN-33 與 MB2O
 **本庫關注的後續。** 本篇與本庫三條線接得上：
 
 - **先天與習得在哪裡整合。** 成蟲的 [[s-aso-2014-mbon-valence]] 從 MBON 軸突的分布推測側角等「匯聚區」整合兩種價值；成蟲的 [[s-huang-2024-dopamine-memory-dynamics]] 在 PPL1 多巴胺神經元上看到先天價值（喜歡的氣味讓懲罰型 DAN 安靜）與習得價值相加；本篇在幼蟲的蕈狀體下游看到匯聚神經元。三篇的整合位置分別是 MBON 的輸出區、DAN、MB2ON。※ 推論：三者不互斥，可能同時存在；但「先天價值進入學習迴路」（Huang 2024）與「先天價值與學習結果在出口合流」（本篇）是兩種不同的計算，前者會改變學什麼，後者只改變表現什麼。
-- **MBON 下游與回饋共用細胞。** 本篇 62 型 CN 中 18 型直接回饋到調控神經元，與 [[t-mbon-dan-feedback]] 的成蟲回饋迴路（Ichinose 2015、Felsenberg 2017／2018、Huang 2024）相呼應；但本篇的回饋是**經過 MBON 下游一層**，不是 MBON 直接接 DAN，與那頁表中的各條連結層級不同。
+- **MBON 下游與回饋共用細胞。** 本篇 62 型 CN 中 18 型直接回饋到調控神經元，與 [[t-mbon-dan-feedback]] 的成蟲回饋迴路（Ichinose 2015、Felsenberg 2017／2018、Huang 2024；見 [[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]）相呼應；但本篇的回饋是**經過 MBON 下游一層**，不是 MBON 直接接 DAN，與那頁表中的各條連結層級不同。
 - **側向抑制。** 本篇數到的 9 處 MBON 之間的側向抑制，與成蟲 Felsenberg 2018（[[s-felsenberg-2018-memory-extinction]]）的 MVP2 抑制 M4β′／M6、Aso 2014 推測的「骨牌」相呼應，但幼蟲與成蟲的細胞不能對應。
 
 同批收錄的 [[s-aso-2023-upwind-neurons]] 是本庫第一篇處理成蟲「MBON 下游的哪一顆細胞讀出記憶」的來源（迎風神經元整合 MBON-α1 與 MBON-α3），可作為本篇的成蟲對照；另見 [[s-yamada-2023-second-order-conditioning]]（同一批 SMP353/354 也通往多巴胺神經元）與 [[t-mbon-to-action]]。論文引用的成蟲研究 Dolan 2018、2019 不在本庫。（2026-11-13 更正：原寫「本庫的成蟲論文目前沒有任何一篇處理」，撰寫時同批的 Aso 2023 已收錄。）
@@ -458,10 +458,11 @@ CN-33 的品系 SS02108 每側標兩顆形態相似的神經元（CN-33 與 MB2O
 - [[numbers]] — 本篇貢獻了 MBON 價值分類的型數、MB2ON／LHN／CN 的數目與組成、側向抑制的處數、鈣成像與行為的樣本數與從圖判讀的反應值、電顯偽陽性率與可靠連結門檻
 - 主題：[[t-mbon-dan-feedback]]（CN 中有 18 型直接回饋到調控神經元；CN-33 即回饋神經元 FAN-7；回饋發生在 MBON 下游一層）、[[t-memory-updating]]（只是旁及：學習結果怎麼被讀出）
 - 概念：[[c-mb-compartment]]（幼蟲的區室系統與成蟲不同）、[[c-ex-vivo-explant]]（幼蟲中樞神經系統離體加 PTX／MCA）、[[c-kc-mbon-plasticity]]（本篇假設嫌惡學習壓低 KC→正價值 MBON，未在幼蟲直接量突觸）、[[c-performance-index]]（本篇用導航指數，不是 PI）
-- 實體：[[e-mbon]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-mushroom-body]]、[[e-split-gal4]]、[[e-cschrimson]]、[[e-gcamp]]
+- 實體：[[e-mbon]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-mushroom-body]]、[[e-split-gal4]]、[[e-cschrimson]]、[[e-gcamp]]、[[e-tnt]]
 - 相關來源：[[s-aso-2014-mbon-valence]]（成蟲 MBON 價值與傳遞物質的通則、匯聚區的推測）、[[s-huang-2024-dopamine-memory-dynamics]]（成蟲：先天與習得價值在 DAN 上相加）、[[s-felsenberg-2018-memory-extinction]]（成蟲 MBON 之間的抑制）、[[s-hige-2015-heterosynaptic-plasticity]]（本篇引為 KC→MBON 壓低的依據）
 - 矛盾：無跨來源矛盾；與 Aso 2014 的「傳遞物質決定價值方向」在幼蟲不成立，屬發育階段不同，列為引用陷阱（見整合建議）
-- 待開頁面：`e-lateral-horn`（側角）、`c-convergence-neuron`（匯聚神經元）、[[c-valence-coding]]、[[c-feedforward-inhibition]]（MBON 之間的側向抑制）、[[e-catmaid]]、`e-tnt`（破傷風毒素輕鏈）、`e-kir2-1`、`e-gtacr2`、`e-larval-l1-connectome`（一齡幼蟲電顯資料）、`e-basin-neurons`、`c-larval-chemotaxis`（幼蟲以轉彎導航）、`c-reverse-correlation`
+- 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]；新開的主題頁：[[t-mbon-to-action]]（MBON 學到的價值怎麼變成動作）、[[t-innate-learned-integration]]（先天與習得價值在哪裡整合）
+- 待開頁面：`e-lateral-horn`（側角）、`c-convergence-neuron`（匯聚神經元）、[[c-valence-coding]]、[[c-feedforward-inhibition]]（MBON 之間的側向抑制）、[[e-catmaid]]、`e-kir2-1`、`e-gtacr2`、`e-larval-l1-connectome`（一齡幼蟲電顯資料）、`e-basin-neurons`、`c-larval-chemotaxis`（幼蟲以轉彎導航）、`c-reverse-correlation`
 
 ## 出處
 

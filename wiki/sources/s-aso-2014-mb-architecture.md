@@ -550,6 +550,7 @@ split-GAL4 找到 **20 型 DAN**（PAM 14 型、PPL1 6 型）、超過 100 顆�
 - 實體：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-split-gal4]]、[[e-mb504b]]、[[e-mb099c]]、[[e-th-gal4]]、[[e-r58e02]]、[[e-ppl1-gamma1pedc]]、[[e-ppl1-gamma2alpha1]]、[[e-ppl1-alpha2alpha2]]、[[e-ppl1-alpha3]]、[[e-pam-alpha1]]、[[e-mbon-gamma1pedc]]、[[e-mbon-gamma2alpha1]]、[[e-mbon-gamma4]]、[[e-mbon-gamma5beta2a]]、[[e-mbon-alpha2sc]]
 - 姊妹篇：[[s-aso-2014-mbon-valence]]（同一套品系的行為與功能測試）
 - 矛盾：[[syn-contradictions]] 4.4（本篇是該條指名要收的命名參考資料；見整合建議）、1.5（本篇的 R58E02-GAL80 實驗與之有關）
+- 2026-11-13 第一批整合時補上的連結 — 新開的主題頁：[[t-mbon-to-action]]（MBON 學到的價值怎麼變成動作）、[[t-innate-learned-integration]]（先天與習得價值在哪裡整合）
 - 待開頁面：[[e-mcfo]]、`e-pa-gfp`、`c-image-registration`（影像對位與標準腦）、`e-jfrc2013`、[[e-mbon-alpha1]]、[[e-mbon-alpha3]]、`e-mbon-beta1`、[[e-apl-neuron]]、[[e-dpm-neuron]]、`c-elemental-subdivision`（基本分區／突觸單元）、`e-syt-smgfp`、`e-mb060b`、`e-mb077b`、`e-mb112c`
 
 ## 出處

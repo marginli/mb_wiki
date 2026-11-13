@@ -166,7 +166,7 @@ flowchart TD
 
 **協定是怎麼挑出來的（方法「二階制約的最佳化」一節）。**
 
-- 作者先量各氣味的先天偏好在 12 次重複測驗中怎麼變（補充圖 1-1，未取得）。在 Tully & Quinn 1985 選定的濃度下，餓過的果蠅第一次略偏好 MCH，之後逐漸轉為迴避；OCT 不論飽餓都被迴避，迴避程度逐次減弱。**OCT 的先天迴避可能妨礙獎賞型的二階制約，所以 S1 全篇固定用 MCH。**
+- 作者先量各氣味的先天偏好在 12 次重複測驗中怎麼變（補充圖 1-1，未取得）。在 Tully & Quinn 1985（[[s-tully-1985-classical-conditioning]]）選定的濃度下，餓過的果蠅第一次略偏好 MCH，之後逐漸轉為迴避；OCT 不論飽餓都被迴避，迴避程度逐次減弱。**OCT 的先天迴避可能妨礙獎賞型的二階制約，所以 S1 全篇固定用 MCH。**
 - S2 用 PA 與 EL，理由是兩者引起的 KC 活動樣式不同、容易分辨（引 Campbell et al. 2013），而且先天反應在 12 次測驗中相對穩定。
 - 一階制約用 2 分鐘就能形成獎賞記憶（引 Krashes & Waddell 2008、Tempel et al. 1983），但 5 分鐘在前五次測驗中略強（圖 1C），所以**二階制約的回合數限定為 5 次**——也就是說，回合數是依「一階記憶在前五次測驗中還穩」來決定的。
 - 依一階制約「感覺線索要在增強訊號之前」的規則（Aso & Rubin 2016、Tanimoto et al. 2004），二階制約排成 S2+ 20 秒、緊接 S1 10 秒。
@@ -179,7 +179,7 @@ flowchart TD
 - 圖 1H、1I：以 Gr64f-GAL4 讓糖的味覺神經元帶 CsChrimson，S1 10 秒配光，共 9 次。「不省略」組在 S1 之後立刻補 3 下 1 秒紅光（間隔 1 秒）。圖 1I 的「阻斷」協定：先讓 S1 配光 9 次（配對組）或與光相隔 90 秒（未配對組），再測 S2+ 配光的學習。
 - 圖 8：訓練 5 次，氣味配光的時長依序為 10、30、60、60、60 秒，另一氣味不配光；每次訓練後測一次。接著不給光連測 12 次（消退期）；反轉配對再訓練 5 次、測 12 次（反轉期）；再反轉一次；最後只照光、不給氣味（這種不配對的 DAN 活化已知會抹除記憶，引 Berry 2012、Plaçais 2012）。
 
-**電生理。** 果蠅收集於羽化當天，餵 0.5 mM 視黃醛飼料、避光 48–72 小時；做二階制約的另外餓 60–72 小時。活體全細胞記錄沿用 Hige 2015：電極阻抗 4–6 MΩ，細胞以注入超極化電流維持在約 −60 mV（通常 < 100 pA），訊號 5 kHz 低通、10 kHz 取樣。氣味的飽和蒸氣以空氣稀釋成 0.5%（二階制約實驗）或 2%（其他實驗）。光刺激用 625 nm LED，經物鏡送到腦上，強度 17 mW/mm²；一階配對是 1 ms 脈衝、2 Hz、120 次（即 60 秒）。瞬時放電率以標準差 50 ms 的高斯核平滑；次閾值反應與氣味引起的放電取氣味開始後 1.2 秒（1 秒氣味）或 20.6 秒（20 秒氣味）的窗，並扣掉自發放電。
+**電生理。** 果蠅收集於羽化當天，餵 0.5 mM 視黃醛飼料、避光 48–72 小時；做二階制約的另外餓 60–72 小時。活體全細胞記錄沿用 Hige 2015（[[s-hige-2015-heterosynaptic-plasticity]]）：電極阻抗 4–6 MΩ，細胞以注入超極化電流維持在約 −60 mV（通常 < 100 pA），訊號 5 kHz 低通、10 kHz 取樣。氣味的飽和蒸氣以空氣稀釋成 0.5%（二階制約實驗）或 2%（其他實驗）。光刺激用 625 nm LED，經物鏡送到腦上，強度 17 mW/mm²；一階配對是 1 ms 脈衝、2 Hz、120 次（即 60 秒）。瞬時放電率以標準差 50 ms 的高斯核平滑；次閾值反應與氣味引起的放電取氣味開始後 1.2 秒（1 秒氣味）或 20.6 秒（20 秒氣味）的窗，並扣掉自發放電。
 
 **多巴胺成像。** 處女雌蠅帶 10XUAS-Chrimson88-tdTomato、R13F02-LexAp65、LexAop2-DA2m，與各 split-GAL4 雜交；25 °C、0.2 mM 視黃醛飼料、避光，羽化後 3–7 天取腦。**在取出的腦上做**：解剖後泡在 20 °C 的生理鹽水中，以共振掃描雙光子顯微鏡（激發 920 nm、19 mW，25× 物鏡）掃描 231 × 231 × 42 µm 的體積，步進 2 µm，512 × 512 畫素，約每秒 1.07 個體積。光刺激用 660 nm LED 配數位微鏡裝置，1 秒、12 µW/mm²；每次試驗先取 30 秒基線，刺激後再記 30 秒，重複 10 次。以 python 腳本在時間最大值投影上，依區室畫感興趣區（ROI），扣掉背景 ROI 後除以刺激前 30 秒的平均亮度得 ΔF/F。多重比較用 Kruskal–Wallis 檢定，事後用 Wilcoxon 等級和檢定。
 
@@ -476,10 +476,11 @@ MBON-γ5β′2a 的放電與突觸電位分不開（補充圖 3-3），所以量
 - [[numbers]] — 本篇貢獻了二階記憶的行為分數（一階訓練長度、保留、反覆測驗、學習曲線）、四組 DAN 品系的二階教學能力與細胞數、MBON-γ5β′2a 的次閾值反應、SMP108 的氣味引起放電數、各區室的多巴胺釋放、阻斷 SMP108 的效果、圖 8 的四個記憶動態比值與迴歸權重
 - 主題：[[t-mbon-dan-feedback]]（MBON-α1 → SMP353/354 → SMP108 → 多型獎賞 DAN，本庫第一條跨格的前饋路徑）、[[t-memory-updating]]（二階記憶的消退與反轉；「省略獎賞」造成的衰退）、[[t-dopamine-to-plasticity]]（學生格的 KC→MBON 突觸被跨格的教學訊號改變）
 - 概念：[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-memory-extinction]]、[[c-performance-index]]、[[c-us-substitution]]（以光活化 DAN 或糖味覺神經元代替糖）、[[c-whole-cell-patch-clamp]]、[[c-ex-vivo-explant]]（多巴胺成像）、[[c-odor-generalization]]（互換 S2+／S2− 以抵銷 S1 的類化）、[[c-memory-consolidation]]（一階記憶隔夜鞏固）
-- 實體：[[e-pam-alpha1]]（老師格的 DAN，MB043C）、[[e-mbon-gamma5beta2a]]（學生格的 MBON，SS01308 記錄）、[[e-r58e02]]（圖 5 的 PAM 群活化）、[[e-olfactory-arena]]、[[e-cschrimson]]、[[e-split-gal4]]、[[e-shibire-ts]]（試過但做不成）、[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-mushroom-body]]、[[e-kenyon-cell]]
+- 實體：[[e-pam-alpha1]]（老師格的 DAN，MB043C）、[[e-mbon-gamma5beta2a]]（學生格的 MBON，SS01308 記錄）、[[e-r58e02]]（圖 5 的 PAM 群活化）、[[e-olfactory-arena]]、[[e-cschrimson]]、[[e-split-gal4]]、[[e-shibire-ts]]（試過但做不成）、[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-tnt]]
 - 與本庫其他來源的關係：[[s-ichinose-2015-reward-recurrent-circuit]]（MBON-α1 的另一條輸出與相反的正負號假設）、[[s-aso-2016-dan-cell-type-rules]]（區室規則、同一批品系與協定）、[[s-huang-2024-dopamine-memory-dynamics]]（同一種「MBON 反應變小 → 下游 DAN 改變」的圖案，懲罰側）、[[s-dylla-2017-trace-conditioning-dan-plasticity]]（預測 DAN 對 CS 的習得反應支援二階制約）、[[s-aso-2014-mbon-valence]]（MBON 的傳遞物質與行為方向）、[[s-aso-2023-upwind-neurons]]（SMP353/354 ＝ UpWiNs 的功能研究）、[[s-hige-2015-heterosynaptic-plasticity]]（電生理方法來源）
 - 空缺：[[syn-contradictions]] 3.6（本篇填上一半：配對後 MBON-α1 對該氣味的反應下降，但資料在未取得的補充圖，且用光活化而非真糖）
-- 待開頁面：[[c-second-order-conditioning]]（二階制約；本篇與 [[s-dylla-2017-trace-conditioning-dan-plasticity]] 都用到它，已達兩篇門檻）、`e-smp108`、`e-smp353-354`（UpWiNs）、`e-mb043c`、`e-mb196b`、`e-tnt`（破傷風毒素輕鏈）、`e-da2m`（多巴胺感測器）、[[e-hemibrain]]、`c-neurotransmitter-prediction`（由電顯影像預測傳遞物質）、`c-sensory-preconditioning`（感覺預制約）、`c-blocking`（阻斷效應）、`e-gr64f-gal4`、[[e-mbon-alpha1]]
+- 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-tully-1985-classical-conditioning]]；新開的主題頁：[[t-mbon-to-action]]（MBON 學到的價值怎麼變成動作）
+- 待開頁面：[[c-second-order-conditioning]]（二階制約；本篇與 [[s-dylla-2017-trace-conditioning-dan-plasticity]] 都用到它，已達兩篇門檻）、`e-smp108`、`e-smp353-354`（UpWiNs）、`e-mb043c`、`e-mb196b`、`e-da2m`（多巴胺感測器）、[[e-hemibrain]]、`c-neurotransmitter-prediction`（由電顯影像預測傳遞物質）、`c-sensory-preconditioning`（感覺預制約）、`c-blocking`（阻斷效應）、`e-gr64f-gal4`、[[e-mbon-alpha1]]
 
 ## 出處
 

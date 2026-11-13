@@ -91,11 +91,11 @@ confidence: medium
 
 **主要問題。** 已鞏固的糖獎賞嗅覺記憶被再活化（reactivation，即訓練後再讓果蠅聞氣味、不給糖）時，消退與再鞏固分別由蕈狀體的哪些 MBON 與 DAN 執行？兩者如何被分流？
 
-**重要性。** 依本篇的說法，消退與再鞏固在哺乳類與人類研究中被視為改寫問題記憶的機會，但神經迴路層級的機制不明。果蠅的 MB 有已知的區室架構（葉與區室的說明見「為什麼重要」第四段）：Aso et al. 2014a（本篇引文 22）把 MB 葉分成 15 個區室，每格由一型 DAN 支配、一型 MBON 讀取，並指出 MBON 的軸突末梢（送出訊號的一端）與 DAN 的樹突（接收訊號的一端）在同一處重疊，所以 MBON 可能把訊號送給 DAN，形成 KC→MBON→DAN→回到蕈狀體的回饋迴路。本篇用行為與成像檢驗這些回饋迴路在記憶更新中的功能。
+**重要性。** 依本篇的說法，消退與再鞏固在哺乳類與人類研究中被視為改寫問題記憶的機會，但神經迴路層級的機制不明。果蠅的 MB 有已知的區室架構（葉與區室的說明見「為什麼重要」第四段）：Aso et al. 2014a（本篇引文 22；本庫 [[s-aso-2014-mb-architecture]]）把 MB 葉分成 15 個區室，每格由一型 DAN 支配、一型 MBON 讀取，並指出 MBON 的軸突末梢（送出訊號的一端）與 DAN 的樹突（接收訊號的一端）在同一處重疊，所以 MBON 可能把訊號送給 DAN，形成 KC→MBON→DAN→回到蕈狀體的回饋迴路。本篇用行為與成像檢驗這些回饋迴路在記憶更新中的功能。
 
 **發表當時的領域現狀（2017）。** 本篇引用的背景：
-- 果蠅的記憶價值以 MBON 網路的「偏斜」（skew）編碼（Aso et al. 2014b；Owald & Waddell 2015）。依本篇延伸圖 1d–f：未訓練的果蠅，一個氣味送到「推動靠近」與「推動走開」兩類 MBON 的驅動大致平衡；學習改變其中一類的驅動，天平就往另一邊傾斜。
-- 獎賞記憶由支配水平葉的 DAN 寫入（Liu et al. 2012；Burke et al. 2012），作法是壓低學到的氣味對「推動走開」的 MBON 的驅動（Owald et al. 2015）；走開的力量變弱，天平就偏向靠近。嫌惡記憶由主要支配垂直葉的 DAN 寫入（Claridge-Chang et al. 2009；Aso et al. 2012），壓低對「推動靠近」的 MBON 的驅動（Aso et al. 2014b；Séjourné et al. 2011）。
+- 果蠅的記憶價值以 MBON 網路的「偏斜」（skew）編碼（Aso et al. 2014b〔本庫 [[s-aso-2014-mbon-valence]]〕；Owald & Waddell 2015）。依本篇延伸圖 1d–f：未訓練的果蠅，一個氣味送到「推動靠近」與「推動走開」兩類 MBON 的驅動大致平衡；學習改變其中一類的驅動，天平就往另一邊傾斜。
+- 獎賞記憶由支配水平葉的 DAN 寫入（Liu et al. 2012；Burke et al. 2012〔本庫 [[s-burke-2012-octopamine-dopamine-reward]]〕），作法是壓低學到的氣味對「推動走開」的 MBON 的驅動（Owald et al. 2015）；走開的力量變弱，天平就偏向靠近。嫌惡記憶由主要支配垂直葉的 DAN 寫入（Claridge-Chang et al. 2009；Aso et al. 2012），壓低對「推動靠近」的 MBON 的驅動（Aso et al. 2014b；Séjourné et al. 2011）。
 - 果蠅的消退早有行為描述：反覆聞條件刺激而不給增強，學到的偏好會減弱（Tempel et al. 1983；Schwaerzel et al. 2002；Lagasse et al. 2009）。
 - 糖獎賞訓練一次就形成長期記憶，並在數小時內鞏固，鞏固表現為對冷休克麻醉的抵抗隨時間增加（Krashes & Waddell 2008）。
 - 哺乳類的研究：增強訊號沒出現時可能驅動消退學習；訓練情境只有小幅改變時則觸發再鞏固（Pedreira et al. 2004；Díaz-Mataix et al. 2013）。本篇據此推想：聞 CS− 只是重演訓練的一部分（訓練時本來就有 CS−、沒有糖），算是「小幅改變」，所以可能觸發再鞏固。
@@ -313,11 +313,12 @@ flowchart TD
 ## 相關
 
 - [[numbers]] — 本篇的數字（待併入）：各圖 PI（※ 從圖判讀）、冷休克時間點（0／30／90 分鐘）、γ2α′1 MBON 的 CS− 反應變大（約 14%／24%）、離體連結的 ΔF/F<sub>0</sub> 與 n、成像排除數、行為與成像協定參數
-- 本庫已有的相關頁：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-split-gal4]]、[[e-cschrimson]]、[[e-gcamp]]、[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-performance-index]]
+- 本庫已有的相關頁：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-split-gal4]]、[[e-cschrimson]]、[[e-gcamp]]、[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-performance-index]]、[[c-prediction-error]]（本庫以 `c-prediction-error` 取代原待開清單中的 `c-reward-prediction-error`）
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]
 - 同庫來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]
 - 本批（2026-10-25 第二批）已開頁、與本篇相關：[[c-memory-extinction]]、[[c-memory-consolidation]]、[[t-mbon-dan-feedback]]、[[e-shibire-ts]]、[[e-dopaminergic-neuron]]、[[e-mbon-gamma2alpha1]]、[[e-ppl1-gamma2alpha1]]、[[e-mb504b]]、[[e-r58e02]]、[[e-th-gal4]]、[[e-t-maze]]
-- 待開頁面：`c-cold-shock-anaesthesia`、`c-reward-prediction-error`、[[c-valence-coding]]、`e-mbon-v2-cluster`
+- 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-burke-2012-octopamine-dopamine-reward]]
+- 待開頁面：`c-cold-shock-anaesthesia`、[[c-valence-coding]]、`e-mbon-v2-cluster`
 
 ## 出處
 

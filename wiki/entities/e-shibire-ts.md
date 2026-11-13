@@ -1,7 +1,7 @@
 ---
 title: 溫度敏感型阻斷工具（shibire^ts1）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-13
 tags: [entity, active, mb-memory-dynamics]
 confidence: high
 ---
@@ -33,6 +33,11 @@ confidence: high
 | Ichinose 2015 | 32 °C | 24 °C | 只在訓練；訓練後立刻 1 h；訓練後 22 h 起 1 h；只在測驗 |
 | Felsenberg 2017 | 正文與各圖 32 °C；Methods 寫 33 °C（⚠️ 單篇不一致） | 23 °C | 再聞氣味前 30 min 起至結束；或再聞後立即／90 min 才升溫 |
 | Felsenberg 2018 | 30–33 °C | 23 °C | 再暴露期間（協定圖顯示約 40–45 min）；或只在測驗 |
+| Aso 2014b | 依作業而異（用語表寫本篇 31–34 °C）：2 h 氣味記憶 32 °C；顏色記憶 33 °C；長期記憶測驗 32 °C；酒精記憶方法寫 31 °C、圖 11 寫 33 °C（⚠️ 單篇自身不一致） | 18–25 °C（長期記憶訓練 25 °C、保存 18 °C；初篩飼養 25 °C、複篩 18 °C） | 2 h 記憶：訓練前 30 min 起到測驗結束全程；長期記憶：**只在測驗前 30 min 起**；酒精記憶：訓練與測驗時，中間 24 h 維持允許溫度 |
+| Burke 2012 | 31 °C | 23 °C | 訓練前 30 min 預熱，訓練與 3 min 記憶測驗全程維持；**3 h 記憶那一組，訓練到測驗之間的保存溫度正文與方法都沒寫（？待查）** |
+| Pribbenow 2022 | 32 °C | 約 23 °C（室溫） | 訓練前 30 min 起到訓練結束；之後立即回室溫，30 min 後測驗 |
+| Aso 2023 | 32 °C | 25 °C | 只在測驗時（1 天獎賞記憶）。**溫度只標在圖 7C 上，正文與方法都沒有寫** |
+| Yamada 2023 | 32 °C | — | **做不成**：想只在二階制約期間關掉 SMP108，但限制溫度下連對照基因型都迅速把一階記憶消退掉（正文寫 data not shown），只好改用從發育期就作用的 TNT |
 
 ## 庫內誰用了它
 
@@ -41,6 +46,11 @@ confidence: high
 | [[s-ichinose-2015-reward-recurrent-circuit]] | PAM-α1（MB299B）、MBON-α1（MB310C、MB323B）、α/β KC（c739、MB008B） | 訓練時或訓練後 1 h 內關掉三者任一，24 小時記憶受損，22 h 後才關則不受損；提取需要 MBON-α1、不需要 PAM-α1（見 [[c-memory-consolidation]]） |
 | [[s-felsenberg-2017-re-evaluation]] | PPL1（TH-GAL4、MB504B）、PAM（R58E02）、PPL1-γ2α′1（MB296B、R73F07）、V2 群 MBON（MB052B）、MBON-γ2α′1（MB077C）等 | 獎賞記憶的消退需要 PPL1 與 V2；再鞏固需要 MBON-γ2α′1、PPL1-γ2α′1，以及再聞之後的 PAM（見 [[c-memory-extinction]]） |
 | [[s-felsenberg-2018-memory-extinction]] | PAM（R58E02）、PPL1（MB504B）、M4β′／M6（VT1211） | 嫌惡記憶的消退需要 PAM、不需要 PPL1；關掉 M4β′／M6 讓消退變弱 |
+| [[s-aso-2014-mbon-valence]] | 23 條 MBON 品系初篩（強效應子 pJFRC100-20XUAS-TTS-Shibire-ts1-p10），陽性者以弱效應子 UAS-Shi x1 複篩；另阻斷 PPL1-γ1pedc（MB438B） | 2 h 嫌惡氣味記憶初篩 9 條陽性，複篩只剩 MB112C（MBON-γ1pedc>α/β），第二條品系 MB085C 確認：對照約 −0.45 到 −0.57、MB112C/Shi 約 −0.25（記憶剩一半左右，不是消失）。獎賞記憶初篩 8 條。24 h 長期記憶**只在測驗時阻斷**，需要 V2 群整群（MB052B），只標其子集的五條都不顯著。作者自陳設計「強調避免偽陽性」，所以可能漏掉一些細胞型別 |
+| [[s-burke-2012-octopamine-dopamine-reward]] | 章魚胺神經元（Tdc2-GAL4）、章魚胺子集（NP7088、0665-GAL4、0891-GAL4）、PAM 多巴胺神經元（0104-GAL4）、MB-MP1（c061-GAL4;MBGAL80） | 阻斷章魚胺神經元只損害「甜而無熱量」的阿拉伯糖記憶（降約 74%），蔗糖與「阿拉伯糖＋山梨醇」都無影響；阻斷 0104 的 PAM 則連蔗糖記憶也受損（阿拉伯糖降約 98%、蔗糖降約一半）。在活化章魚胺神經元的同時阻斷 MB-MP1，人工記憶形不成 |
+| [[s-pribbenow-2022-postsynaptic-plasticity]] | KC（R13F02-GAL4）；M4/6 MBON（MB011B） | 訓練時關掉 KC：獎賞記憶完全消失（PI 由約 0.29／0.26 降到約 −0.03），嫌惡記憶只略降且不顯著（約 −0.55 對 −0.65／−0.68）；**但 23 °C 對照也看得到同樣幅度的下降**。訓練時關掉 M4/6：獎賞記憶不受影響，作者據此推論可塑性在 KC→MBON 突觸本身 |
+| [[s-aso-2023-upwind-neurons]] | UpWiN（SS33917，含 AD、DBD 兩半各自的對照） | 只在測驗時升溫，1 天獎賞記憶的 PI 約 0.12，三組對照約 0.32–0.43；允許溫度下四組無差異（約 0.23–0.35）。**作者無法用這組實驗檢驗迎風移動，因為對照組在限制溫度下根本不迎風**（資料未示） |
+| [[s-yamada-2023-second-order-conditioning]] | 想關掉 SMP108（SS67221），**但做不成** | 32 °C 下連對照基因型的果蠅都迅速消退掉一階記憶、無法完成二階制約（正文寫 data not shown）。這是本庫第一次記錄到 shibire^ts 的限制溫度本身干擾了行為協定；該篇因此只能用從發育期就作用的 TNT |
 
 品系見 [[e-r58e02]]、[[e-mb504b]]、[[e-th-gal4]]、[[e-c739-gal4]]。
 
@@ -51,11 +61,15 @@ confidence: high
 - **關掉的是全部輸出。** Ichinose 2015 的圖題寫「MBON-α1 的回饋」，但 shi 擋的是 MBON-α1 送往所有下游的訊號；「需要的是送回 PAM-α1 那一支」是推論。
 - **阻斷可能有與研究問題無關的副作用。** Felsenberg 2018 關掉 M4β′／M6 時再聞 CS−，躲避完全消失（論文只說「unexpectedly」），使「消退變弱」的解讀打折（見該來源頁 3.2）。
 - **對照的設計要看齊。** 每個實驗都要 GAL4/+、UAS-shi/+ 兩組對照，以及全程允許溫度的對照；Felsenberg 2018 的 PPL1 實驗找不到允許溫度對照（該來源頁 3.1 ⚠️）。
-- 阻斷是否完全，三篇都沒有直接驗證：？待查。
+- 阻斷是否完全，庫內各篇都沒有直接驗證：？待查。
+- **限制溫度本身會改變行為，有時候大到讓實驗做不成。** [[s-yamada-2023-second-order-conditioning]] 在 32 °C 下連對照基因型的一階記憶都迅速消退，二階制約做不起來，只好改用從發育期就作用的 TNT；[[s-aso-2023-upwind-neurons]] 的對照果蠅在 32 °C 下不出現迎風移動，所以「測驗時需要 UpWiN 才會迎風」沒有被直接檢驗，只檢驗了二選一的分數。**遇到「升溫後對照組也變了」的報告，要先問這個讀數在限制溫度下還成不成立。**
+- **允許溫度對照不等於同一條基線。** [[s-burke-2012-octopamine-dopamine-reward]] 圖 1b（31 °C）的三個對照落在 0.20–0.32，圖 1c（23 °C）的四根柱子落在 0.13–0.23——低溫本身就壓低了阿拉伯糖的記憶表現。這不影響圖 1c 的結論（組間無差異），但 b 與 c 不是「同樣的實驗只差溫度」。同型的問題在 [[s-pribbenow-2022-postsynaptic-plasticity]]：訓練時關掉 KC 的嫌惡記憶下降，在 23 °C 對照也看得到同樣幅度，所以那個下降不能歸給阻斷。
+- **效應子的強弱會改變結論。** [[s-aso-2014-mbon-valence]] 初篩用強效應子（pJFRC100-20XUAS-TTS-Shibire-ts1-p10），9 條品系陽性；改用弱效應子 UAS-Shi x1 複篩後只剩 1 條。作者換效應子的理由是強效應子表現量太高、有些品系在允許溫度下就出現表型。**弱效應子看不到效果，可能是初篩為假陽性，也可能是阻斷不夠強，該篇沒有區分。**
+- **同一篇裡不同作業的限制溫度可以差 3 °C。** [[s-aso-2014-mbon-valence]] 用 31–34 °C（依作業而異），其中酒精記憶的方法寫 31 °C、圖 11 寫 33 °C（⚠️ 單篇自身不一致）。阻斷的完全性隨溫度變，所以同一篇裡不同作業的「阻斷強度」不一定相同。
 
 ## 相關
 
-- 概念：[[c-memory-extinction]]、[[c-memory-consolidation]]
-- 工具：[[e-split-gal4]]、[[e-cschrimson]]、[[e-t-maze]]
+- 概念：[[c-memory-extinction]]、[[c-memory-consolidation]]、[[c-us-substitution]]、[[c-performance-index]]、[[c-spaced-training]]
+- 工具：[[e-split-gal4]]、[[e-cschrimson]]、[[e-t-maze]]、[[e-olfactory-arena]]、[[e-tnt]]、[[e-dtrpa1]]、[[e-gal80ts]]
 - 主題：[[t-memory-updating]]、[[t-mbon-dan-feedback]]
-- 來源：[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]
+- 來源：[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-aso-2014-mbon-valence]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]

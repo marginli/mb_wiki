@@ -22,7 +22,7 @@ confidence: medium
 | 資料庫 | 驅動品系的共軛焦影像全疊層：www.janelia.org/split-gal4（圖 3 圖說）。無公開程式碼 |
 | 補充資料 | 圖補充圖 11 張（圖 3 有 2 張；圖 4、5、6、7、8、9、11、12、15 各 1 張）、影片 1–6、補充檔 1（Fly Bowl 14 種行為的統計表）。**PDF 只列補充圖的標題、不含內容；影片只有圖說；補充檔 1 未取得**。本頁凡依賴它們的內容標 ？待查 |
 | 編輯／審查 | 審查編輯（Reviewing editor）Liqun Luo（HHMI／Stanford University）。eLife 2014 年的審查信是否公開，PDF 未載 |
-| 姊妹篇 | 正文反覆引用的「accompanying manuscript」是 Aso et al. 2014（eLife 3:e04577，蕈狀體解剖與 split-GAL4 品系的製作），本庫寫作 Aso 2014a；本篇即庫內各頁所稱的 Aso 2014b |
+| 姊妹篇 | 正文反覆引用的「accompanying manuscript」是 Aso et al. 2014（eLife 3:e04577，蕈狀體解剖與 split-GAL4 品系的製作），本庫寫作 Aso 2014a（[[s-aso-2014-mb-architecture]]）；本篇即庫內各頁所稱的 Aso 2014b |
 
 > 與本庫有關的作者：Ichinose、Aso、Yamagata、Rubin、Tanimoto 五人也是 [[s-ichinose-2015-reward-recurrent-circuit]] 的作者；Aso 與 Rubin 是 [[s-aso-2016-dan-cell-type-rules]] 的兩位作者，也是 [[s-hige-2015-heterosynaptic-plasticity]] 的共同作者；Thomas Preat 也是 [[s-gervasi-2010-pka-dynamics]] 的作者。
 >
@@ -154,7 +154,7 @@ confidence: medium
 - KC 以稀疏活動代表氣味，也就是一個氣味只活化一小群 KC（Perez-Orive et al. 2002、Turner et al. 2008）。
 - ※ 推論：接線既然因個體而異，KC 這層的氣味代碼本身就不帶先天的好壞，好壞得靠學習在下游讀出。本庫作此連結；本篇引言只分別交代這兩點背景。
 - KC 內有一條接收多巴胺訊號的分子路徑（D1 類多巴胺受體與 *rutabaga* 所屬的 cAMP 路徑），記憶形成需要它（Zars et al. 2000、Schwaerzel et al. 2003、Qin et al. 2012；本庫 [[s-gervasi-2010-pka-dynamics]] 亦被引用）。
-- 活化特定 DAN 可以代替懲罰或獎賞（Schroll et al. 2006、Claridge-Chang et al. 2009、Aso et al. 2010、2012、Liu et al. 2012、Burke et al. 2012）。
+- 活化特定 DAN 可以代替懲罰或獎賞（Schroll et al. 2006、Claridge-Chang et al. 2009、Aso et al. 2010、2012、Liu et al. 2012、Burke et al. 2012〔本庫 [[s-burke-2012-octopamine-dopamine-reward]]〕）。
 - 少數 MBON 已知參與記憶（Séjourné et al. 2011 的 V2 群、Pai et al. 2013、Plaçais et al. 2013 的 MBON-α3），但多數 MBON 的功能沒有人研究過。
 - MBON 對氣味的調諧寬廣、會隨經驗改變，引的是「Hige et al., unpublished」，也就是後來的本庫 [[s-hige-2015-heterosynaptic-plasticity]] 所屬的研究線（※ 推論：依作者名與內容，本篇未給出處）。
 
@@ -617,9 +617,10 @@ flowchart TD
 - [[numbers]] — 本篇貢獻了 MBON 型別與細胞數（21 型 34 顆、加萼部共 22 型）、光遺傳協定參數（617 nm、34 µW/mm²、n＝11–29）、篩檢的顯著品系數、軌跡分析的相關係數、各記憶作業的協定與效果量、睡眠協定
 - 主題：[[t-mbon-dan-feedback]]（MBON 末梢落在別格 DAN 樹突的解剖觀察；「與 DAN 相反」通則是各篇回饋模型的前提）、[[t-timing-rules]]（「突觸變弱或變強對行為的意義」表的方向全部引自本篇）、[[t-dopamine-to-plasticity]]（本篇推論多巴胺讓 KC→MBON 變弱）、[[t-memory-updating]]（多層前饋網路處理新舊記憶衝突的提議；酒精記憶由嫌惡轉獎賞）
 - 概念：[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-us-substitution]]、[[c-performance-index]]、[[c-spaced-training]]
-- 實體：[[e-mbon]]、[[e-mbon-gamma1pedc]]、[[e-mbon-gamma2alpha1]]、[[e-mbon-gamma4]]、[[e-mbon-gamma5beta2a]]、[[e-mbon-alpha2sc]]、[[e-ppl1-gamma1pedc]]、[[e-dopaminergic-neuron]]、[[e-split-gal4]]、[[e-cschrimson]]、[[e-shibire-ts]]、[[e-t-maze]]、[[e-mushroom-body]]、[[e-kenyon-cell]]
+- 實體：[[e-mbon]]、[[e-mbon-gamma1pedc]]、[[e-mbon-gamma2alpha1]]、[[e-mbon-gamma4]]、[[e-mbon-gamma5beta2a]]、[[e-mbon-alpha2sc]]、[[e-ppl1-gamma1pedc]]、[[e-dopaminergic-neuron]]、[[e-split-gal4]]、[[e-cschrimson]]、[[e-shibire-ts]]、[[e-t-maze]]、[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-dtrpa1]]
 - 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-huang-2024-dopamine-memory-dynamics]]
-- 待開頁面：[[c-valence-coding]]（價值編碼）、`e-mbon-v2-cluster`、[[e-mbon-alpha3]]、[[e-mbon-alpha1]]、`e-mbon-beta2mp`、`e-dtrpa1`、[[e-mcfo]]、`e-mb310c`、[[c-feedforward-inhibition]]、[[c-appetitive-memory]]、`c-ethanol-reward-memory`（酒精醉態記憶）、`c-sleep-regulation`（睡眠調節）、`c-visual-conditioning`（顏色制約）、`e-mbon-gamma3`（γ3 與 γ3β′1）、`e-mb112c`、`e-mb052b`
+- 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-aso-2014-mb-architecture]]、[[s-burke-2012-octopamine-dopamine-reward]]；新開的主題頁：[[t-mbon-to-action]]（MBON 學到的價值怎麼變成動作）、[[t-innate-learned-integration]]（先天與習得價值在哪裡整合）
+- 待開頁面：[[c-valence-coding]]（價值編碼）、`e-mbon-v2-cluster`、[[e-mbon-alpha3]]、[[e-mbon-alpha1]]、`e-mbon-beta2mp`、[[e-mcfo]]、`e-mb310c`、[[c-feedforward-inhibition]]、[[c-appetitive-memory]]、`c-ethanol-reward-memory`（酒精醉態記憶）、`c-sleep-regulation`（睡眠調節）、`c-visual-conditioning`（顏色制約）、`e-mbon-gamma3`（γ3 與 γ3β′1）、`e-mb112c`、`e-mb052b`
 
 ## 出處
 

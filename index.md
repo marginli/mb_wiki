@@ -3,7 +3,7 @@
 **[[syn-changelog|更新履歷]]**：這座知識庫怎麼長成現在的樣子，以及它更正過自己幾次
 **[[syn-contradictions|矛盾與空缺]]**：論文之間說法不同、等人裁決的地方，以及沒有人做過的實驗
 
-範圍是果蠅（*Drosophila*）的學習與記憶研究，以及蕈狀體（mushroom body）本身的研究（2026-11-12 由只收蕈狀體擴大而來）。蕈狀體是果蠅腦中負責「把氣味和好壞結果連起來」的區域，是研究學習與記憶最常用的模型，也是目前已收論文的共同主軸；蕈狀體以外的學習記憶研究（例如中央複合體的空間學習、求偶制約、幼蟲的學習），收到論文後會各自成為新的研究問題群。目前 **24 篇來源**、6 條主題、22 個概念、40 個實體、2 個綜述，分屬兩個研究問題群。
+範圍是果蠅（*Drosophila*）的學習與記憶研究，以及蕈狀體（mushroom body）本身的研究（2026-11-12 由只收蕈狀體擴大而來）。蕈狀體是果蠅腦中負責「把氣味和好壞結果連起來」的區域，是研究學習與記憶最常用的模型，也是目前已收論文的共同主軸；蕈狀體以外的學習記憶研究（例如中央複合體的空間學習、求偶制約、幼蟲的學習），收到論文後會各自成為新的研究問題群。目前 **24 篇來源**、6 條主題、22 個概念、46 個實體、2 個綜述，分屬兩個研究問題群。
 
 **怎麼讀這份索引。** 第一層是**研究問題群**，第二層是**主題**。主題頁（`t-`）回答「這批論文對這件事說了什麼、彼此怎麼對話」，用白話寫成，是讀者的入口。概念頁（`c-`）與實體頁（`e-`）掛在主題底下，供查詞。來源頁（`s-`）是一篇論文一頁，含科普文、專業文與每張主圖的解讀。完整的來源清單在文末。
 
@@ -27,7 +27,7 @@
 
 - 概念：[[c-cs-us-timing]]、[[c-coincidence-detection]]、[[c-kc-mbon-plasticity]]、[[c-us-substitution]]、[[c-performance-index]]
 - 實體：[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-kenyon-cell]]
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-huang-2024-dopamine-memory-dynamics]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-kaldun-2025-dop1r2-memory-phases]]
 
 ### [[t-dopamine-to-plasticity]]｜從多巴胺到突觸改變：KC 軸突怎麼讀出增強訊號
 
@@ -61,7 +61,7 @@
 
 - 概念：[[c-memory-extinction]]、[[c-memory-consolidation]]、[[c-spaced-training]]、[[c-performance-index]]
 - 實體：[[e-shibire-ts]]、[[e-t-maze]]、[[e-olfactory-arena]]、[[e-mb504b]]、[[e-r58e02]]、[[e-mbon-gamma5beta2a]]、[[e-mbon-gamma2alpha1]]、[[e-ppl1-gamma2alpha1]]
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-yamada-2023-second-order-conditioning]]、[[s-kaldun-2025-dop1r2-memory-phases]]
 
 ### [[t-mbon-dan-feedback]]｜輸出神經元回頭指揮多巴胺神經元：MBON→DAN 回饋迴路
 
@@ -76,7 +76,7 @@
 
 - 概念：[[c-memory-consolidation]]、[[c-memory-extinction]]、[[c-ex-vivo-explant]]
 - 實體：[[e-pam-alpha1]]、[[e-mbon-gamma2alpha1]]、[[e-ppl1-gamma2alpha1]]、[[e-mbon-gamma5beta2a]]、[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-p2x2]]、[[e-ppl1-alpha3]]、[[e-ppl1-alpha2alpha2]]、[[e-mbon-alpha2sc]]
-- 來源：[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-yamada-2023-second-order-conditioning]]
+- 來源：[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-yamada-2023-second-order-conditioning]]、[[s-aso-2023-upwind-neurons]]、[[s-eschbach-2021-learned-innate-valence-integration]]
 
 
 ### [[t-mbon-to-action]]｜學到的價值怎麼變成動作：MBON 下游的讀出
@@ -100,8 +100,11 @@ MBON 的活動怎麼變成果蠅的動作？成蟲的逐型活化顯示推動靠
 - [[e-gcamp]]：鈣感測器，神經元活動時會變亮。庫內各篇用了六種版本，各自的亮度變化（ΔF/F：變化量除以基線亮度）不能跨篇比較
 - [[e-epac-camp-sensor]]：cAMP 感測器
 - [[e-cschrimson]]：紅光活化的光遺傳通道，用來以光代替懲罰或獎賞
-- [[e-split-gal4]]：只在少數幾型神經元表現的驅動品系，決定「活化了誰」。個別品系另有頁：[[e-mb099c]]、[[e-mb504b]]、[[e-r58e02]]、[[e-th-gal4]]、[[e-c739-gal4]]、[[e-238y-gal4]]；其中 MB099C 與 R58E02 標記了哪些神經元，各篇說法不同，列為待裁決
+- [[e-split-gal4]]：只在少數幾型神經元表現的驅動品系，決定「活化了誰」。個別品系另有頁：[[e-ok107-gal4]]、[[e-c305a-gal4]]、[[e-vt1211]]、[[e-mb099c]]、[[e-mb504b]]、[[e-r58e02]]、[[e-th-gal4]]、[[e-c739-gal4]]、[[e-238y-gal4]]；其中 MB099C 與 R58E02 標記了哪些神經元，各篇說法不同，列為待裁決
 - [[e-p2x2]]：遇到 ATP 就打開的通道，用化學方法活化神經元
+- [[e-tnt]]：破傷風毒素輕鏈，永久阻斷神經元的化學傳遞（發育期就開始，不能只在某段時間關掉）
+- [[e-dtrpa1]]：升溫時打開的通道，用加熱活化神經元，常用來以熱代替電擊或糖
+- [[e-gal80ts]]：溫度控制的開關，讓基因操作只在成蟲期生效，避開發育期的影響
 - [[e-shibire-ts]]：升溫時暫時阻斷神經元輸出的工具，用來問「哪段時間需要哪群神經元」
 - [[e-t-maze]]、[[e-olfactory-arena]]：兩種量果蠅氣味偏好的行為裝置；T 迷宮的古典制約版本來自 Tully 1985
 - [[c-ex-vivo-explant]]、[[c-whole-cell-patch-clamp]]：取出整顆腦做實驗、以電極記錄單顆神經元的兩種方法

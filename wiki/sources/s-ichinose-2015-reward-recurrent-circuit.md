@@ -89,7 +89,7 @@ confidence: medium
 
 本篇問題的直接前提：
 
-- PAM 群傳遞糖獎賞（Burke et al. 2012；Liu et al. 2012），並可再分為誘發 STM 與誘發 LTM 的型（Huetteroth et al. 2015；Yamagata et al. 2015）。
+- PAM 群傳遞糖獎賞（Burke et al. 2012〔本庫 [[s-burke-2012-octopamine-dopamine-reward]]〕；Liu et al. 2012），並可再分為誘發 STM 與誘發 LTM 的型（Huetteroth et al. 2015；Yamagata et al. 2015）。
 - 誘發出的 LTM 在訓練剛結束時量不到、隨時間逐漸出現（Das et al. 2014；Huetteroth et al. 2015；Yamagata et al. 2015）。這是「訓練後還有東西在推動」的線索。
 - 先前關於 MBON 在學習中的研究集中在記憶**提取**（Séjourné et al. 2011；Pai et al. 2013；Plaçais et al. 2013；Aso et al. 2014b）〔這是 Ichinose 2015 對前人的歸納；[[s-aso-2014-mbon-valence]] 的 2 小時氣味記憶、顏色記憶與酒精記憶都是在訓練、保留、測驗全程阻斷 MBON，作者明說預期會偵測到任何記憶處理階段的損害，只有長期記憶是只在測驗時阻斷，並承認「仍待證明這些 MBON 的輸出是在提取時短暫需要」；所以 Aso 2014b 多數阻斷不分階段，不是「集中在提取」（2026-11-13 依 Aso 2014b 更正）〕；MBON-α3（樹突在 α 葉尖端的區室 α3）參與獎賞型 LTM 的提取、但不參與獲得（Plaçais et al. 2013）。本篇要問 MBON 是否也參與獲得。
 
@@ -114,7 +114,7 @@ confidence: medium
 | STM、LTM | 本篇的操作定義：訓練後 5 分鐘測得的記憶（STM）、訓練後 24 小時測得的記憶（LTM） |
 | 獲得、鞏固、提取 | 獲得（acquisition）＝訓練當下；鞏固（consolidation）＝訓練後把新生痕跡轉成穩定記憶的過程，本篇以「訓練後立刻的 1 小時」操作；提取（retrieval）＝測試當下讀出記憶 |
 | GAL4、split-GAL4、LexA | 決定外加基因在哪些細胞表現的表現系統。split-GAL4 把 GAL4 拆成兩半，各由一段調控序列控制，兩半同時表現的細胞才有完整 GAL4，可把範圍縮到單一細胞型（見 [[e-split-gal4]]）。LexA 是另一套互不干擾的系統，用來同時標記第二種細胞 |
-| MB299B、MB310C、MB323B、MB008B | 本篇用的 split-GAL4 品系：MB299B 標 PAM-α1；MB310C 與 MB323B 標 MBON-α1；MB008B 標 α/β KC（品系來源 Aso et al. 2014a） |
+| MB299B、MB310C、MB323B、MB008B | 本篇用的 split-GAL4 品系：MB299B 標 PAM-α1；MB310C 與 MB323B 標 MBON-α1；MB008B 標 α/β KC（品系來源 Aso et al. 2014a，本庫 [[s-aso-2014-mb-architecture]]） |
 | c739、MB247、R72D01-LexA | c739-GAL4：以「增強子陷阱」（enhancer trap，一種製作驅動品系的方法）得到的品系，本篇用來標 α/β KC（與 MB008B 並用的第二個 α/β KC 品系）；MB247-GAL4：本篇用來在 KC 中表現 DopR1（正文寫「in KCs」）；R72D01-LexA：本篇用來標 PAM-α1 |
 | Shibire^ts1（shi） | 論文描述為「溫度敏感的顯性負向 dynamin」（dynamin 是一種蛋白質；本頁只用到它的效果）。本篇在 32°C（限制溫度）下用它阻斷所選神經元的突觸輸出，24°C（容許溫度）時正常 |
 | dTrpA1 | 溫度敏感的陽離子通道，本篇在 30°C 下用它活化所選神經元（熱遺傳活化）。作用與 shi 相反：shi 遇熱關掉神經元，dTrpA1 遇熱讓神經元放電 |
@@ -490,11 +490,12 @@ flowchart TD
 ## 相關
 
 - [[numbers]]（本庫的數字登記簿，所有引用的數字都先登記在那裡）— 本篇登記各圖的 n、STM／LTM 學習指數（從圖判讀）、行為協定參數（溫度、氣味濃度、時長）、Airyscan 解析度、MBON-α1 的細胞數（2）
-- 本庫已有的相關頁：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-split-gal4]]、[[c-mb-compartment]]、[[c-us-substitution]]、[[c-performance-index]]、[[c-coincidence-detection]]、[[c-kc-mbon-plasticity]]、[[c-camp-signaling]]
+- 本庫已有的相關頁：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-split-gal4]]、[[c-mb-compartment]]、[[c-us-substitution]]、[[c-performance-index]]、[[c-coincidence-detection]]、[[c-kc-mbon-plasticity]]、[[c-camp-signaling]]、[[e-dtrpa1]]
 - 本庫其他來源：[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]
 - 主題：[[t-mbon-dan-feedback]]（MBON-α1 → PAM-α1 迴圈）、[[t-memory-updating]]（訓練後第一小時的鞏固窗）、[[t-dopamine-to-plasticity]]、[[t-timing-rules]]
 - 本批（2026-10-25 第二批）已開頁、與本篇相關：[[e-pam-alpha1]]、[[e-c739-gal4]]、[[e-shibire-ts]]、[[e-dopamine-receptor]]、[[c-memory-consolidation]]、[[t-mbon-dan-feedback]]、[[c-odor-generalization]]
-- 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，如細胞、基因、工具，`c-` 開頭為概念頁）：[[e-mbon-alpha1]]、`e-mb310c`、`e-mb323b`、`e-mb008b`、`e-mb247-gal4`、`e-dtrpa1`、`e-nmda-receptor`、[[e-grasp]]、[[e-mcfo]]、[[c-appetitive-memory]]
+- 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-aso-2014-mb-architecture]]、[[s-burke-2012-octopamine-dopamine-reward]]
+- 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，如細胞、基因、工具，`c-` 開頭為概念頁）：[[e-mbon-alpha1]]、`e-mb310c`、`e-mb323b`、`e-mb008b`、`e-mb247-gal4`、`e-nmda-receptor`、[[e-grasp]]、[[e-mcfo]]、[[c-appetitive-memory]]
 
 ## 出處
 

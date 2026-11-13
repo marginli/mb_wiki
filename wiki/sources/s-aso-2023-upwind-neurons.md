@@ -398,10 +398,11 @@ hemibrain 的版本號本篇沒寫（？待查）；方法只說取自 neuPrint 
 - [[numbers]] — 本篇貢獻了四區室記憶的 PI 與迎風位移、UpWiN 的連結體突觸數、功能連結比例（3/11、4/17）、訓練前後 UpWiN 反應、TNT 與 shibire 阻斷的效果、返回機率（草稿見 `.cache/batch1/s-aso-2023-upwind-neurons/numbers_section.md`）
 - 主題：[[t-mbon-dan-feedback]]（UpWiN→SMP108→DAN 的間接回饋，本篇只引用 Yamada 2023（[[s-yamada-2023-second-order-conditioning]]））
 - 概念：[[c-performance-index]]（PI 與迎風讀數的分離）、[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-us-substitution]]、[[c-whole-cell-patch-clamp]]、[[c-ex-vivo-explant]]
-- 實體：[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-olfactory-arena]]、[[e-r58e02]]、[[e-split-gal4]]、[[e-cschrimson]]、[[e-shibire-ts]]、[[e-gcamp]]、[[e-mushroom-body]]、[[e-ppl1-alpha3]]
+- 實體：[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-olfactory-arena]]、[[e-r58e02]]、[[e-split-gal4]]、[[e-cschrimson]]、[[e-shibire-ts]]、[[e-gcamp]]、[[e-mushroom-body]]、[[e-ppl1-alpha3]]、[[e-tnt]]
 - 來源：[[s-aso-2014-mbon-valence]]（價值平衡、MBON 活化的相加效應）、[[s-aso-2016-dan-cell-type-rules]]（同一競技場、α1 學得慢）、[[s-ichinose-2015-reward-recurrent-circuit]]（MBON-α1 的另一個下游）、[[s-huang-2024-dopamine-memory-dynamics]]（MBON-α3 的長期改變）、[[s-handler-2019-dopamine-receptor-timing]]（同樣以迎風位移讀記憶）
 - 矛盾：[[syn-contradictions]] 1.5（R58E02-LexA 標到的範圍；本篇提供新的一筆描述）
-- 待開頁面：[[e-mbon-alpha1]]、[[e-mbon-alpha3]]、`e-mb310c`、[[e-mcfo]]、[[e-hemibrain]]、`e-upwind-neurons`（UpWiN；目前與本篇一對一，不另開）、`c-valence-balance-model`（價值平衡模型）、`c-upwind-locomotion`（迎風移動／循風趨性的行為讀數）、`e-lateral-horn`、`e-smp108`、`e-tnt`（破傷風毒素輕鏈）、[[c-appetitive-memory]]
+- 2026-11-13 第一批整合時補上的連結 — 新開的主題頁：[[t-mbon-to-action]]（MBON 學到的價值怎麼變成動作）、[[t-innate-learned-integration]]（先天與習得價值在哪裡整合）
+- 待開頁面：[[e-mbon-alpha1]]、[[e-mbon-alpha3]]、`e-mb310c`、[[e-mcfo]]、[[e-hemibrain]]、`e-upwind-neurons`（UpWiN；目前與本篇一對一，不另開）、`c-valence-balance-model`（價值平衡模型）、`c-upwind-locomotion`（迎風移動／循風趨性的行為讀數）、`e-lateral-horn`、`e-smp108`、[[c-appetitive-memory]]
 
 ## 出處
 

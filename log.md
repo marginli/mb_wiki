@@ -10,13 +10,19 @@
 
 **冷讀：** 冷讀途中多個子代理被 Anthropic 安全機制中斷（標為生物研究相關），使用者決定本批跳過冷讀。Dylla、Mao、Kaldun 三篇已併入中斷前完成且核對過數字與引用的改寫；Burke 2012 依主持代理回查原文的 4 處事實更正已改入。其餘各篇未經冷讀。
 
-**主題頁：** 新開 [[t-mbon-to-action]]、[[t-innate-learned-integration]]（使用者同意）。[[t-dopamine-to-plasticity]] 已整合 9 篇；[[t-mbon-dan-feedback]] 整合到一半時被中斷，頁首加維護註記；[[t-timing-rules]]、[[t-memory-updating]] 尚未整合本批。
+**主題頁：** 新開 [[t-mbon-to-action]]、[[t-innate-learned-integration]]（使用者同意）。[[t-dopamine-to-plasticity]] 整合 9 篇；換模型後補完 [[t-mbon-dan-feedback]]（維護註記已刪）、[[t-timing-rules]]、[[t-memory-updating]]。
 
-**概念與實體：** 新開 15 頁（[[e-mbon-alpha1]]、[[e-mbon-alpha3]]、[[e-ppl1-alpha3prime]]、[[e-catmaid]]、[[e-hemibrain]]、[[e-mcfo]]、[[e-grasp]]、[[e-apl-neuron]]、[[e-dpm-neuron]]、[[c-appetitive-memory]]、[[c-valence-coding]]、[[c-prediction-error]]、[[c-nonassociative-learning]]、[[c-feedforward-inhibition]]、[[c-second-order-conditioning]]）；另 6 頁（e-ok107-gal4、e-c305a-gal4、e-gal80ts、e-vt1211、e-dtrpa1、e-tnt）的建頁被中斷，維持待開。既有概念與實體頁的「庫內的用法」由整合代理補列。
+**整合時發現的跨篇關聯：** Yamada 2023 的中介層 SMP353／SMP354，就是 Aso 2023 命名的迎風神經元（UpWiN）——同一群細胞，在 Aso 2023 是把價值變成迎風動作的解碼器，在 Yamada 2023 是把一格的記憶送去教另一格的中繼站。兩個角色不互斥，但沒有人在同一個實驗裡同時量過。已寫入 [[t-mbon-dan-feedback]]。
 
-**矛盾清單：** 新增 1.10（*rutabaga* 能否解釋痕跡制約）、1.11（只聞氣味是否讓 PPL1 反應下降，前提待確認），待裁決 9→11；1.9 補 Aso 2019、1.3 補 Pribbenow 2022；4.4 依 Aso 2014a 部分解決；單篇自身不一致索引補 11 篇。空缺 3.2、3.6 的更新與新空缺（DAN 習得反應來源、γ 葉是否需要 Dop1R2、MBON-α1 對下游的正負號等）**尚未寫入**，草稿在各篇整合建議檔。
+**概念與實體：** 新開 15 頁（[[e-mbon-alpha1]]、[[e-mbon-alpha3]]、[[e-ppl1-alpha3prime]]、[[e-catmaid]]、[[e-hemibrain]]、[[e-mcfo]]、[[e-grasp]]、[[e-apl-neuron]]、[[e-dpm-neuron]]、[[c-appetitive-memory]]、[[c-valence-coding]]、[[c-prediction-error]]、[[c-nonassociative-learning]]、[[c-feedforward-inhibition]]、[[c-second-order-conditioning]]）；換模型後補建 [[e-ok107-gal4]]、[[e-c305a-gal4]]、[[e-gal80ts]]、[[e-vt1211]]、[[e-dtrpa1]]、[[e-tnt]]（e-gal80ts 兩篇都做了實驗，但 Kaldun 2025 的圖在未取得的補充資料裡，頁內已註明；主持者裁示保留）。既有概念與實體頁的「庫內的用法」由整合代理補列。
 
-**既有概念與實體頁（代理 C）：** 約 30 頁已補列；c-octopamine-reward-signal、c-performance-index、c-us-substitution、c-kc-mbon-plasticity、c-mb-compartment、c-memory-extinction、e-gcamp、e-cschrimson、e-shibire-ts、e-olfactory-arena 共 10 頁被安全機制中斷、未改。待統一：pedc、sc 字尾的寫法（e-ppl1-gamma1pedc、e-mbon-gamma1pedc、e-mbon-alpha2sc 寫成確定，e-mushroom-body 寫成 ※ 推論）。
+**矛盾清單：** 新增 1.10（*rutabaga* 能否解釋痕跡制約）、1.11（只聞氣味是否讓 PPL1 反應下降，前提待確認），待裁決 9→11；1.9 補 Aso 2019、1.3 補 Pribbenow 2022；4.4 依 Aso 2014a 部分解決；單篇自身不一致索引補 11 篇。空缺 3.2（分成獎賞／嫌惡兩半讀）、3.6（Yamada 2023 填掉一半）已更新；新增空缺 3.16–3.20（DAN 習得反應來源、γ 葉是否需要 Dop1R2、MBON-α1 的麩胺酸對兩個下游各做什麼、二選一分數高卻不迎風、懲罰把各型 PPL1 活化到什麼程度）；空缺 15→20 條。4.1 補上第一批補充資料全未取得。查證兩點：Aso 2023 的 γ4 迎風弱不構成矛盾（PI 最低、檢定力不足），乾淨的分離在 γ5β′2a；Aso 2019 圖 9C 的前提引 Mao 2009，但 Mao 2009 沒有量過 γ1pedc。
+
+**既有概念與實體頁（代理 C）：** 約 30 頁已補列；換模型後補完其餘 10 頁（[[c-octopamine-reward-signal]]、[[c-performance-index]]、[[c-us-substitution]]、[[c-kc-mbon-plasticity]]、[[c-mb-compartment]]、[[c-memory-extinction]]、[[e-gcamp]]、[[e-cschrimson]]、[[e-shibire-ts]]、[[e-olfactory-arena]]），主持者另補 [[c-presynaptic-calcium]]（Dylla 2017 的 KC 軸突鈣，含「突觸前是從量測位置推來的」與基線漂移兩條陷阱）。pedc、sc 字尾的寫法經回查 Aso 2014a 已一致（該篇表 1 與圖 10–13 有定義），不需再統一。
+
+**整合時查出、值得記住的落差：** 蕈狀體的「格數」在庫內至少有五個數字（15、16、11–12、9、13），因為各篇量的範圍與層級不同，已寫進 [[c-mb-compartment]]；[[c-performance-index]] 的公式在庫內有 16 種寫法，Kaldun 2025 換裝置就換公式；限制溫度本身會讓實驗做不成（Yamada 2023 在 32 °C、Aso 2023 的對照不迎風），已寫進 [[e-shibire-ts]]。
+
+**來源頁連結整理（換模型後補做）：** 待開清單 13 檔改成連結（含 `c-reward-prediction-error` 由 [[c-prediction-error]] 取代）；正文交叉連結 19 檔 46 組補齊，重跑比對腳本剩 0 組；22 檔的「相關」節補登漏列的來源與兩條新主題頁。
 
 **其他頁的更正：** 依 Aso 2014b 更正 Handler 2019 頁（γ5 MBON 推動走開）、Ichinose 2015 頁（前人集中在提取、MBON-α1 推動走開）三處；「外側角」統一為「側角」；Eschbach 2021 頁一句宣稱唯一性已更正。
 

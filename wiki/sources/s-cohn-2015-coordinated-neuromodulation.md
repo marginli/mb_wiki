@@ -83,7 +83,7 @@ confidence: high
 
 **重要性。** 引言把這個問題放在兩個框架裡。第一是 MB 的學習模型：論文引 Heisenberg 2003、Keene & Waddell 2007，說 MB 在嗅覺學習中不可或缺，而獎賞與懲罰活化不同的 DAN 子群，每一子群只投射到一個區室（Aso et al. 2012；Liu et al. 2012；Yamagata et al. 2015 等）。第二是哺乳類中腦多巴胺系統：引言說它的神經元種類與功能差異很大（異質性），目標腦區的接線又複雜，讓人難以分辨它如何選擇性地改變某一條路徑（Beier et al. 2015；Lammel et al. 2014；Lerner et al. 2015），而多巴胺可能經由擴散在遠處作用（Rice et al. 2011），這也讓「它只改哪一條路徑」更難界定。MB 的區室排列整齊：每一格的 DAN、MBON 與 KC 突觸位置都已知，所以可以逐格檢查多巴胺改了哪裡，作者因此拿它來研究這個問題。
 
-**發表當時的領域現狀（2015）。** 依引言：KC 以稀疏的小群代表氣味（Campbell et al. 2013），每顆 KC 在萼部（calyx，KC 樹突所在、接收嗅覺輸入的區域）整合多個嗅小球（glomerulus，上游嗅覺系統中處理不同氣味成分的單位，本篇未進一步說明）的輸入（Caron et al. 2013；Gruntman & Turner 2013）；MBON 是 MB 唯一已知的對外出口（Aso et al. 2014a；Tanaka et al. 2008），其集體活動被認為會影響先天與學得的氣味偏好（Aso et al. 2014b；Hige et al. 2015；Owald et al. 2015。這裡的 Hige et al. 2015 是 Hige 等人發表在 *Nature* 的另一篇，不是本庫收錄的 *Neuron* 那篇）。Aso et al. 2014a 的解剖顯示，不同區室的 DAN 與 MBON 的纖維會伸到 MB 外的同一塊腦區（論文稱 protocerebrum）而互相重疊，所以兩者可能彼此相連。MB 也參與依情境調整先天嗅覺偏好（Lewis et al. 2015；Owald et al. 2015）。本篇沒有引用 [[s-tomchik-2009-camp-dynamics]]，也沒有引用 [[s-hige-2015-heterosynaptic-plasticity]]（*Neuron*）；後者與本篇同年同月發表（2015-12）。
+**發表當時的領域現狀（2015）。** 依引言：KC 以稀疏的小群代表氣味（Campbell et al. 2013），每顆 KC 在萼部（calyx，KC 樹突所在、接收嗅覺輸入的區域）整合多個嗅小球（glomerulus，上游嗅覺系統中處理不同氣味成分的單位，本篇未進一步說明）的輸入（Caron et al. 2013；Gruntman & Turner 2013）；MBON 是 MB 唯一已知的對外出口（Aso et al. 2014a〔本庫 [[s-aso-2014-mb-architecture]]〕；Tanaka et al. 2008），其集體活動被認為會影響先天與學得的氣味偏好（Aso et al. 2014b〔本庫 [[s-aso-2014-mbon-valence]]〕；Hige et al. 2015；Owald et al. 2015。這裡的 Hige et al. 2015 是 Hige 等人發表在 *Nature* 的另一篇，不是本庫收錄的 *Neuron* 那篇）。Aso et al. 2014a 的解剖顯示，不同區室的 DAN 與 MBON 的纖維會伸到 MB 外的同一塊腦區（論文稱 protocerebrum）而互相重疊，所以兩者可能彼此相連。MB 也參與依情境調整先天嗅覺偏好（Lewis et al. 2015；Owald et al. 2015）。本篇沒有引用 [[s-tomchik-2009-camp-dynamics]]，也沒有引用 [[s-hige-2015-heterosynaptic-plasticity]]（*Neuron*）；後者與本篇同年同月發表（2015-12）。
 
 **體裁：** 原著論文（活體與離體雙光子成像〔一種能看清腦組織深處的螢光顯微鏡技術〕＋膜片鉗電生理＋基因突變）。
 
@@ -369,6 +369,7 @@ flowchart TD
 - 同一實驗室的後續：[[s-handler-2019-dopamine-receptor-timing]]；同年的 γ1pedc 突觸研究：[[s-hige-2015-heterosynaptic-plasticity]]；KC 軸突 cAMP：[[s-tomchik-2009-camp-dynamics]]
 - 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]、[[t-mbon-dan-feedback]]（活化一型 MBON 改變整排 DAN 的活動樣式）；矛盾與空缺：[[syn-contradictions]]
 - 本批（2026-10-25 第二批）已開頁、與本篇相關：[[e-p2x2]]、[[e-r58e02]]、[[e-dopamine-receptor]]、[[e-th-gal4]]、[[e-mbon-gamma4]]、[[e-mbon-gamma2alpha1]]、[[c-presynaptic-calcium]]、[[c-kc-mbon-plasticity]]、[[c-ex-vivo-explant]]、[[c-whole-cell-patch-clamp]]
+- 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]
 - 待開頁面：`e-sytgcamp`、`e-dat`、`c-dan-network`、`c-behavioral-state`
 
 ## 出處

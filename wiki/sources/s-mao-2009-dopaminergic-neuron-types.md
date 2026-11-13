@@ -429,7 +429,7 @@ PPL2ab 至少四型：
 **本庫關注的後續。** 本篇留下的三個開口，本庫已有來源接手：
 - **單型、可看到下降的讀數**：[[s-huang-2024-dopamine-memory-dynamics]] 以 split-GAL4 逐型表現電壓指示劑（兩者見本頁用語），量到 PPL1 五型的放電；電壓成像比鈣成像好在看得到放電減少，因此量到了本篇看不到的下降。
 - **型與功能的對應**：[[s-aso-2016-dan-cell-type-rules]] 逐型活化 PPL1-γ1pedc、γ2α′1＋α′2α2（「＋」表示該篇的一個品系同時標到這兩型，一起活化）、α3，看各自的學習規則，也就是活化這一型 DAN 時果蠅學得多快、記多久（例如 γ1pedc 這格學得快、忘得快，α3 學得慢、記得久）；[[s-hige-2015-heterosynaptic-plasticity]] 量 PPL1-γ1pedc（舊名 MB-MP1）對 MBON 突觸的作用；[[s-felsenberg-2017-re-evaluation]] 以舊名 MB-MV1、MB-V1、MB-MP1 稱這些 DAN 並加以阻斷，看糖獎賞記憶被再聞氣味叫出之後，再鞏固與消退各需要哪一型（詳見該頁）。再鞏固指記憶被重新叫出後需要再存一次的過程；消退指反覆只聞氣味、沒有獎賞，原本的記憶表現減弱。這篇與本篇的開口有關，因為它示範了本篇描述的這幾型 PPL1 在行為上各有分工，即使是在糖獎賞記憶中。
-- **DAN 的氣味反應從哪裡來**：[[t-mbon-dan-feedback]] 收集的 MBON→DAN 回饋（Cohn 2015、Felsenberg 2017、Huang 2024）。
+- **DAN 的氣味反應從哪裡來**：[[t-mbon-dan-feedback]] 收集的 MBON→DAN 回饋（Cohn 2015〔[[s-cohn-2015-coordinated-neuromodulation]]〕、Felsenberg 2017、Huang 2024）。
 
 **尚未被回答的。** (1) 萼部的 PPL2ab 多巴胺做什麼——本庫其他來源頁搜「PPL2」沒有結果，庫內沒有萼部 DAN 的功能資料（「庫裡沒有」≠「沒人做過」）。(2) 單次一分鐘配對之後，DAN 對受訓氣味的反應會不會在更早（例如 1 分鐘，Riemensperger 2005 的時間點）或用電壓成像時看到改變。(3) 只聞氣味就讓 PPL1 的鈣反應下降，和 Huang 2024 的 CS− 結果如何並存（見 [[syn-contradictions]] 的候選條目草稿）。Huang 2024 的訓練用兩種氣味：CS+ 是配電擊的氣味，CS− 是同一次訓練中交替出現、但不配電擊的對照氣味。該篇的結果是：訓練前後，所有 PPL1 對 CS− 的放電反應都沒有改變（「不變」不是指對氣味沒反應）。CS− 不完全等於本篇整段沒有電擊的「只聞氣味」；兩篇的讀數、氣味、品系也不同。張力在於兩者都是「聞了沒配電擊的氣味」，一篇看到下降，一篇看到不變。
 
@@ -561,10 +561,11 @@ PPL2ab 至少四型：
 - [[numbers]] — 本篇貢獻了前大腦各群多巴胺神經元的 TH-GAL4 與抗 TH 計數、單細胞選殖各型樣本數、四段 DAN 對電擊與氣味的 ΔF/F、配對後 10 分鐘的 Post/Pre
 - 主題：[[t-dopamine-to-plasticity]]（第三環：區室的解剖基礎）、[[t-mbon-dan-feedback]]（DAN 對氣味本身的反應）、[[t-timing-rules]]（逆向協定與電擊重疊）
 - 概念：[[c-mb-compartment]]、[[c-us-substitution]]
-- 實體：[[e-dopaminergic-neuron]]、[[e-th-gal4]]、[[e-ppl1-gamma1pedc]]、[[e-ppl1-gamma2alpha1]]、[[e-ppl1-alpha2alpha2]]、[[e-ppl1-alpha3]]、[[e-mushroom-body]]、[[e-gcamp]]、[[e-c739-gal4]]、[[e-kenyon-cell]]
+- 實體：[[e-dopaminergic-neuron]]、[[e-th-gal4]]、[[e-ppl1-gamma1pedc]]、[[e-ppl1-gamma2alpha1]]、[[e-ppl1-alpha2alpha2]]、[[e-ppl1-alpha3]]、[[e-mushroom-body]]、[[e-gcamp]]、[[e-c739-gal4]]、[[e-kenyon-cell]]、[[e-ok107-gal4]]、[[e-c305a-gal4]]
 - 來源：[[s-huang-2024-dopamine-memory-dynamics]]（同五型 PPL1 的電壓成像）、[[s-felsenberg-2017-re-evaluation]]（舊名對照）、[[s-tomchik-2009-camp-dynamics]]（同實驗室同年）、[[s-aso-2016-dan-cell-type-rules]]、[[s-hige-2015-heterosynaptic-plasticity]]
 - 矛盾：[[syn-contradictions]]（候選條目草稿：只聞氣味是否改變 PPL1 的氣味反應）
-- 待開頁面：[[e-ppl1-alpha3prime]]（PPL1-α′3，α′ 尖端）、`e-pam-cluster`、`e-ppl2ab`（萼部的 DAN）、`e-ok107-gal4`、`e-c305a-gal4`、`c-flp-out-clone`（單細胞選殖）、`e-tanaka-2008-mben-nomenclature`（舊名系統）
+- 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-cohn-2015-coordinated-neuromodulation]]
+- 待開頁面：[[e-ppl1-alpha3prime]]（PPL1-α′3，α′ 尖端）、`e-pam-cluster`、`e-ppl2ab`（萼部的 DAN）、`c-flp-out-clone`（單細胞選殖）、`e-tanaka-2008-mben-nomenclature`（舊名系統）
 
 ## 出處
 

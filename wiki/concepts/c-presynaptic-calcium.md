@@ -1,7 +1,7 @@
 ---
 title: 突觸前末梢的鈣（presynaptic calcium）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-13
 tags: [concept, active, cross-domain]
 confidence: medium
 ---
@@ -32,6 +32,7 @@ confidence: medium
 | [[s-cohn-2015-coordinated-neuromodulation]] | sytGCaMP 表現於 γ KC，雙光子體積成像逐區室量末梢；活體給氣味、離體給乙醯膽鹼；吃糖、活化 58E02 DAN、DopR2 突變 | 活體中同一條軸突 γ2/γ3 末梢反應強、γ4/γ5 弱，界線對齊 γ3/γ4；離體時大致均勻；吃糖或活化 γ4/γ5 DAN 使分布偏向 γ4/γ5；DopR2 突變使樣式倒轉 |
 | [[s-felsenberg-2018-memory-extinction]] | 活體 GCaMP 量 M4β′、M6 等 MBON 的**軸突**（輸出端），與樹突比較 | 只訓練時 M6 軸突對 CS+ 的反應較大、樹突沒有差別；消退後 M6 軸突的差別不顯著、M4β′ 軸突仍在；作者的解釋：另一顆會抑制 M6 的 MBON（MVP2）把突觸接在 M6 樹突根部附近，學習讓 MVP2 變安靜，M6 的「煞車」在這個關口鬆開，所以變化只在關口下游的軸突看得到（電顯解剖支持接點位置，見 [[e-mbon-gamma5beta2a]]） |
 
+| [[s-dylla-2017-trace-conditioning-dan-plasticity]] | 活果蠅；GCaMP3 表現於 KC（[[e-ok107-gal4]]），痕跡制約（氣味與電擊不重疊）後量九格的 KC 軸突鈣。ROI 畫在 KC 軸突穿過該格、與 MBON 接觸的位置 | 配對組相對於不配對組，β′1（*）、β′2（**）、junction（*）三格變小，第 10 回合差值 −0.09、−0.10、−0.17；γ 葉各格不顯著（γ1 差值 −0.17，p＝0.068）。作者據此推測 KC→MBON 的突觸前減弱 |
 > 對照：[[s-hige-2015-heterosynaptic-plasticity]] 量的是 KC **細胞體**的鈣（離突觸遠，配對後沒有配對專屬的改變）；[[s-handler-2019-dopamine-receptor-timing]] 在 KC 軸突量的是**內質網內**的鈣（ER-GCaMP，變暗＝放鈣），不是胞質鈣。兩者都不是本頁意義的突觸前讀數，故不列入表。數值見 [[numbers]]。
 
 ## 引用時的陷阱
@@ -40,11 +41,13 @@ confidence: medium
 2. **Cohn 2015 的末梢樣式是正規化後的相對值。** 四區室的變化加總約為零，一格升高時其他格必然顯得下降；所以活化 γ4/γ5 DAN 後分布偏向 γ4/γ5 時，γ2 末梢的相對「下降」可能只是 γ4/γ5 上升的另一面，不是獨立證據；而且配對（氣味＋DAN）之後的末梢鈣該篇沒有量。因此它推進了「多巴胺會改變末梢鈣」，沒有回答「配對造成的減弱在突觸哪一側」（見 [[t-dopamine-to-plasticity]]）。
 3. **Felsenberg 2018 的「抵銷」是不顯著，不是相等**：消退後 M6 軸突對 CS+／CS− 的差別不顯著，不是量到兩者相等；用同時標記 M4β′ 與 M6 的品系 VT1211 量，軸突差別也不顯著，但單看 M4β′ 仍顯著。
 4. **鈣感測器版本與讀法不同，數值不能跨篇比**：G-CaMP 1.6、sytGCaMP（GCaMP6s）、GCaMP6f／6m（見 [[e-gcamp]]）。
-5. **「末梢鈣升高」與「放出更多傳遞物質」之間還隔一步**，三篇都沒有直接量釋放量。
+5. **「末梢鈣升高」與「放出更多傳遞物質」之間還隔一步**，各篇都沒有直接量釋放量。
+6. **Dylla 2017 的「突觸前」是從量測位置推來的。** 它用的不是突觸前專用感測器（像 sytGCaMP），而是表現在整顆 KC 的 GCaMP3；ROI 畫在軸突與 MBON 接觸的地方，所以「變弱的是突觸前那一端」是 ※ 推論，不是量到的（來源頁第二節）。
+7. **Dylla 2017 的軌跡有基線漂移。** 訓練前後、配對與不配對兩組都有，所以單看一條軌跡的絕對高度沒有意義，要看兩組的差（見 [[e-gcamp]]）。
 
 ## 相關
 
 - 概念：[[c-kc-mbon-plasticity]]、[[c-camp-signaling]]、[[c-mb-compartment]]、[[c-ex-vivo-explant]]、[[c-whole-cell-patch-clamp]]
 - 實體：[[e-gcamp]]、[[e-kenyon-cell]]、[[e-dopamine-receptor]]、[[e-r58e02]]、[[e-mbon-gamma5beta2a]]
 - 主題：[[t-dopamine-to-plasticity]]、[[t-memory-updating]]
-- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]
+- 來源：[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-tomchik-2009-camp-dynamics]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]

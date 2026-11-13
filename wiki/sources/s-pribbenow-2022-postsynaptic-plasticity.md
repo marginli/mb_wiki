@@ -33,7 +33,7 @@ confidence: medium
 
 > 本節假設讀者已略知果蠅嗅覺學習的輪廓。**完全不熟的讀者可以先看「科普文」一節**；術語另見「專業文」開頭的「本頁用語」表。
 
-本庫的主線（[[t-dopamine-to-plasticity]]）一直卡在一個問題：學習讓 KC→MBON 突觸變弱或變強時，改變的是 KC 末梢「送得少」（突觸前），還是 MBON「收得少」（突觸後）？庫內各篇的證據都偏向突觸前，但都是間接的：Tomchik 2009 與 Handler 2019 在 KC 裡量到 cAMP、鈣與多巴胺受體的作用；Hige 2015 證明 MBON 不放電也能誘發減弱，並說哪一側仍未定。這篇是**本庫第一篇直接操作突觸後那一側的分子**的論文：它在 MBON 裡逐一降低乙醯膽鹼受體（nAChR）的 α 次單元與支架蛋白 Dlg，看記憶會不會壞掉，再看受體本身會不會隨學習移動。
+本庫的主線（[[t-dopamine-to-plasticity]]）一直卡在一個問題：學習讓 KC→MBON 突觸變弱或變強時，改變的是 KC 末梢「送得少」（突觸前），還是 MBON「收得少」（突觸後）？庫內各篇的證據都偏向突觸前，但都是間接的：Tomchik 2009（[[s-tomchik-2009-camp-dynamics]]）與 Handler 2019 在 KC 裡量到 cAMP、鈣與多巴胺受體的作用；Hige 2015 證明 MBON 不放電也能誘發減弱，並說哪一側仍未定。這篇是**本庫第一篇直接操作突觸後那一側的分子**的論文：它在 MBON 裡逐一降低乙醯膽鹼受體（nAChR）的 α 次單元與支架蛋白 Dlg，看記憶會不會壞掉，再看受體本身會不會隨學習移動。
 
 它的答案不是「全部在突觸後」，而是**依記憶種類而不同**。獎賞（糖）記憶需要 MBON 上的受體：在 M4/6 這群 MBON 降低 α5，訓練後立刻測就學不起來；降低 α2、α1 或 Dlg，3 小時後的記憶消失。同樣的降低對電擊記憶幾乎沒有影響。訓練時阻斷 KC 的輸出，獎賞記憶全沒、電擊記憶只略降。作者因此推測獎賞記憶靠突觸後、電擊記憶可能靠突觸前。另一種「熟悉度」記憶（同一個氣味聞多了，果蠅不再被它嚇到）在 α′3 格，同樣需要 MBON 上的 α5 與 α2。
 
@@ -467,9 +467,10 @@ hemibrain 分析顯示，提供輸入給 M4、M6 或 α′3 MBON 的 KC 突觸�
 - [[numbers]] — 本篇貢獻了行為篩選的表現指數、離體誘發的幅度、FRAP 的回歸係數與回復率、α′3 的 MBON／KC 反應下降、連結體的每釋放點夥伴數
 - 主題：[[t-dopamine-to-plasticity]]（第四環「改變發生在突觸的哪一側」的第一組突觸後正面證據）、[[t-timing-rules]]（離體誘發用的是同時配對，沒有掃時間差）、[[t-memory-updating]]（作者把突觸前後的分工列為消退與再鞏固的後續方向）
 - 概念：[[c-kc-mbon-plasticity]]、[[c-ex-vivo-explant]]、[[c-mb-compartment]]、[[c-performance-index]]、[[c-us-substitution]]、[[c-memory-consolidation]]
-- 實體：[[e-mbon]]、[[e-kenyon-cell]]、[[e-mushroom-body]]、[[e-mbon-gamma5beta2a]]、[[e-dopaminergic-neuron]]、[[e-split-gal4]]、[[e-r58e02]]、[[e-shibire-ts]]、[[e-t-maze]]、[[e-gcamp]]、[[e-cschrimson]]
+- 實體：[[e-mbon]]、[[e-kenyon-cell]]、[[e-mushroom-body]]、[[e-mbon-gamma5beta2a]]、[[e-dopaminergic-neuron]]、[[e-split-gal4]]、[[e-r58e02]]、[[e-shibire-ts]]、[[e-t-maze]]、[[e-gcamp]]、[[e-cschrimson]]、[[e-vt1211]]、[[e-ok107-gal4]]、[[e-gal80ts]]
 - 矛盾與空缺：[[syn-contradictions]] 3.2（學習造成的改變在突觸前還是突觸後）
-- 待開頁面：`c-postsynaptic-plasticity`（突觸後可塑性）、`e-nachr`（菸鹼型乙醯膽鹼受體與其 α 次單元）、`e-dlg`（支架蛋白 Dlg）、`c-frap`（光漂白後螢光回復）、`e-vt1211`、`e-mb011b`、`e-mb027b`、`e-ok107-gal4`、`e-r13f02`、`e-gal80ts`、[[c-nonassociative-learning]]、[[c-appetitive-memory]]、[[e-hemibrain]]、`e-ttx`、`e-synaptophluorin`、[[e-apl-neuron]]、[[e-dpm-neuron]]
+- 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-tomchik-2009-camp-dynamics]]
+- 待開頁面：`c-postsynaptic-plasticity`（突觸後可塑性）、`e-nachr`（菸鹼型乙醯膽鹼受體與其 α 次單元）、`e-dlg`（支架蛋白 Dlg）、`c-frap`（光漂白後螢光回復）、`e-mb011b`、`e-mb027b`、`e-r13f02`、[[c-nonassociative-learning]]、[[c-appetitive-memory]]、[[e-hemibrain]]、`e-ttx`、`e-synaptophluorin`、[[e-apl-neuron]]、[[e-dpm-neuron]]
 
 ## 出處
 

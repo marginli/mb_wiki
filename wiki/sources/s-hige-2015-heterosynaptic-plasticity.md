@@ -31,7 +31,7 @@ confidence: high
 
 ## 為什麼重要
 
-果蠅的嗅覺學習有一個存在已久的標準模型：氣味由蕈狀體（mushroom body, MB）裡的 Kenyon 細胞（Kenyon cell, KC）表徵，懲罰或獎賞由多巴胺神經元（dopaminergic neuron, DAN）帶進來，KC 把訊號經由突觸（神經元之間傳訊號的接點）送給輸出神經元（MB output neuron, MBON），而 DAN 的末梢就伸到這些突觸旁邊。於是**多巴胺應該會改變「KC → MBON」這個突觸的強度**，也就是同樣多的 KC 訊號能讓 MBON 收到多少電流（Heisenberg 2003 等）。這個模型有解剖學支持：KC 的軸突（送出訊號的長纖維）成束排成幾條「葉」（lobe），Aso et al. 2014a 把這些葉沿長度切成 15 個互不重疊的區室（compartment），每個區室各配一型 DAN 與一型 MBON；一條 KC 軸突會依序穿過好幾個區室。這個模型也有行為遺傳學支持，但依本篇的說法，在它之前**果蠅身上還沒有人直接量到這個突觸變弱或變強**。先前的證據是鈣影像（用會隨細胞內鈣濃度發光的螢光蛋白，間接看神經元的活動）：KC 軸突的氣味反應在學習後變大（Tomchik & Davis 2009 等，本篇引用），MBON 的反應有的變小、有的變大，方向並不一致。
+果蠅的嗅覺學習有一個存在已久的標準模型：氣味由蕈狀體（mushroom body, MB）裡的 Kenyon 細胞（Kenyon cell, KC）表徵，懲罰或獎賞由多巴胺神經元（dopaminergic neuron, DAN）帶進來，KC 把訊號經由突觸（神經元之間傳訊號的接點）送給輸出神經元（MB output neuron, MBON），而 DAN 的末梢就伸到這些突觸旁邊。於是**多巴胺應該會改變「KC → MBON」這個突觸的強度**，也就是同樣多的 KC 訊號能讓 MBON 收到多少電流（Heisenberg 2003 等）。這個模型有解剖學支持：KC 的軸突（送出訊號的長纖維）成束排成幾條「葉」（lobe），Aso et al. 2014a（本庫 [[s-aso-2014-mb-architecture]]）把這些葉沿長度切成 15 個互不重疊的區室（compartment），每個區室各配一型 DAN 與一型 MBON；一條 KC 軸突會依序穿過好幾個區室。這個模型也有行為遺傳學支持，但依本篇的說法，在它之前**果蠅身上還沒有人直接量到這個突觸變弱或變強**。先前的證據是鈣影像（用會隨細胞內鈣濃度發光的螢光蛋白，間接看神經元的活動）：KC 軸突的氣味反應在學習後變大（Tomchik & Davis 2009 等，本篇引用），MBON 的反應有的變小、有的變大，方向並不一致。
 
 本篇用全細胞膜片鉗記錄 MBON 的突觸電流，並用光遺傳只活化一顆 DAN，直接量到了這個突觸的改變：**氣味與多巴胺配對一次，該氣味送到 MBON-γ1pedc（γ1pedc 是區室名稱，以圖 1A 中 γ 葉的第 1 區 γ1 為主，字尾 pedc 本篇未解釋；MBON 與 DAN 都以它所在的區室命名）的突觸電流總量（整段反應期間累積的電流，即電荷）就比配對前少了約九成，而且持續至少 40 分鐘**（但電流剛開始的最高點大致還在，少掉的是之後持續的那一段，所以「九成」指的是總量，不是最高點，見專業文 3.3）。它同時檢驗了三個長期只有間接證據的假說：先後順序是否重要（先給多巴胺再給氣味就不行）、區室是否各自獨立（鄰近區室不受影響）、稀疏編碼能否減少記憶互相干擾。稀疏編碼（sparse coding）指每種氣味只活化一小群 KC；不同氣味用到的 KC 越不重疊，改動一種氣味的突觸就越不會波及另一種。本篇發現兩種氣味的 KC 重疊越多，可塑性就越會波及另一種氣味，行為上也越會「類化」（generalization：學會躲一種氣味後，也會躲相似的氣味）。
 
@@ -83,7 +83,7 @@ confidence: high
 
 **主要問題。** 果蠅 MB 的 KC → MBON 突觸，是否真的會因為氣味（CS，條件刺激，conditioned stimulus）與多巴胺（US，非條件刺激，unconditioned stimulus 的替代）配對而改變強度？若會，它的誘發規則是否具備聯想學習所需的性質：時間先後、區室專一、刺激專一？
 
-**重要性。** 這是 MB 學習模型的核心假設。Heisenberg 2003 提出「DAN 在各區室異突觸地調節 KC 輸出突觸」的模型；Aso et al. 2014a 的解剖圖譜顯示 15 個區室各有對應的 DAN 與 MBON；Aso et al. 2014b 與 Owald et al. 2015 顯示活化不同 MBON 會引發趨近或迴避，也就是 MBON 帶有「正負價值」（valence）。這些都是間接證據。**作者在摘要中自稱「首次證明」（first demonstration）MB 輸出端的長期突觸可塑性**；本庫只收三篇，無從獨立驗證這個優先權宣稱。
+**重要性。** 這是 MB 學習模型的核心假設。Heisenberg 2003 提出「DAN 在各區室異突觸地調節 KC 輸出突觸」的模型；Aso et al. 2014a 的解剖圖譜顯示 15 個區室各有對應的 DAN 與 MBON；Aso et al. 2014b（本庫 [[s-aso-2014-mbon-valence]]）與 Owald et al. 2015 顯示活化不同 MBON 會引發趨近或迴避，也就是 MBON 帶有「正負價值」（valence）。這些都是間接證據。**作者在摘要中自稱「首次證明」（first demonstration）MB 輸出端的長期突觸可塑性**；本庫只收三篇，無從獨立驗證這個優先權宣稱。
 
 **發表當時的領域現狀（2015）。** 蝗蟲（Cassenaer & Laurent 2007、2012）與蜜蜂（Oleskevich et al. 1997）已在 MB 輸出端以電刺激誘發可塑性，蝗蟲的形式是依賴突觸後放電的 Hebbian 尖峰時序依賴可塑性（spike-timing-dependent plasticity, STDP）。果蠅方面只有鈣影像：KC 軸突在學習後反應增加（Akalal et al. 2010、2011；Boto et al. 2014〔該篇在部分區室看到 KC 軸突鈣反應改變，但在 γ1 區沒有，見 3.5〕；Tomchik & Davis 2009；Wang et al. 2008；Yu et al. 2006；但 Zhang & Roman 2013 不同），MBON 有的減少（Owald et al. 2015；Séjourné et al. 2011）、有的增加（Bouzaiane et al. 2015；Owald et al. 2015；Pai et al. 2013；Plaçais et al. 2013）。DAN 受器方面，Kim et al. 2007 與 Qin et al. 2012 顯示 KC 上的多巴胺受器是學習所必需。同一團隊在本篇之前（Hige et al. 2015, *Nature*）已報告 MBON 的氣味反應在個體之間差異很大，推測是經驗塑造的結果。
 
@@ -367,6 +367,7 @@ flowchart TD
 - 本批（2026-10-25 第二批）已開頁、與本篇相關：[[e-mbon-gamma1pedc]]、[[e-ppl1-gamma1pedc]]、[[e-mbon-gamma2alpha1]]、[[e-mb099c]]、[[e-th-gal4]]、[[c-odor-generalization]]、[[c-whole-cell-patch-clamp]]
 - 概念：[[c-sparse-coding]]（本篇與 [[s-minnick-2026-untrained-connectome]] 使它在 2026-11-12 達到開頁門檻）
 - 實體：[[e-mbon-alpha2sc]]、[[e-ppl1-alpha2alpha2]]（因 [[s-huang-2024-dopamine-memory-dynamics]] 在 2026-11-13 達到開頁門檻）
+- 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]
 - 待開頁面：`e-campbell-2013-odor-set`、`c-synaptic-interference`、[[c-valence-coding]]
 
 ## 出處

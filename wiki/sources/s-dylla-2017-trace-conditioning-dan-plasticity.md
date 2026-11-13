@@ -33,7 +33,7 @@ confidence: medium
 
 > 本節假設讀者已略知果蠅嗅覺學習的輪廓。**完全不熟的讀者可以先看「科普文」一節**；術語另見「專業文」開頭的「本頁用語」表。
 
-本庫「時序規則」主題頁（[[t-timing-rules]]）收了兩種資料：行為上的時間窗（Tully 1985、Tomchik 2009：氣味結束後空白越久，學得越差）與分子或突觸上的時間窗，也就是在分子或突觸層級量到「氣味與多巴胺隔多久仍有效」（Tomchik 2009 量 cAMP，一種細胞內的訊號小分子，見本頁用語；Hige 2015 與 Handler 2019 量突觸）。中間缺一塊：**氣味和電擊隔開幾秒的痕跡制約（trace conditioning）訓練進行時，蕈狀體裡的神經元實際怎麼變。** 這篇在活果蠅上，一邊做 5 秒空白的痕跡制約，一邊用鈣成像同時看九個區室（蕈狀體分成的一格一格）的多巴胺神經元（DAN）與 Kenyon 細胞（KC）。在此之前，本庫與痕跡制約有關的神經資料只有 Tomchik 2009：在取出的腦裡，用化學物質模擬氣味與多巴胺、改變兩者的時間差。
+本庫「時序規則」主題頁（[[t-timing-rules]]）收了兩種資料：行為上的時間窗（Tully 1985〔[[s-tully-1985-classical-conditioning]]〕、Tomchik 2009：氣味結束後空白越久，學得越差）與分子或突觸上的時間窗，也就是在分子或突觸層級量到「氣味與多巴胺隔多久仍有效」（Tomchik 2009 量 cAMP，一種細胞內的訊號小分子，見本頁用語；Hige 2015 與 Handler 2019 量突觸；兩篇見 [[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]）。中間缺一塊：**氣味和電擊隔開幾秒的痕跡制約（trace conditioning）訓練進行時，蕈狀體裡的神經元實際怎麼變。** 這篇在活果蠅上，一邊做 5 秒空白的痕跡制約，一邊用鈣成像同時看九個區室（蕈狀體分成的一格一格）的多巴胺神經元（DAN）與 Kenyon 細胞（KC）。在此之前，本庫與痕跡制約有關的神經資料只有 Tomchik 2009：在取出的腦裡，用化學物質模擬氣味與多巴胺、改變兩者的時間差。
 
 第二個貢獻是給「DAN 會不會學」一筆早期的區室解析資料。本庫 Huang 2024 用電壓成像（直接量膜電位，能看到放電減少；鈣成像不易看到減少）看到 α3 格的 DAN 學會對受訓氣味放電；這篇早七年，用鈣成像看到 γ 葉與 β′ 葉多數格的 DAN 對受訓氣味的反應**相對於不配對組**變大。兩篇對「這個習得反應從哪裡來」給的解釋不同。
 
@@ -213,7 +213,7 @@ KC 組的雜交沒有列 mb247-DsRed。方法節說 KC 的區室依 GCaMP3 劃�
 
 訓練後第 13 回合再給一次 CS，用來偵測鈣訊號隨時間衰退（run-down）。
 
-**區室與左右腦。** 依 Tanaka 2008、Aso 2014a 目視劃定區室。先左右腦分開分析，以線性混合效應模型檢驗左右差異。部分區室左右有差（不配對組 DAN 的電擊反應、配對組 KC 的 CS 反應，補充表 1）。作者因此只取一側做後續分析：選 γ1 看得到的那一側。原文稱 γ1 為「underrepresented」，意即 γ1 在部分果蠅的某一側成像不清楚；原因論文未說明。
+**區室與左右腦。** 依 Tanaka 2008、Aso 2014a（[[s-aso-2014-mb-architecture]]）目視劃定區室。先左右腦分開分析，以線性混合效應模型檢驗左右差異。部分區室左右有差（不配對組 DAN 的電擊反應、配對組 KC 的 CS 反應，補充表 1）。作者因此只取一側做後續分析：選 γ1 看得到的那一側。原文稱 γ1 為「underrepresented」，意即 γ1 在部分果蠅的某一側成像不清楚；原因論文未說明。
 
 **正規化。** 基線 F0 取第 3–24 張的平均（※ 推論：每秒 5 張、成像從 CS 前 5 秒開始，約為 CS 前 4.6 到 0.4 秒）。ΔF/F0 再除以「第 2 回合 BUT 反應在反應最強那一區的最大值」。
 
@@ -582,10 +582,11 @@ KC 組的雜交沒有列 mb247-DsRed。方法節說 KC 的區室依 GCaMP3 劃�
 
 - [[numbers]] — 本篇的協定參數（10 秒 CS、5 秒空白、90 V × 4 × 1.5 秒、回合間隔 210 秒）、電流相關係數與斜率、圖 6A 第 10 回合的各區差值、空間樣式夾角
 - 主題：[[t-timing-rules]]（痕跡制約下的神經資料；*rutabaga* 是否為痕跡制約的巧合偵測器）、[[t-mbon-dan-feedback]]（DAN 對 CS 的習得反應來自 KC→DAN 還是 MBON 回饋）、[[t-dopamine-to-plasticity]]（配對後 KC 軸突鈣在 β′ 減弱）
-- 概念：[[c-cs-us-timing]]、[[c-coincidence-detection]]、[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]
-- 實體：[[e-dopaminergic-neuron]]、[[e-kenyon-cell]]、[[e-th-gal4]]、[[e-gcamp]]、[[e-mushroom-body]]、[[e-ppl1-gamma1pedc]]、[[e-ppl1-gamma2alpha1]]、[[e-rutabaga]]
+- 概念：[[c-cs-us-timing]]、[[c-coincidence-detection]]、[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-prediction-error]]（本庫以 `c-prediction-error` 取代原待開清單中的 `c-reward-prediction-error`）
+- 實體：[[e-dopaminergic-neuron]]、[[e-kenyon-cell]]、[[e-th-gal4]]、[[e-gcamp]]、[[e-mushroom-body]]、[[e-ppl1-gamma1pedc]]、[[e-ppl1-gamma2alpha1]]、[[e-rutabaga]]、[[e-ok107-gal4]]
 - 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-felsenberg-2018-memory-extinction]]、[[s-cohn-2015-coordinated-neuromodulation]]
-- 待開頁面：`e-ok107-gal4`（KC 的驅動品系）、`c-reward-prediction-error`（預測誤差）、[[c-nonassociative-learning]]（非聯結式效應與不配對對照）、[[c-second-order-conditioning]]（二階制約）、`e-mb247-dsred`（蕈狀體螢光地標）
+- 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-aso-2014-mb-architecture]]
+- 待開頁面：[[c-nonassociative-learning]]（非聯結式效應與不配對對照）、[[c-second-order-conditioning]]（二階制約）、`e-mb247-dsred`（蕈狀體螢光地標）
 
 ## 出處
 

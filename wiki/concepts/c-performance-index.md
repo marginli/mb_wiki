@@ -1,7 +1,7 @@
 ---
 title: 表現指數（performance index, P.I.）
 created: 2026-10-25
-updated: 2026-11-12
+updated: 2026-11-13
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
@@ -33,6 +33,13 @@ confidence: medium
 | Felsenberg 2017 | T 迷宮 | 未寫，「如文獻 17（Krashes & Waddell 2008）所述」 | 偏向 CS+（獎賞） |
 | Tumkaya 2025 | MOT／WALISAR 線形通道 | PI ＝（受訓區隻數 − 對照區隻數）／總隻數，取測驗最後 30 s 的平均。**報的是 ΔPI ＝ PI(測驗) − PI(同一批果蠅的事前偏好檢查)**，不是測驗當下的 PI。另外**只報半 PI**：反 OCT 與反 MCH（或紅光在左與紅光在右）兩組分開報，不合併 | 依實驗而定：嫌惡制約為負（躲開受訓的氣味或光區），獎賞制約為正 |
 | Felsenberg 2018 | T 迷宮 | （CS+ 臂隻數 − CS− 臂隻數）÷ 總數（引 Tully & Quinn 1985）；MCH、OCT 輪流當 CS+，兩組平均為一個 n。**與 Tully 的 Λ 方向相反：** Tully 把走進另一個氣味那一臂的果蠅算成躲開這個氣味（PDF 第 266 頁）。所以待在 CS− 臂的果蠅＝躲開了 CS+，待在 CS+ 臂的＝躲開了 CS−。代入本式：（躲 CS− 的隻數 − 躲 CS+ 的隻數）÷ 總數，正好是 Λ 的兩項對調，即 −Λ。白話：Felsenberg 2018 的分數就是 Tully 的分數加上負號。※ 推論：只有兩篇的分母都是同一種「總數」時才完全等於 −Λ；若一篇含、一篇不含留在中央的果蠅，數值會略有不同。本篇原文只寫「total number of flies」，含不含中央者：？待查 | 偏向 CS+；本篇是電擊訓練，所以**躲 CS+ 時為負值** |
+| Burke 2012 | T 迷宮 | 走向受訓氣味的隻數減走向對照氣味的隻數，除以總數。**一個 PI 值是同基因型果蠅用兩種氣味各訓練一次的平均** | 偏向配過糖的 CS+（欲求制約；方向與嫌惡實驗相反） |
+| Aso 2014b | 四象限場地（光、顏色）；T 迷宮；Y 迷宮（酒精） | 光偏好 PI＝(照光象限隻數 − 未照光象限隻數)／總隻數，取兩段照光各自最後 5 s（55–60 s、115–120 s）的平均；氣味記憶 PI＝[OCT 配電擊時 (OCT 管隻數 − MCH 管隻數)／總隻數] 與 [MCH 配電擊時 (MCH − OCT)／總隻數] 的平均（圖 6A）；顏色記憶同理換成藍／綠象限（圖 8A） | 光偏好：正＝靠近照光象限；氣味與顏色記憶：**負值＝躲 CS+**（與庫內多數來源相反） |
+| Aso 2019 | 四象限競技場 | （氣味 A 象限隻數 − 氣味 B 象限隻數）／總隻數，取測驗最後 30 s 平均，互換氣味的兩組取平均。與 Aso 2016 同定義、同裝置 | **只表示果蠅待在哪一側，不表示喜歡或討厭**：圖 7B 三欄共用「CS+1st／CS+2nd」刻度，野生型（學到躲避）落在負側、TH 突變（學到喜好）落在正側 |
+| Aso 2023 | 四象限競技場 | 〔對角兩象限中氣味一的隻數 − 另兩象限（氣味二或空氣）的隻數〕÷ 總隻數，60 s 測驗取最後 30 s 平均，互換兩組取平均；圖 7D 改成「照光象限 vs 不照光象限」 | 偏向配過獎賞的 CS+（或照光象限） |
+| Yamada 2023 | 四象限競技場（直徑 9 cm） | (兩個對角象限中某一氣味那側的隻數 − 另兩象限的隻數) ÷ 總數，取 60 s 測驗最後 30 s；每組實驗半數把兩種 S2 的角色對調，圖上報兩半的平均 | 偏向 S2+（二階記憶）或偏向 S1／CS+（一階記憶） |
+| Pribbenow 2022 | T 迷宮 | 原文未列式，寫「如 Owald et al. 2015」；選對邊比例減選錯邊比例 | 偏向配過糖的 CS+；**嫌惡記憶畫成負值** |
+| Kaldun 2025 | T 迷宮（0、2 h 與 24 h 獎賞）；Y 迷宮（24 h 嫌惡） | **同一篇兩個公式。** T 迷宮：PREF＝(一臂隻數 − 另一臂隻數) × 100 ÷ 總數（原文沒有指明哪一臂當被減數），LI＝兩次互換氣味制約的 PREF 平均；Y 迷宮：LI＝(未受訓氣味隻數 − 受訓氣味隻數) × 100 ÷ 總數，只做一次、不互換。兩者刻度都是 −100 到 +100 | 兩者都是正值＝學到了（躲開配過電擊的氣味、趨向配過糖的氣味）；LI＝0＝沒有偏好（※ 推論，依據是互換設計） |
 
 ## 庫內的用法
 
@@ -47,8 +54,17 @@ confidence: medium
 | [[s-felsenberg-2017-re-evaluation]] | 糖獎賞記憶再聞 CS+ 或 CS− 後，6 小時的 PI | 消退後約 0.01，其他組約 0.2–0.3（見 [[c-memory-extinction]]） |
 | [[s-felsenberg-2018-memory-extinction]] | 電擊記憶再聞 CS+ 後，1 小時的 P.I. | 例：不再暴露約 −0.39、再聞 CS+ 兩次約 −0.20，躲避少了約一半 |
 | [[s-tumkaya-2025-synthetic-memory-inception]] | 以 ΔPI 當效果量，比較自然、半合成與全合成制約；以 DABEST 拔靴重抽報 95% 信賴區間，**刻意不報 p 值** | 自然氣味＋電擊 −0.44 至 −0.72；紅光取代氣味＋電擊 −0.92；全合成嫌惡 −0.33（MOT）／+0.07（WALISAR）；全合成喜好 +0.50（MOT）／+0.38（WALISAR） |
+| [[s-aso-2014-mbon-valence]] | 以 PI 當篩檢讀數：光偏好 PI（未訓練果蠅對照光象限）篩 25 條 MBON 品系，再以記憶 PI 做 2 h 氣味、顏色、24 h 長期與酒精記憶的阻斷篩檢 | 光偏好：推動走開的品系約 −0.19 到 −0.20（MB434B、MB011B），推動靠近的約 0.26–0.30（MB083C、MB112C、MB077B、MB052B），對照約 +0.03–0.06；25 條中只有 9 條顯著。2 h 嫌惡氣味記憶：對照約 −0.45 到 −0.57，MB112C/Shi 約 −0.25、MB085C/Shi 約 −0.32（記憶剩一半左右）。顏色記憶整體很小（對照只有約 −0.12 到 −0.17）。**2 小時氣味記憶與顏色記憶的 n，正文、方法與圖說都沒有報告**（皆 ※ 從圖判讀） |
+| [[s-burke-2012-octopamine-dopamine-reward]] | 以 PI 量阻斷章魚胺神經元或 PAM 多巴胺神經元後的欲求記憶，以及人工活化所植入的記憶 | 阻斷章魚胺神經元＋阿拉伯糖訓練：實驗組約 0.065、三對照約 0.32／0.20／0.23（平均 0.25），**降約 74%**（※ 從圖 1b 判讀，降幅為來源頁推算、論文只寫 significantly impaired）；阻斷 PAM（0104-GAL4）＋阿拉伯糖降到約 0.005（約 98%）。活化章魚胺神經元 PI 約 0.25、活化 40 顆 PAM 約 0.48、活化 130 顆 PAM 約 0.78（※ 從圖判讀；論文只用 far greater 一詞，沒有並列這三個數字） |
+| [[s-aso-2019-nitric-oxide-cotransmitter]] | 以競技場 PI 比較「有無多巴胺」「有無一氧化氮」下的學習、保留與更新；四種訓練協定（1×10 s、1×1 min、3×1 min、10×1 min 間隔） | 價性反轉：PPL1 四型合一品系在正常背景約 −0.4、TH 突變背景約 +0.45；PAM 群正常約 +0.65、TH 突變約 −0.45。NOS-shRNA 使 10× 間隔訓練後出現一日負價性記憶（約 −0.45）（皆 ※ 從圖判讀） |
+| [[s-aso-2023-upwind-neurons]] | **同一批果蠅同時用 PI 與「迎風位移」兩種讀數**量四個區室的獎賞記憶；另以 PI 量測驗時阻斷 UpWiN 的效果 | PI（訓練 3 次後）：空對照約 0.12、γ5β′2a 約 0.78、α1 約 0.75、β1β2 約 0.65、γ4 約 0.38（n＝12–22）。迎風位移只有 α1（約 0.21）與 β1β2（約 0.14）顯著，γ5β′2a、γ4 與對照無異。測驗時阻斷 UpWiN：PI 約 0.12，三組對照約 0.32–0.43（皆 ※ 從圖判讀） |
+| [[s-yamada-2023-second-order-conditioning]] | 以 PI 量一階記憶（S1 對空氣）與二階記憶（S2+ 對 S2−），並據此算出「記憶持久度」等比值 | 二階記憶：一階訓練 5 分鐘約 0.47、2 分鐘約 0.25、不配對約 0.12（N＝14–16；0 對 2 分鐘 p＝0.152，0 對 5 分鐘 p<0.0001）。省略獎賞時一階記憶在 9 次訓練中升到約 0.68，二階在第 3 次達約 0.46 後降到約 0.29（N＝8）（皆 ※ 從圖判讀） |
+| [[s-pribbenow-2022-postsynaptic-plasticity]] | 以 T 迷宮 PI 量 MBON 中的受體 RNAi 與 KC 阻斷對獎賞、嫌惡記憶的影響；以「立即 vs 3 小時」兩個時間點分辨誘發與表現 | 訓練時阻斷 KC：獎賞 PI 由約 0.29／0.26 降到約 −0.03（顯著），嫌惡約 −0.55 對 −0.65／−0.68（不顯著，且 23 °C 對照也有同幅下降）。在 M4/6 降低 α5：立即獎賞 PI 約 −0.04、對照約 0.25（皆 ※ 從圖判讀） |
+| [[s-kaldun-2025-dop1r2-memory-phases]] | 以 LI 量四種剔除範圍（全蕈狀體、γ、α/β、α′/β′）在 0、2、24 小時的嫌惡與獎賞記憶；一個 N ＝ 一次獨立實驗（50–100 隻）算出的一個 LI | 短期記憶八張圖全部 ns（殘存約 88–106%）。2 小時：α/β 葉嫌惡由對照均值約 40.5 降到約 6（15%）、α′/β′ 由約 33.5 降到約 7（21%），γ 葉無影響。24 小時嫌惡（Y 迷宮）的對照約 48–74，高於 2 小時（約 32–45），**這是裝置與公式的差別，不是記憶變強**（殘存比例為來源頁計算、柱高 ※ 從圖判讀） |
 
 > 除 Tully 1985 的 0.89 ± 0.01 與 5–10% 取自正文外，數值皆為從圖判讀，見 [[numbers]] 與各來源頁。**Handler 2019 不用 P.I.**（全文 grep `performance` 無結果）：它的行為指標是一盒 4–7 隻果蠅的群體重心在 2 s 氣味期間往上風（氣味源）移動的距離（mm）；正值＝往氣味走＝吸引。Cohn 2015 沒有任何行為選擇測驗。
+
+**另有四篇本批來源沒有列進上面兩張表，理由各不相同。** [[s-eschbach-2021-learned-innate-valence-integration]] 是幼蟲，讀數是**導航指數**（沿氣味梯度方向的平均速度 ÷ 平均爬行速度，+1＝全部直直往濃處爬）與轉彎率，不是二選一的 PI；它的學習效果是導航指數由不配對組的約 +0.07 變成配對組的約 −0.09（正文寫 +0.1 與 −0.1，※ 從圖 1b 判讀）。[[s-mao-2009-dopaminergic-neuron-types]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]] 都是頭固定的成像實驗，**沒有行為讀數**——Dylla 2017 自己說只能靠「協定和行為實驗相近」來相信果蠅學會了。[[s-aso-2014-mb-architecture]] 是純解剖，全文沒有任何行為量測或統計檢定。
 
 ## 引用時的陷阱
 
@@ -68,10 +84,18 @@ confidence: medium
 
 10. **不報 p 值不等於沒做統計。** [[s-tumkaya-2025-synthetic-memory-inception]] 使用 DABEST 的估計統計：以拔靴重抽算效果量與 95% 信賴區間，並引用文獻主張這是較好的作法。判讀時看區間含不含 0，而不是找星號。要注意這個標準在邊界上很脆弱：該篇全合成嫌惡記憶的 ΔPI 是 −0.33 [−0.64, **−0.01**]，區間上界離 0 只有 0.01。
 
+11. **PI 高不等於果蠅會用某個特定動作去接近；PI 量不到「怎麼走過去」。** [[s-aso-2023-upwind-neurons]] 圖 1H 與 1J：只在 γ5β′2a 寫入記憶的果蠅 PI 約 0.78，與只在 α1 寫入的約 0.75 不相上下，但前者在單一氣味下幾乎不迎風，後者明顯迎風。以糖受器神經元訓練時，PI 一次訓練就到最高值的約 0.63，迎風位移只有約 0.1（圖 1F 的學習速率）。所以拿 PI 比較兩個區室「記憶多強」時，比的只是偏向，不是行為策略；反過來，以迎風或逆風位移當唯一讀數的研究（例如 [[s-handler-2019-dopamine-receptor-timing]]），會漏掉不叫出迎風的那些區室的記憶。兩種讀數的單位也不同：Aso 2023 的迎風位移是面積正規化距離（距離除以半徑 50 mm 後取平方）的變化，Handler 2019 是 mm。
+
+12. **同一篇裡換裝置就換公式，分數不能排成一條保留曲線。** [[s-kaldun-2025-dop1r2-memory-phases]] 的 0 與 2 小時用 T 迷宮、100 V、單循環、不餓，LI 是兩次互換制約的 PREF 平均；24 小時嫌惡改用 Y 迷宮、90 V、六循環間隔訓練、測驗前餓 24 小時，LI 是單次計數。結果對照組的 24 小時 LI（約 48–74）**高於** 2 小時（約 32–45）——這是裝置、公式、電壓與飢餓處理的差別，不是記憶變強，該篇沒有提醒這一點（見該來源頁第五節第 4 條）。同一類問題也出現在 [[s-aso-2014-mbon-valence]]：氣味記憶在 T 迷宮、顏色記憶在四象限場地、酒精記憶在 Y 迷宮，三者的 PI 絕對值不能互比（顏色記憶的對照只有約 −0.12 到 −0.17）。
+
+13. **刻度還有第三種：乘以 100 的。** [[s-kaldun-2025-dop1r2-memory-phases]] 的 LI 是 −100 到 +100，[[s-gervasi-2010-pka-dynamics]] 畫成 0–100，[[s-hige-2015-heterosynaptic-plasticity]] 的值在數十（公式在未取得的補充資料，？待查），其餘多數篇落在 −1 到 +1。並排前先確認是哪一種刻度（接陷阱 1）。
+
+14. **「殘存幾成」這種比例是本庫算的，不是論文報的。** [[s-kaldun-2025-dop1r2-memory-phases]] 的殘存比例（剔除組 LI ÷ 三組親代對照 LI 的算術平均）與 [[s-burke-2012-octopamine-dopamine-reward]] 的「降約 74%」「降約 98%」都是來源頁從柱高推算的（※），論文只寫「顯著受損」。這類比例的分母是對照組的絕對值，而對照水準在不同批次之間本來就會擺盪（Kaldun 2025 的對照均值在 33.5 到 62.3 之間），所以跨篇比較「降了幾成」比比較「降了多少分」更不穩。
+
 ## 相關
 
 - 主題：[[t-timing-rules]]、[[t-memory-updating]]
 - 概念：[[c-cs-us-timing]]、[[c-us-substitution]]、[[c-memory-extinction]]、[[c-odor-generalization]]
-- 實體：[[e-t-maze]]、[[e-olfactory-arena]]
-- 來源：本頁的用法表列出全部七篇；另見 [[s-tumkaya-2025-synthetic-memory-inception]] 的 ΔPI 與半 PI
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]
+- 實體：[[e-t-maze]]、[[e-olfactory-arena]]、[[e-cschrimson]]、[[e-shibire-ts]]
+- 來源：本頁的「庫內的用法」表共 16 列（一列一篇）；另見 [[s-tumkaya-2025-synthetic-memory-inception]] 的 ΔPI 與半 PI
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2014-mbon-valence]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-kaldun-2025-dop1r2-memory-phases]]

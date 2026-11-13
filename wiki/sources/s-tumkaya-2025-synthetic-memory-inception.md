@@ -124,7 +124,7 @@ confidence: high
 
 **重要性：** 取代實驗（substitution experiment）是判定「某個訊號是否足夠」的標準作法，但過去在果蠅成蟲身上只做到單邊取代——取代 CS（氣味）或取代 US（增強訊號），不曾兩邊同時取代。只要保留任一邊的自然刺激，就無法排除三種可能：自然刺激特有的時間動態、它活化的特定細胞組合，或是訊號其實還從已知迴路以外的別條路徑漏進腦裡。
 
-**發表當時的領域現狀（2025）：** CS 側的人工取代，在幼蟲上由 Tomasiunaite 2018 等做過；US 側的取代則由 Claridge-Chang 2009（含 PPL1 的 TH⁺ 子集，嫌惡）、Burke 2012 與 Liu 2012（PAM，獎賞）建立，本庫的 [[s-aso-2016-dan-cell-type-rules]] 與 [[s-ichinose-2015-reward-recurrent-circuit]] 都在這條線上。兩邊都取代的「全合成」實驗，當時只有兩例：Honda 2014 在**果蠅幼蟲**上同時活化 Or24a 神經元與 Tdc2 細胞（Tdc2 製造章魚胺與酪胺，位在 PAM 的上游），以及 Vetere 2019 在**小鼠**上同時活化單一嗅覺絲球與兩條投射到腹側被蓋核的路徑。本篇指出這兩例的共同限制：被人工活化的是多巴胺神經元的**上游**，指揮用的多巴胺迴路本身沒有被直接驅動。
+**發表當時的領域現狀（2025）：** CS 側的人工取代，在幼蟲上由 Tomasiunaite 2018 等做過；US 側的取代則由 Claridge-Chang 2009（含 PPL1 的 TH⁺ 子集，嫌惡）、Burke 2012（[[s-burke-2012-octopamine-dopamine-reward]]）與 Liu 2012（PAM，獎賞）建立，本庫的 [[s-aso-2016-dan-cell-type-rules]] 與 [[s-ichinose-2015-reward-recurrent-circuit]] 都在這條線上。兩邊都取代的「全合成」實驗，當時只有兩例：Honda 2014 在**果蠅幼蟲**上同時活化 Or24a 神經元與 Tdc2 細胞（Tdc2 製造章魚胺與酪胺，位在 PAM 的上游），以及 Vetere 2019 在**小鼠**上同時活化單一嗅覺絲球與兩條投射到腹側被蓋核的路徑。本篇指出這兩例的共同限制：被人工活化的是多巴胺神經元的**上游**，指揮用的多巴胺迴路本身沒有被直接驅動。
 
 ### 二、方法
 
@@ -343,6 +343,7 @@ E1 的圖說提到「訓練期使用了兩種不同的時間安排」（Two diff
 - 主題：[[t-timing-rules]]（ORN 的時間結構學不起來；CS–US 完全同時）、[[t-dopamine-to-plasticity]]（作者自陳未直接操作突觸）
 - 概念：[[c-us-substitution]]、[[c-coincidence-detection]]、[[c-cs-us-timing]]、[[c-performance-index]]（半 PI vs 全 PI）
 - 實體：[[e-dopaminergic-neuron]]、[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-cschrimson]]、[[e-r58e02]]、[[e-th-gal4]]、[[e-t-maze]]（MOT 不是 T 迷宮，見 [[e-t-maze]] 的對照說明）
+- 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-burke-2012-octopamine-dopamine-reward]]
 - 待開頁面：`e-mot-assay`（多果蠅嗅覺訓練器）、`e-walisar`（單隻果蠅風光自投裝置）、`e-chr2xxl`、`e-orco-gal4`、`e-th-lexa`、`c-estimation-statistics`（效果量與拔靴信賴區間，不報 p 值）
 
 ## 出處

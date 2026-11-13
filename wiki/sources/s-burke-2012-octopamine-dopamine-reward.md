@@ -291,7 +291,7 @@ flowchart TD
 
 **論文自陳的方向。** 最後一段明寫兩個開口：章魚胺的增強可能還需要同時調控其他尚未指認的多巴胺神經元；也可能涉及其他平行的章魚胺作用模式。另外，營養訊號（不需要章魚胺的那一份）也經過 PAM 多巴胺神經元（正文第 3 頁），但多巴胺上游由誰傳遞營養訊號，本篇沒有處理。
 
-**本庫關注的後續。** 這篇留下的開口，庫內有三處接得上。(a) [[c-octopamine-reward-signal]] 的陷阱 5 可以把「？待查」改寫成有來源的敘述，並把 [[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]] 的 KC 層次結果放到「受體位置不同」這個框架下重讀。(b) [[s-ichinose-2015-reward-recurrent-circuit]] 的 PAM-α1 寫入長期獎賞記憶，而本篇的 0104 標的是 β′／γ 葉尖的 PAM（※ 推論：依圖 4g、4h 的 Brp::GFP 分布，論文沒有寫出對應的區室名），兩者是不是同一群需要對照——本篇人工植入的章魚胺記憶撐不過 3 小時，Ichinose 的 α1 迴圈管 24 小時記憶，兩者可能分屬不同的 PAM 子群；但同一篇也說 0104 對蔗糖的 24 小時記憶是必要的，所以這個推論只能限定在「章魚胺那一份」（※ 推論）。(c) [[e-ppl1-gamma1pedc]]（＝本篇的 MB-MP1）在本庫一向以「懲罰」的身分出現（Hige 2015、Aso 2016、Huang 2024）；本篇讓它在**獎賞**的迴路裡扮演一個必須被調節的角色，這一條要寫進該實體頁。
+**本庫關注的後續。** 這篇留下的開口，庫內有三處接得上。(a) [[c-octopamine-reward-signal]] 的陷阱 5 可以把「？待查」改寫成有來源的敘述，並把 [[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]] 的 KC 層次結果放到「受體位置不同」這個框架下重讀。(b) [[s-ichinose-2015-reward-recurrent-circuit]] 的 PAM-α1 寫入長期獎賞記憶，而本篇的 0104 標的是 β′／γ 葉尖的 PAM（※ 推論：依圖 4g、4h 的 Brp::GFP 分布，論文沒有寫出對應的區室名），兩者是不是同一群需要對照——本篇人工植入的章魚胺記憶撐不過 3 小時，Ichinose 的 α1 迴圈管 24 小時記憶，兩者可能分屬不同的 PAM 子群；但同一篇也說 0104 對蔗糖的 24 小時記憶是必要的，所以這個推論只能限定在「章魚胺那一份」（※ 推論）。(c) [[e-ppl1-gamma1pedc]]（＝本篇的 MB-MP1）在本庫一向以「懲罰」的身分出現（Hige 2015〔[[s-hige-2015-heterosynaptic-plasticity]]〕、Aso 2016、Huang 2024）；本篇讓它在**獎賞**的迴路裡扮演一個必須被調節的角色，這一條要寫進該實體頁。
 
 **尚未被回答的。** 真正吃糖時，章魚胺神經元放多少電、PAM-DAN 被推動多少，本篇沒有量（鈣成像是外加藥物）。章魚胺作用在 MB-MP1 上之後，MB-MP1 的活動往哪個方向變，也沒有量。這兩個缺口要等能在行為中同時量 DAN 活動的方法——本庫目前最接近的是 [[s-huang-2024-dopamine-memory-dynamics]] 的電壓成像，但它只量 PPL1 群，沒有量 PAM，也沒有測章魚胺。
 
@@ -368,11 +368,12 @@ flowchart TD
 
 - [[numbers]] — 本篇貢獻了章魚胺／多巴胺神經元阻斷與活化的表現指數、PAM 群的細胞數（約 130 與約 40）、鈣成像的濃度與峰值、*oamb* RNAi 的轉錄本降幅
 - 概念：[[c-octopamine-reward-signal]]（本篇是把章魚胺放到多巴胺上游的原始來源）、[[c-us-substitution]]（人工活化取代糖）、[[c-performance-index]]、[[c-mb-compartment]]
-- 實體：[[e-dopaminergic-neuron]]、[[e-ppl1-gamma1pedc]]（＝本篇的 MB-MP1）、[[e-shibire-ts]]、[[e-gcamp]]、[[e-dopamine-receptor]]、[[e-t-maze]]、[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-split-gal4]]
+- 實體：[[e-dopaminergic-neuron]]、[[e-ppl1-gamma1pedc]]（＝本篇的 MB-MP1）、[[e-shibire-ts]]、[[e-gcamp]]、[[e-dopamine-receptor]]、[[e-t-maze]]、[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-split-gal4]]、[[e-dtrpa1]]
 - 主題：[[t-dopamine-to-plasticity]]、[[t-mbon-dan-feedback]]
 - 相關來源：[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]（兩篇把章魚胺直接施加在 KC 上）、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-tumkaya-2025-synthetic-memory-inception]]（兩篇引用本篇作為「章魚胺在 PAM 上游」的依據）
 - 矛盾：[[syn-contradictions]] 1.7、1.8 的背景改變了，但本篇**不裁決**這兩條（見第五節第 8 點）
-- 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，`c-` 開頭為概念頁）：`e-dtrpa1`、[[e-grasp]]、`e-tdc2-gal4`、`e-tbh`、`e-oamb`、`e-octbeta2r`、`e-pam-cluster`、[[c-appetitive-memory]]、`c-sweet-vs-nutrient`
+- 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-hige-2015-heterosynaptic-plasticity]]
+- 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，`c-` 開頭為概念頁）：[[e-grasp]]、`e-tdc2-gal4`、`e-tbh`、`e-oamb`、`e-octbeta2r`、`e-pam-cluster`、[[c-appetitive-memory]]、`c-sweet-vs-nutrient`
 
 ## 出處
 

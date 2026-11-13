@@ -1,7 +1,7 @@
 ---
 title: 四象限光遺傳嗅覺競技場（optogenetic olfactory arena）
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-13
 tags: [entity, active, cross-domain]
 confidence: medium
 ---
@@ -38,12 +38,25 @@ Janelia 研究園區的一套行為裝置：一個扁平的圓形小場地，分
 
 Hige 2015 的行為參數（光強、流程、PI 公式）都在補充資料：？待查（補充資料未取得）。數值見 [[numbers]]。
 
+**其他各篇報的規格（上表只列 Aso 2016）：**
+
+- [[s-aso-2014-mbon-valence]]：直徑 10 cm、高 3 mm，四象限以 **1 mm 隔板**分開；**617 nm** LED，照光區 34 µW/mm²，交界 10 mm 內由 34 降到 3 µW/mm²；每秒 30 張、1024 × 1024 像素；25 °C、50% 濕度。這一篇沒有用它做嗅覺測驗，用的是**光**（未訓練果蠅的光偏好）與**顏色**（藍 452 或 456 nm、綠 520 nm 由下方照射，電擊格柵是鍍在玻璃上的透明 ITO）。
+- [[s-aso-2019-nitric-oxide-cotransmitter]]：627 nm、34.9 µW/mm²；25 °C、50% 濕度；約 20 隻雌蠅、4–10 日齡；OCT 1:1000、MCH 1:750。
+- [[s-aso-2023-upwind-neurons]]：**半徑 50 mm**、四角各進氣 100 mL/min、中央抽氣 400 mL/min、627 nm 34.9 µW/mm²、30 fps；閥門切換後取 **3.5 s** 為「氣味開始」；氣味以石蠟油稀釋 PA、EL 各 1:10,000。**本篇沒有寫競技場的溫度與濕度（？待查）。** 競技場設計檔公開在 janelia.org。
+- [[s-yamada-2023-second-order-conditioning]]：果蠅被限制在 LED 板上方**直徑 9 公分**的圓形區域；627 nm、34.9 µW/mm²；四臂各進氣 100 mL/min、中央抽 400 mL/min；30 fps，用 Fiji 分析；22 °C、60% 濕度飼養。
+
+**直徑在庫內有兩個數字**：Aso 2016 與 Aso 2014b 寫 10 cm、Aso 2023 寫半徑 50 mm（＝直徑 10 cm），Yamada 2023 的圖 1B 圖說寫 9 cm。三篇都說用的是 Aso 2016 那一套，※ 推論：可能是裝置有不同版本，或「圓形區域」與「場地外徑」量的不是同一處；論文沒有說明。
+
 ## 庫內誰用了它
 
 | 來源 | 活化哪些 DAN | 量什麼 |
 |---|---|---|
 | [[s-hige-2015-heterosynaptic-plasticity]] | PPL1-γ1pedc（MB320C），光 500 ms × 12（從圖 7J 讀出） | 以乙酸戊酯（PA）訓練後，對 PA、乙酸丁酯、2-庚酮各對乳酸乙酯二選一，看學到的迴避是否類化到相似氣味（見 [[c-odor-generalization]]）；每組 n＝10 |
 | [[s-aso-2016-dan-cell-type-rules]] | 六組驅動品系（含 MB320C、MB099C、MB043C 等），標準訓練 60 s 內 30 下 1 s 光 | 光與氣味的時間差掃描（十點）、訓練長度、1 日與 4 日記憶、未配對氣味或未配對 DAN 使記憶減弱、反轉學習、記憶容量 |
+| [[s-aso-2014-mbon-valence]] | **活化的是 MBON 不是 DAN**：25 條 split-GAL4（617 nm、34 µW/mm²，兩段各 30 s、輪流照不同的兩個象限） | 未訓練果蠅的**光偏好** PI（本篇的行為價值篩檢）與明暗交界的單隻軌跡；另以同一場地做**顏色**制約（藍／綠配電擊或糖，訓練 4 次後立即測 90 s）。**沒有在這個場地裡做氣味測驗**（氣味記憶用 T 迷宮） |
+| [[s-aso-2019-nitric-oxide-cotransmitter]] | 七組品系：PPL1 四型合一、PPL1-γ1pedc（MB320C）、γ2α′1、α3、PAM 群、PAM-γ5／β′2a、β′1；另以 Gr66a-GAL4 活化苦味神經元 | PI（取最後 30 s、互換氣味取平均）；四種訓練協定（1×10 s、1×1 min、3×1 min、10×1 min 間隔，每循環 18 min ※ 從圖 6A 判讀）；**並在同一裝置內連續做三種更新測驗**（逆轉配對、只聞兩個氣味、只活化 DAN；測驗 1–5） |
+| [[s-aso-2023-upwind-neurons]] | 四組獎賞 DAN（MB043C、MB213B、MB312C、MB109B＋MB315C）與糖受器神經元（Gr64f split-GAL4）；另有約 63 條品系的活化篩選 | PI 之外，追蹤每隻果蠅的軌跡，量**迎風位移**（離中心的面積正規化距離，即 (r/50 mm)² 相對氣味開始時的變化）、朝向與上風夾角的 cos、累積轉向角、步行速度、返回機率；另改變風速與風向（含反向 −400 mL/min）、切除觸角芒 |
+| [[s-yamada-2023-second-order-conditioning]] | PAM 各型（MB043C、MB109B＋MB315C、MB213B、MB312C、MB032B、MB196B）、SMP353/354（SS33917）、SMP108（SS67221、SS45234）；糖味覺神經元 Gr64f-GAL4 | 一階與二階記憶的 PI、學習曲線（9 次訓練）、消退（連測 6 或 12 次）、反轉與再反轉，以及「只照光不給氣味」的抹除；糖制約本身在管中做，再把果蠅放進競技場測驗 |
 
 ## 已知的問題
 
@@ -51,11 +64,18 @@ Hige 2015 的行為參數（光強、流程、PI 公式）都在補充資料：�
 - **正負號約定不同。** Hige 2015：正值＝迴避受測氣味。Aso 2016：圖 1、圖 4 未改號，負值＝躲配光的氣味；圖 2、3 把嫌惡型品系的 PI 乘以 −1，正值一律代表「學到了」。
 - **「時間差」的零點不精確。** 閥門開啟到果蠅聞到氣味有數秒延遲；Aso 2016 的 ISI 以「氣味遞送開始」為零點，沒說是閥門開啟還是氣味到達（該來源頁方法），對 ISI 接近 0 的點影響最大（見 [[c-cs-us-timing]]）。
 - **飢餓狀態沒交代清楚。** Aso 2016 圖 4 明寫餓 48 小時，圖 2、3 的獎賞型品系是否先餓，PDF 沒說。
-- 完整構造文件只「向 Janelia 技術移轉辦公室索取」（Aso 2016），本庫沒有。
+- 完整構造文件只「向 Janelia 技術移轉辦公室索取」（Aso 2016），本庫沒有；[[s-aso-2023-upwind-neurons]] 另給了一個公開的設計檔網址（janelia.org），本庫未下載查核。
+- **同一套裝置在庫內有兩個直徑、兩個波長。** 直徑 10 cm（Aso 2016、Aso 2014b、Aso 2023 的半徑 50 mm）對 9 cm（Yamada 2023 圖 1B）；617 nm（Aso 2014b）對 627 nm（其餘各篇）。各篇都說沿用同一系列，差異的原因沒有人說明（？待查）。
+- **它不只能測氣味。** [[s-aso-2014-mbon-valence]] 用它測未訓練果蠅的**光偏好**（活化 MBON、看果蠅聚向或躲開照光象限）與**顏色**制約（藍／綠配電擊或糖）；[[s-aso-2023-upwind-neurons]] 圖 7D 用它測對紅光象限的偏好。所以「這一篇用了競技場」不等於「這一篇做了嗅覺記憶測驗」。
+- **場內的風一律由外圈吹向中央，所以「離中心的距離」同時混了迎風與避中心。** [[s-aso-2023-upwind-neurons]] 以三項操作排除後者（效果需要飢餓；風反向時果蠅改往中心走；切除觸角芒後消失），並點名 Besson & Martin 2005 的避中心行為。用這個讀數的人要做同樣的對照。
+- **PI 與迎風位移是兩種讀數，排序可以不同。** 同一批果蠅、同一個場地：γ5β′2a 組的 PI 約 0.78，與 α1 組的約 0.75 不相上下，但只有 α1 組明顯迎風（[[s-aso-2023-upwind-neurons]] 圖 1H、1J）。見 [[c-performance-index]] 陷阱 11。
+- **「氣味開始」的零點各篇取法不同。** Aso 2023 明寫取閥門切換後 **3.5 s**（氣味到達約 2 s、充滿再約 3 s）；Aso 2016 只寫「氣味遞送開始」，沒說是閥門開啟還是氣味到達（見上一條與 [[c-cs-us-timing]]）。
+- **限制溫度下果蠅不迎風。** [[s-aso-2023-upwind-neurons]] 的 [[e-shibire-ts]] 實驗升到 32 °C 時，連對照組都不出現迎風移動（資料未示），所以那組實驗只能用 PI 判讀。要在這個場地裡做溫度阻斷實驗，先確認讀數在限制溫度下還成立。
+- **本庫各篇在這個場地裡的「果蠅狀態」常常沒交代齊。** Aso 2016 圖 2、3 的獎賞型品系是否先餓，PDF 沒說（見上一條）；Aso 2023 沒寫競技場的溫度與濕度；Aso 2023 的電生理段落沒寫果蠅性別與是否飢餓。
 
 ## 相關
 
-- 工具：[[e-cschrimson]]、[[e-split-gal4]]、[[e-t-maze]]
-- 概念：[[c-performance-index]]、[[c-us-substitution]]、[[c-cs-us-timing]]、[[c-odor-generalization]]
+- 工具：[[e-cschrimson]]、[[e-split-gal4]]、[[e-t-maze]]、[[e-shibire-ts]]
+- 概念：[[c-performance-index]]、[[c-us-substitution]]、[[c-cs-us-timing]]、[[c-odor-generalization]]、[[c-memory-extinction]]、[[c-mb-compartment]]
 - 主題：[[t-timing-rules]]、[[t-memory-updating]]
-- 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-aso-2016-dan-cell-type-rules]]
+- 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-aso-2014-mbon-valence]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]

@@ -34,7 +34,7 @@ confidence: medium
 
 > 本節假設讀者已略知果蠅嗅覺學習的輪廓。**完全不熟的讀者可以先看「科普文」一節**；術語另見「專業文」開頭的「本頁用語」表。
 
-本庫原有的學習模型只有一種增強訊號：多巴胺。[[t-dopamine-to-plasticity]] 整條線問的是「KC 軸突怎麼讀出多巴胺」，答案是 cAMP（Tomchik 2009、Gervasi 2010）與兩種多巴胺受體（Handler 2019）。本篇指出同一批多巴胺神經元（DAN）還送出第二種訊號——一氧化氮（nitric oxide, NO），它不經多巴胺受體，而是作用在 KC 裡的可溶性鳥苷酸環化酶（sGC）、改變 cGMP。**這是本庫第一條與 cAMP 平行、方向相反的第二傳訊者路徑。**
+本庫原有的學習模型只有一種增強訊號：多巴胺。[[t-dopamine-to-plasticity]] 整條線問的是「KC 軸突怎麼讀出多巴胺」，答案是 cAMP（Tomchik 2009〔[[s-tomchik-2009-camp-dynamics]]〕、Gervasi 2010）與兩種多巴胺受體（Handler 2019，[[s-handler-2019-dopamine-receptor-timing]]）。本篇指出同一批多巴胺神經元（DAN）還送出第二種訊號——一氧化氮（nitric oxide, NO），它不經多巴胺受體，而是作用在 KC 裡的可溶性鳥苷酸環化酶（sGC）、改變 cGMP。**這是本庫第一條與 cAMP 平行、方向相反的第二傳訊者路徑。**
 
 第二，它給 [[t-timing-rules]] 與 [[t-memory-updating]] 一個分子層級的解釋。[[s-aso-2016-dan-cell-type-rules]]（同一組作者）在行為上發現各區室的學習速率、記憶保留與彈性差很多：γ1pedc 學得最快、忘得最快、重複訓練十次也撐不到一天；α3 學得慢但記得久。那篇把機制列為未知，並猜了三種可能（多巴胺釋放特性、各區室的生化反應、迴路性質）。本篇回答了其中一種：**γ1pedc 與 γ5 這兩格的 DAN 另外會做 NO，NO 的作用方向與多巴胺相反、發展得慢，於是把這一格的記憶「剪短」，同時讓它更容易被新經驗改寫。**把 NOS 關掉，γ1pedc 就能在十次間隔訓練之後留下一天的記憶——原本做不到的事。
 
@@ -93,7 +93,7 @@ confidence: medium
 | 蕈狀體（mushroom body, MB） | 果蠅腦中負責嗅覺學習與記憶的結構，左右各一 |
 | KC（Kenyon cell） | 蕈狀體的主要神經元，本篇引言寫「約 2000 顆」。每個氣味活化一小群 KC |
 | MBON | 蕈狀體輸出神經元，讀出 KC 的訊號、推動果蠅靠近或走開。學習改變的是 KC→MBON 的突觸 |
-| DAN（dopaminergic neuron） | 多巴胺神經元。本篇引言依 Aso 2014a 寫「20 型 DAN、22 型 MBON、葉部 15 個區室（引 Tanaka 2008）」。**PPL1 群多半報告懲罰，PAM 群多半報告獎賞** |
+| DAN（dopaminergic neuron） | 多巴胺神經元。本篇引言依 Aso 2014a（[[s-aso-2014-mb-architecture]]）寫「20 型 DAN、22 型 MBON、葉部 15 個區室（引 Tanaka 2008）」。**PPL1 群多半報告懲罰，PAM 群多半報告獎賞** |
 | 區室（compartment） | 葉沿長度分成的一格一格，每格由一型 DAN 支配、一型 MBON 讀取。本篇主角是 γ1pedc 與 γ5。見 [[c-mb-compartment]] |
 | 價性（valence） | 一個刺激對動物是好是壞。**價性反轉（valence inversion）**＝同一次訓練在沒有多巴胺時造出方向相反的記憶 |
 | PI（performance index，表現指數） | ＝（在氣味 A 四象限的果蠅數 − 在氣味 B 四象限的果蠅數）÷ 總數，取互換氣味的兩組平均。本篇取測驗期最後 30 秒的平均。範圍 −1 到 +1。見 [[c-performance-index]] |
@@ -369,7 +369,7 @@ RNA 定序顯示 sGC 的兩個次單元 Gycα99B 與 Gycβ100B 在 KC、MBON、D
 
 **解讀：**
 
-- **C 格是三格裡最重要的，而它是陰性結果。** 只重複聞兩個氣味、不給光，三組的偏好都沒有顯著改變。**這一格排除了「更新只是感覺適應或單純消退」**，把 B 與 D 的效果鎖定在「需要 DAN 活化」上。本庫 [[t-memory-updating]] 討論的消退（只聞 CS+、不給懲罰）在本篇這個裝置、這個時間尺度下沒有發生——這是條件的差別（本篇兩個氣味都重複聞、間隔短），不是與 Felsenberg 2018 矛盾（※ 推論）。
+- **C 格是三格裡最重要的，而它是陰性結果。** 只重複聞兩個氣味、不給光，三組的偏好都沒有顯著改變。**這一格排除了「更新只是感覺適應或單純消退」**，把 B 與 D 的效果鎖定在「需要 DAN 活化」上。本庫 [[t-memory-updating]] 討論的消退（只聞 CS+、不給懲罰）在本篇這個裝置、這個時間尺度下沒有發生——這是條件的差別（本篇兩個氣味都重複聞、間隔短），不是與 Felsenberg 2018（[[s-felsenberg-2018-memory-extinction]]）矛盾（※ 推論）。
 - **E 格把 B 與 D 從「幾次才顯著」變成「改變量多大」，這個轉換值得注意。** 「要幾次才顯著」依賴檢定力，組數改變結論就可能改變；E 直接比改變量（逆轉：約 0.75 對 0.50，\*\*；DAN 單獨活化：約 0.24 對 0.09，\*），結論穩健得多。**但 E 只比了野生型與 L-NNA，沒有 TH 突變組**，所以「NO 依賴的記憶更新得更慢」只能從 B、D 的次數讀出。
 - **B 的三欄共用同一條縱軸，但同一個符號代表相反的行為。** 圖最右側的雙箭頭（CS+1st／CS+2nd）是整列共用的刻度說明：正值表示果蠅待在「第一次被配對的氣味」那一側。野生型學到的是躲避，所以測驗 1、2 落在負側（約 −0.52、−0.60）；TH 突變學到的是喜好，同樣的記憶卻落在正側（測驗 2 約 +0.48）。**所以不能把 TH 突變欄的正值讀成「學到的東西和野生型相反方向地強」，要先換算成行為。** 另外值得看的是 TH 突變欄的測驗 1（約 −0.02，等於還沒學到）與測驗 2（約 +0.48）之間的落差——兩次測驗之間只多了幾回合訓練，這與圖 6B「NO 記憶需要更多次配對」是同一個現象（※ 從圖判讀）。
 - **這裡的「更新」至少混了兩種機制。** D 格的操作（只活化 DAN、不給氣味）在本庫其他篇裡被證明會讓突觸變強（[[s-cohn-2015-coordinated-neuromodulation]]）或讓記憶被削弱（[[s-aso-2016-dan-cell-type-rules]]）；B 格的逆轉則同時包含「舊記憶被削弱」與「新記憶被寫入」。本篇用同一個詞（fast updating）涵蓋兩者，模型也用同一組 B 參數處理，但行為資料分不出兩者的比重。
@@ -402,7 +402,7 @@ RNA 定序顯示 sGC 的兩個次單元 Gycα99B 與 Gycβ100B 在 KC、MBON、D
 - **A 圖是全篇唯一不在講 NO 的資料，但它補上了 C 圖的另一半。** PPL1-α3 的 10× 間隔訓練記憶，0 小時與 1 小時都測不到（約 −0.03，n.s.），3 小時才顯著（約 −0.14，\*\*），並維持到 96 小時（約 −0.18，\*\*；※ 從圖判讀）。**「立即測不到、數小時後才出現」這個形狀，與圖 6C 的 NO 記憶（10 分鐘才出現）是同一類現象的兩個時間尺度**，論文沒有把兩者並排，但這正是 C 圖下半那兩條交叉曲線的資料基礎。
 - **B 圖的表把四型 DAN 排成四欄，而 NOS 那一列只有 γ1pedc 是「＋」、γ5 不在表上。** 表上四欄是 γ1pedc、γ2α′1、α′2α2、α3（懲罰那一側），NOS 列為 ＋、−、−、−。**γ5（本篇另一型 NOS 陽性細胞）是獎賞型，沒有進這張摘要圖**，所以這張「本研究摘要」只摘了懲罰那一半。虛線框住的是 γ1pedc 與 γ2α′1 兩欄的「保留／彈性」對比。
 - **C 圖是概念圖，不是本篇的資料。** 圖說裡的每一項事實都附了別人的文獻（Kirkhart & Scott 2015、Mao & Davis 2009、Aso & Rubin 2016、Hige 2015、Awata 2019、Plaçais 2012）。**本篇自己對這張圖的貢獻只有一句：「重複訓練促進 NO 依賴的歷程」**（來自圖 6E）。把 C 圖當成本篇的結論會高估它的證據。
-- **C 圖預設懲罰會同時活化三型 DAN，而這個前提與本庫的新資料有張力。** 它引 Mao & Davis 2009（鈣成像）說電擊把 α3、γ2α′1、γ1pedc 活化到「相近程度」。本庫 [[s-huang-2024-dopamine-memory-dynamics]] 以電壓成像逐型量放電，電擊讓 γ1pedc、γ2α′1、α3 顯著上升，但上升幅度逐型不同（γ1pedc 由每秒約 22 升到約 50 次）。※ 推論：「相近」在鈣成像的解析度下成立，在放電率上未必成立；本篇沒有這方面的資料。
+- **C 圖預設懲罰會同時活化三型 DAN，而這個前提與本庫的新資料有張力。** 它引 Mao & Davis 2009（鈣成像；本庫 [[s-mao-2009-dopaminergic-neuron-types]]）說電擊把 α3、γ2α′1、γ1pedc 活化到「相近程度」。本庫 [[s-huang-2024-dopamine-memory-dynamics]] 以電壓成像逐型量放電，電擊讓 γ1pedc、γ2α′1、α3 顯著上升，但上升幅度逐型不同（γ1pedc 由每秒約 22 升到約 50 次）。※ 推論：「相近」在鈣成像的解析度下成立，在放電率上未必成立；本篇沒有這方面的資料。
 
 ---
 
@@ -413,6 +413,7 @@ RNA 定序顯示 sGC 的兩個次單元 Gycα99B 與 Gycβ100B 在 KC、MBON、D
 - 概念：[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-camp-signaling]]、[[c-spaced-training]]、[[c-memory-consolidation]]、[[c-memory-extinction]]、[[c-performance-index]]、[[c-us-substitution]]、[[c-octopamine-reward-signal]]
 - 實體：[[e-ppl1-gamma1pedc]]、[[e-ppl1-gamma2alpha1]]、[[e-ppl1-alpha3]]、[[e-ppl1-alpha2alpha2]]、[[e-mbon-gamma1pedc]]、[[e-mbon-gamma5beta2a]]、[[e-dopaminergic-neuron]]、[[e-kenyon-cell]]、[[e-mushroom-body]]、[[e-split-gal4]]、[[e-cschrimson]]、[[e-olfactory-arena]]、[[e-th-gal4]]、[[e-r58e02]]、[[e-rutabaga]]、[[e-dopamine-receptor]]
 - 矛盾：與 [[syn-contradictions]] 1.9 相關——本篇的模型只定義「KC 與 DAN 同時活動」與「DAN 活動、KC 不活動」兩種情形，沒有「DAN 低於基線」這一項，而 Huang 2024 的模型把後者當成讓突觸變強的主要條件。兩篇對同一格（γ1pedc）提出不同的變強機制（Huang：DAN 放電低於平常；Aso 2019：DAN 活化時同時釋放的 NO），列為矛盾候選
+- 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-tomchik-2009-camp-dynamics]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-aso-2014-mb-architecture]]、[[s-felsenberg-2018-memory-extinction]]、[[s-mao-2009-dopaminergic-neuron-types]]
 - 待開頁面：`c-cgmp-signaling`（NO／sGC／cGMP 路徑）、`e-nos`（*Nos* 基因與 NOS1）、`e-gyc-beta-100b`（sGC 次單元）、`e-th-mutant`（做不出多巴胺的突變背景）、`e-pam-gamma5`、`e-mb247-switch`（RU-486 可誘發的 KC 驅動品系）、`c-cotransmitter`（共同傳遞物）、`c-active-forgetting`（主動遺忘與 *scribble*）、`e-expansion-microscopy`、`e-rnaseq-cell-sorting`
 
 ## 出處

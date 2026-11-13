@@ -31,7 +31,7 @@ confidence: medium
 
 ## 為什麼重要
 
-古典制約（classical conditioning）的教科書版本是「氣味要先出現，獎賞或懲罰後到，動物才會學到氣味預告了什麼」。這裡的獎賞或懲罰統稱為「增強訊號」（reinforcement），在果蠅腦中由多巴胺（dopamine）神經元負責傳達。但果蠅的行為實驗早就發現反過來也會學：懲罰**之後**才出現的氣味，果蠅反而會喜歡（論文引 Tanimoto et al. 2004、Aso & Rubin 2016、König et al. 2018）。同一對刺激，只差先後，學到的方向相反。這表示蕈狀體（mushroom body，果蠅腦中負責把「氣味」和「好壞」連起來的構造）裡有某種東西能分辨「氣味在前」還是「增強訊號在前」。本篇要回答的就是：**這個分辨先後的機制在哪裡、是什麼分子**。
+古典制約（classical conditioning）的教科書版本是「氣味要先出現，獎賞或懲罰後到，動物才會學到氣味預告了什麼」。這裡的獎賞或懲罰統稱為「增強訊號」（reinforcement），在果蠅腦中由多巴胺（dopamine）神經元負責傳達。但果蠅的行為實驗早就發現反過來也會學：懲罰**之後**才出現的氣味，果蠅反而會喜歡（論文引 Tanimoto et al. 2004、Aso & Rubin 2016〔本庫 [[s-aso-2016-dan-cell-type-rules]]〕、König et al. 2018）。同一對刺激，只差先後，學到的方向相反。這表示蕈狀體（mushroom body，果蠅腦中負責把「氣味」和「好壞」連起來的構造）裡有某種東西能分辨「氣味在前」還是「增強訊號在前」。本篇要回答的就是：**這個分辨先後的機制在哪裡、是什麼分子**。
 
 先交代三個角色。Kenyon 細胞（Kenyon cell, KC）是蕈狀體的主要神經元，每個氣味會活化其中一小群；KC 把訊號沿著長長的輸出纖維（軸突，axon）送出去，交給蕈狀體輸出神經元（mushroom body output neuron, MBON），MBON 再告訴身體「靠近」或「走開」。學習改變的，就是 KC 與 MBON 之間的接點（突觸，synapse）的強弱。本篇的答案落在 KC 的軸突上，由兩種多巴胺受體（receptor，細胞表面接收多巴胺的蛋白質）分工：DopR1 啟動細胞內一條製造 cAMP（一種把外界訊號帶進細胞內部的小分子，稱為「第二傳訊者」）的路徑，讓 KC→MBON 的突觸**變弱**；DopR2 啟動另一條讓內質網（細胞內儲存鈣離子的小倉庫）放出鈣的路徑，讓同一個突觸**變強**。關鍵在於：cAMP 那條路徑不論先後都會被啟動，放鈣那條路徑卻只在「多巴胺先到、KC 後活動（也就是氣味後到）」時才被啟動。兩條都開的時候，放鈣帶來的「變強」勝過 cAMP 帶來的「變弱」，突觸淨結果是變強；只有 cAMP 開的時候，突觸變弱。**所以是先後次序決定了放鈣路徑開或不開，進而決定突觸往哪個方向改、行為往哪個方向變。** 在本篇之前，「突觸變弱」那一半已有不少證據（論文引 Cohn et al. 2015、Hige et al. 2015、Owald et al. 2015、Séjourné et al. 2011），「變強」那一半與兩種受體的分工則還不清楚。
 
@@ -95,14 +95,14 @@ confidence: medium
 
 ### 一、概述
 
-**主要問題。** 果蠅能依氣味與增強訊號的先後學到相反的價性（valence，「好」或「壞」）。這種對時間次序的敏感，是在迴路的哪一層、由哪些分子實現的？作者提出兩個候選：(i) 不同區室分別記錄「順向」與「逆向」記憶（類似 Felsenberg et al. 2018 對記憶消退提出的平行對立記憶）；(ii) 同一個區室裡的同一組 KC→MBON 突觸可以雙向改變。本篇支持 (ii)，並把次序偵測歸到 KC 軸突中兩種多巴胺受體的下游訊號。
+**主要問題。** 果蠅能依氣味與增強訊號的先後學到相反的價性（valence，「好」或「壞」）。這種對時間次序的敏感，是在迴路的哪一層、由哪些分子實現的？作者提出兩個候選：(i) 不同區室分別記錄「順向」與「逆向」記憶（類似 Felsenberg et al. 2018（本庫 [[s-felsenberg-2018-memory-extinction]]）對記憶消退提出的平行對立記憶）；(ii) 同一個區室裡的同一組 KC→MBON 突觸可以雙向改變。本篇支持 (ii)，並把次序偵測歸到 KC 軸突中兩種多巴胺受體的下游訊號。
 
-**重要性。** 蕈狀體的葉（lobe）被切成一格一格的區室（compartment）：每一格由一小群多巴胺神經元的軸突和一到兩個 MBON 的樹突共同定義（論文引 Aso et al. 2014a、Tanaka et al. 2008），每一格可以獨立調整 KC→MBON 突觸。本篇第一次在**同一個區室、同一套 ISI（inter-stimulus interval，刺激間隔）**上，把行為、突觸可塑性、第二傳訊者三條時間曲線並排，並在同一隻果蠅身上同步記錄神經與行為。
+**重要性。** 蕈狀體的葉（lobe）被切成一格一格的區室（compartment）：每一格由一小群多巴胺神經元的軸突和一到兩個 MBON 的樹突共同定義（論文引 Aso et al. 2014a〔本庫 [[s-aso-2014-mb-architecture]]〕、Tanaka et al. 2008），每一格可以獨立調整 KC→MBON 突觸。本篇第一次在**同一個區室、同一套 ISI（inter-stimulus interval，刺激間隔）**上，把行為、突觸可塑性、第二傳訊者三條時間曲線並排，並在同一隻果蠅身上同步記錄神經與行為。
 
 **發表當時的領域現狀（2019）。**
 - 行為層：時序相依的價性反轉已在果蠅（Tanimoto et al. 2004；Aso & Rubin 2016；König et al. 2018）與多物種（Gerber et al. 2014）被描述，但機制不明。
 - 突觸層：順向配對造成 KC→MBON 突觸減弱已有多篇（Séjourné et al. 2011；Cohn et al. 2015；Hige et al. 2015；Owald et al. 2015）；**沒有氣味時的強烈多巴胺釋放**造成增強，見於 Cohn et al. 2015、Berry et al. 2018。（2026-10-25 加註：「強烈」是本篇對 Cohn 2015 的描述；[[s-cohn-2015-coordinated-neuromodulation]] 主文沒有給 DAN 刺激的強度或時長，它的「不配對」是指 DAN 與 KC 刺激相隔 > 45 s。也就是說，Cohn 2015 在兩者相隔 45 秒以上時看到突觸變強，本篇卻在只相隔 ±6 s 時就幾乎看不到可塑性：間隔更長的反而有變化。兩者因此並列為 ⚠️ 矛盾，見 [[syn-contradictions]] 1.3。）
-- 分子層：DopR1 被認為是寫入記憶所必需（Kim et al. 2007；Qin et al. 2012），DopR2（論文引用的 Han et al. 1996、Himmelreich et al. 2017 與所用抗體稱之為 DAMB）被認為參與遺忘（Berry et al. 2012；Himmelreich et al. 2017）；體外實驗顯示 DopR1 偏好接 Gαs（刺激 cAMP 生成，Sugamori et al. 1995），DopR2 偏好接 Gαq（增加胞內鈣，Feng et al. 1996；Han et al. 1996；Himmelreich et al. 2017）。鈣敏感的腺苷酸環化酶（adenylate cyclase，製造 cAMP 的酵素）被視為分子層的「同時性偵測器」（Livingstone et al. 1984；Tomchik & Davis 2009；Gervasi et al. 2010）。兩種受體在突觸層各扮演什麼角色，在本篇之前不清楚。
+- 分子層：DopR1 被認為是寫入記憶所必需（Kim et al. 2007；Qin et al. 2012），DopR2（論文引用的 Han et al. 1996、Himmelreich et al. 2017 與所用抗體稱之為 DAMB）被認為參與遺忘（Berry et al. 2012；Himmelreich et al. 2017）；體外實驗顯示 DopR1 偏好接 Gαs（刺激 cAMP 生成，Sugamori et al. 1995），DopR2 偏好接 Gαq（增加胞內鈣，Feng et al. 1996；Han et al. 1996；Himmelreich et al. 2017）。鈣敏感的腺苷酸環化酶（adenylate cyclase，製造 cAMP 的酵素）被視為分子層的「同時性偵測器」（Livingstone et al. 1984；Tomchik & Davis 2009；Gervasi et al. 2010〔本庫 [[s-gervasi-2010-pka-dynamics]]〕）。兩種受體在突觸層各扮演什麼角色，在本篇之前不清楚。
 - 同類的時序規則在突觸生理學裡叫「放電時序相依可塑性」（spike-timing dependent plasticity, STDP，前後兩個神經元誰先放電決定突觸變強或變弱），但它的時間窗是毫秒級，比聯結學習所需的秒級短得多（論文 Discussion，text.txt 第 733–744 行）。
 
 **體裁：** 原著論文（行為 ＋ 離體與在體雙光子鈣影像 ＋ 遺傳突變）。
@@ -380,10 +380,11 @@ flowchart TD
 ## 相關
 
 - [[numbers]] — 本篇的行為與離體 ISI 曲線、閉迴路相關係數、第二傳訊者與受體突變讀值、刺激參數（併入登記簿的草稿在 `.cache/2019-distinct-dopamine-receptor-pathways-underlie-the-tempor/numbers-section.md`）
-- 本庫已有的相關頁：[[c-cs-us-timing]]、[[c-kc-mbon-plasticity]]、[[c-coincidence-detection]]、[[c-mb-compartment]]、[[c-camp-signaling]]、[[e-dopaminergic-neuron]]、[[e-kenyon-cell]]、[[e-epac-camp-sensor]]、[[e-gcamp]]、[[e-cschrimson]]、[[e-mbon]]、[[e-mushroom-body]]、[[e-split-gal4]]
+- 本庫已有的相關頁：[[c-cs-us-timing]]、[[c-kc-mbon-plasticity]]、[[c-coincidence-detection]]、[[c-mb-compartment]]、[[c-camp-signaling]]、[[e-dopaminergic-neuron]]、[[e-kenyon-cell]]、[[e-epac-camp-sensor]]、[[e-gcamp]]、[[e-cschrimson]]、[[e-mbon]]、[[e-mushroom-body]]、[[e-split-gal4]]、[[e-ok107-gal4]]
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]；矛盾與空缺：[[syn-contradictions]]
 - 本批（2026-10-25 第二批）已開頁、與本篇相關：[[e-dopamine-receptor]]、[[e-mbon-gamma4]]、[[e-p2x2]]、[[e-r58e02]]
-- 待開頁面：`e-grab-da`、`e-closed-loop-olfactory-ball`、`e-ok107-gal4`
+- 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-aso-2014-mb-architecture]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2018-memory-extinction]]、[[s-gervasi-2010-pka-dynamics]]；新開的主題頁：[[t-mbon-to-action]]（MBON 學到的價值怎麼變成動作）
+- 待開頁面：`e-grab-da`、`e-closed-loop-olfactory-ball`
 
 ## 出處
 

@@ -124,7 +124,7 @@ confidence: medium
 - Schwaerzel et al. 2002 認為嫌惡學習與其消退發生在同一群 KC 內，並提出「細胞內拮抗」：消退在 KC 細胞內部，去對抗形成記憶所需的 cAMP 訊號。cAMP 是細胞內傳遞訊號的一種小分子，本庫的 [[c-camp-signaling]] 有說明。本篇的結論與之不同：記憶確實寫在同一群 KC 上，但兩個記憶寫在這些 KC 於不同區室、接給不同 MBON 的輸出突觸上，兩者是在下游的 MBON 之間互相抵消，屬於「細胞之間的拮抗」。
 - 同團隊的 Felsenberg et al. 2017（[[s-felsenberg-2017-re-evaluation]]）已顯示，獎賞記憶的消退需要 PPL1 群的 DAN，也就是「該來的獎賞沒來」被當成壞事記。本篇是它的鏡像實驗。
 - 嫌惡學習會壓低 KC 送到推動靠近的 MBON 的訊號，例如 MBON-V2α（另一顆放出乙醯膽鹼、推動靠近的 MBON，本篇沒有量它）與 MVP2，並讓推動走開的 M4β′／M6 對 CS+ 的反應相對增強；獎賞學習則壓低送到 M4β′／M6 的訊號（Séjourné et al. 2011；Owald et al. 2015；Hige et al. 2015；Perisse et al. 2016）。
-- MBON 可以回饋到 DAN（Aso et al. 2014b；Owald et al. 2015；Cohn et al. 2015，後者即本庫的 [[s-cohn-2015-coordinated-neuromodulation]]）。
+- MBON 可以回饋到 DAN（Aso et al. 2014b〔本庫 [[s-aso-2014-mbon-valence]]〕；Owald et al. 2015；Cohn et al. 2015，後者即本庫的 [[s-cohn-2015-coordinated-neuromodulation]]）。
 - MVP2 是一種前饋抑制（feedforward inhibition）神經元：它從 KC 接收氣味訊號後去抑制 M4β′／M6；人為活化 MVP2 會壓低 M4β′／M6 的氣味反應（Perisse et al. 2016）。
 
 **體裁：** 原著論文（行為遺傳學 ＋ 離體光遺傳 × 鈣成像 ＋ 活體雙光子鈣成像 ＋ 光學與電子顯微鏡解剖）。
@@ -416,7 +416,7 @@ flowchart TD
 
 **1. 統計資料不在主文 PDF。** 各組 n、檢定方法、p 值都在表 S1，本 PDF 不含；本頁的 n 只能從圖上數點，很不精確。
 
-**2. 「γ5」這個環節是拼出來的。** 行為阻斷用的是 R58E02（PAM 的一大部分），離體成像看到的是 γ5 有反應，但沒有任何實驗只阻斷 γ5 DAN（品系表中沒有 γ5 專屬品系）。作者自陳缺乏把轉殖基因送進有意義的 γ5 子群的遺傳工具，而 γ5 DAN 有 8 到 21 顆（引 Aso et al. 2014a）。
+**2. 「γ5」這個環節是拼出來的。** 行為阻斷用的是 R58E02（PAM 的一大部分），離體成像看到的是 γ5 有反應，但沒有任何實驗只阻斷 γ5 DAN（品系表中沒有 γ5 專屬品系）。作者自陳缺乏把轉殖基因送進有意義的 γ5 子群的遺傳工具，而 γ5 DAN 有 8 到 21 顆（引 Aso et al. 2014a，本庫 [[s-aso-2014-mb-architecture]]）。
 
 **3. 活體內的教學訊號沒被量到。** γ5 DAN 自發振盪，無法量到學習後的氣味反應（data not shown）。
 
@@ -465,11 +465,12 @@ flowchart TD
 ## 相關
 
 - [[numbers]] — 本篇貢獻：各組 P.I.（從圖判讀）、消退幅度 36–49%、γ5 DAN ΔF/F0 約 1.75、MVP2 的突觸數（→M6R 17、→M6L 16、→M4β′ 47，與圖 S4B 的分項）、成像與光遺傳參數。消退幅度見 3.1 解讀第 1 點
-- 本庫已有的相關頁：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-gcamp]]、[[e-cschrimson]]、[[e-split-gal4]]、[[c-kc-mbon-plasticity]]、[[c-mb-compartment]]、[[c-performance-index]]、[[c-cs-us-timing]]、[[c-coincidence-detection]]
+- 本庫已有的相關頁：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-gcamp]]、[[e-cschrimson]]、[[e-split-gal4]]、[[c-kc-mbon-plasticity]]、[[c-mb-compartment]]、[[c-performance-index]]、[[c-cs-us-timing]]、[[c-coincidence-detection]]、[[e-vt1211]]
 - 本庫其他來源：[[s-hige-2015-heterosynaptic-plasticity]]（同一顆 MBON-γ1pedc／MVP2）、[[s-handler-2019-dopamine-receptor-timing]]（R58E02 與 66C08 品系、γ4／γ5 區室）、[[s-tomchik-2009-camp-dynamics]]
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]；矛盾與空缺：[[syn-contradictions]]
 - 本批（2026-10-25 第二批）已開頁、與本篇相關：[[c-memory-extinction]]、[[t-mbon-dan-feedback]]、[[t-memory-updating]]、[[e-shibire-ts]]、[[e-mbon-gamma5beta2a]]、[[e-mbon-gamma1pedc]]、[[e-dopaminergic-neuron]]、[[e-r58e02]]、[[e-mb504b]]
-- 待開頁面：[[c-feedforward-inhibition]]、`e-mbon-beta2mp`（M4β′）、`e-vt1211`、`e-fafb`、[[e-catmaid]]
+- 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]
+- 待開頁面：[[c-feedforward-inhibition]]、`e-mbon-beta2mp`（M4β′）、`e-fafb`、[[e-catmaid]]
 
 ## 出處
 

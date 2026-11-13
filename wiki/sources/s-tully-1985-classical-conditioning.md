@@ -515,6 +515,7 @@ flowchart TD
 - 本篇新開、因本篇而過門檻的頁：[[e-rutabaga]]（原列在 Tomchik 2009 的待開清單，本篇是第二篇使用它的來源）
 - 2026-11-12 因 [[s-gervasi-2010-pka-dynamics]] 收錄而過門檻、新開的頁：[[e-dunce]]
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]、[[t-memory-updating]]；矛盾與空缺：[[syn-contradictions]]
+- 2026-11-13 第一批整合時補上的連結 — 新開的主題頁：[[t-mbon-to-action]]（MBON 學到的價值怎麼變成動作）
 - 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，`c-` 開頭為概念頁）：`e-amnesiac`、[[c-nonassociative-learning]]
 
 ## 出處

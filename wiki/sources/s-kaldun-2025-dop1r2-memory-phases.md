@@ -33,7 +33,7 @@ confidence: medium
 
 > 本節假設讀者已略知果蠅嗅覺學習的輪廓。**完全不熟的讀者可以先看「科普文」一節**；術語另見「專業文」開頭的「本頁用語」表。
 
-本庫先前談多巴胺受體時，手上只有兩種工具。一是**全身突變**（整隻果蠅都沒有這個受體，Cohn 2015、Handler 2019），二是**RNA 干擾**（只在選定的細胞降低表現量，但降不到零，也驗證不了降了多少，Cohn 2015、Ichinose 2015）。[[e-dopamine-receptor]] 的「已知的問題」把這件事寫得很清楚：突變是全身性的，不能把需求定位到某一群細胞；RNA 干擾則不知道減了多少。本篇做的是第三種：用 CRISPR-Cas9 把 Dop1R2 的編碼區兩側插進兩個 FRT 位點，再用 GAL4 驅動的翻轉酶（flippase）把中間那段**切掉**。想在哪一群神經元拿掉受體，就在那一群神經元表現翻轉酶。這是本庫第一篇有「細胞類別專一、而且是真正剔除」的多巴胺受體資料。
+本庫先前談多巴胺受體時，手上只有兩種工具。一是**全身突變**（整隻果蠅都沒有這個受體，Cohn 2015〔[[s-cohn-2015-coordinated-neuromodulation]]〕、Handler 2019），二是**RNA 干擾**（只在選定的細胞降低表現量，但降不到零，也驗證不了降了多少，Cohn 2015、Ichinose 2015〔[[s-ichinose-2015-reward-recurrent-circuit]]〕）。[[e-dopamine-receptor]] 的「已知的問題」把這件事寫得很清楚：突變是全身性的，不能把需求定位到某一群細胞；RNA 干擾則不知道減了多少。本篇做的是第三種：用 CRISPR-Cas9 把 Dop1R2 的編碼區兩側插進兩個 FRT 位點，再用 GAL4 驅動的翻轉酶（flippase）把中間那段**切掉**。想在哪一群神經元拿掉受體，就在那一群神經元表現翻轉酶。這是本庫第一篇有「細胞類別專一、而且是真正剔除」的多巴胺受體資料。
 
 第二，它把本庫兩條平行的線接在一起。
 
@@ -291,7 +291,7 @@ y w 是沒有帶 HA 標籤的對照品系。HA 抗體染色在 y w 對照腦中�
 
 第二條是 [[e-dopamine-receptor]]。本篇提供了庫內第一份細胞類別專一的受體剔除資料，也提供了判斷 dDA1 是否即 DopR1 的線索。
 
-第三條是 [[t-mbon-dan-feedback]]。本篇的討論整段建立在 MB-MP1（[[e-ppl1-gamma1pedc]]）與 MVP2（[[e-mbon-gamma1pedc]]）的回饋迴路上。本庫收錄的 Huang 2024 在活果蠅上用電壓成像量到這條迴路確實在學習時起作用：訓練後 PPL1-α3 對配過電擊氣味的反應由下降轉為上升，而阻斷 MVP2 的輸出後這個改變就消失（細節見該主題頁）。但本篇自己沒有做迴路實驗，所以這只能算旁證。
+第三條是 [[t-mbon-dan-feedback]]。本篇的討論整段建立在 MB-MP1（[[e-ppl1-gamma1pedc]]）與 MVP2（[[e-mbon-gamma1pedc]]）的回饋迴路上。本庫收錄的 Huang 2024（[[s-huang-2024-dopamine-memory-dynamics]]）在活果蠅上用電壓成像量到這條迴路確實在學習時起作用：訓練後 PPL1-α3 對配過電擊氣味的反應由下降轉為上升，而阻斷 MVP2 的輸出後這個改變就消失（細節見該主題頁）。但本篇自己沒有做迴路實驗，所以這只能算旁證。
 
 **尚未被回答的。**
 - 需求從哪一刻開始（2 小時以前沒有時間點）。
@@ -379,9 +379,10 @@ y w 是沒有帶 HA 標籤的對照品系。HA 抗體染色在 y w 對照腦中�
 - [[numbers]] — 本篇貢獻了四張主圖的 LI 柱高與本庫換算的殘存比例、兩套行為協定的參數（電壓、循環、飢餓時間、氣味濃度）、以及基因操作與染色的參數
 - 主題：[[t-dopamine-to-plasticity]]（多巴胺受體的分工，從突觸層延伸到 KC 類別與記憶階段）
 - 概念：[[c-memory-consolidation]]、[[c-spaced-training]]、[[c-performance-index]]、[[c-mb-compartment]]、[[c-camp-signaling]]
-- 實體：[[e-dopamine-receptor]]、[[e-kenyon-cell]]、[[e-mushroom-body]]、[[e-c739-gal4]]、[[e-split-gal4]]、[[e-t-maze]]、[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-ppl1-gamma1pedc]]、[[e-mbon-gamma1pedc]]
+- 實體：[[e-dopamine-receptor]]、[[e-kenyon-cell]]、[[e-mushroom-body]]、[[e-c739-gal4]]、[[e-split-gal4]]、[[e-t-maze]]、[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-ppl1-gamma1pedc]]、[[e-mbon-gamma1pedc]]、[[e-ok107-gal4]]、[[e-c305a-gal4]]、[[e-gal80ts]]
 - 與 [[s-handler-2019-dopamine-receptor-timing]] 的關係：同一個受體（本篇寫 Dop1R2、該篇寫 DopR2）、不同的層次與讀數；γ 葉的角色在兩篇之間形成張力（本篇：γ 葉不需要它；該篇：在 γ4／γ5 量到它的作用），見專業文第四節主張二
-- 待開頁面：`e-ok107-gal4`（本篇與 Handler 2019 都用，已達兩篇門檻）、`e-5htr1b-gal4`、`e-c305a-gal4`、`e-elav-gal4`、`e-gal80ts`、`e-y-maze`、`c-conditional-knockout`（FLP/FRT 條件式剔除）、[[c-appetitive-memory]]
+- 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-huang-2024-dopamine-memory-dynamics]]
+- 待開頁面：`e-5htr1b-gal4`、`e-elav-gal4`、`e-y-maze`、`c-conditional-knockout`（FLP/FRT 條件式剔除）、[[c-appetitive-memory]]
 
 ## 出處
 
