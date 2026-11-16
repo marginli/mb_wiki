@@ -1,7 +1,7 @@
 ---
 title: MBON-γ1pedc（MVP2）
 created: 2026-10-25
-updated: 2026-11-13
+updated: 2026-11-16
 tags: [entity, active, cross-domain]
 confidence: medium
 ---
@@ -55,8 +55,11 @@ confidence: medium
 | [[s-felsenberg-2018-memory-extinction]] | 電擊訓練後活體雙光子鈣成像樹突；FAFB 電顯追蹤 | 訓練後對 CS+ 的反應比 CS− 小，消退後**仍然**比較小（中位數約 0.2 vs 0.4，從圖判讀）；接到 M6R 17 個、M6L 16 個、M4β′ 47 個突觸，接 M6 的點靠近樹突根部 |
 | [[s-aso-2019-nitric-oxide-cotransmitter]] | 離體腦鈣成像：TH 突變背景（不能合成多巴胺）下光活化 PPL1-γ1pedc（5 次、間隔 30 秒、最高 1.2 mW/mm²），餵或不餵 NOS 抑制劑 L-NNA；RNA 定序的預試細胞型 | 它的鈣**長時間上升**，且被 L-NNA 壓制 → 一氧化氮作用到這顆 MBON（該篇唯一的生理量測，細節在圖 5 補充圖 2，本庫未取得）。RNA 定序先拿它試水溫：三個重複、每個約 350 顆細胞，平均 5.3 µg cDNA |
 | [[s-huang-2024-dopamine-memory-dynamics]] | 電壓成像量放電（寫作 MBON-γ1pedc>α/β）；TnT 阻斷後量 PPL1-α3；訓練時以 CsChrimson 持續活化（30 下 0.5 s 紅光）；模型中的 Mγ1 | 自發約 38 次／s，六型 MBON 中最高（※ 從圖判讀）；6 回合電擊訓練後對 CS+ 的反應下降、約 1 小時內恢復；它對 PPL1-α3 與 PPL1-α′2α2 有抑制性回饋，阻斷後 PPL1-α3 訓練後不再對 CS+ 增加放電；訓練時活化它 → 5 分鐘記憶正常、3 小時記憶消失（每組 12 隻）。模型拿掉這條回饋，MBON-α3 在 3 小時的改變少 36–63% |
+| [[s-minnick-2026-untrained-connectome]] | BANC 全腦模擬中寫作 MBON11（γ1pedc>α/β），列在嫌惡區室的可塑名單，價性讀法中算「推靠近」 | BANC 2 顆；傳遞物質 GABA（連結體表「已驗證」欄，補充表 5）；模型中對下游為 −1（抑制），但價性只數它的放電次數 |
 
 > [[s-aso-2016-dan-cell-type-rules]] 只在圖 5B 示意圖畫出它的 GABA 前饋連結，用來解釋同時活化兩型 DAN 時的結果，沒有操作或量它，所以不列入表。
+
+> **傳遞物質在兩份連結體中一致（2026-11-16 查核）。** BANC：GABA（已驗證，見 Minnick 2026 補充表 5）。MaleCNS v1.0 的傳遞物質表（`body-neurotransmitters-male-cns-v1.0`，本庫未收錄為來源頁，屬資料集查核）：2 顆（左右各 1），自動預測 GABA（信心約 0.69），ground_truth 欄亦為 GABA。與 [[s-aso-2014-mb-architecture]] 的推定 GABA 相符。
 
 ## 已知的問題
 

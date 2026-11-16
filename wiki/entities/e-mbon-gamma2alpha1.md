@@ -1,7 +1,7 @@
 ---
 title: MBON-γ2α′1（γ2α′1 輸出神經元）
 created: 2026-10-25
-updated: 2026-11-13
+updated: 2026-11-16
 tags: [entity, active, cross-domain]
 confidence: medium
 ---
@@ -54,6 +54,9 @@ confidence: medium
 | [[s-handler-2019-dopamine-receptor-timing]] | 離體配對（73F07-LexA 的 γ2 DAN ＋ P2X2）與真電擊實驗 | 論文說 γ2 也有類似 γ4 的雙向改變；資料在補充圖 S3（？待查，補充資料未取得） |
 | [[s-cohn-2015-coordinated-neuromodulation]] | 「γ2 MBON」：離體活化 γ2 DAN、活化 58E02 DAN；活體氣味成像；P2X2 活化它本身 | 活化 γ2 DAN 時 ΔF/F0 約 0.5 → 4.8；活化 58E02 DAN 時約 0.8 → 0.6（不顯著）；活體對氣味的反應約 0.9，遠大於 γ4 的約 0.2；活化它會改變各格 DAN（見 [[t-mbon-dan-feedback]]） |
 | [[s-huang-2024-dopamine-memory-dynamics]] | 頭固定、腳踩小球的活果蠅上以電壓成像量放電；不在九神經元模型內 | 自發約 22 次／s（※ 從圖判讀）；6 回合電擊訓練（CS+ 與 CS− 都是吸引氣味）後對 CS+ 的反應下降、1 小時後接近恢復，與 MBON-γ1pedc>α/β 同屬短期改變 |
+| [[s-minnick-2026-untrained-connectome]] | BANC 全腦模擬中寫作 MBON12（γ2α′1），列在嫌惡區室的可塑名單，價性讀法中算「推靠近」 | BANC 4 顆；傳遞物質乙醯膽鹼（連結體表「已驗證」欄，補充表 5）；模型中對下游為 +1（興奮） |
+
+> **傳遞物質在兩份連結體中一致（2026-11-16 查核）。** BANC：乙醯膽鹼（已驗證，見 Minnick 2026 補充表 5）。MaleCNS v1.0 的傳遞物質表（`body-neurotransmitters-male-cns-v1.0`，本庫未收錄為來源頁，屬資料集查核）：4 顆（左右各 2），自動預測乙醯膽鹼（信心約 0.92–0.94），ground_truth 欄亦為乙醯膽鹼。與 [[s-aso-2014-mb-architecture]] 的推定乙醯膽鹼相符。
 
 ## 已知的問題
 
