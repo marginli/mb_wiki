@@ -56,7 +56,7 @@ confidence: medium
 | [[s-huang-2024-dopamine-memory-dynamics]] | 頭固定、腳踩小球的活果蠅上以電壓成像量放電；不在九神經元模型內 | 自發約 22 次／s（※ 從圖判讀）；6 回合電擊訓練（CS+ 與 CS− 都是吸引氣味）後對 CS+ 的反應下降、1 小時後接近恢復，與 MBON-γ1pedc>α/β 同屬短期改變 |
 | [[s-minnick-2026-untrained-connectome]] | BANC 全腦模擬中寫作 MBON12（γ2α′1），列在嫌惡區室的可塑名單，價性讀法中算「推靠近」 | BANC 4 顆；傳遞物質乙醯膽鹼（連結體表「已驗證」欄，補充表 5）；模型中對下游為 +1（興奮） |
 
-> **傳遞物質在兩份連結體中一致（2026-11-16 查核）。** BANC：乙醯膽鹼（已驗證，見 Minnick 2026 補充表 5）。MaleCNS v1.0 的傳遞物質表（`body-neurotransmitters-male-cns-v1.0`，本庫未收錄為來源頁，屬資料集查核）：4 顆（左右各 2），自動預測乙醯膽鹼（信心約 0.92–0.94），ground_truth 欄亦為乙醯膽鹼。與 [[s-aso-2014-mb-architecture]] 的推定乙醯膽鹼相符。
+> **傳遞物質在兩份連結體中一致（2026-11-16 查核）。** BANC：乙醯膽鹼（已驗證，見 Minnick 2026 補充表 5）。MaleCNS v1.0（另一份雄果蠅腦＋腹神經索連結體）的傳遞物質表（`body-neurotransmitters-male-cns-v1.0`，本庫未收錄為來源頁，屬資料集查核）：4 顆（左右各 2），自動預測乙醯膽鹼（信心約 0.92–0.94），ground_truth 欄（依實驗註記，作用相當於 BANC 的「已驗證」欄）亦為乙醯膽鹼。與 [[s-aso-2014-mb-architecture]] 的推定乙醯膽鹼相符。
 
 ## 已知的問題
 

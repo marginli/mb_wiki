@@ -59,7 +59,7 @@ confidence: medium
 
 > [[s-aso-2016-dan-cell-type-rules]] 只在圖 5B 示意圖畫出它的 GABA 前饋連結，用來解釋同時活化兩型 DAN 時的結果，沒有操作或量它，所以不列入表。
 
-> **傳遞物質在兩份連結體中一致（2026-11-16 查核）。** BANC：GABA（已驗證，見 Minnick 2026 補充表 5）。MaleCNS v1.0 的傳遞物質表（`body-neurotransmitters-male-cns-v1.0`，本庫未收錄為來源頁，屬資料集查核）：2 顆（左右各 1），自動預測 GABA（信心約 0.69），ground_truth 欄亦為 GABA。與 [[s-aso-2014-mb-architecture]] 的推定 GABA 相符。
+> **傳遞物質在兩份連結體中一致（2026-11-16 查核）。** BANC：GABA（已驗證，見 Minnick 2026 補充表 5）。MaleCNS v1.0（另一份雄果蠅腦＋腹神經索連結體）的傳遞物質表（`body-neurotransmitters-male-cns-v1.0`，本庫未收錄為來源頁，屬資料集查核）：2 顆（左右各 1），自動預測 GABA（信心約 0.69），ground_truth 欄（依實驗註記，作用相當於 BANC 的「已驗證」欄）亦為 GABA。與 [[s-aso-2014-mb-architecture]] 的推定 GABA 相符。
 
 ## 已知的問題
 
