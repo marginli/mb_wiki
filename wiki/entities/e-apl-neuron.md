@@ -1,7 +1,7 @@
 ---
 title: APL 神經元（anterior paired lateral neuron, MB-APL）
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-16
 tags: [entity, active, cross-domain]
 confidence: medium
 ---
@@ -45,7 +45,7 @@ Tomchik 2009 只在背景介紹提到「APL 學習後有記憶痕跡」（與 DP
 ## 已知的問題
 
 - **⚠️ Minnick 2026 把它的正負號用反了。** 該篇的連結體中，自動預測欄寫膽鹼性，註記欄卻把 GABA 列為「已驗證」，論文採用預測欄；而 Aso 2014a 與 Tomchik 2009 都寫它是 GABA 性。這是模型輸入的錯誤，不是兩份實驗觀察互相牴觸（詳見 [[s-minnick-2026-untrained-connectome]] 問題與限制 4b；登記於 [[numbers]]）。
-- **「沉默 APL」只關了一半。** Minnick 2026 只沉默有標註的那一顆，另一顆照常運作，且正是校正版殘餘 MBON 輸出（MBON05）的來源；也沒有測「把 APL 改成抑制性」，該頁指出後者可能把活化比例壓得更低（※ 推論，見該頁）。
+- **「沉默 APL」只關了一半。** Minnick 2026 只沉默有標註的那一顆，另一顆照常運作，且正是校正版殘餘 MBON 輸出（MBON05）的來源；另外，論文討論節有一次未預先登記的探索性測試，把兩顆都改成抑制性：KC 活化比例 68%→42%，仍高於果蠅的範圍，作者據此認為 APL 正負號不是密編碼的主因（見該頁問題與限制 4b）。
 - **「壓稀疏」在庫內沒有直接證據。** 這是 Minnick 2026 與 Tomchik 2009 背景敘述中的公認說法；庫內沒有一篇直接操弄 APL 並量 KC 稀疏度的實驗（Minnick 的沉默是在錯誤正負號下做的模擬）：？待查。
 - **單數與複數。** 本庫 [[c-sparse-coding]] 與 Minnick 來源頁的用語表寫「一顆」，Minnick 正文是「兩顆」；以每半腦一顆讀即不衝突（※ 推論）。
 
