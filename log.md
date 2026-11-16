@@ -2,6 +2,10 @@
 
 只追加，新的在最上面。動作僅三種：`ingest` / `query` / `lint`（另有人類的 `裁決`）。
 
+## [2026-11-16] lint | Minnick 2026 補 APL 前提說明
+
+使用者讀更正說明時看不懂。來源頁問題與限制 4b 補兩句：APL 在模型裡為何是興奮性（正負號取自傳遞物質自動預測）、「已驗證」欄不是主結果用的；新增 4h「主結果全部建立在 APL 是興奮性這個已知錯誤上」。`e-apl-neuron` 已知問題同步加一條。
+
 ## [2026-11-16] fix | Minnick 2026「沒有測 APL 改抑制性」更正
 
 原頁說論文沒有測「把 APL 改成抑制性」。論文討論節（探索性、未預先登記）其實有：兩顆 APL 改成抑制，KC 活化比例 68% → 42%；套上全表已驗證正負號亦 42%，作者據此認為校正版修的是嗅葉迴路而非 APL。改了 `s-minnick-2026-untrained-connectome`（討論、問題與限制 4b、圖 3 解讀、未來）、`e-apl-neuron`、`c-sparse-coding`、`syn-contradictions` 3.14、`numbers`、`syn-changelog`（辛 5）。
