@@ -484,11 +484,11 @@ Hige 2015 發現，α2 格要 1 分鐘氣味、120 下光才讓突觸變弱，γ
 
 ### 4.1 多數來源的補充資料都沒有取得
 
-（以下第一、二段寫於全庫十二篇時，描述的是那十二份；第一批 11 篇另見第三段。）十二份 PDF 裡，Tully 1985 發表於沒有補充資料制度的年代（1985），本來就沒有補充資料；Tumkaya 2025 則是沒有補充圖表的論文（STAR Methods 在正文內，資料與程式放在 Zenodo），兩者都不受此限。Minnick 2026 的補充討論、補充圖 1–4 與補充表 1–7 未取得。其餘九份中，只有 Felsenberg 2017（含延伸圖 1–6 與方法）與 Felsenberg 2018（含補充圖 S1–S7，但不含存放全部 n 與 p 值的表 S1）附了部分補充資料；其餘七份都不含（含 2026-11-12 收錄的 Gervasi 2010，補充圖 S1–S5 未取得）。來源頁凡是只在補充資料裡的內容都標了 `？待查（補充資料未取得）`，受影響最大的是：Tomchik 2009 的補充方法（成像參數、行為細節）、Hige 2015 的 P.I. 公式與 LTD 持續時間（圖 S4）、Handler 2019 的區室分布（S6）與突變行為的絕對位移（S8）。補充檔在 PMC 都有，但下載頁有反機器人驗證，需要人工下載（見 `intake.md` 備註）。
+（以下第一、二段寫於全庫十二篇時，描述的是那十二份；第一批 11 篇另見第三段。）十二份 PDF 裡，Tully 1985 發表於沒有補充資料制度的年代（1985），本來就沒有補充資料；Tumkaya 2025 則是沒有補充圖表的論文（STAR Methods 在正文內，資料與程式放在 Zenodo），兩者都不受此限。Minnick 2026 的補充討論、補充圖 1–4 與補充表 1–8 都在本機 PDF 內（2026-11-16 確認；原誤記為未取得）。其餘九份中，只有 Felsenberg 2017（含延伸圖 1–6 與方法）與 Felsenberg 2018（含補充圖 S1–S7，但不含存放全部 n 與 p 值的表 S1）附了部分補充資料；其餘七份都不含（含 2026-11-12 收錄的 Gervasi 2010，補充圖 S1–S5 未取得）。來源頁凡是只在補充資料裡的內容都標了 `？待查（補充資料未取得）`，受影響最大的是：Tomchik 2009 的補充方法（成像參數、行為細節）、Hige 2015 的 P.I. 公式與 LTD 持續時間（圖 S4）、Handler 2019 的區室分布（S6）與突變行為的絕對位移（S8）。補充檔在 PMC 都有，但下載頁有反機器人驗證，需要人工下載（見 `intake.md` 備註）。
 
 2026-10-25 第二次收錄的論文，補充資料也還缺：Cohn 2015 的 S1–S7 與表 S1（含 ATP 刺激參數，見 1.3）、Ichinose 2015 與 Aso 2016 的 figure supplement 與影片（含 Aso 2016 其他區室的時間差曲線）、Felsenberg 2017 的 Supplementary Information 與 Source Data、Felsenberg 2018 的表 S1。
 
-2026-11-13 第一批 11 篇（Mao 2009、Burke 2012、Aso 2014a、Aso 2014b、Dylla 2017、Aso 2019、Eschbach 2021、Pribbenow 2022、Aso 2023、Yamada 2023、Kaldun 2025）的補充資料**全部未取得**，登記簿每篇都註明了。Huang 2024 同樣缺補充資料（模型方程式、補充表、Supplementary Discussion 與 Source Data）。因此全庫 24 篇裡，只有 Felsenberg 2017、Felsenberg 2018 附了部分補充資料。受影響較大的例子：Yamada 2023 的補充圖 3-2（配對後 MBON-α1 的反應，見空缺 3.6）、Kaldun 2025 的剪除效率驗證（見 3.17）、Aso 2014a 與 Aso 2014b 的 figure supplement 與完整品系表。
+2026-11-13 第一批 11 篇（Mao 2009、Burke 2012、Aso 2014a、Aso 2014b、Dylla 2017、Aso 2019、Eschbach 2021、Pribbenow 2022、Aso 2023、Yamada 2023、Kaldun 2025）的補充資料**全部未取得**，登記簿每篇都註明了。Huang 2024 同樣缺補充資料（模型方程式、補充表、Supplementary Discussion 與 Source Data）。因此全庫 24 篇裡，只有 Minnick 2026 附了完整補充資料，Felsenberg 2017、Felsenberg 2018 附了部分補充資料。受影響較大的例子：Yamada 2023 的補充圖 3-2（配對後 MBON-α1 的反應，見空缺 3.6）、Kaldun 2025 的剪除效率驗證（見 3.17）、Aso 2014a 與 Aso 2014b 的 figure supplement 與完整品系表。
 
 **算解決：** 補充資料放進 `papers/`，依 `CLAUDE.md` 的「補充材料併入原來源頁」處理，並逐條回填 ？待查。
 
