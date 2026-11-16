@@ -2,6 +2,10 @@
 
 只追加，新的在最上面。動作僅三種：`ingest` / `query` / `lint`（另有人類的 `裁決`）。
 
+## [2026-11-16] fix | Minnick 2026「參數一個都不調」改寫
+
+使用者查證後指出原句說過頭。對照原文（Results 第一段、Methods 神經元模型與 matched variant 段）：神經元與突觸參數確實沿用 Shiu et al.，但介面與學習規則是作者自訂的固定規則，嗅葉膽鹼型局部神經元輸出增益 g = 0.15 是對著 KC 稀疏度調的。改了 `s-minnick-2026-untrained-connectome`、`t-dopamine-to-plasticity`、`syn-changelog` 三處。
+
 ## [2026-11-13] lint | 第一批補跑冷讀（5 頁完成，7 頁未跑）
 
 第一批 11 篇收錄時依使用者決定跳過冷讀，之後使用者要求補跑。一頁一個主持代理，照 cold-read skill 切區塊、每輪派全新冷讀者、改寫後用 check_facts.py 驗數字與引用。
