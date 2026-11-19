@@ -40,7 +40,7 @@ confidence: medium
 | [[s-minnick-2026-untrained-connectome]] | 全連結體模擬中的一個元件；另做「沉默一顆 APL」的操作 | 兩顆都被自動預測為膽鹼性（興奮性），論文照此使用；沉默帶型別標註的那一顆，KC 活化比例 68% → 61%；一顆無標籤的 APL 經 62 個突觸驅動 MBON05 |
 | [[s-pribbenow-2022-postsynaptic-plasticity]] | [[e-hemibrain]] v1.2.1 分析：KC 每個釋放點的突觸後夥伴 | APL 是與 M4、M6、α′3 MBON 共用 KC 釋放點的對象之一（圖 10h） |
 
-Tomchik 2009 只在背景介紹提到「APL 學習後有記憶痕跡」（與 DPM、嗅葉等並列，引 Yu et al. 2003–2006、Wang et al. 2008、Liu & Davis 2009 一組文獻），本篇沒有量 APL，不列入表。
+Tomchik 2009 只在背景介紹提到「APL 學習後有記憶痕跡」（與 DPM、嗅葉等並列，引 Yu et al. 2003–2006、Wang et al. 2008、Liu & Davis 2009 一組文獻），Tomchik 2009 自己沒有量 APL，不列入表。
 
 ## 已知的問題
 

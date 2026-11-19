@@ -20,7 +20,7 @@ confidence: medium
 
 ## 是什麼
 
-**破傷風毒素輕鏈讓表現它的神經元放不出神經傳遞物質。** 它由驅動品系送進選定的細胞，而且**從發育期起一直作用**——這一點是它與 [[e-shibire-ts]] 的根本差別：shibire 可以只在某一段時間（訓練、測驗、再聞氣味）關掉細胞，TNT 不能。庫內四篇用它，寫法各不相同：TNT（Aso 2023、Yamada 2023，該篇也寫 TeNT）、TnT（Huang 2024）、TNTe（Eschbach 2021，幼蟲）。
+**破傷風毒素輕鏈讓表現它的神經元放不出神經傳遞物質。** 它由驅動品系送進選定的細胞，而且**從發育期起一直作用**——這一點是它與 [[e-shibire-ts]] 的根本差別：shibire 可以只在某一段時間（訓練、測驗、再聞氣味）關掉細胞，TNT 不能。庫內四篇用它，寫法各不相同：TNT（Aso 2023、Yamada 2023；後者也寫 TeNT）、TnT（Huang 2024）、TNTe（Eschbach 2021，幼蟲）。
 
 **庫內有一篇寫下了「為什麼只能用它」**：[[s-yamada-2023-second-order-conditioning]] 想用 shibire<sup>ts1</sup> 只在二階制約期間關掉 SMP108，但在 32 °C 的限制溫度下，連對照基因型的果蠅都很快把一階記憶消退掉、做不成二階制約（正文寫 data not shown），所以阻斷只能用 TNT。
 

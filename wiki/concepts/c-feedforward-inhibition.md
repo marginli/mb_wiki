@@ -29,7 +29,7 @@ confidence: low
 |---|---|---|
 | [[s-aso-2014-mb-architecture]] | MBON→MBON（葉內） | 三型 MBON 的軸突送回葉內別格：γ4>γ1γ2（麩胺酸）、β1>α（麩胺酸）、γ1pedc>α/β（GABA）。12 型屬單層讀出，α1–α3 的讀出是四層「前饋網路」。**只有影像重疊，傳遞物質是免疫染色推定，沒有功能實驗** |
 | [[s-aso-2014-mbon-valence]] | MBON→MBON（模型） | 圖 14 假設麩胺酸 MBON 抑制 GABA 與乙醯膽鹼 MBON、GABA MBON 抑制麩胺酸 MBON；嫌惡學習讓 γ1pedc 的 GABA MBON 對 CS+ 變弱 → 麩胺酸 MBON 被放開 → 果蠅走開。**全部是假設，沒有 MBON 生理記錄** |
-| [[s-felsenberg-2018-memory-extinction]] | MBON→MBON（經典前饋抑制） | KC 同時興奮 MVP2 與 M4β′／M6，MVP2 再抑制後兩者。電顯數到 MVP2→M4β′ 47 個突觸、→M6 17（右）／16（左）個；M6 的接點集中在樹突根部，作者推論可「分流」整棵樹突。用來解釋：學習效果只在 M6 的軸突看得到、樹突看不到；消退後兩筆記憶在 M6 相抵。抑制的正負號引 Perisse 2016，不是本篇量的 |
+| [[s-felsenberg-2018-memory-extinction]] | MBON→MBON（經典前饋抑制） | KC 同時興奮 MVP2 與 M4β′／M6，MVP2 再抑制後兩者。電顯數到 MVP2→M4β′ 47 個突觸、→M6 17（右）／16（左）個；M6 的接點集中在樹突根部，作者推論可「分流」整棵樹突。用來解釋：學習效果只在 M6 的軸突看得到、樹突看不到；消退後兩筆記憶在 M6 相抵。抑制的正負號引 Perisse 2016，不是 Felsenberg 2018 量的 |
 | [[s-aso-2016-dan-cell-type-rules]] | MBON→MBON | 用 γ1pedc（GABA）到 α 葉的前饋連線解釋兩份記憶「非線性整合」：若相加應約 −0.14，實測 −0.38。本篇沒有檢驗這條連線 |
 | [[s-pribbenow-2022-postsynaptic-plasticity]] | MBON→MBON | 離體腦加 TTX 排除了 MVP2 的去抑制；作者把它列為離體（增強）與活體（減弱）方向相反的可能原因之一 |
 | [[s-eschbach-2021-learned-innate-valence-integration]] | MBON→MBON（幼蟲，作者稱「側向抑制」） | 依 Eichler 2017 的連結體，數到 6 處負價值 MBON 抑制正價值 MBON、3 處反方向；推測學習時放大兩側差距。只存在於部分 MBON 之間，作者因此轉往下一層找整合點 |

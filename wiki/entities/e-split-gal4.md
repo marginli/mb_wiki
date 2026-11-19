@@ -29,7 +29,7 @@ confidence: medium
 | MB043C、MB213B、MB315C＋MB109B | Aso 2016 | 未列 | PAM-α1；支配 β1、β2 的 PAM；支配 γ5、β′2a 的 PAM（後兩組各兩型） |
 | MB299B；MB310C、MB323B；MB008B | Ichinose 2015（引 Aso et al. 2014a） | 未列 | PAM-α1（[[e-pam-alpha1]]）；MBON-α1；α/β KC |
 | MB296B；MB052B；MB077C；MB112C（延伸圖 6i 寫 MB122C）；MB058B；MB308B | Felsenberg 2017 | 未列 | PPL1-γ2α′1（[[e-ppl1-gamma2alpha1]]）；五型 V2 群 MBON；MBON-γ2α′1（[[e-mbon-gamma2alpha1]]）；MVP2（[[e-mbon-gamma1pedc]]）；PPL1-α′2α2；PPL1-α′3（α3 弱） |
-| MB011B；MB027B | Pribbenow 2022（引 Aso et al. 2014a） | 該篇未寫：？待查 | M4/6 四型 MBON（γ5β′2a、β′2mp、β2β′2a、β′2mp bilateral）；α′3 的 MBON（該篇以複數稱呼，未寫幾型：？待查） |
+| MB011B；MB027B | Pribbenow 2022（引 Aso et al. 2014a） | Pribbenow 2022 未寫：？待查 | M4/6 四型 MBON（γ5β′2a、β′2mp、β2β′2a、β′2mp bilateral）；α′3 的 MBON（該篇以複數稱呼，未寫幾型：？待查） |
 | **SS02163**（方法另寫 SS02163f）；**SS02108** | Eschbach 2021（**幼蟲**） | 52H01／40F09；13D05／40F09 | 幼蟲 MBON-m1；幼蟲 CN-33 與 MB2ON-86（每側各兩顆），並微弱標記腹神經索的局部中間神經元。⚠️ 該篇方法與品系表稱這一條為「CN-4」，結果節稱 CN-33（見該來源頁第五節） |
 | SS67221、SS45234（SMP108）；SS33917（SMP353／354）；MB043-split-LexA（PAM-α1） | Yamada 2023 新做 | MB043-split-LexA ＝ 58E02-ZpLexADBD（JK22C）／32D11-p65ADZp（JK73A）；其餘未列 | 兩條獨立的 SMP108 品系；SMP353／354；只標 PAM-α1 的 LexA 版本 |
 | SS33917、SS33918（行為）；SS67249（電生理） | Aso 2023（與 Shuai et al. 2023 同期發表的新品系集合） | 未列 | 迎風神經元 UpWiN（SS33917／SS33918 各標相似的 8–11 顆；SS67249 只標 1–3 顆） |
