@@ -37,7 +37,7 @@
 - **較早的答案（Tomchik 2009）：** *rutabaga* 基因製造的一個酵素負責製造 cAMP（一種細胞內的訊號分子）。它要同時收到兩種訊號才大量工作：氣味讓 KC 活動時流進細胞的鈣，以及多巴胺。所以它像一個「兩者都到才響」的偵測器；作者還發現，只有氣味先、多巴胺後時，cAMP 才會多出來。
 - **較新的答案（Handler 2019）：** KC 上有兩種多巴胺受體，各接一條路徑。一條製造 cAMP，讓突觸變弱；這篇量到的 cAMP 不論誰先都會上升。另一條讓內質網（細胞內儲存鈣的構造）放出鈣，讓突觸變強，只在多巴胺先到時才發生。所以氣味先到時只有變弱的那條在作用；多巴胺先到時兩條都在作用，變強的那條勝出。
 
-- **往下游量一步（Gervasi 2010）：** 在活的果蠅裡看 cAMP 打開的下一個酵素 PKA。多巴胺只在 α 葉打開 PKA，拿掉分解 cAMP 的 Dunce 後就打開所有葉，作者據此主張 *dunce* 的問題在 cAMP 的「位置」而非「量」。它也重做了配對的放大，但 *rutabaga* 突變只測了配對組；與 Tomchik 2009 另有兩處相反，列為待裁決
+- **往下游量一步（Gervasi 2010）：** 在活的果蠅裡看 cAMP 打開的下一個酵素 PKA。多巴胺只在 α 葉打開 PKA，拿掉分解 cAMP 的 Dunce 後就打開所有葉，作者據此主張 *dunce* 突變的問題在 cAMP 的「位置」而非「量」。它也重做了配對的放大，但 *rutabaga* 突變只測了配對組；與 Tomchik 2009 另有兩處相反，列為待裁決
 
 **兩篇對「cAMP 分不分得出先後」說法相反，列為待裁決**（Handler 2019 正文沒有點名 *rutabaga*，它量到的 cAMP 是不是同一個酵素製造的，沒有交代）。另外兩點：學習造成的突觸改變主要限在一格（區室）之內，但 Cohn 2015 發現活化一格的多巴胺神經元時，別格的 MBON 反應也會小幅下降；Cohn 2015 也直接看到 KC 送訊號那一端（末梢）的鈣會隨多巴胺改變，不過那是沒有配對氣味時的結果。**配對之後末梢怎麼變沒有人量過，所以學習的改變發生在 KC 這一側（突觸前）還是 MBON 那一側（突觸後），仍沒有答案。**
 
@@ -118,7 +118,7 @@ MBON 的活動怎麼變成果蠅的動作？成蟲的逐型活化顯示推動靠
 - [[s-tully-1985-classical-conditioning]] — Tully & Quinn, *J Comp Physiol A*：建立 T 迷宮的氣味—電擊古典制約測驗，量了時序、消退、非聯結對照與學習突變株的記憶曲線；全文不涉及蕈狀體 · 2026-10-26
 - [[s-mao-2009-dopaminergic-neuron-types]] — Mao & Davis, *Front Neural Circuits*：單細胞選殖把支配蕈狀體的多巴胺神經元拆成八型，PPL1 五型各占垂直葉一段（舊名 MB-V1、MB-MV1、MB-MP1 的出處）；鈣成像看到各段對電擊與氣味的偏好不同 · 2026-11-13
 - [[s-tomchik-2009-camp-dynamics]] — Tomchik & Davis, *Neuron*：在離體腦中直接看到 KC 軸突裡的 cAMP 協同依賴 *rutabaga* 與先後順序 · 2026-10-25
-- [[s-gervasi-2010-pka-dynamics]] — Gervasi, Tchénio & Preat, *Neuron*：活果蠅 KC 內的 PKA 成像；多巴胺只在 α 葉打開 PKA，*dunce* 突變中打開全部；配對協同在 *rutabaga* 中消失，但只測了配對組 · 2026-11-12
+- [[s-gervasi-2010-pka-dynamics]] — Gervasi, Tchénio & Preat, *Neuron*：活果蠅 KC 內的 PKA 成像；多巴胺只在 α 葉打開 PKA，*dunce* 突變中打開全部；配對協同在 *rutabaga* 突變中消失，但只測了配對組 · 2026-11-12
 - [[s-burke-2012-octopamine-dopamine-reward]] — Burke et al., *Nature*：獎賞訊號分層，章魚胺只傳遞糖的甜味那一份，經 PAM 多巴胺神經元上的受體接到多巴胺 · 2026-11-13
 - [[s-aso-2014-mb-architecture]] — Aso et al. 2014a, *eLife*：蕈狀體區室、DAN 與 MBON 型別與 split-GAL4 品系的解剖總圖譜，含新舊名對照表 · 2026-11-13
 - [[s-aso-2014-mbon-valence]] — Aso et al. 2014b, *eLife*：逐型活化 MBON，推動靠近或走開依傳遞物質分邊；各種學習作業需要哪些 MBON · 2026-11-13

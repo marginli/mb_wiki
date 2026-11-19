@@ -28,7 +28,7 @@ confidence: medium
 
 *dunce*（簡寫 *dnc*）是果蠅 X 染色體上的學習基因，製造一種專門分解 cAMP 的磷酸二酯酶。它是最早篩出的學習突變之一（Dudai et al. 1976，兩篇來源都引用）。庫內兩篇的描述：
 
-- **Tully 1985（1985 年的狀態）**：*dunce* 缺第二型磷酸二酯酶（引 Byers et al. 1981），全身 cAMP 偏高；與 *rutabaga* 對 cAMP 的影響方向相反，學習與記憶的缺陷卻相似。
+- **Tully 1985（1985 年的狀態）**：*dunce* 突變缺第二型磷酸二酯酶（引 Byers et al. 1981），全身 cAMP 偏高；與 *rutabaga* 突變對 cAMP 的影響方向相反，學習與記憶的缺陷卻相似。
 - **Gervasi 2010**：在活果蠅的 KC 裡看 *dnc1* 的效果。Dunce 是 KC 中調控 cAMP 的主要 PDE。而且多巴胺（傳遞懲罰訊號、啟動學習的物質）本來只在 α 葉打開 PKA；拿掉 Dunce 之後，多巴胺在所有葉都打開 PKA，所以作者主張是 Dunce 把多巴胺的作用侷限在 α 葉。
 
 ## 版本與規模（本庫用到的等位基因）
@@ -44,14 +44,14 @@ confidence: medium
 
 | 來源 | 怎麼用 | 得到什麼 |
 |---|---|---|
-| [[s-tully-1985-classical-conditioning]] | 整隻果蠅的 T 迷宮古典制約：學習分數與 0–24 h 記憶保留；與 *rut*、*amnesiac* 及雙突變株比較 | *dnc*^M11 Λ ＝ 0.34 ± 0.04（同日 C-S 0.84，約為正常的 0.40）；雙突變 0.16（約為正常的 0.19）；記憶保留 *dnc* 1 h ≈ 0.12，同圖正常果蠅 1 h ≈ 0.82（※ 從圖判讀）。作者據此指出：*dnc* 與 *rut* 方向相反卻缺陷相似；雙突變一個讓 cAMP 變多、一個讓它變少，全身 cAMP 互相抵銷到接近正常，學得卻更差 |
+| [[s-tully-1985-classical-conditioning]] | 整隻果蠅的 T 迷宮古典制約：學習分數與 0–24 h 記憶保留；與 *rut*、*amnesiac* 突變株及雙突變株比較 | *dnc*^M11 Λ ＝ 0.34 ± 0.04（同日 C-S 0.84，約為正常的 0.40）；雙突變 0.16（約為正常的 0.19）；記憶保留 *dnc* 突變 1 h ≈ 0.12，同圖正常果蠅 1 h ≈ 0.82（※ 從圖判讀）。作者據此指出：*dnc* 與 *rut* 突變方向相反卻缺陷相似；雙突變一個讓 cAMP 變多、一個讓它變少，全身 cAMP 互相抵銷到接近正常，學得卻更差 |
 | [[s-gervasi-2010-pka-dynamics]] | 活體 KC 內 PKA 成像：給 forskolin、IBMX、多巴胺、章魚胺，比較 *dnc1* 與對照；另測 2 h 記憶 | forskolin 反應只在三個葉比對照大（約 1.19–1.39 倍；少了 Dunce，製造出來的 cAMP 沒被分解），萼部不變；IBMX 在 *dnc1* 中幾乎無作用（約 0–0.6%，對照約 6.4–7.7%）——IBMX 擋的是 PDE，Dunce 不在時它幾乎沒有東西可擋，表示 Dunce 就是主要的 PDE；浴灌多巴胺在對照只打開 α 葉，在 *dnc1* 打開所有葉與萼部（β、γ 葉由約 0 升到約 5%）；章魚胺不受影響；2 h 記憶 PI 約 14.5，對照約 43.5（以上 ※ 從圖判讀） |
 
 > 數值見 [[numbers]]。
 
 ## 已知的問題（引用時的陷阱）
 
-1. **「cAMP 太多」不等於「學不會的原因」。** Tully 1985 的雙突變株全身 cAMP 接近正常，學得卻比兩個單突變都差，所以全身 cAMP 的多寡不能直接當成學習的讀數。Gervasi 2010 提出的說法是：*dnc* 的問題是多巴胺的 PKA 訊號失去了**空間上的侷限**，不只是量太多。但 Gervasi 2010 沒有量雙突變株，也沒有把空間侷限與行為連起來（見 [[syn-contradictions]] 3.11）。
+1. **「cAMP 太多」不等於「學不會的原因」。** Tully 1985 的雙突變株全身 cAMP 接近正常，學得卻比兩個單突變都差，所以全身 cAMP 的多寡不能直接當成學習的讀數。Gervasi 2010 提出的說法是：*dnc* 突變的問題是多巴胺的 PKA 訊號失去了**空間上的侷限**，不只是量太多。但 Gervasi 2010 沒有量雙突變株，也沒有把空間侷限與行為連起來（見 [[syn-contradictions]] 3.11）。
 2. **讀數歸零會藏起基線差異。** Gervasi 2010 的讀數以給藥前為零，若 *dnc1* 的 KC 平時 PKA 就偏高，所有圖都看不出來；該篇沒有比較兩種基因型的基線比值。
 3. **全身、全發育期的突變。** 兩篇用的都是全身突變。Gervasi 2010 的「Dunce 把多巴胺訊號圈在 α 葉」，也可能是 KC 在發育中長期缺 PDE、改變了其他成分的結果；該篇沒有在成蟲期急性擋住 Dunce 後再給多巴胺。
 4. **「只在軸突」沒有交互作用檢定。** Gervasi 2010 說 *dnc1* 只改變葉的 forskolin 反應，依據是「葉顯著、萼部不顯著」兩個分開的檢定，沒有直接檢定「突變的效果在葉與萼部是否不同」。不過萼部的突變組與對照組幾乎相同（約 7.7 對 7.7），所以這個結論大致可信。
@@ -63,6 +63,6 @@ confidence: medium
 - 實體：[[e-rutabaga]]、[[e-kenyon-cell]]、[[e-mushroom-body]]、[[e-t-maze]]、[[e-238y-gal4]]
 - 概念：[[c-camp-signaling]]、[[c-performance-index]]、[[c-coincidence-detection]]
 - 主題：[[t-dopamine-to-plasticity]]
-- 綜述：[[syn-contradictions]]（3.9 突變株的兩段式記憶衰減、3.11 *dunce* 與 *rutabaga* 為何缺陷相似）
+- 綜述：[[syn-contradictions]]（3.9 突變株的兩段式記憶衰減、3.11 *dunce* 與 *rutabaga* 突變為何缺陷相似）
 - 來源：[[s-tully-1985-classical-conditioning]]、[[s-gervasi-2010-pka-dynamics]]
 - 待開頁面：`e-amnesiac`

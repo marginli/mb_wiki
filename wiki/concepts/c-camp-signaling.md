@@ -21,7 +21,7 @@ confidence: medium
 - **forskolin**：直接活化製造 cAMP 的酵素的藥，用來人為拉高 cAMP。
 - **ΔR/R、ΔF/F**：螢光感測器的訊號（兩色亮度比值，或亮度）相對刺激前基線的變化比例，例如 0.15＝高了 15%。只能在同一實驗內比大小。
 - **rut¹、238Y、c739、MB320C 等**：*rut¹* 是 *rutabaga* 基因（[[e-rutabaga]]）的一個突變版本；其餘是「驅動品系」代號，即決定外加基因只在哪些細胞表現的果蠅品系。
-- ***rut*^PS511、*dunce*（*dnc*）、雙突變株**：Tully 1985 用的突變果蠅。*rut*^PS511 是 *rutabaga* 的另一個突變版本；*dunce* 缺分解 cAMP 的酵素；雙突變株同時帶兩者。Λ 是該篇的行為學習分數，0＝沒學到、1＝全部躲開被電的氣味（見 [[c-performance-index]]）。
+- ***rut*^PS511、*dunce*（*dnc*）、雙突變株**：Tully 1985 用的突變果蠅。*rut*^PS511 是 *rutabaga* 的另一個突變版本；*dunce* 突變缺分解 cAMP 的酵素；雙突變株同時帶兩者。Λ 是該篇的行為學習分數，0＝沒學到、1＝全部躲開被電的氣味（見 [[c-performance-index]]）。
 - **−/−**：該基因兩份都被剔除。
 - **PKA、AKAR2**：PKA（蛋白質激酶 A）是被 cAMP 打開、把磷酸根掛到其他蛋白質上的酵素；cAMP 是傳令，PKA 才是動手改變細胞的那一步。AKAR2 是 Gervasi 2010 用的 PKA 螢光感測器。
 - **IBMX、*rut2080*、*dnc1***：IBMX 同時擋住多數分解 cAMP 的酵素（PDE）；*rut2080*、*dnc1* 是 Gervasi 2010 用的 *rutabaga*、*dunce*（[[e-dunce]]）突變版本。
@@ -61,7 +61,7 @@ Tully 1985 沒有量 cAMP：它用改變 cAMP 製造或分解的全身突變果�
 4. **殘留的 cAMP 來源不明。** Tomchik 2009 的 *rut¹* 突變果蠅單獨給多巴胺時，cAMP 照樣上升、與對照組無差異，所以 *rut* 之外還有來源（作者推測是其他 AC）；Handler 2019 的 DopR1−/− 仍有約 27%，論文未討論來源。Gervasi 2010 用 IBMX 找到一個不是 Rut、持續活動的環化酶，但它不被多巴胺與章魚胺活化（作者語），所以與 Tomchik 2009 看到的「*rut¹* 中多巴胺照樣提高 cAMP」不完全對得上（見 [[syn-contradictions]] 1.7）。行為上也對得上這一點：如果學習所需的 cAMP 只能由 *rut* 的酵素製造，*rut* 突變果蠅應該完全學不會；但 Tully 1985 的 *rut* 突變果蠅仍學得到 Λ ≈ 0.41，不是 0。
 5. **全身 cAMP 量不是學習的讀數。** Tully 1985 的雙突變株全身 cAMP 接近正常，學得卻比兩個單突變都差；它的 cAMP 數字是整隻果蠅的生化測量，不知道在哪個細胞、哪個時刻。※ 推論（依 [[s-tully-1985-classical-conditioning]] 專業文第四節第 6 條的評價）：要問 cAMP 與學習的關係，得在對的細胞、對的時間量，也就是 Tomchik 2009、Handler 2019 在 KC 軸突裡做的事。
 6. **cAMP 與 PKA 不是同一個量，兩者的「大小」可以差很多。** Tomchik 2009 浴灌多巴胺的最大 cAMP 反應與 10 µM forskolin 相當；Gervasi 2010 浴灌多巴胺的最大 PKA 反應只有 forskolin 上限的約四分之一（見 [[s-gervasi-2010-pka-dynamics]] 3.1 節）。兩篇的協同倍數也差很多（cAMP 約 1.25–1.53 倍，PKA 約 3.6–13 倍）。※ 推論：PKA 對 cAMP 可能有門檻，所以 cAMP 的變化傳到 PKA 時會被放大或抹平；兩篇的數字只能各自在篇內比。兩篇另有兩處結論相反，見 [[syn-contradictions]] 1.7、1.8。
-7. **「在哪裡」可能和「有多少」一樣重要。** Gervasi 2010 的 *dnc1* 實驗顯示，同一個多巴胺刺激，Dunce 在時只打開 α 葉的 PKA，拿掉它就打開全部；作者據此提出 *dnc* 的學習缺陷可能來自失去空間上的專一性。這是本庫唯一處理這個問題的來源，而且作者沒有把空間專一性與行為連起來（見 [[e-dunce]]、[[syn-contradictions]] 3.11）。
+7. **「在哪裡」可能和「有多少」一樣重要。** Gervasi 2010 的 *dnc1* 實驗顯示，同一個多巴胺刺激，Dunce 在時只打開 α 葉的 PKA，拿掉它就打開全部；作者據此提出 *dnc* 突變的學習缺陷可能來自失去空間上的專一性。這是本庫唯一處理這個問題的來源，而且作者沒有把空間專一性與行為連起來（見 [[e-dunce]]、[[syn-contradictions]] 3.11）。
 
 ## 相關
 
