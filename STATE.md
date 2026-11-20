@@ -5,7 +5,7 @@
 - 沒有工作在跑。等使用者決定是否開始下一篇（Pribbenow 2022）。
 
 ## 最新結果
-- 第一批補跑冷讀 13 頁已完成 8 頁：t-mbon-to-action、t-innate-learned-integration、Mao 2009、Aso 2014a、Burke 2012、Dylla 2017（8 處事實更正）、Aso 2014b（12 處）、Aso 2019（11-21，13 處＋整合者改「圖」小節 6 處；commit 9a33e24 已推送）。
+- 第一批補跑冷讀 13 頁已完成 9 頁：t-mbon-to-action、t-innate-learned-integration、Mao 2009、Aso 2014a、Burke 2012、Dylla 2017（8 處事實更正）、Aso 2014b（12 處）、Aso 2019（11-21，13 處＋整合者改「圖」小節 6 處；commit 9a33e24 已推送）。
 - Aso 2019 的經驗：安全分類器又擋下驗收讀者，換 Opus 5 重派即全部完成（與 11-13 相同）。
 - Eschbach 2021（11-21，首次只冷讀兩段）：7 項事實更正（齡期只有兩個、天生喜好、與成蟲一致指的是運作方式、興奮性 MBON 只有 a1/e1、PTX 非全部、配對組與不配對組不是同批前後、三處精確度），整合者另改專業文 4 處；⚠️ 10→11 條。
 - 11-19 全庫修正：突變株補「突變」、「這篇／本篇」改成點名論文；t-dopamine-to-plasticity 逐段改寫。
