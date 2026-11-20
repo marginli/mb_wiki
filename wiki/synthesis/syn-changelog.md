@@ -101,7 +101,7 @@ confidence: high
 15. （2026-11-20 Dylla 2017 補跑冷讀）[[s-dylla-2017-trace-conditioning-dan-plasticity]] 3.6 原寫「0.6–1.0 是訓練期間各回合平均值的範圍」。依圖 5B，這個範圍涵蓋第 4–10 與第 13 回合中有給 CS 的回合，**包含訓練後**；起點（第 2 回合）兩組都約 0.7，配對組第 13 回合約 1.0，原文說訓練前後「equally similar」。
 16. （同上）同頁電流相關分析的隻數原寫「每區 19–40 隻；40 大於單組隻數，應是兩組合併」。依圖 3B–C 面板標示改為 DAN 每區 35–40 隻、KC 每區 19–38 隻，並寫明它比任一組多、卻比兩組相加（41 隻以上）少，原因 `？待查`。
 
-### 丙、宣稱唯一性（6 處）
+### 丙、宣稱唯一性（7 處）
 
 1. [[s-tomchik-2009-camp-dynamics]] 的「為什麼重要」寫了「本篇是第一批用遺傳編碼 cAMP 感測器在果蠅腦裡看見這件事的研究之一」。原文沒有這樣的優先權宣稱，改為引述作者自己的措辭。由整合者在第二輪冷讀修改時發現。
 2. （第二批）[[s-felsenberg-2017-re-evaluation]] 初稿寫「本庫第一篇用阻斷操作 DAN」，撰寫者自己依寫作紀律第 10 條（`ingest-paper` skill 的寫作規則：「不要宣稱唯一性，除非全部讀完」）刪除。
@@ -110,6 +110,7 @@ confidence: high
 
 5. （第一批 11 篇，平行撰寫造成）[[s-eschbach-2021-learned-innate-valence-integration]] 寫「本庫的成蟲論文目前沒有任何一篇處理 MBON 下游的哪一顆細胞讀出記憶」，同批的 Aso 2023 正是這樣的論文。平行撰寫的來源頁看不到彼此。已改正。
 6. （Aso 2019 補跑冷讀）[[s-aso-2019-nitric-oxide-cotransmitter]] 第五節第 2 條原寫「唯一的成像是 MBON 的鈣」。方法節的鈣成像有兩組受測細胞（MBON-γ1pedc，以及 γ3、γ4、γ5 的 PAM DAN，照光強度 1.2 與 0.89 mW/mm²），改為「唯一量到細胞活動的成像是鈣成像」並列出兩組。
+7. （Eschbach 2021 補跑冷讀）[[s-eschbach-2021-learned-innate-valence-integration]] 專業文第一節寫「本庫收錄的成蟲論文**都**在處理『學習怎麼改變 KC→MBON』」，但同頁第六節自己就寫了同批的 [[s-aso-2023-upwind-neurons]] 處理 MBON 的下游。改為「多半停在」並補指第六節。這一頁 2026-11-13 已更正過一次同類的全稱句（本類第 5 條），是同一處殘留。
 
 ### 丁、把論文的條件句或引用讀成斷言（14 處）
 
@@ -289,7 +290,7 @@ Gervasi 等 2010 在 10-27 寫完來源頁（冷讀 4 輪）後就停住：主�
 
 ## 現在的狀態
 
-- 24 篇來源、6 條主題、22 個概念、46 個實體、2 個綜述，分屬兩個研究問題群。第一批 11 篇的整合已於 2026-11-13 換模型後補完（主題頁、概念與實體頁、新建 6 個實體頁、來源頁交叉連結、矛盾清單空缺 3.16–3.20）。**本批收錄時未經冷讀**（使用者決定；見 log 2026-11-13），之後分批補跑：2026-11-13／14 完成 5 頁（[[t-mbon-to-action]]、[[t-innate-learned-integration]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-aso-2014-mb-architecture]]、[[s-burke-2012-octopamine-dopamine-reward]]），2026-11-19／20 完成 [[s-dylla-2017-trace-conditioning-dan-plasticity]] 與 [[s-aso-2014-mbon-valence]]，2026-11-21 完成 [[s-aso-2019-nitric-oxide-cotransmitter]]，**尚餘 5 頁未跑**（Eschbach 2021、Pribbenow 2022、Aso 2023、Yamada 2023、Kaldun 2025）。
+- 24 篇來源、6 條主題、22 個概念、46 個實體、2 個綜述，分屬兩個研究問題群。第一批 11 篇的整合已於 2026-11-13 換模型後補完（主題頁、概念與實體頁、新建 6 個實體頁、來源頁交叉連結、矛盾清單空缺 3.16–3.20）。**本批收錄時未經冷讀**（使用者決定；見 log 2026-11-13），之後分批補跑：2026-11-13／14 完成 5 頁（[[t-mbon-to-action]]、[[t-innate-learned-integration]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-aso-2014-mb-architecture]]、[[s-burke-2012-octopamine-dopamine-reward]]），2026-11-19／20 完成 [[s-dylla-2017-trace-conditioning-dan-plasticity]] 與 [[s-aso-2014-mbon-valence]]，2026-11-21 完成 [[s-aso-2019-nitric-oxide-cotransmitter]] 與 [[s-eschbach-2021-learned-innate-valence-integration]]，**尚餘 4 頁未跑**（Pribbenow 2022、Aso 2023、Yamada 2023、Kaldun 2025）。**自 Eschbach 2021 起範圍縮小為只冷讀「為什麼重要」與「科普文」兩段**（使用者 2026-11-21 的決定，為控制額度；專業文與其餘小節逐字不動，驗收讀者仍讀完整頁面以便對照抓錯）。
 - 範圍自 2026-11-12 起為「果蠅的學習與記憶，以及蕈狀體本身」，由原本只收蕈狀體擴大而來。
 - 待裁決的跨來源矛盾 11 條；沒有人處理的空缺 21 條（編號到 3.21，其中 3.5 已轉為矛盾 1.8，編號保留不重排），見 [[syn-contradictions]]。
 - Tully 1985 本來就沒有補充資料（1985 年）、Tumkaya 2025 沒有補充圖表；其餘十篇中只有 Felsenberg 2017、2018 附了部分補充資料（Huang 2024 的 PDF 含延伸圖，但模型參數所在的 Supplementary Information 未取得），其餘都未取得，需人工下載（網址見 `intake.md`）。
