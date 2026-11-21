@@ -64,4 +64,4 @@ confidence: medium
 - 概念：[[c-second-order-conditioning]]、[[c-appetitive-memory]]、[[c-valence-coding]]
 - 主題：[[t-mbon-to-action]]、[[t-innate-learned-integration]]、[[t-mbon-dan-feedback]]
 - 來源：[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-eschbach-2021-learned-innate-valence-integration]]
-- 待開頁面：`e-smp108`、`e-upwind-neurons`、`e-kir2-1`、`e-gtacr2`、`e-mb043c`、`e-mb196b`
+- 待開頁面：`e-smp108`、`e-upwind-neurons`、[[e-kir2-1]]（2026-11-21 已開頁）、`e-gtacr2`、`e-mb043c`、`e-mb196b`

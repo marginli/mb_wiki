@@ -1,7 +1,7 @@
 ---
 title: 表現指數（performance index, P.I.）
 created: 2026-10-25
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
@@ -39,6 +39,8 @@ confidence: medium
 | Aso 2023 | 四象限競技場 | 〔對角兩象限中氣味一的隻數 − 另兩象限（氣味二或空氣）的隻數〕÷ 總隻數，60 s 測驗取最後 30 s 平均，互換兩組取平均；圖 7D 改成「照光象限 vs 不照光象限」 | 偏向配過獎賞的 CS+（或照光象限） |
 | Yamada 2023 | 四象限競技場（直徑 9 cm） | (兩個對角象限中某一氣味那側的隻數 − 另兩象限的隻數) ÷ 總數，取 60 s 測驗最後 30 s；每組實驗半數把兩種 S2 的角色對調，圖上報兩半的平均 | 偏向 S2+（二階記憶）或偏向 S1／CS+（一階記憶） |
 | Pribbenow 2022 | T 迷宮 | 原文未列式，寫「如 Owald et al. 2015」；選對邊比例減選錯邊比例 | 偏向配過糖的 CS+；**嫌惡記憶畫成負值** |
+| Ofstad 2011 | 自製熱—視覺競技場（[[e-kir2-1]] 那組的位置學習）；高架 T 迷宮（嗅覺對照） | **不是二選一的 PI／LI，而是五個自訂指數。** 方向指數＝（第一個進入目標象限的果蠅數 − 進入相對象限者）÷ 總數；探測學習指數＝離開起點後**前 60 秒**（在 Q2 的時間 − 在 Q4 的時間）÷（Q2 ＋ Q4 時間）；熱躲避指數＝（25 °C 時間 − 36 °C 時間）÷ 總時間；方位指數＝（朝向直條紋時間 − 朝向橫條紋時間）÷ 總時間。**第五個「嗅覺學習指數」沒有定義公式**（方法只寫「以兩組平均」）：？待查 | 正值＝跑向正確象限／躲開熱／朝向直條紋。四個有公式的指數範圍都是 −1 到 +1 |
+| Vogt 2014 | 四象限顏色場地（視覺，[[e-color-conditioning-arena]]）；T 迷宮（嗅覺） | 稱學習指數（learning index, LI）。**兩種模態的公式都沒有寫**：視覺只寫「綠+／藍− 與 藍+／綠− 兩組之間視覺刺激偏好的差，用來算出每一影格的學習指數」並引 Schnaitmann et al. 2010；嗅覺只寫「標準嗅覺制約」並引 Tully & Quinn 1985、Schwaerzel et al. 2002。**同一篇裡另有一個有公式的量**：表 1 的偏好指數 ＝（對照半邊隻數 − US 半邊隻數）÷ 總隻數，但那只用來量沒受訓果蠅對糖或電擊本身的反應 | 偏向 CS+。所以糖的實驗為正（對照約 +0.10 到 +0.22）、電擊的實驗為負（視覺對照約 −0.10 到 −0.19，嗅覺對照約 −0.63） |
 | Kaldun 2025 | T 迷宮（0、2 h 與 24 h 獎賞）；Y 迷宮（24 h 嫌惡） | **同一篇兩個公式。** T 迷宮：PREF＝(一臂隻數 − 另一臂隻數) × 100 ÷ 總數（原文沒有指明哪一臂當被減數），LI＝兩次互換氣味制約的 PREF 平均；Y 迷宮：LI＝(未受訓氣味隻數 − 受訓氣味隻數) × 100 ÷ 總數，只做一次、不互換。兩者刻度都是 −100 到 +100 | 兩者都是正值＝學到了（躲開配過電擊的氣味、趨向配過糖的氣味）；LI＝0＝沒有偏好（※ 推論，依據是互換設計） |
 
 ## 庫內的用法
@@ -62,14 +64,19 @@ confidence: medium
 | [[s-pribbenow-2022-postsynaptic-plasticity]] | 以 T 迷宮 PI 量 MBON 中的受體 RNAi 與 KC 阻斷對獎賞、嫌惡記憶的影響；以「立即 vs 3 小時」兩個時間點分辨誘發與表現 | 訓練時阻斷 KC：獎賞 PI 由約 0.29／0.26 降到約 −0.03（顯著），嫌惡約 −0.55 對 −0.65／−0.68（不顯著，且 23 °C 對照也有同幅下降）。在 M4/6 降低 α5：立即獎賞 PI 約 −0.04、對照約 0.25（皆 ※ 從圖判讀） |
 | [[s-kaldun-2025-dop1r2-memory-phases]] | 以 LI 量四種剔除範圍（全蕈狀體、γ、α/β、α′/β′）在 0、2、24 小時的嫌惡與獎賞記憶；一個 N ＝ 一次獨立實驗（50–100 隻）算出的一個 LI | 短期記憶八張圖全部 ns（殘存約 88–106%）。2 小時：α/β 葉嫌惡由對照均值約 40.5 降到約 6（15%）、α′/β′ 由約 33.5 降到約 7（21%），γ 葉無影響。24 小時嫌惡（Y 迷宮）的對照約 48–74，高於 2 小時（約 32–45），**這是裝置與公式的差別，不是記憶變強**（殘存比例為來源頁計算、柱高 ※ 從圖判讀） |
 
+| [[s-ofstad-2011-visual-place-learning]] | **五個自訂指數，沒有一個是二選一的 PI** | 耦合訓練的探測學習指數中位數約 0.51、非耦合約 0.06、黑暗約 0.02（對零單尾 t 檢定 P < 0.0001／0.28／0.39）。**本頁推算：探測學習指數只涵蓋 53% 的探測時間**（Q2 42% ＋ Q4 11%），丟掉 Q1 的 25% 與 Q3 的 18.5%；若改用 Q3 當分母的另一半，同一組平均值給出的指數由 0.585 掉到 0.39。嗅覺學習指數：對照約 0.17，三條蕈狀體品系約 0（P < 0.05） |
+| [[s-vogt-2014-shared-visual-olfactory-circuits]] | 以 LI 做完整的必要性／充分性篩檢：電壓劑量曲線、三條胺類品系、兩條 DAN 品系、受體突變與救援、八條 KC 品系、訓練／測驗時段拆分；並在同一篇裡並排視覺與嗅覺兩種模態 | 視覺 LI 的高原約 −0.19（圖 1F），實際各圖的對照落在 +0.09–0.22（糖）與 −0.10 到 −0.24（電）；嗅覺對照約 −0.63。**同一篇內兩個模態的基準相差約 6 倍**，而本篇所有跨模態的結論都建立在視覺側的陰性結果上 |
+
 > 除 Tully 1985 的 0.89 ± 0.01 與 5–10% 取自正文外，數值皆為從圖判讀，見 [[numbers]] 與各來源頁。**Handler 2019 不用 P.I.**（全文 grep `performance` 無結果）：它的行為指標是一盒 4–7 隻果蠅的群體重心在 2 s 氣味期間往上風（氣味源）移動的距離（mm）；正值＝往氣味走＝吸引。Cohn 2015 沒有任何行為選擇測驗。
 
-**另有四篇本批來源沒有列進上面兩張表，理由各不相同。** [[s-eschbach-2021-learned-innate-valence-integration]] 是幼蟲，讀數是**導航指數**（沿氣味梯度方向的平均速度 ÷ 平均爬行速度，+1＝全部直直往濃處爬）與轉彎率，不是二選一的 PI；它的學習效果是導航指數由不配對組的約 +0.07 變成配對組的約 −0.09（正文寫 +0.1 與 −0.1，※ 從圖 1b 判讀）。[[s-mao-2009-dopaminergic-neuron-types]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]] 都是頭固定的成像實驗，**沒有行為讀數**——Dylla 2017 自己說只能靠「協定和行為實驗相近」來相信果蠅學會了。[[s-aso-2014-mb-architecture]] 是純解剖，全文沒有任何行為量測或統計檢定。
+**另有五篇來源沒有列進上面兩張表，理由各不相同。** [[s-eschbach-2021-learned-innate-valence-integration]] 是幼蟲，讀數是**導航指數**（沿氣味梯度方向的平均速度 ÷ 平均爬行速度，+1＝全部直直往濃處爬）與轉彎率，不是二選一的 PI；它的學習效果是導航指數由不配對組的約 +0.07 變成配對組的約 −0.09（正文寫 +0.1 與 −0.1，※ 從圖 1b 判讀）。[[s-mao-2009-dopaminergic-neuron-types]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]] 都是頭固定的成像實驗，**沒有行為讀數**——Dylla 2017 自己說只能靠「協定和行為實驗相近」來相信果蠅學會了。[[s-aso-2014-mb-architecture]] 是純解剖，全文沒有任何行為量測或統計檢定。[[s-ganguly-2024-visual-inputs-to-kc]] 是純連結體分析，**全篇沒有任何行為或功能量測**。
+
+> **[[s-ofstad-2011-visual-place-learning]] 列進了表，但它的指數一個都不是二選一的 PI／LI。** 把它放進來的理由是本頁要處理的正是「同一個詞在不同論文裡的實際用法」，而它提供了一組完全不同的行為讀數（時間佔比、首次進入的象限、綁飛時的朝向）；拿它的數值和其他各篇的 PI 比大小沒有意義。
 
 ## 引用時的陷阱
 
 1. **刻度不同。** Tully 1985、Tomchik 2009、Aso 2016、Felsenberg 兩篇的值落在 −1 到 +1（Tully 1985 正文只定義 0 與 1 兩端）；Hige 2015 圖上的值在數十，上下限與換算方式都 ？待查。跨篇不要直接比數值。
-2. **正負號至少有三種約定。** 正值＝躲 CS+（Tully 1985、Tomchik 2009、Hige 2015）；正值＝偏向 CS+，所以電擊記憶為負（Felsenberg 2018）；正值＝偏向配過獎賞的 CS+（Felsenberg 2017、Ichinose 2015）。Aso 2016 同一篇裡圖 1、4 未改號（負＝躲）、圖 2、3 改號（正＝學到）。Handler 2019 的位移正值＝吸引。並列時要先對齊方向。
+2. **正負號至少有三種約定。** 正值＝躲 CS+（Tully 1985、Tomchik 2009、Hige 2015）；正值＝偏向 CS+，所以電擊記憶為負（Felsenberg 2018）；正值＝偏向配過獎賞的 CS+（Felsenberg 2017、Ichinose 2015）。Aso 2016 同一篇裡圖 1、4 未改號（負＝躲）、圖 2、3 改號（正＝學到）。Handler 2019 的位移正值＝吸引。[[s-vogt-2014-shared-visual-olfactory-circuits]] 的視覺與嗅覺都用「正＝偏向 CS+」，所以電擊實驗為負；這與 [[s-aso-2014-mbon-valence]] 的顏色記憶約定相同（兩篇是同一組人做的同一套裝置）。並列時要先對齊方向。
 3. **n 是「群」不是「隻」。** n（或 N）是樣本數，即一個平均值由幾個分數平均而來。Tully 1985 寫大寫 N，而且有兩種意思（PDF 第 266 頁）：報 Λ 時，1 個 N ＝ 1 次完整實驗 ＝ 兩群果蠅（一群電 OCT、一群電 MCH，各約 150 隻）的平均；報躲避百分比時，1 個 N ＝ 1 群約 150 隻。所以同樣「N ＝ 8」，前者用了 16 群、後者 8 群。P.I. 是一群果蠅算出一個數（Felsenberg 2017 每群 50–100 隻，Aso 2016 約 20 隻）；Tomchik 2009 的 n＝6 是 6 次 P.I.。Aso 2016 的 N 是一群還是一對互換群，PDF 沒說：？待查。
 4. **行為與生理常不是同一批果蠅。** Hige 2015 的 PI 與突觸記錄來自不同果蠅、不同光協定；Felsenberg 2018 的成像組在顯微鏡下訓練，與行為組不是同一批。
 5. **「降到 0」有兩種讀法。** 二選一的分數是兩個氣味記憶的差。Felsenberg 2017 再聞 CS− 後 PI 歸零，可能是忘了 CS+，也可能是對 CS− 也產生了偏好；該篇只在一個操作上改用新氣味對照來分辨（圖 2f）。Aso 2016 圖 3E 先訓練一組配對、再把配對反過來訓練；MB043C 第二次測驗的低分（約 0.1）同樣分不出「新記憶學不起來」與「舊記憶還在、與新記憶相抵」。
@@ -92,10 +99,12 @@ confidence: medium
 
 14. **「殘存幾成」這種比例是本庫算的，不是論文報的。** [[s-kaldun-2025-dop1r2-memory-phases]] 的殘存比例（剔除組 LI ÷ 三組親代對照 LI 的算術平均）與 [[s-burke-2012-octopamine-dopamine-reward]] 的「降約 74%」「降約 98%」都是來源頁從柱高推算的（※），論文只寫「顯著受損」。這類比例的分母是對照組的絕對值，而對照水準在不同批次之間本來就會擺盪（Kaldun 2025 的對照均值在 33.5 到 62.3 之間），所以跨篇比較「降了幾成」比比較「降了多少分」更不穩。
 
+15. **同一篇裡的兩個「學習指數」也可能不是同一個量（陷阱 1 的篇內版本）。** [[s-vogt-2014-shared-visual-olfactory-circuits]] 的圖 6 把視覺 LI（對照 −0.10）與嗅覺 LI（對照 −0.63）並排在同一張圖上，兩者用的是不同裝置（四象限顏色場地對 T 迷宮）、不同電擊（AC 60 V 對 DC 100 V），而且**兩個公式都沒有寫出來**。該篇所有跨模態的結論都建立在視覺側那個小刻度上的陰性結果。**看到並排的兩個面板時，先問「這兩根柱子是同一個刻度嗎」。** 另見陷阱 12（同一篇裡換裝置就換公式）。
+
 ## 相關
 
-- 主題：[[t-timing-rules]]、[[t-memory-updating]]
+- 主題：[[t-timing-rules]]、[[t-memory-updating]]、[[t-visual-learning-circuits]]
 - 概念：[[c-cs-us-timing]]、[[c-us-substitution]]、[[c-memory-extinction]]、[[c-odor-generalization]]
-- 實體：[[e-t-maze]]、[[e-olfactory-arena]]、[[e-cschrimson]]、[[e-shibire-ts]]
-- 來源：本頁的「庫內的用法」表共 16 列（一列一篇）；另見 [[s-tumkaya-2025-synthetic-memory-inception]] 的 ΔPI 與半 PI
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2014-mbon-valence]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-kaldun-2025-dop1r2-memory-phases]]
+- 實體：[[e-t-maze]]、[[e-olfactory-arena]]、[[e-color-conditioning-arena]]、[[e-cschrimson]]、[[e-shibire-ts]]、[[e-kir2-1]]
+- 來源：本頁的「庫內的用法」表共 18 列（一列一篇）；另見 [[s-tumkaya-2025-synthetic-memory-inception]] 的 ΔPI 與半 PI
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2014-mbon-valence]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-kaldun-2025-dop1r2-memory-phases]]、[[s-ofstad-2011-visual-place-learning]]、[[s-vogt-2014-shared-visual-olfactory-circuits]]

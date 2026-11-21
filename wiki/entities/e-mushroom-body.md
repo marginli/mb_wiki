@@ -1,7 +1,7 @@
 ---
 title: 蕈狀體（mushroom body）
 created: 2026-10-25
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [entity, active, mb-learning]
 confidence: high
 ---
@@ -56,6 +56,9 @@ MBON 與 DAN 都以所在區室命名，例如 MBON-γ1pedc（γ1pedc 區的輸�
 | [[s-dylla-2017-trace-conditioning-dan-plasticity]] | 九個區室的 DAN 與 KC：γ1–γ5、β′1、β′2、α1/α′1，加上作者自訂的 junction（各葉在根部的交會處） | 區室（目視圈出的 ROI）；共軛焦 20×、每秒 5 張 |
 | [[s-eschbach-2021-learned-innate-valence-integration]] | **幼蟲**蕈狀體的輸出端：24 型 MBON 與它們的全部下游；KC 只作為被整體活化或阻斷的對象 | 電顯重建 3.8 × 3.8 × 50 nm；功能量測以單一細胞型為單位 |
 | [[s-pribbenow-2022-postsynaptic-plasticity]] | 乙醯膽鹼受體次單元與 Dlg 在各區室的分布（熱圖 13 格）；M4/6 的樹突與軸突、α′3 區室 | 區室；受體影像體素 123 × 123 × 500 nm |
+| [[s-ofstad-2011-visual-place-learning]] | **不量蕈狀體，而是整個關掉它**：三條內在神經元 GAL4 品系（R9A11、R10B08、R67B04）加 [[e-ok107-gal4]] 以 [[e-kir2-1]] 靜音，另以羥基脲在幼蟲期化學剝除整個蕈狀體（補充圖 4，本庫未取得） | 無（全腦低倍 GFP 影像，圖 4a–c）；功能上只到「整個蕈狀體」這一層，沒有分葉、沒有分區室 |
+| [[s-vogt-2014-shared-visual-olfactory-circuits]] | 不量活性。以 [[e-shibire-ts]] 阻斷輸出的方式問「哪一條葉是**顏色**記憶所需」：α/β、α′/β′、γ 三條葉各有專一品系；另有 [[e-r58e02]]（PAM）與 [[e-mb504b]]（PPL1 四型）的表現樣式影像（圖 3A/B，比例尺 50 µm）與四條 split-GAL4 的部分投影（圖 7A，比例尺 100 µm） | **到「葉」為止，沒有分區室**；且圖 7A 為部分投影，無法用來評估蕈狀體外的表現 |
+| [[s-ganguly-2024-visual-inputs-to-kc]] | 不量活性。在 FlyWire 全腦連結體裡數蕈狀體**輸入端**的接線：視覺 Kenyon 細胞（KCγ-d、KCαβ-p）在背側與腹側副萼的樹突收到哪些上游、各幾個突觸 | 單一突觸（電顯重建）；只涵蓋萼部與副萼，不處理葉與區室 |
 
 ## 已知的問題
 
@@ -63,11 +66,12 @@ MBON 與 DAN 都以所在區室命名，例如 MBON-γ1pedc（γ1pedc 區的輸�
 - **Tomchik 2009 的空間解析度只到葉。** 它看到 cAMP 的協同（乙醯膽鹼與多巴胺一起給時，cAMP 上升比兩者分開給的總和還大）出現在葉部，但無法回答協同是否只出現在收到多巴胺的那一個區室（該來源頁「未來」一節）。
 - **幼蟲的蕈狀體不照成蟲的分法。** [[s-eschbach-2021-learned-innate-valence-integration]] 用的是萼、柄、側附區、垂直葉、垂直葉上段、內側葉這一套幼蟲區室，與成蟲 γ、α′/β′、α/β 三條葉的 15 格不對應；幼蟲 MBON 只有 24 型。引用幼蟲的結果時要註明是哪一套座標。
 - **光學顯微鏡層級的「相鄰」不等於相連。** [[s-aso-2014-mb-architecture]] 自陳它給的是 potential connections：兩條纖維落在同一塊 3.8 µm 立方體內就算共存，而 3.8 µm 比一個突觸大兩個數量級。
+- **「蕈狀體是嗅覺的」這個簡寫在庫內已經不成立，但程度有限。** [[s-vogt-2014-shared-visual-olfactory-circuits]] 顯示顏色記憶需要 γ 葉 KC 的輸出，[[s-ganguly-2024-visual-inputs-to-kc]] 在連結體裡找出視覺訊息進萼部的路；而 [[s-ofstad-2011-visual-place-learning]] 顯示視覺**位置**學習完全不需要蕈狀體，並以「果蠅的蕈狀體輸入以嗅覺為主」來解釋這一點。三者是否相容是本庫的待裁決矛盾 1.13（見 [[syn-contradictions]]）；在裁決之前，**不要把任何一篇的視覺結論推廣成「蕈狀體（不）做視覺學習」**。
 - ⚠️ **Handler 2019 方法中區室的近端／遠端標示自相矛盾**：同一段先說「近端的 γ2/γ3」，三行後又說「遠端（γ2/γ3）與近端（γ4/γ5）」（單篇不一致，見該來源頁 3.5 節）。近、遠是相對於什麼，原文也沒說；哪一組在近端，本頁不補。
 
 ## 相關
 
-- 細胞：[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-mbon]]
+- 細胞：[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-ellipsoid-body]]（庫內唯一一個「不經過蕈狀體的學習」的腦區）
 - 概念：[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-ex-vivo-explant]]
-- 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]
-- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-eschbach-2021-learned-innate-valence-integration]]、[[s-pribbenow-2022-postsynaptic-plasticity]]
+- 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]、[[t-visual-learning-circuits]]
+- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-eschbach-2021-learned-innate-valence-integration]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-ofstad-2011-visual-place-learning]]、[[s-vogt-2014-shared-visual-olfactory-circuits]]、[[s-ganguly-2024-visual-inputs-to-kc]]

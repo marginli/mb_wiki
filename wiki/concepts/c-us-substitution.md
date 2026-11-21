@@ -1,7 +1,7 @@
 ---
 title: 以人工活化取代非制約刺激（US substitution）
 created: 2026-10-25
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [concept, active, mb-learning]
 confidence: high
 ---
@@ -54,6 +54,8 @@ confidence: high
 
 > 參數見 [[numbers]]。
 
+| [[s-vogt-2014-shared-visual-olfactory-circuits]] | 熱遺傳：[[e-dtrpa1]]，31 °C 對 24 °C。果蠅在兩個塑膠管之間轉移，兩管各有一種顏色與一個溫度；CS 開始前 5 s 敲入對應管，兩次 CS 之間插 60 s 的 24 °C；4 回合後在 24 °C 測驗。被活化的是 PAM 群（[[e-r58e02]]）或 PPL1 四型（[[e-mb504b]]） | **首次以人工增強訊號造出視覺（顏色）記憶**：PAM 組 LI ≈ +0.12、PPL1 組 ≈ −0.085（n = 6–18），兩者都約為真糖／真電擊的六成（本庫計算）。※ 注意：**溫度與顏色身分在訓練期完全共變**，與 [[s-burke-2012-octopamine-dopamine-reward]] 的 dTrpA1 協定同一結構，靠只帶 GAL4／只帶 UAS 的對照分離，不是靠平衡設計 |
+
 ## 引用時的陷阱
 
 1. **人工 US 的時間尺度與真電擊不同，時間窗不能直接搬。** Tomchik 2009 的行為用真電擊 60 s，成像用秒級的藥物噴射；Hige 2015 生理用 1 ms 光脈衝，行為用 500 ms × 12 下；Handler 2019 少數真電擊實驗是 2 次 1 s、70 V，主實驗則是 1 s 光或約 0.6 s 的 ATP。以人工 US 量出的「幾秒內有效」不等於真實懲罰下的時間窗，見 [[c-cs-us-timing]]。
@@ -76,7 +78,7 @@ confidence: high
 
 ## 相關
 
-- 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]、[[t-mbon-dan-feedback]]
+- 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]、[[t-mbon-dan-feedback]]、[[t-visual-learning-circuits]]
 - 概念：[[c-cs-us-timing]]、[[c-performance-index]]、[[c-kc-mbon-plasticity]]
-- 實體：[[e-cschrimson]]、[[e-p2x2]]、[[e-dopaminergic-neuron]]、[[e-split-gal4]]、[[e-r58e02]]、[[e-mb099c]]、[[e-ppl1-gamma1pedc]]、[[e-shibire-ts]]、[[e-dtrpa1]]、[[e-olfactory-arena]]、[[e-t-maze]]
-- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-aso-2014-mbon-valence]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]、[[s-eschbach-2021-learned-innate-valence-integration]]
+- 實體：[[e-cschrimson]]、[[e-p2x2]]、[[e-dopaminergic-neuron]]、[[e-split-gal4]]、[[e-r58e02]]、[[e-mb099c]]、[[e-ppl1-gamma1pedc]]、[[e-shibire-ts]]、[[e-dtrpa1]]、[[e-olfactory-arena]]、[[e-t-maze]]、[[e-color-conditioning-arena]]、[[e-mb504b]]
+- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-tumkaya-2025-synthetic-memory-inception]]、[[s-aso-2014-mbon-valence]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]、[[s-eschbach-2021-learned-innate-valence-integration]]、[[s-vogt-2014-shared-visual-olfactory-circuits]]

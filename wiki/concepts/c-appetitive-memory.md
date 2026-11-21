@@ -1,7 +1,7 @@
 ---
 title: 獎賞記憶（appetitive memory）
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
@@ -45,6 +45,8 @@ confidence: medium
 
 > 參數見 [[numbers]]。
 
+| [[s-vogt-2014-shared-visual-olfactory-circuits]] | 把 CS 換成**顏色**（不是氣味），用同樣的 2 M 蔗糖獎賞；以 [[e-shibire-ts]] 阻斷、[[e-dtrpa1]] 活化，並測 DopR 突變與救援（[[e-dumb2]]） | 欲求**顏色**記憶需要 PAM 群（殘存約 44%）、KC 的 γ 葉（MB009B 殘存約 34%）、KC 中的 DopR；熱活化 PAM 足以造出它。章魚胺／酪胺神經元（TDC2）無影響——**但本篇用的是有熱量的蔗糖**，依 [[s-burke-2012-octopamine-dopamine-reward]] 章魚胺只傳遞甜味那一份，所以這個陰性結果不能推廣到無熱量的糖 |
+
 ## 引用時的陷阱
 
 1. **飢餓處理各篇不同，分數不宜並排。** 禁食時數：Burke 2012 為 18–20 小時；Felsenberg 2017 為 18–24 小時；Kaldun 2025 為 19–21 小時；Pribbenow 2022 為 20–24 小時；Aso 2016 方法寫 24–48 小時、圖 4 圖說寫 48 小時；Yamada 2023 為 40–48 小時。Ichinose 2015 與 Aso 2014b 改以死亡率為準：前者餓到測試時死亡 5–15%，後者約 10%（圖 7 圖說寫 28–40 小時）。Aso 2016 光活化 PAM 的實驗是否先餓過，PDF 沒有明說。
@@ -57,8 +59,8 @@ confidence: medium
 
 ## 相關
 
-- 主題：[[t-dopamine-to-plasticity]]、[[t-memory-updating]]、[[t-mbon-dan-feedback]]、[[t-mbon-to-action]]、[[t-timing-rules]]
+- 主題：[[t-dopamine-to-plasticity]]、[[t-memory-updating]]、[[t-mbon-dan-feedback]]、[[t-mbon-to-action]]、[[t-timing-rules]]、[[t-visual-learning-circuits]]
 - 概念：[[c-valence-coding]]、[[c-prediction-error]]、[[c-second-order-conditioning]]、[[c-us-substitution]]、[[c-octopamine-reward-signal]]、[[c-memory-extinction]]、[[c-memory-consolidation]]、[[c-performance-index]]、[[c-mb-compartment]]
-- 實體：[[e-pam-alpha1]]、[[e-mbon-alpha1]]、[[e-r58e02]]、`e-dtrpa1`、`e-tnt`、[[e-t-maze]]、[[e-olfactory-arena]]、[[e-dopamine-receptor]]
+- 實體：[[e-pam-alpha1]]、[[e-mbon-alpha1]]、[[e-r58e02]]、[[e-dtrpa1]]、[[e-tnt]]、[[e-t-maze]]、[[e-olfactory-arena]]、[[e-color-conditioning-arena]]、[[e-dopamine-receptor]]、[[e-dumb2]]
 - 綜述：[[syn-contradictions]]
 - 待開頁面：`e-pam-cluster`、`c-sweet-vs-nutrient`

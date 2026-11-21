@@ -1,7 +1,7 @@
 ---
 title: PPL1-γ1pedc 多巴胺神經元（PPL1-γ1pedc, MB-MP1）
 created: 2026-10-25
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [entity, active, cross-domain]
 confidence: medium
 ---
@@ -52,6 +52,7 @@ confidence: medium
 | [[s-felsenberg-2017-re-evaluation]] | c061-GAL4;MBGAL80 驅動 shi^ts1 阻斷；在體成像它對氣味的反應 | 單獨阻斷不影響糖獎賞記憶的消退（延伸圖 3c）；訓練後對 CS+、CS− 的反應與假訓練無差異（延伸圖 4f） |
 | [[s-dylla-2017-trace-conditioning-dan-plasticity]] | TH-GAL4 鈣成像 γ1 區的 DAN；痕跡制約（氣味與電擊之間隔一段空檔） | γ1 區混有 1–2 顆 PPL1-γ1pedc 與 1 顆 PPL1-γ1，**不是單一型的資料**。電擊反應強（約 0.87，同區 BUT 約 0.56，※ 從圖判讀）；訓練後對 CS 的反應比不配對組大 0.27（正規化 ΔF/F，整段訓練期 p < 0.001），且配對組自己也顯著升高 |
 | [[s-aso-2019-nitric-oxide-cotransmitter]] | VT045661-LexA（圖 6B、6C 與 TH 突變組）與 MB320C（圖 6D）驅動 CsChrimson，以紅光代替懲罰；在它裡面以 RNAi 壓低一氧化氮合成酶（NOS） | **它表現 NOS1（22 TPM，受檢細胞型中最高）**。TH 突變（不能合成多巴胺）背景下活化它造出正價性記憶（價性反轉），要 1×1 分鐘以上的訓練、10 分鐘才顯現；正常背景壓低 NOS：即時記憶不變，3 小時與 6 小時的負價性記憶顯著變強；10 次間隔訓練後出現原本沒有的一日記憶（圖 6E 的品系圖說未寫，見該頁） |
+| [[s-vogt-2014-shared-visual-olfactory-circuits]] | 不單獨操作。它是 [[e-mb504b]] 所含四型之一（本篇以舊名 MB-MP1 稱呼，是**本庫最早點名這四型的來源**） | 四型一起阻斷使嫌惡**顏色**記憶殘存約 21%；四型一起熱活化足以造出嫌惡顏色記憶。**本篇無法把效果歸給其中任一型**；[[s-aso-2014-mbon-valence]] 以 MBON 側補上這一格（嫌惡顏色記憶需要 MBON-γ1pedc） |
 | [[s-huang-2024-dopamine-memory-dynamics]] | 電壓成像量它在頭固定、腳踩小球的活果蠅上的單次放電；模型中的 Dγ1（短期記憶模組 γ1 的 DAN） | 自發約 20 次／s；單下電擊（20 V、0.2 s）時約 22 → 50 次／s、最高點約 60；吃糖約 17 → 13（皆 ※ 從圖判讀）；吸引氣味讓它放電下降；氣味加 5 下電擊約等於兩者分別給的相加（延伸圖 8d–g，14 隻）。6 回合訓練後 CS+ 對 CS− 的偏差全程不顯著——這一型自己沒有「學到」CS+ |
 
 數值見各來源頁與 [[numbers]]。Felsenberg 2018 只經由 MB504B（含這一型在內的四型 PPL1）阻斷，沒有單獨操作它，不列入表。
@@ -71,7 +72,7 @@ confidence: medium
 ## 相關
 
 - 同格輸出：[[e-mbon-gamma1pedc]]；同群其他型：[[e-ppl1-gamma2alpha1]]、[[e-ppl1-alpha2alpha2]]、[[e-ppl1-alpha3]]；細胞群：[[e-dopaminergic-neuron]]
-- 品系：[[e-split-gal4]]、[[e-mb504b]]、[[e-mb099c]]、[[e-th-gal4]]；工具：[[e-cschrimson]]、[[e-shibire-ts]]、`e-dtrpa1`、[[e-mcfo]]、[[e-grasp]]
+- 品系：[[e-split-gal4]]、[[e-mb504b]]、[[e-mb099c]]、[[e-th-gal4]]；工具：[[e-cschrimson]]、[[e-shibire-ts]]、[[e-dtrpa1]]、[[e-mcfo]]、[[e-grasp]]
 - 概念：[[c-cs-us-timing]]、[[c-kc-mbon-plasticity]]、[[c-us-substitution]]
 - 主題：[[t-timing-rules]]、[[t-memory-updating]]；矛盾：[[syn-contradictions]]
-- 來源：[[s-mao-2009-dopaminergic-neuron-types]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2017-re-evaluation]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-huang-2024-dopamine-memory-dynamics]]
+- 來源：[[s-mao-2009-dopaminergic-neuron-types]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2017-re-evaluation]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-vogt-2014-shared-visual-olfactory-circuits]]

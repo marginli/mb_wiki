@@ -1,7 +1,7 @@
 ---
 title: 蕈狀體區室（MB compartment）
 created: 2026-10-25
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [concept, active, mb-learning]
 confidence: high
 ---
@@ -74,9 +74,11 @@ confidence: high
 
 13. **區室交界處「突觸密度較低」只看過一種染色。** [[s-aso-2014-mb-architecture]] 的依據是 Bruchpilot 染色與樹突之間的空隙，**沒有量 KC 在交界處的突觸**；該篇自己把「是真的有物理屏障，還是只是兩型樹突的邊界」列為未答（該來源頁第六節）。它同時指出包鞘膠細胞只分隔三條葉、不分隔同一條葉的區室——所以「格」不是由膠細胞隔出來的。
 
+14. **「葉」與「區室」是兩個解析度，不能互換。** [[s-vogt-2014-shared-visual-olfactory-circuits]] 的全部結論停在**葉**（α/β、α′/β′、γ），而庫內多數來源做到**區室**（γ1pedc、γ4、α1…）。「γ 葉是顏色記憶所需」與「γ1pedc 是顏色記憶所需」不是同一句話；後者要靠 [[s-aso-2014-mbon-valence]] 的 MBON 側資料才能說。[[s-kaldun-2025-dop1r2-memory-phases]] 同樣只做到葉。**本頁不把 Vogt 2014 列進「庫內的用法」表**，因為它沒有用到區室這一層，不符合概念頁「實際使用」的門檻。
+
 ## 相關
 
-- 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]、[[t-mbon-dan-feedback]]、[[t-memory-updating]]
+- 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]、[[t-mbon-dan-feedback]]、[[t-memory-updating]]、[[t-visual-learning-circuits]]
 - 概念：[[c-kc-mbon-plasticity]]、[[c-camp-signaling]]、[[c-memory-consolidation]]
 - 實體：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-split-gal4]]、[[e-mb099c]]、[[e-p2x2]]、[[e-gcamp]]、[[e-th-gal4]]、[[e-mcfo]]
 - 綜述：[[syn-contradictions]]

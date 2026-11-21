@@ -1,7 +1,7 @@
 ---
 title: APL 神經元（anterior paired lateral neuron, MB-APL）
 created: 2026-11-13
-updated: 2026-11-16
+updated: 2026-11-21
 tags: [entity, active, cross-domain]
 confidence: medium
 ---
@@ -39,6 +39,7 @@ confidence: medium
 | [[s-aso-2019-nitric-oxide-cotransmitter]] | 手挑或 FACS 分選 APL 細胞做 RNA 定序，作為各型細胞表現譜的一部分 | 每重複 56 ± 18 顆；來源頁沒有記錄 APL 的個別表現結果：？待查 |
 | [[s-minnick-2026-untrained-connectome]] | 全連結體模擬中的一個元件；另做「沉默一顆 APL」的操作 | 兩顆都被自動預測為膽鹼性（興奮性），論文照此使用；沉默帶型別標註的那一顆，KC 活化比例 68% → 61%；一顆無標籤的 APL 經 62 個突觸驅動 MBON05 |
 | [[s-pribbenow-2022-postsynaptic-plasticity]] | [[e-hemibrain]] v1.2.1 分析：KC 每個釋放點的突觸後夥伴 | APL 是與 M4、M6、α′3 MBON 共用 KC 釋放點的對象之一（圖 10h） |
+| [[s-ganguly-2024-visual-inputs-to-kc]] | 在 FlyWire 中數 APL 對**視覺** Kenyon 細胞的突觸 | APL 平均對每顆 KCγ-d 做 **16 個（左）、10 個（右）**突觸，作者說「與對每顆 KCγ-m 的平均相當」。注意該篇把 APL 排除在「視覺輸入」的分母之外，所以它的那幾張比例圖不含 APL |
 
 Tomchik 2009 只在背景介紹提到「APL 學習後有記憶痕跡」（與 DPM、嗅葉等並列，引 Yu et al. 2003–2006、Wang et al. 2008、Liu & Davis 2009 一組文獻），Tomchik 2009 自己沒有量 APL，不列入表。
 
@@ -53,7 +54,7 @@ Tomchik 2009 只在背景介紹提到「APL 學習後有記憶痕跡」（與 DP
 ## 相關
 
 - 同類：[[e-dpm-neuron]]；蕈狀體：[[e-mushroom-body]]、[[e-kenyon-cell]]
-- 概念：[[c-sparse-coding]]
+- 概念：[[c-sparse-coding]]、[[c-neurotransmitter-prediction]]
 - 資料：[[e-hemibrain]]
-- 來源：[[s-aso-2014-mb-architecture]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-minnick-2026-untrained-connectome]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-tomchik-2009-camp-dynamics]]（只提及）
+- 來源：[[s-aso-2014-mb-architecture]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-minnick-2026-untrained-connectome]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-ganguly-2024-visual-inputs-to-kc]]、[[s-tomchik-2009-camp-dynamics]]（只提及）
 - 待開頁面：`e-banc`、`e-pa-gfp`、`c-connectome-model`

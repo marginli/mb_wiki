@@ -1,7 +1,7 @@
 ---
 title: 價值編碼（valence coding）
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
@@ -46,6 +46,8 @@ confidence: medium
 
 > 參數見 [[numbers]]。
 
+| [[s-vogt-2014-shared-visual-olfactory-circuits]] | 在**顏色**這個條件刺激上，把獎賞與懲罰的通路分開：阻斷與熱活化兩面各做一次 | PAM 群寫入正價值、PPL1 四型寫入負價值，與嗅覺的分工相同；而且兩者所需的 KC 子集「驚人地相似」（圖 7B 的 γ 葉對兩種價值都必要）。作者據此主張**同一群代表視覺訊息的 KC，其輸出被獎賞或懲罰以不同方向調製**——這是推論，本篇沒有量過任何突觸或 MBON |
+
 ## 引用時的陷阱
 
 1. **MBON 的價值是人工活化的行為效果，不是它對好氣味、壞氣味的自然反應。** Aso 2014b 與 Eschbach 2021 都這樣定義。Huang 2024 甚至量到 MBON 對五種氣味的反應幅度與價值無關。
@@ -59,7 +61,7 @@ confidence: medium
 
 ## 相關
 
-- 主題：[[t-innate-learned-integration]]、[[t-mbon-to-action]]、[[t-mbon-dan-feedback]]、[[t-memory-updating]]、[[t-timing-rules]]
+- 主題：[[t-innate-learned-integration]]、[[t-mbon-to-action]]、[[t-mbon-dan-feedback]]、[[t-memory-updating]]、[[t-timing-rules]]、[[t-visual-learning-circuits]]
 - 概念：[[c-appetitive-memory]]、[[c-prediction-error]]、[[c-kc-mbon-plasticity]]、[[c-mb-compartment]]、[[c-feedforward-inhibition]]、[[c-cs-us-timing]]
 - 實體：[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-mbon-gamma1pedc]]、[[e-mbon-gamma4]]、[[e-mbon-alpha1]]、[[e-mbon-alpha3]]、`e-vt1211`
 - 綜述：[[syn-contradictions]]

@@ -1,7 +1,7 @@
 ---
 title: T 迷宮（T-maze）
 created: 2026-10-25
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [entity, active, cross-domain]
 confidence: high
 ---
@@ -43,6 +43,8 @@ confidence: high
 | Burke 2012 | **獎賞**，糖分三種（蔗糖＝甜＋有熱量、阿拉伯糖＝甜無熱量、阿拉伯糖＋山梨醇）；人工增強則以 dTrpA1 升溫代替糖：氣味 A 在 23 °C 給 2 min → 換管 → 氣味 B 在 31 °C 給 2 min | 3-辛醇 9.2 µl 或 MCH 18 µl，各溶於 8 ml 礦物油 | 正文未寫：？待查 | 立即（3 min）、30 min、3 h、24 h | PI＝（選受訓氣味 − 選對照氣味）÷ 總數；一個 PI 是同基因型以兩種氣味各訓練一次的平均。走向 CS+ 為正 |
 | Aso 2014b | 嫌惡：CS+ 1 min 配 12 下 1.5 s、90 V 電擊，CS− 1 min 不配；獎賞：飢餓到約 10% 死亡率，糖紙配對。長期記憶另用 5 次間隔訓練（間隔 15 min），每次 12 下 1.5 s、60 V | OCT 1%、MCH 2%（石蠟油稀釋）；長期記憶 OCT 0.36 mM、MCH 0.325 mM | 約 50 隻 | 2 分鐘全程錄影，取最後 10 秒各時刻 PI 的平均；訓練後 2 h（長期記憶 24 h） | PI，嫌惡畫為負值（圖 6A 公式） |
 | Pribbenow 2022 | 嫌惡：CS+ 1 min 內給 12 下 1.5 s、**120 V** 電擊（刺激間隔 3.5 s）→ 空氣 45 s → CS− 1 min。獎賞：飢餓 20–24 h，CS− 2 min → 空氣 30 s → CS+ 配糖 2 min → 空氣 30 s | OCT、MCH（礦物油稀釋，嫌惡約 1:100、獎賞約 1:1000，濃度微調以避免氣味偏好） | 正文未寫：？待查 | 2 分鐘，在暗中；立即或 3 h | PI，公式引 Owald et al. 2015；嫌惡畫負值 |
+| Ofstad 2011 | **非條件刺激不是電擊**：給第一個氣味的同時，以 5 V、0.43 A 電流通過插在訓練管裡的絕緣電阻線網，把管子加熱到 **36 °C**。協定明寫依 Tully & Quinn 1985 改 | 5% MCH（流速 128 ml/min）與 5% OCT（流速 60 ml/min），石蠟油稀釋；總流速以加濕清潔空氣補到 800 ml/min | 約 200 隻 | 該頁未寫測驗時長：？待查 | 稱「嗅覺學習指數」，**公式未寫**（方法只寫「以兩組的學習指數平均」）：？待查 |
+| Vogt 2014 | 電擊 **DC 100 V**，12 下／60 s 氣味期；差別制約（一氣味配電、另一不配）；**訓練重複幾回合 PDF 未寫**：？待查 | 3-辛醇與**苯甲醛**（庫內多數來源用 OCT／MCH） | 未寫：？待查（同篇的視覺實驗是 30–40 隻／次） | 訓練後**立即**測條件化的氣味迴避 | 稱「學習指數」，**公式未寫**；圖 6B 的對照落在 −0.63 左右，正值＝偏向 CS+ |
 | Kaldun 2025 | 依 Tully & Quinn 設計、改成四組並行的機器。嫌惡：適應 90 s → CS+ 60 s 配 12 下 1.5 s、**100 V**（間隔 3.5 s）→ 空氣 30 s → CS− 60 s。獎賞：先餓 19–21 h，適應 90 s → 氣味 120 s（清水濾紙）→ 空氣 60 s → 氣味 120 s（1.5 M 蔗糖濾紙）。24 h 嫌惡改六循環、**90 V**、循環間隔 15 min，而且改用 Y 迷宮 | 3-辛醇與 MCH，石蠟油稀釋 1:100、260 µl、杯內徑 14 mm，氣流 7 l/min | 50–100 隻（一次實驗＝一個 LI） | 兩臂二選一 60 s；訓練後約 3 min（0 h）、2 h 或 24 h | LI＝兩次互換氣味制約的 PREF 平均，刻度 −100 到 +100；PREF＝(一臂隻數 − 另一臂隻數)×100÷總數，論文沒指明哪一臂當被減數 |
 
 與 Tully 1985 的差別一眼可見：Felsenberg 2018 只在計分公式引用 Tully 1985，電壓（90 V 對 60 V）、兩氣味之間的空白（45 s 對 30 s）、隻數（80–100 對約 150）、氣味給法（稀釋液對純液）都不同；Ichinose 2015 與 Felsenberg 2017 是糖獎賞版，CS− 先給的排法（Felsenberg 2017）也與 Tully 1985 相反。排法本身會影響分數：Tully 1985 圖 6 的電擊訓練中，把標準的「CS+ 在前」改成「CS+ 在後」，Λ 低 7%（※ 從圖判讀約 0.86 → 0.79；差異達統計顯著，P < 0.05）；糖獎賞是否同樣如此，庫內沒有資料。
@@ -65,22 +67,26 @@ confidence: high
 | [[s-aso-2014-mbon-valence]] | 逐型阻斷 MBON 後的 2 h 嫌惡與獎賞氣味記憶、24 h 長期記憶 | 嫌惡 2 h：23 條品系初篩 9 條有下降，以弱效應子複篩只剩 MB112C（MBON-γ1pedc>α/β）；獎賞 2 h 有 8 條；24 h 長期記憶只在測驗時阻斷，需要 V2 群（MB052B） |
 | [[s-pribbenow-2022-postsynaptic-plasticity]] | MBON 專一的受體 RNAi、訓練時阻斷 KC 之後的獎賞與嫌惡記憶 | 訓練時阻斷 KC：獎賞記憶消失（PI 約 0.28 → 約 −0.03），嫌惡記憶只略降且不顯著；在 M4/6 降低乙醯膽鹼受體 α5 損害立即獎賞記憶，降低 α1／α2／Dlg 損害 3 小時獎賞記憶，嫌惡記憶除 α7 外都不受影響 |
 | [[s-kaldun-2025-dop1r2-memory-phases]] | 把多巴胺受體 Dop1R2 從全蕈狀體或單條葉條件式剔除後，0／2／24 小時的學習指數（24 h 嫌惡改用 Y 迷宮） | 0 小時八格全部不顯著；2 與 24 小時在 α/β 與 α′/β′ 葉垮掉、γ 葉不受影響（見 [[e-dopamine-receptor]]） |
+| [[s-ofstad-2011-visual-place-learning]] | **跨作業的特異性對照**：檢查以 [[e-kir2-1]] 靜音蕈狀體或橢球體（[[e-ellipsoid-body]]）的果蠅還學不學得到氣味 | 三條蕈狀體品系的學習指數由對照的約 0.17 掉到約 0（三者皆顯著，P < 0.05），三條橢球體品系與對照無異（※ 從圖 4m 判讀，n ＝ 8，平均 ± s.d.）。**這一格是該篇雙重分離的另一半，也證明 Kir2.1 在那三條蕈狀體品系裡確實有效**。熱當 US 的天花板遠低於電擊——本庫 [[s-tully-1985-classical-conditioning]] 以電擊單次訓練可達 Λ ＝ 0.89 |
+| [[s-vogt-2014-shared-visual-olfactory-circuits]] | 只用來做**跨模態對照**：同三條 KC 品系在 T 迷宮的嫌惡氣味記憶，與在顏色場地（[[e-color-conditioning-arena]]）的嫌惡顏色記憶並排（圖 6） | 201y（α/β＋γ）兩種模態都受損（殘存 14%／6%）；[[e-c305a-gal4]]（α′/β′）只有氣味受損（22%）、顏色完全不受影響；17D（α/β）兩種都無影響。**兩個作業的基準 LI 差約 6 倍（−0.63 對 −0.10）**，而兩個學習指數的公式本篇都沒有寫 |
 
 Handler 2019 不用 T 迷宮，只在正文把它當成對照，說自己的小室能反覆訓練與測驗；它的裝置與指標見 [[c-performance-index]]。
 
 ## 已知的問題
 
-- **正負號約定不一致，跨篇並列前要先對齊。** Tully 1985：Λ 正值＝躲 CS+（全部躲開＝1）。Tomchik 2009：正值＝避開被電的氣味（1＝全部選對）。Felsenberg 2018：（CS+ − CS−）÷ 總數，**躲 CS+ 是負值**。Felsenberg 2017：正值＝偏向 CS+（糖獎賞）。Ichinose 2015：LI 正值＝選配糖的氣味，但換算公式沒寫。Burke 2012：正值＝走向配糖的氣味。Aso 2014b 與 Pribbenow 2022：嫌惡畫成負值。Kaldun 2025：LI 刻度 −100 到 +100、正值＝學得好，但公式只寫「一臂減另一臂」，沒指明哪一臂當被減數。寫出公式的是 Tully 1985 與 Felsenberg 2018，兩式方向相反（Felsenberg 2018 的值約等於 −Λ）；但兩篇的分母是否都含留在中央的果蠅不確定（Tully 1985 ※ 推論含；Felsenberg 2018 ？待查），見 [[c-performance-index]] 陷阱 7。
+- **正負號約定不一致，跨篇並列前要先對齊。** Tully 1985：Λ 正值＝躲 CS+（全部躲開＝1）。Tomchik 2009：正值＝避開被電的氣味（1＝全部選對）。Felsenberg 2018：（CS+ − CS−）÷ 總數，**躲 CS+ 是負值**。Felsenberg 2017：正值＝偏向 CS+（糖獎賞）。Ichinose 2015：LI 正值＝選配糖的氣味，但換算公式沒寫。Burke 2012：正值＝走向配糖的氣味。Aso 2014b 與 Pribbenow 2022：嫌惡畫成負值。Kaldun 2025：LI 刻度 −100 到 +100、正值＝學得好，但公式只寫「一臂減另一臂」，沒指明哪一臂當被減數。Ofstad 2011 與 Vogt 2014 **兩篇的公式都完全沒寫**（前者只寫「以兩組的學習指數平均」，後者只引 Tully & Quinn 1985 與 Schwaerzel et al. 2002）。寫出公式的是 Tully 1985 與 Felsenberg 2018，兩式方向相反（Felsenberg 2018 的值約等於 −Λ）；但兩篇的分母是否都含留在中央的果蠅不確定（Tully 1985 ※ 推論含；Felsenberg 2018 ？待查），見 [[c-performance-index]] 陷阱 7。
 - **分母要先對齊才能並排。** 2 分鐘內沒進臂、留在中央的果蠅（Tully 1985 每群通常 5–10 隻）算不算進分母，會讓同一組果蠅算出兩個分數；以全部果蠅為分母時這些果蠅等於 0 分，分數被往 0 壓。拿模擬或自製裝置的分數（常以已進臂隻數為分母）和 Tully 式的 Λ 並排前要先換成同一種算法，見 [[c-performance-index]] 陷阱 7。
 - **公式與上下限未寫的，只能做同篇內的相對比較**（Tomchik、Ichinose、Felsenberg 2017）。
 - **氣味互換取平均。** Tully 1985（OCT 為 CS+ 一組、MCH 為 CS+ 一組，兩組平均為一個 N）、Ichinose、Felsenberg 2017／2018 都讓兩種氣味輪流當 CS+，兩組平均成一個 n；Tomchik 的作法：？待查。
 - **測驗時點不同**：0–24 小時的保留曲線（Tully 1985）、3 分鐘、5 分鐘、60 分鐘、6 小時、24 小時都有，「記憶強弱」不能跨篇比。
 - 每群隻數與 n 的單位，Tomchik 2009 沒寫清楚（見 [[c-performance-index]] 陷阱 3）。
+- **US 不一定是電擊。** [[s-ofstad-2011-visual-place-learning]] 把管子加熱到 36 °C 當懲罰，而**熱的天花板遠低於電擊**：它的對照組學習指數只有約 0.17，而 [[s-tully-1985-classical-conditioning]] 以 60 V 電擊單次訓練就到 Λ ＝ 0.89。該篇用它只是為了與同一篇的熱—視覺競技場共用同一種懲罰，不是為了量記憶強度；**拿它的 0.17 去和別篇的 0.8 比大小是沒有意義的**。
+- **同一篇裡的 T 迷宮分數與另一種裝置的分數不是同一個刻度。** [[s-vogt-2014-shared-visual-olfactory-circuits]] 圖 6 把 T 迷宮的嗅覺 LI（對照約 −0.63）與四象限場地的視覺 LI（對照約 −0.10）並排，兩者用不同裝置、不同電擊（DC 100 V 對 AC 60 V），兩個公式都沒有寫出來。見 [[c-performance-index]]。
 - **不是所有行為來源都用 T 迷宮。** [[s-tumkaya-2025-synthetic-memory-inception]] 用的是線形通道（MOT 與 WALISAR），而且報的是訓練前後的差值（ΔPI）與半 PI；它的分數與本頁各篇的 PI／Λ 不能直接並排，見 [[c-performance-index]] 陷阱 8、9。
 
 ## 相關
 
 - 概念：[[c-performance-index]]、[[c-memory-extinction]]、[[c-memory-consolidation]]、[[c-cs-us-timing]]、[[c-odor-generalization]]
-- 工具：[[e-shibire-ts]]、[[e-olfactory-arena]]
-- 主題：[[t-timing-rules]]、[[t-memory-updating]]
-- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2014-mbon-valence]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-kaldun-2025-dop1r2-memory-phases]]
+- 工具：[[e-shibire-ts]]、[[e-olfactory-arena]]、[[e-color-conditioning-arena]]、[[e-kir2-1]]
+- 主題：[[t-timing-rules]]、[[t-memory-updating]]、[[t-visual-learning-circuits]]
+- 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2014-mbon-valence]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-kaldun-2025-dop1r2-memory-phases]]、[[s-ofstad-2011-visual-place-learning]]、[[s-vogt-2014-shared-visual-olfactory-circuits]]

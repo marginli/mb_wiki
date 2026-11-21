@@ -496,7 +496,7 @@ MBON-γ5β′2a 的放電與突觸電位分不開（補充圖 3-3），所以量
 - 與本庫其他來源的關係：[[s-ichinose-2015-reward-recurrent-circuit]]（MBON-α1 的另一條輸出與相反的正負號假設）、[[s-aso-2016-dan-cell-type-rules]]（區室規則、同一批品系與協定）、[[s-huang-2024-dopamine-memory-dynamics]]（同一種「MBON 反應變小 → 下游 DAN 改變」的圖案，懲罰側）、[[s-dylla-2017-trace-conditioning-dan-plasticity]]（預測 DAN 對 CS 的習得反應支援二階制約）、[[s-aso-2014-mbon-valence]]（MBON 的傳遞物質與行為方向）、[[s-aso-2023-upwind-neurons]]（SMP353/354 ＝ UpWiNs 的功能研究）、[[s-hige-2015-heterosynaptic-plasticity]]（電生理方法來源）
 - 空缺：[[syn-contradictions]] 3.6（本篇填上一半：配對後 MBON-α1 對該氣味的反應下降，但資料在未取得的補充圖，且用光活化而非真糖）
 - 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-tully-1985-classical-conditioning]]；新開的主題頁：[[t-mbon-to-action]]（MBON 學到的價值怎麼變成動作）
-- 待開頁面：[[c-second-order-conditioning]]（二階制約；本篇與 [[s-dylla-2017-trace-conditioning-dan-plasticity]] 都用到它，已達兩篇門檻）、`e-smp108`、`e-smp353-354`（UpWiNs）、`e-mb043c`、`e-mb196b`、`e-da2m`（多巴胺感測器）、[[e-hemibrain]]、`c-neurotransmitter-prediction`（由電顯影像預測傳遞物質）、`c-sensory-preconditioning`（感覺預制約）、`c-blocking`（阻斷效應）、`e-gr64f-gal4`、[[e-mbon-alpha1]]
+- 待開頁面：[[c-second-order-conditioning]]（二階制約；本篇與 [[s-dylla-2017-trace-conditioning-dan-plasticity]] 都用到它，已達兩篇門檻）、`e-smp108`、`e-smp353-354`（UpWiNs）、`e-mb043c`、`e-mb196b`、`e-da2m`（多巴胺感測器）、[[e-hemibrain]]、[[c-neurotransmitter-prediction]]（2026-11-21 已開頁；由電顯影像預測傳遞物質）、`c-sensory-preconditioning`（感覺預制約）、`c-blocking`（阻斷效應）、`e-gr64f-gal4`、[[e-mbon-alpha1]]
 
 ## 出處
 

@@ -471,7 +471,7 @@ CN-33 的品系 SS02108 每側標兩顆形態相似的神經元（CN-33 與 MB2O
 - 相關來源：[[s-aso-2014-mbon-valence]]（成蟲 MBON 價值與傳遞物質的通則、匯聚區的推測）、[[s-huang-2024-dopamine-memory-dynamics]]（成蟲：先天與習得價值在 DAN 上相加）、[[s-felsenberg-2018-memory-extinction]]（成蟲 MBON 之間的抑制）、[[s-hige-2015-heterosynaptic-plasticity]]（本篇引為 KC→MBON 壓低的依據）
 - 矛盾：無跨來源矛盾；與 Aso 2014 的「傳遞物質決定價值方向」在幼蟲不成立，屬發育階段不同，列為引用陷阱（見整合建議）
 - 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]；新開的主題頁：[[t-mbon-to-action]]（MBON 學到的價值怎麼變成動作）、[[t-innate-learned-integration]]（先天與習得價值在哪裡整合）
-- 待開頁面：`e-lateral-horn`（側角）、`c-convergence-neuron`（匯聚神經元）、[[c-valence-coding]]、[[c-feedforward-inhibition]]（MBON 之間的側向抑制）、[[e-catmaid]]、`e-kir2-1`、`e-gtacr2`、`e-larval-l1-connectome`（一齡幼蟲電顯資料）、`e-basin-neurons`、`c-larval-chemotaxis`（幼蟲以轉彎導航）、`c-reverse-correlation`
+- 待開頁面：`e-lateral-horn`（側角）、`c-convergence-neuron`（匯聚神經元）、[[c-valence-coding]]、[[c-feedforward-inhibition]]（MBON 之間的側向抑制）、[[e-catmaid]]、[[e-kir2-1]]（2026-11-21 已開頁）、`e-gtacr2`、`e-larval-l1-connectome`（一齡幼蟲電顯資料）、`e-basin-neurons`、`c-larval-chemotaxis`（幼蟲以轉彎導航）、`c-reverse-correlation`
 
 ## 出處
 

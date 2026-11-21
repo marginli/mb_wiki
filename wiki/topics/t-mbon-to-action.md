@@ -1,7 +1,7 @@
 ---
 title: 學到的價值怎麼變成動作：MBON 下游的讀出
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [topic, active, mb-memory-dynamics]
 confidence: medium
 ---
@@ -98,6 +98,8 @@ confidence: medium
 - **下游只找到一條。** 本頁各篇中，成蟲 MBON 下游與動作相接、並做過功能檢驗的細胞只有 UpWiN（截至 2026-11-13 的收錄範圍）；Aso 2023 引用的 Li 2020 連結體分析說，1550 顆 MBON 突觸後神經元中有 600 顆至少收到兩型 MBON 的輸入。這和前面說的「同時**大量**收兩型 MBON 是例外」並不衝突：Li 2020 只要求收得到兩型，不管多寡；Aso 2023 說的例外指的是兩型都給出很多突觸（如 SMP354 的 268 與 319 個）。這些細胞其餘的角色，庫內沒有資料。
 - **「麩胺酸 MBON 對下游是抑制」大多沒有直接量。** UpWiN 上 MBON-α1 的抑制是少數直接看到的例子；Yamada 2023 的 MBON-α1→SMP353/354 是推論。兩句看似牴觸，其實量的不是同一件事：Aso 2023 是在 UpWiN 這一群裡隨機挑細胞記錄（17 顆中 4 顆被抑制），沒有逐顆認出記錄到的是五型中的哪一型；Yamada 2023 要的是認型到 SMP353 與 SMP354 這兩型的作用方向，而該篇作者自己說沒有直接量過。
 - **電生理的果蠅狀態不明。** 光活化 UpWiN 讓果蠅迎風這件事，要餓 40–48 小時才明顯；電生理實驗沒寫果蠅是否飢餓。
+- **讀出的規則只在嗅覺上被測過。** [[s-vogt-2014-shared-visual-olfactory-circuits]] 顯示**顏色**記憶同樣需要 γ 葉 KC 的輸出（提取時尤其明確），[[s-aso-2014-mbon-valence]] 更把嫌惡顏色記憶的需求定位到 MBON-γ1pedc——與嫌惡氣味記憶同一型。但沒有人測過顏色記憶被叫出來之後走哪一條動作通路：[[s-aso-2023-upwind-neurons]] 的迎風讀數、本頁的全部行為資料，條件刺激一律是氣味。**「同一型 MBON 讀兩種模態」與「同一條動作通路表現兩種模態」是兩件事，目前只驗證了前者。**
+- **本庫到目前為止所有「學到的價值如何變成動作」都發生在蕈狀體的輸出端。** [[s-ofstad-2011-visual-place-learning]] 顯示至少有一種學習（視覺位置學習）完全不經過這條路，它的必要節點在橢球體的 R1 環（[[e-ellipsoid-body]]）——而**那條路的讀出機制本庫一篇都沒有**。那一篇沒有對 MBON 說任何話，所以不列進本頁的來源清單；它劃出的是本頁的適用邊界，詳見 [[t-visual-learning-circuits]]。
 ## 相關
 
 - [[s-aso-2014-mbon-valence]] — MBON 推動方向依傳遞物質分邊；相反方向大致相加；改的是選擇、不是動作
@@ -108,8 +110,9 @@ confidence: medium
 - [[s-tully-1985-classical-conditioning]] — T 迷宮的 Λ：只看終點分布的二選一計分
 - [[s-aso-2014-mb-architecture]] — MBON 末梢在葉外神經氈重疊的解剖
 - [[s-huang-2024-dopamine-memory-dynamics]] — MBON-α3 的長期可塑性，UpWiN 懲罰側的待測預測
-- 主題：[[t-innate-learned-integration]]（下游同時收先天訊號的問題）、[[t-mbon-dan-feedback]]（MBON 的另一個出口：回頭指揮 DAN）
-- 概念：[[c-performance-index]]、[[c-valence-coding]]、[[c-second-order-conditioning]]、[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]
-- 實體：[[e-mbon]]、[[e-mbon-alpha1]]、[[e-mbon-alpha3]]、[[e-mbon-gamma4]]、[[e-mbon-gamma5beta2a]]、[[e-mbon-gamma1pedc]]、[[e-hemibrain]]、`e-tnt`、[[e-cschrimson]]、[[e-split-gal4]]、[[e-r58e02]]、[[e-t-maze]]、[[e-olfactory-arena]]
+- [[s-vogt-2014-shared-visual-olfactory-circuits]] — 顏色記憶需要 γ 葉 KC 的輸出（提取時尤其明確）；本篇沒有 MBON 資料
+- 主題：[[t-innate-learned-integration]]（下游同時收先天訊號的問題）、[[t-mbon-dan-feedback]]（MBON 的另一個出口：回頭指揮 DAN）、[[t-visual-learning-circuits]]（蕈狀體以外的讀出，以及顏色記憶的動作通路空缺）
+- 概念：[[c-performance-index]]、[[c-valence-coding]]、[[c-second-order-conditioning]]、[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-acquisition-vs-retrieval]]
+- 實體：[[e-mbon]]、[[e-mbon-alpha1]]、[[e-mbon-alpha3]]、[[e-mbon-gamma4]]、[[e-mbon-gamma5beta2a]]、[[e-mbon-gamma1pedc]]、[[e-hemibrain]]、[[e-tnt]]、[[e-cschrimson]]、[[e-split-gal4]]、[[e-r58e02]]、[[e-t-maze]]、[[e-olfactory-arena]]、[[e-ellipsoid-body]]
 - 矛盾與空缺：[[syn-contradictions]]（1.5）
 - 待開頁面：`c-upwind-locomotion`、`e-smp353-354`、`e-smp108`、`e-mb310c`、`e-mb112c`、`c-convergence-neuron`

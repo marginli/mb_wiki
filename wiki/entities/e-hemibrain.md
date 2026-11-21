@@ -1,7 +1,7 @@
 ---
 title: hemibrain 連結體資料集（hemibrain）
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [entity, active, cross-domain]
 confidence: medium
 ---
@@ -20,7 +20,7 @@ confidence: medium
 
 ## 是什麼
 
-**hemibrain 是一份以電顯重建的成年果蠅半腦連結體（Scheffer et al. 2020），經 neuPrint 網站查詢。** 庫內五篇用它：兩篇模型拿它定接線或分區，三篇拿它找實驗中的細胞彼此怎麼接。它只涵蓋半邊中央腦（Minnick 2026 的說明），而且庫內兩篇（Aso 2023、Yamada 2023）只用右半腦，Yamada 2023 的理由是左半腦重建不完整。Aso 2014a 寫成時它還不存在，該篇來源頁只在限制中提到「要到 2020 年的 hemibrain 才能回答哪些重疊是真突觸」，沒有使用。
+**hemibrain 是一份以電顯重建的成年果蠅半腦連結體（Scheffer et al. 2020），經 neuPrint 網站查詢。** 庫內六篇用它：兩篇模型拿它定接線或分區，三篇拿它找實驗中的細胞彼此怎麼接，一篇**只拿它當第二隻腦的對照**。它只涵蓋半邊中央腦（Minnick 2026 的說明），而且庫內兩篇（Aso 2023、Yamada 2023）只用右半腦，Yamada 2023 的理由是左半腦重建不完整。Aso 2014a 寫成時它還不存在，該篇來源頁只在限制中提到「要到 2020 年的 hemibrain 才能回答哪些重疊是真突觸」，沒有使用。
 
 ## 版本與規模
 
@@ -31,6 +31,7 @@ confidence: medium
 | Yamada 2023 | 只給資料集 DOI 10.25378/janelia.12818645.v1，未寫版本號 | 右半腦；396 型中間神經元（與 MBON 及 DAN 合計至少 100 個突觸） |
 | Aso 2023 | 未寫（該頁標 ？待查） | 右半腦；與 UpWiN 任一顆有 ≥ 20 個連結的上下游 |
 | Minnick 2026 | 未寫 | 只用它的區室對應表；模擬本身跑的是另一份連結體 BANC |
+| Ganguly 2024 | 未寫版本號（該頁標 ？待查） | 只當**對照**資料集：把 FlyWire 左半腦的視覺投射神經元與局部視覺中間神經元轉到 JRC2018F 模板後，用 NBLAST 對 hemibrain 全庫比對（對到的是 hemibrain 右半腦） |
 
 整份資料集有多少神經元、多少突觸，庫內沒有任何來源頁寫出：？待查。各篇引用的數字見 [[numbers]]（Pribbenow 2022、Aso 2023、Yamada 2023、Minnick 2026 各節）。
 
@@ -43,6 +44,7 @@ confidence: medium
 | [[s-yamada-2023-second-order-conditioning]] | 右半腦查 MBON-α1 到 DAN 的兩跳路徑，配合傳遞物質預測；並以 hemibrain 的型別細胞總數當作品系涵蓋率的分母 | 主路 MBON-α1 →（SMP353／SMP354）→ SMP108 → 多型獎賞 DAN，兩層都是乙醯膽鹼性；品系標到的細胞數對 hemibrain 總數：α1 5／7、γ5＋β′2a 16／30、β1＋β2 12／22、γ4 11／23 |
 | [[s-aso-2023-upwind-neurons]] | 以 MCFO 單細胞影像（[[e-mcfo]]）比對 hemibrain 神經元，找出品系 SS33917 標到的細胞並查其上下游 | 對到 11 顆、5 型：SMP353（1）、SMP354（3）、SLP400（3）、SLP399（2）、SMP348（2）；MBON-α1 → SMP354 共 268 個突觸 |
 | [[s-minnick-2026-untrained-connectome]] | 借用 hemibrain 的區室圖，決定 BANC 模型中哪些 KC→MBON 連結可塑 | 可塑的是嫌惡區室的 8,377 條（MBON11–14、16–20、23、25、28、30、32–35，共 50 顆） |
+| [[s-ganguly-2024-visual-inputs-to-kc]] | 本庫**第一篇把 hemibrain 當對照、而非主資料集**的來源。主資料是 FlyWire 全腦；hemibrain 用來檢查「主要視覺輸入在第二隻腦裡是不是同一批」 | 66% 的 VPN／LVIN 找到 NBLAST > 0.5 的對應（⚠️ 此比例與該篇圖 7A 的直方圖對不上，見該頁問題與限制第 8 條）；兩份資料的突觸數「高度相關」但**論文沒給相關係數或 p 值**；hemibrain 的 KCγ-d 只有 99 顆，FlyWire 右半腦有 148 顆 |
 
 ## 已知的問題
 
@@ -51,13 +53,14 @@ confidence: medium
 - **拿 A 資料集的分區表標 B 資料集。** Minnick 2026 用 hemibrain 區室圖選 BANC 的可塑連結，兩者型別是否一一吻合，該篇沒有交代：？待查。
 - **接線不等於權重。** Huang 2024 只用 hemibrain 決定「接不接」，強弱全靠擬合；不能把該模型的權重讀成突觸數的結果。
 - **型別細胞數當分母要小心。** Yamada 2023 的「5／7」是本庫推論的讀法（※ 推論，見該頁）：品系標到 5 顆、hemibrain 該型共 7 顆。
-- **版本不一。** 五篇中只有兩篇寫明 v1.2.1；其餘三篇的突觸數無法確定與 v1.2.1 可比。
+- **沒有重建視葉，所以視覺輸入的身分查不出來。** [[s-ganguly-2024-visual-inputs-to-kc]] 的引言明說：先前用 hemibrain 做的分析能看出有視覺投射神經元伸進蕈狀體萼部，**但因為視葉沒有重建，那些神經元是誰無法確定**。這是該篇改用 FlyWire 全腦連結體的直接理由，也獨立支持本頁「只涵蓋半邊中央腦」的寫法。
+- **版本不一。** 六篇中只有兩篇寫明 v1.2.1；其餘四篇的突觸數無法確定與 v1.2.1 可比。
 
 ## 相關
 
 - 另一套連結體與工具：[[e-catmaid]]（FAFB 與幼蟲電顯的追蹤平台）、[[e-mcfo]]
 - 細胞：[[e-mbon-alpha1]]、[[e-mbon-gamma1pedc]]、[[e-kenyon-cell]]、[[e-apl-neuron]]、[[e-dpm-neuron]]
-- 概念：[[c-second-order-conditioning]]、[[c-sparse-coding]]
+- 概念：[[c-second-order-conditioning]]、[[c-sparse-coding]]、[[c-neurotransmitter-prediction]]
 - 主題：[[t-mbon-dan-feedback]]、[[t-mbon-to-action]]
-- 來源：[[s-huang-2024-dopamine-memory-dynamics]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-yamada-2023-second-order-conditioning]]、[[s-aso-2023-upwind-neurons]]、[[s-minnick-2026-untrained-connectome]]、[[s-aso-2014-mb-architecture]]（只提及）
-- 待開頁面：`e-banc`、`e-flywire`、`e-fafb`、`e-neuprint`、`c-neurotransmitter-prediction`
+- 來源：[[s-huang-2024-dopamine-memory-dynamics]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-yamada-2023-second-order-conditioning]]、[[s-aso-2023-upwind-neurons]]、[[s-minnick-2026-untrained-connectome]]、[[s-ganguly-2024-visual-inputs-to-kc]]（當對照資料集）、[[s-aso-2014-mb-architecture]]（只提及）
+- 待開頁面：`e-banc`、`e-flywire`、`e-fafb`、`e-neuprint`、[[c-neurotransmitter-prediction]]（2026-11-21 已開頁）

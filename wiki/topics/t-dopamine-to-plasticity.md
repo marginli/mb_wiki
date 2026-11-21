@@ -1,7 +1,7 @@
 ---
 title: 從多巴胺到突觸改變：KC 軸突怎麼讀出增強訊號
 created: 2026-10-25
-updated: 2026-11-19
+updated: 2026-11-21
 tags: [topic, active, mb-learning]
 confidence: medium
 ---
@@ -59,6 +59,8 @@ confidence: medium
 兩篇另有兩處說法相反。第一，單獨給多巴胺時的反應依不依賴 *rutabaga*：Tomchik 2009 量 cAMP，說不依賴；Gervasi 2010 量 PKA，說依賴。第二，章魚胺（octopamine，昆蟲腦中另一種調節物質，當時被認為傳遞獎賞，見 [[c-octopamine-reward-signal]]）與乙醯膽鹼一起給時：Tomchik 2009 看到 cAMP 比分開給的總和還少，Gervasi 2010 看到 PKA 是數倍的放大。Gervasi 2010 用感測器靈敏度與藥物濃度的差異來解釋，但都是推測，本庫列為等人裁決的矛盾（[[syn-contradictions]] 1.7、1.8）。兩篇的讀數相差一層（cAMP 對 PKA），PKA 對 cAMP 可能有門檻：cAMP 低於門檻時 PKA 幾乎不動，越過門檻後陡升。若是如此，cAMP 在門檻附近多一點點，PKA 就多很多；cAMP 的差異若都落在門檻以下，PKA 上就看不出來（※ 推論）。這可以解釋兩篇的倍數（約 1.5 倍對約 6 倍）為什麼不能直接比，但不足以解釋兩處方向相反的結論，所以那兩處仍列為待裁決。
 
 **把章魚胺泡在 KC 上，這個做法本身的前提後來被動搖了。** 兩篇用章魚胺，是因為昆蟲研究的傳統把它當成獎賞訊號。[[s-burke-2012-octopamine-dopamine-reward]] 把章魚胺與多巴胺的上下游關係理清楚：糖的「甜」這一份由章魚胺傳遞，但章魚胺不直接教 KC，而是推動獎賞型的 PAM 群多巴胺神經元，再由多巴胺把訊號送進蕈狀體。證據是雙向的：多巴胺受體壞掉的果蠅，人工活化章魚胺神經元學不起來；完全做不出章魚胺的突變果蠅，人工活化 PAM 照樣學得起來。作者找到的章魚胺受體也長在多巴胺神經元上，不在 KC 上：PAM 上的 OAMB（只在 PAM 裡壓低它，記憶就變差；把章魚胺倒在腦上，PAM 的鈣上升），以及懲罰型 PPL1-γ1pedc（舊名 MB-MP1）上的 Octβ2R。代價是兩邊都沒有排除：Burke 2012 根本沒有測 KC 上有沒有章魚胺受體，所以 Tomchik 2009 與 Gervasi 2010 量到的 KC 反應仍可能是真的；只是「把章魚胺加在 KC 上就等於給獎賞」這個前提，不能再照字面用（見 [[c-octopamine-reward-signal]]）。
+
+**這一整環的證據都是用氣味當條件刺激量出來的。** [[s-vogt-2014-shared-visual-olfactory-circuits]] 把條件刺激換成顏色之後，同一個環節仍然成立：DopR 失效的果蠅兩種顏色記憶都近乎零，而只在 KC 裡把 DopR 補回去就能救回來（圖 4D，見 [[e-dumb2]]）。**但它的解析度只到「蕈狀體」這一層**——救援用的 MB247-GAL4 標的是 KC 整體（[[e-mb247-gal4]]），該篇沒有量任何第二傳訊者，也沒有做時序操作。所以它支持的是「受體這一步與感覺模態無關」，不是「顏色記憶走的是 cAMP 那一條還是鈣那一條」。那一篇的救援還有一個本頁用得上的細節：嫌惡記憶回復到約 97%，欲求只回到約 58%，而論文一律寫成 restores both forms，也沒有檢定「救援 vs 野生型」。
 
 Gervasi 2010 對 1985 年的第一點（*dunce* 與 *rutabaga* 突變方向相反卻缺陷相似）給了一個新的說法：問題可能不在 cAMP 的**量**，而在它的**位置**。這一點放在第三環講。
 
@@ -220,9 +222,10 @@ Huang 2024 的模型進一步假設：KC 活動時，同格多巴胺神經元低
 - [[s-pribbenow-2022-postsynaptic-plasticity]]：MBON 上的乙醯膽鹼受體次單元是糖記憶與熟悉度記憶所必需，電擊記憶不需要；受體動態隨訓練改變；離體繞過 KC 只誘發約 6% 增強、方向與活體相反
 - [[s-yamada-2023-second-order-conditioning]]：教學訊號可來自別格已寫好的記憶；被改的仍是 KC→MBON（γ5β′2a 的活體記錄）
 - [[s-kaldun-2025-dop1r2-memory-phases]]：條件式剔除 DopR2（Dop1R2）：當場記憶不需要，2 與 24 小時需要 α/β、α′/β′ 類 KC 上的它，γ 類不需要；只有行為
+- [[s-vogt-2014-shared-visual-olfactory-circuits]]：把 DopR 的作用點定在 KC 上，條件刺激是顏色不是氣味；只到「葉」這一層，沒有第二傳訊者的資料
 - 概念：[[c-camp-signaling]]、[[c-coincidence-detection]]、[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-cs-us-timing]]、[[c-us-substitution]]、[[c-sparse-coding]]、[[c-ex-vivo-explant]]、[[c-memory-consolidation]]、[[c-memory-extinction]]、[[c-octopamine-reward-signal]]、[[c-second-order-conditioning]]、[[c-appetitive-memory]]、[[c-feedforward-inhibition]]
 - 實體：[[e-rutabaga]]、[[e-dunce]]、[[e-238y-gal4]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-mushroom-body]]、[[e-epac-camp-sensor]]、[[e-gcamp]]、[[e-dopamine-receptor]]、[[e-p2x2]]、[[e-r58e02]]、[[e-t-maze]]、[[e-th-gal4]]、[[e-ppl1-gamma1pedc]]、[[e-mbon-gamma5beta2a]]
-- 其他主題：[[t-timing-rules]]、[[t-mbon-dan-feedback]]、[[t-memory-updating]]
+- 其他主題：[[t-timing-rules]]、[[t-mbon-dan-feedback]]、[[t-memory-updating]]、[[t-visual-learning-circuits]]
 - 矛盾與空缺：[[syn-contradictions]]
 - 待開頁面：`e-sytgcamp`
 - 其他相關參考頁：[[c-odor-generalization]]、[[c-presynaptic-calcium]]、[[c-whole-cell-patch-clamp]]、[[e-mbon-gamma1pedc]]、[[e-mbon-gamma4]]

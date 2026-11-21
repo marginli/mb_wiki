@@ -1,7 +1,7 @@
 ---
 title: 先後與間隔：氣味和多巴胺的時序如何決定學到什麼
 created: 2026-10-25
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [topic, active, mb-learning]
 confidence: medium
 ---
@@ -205,8 +205,9 @@ Handler 2019 給了一個分子層級的答案：KC 軸突上有兩種多巴胺�
 - [[s-mao-2009-dopaminergic-neuron-types]]：比較順向與逆向配對後 PPL1 末梢的氣味鈣反應，沒有看到順向專屬的改變；逆向組的電擊與氣味重疊，與 Tomchik 2009 同型
 - [[s-aso-2019-nitric-oxide-cotransmitter]]：關掉 NOS 不影響時序依賴的價性反轉，把方向的翻轉留給多巴胺受體；但它改變記得多久
 - [[s-kaldun-2025-dop1r2-memory-phases]]：Handler 2019 的 DopR2 即 Kaldun 2025 的 Dop1R2；切掉它不影響剛訓練完的記憶，2 與 24 小時才垮，而且只在 α/β 與 α′/β′ 葉
+- [[s-vogt-2014-shared-visual-olfactory-circuits]]：只切「訓練 vs 測驗」兩段，沒有 CS–US 時間差；在這條線上是解析度最低的一篇（時段拆分見 [[c-acquisition-vs-retrieval]]）
 - 概念：[[c-cs-us-timing]]、[[c-coincidence-detection]]、[[c-kc-mbon-plasticity]]、[[c-us-substitution]]、[[c-performance-index]]、[[c-mb-compartment]]、[[c-camp-signaling]]、[[c-ex-vivo-explant]]、[[c-memory-consolidation]]
 - 實體：[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-kenyon-cell]]、[[e-mushroom-body]]、[[e-epac-camp-sensor]]、[[e-cschrimson]]、[[e-split-gal4]]、[[e-p2x2]]、[[e-r58e02]]、[[e-mb504b]]、[[e-dopamine-receptor]]、[[e-t-maze]]、[[e-shibire-ts]]、[[e-rutabaga]]、[[e-th-gal4]]、[[e-gcamp]]、[[e-ok107-gal4]]
-- 同一批論文的另一條主題：[[t-dopamine-to-plasticity]]
+- 同一批論文的另一條主題：[[t-dopamine-to-plasticity]]、[[t-visual-learning-circuits]]
 - 矛盾與空缺：[[syn-contradictions]]（1.1、1.2、1.3、1.9、1.10、3.3、3.7）
 - 其他相關參考頁：[[e-olfactory-arena]]、[[e-mbon-gamma4]]、[[e-ppl1-gamma1pedc]]、[[e-ppl1-alpha2alpha2]]、[[e-ppl1-alpha3]]

@@ -36,6 +36,9 @@
 - [t-mbon-dan-feedback](wiki/topics/t-mbon-dan-feedback.md)：輸出神經元回頭指揮多巴胺神經元：MBON→DAN 回饋迴路
 - [t-memory-updating](wiki/topics/t-memory-updating.md)：記憶怎麼被改寫：消退、再鞏固與新舊記憶並存
 - [t-timing-rules](wiki/topics/t-timing-rules.md)：先後與間隔：氣味和多巴胺的時序如何決定學到什麼
+- [t-innate-learned-integration](wiki/topics/t-innate-learned-integration.md)：先天與習得的價值在哪裡整合
+- [t-mbon-to-action](wiki/topics/t-mbon-to-action.md)：學到的價值怎麼變成動作：MBON 下游的讀出
+- [t-visual-learning-circuits](wiki/topics/t-visual-learning-circuits.md)：果蠅用哪一塊腦記住看到的東西
 
 **來源（論文，依發表年）**
 - [s-tully-1985-classical-conditioning](wiki/sources/s-tully-1985-classical-conditioning.md)：Tully & Quinn 1985, *J Comp Physiol A*
@@ -47,6 +50,24 @@
 - [s-felsenberg-2017-re-evaluation](wiki/sources/s-felsenberg-2017-re-evaluation.md)：Felsenberg et al. 2017, *Nature*
 - [s-felsenberg-2018-memory-extinction](wiki/sources/s-felsenberg-2018-memory-extinction.md)：Felsenberg et al. 2018, *Cell*
 - [s-handler-2019-dopamine-receptor-timing](wiki/sources/s-handler-2019-dopamine-receptor-timing.md)：Handler et al. 2019, *Cell*
+- [s-mao-2009-dopaminergic-neuron-types](wiki/sources/s-mao-2009-dopaminergic-neuron-types.md)：Mao 2009, *Front. Neural Circuits*
+- [s-gervasi-2010-pka-dynamics](wiki/sources/s-gervasi-2010-pka-dynamics.md)：Gervasi 2010, *Neuron*
+- [s-ofstad-2011-visual-place-learning](wiki/sources/s-ofstad-2011-visual-place-learning.md)：Ofstad, Zuker & Reiser 2011, *Nature*
+- [s-burke-2012-octopamine-dopamine-reward](wiki/sources/s-burke-2012-octopamine-dopamine-reward.md)：Burke 2012, *Nature*
+- [s-aso-2014-mb-architecture](wiki/sources/s-aso-2014-mb-architecture.md)：Aso 2014, *eLife*
+- [s-aso-2014-mbon-valence](wiki/sources/s-aso-2014-mbon-valence.md)：Aso 2014, *eLife*
+- [s-vogt-2014-shared-visual-olfactory-circuits](wiki/sources/s-vogt-2014-shared-visual-olfactory-circuits.md)：Vogt et al. 2014, *eLife*
+- [s-dylla-2017-trace-conditioning-dan-plasticity](wiki/sources/s-dylla-2017-trace-conditioning-dan-plasticity.md)：Dylla 2017, *Front Neural Circuits*
+- [s-aso-2019-nitric-oxide-cotransmitter](wiki/sources/s-aso-2019-nitric-oxide-cotransmitter.md)：Aso 2019, *eLife*
+- [s-eschbach-2021-learned-innate-valence-integration](wiki/sources/s-eschbach-2021-learned-innate-valence-integration.md)：Eschbach 2021, *eLife*
+- [s-pribbenow-2022-postsynaptic-plasticity](wiki/sources/s-pribbenow-2022-postsynaptic-plasticity.md)：Pribbenow 2022, *eLife*
+- [s-aso-2023-upwind-neurons](wiki/sources/s-aso-2023-upwind-neurons.md)：Aso 2023, *eLife*
+- [s-yamada-2023-second-order-conditioning](wiki/sources/s-yamada-2023-second-order-conditioning.md)：Yamada 2023, *eLife*
+- [s-ganguly-2024-visual-inputs-to-kc](wiki/sources/s-ganguly-2024-visual-inputs-to-kc.md)：Ganguly, Heckman et al. 2024, *Nature Communications*
+- [s-huang-2024-dopamine-memory-dynamics](wiki/sources/s-huang-2024-dopamine-memory-dynamics.md)：Huang 2024, *Nature*
+- [s-kaldun-2025-dop1r2-memory-phases](wiki/sources/s-kaldun-2025-dop1r2-memory-phases.md)：Kaldun 2025, *eLife*
+- [s-tumkaya-2025-synthetic-memory-inception](wiki/sources/s-tumkaya-2025-synthetic-memory-inception.md)：Tumkaya 2025, *iScience*
+- [s-minnick-2026-untrained-connectome](wiki/sources/s-minnick-2026-untrained-connectome.md)：Minnick 2026, *arXiv:*
 
 **概念**
 - [c-camp-signaling](wiki/concepts/c-camp-signaling.md)：cAMP 訊號（cAMP signaling）
@@ -63,6 +84,16 @@
 - [c-spaced-training](wiki/concepts/c-spaced-training.md)：間隔與集中訓練（spaced and massed training）
 - [c-us-substitution](wiki/concepts/c-us-substitution.md)：以人工活化取代非制約刺激（US substitution）
 - [c-whole-cell-patch-clamp](wiki/concepts/c-whole-cell-patch-clamp.md)：全細胞膜片鉗記錄（whole-cell patch clamp）
+- [c-acquisition-vs-retrieval](wiki/concepts/c-acquisition-vs-retrieval.md)：獲得與提取的時段拆分（acquisition vs retrieval）
+- [c-appetitive-memory](wiki/concepts/c-appetitive-memory.md)：獎賞記憶（appetitive memory）
+- [c-feedforward-inhibition](wiki/concepts/c-feedforward-inhibition.md)：前饋抑制（feedforward inhibition）與 MBON 之間的抑制
+- [c-neurotransmitter-prediction](wiki/concepts/c-neurotransmitter-prediction.md)：傳遞物質預測（neurotransmitter prediction）
+- [c-nonassociative-learning](wiki/concepts/c-nonassociative-learning.md)：非聯結式學習（nonassociative learning）與不配對對照
+- [c-octopamine-reward-signal](wiki/concepts/c-octopamine-reward-signal.md)：章魚胺訊號與獎賞假說（octopamine reward signal）
+- [c-prediction-error](wiki/concepts/c-prediction-error.md)：預測誤差（prediction error）
+- [c-second-order-conditioning](wiki/concepts/c-second-order-conditioning.md)：二階制約（second-order conditioning）
+- [c-sparse-coding](wiki/concepts/c-sparse-coding.md)：稀疏編碼（sparse coding）
+- [c-valence-coding](wiki/concepts/c-valence-coding.md)：價值編碼（valence coding）
 
 **實體**
 - [e-c739-gal4](wiki/entities/e-c739-gal4.md)：c739-GAL4 驅動品系（c739-GAL4）
@@ -91,6 +122,32 @@
 - [e-split-gal4](wiki/entities/e-split-gal4.md)：split-GAL4 驅動品系（split-GAL4 driver lines）
 - [e-t-maze](wiki/entities/e-t-maze.md)：T 迷宮（T-maze）
 - [e-th-gal4](wiki/entities/e-th-gal4.md)：TH-GAL4 與 TH＋DDC 驅動（TH-GAL4 and TH/DDC drivers）
+- [e-238y-gal4](wiki/entities/e-238y-gal4.md)：238Y-GAL4 驅動品系（238Y-GAL4）
+- [e-apl-neuron](wiki/entities/e-apl-neuron.md)：APL 神經元（anterior paired lateral neuron, MB-APL）
+- [e-c305a-gal4](wiki/entities/e-c305a-gal4.md)：c305a-GAL4 驅動品系（c305a-GAL4）
+- [e-catmaid](wiki/entities/e-catmaid.md)：CATMAID 電顯追蹤平台（CATMAID）
+- [e-color-conditioning-arena](wiki/entities/e-color-conditioning-arena.md)：四象限顏色制約場地（colour conditioning arena）
+- [e-dpm-neuron](wiki/entities/e-dpm-neuron.md)：DPM 神經元（dorsal paired medial neuron, MB-DPM）
+- [e-dtrpa1](wiki/entities/e-dtrpa1.md)：熱活化通道（dTrpA1）
+- [e-dumb2](wiki/entities/e-dumb2.md)：dumb² 等位基因（*dumb²*）
+- [e-dunce](wiki/entities/e-dunce.md)：dunce 基因（dunce, dnc）
+- [e-ellipsoid-body](wiki/entities/e-ellipsoid-body.md)：橢球體（ellipsoid body, EB）
+- [e-gal80ts](wiki/entities/e-gal80ts.md)：溫度開關型 GAL4 抑制蛋白（Gal80<sup>ts</sup>）
+- [e-grasp](wiki/entities/e-grasp.md)：跨突觸夥伴 GFP 重組（GFP Reconstitution Across Synaptic Partners, GRASP）
+- [e-hemibrain](wiki/entities/e-hemibrain.md)：hemibrain 連結體資料集（hemibrain）
+- [e-kir2-1](wiki/entities/e-kir2-1.md)：Kir2.1 內向整流鉀通道（Kir2.1）
+- [e-mb008b](wiki/entities/e-mb008b.md)：MB008B split-GAL4 品系（MB008B）
+- [e-mb247-gal4](wiki/entities/e-mb247-gal4.md)：MB247-GAL4 驅動品系（MB247-GAL4）
+- [e-mbon-alpha1](wiki/entities/e-mbon-alpha1.md)：MBON-α1（α1 輸出神經元）
+- [e-mbon-alpha2sc](wiki/entities/e-mbon-alpha2sc.md)：MBON-α2sc（α2sc 輸出神經元）
+- [e-mbon-alpha3](wiki/entities/e-mbon-alpha3.md)：MBON-α3（α3 輸出神經元）
+- [e-mcfo](wiki/entities/e-mcfo.md)：多色隨機單細胞標記（MultiColor FlpOut, MCFO）
+- [e-ok107-gal4](wiki/entities/e-ok107-gal4.md)：OK107-GAL4 驅動品系（OK107-GAL4）
+- [e-ppl1-alpha2alpha2](wiki/entities/e-ppl1-alpha2alpha2.md)：PPL1-α′2α2 多巴胺神經元（PPL1-α′2α2, MB-V1）
+- [e-ppl1-alpha3](wiki/entities/e-ppl1-alpha3.md)：PPL1-α3 多巴胺神經元（PPL1-α3）
+- [e-ppl1-alpha3prime](wiki/entities/e-ppl1-alpha3prime.md)：PPL1-α′3 多巴胺神經元（PPL1-α′3）
+- [e-tnt](wiki/entities/e-tnt.md)：破傷風毒素輕鏈（TNT / TeNT / TnT / TNTe）
+- [e-vt1211](wiki/entities/e-vt1211.md)：VT1211 驅動品系（VT1211-GAL4／-LexA）
 
 **綜述與登記簿**
 - [syn-contradictions](wiki/synthesis/syn-contradictions.md)：矛盾、空缺與本庫的不確定性

@@ -1,7 +1,7 @@
 ---
 title: 熱活化通道（dTrpA1）
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [entity, active, cross-domain]
 confidence: medium
 ---
@@ -32,6 +32,7 @@ confidence: medium
 | Aso 2014b（睡眠） | 28.5 °C | 21.5 °C | 第 4–5 天連續 2 天 | 初篩 10X UAS-dTrpA1（attP16），複篩 pJFRC124-20XUAS-IVS-dTrpA1（attP18） |
 | Aso 2014b（取代電擊） | 該頁未寫：？待查 | — | 訓練時 | 同上 |
 | Ichinose 2015 | 30 °C | 24 °C | 聞氣味的 1 分鐘 | UAS-dTrpA1 |
+| Vogt 2014 | 31 °C | 24 °C | 一回合中配對的那一個顏色呈現期間（60 s），兩次 CS 之間插 60 s 的 24 °C 間隔；重複 4 回合；測驗在 24 °C | UAS-dTrpA1（Hamada et al., 2008） |
 
 ## 庫內誰用了它
 
@@ -40,13 +41,14 @@ confidence: medium
 | [[s-burke-2012-octopamine-dopamine-reward]] | 章魚胺神經元（Tdc2-GAL4、Tdc2-LexA） | 不給糖也植入了欲求記憶，**而且果蠅是飽足的**：立即（3 分鐘）記憶顯著高於全部其他組（p < 0.001，n ≥ 14），30 分鐘仍顯著（p < 0.05）。在 *dumb¹*（DopR 突變）或 *oamb* 突變背景中植入不成，所以章魚胺的增強走多巴胺的下游（見 [[c-us-substitution]]） |
 | [[s-aso-2014-mbon-valence]] | PPL1-γ1pedc（MB438B）取代電擊 | 3 分鐘記憶約 −0.53（對照約 0）。MB438B 依該篇表 2 也弱標 PPL1-α2α′2，效果可能部分來自這型 DAN |
 | [[s-aso-2014-mbon-valence]] | 各型 MBON 連續活化兩天，量睡眠 | 初篩 12 條陽性（5 條減少睡眠、7 條增加）；換插入位置複篩，圖 12D 的 8 條都重現。減少的約 −20% 到 −30%、增加的約 +23% 到 +28%，對照約 +5%（※ 從圖判讀）。促醒的大致是「走開」那群（麩胺酸），促眠的大致是「靠近」那群 |
+| [[s-vogt-2014-shared-visual-olfactory-circuits]] | PAM 群（[[e-r58e02]]）、PPL1 四型（[[e-mb504b]]） | 以熱取代糖或電擊，造出**顏色**記憶：PAM 組 LI ≈ +0.12（兩對照 −0.02、−0.01），PPL1 組 ≈ −0.085（+0.02、−0.02），n = 6–18。兩者都約為真增強訊號的六成（本庫計算）。**溫度與顏色在訓練期完全共變**，靠只帶 GAL4／只帶 UAS 的對照分離 |
 | [[s-ichinose-2015-reward-recurrent-circuit]] | MBON-α1（MB310C） | 不給糖，只在聞氣味那 1 分鐘活化 MBON-α1，隔天仍偏好該氣味。作者據此說 MBON-α1 的活動本身足以觸發長期記憶，並推論它是經由迴圈帶動 PAM-α1（見 [[t-mbon-dan-feedback]]） |
 
 數值見 [[numbers]]。
 
 ## 已知的問題
 
-- **溫度與氣味身分共變。** [[s-burke-2012-octopamine-dopamine-reward]] 的協定是「氣味 A 在 23 °C、氣味 B 在 31 °C」，所以「果蠅學到氣味 B 配好事」與「果蠅學到氣味 B 配溫度變化」在設計上分不開。該篇做了允許溫度對照（圖 1c），但共變本身沒有解掉。
+- **溫度與刺激身分共變，而這是本工具的結構性問題，不只某一篇的疏失。** [[s-burke-2012-octopamine-dopamine-reward]] 的協定是「氣味 A 在 23 °C、氣味 B 在 31 °C」，[[s-vogt-2014-shared-visual-olfactory-circuits]] 是「配對的那個顏色在 31 °C、另一個在 24 °C」——兩篇的結構相同，「果蠅學到 B 配好事」與「果蠅學到 B 配溫度變化」在設計上都分不開。兩篇都靠「只帶 GAL4」「只帶 UAS」的對照分離，不是靠平衡設計；Burke 2012 另做了允許溫度對照（圖 1c）。
 - **升溫本身改變果蠅的整體狀態。** 這對行為讀數與睡眠讀數都成立；Aso 2014b 的睡眠實驗連續兩天 28.5 °C。
 - **「足以」不等於「正常情況下就是這樣做的」。** 人工活化整群細胞的強度與樣式和自然活動不同。[[s-ichinose-2015-reward-recurrent-circuit]] 的結論「MBON-α1 足以觸發 LTM」只說明充分性，迴圈那一段是推論。
 - **各篇的溫度與時長都不同**（28.5、30、31 °C；1 分鐘到 2 天），所以跨篇比較活化強度沒有共同的刻度。
@@ -56,9 +58,9 @@ confidence: medium
 
 ## 相關
 
-- 工具：[[e-shibire-ts]]（相反方向的操作）、[[e-cschrimson]]、[[e-p2x2]]、[[e-split-gal4]]、[[e-t-maze]]
+- 工具：[[e-shibire-ts]]（相反方向的操作）、[[e-cschrimson]]、[[e-p2x2]]、[[e-split-gal4]]、[[e-t-maze]]、[[e-color-conditioning-arena]]
 - 細胞：[[e-mbon-alpha1]]、[[e-ppl1-gamma1pedc]]、[[e-pam-alpha1]]、[[e-dopaminergic-neuron]]
 - 概念：[[c-us-substitution]]、[[c-octopamine-reward-signal]]、[[c-appetitive-memory]]、[[c-valence-coding]]
-- 主題：[[t-mbon-dan-feedback]]、[[t-mbon-to-action]]
-- 來源：[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2014-mbon-valence]]、[[s-ichinose-2015-reward-recurrent-circuit]]
+- 主題：[[t-mbon-dan-feedback]]、[[t-mbon-to-action]]、[[t-visual-learning-circuits]]
+- 來源：[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2014-mbon-valence]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-vogt-2014-shared-visual-olfactory-circuits]]
 - 待開頁面：`e-tdc2-gal4`、`e-mb310c`、`e-mb438b`、`c-sleep-regulation`

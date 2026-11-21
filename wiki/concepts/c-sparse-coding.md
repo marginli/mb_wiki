@@ -1,7 +1,7 @@
 ---
 title: 稀疏編碼（sparse coding）
 created: 2026-11-12
-updated: 2026-11-16
+updated: 2026-11-21
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
@@ -32,12 +32,22 @@ confidence: medium
 
 **真果蠅的參考範圍**：Minnick 2026 引用三篇文獻，說一種氣味讓 5% 到 10% 的 KC 反應，並在圖上以「果蠅的範圍 0.03 到 0.15」標出。Hige 2015 本庫推算的 12–13% 落在這個範圍的上緣。
 
+**還有第三種「稀疏」，而它與上面兩個都不是同一個量：解剖層的稀疏。** 上面兩種算的都是「一次刺激下有多少比例的 KC 在放電」（**活動層**）。[[s-ganguly-2024-visual-inputs-to-kc]] 數的是「一顆 KC 接了幾顆上游」（**解剖層**）：
+
+| 來源 | 量的是什麼 | 怎麼算 |
+|---|---|---|
+| Ganguly 2024 | 每顆視覺 Kenyon 細胞（KCγ-d）收到幾個**不重複**的視覺輸入 | 在 FlyWire 連結體裡逐顆數突觸前夥伴（門檻 ≥ 5 突觸），得 **1–7 個、中位數 3**（嗅覺 KC 為 5–6） |
+
+**兩層不可並排，也不能互相推論。** 接得少不保證放電得少（還要看每個突觸多強、有多少抑制回饋）；放電得少也不保證接得少。本庫目前沒有任何一篇同時量過這兩者（見下方陷阱 7 與 [[syn-contradictions]]）。
+
 ## 庫內的用法
 
 | 來源 | 怎麼用 | 得到什麼 |
 |---|---|---|
 | [[s-hige-2015-heterosynaptic-plasticity]] | 拿「氣味與配對氣味的 KC 重疊程度」對「該氣味被抑制的比例」作圖，八個資料點（兩次配對實驗各量四種氣味） | 相關係數 0.90。重疊高的氣味一起被抑制，重疊低的不受影響；行為上也一起被躲開。**稀疏編碼因此被用來解釋記憶為什麼會類化、又為什麼不會全部混在一起** |
 | [[s-minnick-2026-untrained-connectome]] | 把連結體原樣跑成脈衝網路，量各層的活化比例與重疊度，再掃描嗅葉膽鹼性局部神經元的輸出增益，看編碼密度怎麼變 | **原樣版任一氣味都活化 68% 的 KC、重疊度 0.90，與實驗差一個數量級**；把增益調到 0.15 才落回果蠅的範圍。更關鍵的是：原樣版在完全沒有輸入時仍有 67% 的 KC 在放電 |
+
+| [[s-ganguly-2024-visual-inputs-to-kc]] | 在 FlyWire 全腦連結體中，數每顆視覺 Kenyon 細胞（KCγ-d）收到幾個不重複的視覺輸入，並以主成分分析、條件輸入分析與左右半腦配對檢定連法是否有結構 | **每顆 KCγ-d 只收 1–7 個輸入、中位數 3**（嗅覺 KC 為 5–6），這是**解剖層**的稀疏，與本頁其他兩篇的活動層稀疏不是同一個量。連法與隨機取樣相符，但可取樣的母體極窄（全腦 7,851 顆視覺投射神經元中只有 469 顆接到視覺 KC），參與比 9.1 遠低於嗅覺的 15.4 |
 
 > 參數見 [[numbers]]。
 
@@ -55,10 +65,12 @@ confidence: medium
 
 6. **活化比例的分母各篇不同。** 實驗只能量到視野內圈得出來的細胞（Hige 2015 每隻約 82 顆），模型能數全部 4,504 顆。兩者相除得到的百分比不是同一種量，詳見上方「怎麼算」表。
 
+7. **「解剖的稀疏」與「活動的稀疏」是兩件事。** [[s-ganguly-2024-visual-inputs-to-kc]] 數的是「一顆 KC 接了幾顆上游」（視覺 KC 為 1–7 個、中位數 3），Hige 2015 與 Minnick 2026 數的是「一次刺激下有多少比例的 KC 在放電」。前者是接線圖上的量、後者是生理或模擬上的量，**兩者可以同時成立也可以互相矛盾**（接得少不保證放電得少）。本庫目前沒有任何一篇同時量過這兩者。
+
 ## 相關
 
-- 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]
-- 概念：[[c-kc-mbon-plasticity]]、[[c-odor-generalization]]、[[c-coincidence-detection]]、[[c-mb-compartment]]
-- 實體：[[e-kenyon-cell]]、[[e-mbon]]、[[e-mushroom-body]]、[[e-gcamp]]、[[e-apl-neuron]]
+- 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]、[[t-visual-learning-circuits]]
+- 概念：[[c-kc-mbon-plasticity]]、[[c-odor-generalization]]、[[c-coincidence-detection]]、[[c-mb-compartment]]、[[c-neurotransmitter-prediction]]
+- 實體：[[e-kenyon-cell]]、[[e-mbon]]、[[e-mushroom-body]]、[[e-gcamp]]、[[e-apl-neuron]]、[[e-hemibrain]]
 - 綜述：[[syn-contradictions]]
-- 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-minnick-2026-untrained-connectome]]
+- 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-minnick-2026-untrained-connectome]]、[[s-ganguly-2024-visual-inputs-to-kc]]

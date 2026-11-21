@@ -1,7 +1,7 @@
 ---
 title: OK107-GAL4 驅動品系（OK107-GAL4）
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [entity, active, cross-domain]
 confidence: medium
 ---
@@ -19,9 +19,9 @@ confidence: medium
 
 ## 是什麼
 
-**OK107-GAL4 是庫內各篇用來代表「全部 Kenyon 細胞」的 GAL4 驅動品系。** 庫內五篇用到它：三篇把它當成把感測器或效應基因送進 KC 的工具（Dylla 2017、Handler 2019、Kaldun 2025），一篇只拿它當「這裡是蕈狀體、是全部的葉」的解剖地標（Mao 2009），一篇在方法的驅動品系清單中列出它、但沒有指明用在哪一個實驗（Pribbenow 2022）。它是一般的 GAL4，不是 split-GAL4。來源編號只有 [[s-kaldun-2025-dop1r2-memory-phases]] 寫出：京都 DGGR_106098。
+**OK107-GAL4 是庫內各篇用來代表「全部 Kenyon 細胞」的 GAL4 驅動品系。** 庫內六篇用到它：四篇把它當成把感測器或效應基因送進 KC 的工具（Dylla 2017、Handler 2019、Kaldun 2025、Ofstad 2011），一篇只拿它當「這裡是蕈狀體、是全部的葉」的解剖地標（Mao 2009），一篇在方法的驅動品系清單中列出它、但沒有指明用在哪一個實驗（Pribbenow 2022）。它是一般的 GAL4，不是 split-GAL4。來源編號只有 [[s-kaldun-2025-dop1r2-memory-phases]] 寫出：京都 DGGR_106098。
 
-它標到多少顆 KC、是否涵蓋全部三類 KC，五篇都沒有給數字：？待查。庫內另外三個 KC 驅動品系是 [[e-c739-gal4]]（α/β）、[[e-c305a-gal4]]（α′/β′）、[[e-238y-gal4]]（三類 KC），可與它對照。
+它標到多少顆 KC、是否涵蓋全部三類 KC，六篇都沒有給數字：？待查。庫內另外三個 KC 驅動品系是 [[e-c739-gal4]]（α/β）、[[e-c305a-gal4]]（α′/β′）、[[e-238y-gal4]]（三類 KC），可與它對照。
 
 ## 版本與規模（庫內各篇的用量）
 
@@ -32,6 +32,7 @@ confidence: medium
 | Handler 2019 | KC 軸突 | EPAC（cAMP，FRET）、ER-GCaMP6-210（內質網鈣）、GRAB_DA1m（多巴胺） |
 | Pribbenow 2022 | KC | 該頁只在驅動品系清單中列出，未寫搭配哪一個效應基因：？待查 |
 | Mao 2009 | 全部 KC | UAS-mCD8::GFP（當作「哪一葉」的地標，與抗 TH 疊圖） |
+| Ofstad 2011 | 蕈狀體內在神經元（原文 mushroom body intrinsic neurons），未寫涵蓋哪幾類 KC | UAS-Kir2.1（配 tubP-GAL80<sup>ts</sup> 限成蟲期） |
 
 ## 庫內誰用了它
 
@@ -42,13 +43,14 @@ confidence: medium
 | [[s-handler-2019-dopamine-receptor-timing]] | 在 KC 軸突表現三種感測器，量 γ4/γ5 區室在順向與逆向配對下的第二傳訊者 | cAMP 在六個 ISI 全部顯著大於零（−6 至 +6 s，ΔR/R 約 0.067–0.15）；內質網鈣只在 −1.2 s 與 +0.5 s 顯著（※ 從圖判讀，見 [[c-cs-us-timing]]） |
 | [[s-mao-2009-dopaminergic-neuron-types]] | 標出全部 KC 的位置，與抗 TH 染色疊圖（圖 4D） | 作為四個「哪一葉」地標中涵蓋最廣的一個，用來判定多巴胺末梢落在哪一葉 |
 | [[s-pribbenow-2022-postsynaptic-plasticity]] | 該頁列在 KC 的驅動品系中（與 R13F02-GAL4 並列） | 該頁沒有指明它用在哪一個實驗：？待查 |
+| [[s-ofstad-2011-visual-place-learning]] | 與另外三條蕈狀體 GAL4 品系（R9A11、R10B08、R67B04）並列，用 [[e-kir2-1]] 靜音蕈狀體內在神經元，測視覺位置學習 | **對位置學習沒有顯著影響。但本篇只在正文列出 OK107 的名字，沒有引任何圖、沒有給 n，也沒有說它是在哪一組實驗裡測的**——圖 4g 的七條品系裡沒有它。本庫無法檢查這一組的任何數值：？待查 |
 
 數值見 [[numbers]]。
 
 ## 已知的問題
 
 - **它不只標到 KC。** [[s-dylla-2017-trace-conditioning-dan-plasticity]] 指出 OK107 也標到 IPCs（製造胰島素的細胞，不屬蕈狀體）。該篇 KC 的成像表因此多出 IPCs 一列，而 IPCs 第 5 回合的差值 0.35 是全表最大（不顯著）。**這一格不是 KC，不應混入「KC 的可塑性」。**
-- **「全部 KC」沒有被量化。** 五篇都沒有寫它標到幾顆、三類 KC 是否都涵蓋：？待查。
+- **「全部 KC」沒有被量化。** 六篇都沒有寫它標到幾顆、三類 KC 是否都涵蓋：？待查。
 - **陰性結果的前提只在這一組被驗證。** [[s-kaldun-2025-dop1r2-memory-phases]] 的抗 HA 染色只做了 OK107 這一組，三個分葉品系（5HTR1B、c739、c305a）沒有對應的染色。反過來說，OK107 是該篇唯一有染色證據支持「真的剪掉了」的品系。
 - **同一篇裡取用 KC 的品系不只一個。** [[s-pribbenow-2022-postsynaptic-plasticity]] 同時列了 R13F02-GAL4 與 OK107-GAL4；該篇沒有比較兩者標到的細胞是否相同：？待查。
 - **Dylla 2017 的 KC 組沒有 mb247-DsRed 地標。** 該篇 DAN 組以 DsRed 做移動校正，OK107>GCaMP3 的 KC 組沒有帶這個轉殖基因，移動校正怎麼做該篇沒有交代：？待查。
@@ -57,7 +59,7 @@ confidence: medium
 
 - 細胞：[[e-kenyon-cell]]、[[e-mushroom-body]]
 - 其他 KC 品系：[[e-c739-gal4]]（α/β）、[[e-238y-gal4]]（三類 KC）、[[e-c305a-gal4]]（α′/β′）；品系原理見 [[e-split-gal4]]
-- 工具：[[e-gcamp]]、[[e-epac-camp-sensor]]、[[e-dopamine-receptor]]
+- 工具：[[e-gcamp]]、[[e-epac-camp-sensor]]、[[e-dopamine-receptor]]、[[e-kir2-1]]、[[e-gal80ts]]
 - 概念：[[c-mb-compartment]]、[[c-cs-us-timing]]、[[c-coincidence-detection]]
-- 來源：[[s-kaldun-2025-dop1r2-memory-phases]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-pribbenow-2022-postsynaptic-plasticity]]
+- 來源：[[s-kaldun-2025-dop1r2-memory-phases]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-ofstad-2011-visual-place-learning]]
 - 待開頁面：`e-r13f02`、`e-mb247-dsred`、`e-5htr1b-gal4`、`e-grab-da`

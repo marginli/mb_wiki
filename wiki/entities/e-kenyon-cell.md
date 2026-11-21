@@ -1,7 +1,7 @@
 ---
 title: Kenyon 細胞（Kenyon cell, KC）
 created: 2026-10-25
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [entity, active, mb-learning]
 confidence: high
 ---
@@ -13,6 +13,8 @@ confidence: high
 [[e-mushroom-body]]（蕈狀體）的主體神經元，負責在蕈狀體裡代表氣味。KC 的樹突在萼部（calyx）接收嗅覺輸入，軸突沿著「葉」往外延伸，經由突觸（神經元之間傳訊號的接點）把訊號交給蕈狀體輸出神經元（[[e-mbon]]）。多巴胺神經元（[[e-dopaminergic-neuron]]）的末梢就伸在這些突觸旁邊，本庫各篇都認為學習改變的是「KC → MBON」這個突觸（見 [[c-kc-mbon-plasticity]]）。
 
 **數量**：約 2,000 顆（每半腦）。庫內自己計數的是 [[s-aso-2014-mb-architecture]]：以 nlsLacZ 標核、電腦輔助計數，七型逐型為 γd 約 75、γ main 約 600、α′/β′ap 約 210、α′/β′m 約 140、α/βp 約 90、α/βs 約 500、α/βc 約 400，加總 2,015。Aso 2016 引言「~2000」（引 Laurent & Naraghi 1994、Perez-Orive et al. 2002）與 Cohn 2015 引言「~2,000」都是轉述，沒有自己計數。
+
+FlyWire 全腦連結體數到的**視覺** KC 遠多於此：[[s-ganguly-2024-visual-inputs-to-kc]] 在左半腦數到 KCγ-d **147 顆**、KCαβ-p 67 顆（右半腦 148／61），而 Aso 2014a 的 γd 只有約 75 顆。⚠️ **矛盾｜視覺 Kenyon 細胞的顆數：Aso 2014a 約 75 vs Ganguly 2024 的 147｜未裁決**（[[syn-contradictions]] 1.13 之後的 1.14）。兩者的計數方法與分型依據都不同（光學標核計數對連結體逐顆計數；樹突在主萼或副萼對承自 hemibrain 的 `hemibrain_type`），所以先查定義再談矛盾。
 
 **三類**（依 [[s-tomchik-2009-camp-dynamics]]）：α/β、α′/β′、γ。前兩類的軸突分岔成垂直葉與水平葉，γ 類只有水平的 γ 葉。所以「量 α 葉」就是量 α/β KC 的軸突。[[s-aso-2014-mb-architecture]] 把這三類再細分成上列七型，依據是樹突在主萼還是副萼、軸突走葉的哪一層。
 
@@ -34,6 +36,9 @@ confidence: high
 | [[s-aso-2019-nitric-oxide-cotransmitter]] | RNA 定序分選三類 KC（每個重複挑 1,000–2,500 顆）；以 MB247-switch 在成蟲期於 KC 誘發 Gycβ100B-shRNA 或 *scrib*-shRNA | **不量活性**：量 KC 的轉錄本（KC γ 的 sGC 兩個次單元 Gycα99B 99、Gycβ100B 42 TPM，其他鳥苷酸環化酶低得多）與敲低後的記憶 | 不刺激 KC；刺激的是 DAN（紅光） |
 | [[s-eschbach-2021-learned-innate-valence-integration]] | **幼蟲**；GMR14H06-LexA（表現 TNTe 阻斷或 CsChrimson 活化）、GMR14H06-GAL4（表現 Kir2.1 慢性抑制） | 未量 KC 本身，量的是下游 MBON-m1 與 CN-33 的鈣 | 紅光同時活化全部 KC（作者引 Honegger 2011 說自然氣味只活化約 5%）；或把 KC 關掉，看側角通路單獨的效果 |
 | [[s-pribbenow-2022-postsynaptic-plasticity]] | GAL4：R13F02（全部 KC，表現 Shi）、OK107（離體對照，表現 GCaMP6f 或 SynaptoPhluorin）、MB369B（稀疏的 α′/β′ KC） | 離體：軸突的鈣與囊泡釋放，用來確認 KC 沒有被外加的乙醯膽鹼活化；活體：α′3 區室內 α′/β′ KC 的氣味反應 | **刻意繞過 KC**：乙醯膽鹼噴在 MBON 樹突上（加大到 8–14 psi、150–525 ms，KC 仍無反應）。行為實驗則在訓練時以 Shi 阻斷 KC 的輸出 |
+| [[s-ofstad-2011-visual-place-learning]] | R9A11、R10B08、R67B04、[[e-ok107-gal4]]；本篇稱為 mushroom body intrinsic neurons，未說明涵蓋哪幾類 KC | 不量 KC；只以 [[e-kir2-1]] 長期靜音（成蟲期 40 小時），讀數是行為 | 不刺激。另有一組以羥基脲在幼蟲期化學剝除整個蕈狀體（補充圖 4，未取得） |
+| [[s-vogt-2014-shared-visual-olfactory-circuits]] | GAL4：201y（α/β 與 γ）、[[e-mb247-gal4]]（α/β 與 γ）、17D（α/β）、[[e-c305a-gal4]]（α′/β′）；split-GAL4：MB010B（全部葉）、MB009B（γ）、[[e-mb008b]]（α/β）、MB186B（α′/β′）；另有 MB247-GAL80 當抑制對照 | **完全不量 KC 的活動，只做必要性**（[[e-shibire-ts]] 阻斷輸出）與表現樣式影像（圖 7A，部分投影）。解析度只到「葉」，沒有區室 | 行為實驗中的真顏色（藍 452/456 nm、綠 520 nm）與真氣味（3-辛醇、苯甲醛）；不做離體刺激 |
+| [[s-ganguly-2024-visual-inputs-to-kc]] | **無驅動品系**：在 FlyWire v630 的 Codex 中以 `hemibrain_type = KCg-d` 與 `KCab-p` 搜出細胞 | **樹突（副萼）的突觸前夥伴**，逐顆數輸入的身分與突觸數；不量活動 | **不刺激**，純連結體解剖 |
 
 > 「驅動品系」是決定外加基因只在哪些細胞表現的果蠅品系；GAL4 與 LexA 是兩套互不干擾的系統，所以同一隻果蠅可以用一套標 DAN、另一套標 KC 或 MBON。split-GAL4 見 [[e-split-gal4]]。
 
@@ -43,14 +48,17 @@ confidence: high
 - **同一條軸突在不同區室的末梢可以不一樣。** Cohn 2015：活體中同一條 γ KC 軸突在 γ2/γ3 的末梢反應強、γ4/γ5 弱；所以「KC 對某氣味的反應」要說清楚量的是哪一格。
 - **細胞體與軸突的結果不能互相代替。** Hige 2015 討論中引 Boto et al. 2014：同一個 γ1 區，氣味與 DAN 活化配對之後，Boto 在 KC 軸突末梢看不到鈣變化；Hige 卻量到 MBON 對該氣味收到的突觸電流總量比配對前少約九成。
 - **各篇用的驅動品系涵蓋的 KC 類別不同**（238Y 三類、R13F02 全部、OK107 未說明、c739 與 MB008B 只有 α/β），跨篇比較 KC 反應的絕對大小沒有意義。[[s-kaldun-2025-dop1r2-memory-phases]] 用 OK107（全蕈狀體）、5HTR1B（γ）、c739（α/β）、c305a（α′/β′）把受體的需求定位到**葉**，沒有做到區室層級，所以不能和 Hige 2015、Aso 2016 的區室結果並排；而且它只驗證了 OK107 那一組的剪除效率。
+- **「同樣寫 α/β＋γ」的兩條品系並不等價。** [[s-vogt-2014-shared-visual-olfactory-circuits]] 正文把 201y 與 [[e-mb247-gal4]] 都描述成標記 α/β 與 γ 葉，但訓練期阻斷的結果相反（MB247 受損、201y 無效，圖 8E vs 8G）；論文唯一的解釋是 201y 標的是「較小的一組 KC」，而**該篇沒有量過任何一條品系標了幾顆 KC**。引用「阻斷 α/β＋γ」時要寫出用的是哪一條品系。
+- **α/β 的需求出現在較晚的時間點，而視覺側只測到 30 分鐘以內。** [[s-vogt-2014-shared-visual-olfactory-circuits]] 圖 6B 的 17D（α/β）阻斷輸出，嫌惡**氣味**記憶完全不受影響（−0.625 對 −0.625／−0.815，立即測）；[[s-kaldun-2025-dop1r2-memory-phases]] 在 α/β 葉剔除 Dop1R2，**2 小時**嫌惡記憶由約 40.5 降到約 6，但訓練後立刻測是不顯著。**兩者其實一致**（立即記憶都不需要 α/β），不是矛盾——差別在時間點，而 Vogt 2014 最長只測到 30 分鐘。
 - **七型不是終點。** [[s-aso-2014-mb-architecture]] 自己寫明 α/βc 還可以再分內核與外核（引 Tanaka 2008），但界線不明確，他們也做不出只標外核的品系（圖 7C 圖說）。所以「七型」受限於當時的遺傳工具。
 - **刺激方式不同**：Tomchik、Handler 用乙醯膽鹼滴萼部模擬氣味，Hige 用真的氣味。滴藥的時間長度與濃度不等於真實氣味。
+- **視覺 KC 的活動從來沒有人量過。** [[s-ganguly-2024-visual-inputs-to-kc]] 給的是接線（每顆 KCγ-d 收 1–7 個視覺輸入、中位數 3），[[s-vogt-2014-shared-visual-olfactory-circuits]] 給的是必要性（阻斷 γ 葉兩種顏色記憶都壞掉），**沒有人記錄過一顆 KC 對藍色或綠色的反應**（上表「怎麼刺激 KC」一欄顯示，所有量過 KC 活動的來源，刺激一律是氣味或乙醯膽鹼）。所以「γ 葉代表視覺訊息」在本庫是推論，不是量測：必要性不等於表徵（見 [[syn-contradictions]]）。
 
 ## 相關
 
 - 結構：[[e-mushroom-body]]；下游：[[e-mbon]]；調控：[[e-dopaminergic-neuron]]
 - 感測器：[[e-gcamp]]、[[e-epac-camp-sensor]]；工具：[[e-split-gal4]]
-- 概念：[[c-kc-mbon-plasticity]]、[[c-coincidence-detection]]、[[c-camp-signaling]]、[[c-mb-compartment]]、[[c-presynaptic-calcium]]
+- 概念：[[c-kc-mbon-plasticity]]、[[c-coincidence-detection]]、[[c-camp-signaling]]、[[c-mb-compartment]]、[[c-presynaptic-calcium]]、[[c-sparse-coding]]、[[c-neurotransmitter-prediction]]、[[c-acquisition-vs-retrieval]]
 - 品系與受體：[[e-c739-gal4]]、[[e-dopamine-receptor]]
-- 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]
-- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-aso-2014-mb-architecture]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-eschbach-2021-learned-innate-valence-integration]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-kaldun-2025-dop1r2-memory-phases]]
+- 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]、[[t-visual-learning-circuits]]
+- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-aso-2014-mb-architecture]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-eschbach-2021-learned-innate-valence-integration]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-kaldun-2025-dop1r2-memory-phases]]、[[s-ofstad-2011-visual-place-learning]]、[[s-vogt-2014-shared-visual-olfactory-circuits]]、[[s-ganguly-2024-visual-inputs-to-kc]]

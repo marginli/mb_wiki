@@ -1,7 +1,7 @@
 ---
 title: 溫度敏感型阻斷工具（shibire^ts1）
 created: 2026-10-25
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [entity, active, mb-memory-dynamics]
 confidence: high
 ---
@@ -38,6 +38,7 @@ confidence: high
 | Pribbenow 2022 | 32 °C | 約 23 °C（室溫） | 訓練前 30 min 起到訓練結束；之後立即回室溫，30 min 後測驗 |
 | Aso 2023 | 32 °C | 25 °C | 只在測驗時（1 天獎賞記憶）。**溫度只標在圖 7C 上，正文與方法都沒有寫** |
 | Yamada 2023 | 32 °C | — | **做不成**：想只在二階制約期間關掉 SMP108，但限制溫度下連對照基因型都迅速把一階記憶消退掉（正文寫 data not shown），只好改用從發育期就作用的 TNT |
+| Vogt 2014 | **同一篇兩套**：圖 2B/C 標 33 °C，圖 8A/B 標 31 °C（方法節並列寫成「31/33 °C」，未說明哪個實驗用哪一組，⚠️） | 同樣兩套：圖 2 為 25 °C、圖 8 為 26 °C（方法寫「25/26 °C」） | 全程（訓練＋測驗）；或只在訓練；或只在測驗。測驗在訓練後 30–40 min，重新放入場地後 60 s 開始 |
 
 ## 庫內誰用了它
 
@@ -50,6 +51,7 @@ confidence: high
 | [[s-burke-2012-octopamine-dopamine-reward]] | 章魚胺神經元（Tdc2-GAL4）、章魚胺子集（NP7088、0665-GAL4、0891-GAL4）、PAM 多巴胺神經元（0104-GAL4）、MB-MP1（c061-GAL4;MBGAL80） | 阻斷章魚胺神經元只損害「甜而無熱量」的阿拉伯糖記憶（降約 74%），蔗糖與「阿拉伯糖＋山梨醇」都無影響；阻斷 0104 的 PAM 則連蔗糖記憶也受損（阿拉伯糖降約 98%、蔗糖降約一半）。在活化章魚胺神經元的同時阻斷 MB-MP1，人工記憶形不成 |
 | [[s-pribbenow-2022-postsynaptic-plasticity]] | KC（R13F02-GAL4）；M4/6 MBON（MB011B） | 訓練時關掉 KC：獎賞記憶完全消失（PI 由約 0.29／0.26 降到約 −0.03），嫌惡記憶只略降且不顯著（約 −0.55 對 −0.65／−0.68）；**但 23 °C 對照也看得到同樣幅度的下降**。訓練時關掉 M4/6：獎賞記憶不受影響，作者據此推論可塑性在 KC→MBON 突觸本身 |
 | [[s-aso-2023-upwind-neurons]] | UpWiN（SS33917，含 AD、DBD 兩半各自的對照） | 只在測驗時升溫，1 天獎賞記憶的 PI 約 0.12，三組對照約 0.32–0.43；允許溫度下四組無差異（約 0.23–0.35）。**作者無法用這組實驗檢驗迎風移動，因為對照組在限制溫度下根本不迎風**（資料未示） |
+| [[s-vogt-2014-shared-visual-olfactory-circuits]] | 胺類：TDC2、TH、DDC；DAN：R58E02（PAM）、MB504B（PPL1 四型）；KC：201y、MB247、17D、c305a、MB010B、MB009B、MB008B、MB186B | **顏色**記憶的必要性地圖：獎賞走 PAM、懲罰走 PPL1，兩者都只在訓練時必要；KC 的 γ 葉兩種顏色記憶都必要，α′/β′ 完全不必要，α/β 剩約 55%（n.s.）。**MB247-GAL80 把 201y 的損害完全救回**（圖 5A），是庫內少見的「可以失敗而沒有失敗」的對照 |
 | [[s-yamada-2023-second-order-conditioning]] | 想關掉 SMP108（SS67221），**但做不成** | 32 °C 下連對照基因型的果蠅都迅速消退掉一階記憶、無法完成二階制約（正文寫 data not shown）。這是本庫第一次記錄到 shibire^ts 的限制溫度本身干擾了行為協定；該篇因此只能用從發育期就作用的 TNT |
 
 品系見 [[e-r58e02]]、[[e-mb504b]]、[[e-th-gal4]]、[[e-c739-gal4]]。
@@ -65,11 +67,12 @@ confidence: high
 - **限制溫度本身會改變行為，有時候大到讓實驗做不成。** [[s-yamada-2023-second-order-conditioning]] 在 32 °C 下連對照基因型的一階記憶都迅速消退，二階制約做不起來，只好改用從發育期就作用的 TNT；[[s-aso-2023-upwind-neurons]] 的對照果蠅在 32 °C 下不出現迎風移動，所以「測驗時需要 UpWiN 才會迎風」沒有被直接檢驗，只檢驗了二選一的分數。**遇到「升溫後對照組也變了」的報告，要先問這個讀數在限制溫度下還成不成立。**
 - **允許溫度對照不等於同一條基線。** [[s-burke-2012-octopamine-dopamine-reward]] 圖 1b（31 °C）的三個對照落在 0.20–0.32，圖 1c（23 °C）的四根柱子落在 0.13–0.23——低溫本身就壓低了阿拉伯糖的記憶表現。這不影響圖 1c 的結論（組間無差異），但 b 與 c 不是「同樣的實驗只差溫度」。同型的問題在 [[s-pribbenow-2022-postsynaptic-plasticity]]：訓練時關掉 KC 的嫌惡記憶下降，在 23 °C 對照也看得到同樣幅度，所以那個下降不能歸給阻斷。
 - **效應子的強弱會改變結論。** [[s-aso-2014-mbon-valence]] 初篩用強效應子（pJFRC100-20XUAS-TTS-Shibire-ts1-p10），9 條品系陽性；改用弱效應子 UAS-Shi x1 複篩後只剩 1 條。作者換效應子的理由是強效應子表現量太高、有些品系在允許溫度下就出現表型。**弱效應子看不到效果，可能是初篩為假陽性，也可能是阻斷不夠強，該篇沒有區分。**
+- **同一篇用兩套限制溫度而未說明，會讓陰性結果不可解讀。** [[s-vogt-2014-shared-visual-olfactory-circuits]] 的陰性結果集中在用 31 °C 的圖 8（201y 與 MB009B 在訓練時阻斷無效），而陽性結果多在用 33 °C 的圖 2；方法節只並列寫成「31/33 °C」。**若 31 °C 的阻斷較不完全，那些「訓練時可有可無」的結論就有第二種解釋**：？待查。
 - **同一篇裡不同作業的限制溫度可以差 3 °C。** [[s-aso-2014-mbon-valence]] 用 31–34 °C（依作業而異），其中酒精記憶的方法寫 31 °C、圖 11 寫 33 °C（⚠️ 單篇自身不一致）。阻斷的完全性隨溫度變，所以同一篇裡不同作業的「阻斷強度」不一定相同。
 
 ## 相關
 
-- 概念：[[c-memory-extinction]]、[[c-memory-consolidation]]、[[c-us-substitution]]、[[c-performance-index]]、[[c-spaced-training]]
-- 工具：[[e-split-gal4]]、[[e-cschrimson]]、[[e-t-maze]]、[[e-olfactory-arena]]、[[e-tnt]]、[[e-dtrpa1]]、[[e-gal80ts]]
-- 主題：[[t-memory-updating]]、[[t-mbon-dan-feedback]]
-- 來源：[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-aso-2014-mbon-valence]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]
+- 概念：[[c-memory-extinction]]、[[c-memory-consolidation]]、[[c-us-substitution]]、[[c-performance-index]]、[[c-spaced-training]]、[[c-acquisition-vs-retrieval]]
+- 工具：[[e-split-gal4]]、[[e-cschrimson]]、[[e-t-maze]]、[[e-olfactory-arena]]、[[e-color-conditioning-arena]]、[[e-tnt]]、[[e-dtrpa1]]、[[e-gal80ts]]、[[e-kir2-1]]
+- 主題：[[t-memory-updating]]、[[t-mbon-dan-feedback]]、[[t-visual-learning-circuits]]
+- 來源：[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-aso-2014-mbon-valence]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]、[[s-vogt-2014-shared-visual-olfactory-circuits]]

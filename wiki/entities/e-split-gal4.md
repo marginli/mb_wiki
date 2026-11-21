@@ -1,7 +1,7 @@
 ---
 title: split-GAL4 驅動品系（split-GAL4 driver lines）
 created: 2026-10-25
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [entity, active, mb-learning]
 confidence: medium
 ---
@@ -24,7 +24,7 @@ confidence: medium
 | **MB099C** | Hige 2015 新做 | TH／73F07 | ⚠️ 兩篇說法不同：Hige 2015 說**四型 PPL1**（γ2α′1、α′2α2、α′3、α3），Aso 2016 說 PPL1-γ2α′1 ＋ PPL1-α′2α2 **兩型**；兩篇都說它不標 PPL1-γ1pedc。見 [[e-mb099c]]、[[syn-contradictions]] 1.4 |
 | MB438B | [[s-aso-2014-mb-architecture]] 表 1 中 PPL1-γ1pedc 的專一品系 | R30E11／R22B12；AD 插在 attP40（基因組上預先設好、供外加基因插入的固定位置） | PPL1-γ1pedc；依 [[s-aso-2014-mbon-valence]] 表 2 **另弱標 PPL1-α2α′2**。Hige 2015 **刻意不用**，理由見下 |
 | **MB042B** | Handler 2019 | R58E02／R22E04 | PAM 群（涵蓋哪些區室，論文沒列：？待查）；AD 半與 [[e-r58e02]] 同一段序列 |
-| **MB504B** | Handler 2019；Felsenberg 2017、2018 也用 | 52H03／TH | Handler：PPL 群中**支配六個區室**的一部分（沒列哪六個）；Felsenberg 2017 延伸圖 6c：四型 PPL1（γ1pedc、γ2α′1、α′2α2、α3）。兩者如何對應見 [[e-mb504b]] |
+| **MB504B** | **[[s-vogt-2014-shared-visual-olfactory-circuits]]「we generated」——本庫最早的原始描述**；Handler 2019、Felsenberg 2017、2018 也用 | R52H03（attP40）／TH（attP2）；Handler 2019 的基因型表與 Vogt 2014 完全一致 | Vogt 2014 正文點名四顆：MB-MP1、MB-MV1、MB-V1，以及投射到 α 葉尖端者（依 [[s-aso-2014-mb-architecture]] 表 1 ＝ PPL1-γ1pedc、γ2α′1、α′2α2、α3）；Felsenberg 2017 延伸圖 6c 以新名列出同四型。Handler 2019 只寫 PPL 群中**支配六個區室**的一部分（沒列哪六個）。對應關係見 [[e-mb504b]] |
 | MB630B | Aso 2016 新做 | VT026773／R72B05 | PPL1-α3（一型） |
 | MB043C、MB213B、MB315C＋MB109B | Aso 2016 | 未列 | PAM-α1；支配 β1、β2 的 PAM；支配 γ5、β′2a 的 PAM（後兩組各兩型） |
 | MB299B；MB310C、MB323B；MB008B | Ichinose 2015（引 Aso et al. 2014a） | 未列 | PAM-α1（[[e-pam-alpha1]]）；MBON-α1；α/β KC |
@@ -33,6 +33,10 @@ confidence: medium
 | **SS02163**（方法另寫 SS02163f）；**SS02108** | Eschbach 2021（**幼蟲**） | 52H01／40F09；13D05／40F09 | 幼蟲 MBON-m1；幼蟲 CN-33 與 MB2ON-86（每側各兩顆），並微弱標記腹神經索的局部中間神經元。⚠️ 該篇方法與品系表稱這一條為「CN-4」，結果節稱 CN-33（見該來源頁第五節） |
 | SS67221、SS45234（SMP108）；SS33917（SMP353／354）；MB043-split-LexA（PAM-α1） | Yamada 2023 新做 | MB043-split-LexA ＝ 58E02-ZpLexADBD（JK22C）／32D11-p65ADZp（JK73A）；其餘未列 | 兩條獨立的 SMP108 品系；SMP353／354；只標 PAM-α1 的 LexA 版本 |
 | SS33917、SS33918（行為）；SS67249（電生理） | Aso 2023（與 Shuai et al. 2023 同期發表的新品系集合） | 未列 | 迎風神經元 UpWiN（SS33917／SS33918 各標相似的 8–11 顆；SS67249 只標 1–3 顆） |
+| **MB010B** | Vogt 2014（引 Bräcker et al. 2013） | R13F02（attP40）／R52H09（attP2） | 蕈狀體的全部葉（KC） |
+| **MB009B** | Vogt 2014 | R13F02（attP40）／R45H04（attP2） | γ 葉（KC）。圖 7A 另可見腹側正中的蕈狀體外訊號 |
+| **MB008B** | Vogt 2014；Ichinose 2015 用它標 α/β KC | R13F02（attP40）／R44E04（attP2） | α/β 葉（KC）。見 [[e-mb008b]] |
+| **MB186B** | Vogt 2014（引 Bräcker et al. 2013） | R52H09（attP40）／R34A03（attP2） | α′/β′ 葉（KC）。圖 7A 另可見近視葉處的蕈狀體外細胞體 |
 
 ### 品系 → 細胞型的對照（Aso 2014a 表 1、Aso 2014b 表 2）
 
@@ -78,6 +82,8 @@ AD／DBD 欄取自兩篇原文的方法與基因型清單（Hige 2015 方法；H
 | [[s-eschbach-2021-learned-innate-valence-integration]] | **幼蟲**：15 個 MBON 品系（涵蓋 24 型中的 18 型）；功能實驗用 SS02163（MBON-m1）與 SS02108（CN-33） | 逐型光活化判定正價值或負價值；鈣成像與 Kir2.1 阻斷 |
 | [[s-yamada-2023-second-order-conditioning]] | 既有：MB043C、MB109B、MB315C、MB213B、MB312C、MB032B、MB196B、SS01308、MB319C、empty-split；新做：SS67221、SS45234（SMP108）、SS33917（SMP353／354）、MB043-split-LexA（PAM-α1） | 活化或阻斷各格 PAM 做二階制約；以兩條獨立的 SMP108 品系做阻斷，是該篇解剖專一性的主要防線（兩條的完整表現範圍在未取得的補充圖 8-1：？待查） |
 | [[s-aso-2023-upwind-neurons]] | 約 63 條新品系做活化篩選；UpWiN 用 SS33917、SS33918（行為）與 SS67249（電生理）；DAN 用 MB043C、MB213B、MB312C、MB109B＋MB315C；MBON 用 MB310C、MB082C、MB077B、MB083C | 光遺傳篩選迎風表型；圖 7C 的 shibire 實驗以三組對照與實驗組並比，依該篇基因型清單，對照之一只帶半套品系（VT007746-p65ADZp）加效應基因 |
+| [[s-vogt-2014-shared-visual-olfactory-circuits]] | MB504B、MB010B、MB009B、MB008B、MB186B | 以 [[e-shibire-ts]] 阻斷（或 [[e-dtrpa1]] 活化）逐葉、逐 DAN 群測**顏色**記憶的必要性與充分性。**本篇給出這五條品系的完整構築式**（見上表），正文稱其製作與評估方法「將另文發表（Aso et al., in preparation）」＝ [[s-aso-2014-mb-architecture]] |
+| [[s-ofstad-2011-visual-place-learning]] | **不是 split-GAL4，是一般 GAL4**：七條 Janelia 系列品系（R9A11、R10B08、R67B04、R15B07、R28D01、R38H02，對照 attP2），依 Pfeiffer 2008 製作、Gerry Rubin 提供，PDF 未給品系編號 | 配 tubP-GAL80<sup>ts</sup>;UAS-Kir2.1（[[e-kir2-1]]）做成蟲期靜音。**本篇沒有做任何交集限制，所以「小群細胞」的程度完全由單一調控片段決定；圖 4d–f 顯示三條橢球體品系都有橢球體以外的表現**（見該來源頁對圖 4 的解讀） |
 | [[s-huang-2024-dopamine-memory-dynamics]] | MB504B、MB502B、MB065B、MB304B、MB085C、MB093C、MB080C、MB077B、MB542B（皆來自 Janelia，與 w1118 回交五代） | 在五型 PPL1 與六型 MBON 表現電壓指示劑 pAce；MB085C 驅動 TnT 或 CsChrimson 阻斷或活化 MBON-γ1pedc>α/β；MB093C 驅動 TnT 阻斷 MBON-α3；MB065B 驅動 jGCaMP7b 做 PPL1-α3 的鈣成像對照 |
 
 ## 已知的問題（解讀實驗的陷阱）
@@ -90,6 +96,7 @@ AD／DBD 欄取自兩篇原文的方法與基因型清單（Hige 2015 方法；H
 - **「表 1 列出某品系」不等於「該品系只標這一型」。** Aso 2014a 圖 11F 明說 MB060B 在四型 PPL1 表現，而表 1 把它列在 PPL1-α3 那一列。反方向的完整對照（品系 → 它標到的全部細胞型）在補充檔 1，本庫未取得：？待查。Aso 2014b 表 2 是庫內目前唯一印出來的反方向對照，但只涵蓋 MBON 的 31 條。
 - **表現樣式會隨報導基因與插入位點改變。** Aso 2014a 方法明說：92 個品系在 attP18 與 VK00005 兩個位點各測一次，樣式一致但強度差很多，而且 VK00005 的兩種報導基因偶爾會顯出 attP18 看不到的脫靶細胞。Aso 2014b 也說明，所以它刻意讓指示用的報導基因與效應基因插在同一位置。比較不同論文用「同一個品系」的結果時，表現量未必可比。
 - **同一篇裡也會換品系。** Aso 2019 的圖 6 在不同格用不同的 γ1pedc 驅動品系（B、C 與 TH 突變組用 VT045661-LexA，D 用 MB320C），E 格的野生型與 NOS-RNAi 用哪個則沒有寫（？待查）。跨格比較 PI 時要先確認品系。Pribbenow 2022 在基因型太複雜時以 VT1211-GAL4 取代 MB011B，同屬此類。
+- **「專一」在本庫是靠影像宣告的，而影像可能是部分投影。** [[s-vogt-2014-shared-visual-olfactory-circuits]] 圖 7A 明寫是 partial projections，卻用來支持「專一標記不同的葉」；該篇影像上 MB009B 在腦的腹側正中有明顯的神經突、MB186B 在兩側近視葉處有數顆細胞體。該篇對舊品系 201y **做了** MB247-GAL80 的對照（圖 5A，記憶完全回復）來排除蕈狀體外的表現，對五條 split-GAL4 則**沒有任何等價對照**：？待查（這些蕈狀體外的訊號是什麼細胞、是否參與行為）。
 - **插入位點會互相干擾。** Hige 2015 不用 MB438B，因為它的 AD 插在 attP40，與該篇標 MBON 的 LexA 品系同一位點，可能發生 transvection（同源染色體上相同位點的調控元件互相影響），讓 GAL4 與 LexA 在同一批細胞表現；後果是光敏感通道也出現在被記錄的 MBON 上（引 Mellert & Truman 2012）。
 - **同一段調控序列可出現在不同品系。** 73F07 是 Hige 的 MB099C 的 DBD，也是 Handler 標 γ2 DAN 的 LexA；25D01 在 Hige 標 MBON-γ2α′1、在 Handler 標「γ2 MBON」。※ 推論：兩篇可能標到相同或重疊的細胞，但 split-GAL4、GAL4 與 LexA 版本的表現範圍不一定相同，兩篇沒有比對：？待查（另見 [[e-mbon]]）。
 
@@ -97,7 +104,7 @@ AD／DBD 欄取自兩篇原文的方法與基因型清單（Hige 2015 方法；H
 
 - 工具：[[e-cschrimson]]、[[e-gcamp]]、[[e-shibire-ts]]、[[e-p2x2]]
 - 細胞：[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-kenyon-cell]]、[[e-ppl1-gamma1pedc]]、[[e-ppl1-gamma2alpha1]]、[[e-pam-alpha1]]
-- 品系：[[e-mb099c]]、[[e-mb504b]]、[[e-r58e02]]、[[e-th-gal4]]、[[e-c739-gal4]]、[[e-238y-gal4]]
+- 品系：[[e-mb099c]]、[[e-mb504b]]、[[e-r58e02]]、[[e-th-gal4]]、[[e-c739-gal4]]、[[e-238y-gal4]]、[[e-mb008b]]、[[e-mb247-gal4]]、[[e-c305a-gal4]]、[[e-ok107-gal4]]
 - 概念：[[c-us-substitution]]、[[c-mb-compartment]]
 - 綜述：[[syn-contradictions]]
 - 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-eschbach-2021-learned-innate-valence-integration]]、[[s-yamada-2023-second-order-conditioning]]、[[s-aso-2023-upwind-neurons]]

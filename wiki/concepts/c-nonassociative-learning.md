@@ -1,7 +1,7 @@
 ---
 title: 非聯結式學習（nonassociative learning）與不配對對照
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [concept, active, mb-learning]
 confidence: medium
 ---
@@ -53,10 +53,11 @@ confidence: medium
 3. **差值為 0 不代表沒有改變。** Tully 1985 的對照組 Λ 約為 0，但單一氣味的躲避其實降了 5–10 個百分點；Λ 是兩個氣味的相對差，兩個氣味同樣下降就被抵掉。
 4. **基準線本身會動。** Mao 2009 的未處理組在 α 尖端第二次聞 MCH 時是 161%（Post/Pre，※ 從圖判讀），拿 100% 還是拿未處理組當基準，結論不同。「只聞氣味會不會讓 PPL1 反應下降」本庫有未裁決的矛盾，見 [[syn-contradictions]] 1.11。
 5. **「非聯結」是行為層的說法。** Pribbenow 2022 指出，α′3 格裡氣味同時活化 KC 與該格的 DAN，所以在迴路層，氣味既是 CS 也是 US。引用「熟悉度學習是非聯結式」時，要記得迴路裡仍可能有配對。
+6. **視覺制約在本庫完全沒有非聯結對照。** [[s-vogt-2014-shared-visual-olfactory-circuits]] 是本庫的視覺制約來源，它**沒有任何「給顏色也給電擊但錯開」的組**。它靠「兩組互換 CS+ 相減」抵銷非聯結效應，而依 [[s-tully-1985-classical-conditioning]] 的圖 9，這種相減只抵銷得掉對兩個 CS 的**共同**影響（見陷阱 3）。**本頁不把 Vogt 2014 列進「庫內的用法」表**，因為它沒有使用非聯結對照，不符合概念頁「實際使用」的門檻。
 
 ## 相關
 
 - 概念：[[c-cs-us-timing]]、[[c-kc-mbon-plasticity]]、[[c-performance-index]]、[[c-memory-extinction]]、[[c-second-order-conditioning]]
-- 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]
+- 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]、[[t-visual-learning-circuits]]
 - 綜述：[[syn-contradictions]]（1.3、1.11、3.7）
 - 來源：見上表

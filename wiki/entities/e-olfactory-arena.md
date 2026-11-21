@@ -1,7 +1,7 @@
 ---
 title: 四象限光遺傳嗅覺競技場（optogenetic olfactory arena）
 created: 2026-10-25
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [entity, active, cross-domain]
 confidence: medium
 ---
@@ -71,11 +71,12 @@ Hige 2015 的行為參數（光強、流程、PI 公式）都在補充資料：�
 - **PI 與迎風位移是兩種讀數，排序可以不同。** 同一批果蠅、同一個場地：γ5β′2a 組的 PI 約 0.78，與 α1 組的約 0.75 不相上下，但只有 α1 組明顯迎風（[[s-aso-2023-upwind-neurons]] 圖 1H、1J）。見 [[c-performance-index]] 陷阱 11。
 - **「氣味開始」的零點各篇取法不同。** Aso 2023 明寫取閥門切換後 **3.5 s**（氣味到達約 2 s、充滿再約 3 s）；Aso 2016 只寫「氣味遞送開始」，沒說是閥門開啟還是氣味到達（見上一條與 [[c-cs-us-timing]]）。
 - **限制溫度下果蠅不迎風。** [[s-aso-2023-upwind-neurons]] 的 [[e-shibire-ts]] 實驗升到 32 °C 時，連對照組都不出現迎風移動（資料未示），所以那組實驗只能用 PI 判讀。要在這個場地裡做溫度阻斷實驗，先確認讀數在限制溫度下還成立。
+- **同形狀的場地不一定是同一種場地。** 本庫另有兩座四象限的圓形場地，與本頁這一座不可互換：[[e-color-conditioning-arena]]（地板下方的藍／綠 LED 加透明 ITO 電擊格柵，刺激是**顏色**，見 [[s-vogt-2014-shared-visual-olfactory-circuits]] 與 [[s-aso-2014-mbon-valence]]）；以及 [[s-ofstad-2011-visual-place-learning]] 的熱—視覺競技場（8×8 塊可逐格控溫的 Peltier 地板加一圈 LED 全景，刺激是**地點**，果蠅要找唯一一塊涼磚）。後者與本庫其他裝置一對一（只有那一篇用），所以沒有另開實體頁，參數記在該來源頁與 [[numbers]]。**三座場地的分數刻度互不相通**（見 [[c-performance-index]]）。
 - **本庫各篇在這個場地裡的「果蠅狀態」常常沒交代齊。** Aso 2016 圖 2、3 的獎賞型品系是否先餓，PDF 沒說（見上一條）；Aso 2023 沒寫競技場的溫度與濕度；Aso 2023 的電生理段落沒寫果蠅性別與是否飢餓。
 
 ## 相關
 
-- 工具：[[e-cschrimson]]、[[e-split-gal4]]、[[e-t-maze]]、[[e-shibire-ts]]
+- 工具：[[e-cschrimson]]、[[e-split-gal4]]、[[e-t-maze]]、[[e-color-conditioning-arena]]、[[e-shibire-ts]]
 - 概念：[[c-performance-index]]、[[c-us-substitution]]、[[c-cs-us-timing]]、[[c-odor-generalization]]、[[c-memory-extinction]]、[[c-mb-compartment]]
-- 主題：[[t-timing-rules]]、[[t-memory-updating]]
+- 主題：[[t-timing-rules]]、[[t-memory-updating]]、[[t-visual-learning-circuits]]
 - 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-aso-2014-mbon-valence]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]

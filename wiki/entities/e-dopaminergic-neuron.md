@@ -1,7 +1,7 @@
 ---
 title: 多巴胺神經元（dopaminergic neuron, DAN）
 created: 2026-10-25
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [entity, active, mb-learning]
 confidence: medium
 ---
@@ -39,10 +39,11 @@ confidence: medium
 | [[s-burke-2012-octopamine-dopamine-reward]] | 熱遺傳活化（uas-dTrpA1，31 °C）代替糖，或以 shibire^ts 阻斷；另以 RNAi 在指定 DAN 中降低章魚胺受體 | **PAM**：0273-GAL4（與抗 TH 共染判定，標到全部約 130 顆 PAM）、0104-GAL4（約 40 顆）；**PPL1**：c061-GAL4;MBGAL80 標 MB-MP1（即 PPL1-γ1pedc），只用於阻斷與 RNAi |
 | [[s-aso-2014-mb-architecture]] | **不操弄、不量活性**，純解剖 | 支配葉的 20 型：PAM 14 型、PPL1 6 型；另有支配萼部的 PPL2ab。PPL1 每型 1–2 顆、PAM 每型最多約 20 顆；PAM 的總數有三套（split-GAL4 標到 98 顆、抗多巴胺染色估 115–135 顆、逐格 PA-GFP 相加約 154 顆，作者自陳最後一個是高估） |
 | [[s-aso-2014-mbon-valence]] | 熱遺傳（dTrpA1）活化代替電擊；shibire^ts 阻斷 | PPL1-γ1pedc（MB438B，依表 2 另弱標 PPL1-α2α′2）；雙標記用 MB320C。其餘 DAN 只在圖 1A 引文獻整理 |
-| [[s-dylla-2017-trace-conditioning-dan-plasticity]] | **沒有人工活化 DAN。** 以 GCaMP3 量 DAN 對真的電擊與氣味的反應，比較配對與不配對訓練 | TH-GAL4：γ1 有 PPL1-γ1pedc 與 PPL1-γ1、γ2/α′1 有 PPL1-γ2α′1；PAM 只標到 12 顆。另量扇形體、橢圓體的 DAN 當對照 |
+| [[s-dylla-2017-trace-conditioning-dan-plasticity]] | **沒有人工活化 DAN。** 以 GCaMP3 量 DAN 對真的電擊與氣味的反應，比較配對與不配對訓練 | TH-GAL4：γ1 有 PPL1-γ1pedc 與 PPL1-γ1、γ2/α′1 有 PPL1-γ2α′1；PAM 只標到 12 顆。另量扇形體、橢球體的 DAN 當對照 |
 | [[s-aso-2019-nitric-oxide-cotransmitter]] | CsChrimson 紅光活化（627 nm、34.9 µW/mm²，1 分鐘氣味內給 30 下 1 秒光）代替電擊或糖；另以 Gr66a-GAL4 活化苦味感覺神經元間接活化 PPL1。**關鍵操作是在 TH 突變背景下活化 DAN：細胞照常放電，但沒有多巴胺可放** | 七個驅動品系：PPL1 四型合一、PPL1-γ1pedc（MB320C）、PPL1-γ2α′1、PPL1-α3、PAM 群、PAM-γ5／β′2a、PAM-β′1 |
 | [[s-pribbenow-2022-postsynaptic-plasticity]] | 離體腦中以 CsChrimson 紅光活化 PAM 群代替糖，與噴在 MBON 樹突上的乙醯膽鹼配對（全程在 TTX 下）；活體 FRAP 則直接注射多巴胺 10 mM | R58E02-LexA，只寫「一部分 DAN（PAM 神經元）」，沒有列型別或顆數 |
 | [[s-aso-2023-upwind-neurons]] | CsChrimson／ChrimsonR 光活化代替糖 | PAM-α1（MB043C）、β1β2（MB213B）、γ4（MB312C）、γ5β′2a（MB109B＋MB315C）；量 UpWiN 可塑性時用 R58E02-LexA（標到多型 PAM，作者自陳 β1 可能有貢獻） |
+| [[s-vogt-2014-shared-visual-olfactory-circuits]] | 不直接量多巴胺。以 [[e-shibire-ts]] 阻斷問必要性、以 [[e-dtrpa1]] 熱活化（31 °C）取代真增強訊號問充分性 | 廣譜：[[e-th-gal4]]、DDC-GAL4（另有 TDC2-GAL4 標章魚胺／酪胺當對照，兩種記憶都無影響）；窄譜：[[e-r58e02]]（PAM 群，獎賞）、[[e-mb504b]]（PPL1 四型，懲罰）。**條件刺激是顏色，不是氣味** |
 | [[s-yamada-2023-second-order-conditioning]] | 光遺傳（CsChrimson／ChrimsonR／Chrimson88，627 或 660 nm）活化各型 PAM 代替糖；TNT 阻斷；另以 DA2m 在離體腦量各區室實際收到的多巴胺 | **只做 PAM 群**：MB043C（PAM-α1，標到 5 顆／該型共 7 顆）、MB109B＋MB315C（γ5、β′2a，16／30）、MB213B（β1、β2，12／22）、MB312C（γ4，11／23）、MB032B（β′2m）、MB196B（γ4、γ4<γ1γ2、γ5、β′2a，約 27 顆）、R58E02-LexA。PPL1 完全沒有量 |
 
 品系的專一性問題見 [[e-split-gal4]]。
@@ -53,6 +54,7 @@ confidence: medium
 
 - **PPL 與 PAM 的時間規則在 Handler 2019 的行為資料裡不一樣。** Handler 把「DAN 比氣味晚幾秒」從負（DAN 在前）掃到正（DAN 在後），量果蠅之後追氣味的變化。PPL 與 PAM 都會在某個時間差上把效果翻成反方向，但翻轉的位置不同：PPL 約在 DAN 晚 0.49 s、PAM 約在 DAN 早 0.44 s，相差約 0.9 s（以相鄰兩點線性內插，本庫推算，見 [[numbers]]）。0 秒落在 PPL 翻轉點（+0.49 s）之前、PAM 翻轉點（−0.44 s）之後，所以氣味與 DAN 同時開始時，PPL 給的效果和它的逆向配對同方向，PAM 給的效果卻和它的順向配對同方向。至於 PPL 的翻轉點為何不同，論文沒有分子層次的檢驗：離體腦中的 cAMP 等分子實驗只做了 PAM 對 γ4 區室（見 [[t-timing-rules]]）。
 - **Hige 2015 只活化 PPL1**（TH-GAL4 那組另含少數 PAM），只看到突觸變弱；獎賞 DAN 會讓突觸往哪個方向變，該篇沒有測。
+- **「PAM 傳獎賞、PPL1 傳懲罰」這條分工在非嗅覺的條件刺激上也成立，但只有一篇測過。** [[s-vogt-2014-shared-visual-olfactory-circuits]] 把條件刺激換成顏色，阻斷與熱活化兩面各做一次，分工與嗅覺側相同。**不過它的解析度只到「群」**（PAM 整群、PPL1 四型一起），沒有做到型別，也沒有量任何多巴胺或突觸。
 - **「活化 DAN」不等於「真的懲罰或獎賞」。** 光遺傳與 ATP 都是人工刺激，見 [[c-us-substitution]]。Tomchik 2009 更是連 DAN 都沒動，直接把多巴胺加進灌流液；灌入的濃度也不等於組織內的實際濃度。
 - **品系涵蓋的範圍沒有完整列出**：MB504B 的六個區室、MB042B 涵蓋哪些區室，Handler 2019 都沒列出；行為結果因此可能來自 γ4 以外的區室。
 - **同一品系，各篇寫的涵蓋範圍不同。** MB099C（[[syn-contradictions]] 1.4）與 R58E02（1.5）都有兩種說法，本頁不裁決。
@@ -72,4 +74,4 @@ confidence: medium
 - 細胞型與品系：[[e-ppl1-gamma1pedc]]、[[e-ppl1-gamma2alpha1]]、[[e-ppl1-alpha2alpha2]]、[[e-ppl1-alpha3]]、[[e-pam-alpha1]]、[[e-mb099c]]、[[e-mb504b]]、[[e-r58e02]]、[[e-th-gal4]]
 - 概念：[[c-us-substitution]]、[[c-cs-us-timing]]、[[c-mb-compartment]]、[[c-camp-signaling]]
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]、[[t-mbon-dan-feedback]]、[[t-memory-updating]]；矛盾：[[syn-contradictions]]
-- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]
+- 來源：[[s-tomchik-2009-camp-dynamics]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]、[[s-vogt-2014-shared-visual-olfactory-circuits]]

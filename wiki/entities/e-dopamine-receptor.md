@@ -1,7 +1,7 @@
 ---
 title: KC 上的多巴胺受體（dopamine receptors DopR1／DopR2）
 created: 2026-10-25
-updated: 2026-11-13
+updated: 2026-11-21
 tags: [entity, active, mb-learning]
 confidence: medium
 ---
@@ -34,6 +34,7 @@ confidence: medium
 | Handler 2019 | DopR1−/−、DopR2−/−（基因型表寫 DopR1null、DopR2attP） | 全身 |
 | Kaldun 2025 | **條件式剔除**（CRISPR-Cas9 把 Dop1R2 的兩個共同編碼外顯子加上 FRT 與 3×HA 標籤，再以 UAS-FLP 切掉；那兩段含全部七個跨膜結構域，三個轉錄本一起失效） | 由 GAL4 決定：OK107（全蕈狀體）、5HTR1B（γ 葉）、c739（α/β 葉）、c305a（α′/β′ 葉）、elav（泛神經元，只用於補充實驗） |
 | Ichinose 2015 | 以 c739、MB008B 在 α/β KC，或以 MB310C、MB323B 在 MBON-α1 用 RNAi 降低 DopR1；在 *dumb²*（DopR1 失效的突變）背景下以 MB247 在 KC 補回 DopR1（救援） | RNAi 限選定細胞；降低程度未驗證 |
+| Vogt 2014 | ***dumb²***（DopR 的 PiggyBac 無效突變，插入片段帶 UAS，見 [[e-dumb2]]）；以 [[e-mb247-gal4]] 在 KC 中驅動 DopR⁺ 救援 | 突變為全身性；救援限 MB247 涵蓋的 KC（正文只寫「in the KCs」，未說明涵蓋哪幾類） |
 
 另：Aso 2016 討論中引 Crocker et al. 2016 說 KC 表現四種多巴胺受體，可能在各區室用法不同；Aso 2016 本身沒有操作受體，只是提到。[[s-gervasi-2010-pka-dynamics]] 也只是提到：它的模型（圖 8）只有「一個 D1 型受體」、沒有指名；討論中說 dDA1 與 DAMB 兩種受體都「正向偶聯到環化酶」、而且在各葉平均分布（PDF 第 11 頁）。這與 Handler 2019 的「DopR2（即 DAMB）偏好 Gαq、走內質網放鈣」不同。
 
@@ -47,13 +48,14 @@ confidence: medium
 | [[s-handler-2019-dopamine-receptor-timing]] | 離體 γ4/γ5 的 KC 軸突 cAMP、內質網鈣；γ4 MBON 的突觸變化；行為 | DopR1−/− 的 cAMP 降到野生型約 27%；DopR1−/−（兩份 DopR1 基因都剔除）不再出現順向配對（KC 先、多巴胺後）的減弱，DopR2−/− 不再出現逆向配對（多巴胺先、KC 後）的增強；兩種突變的行為彈性都受損 |
 | [[s-ichinose-2015-reward-recurrent-circuit]] | 24 小時糖獎賞記憶（LTM，見 [[c-memory-consolidation]]） | 在 α/β KC 降低 DopR1，LTM 約 0.13（c739）與約 0（MB008B），對照約 0.43–0.53；在 MBON-α1 降低則 n.s.；*dumb²* 救援組約 0.40、野生型約 0.57（圖判讀） |
 | [[s-burke-2012-octopamine-dopamine-reward]] | 在 *dumb¹*（DopR 突變，全身）中以 dTrpA1 活化章魚胺神經元，看能不能造出人工的糖記憶 | 帶 *dumb¹* 的各組都形不成記憶（全部 p > 0.05），同圖非突變的 Tdc2-GAL4;uas-dTrpA1 對照 p < 0.001（n ≥ 8）。作者據此主張多巴胺系統在章魚胺的下游；本篇沒有做細胞專一的救援，「DopR 要在 KC 上」是引 Kim et al. 2007 |
+| [[s-vogt-2014-shared-visual-olfactory-circuits]] | **顏色**制約的欲求與嫌惡記憶（立即測） | *dumb²* 兩種顏色記憶皆近零（+0.22／−0.21 → −0.01／−0.01）；KC 中補回 DopR⁺ 後，**嫌惡回復到約 97%、欲求只回到約 58%**（本庫計算；論文只寫 restores both forms，且只檢定「突變 vs 救援」）。關鍵對照：*dumb²* 與救援組的天生電擊迴避**都**異常（表 1），但救援組記憶回復，因此記憶缺陷不是感覺缺陷 |
 | [[s-kaldun-2025-dop1r2-memory-phases]] | 嫌惡（電擊）與獎賞（糖）制約後 0、2、24 小時的學習指數，四種剔除範圍 | 剔除 Dop1R2（即 DopR2）**不影響當場測的記憶**（八格全部 ns）；2 與 24 小時的記憶在 α/β 與 α′/β′ 葉受損、γ 葉不受影響。剔除組相對於三組對照平均的殘存比例：2 小時嫌惡 15–21%、2 小時獎賞 53–59%、24 小時兩種訓練 12–25%（※ 從圖判讀，本庫計算） |
 
 數值見 [[numbers]]。
 
 ## 已知的問題
 
-- **「救回」與「回到原水準」不同。** Ichinose 2015 的救援組與野生型「無顯著差異」，但柱高約為野生型七成，且 n＝7、缺「同型合子只帶 MB247」的對照。
+- **「救回」與「回到原水準」不同。** Ichinose 2015 的救援組與野生型「無顯著差異」，但柱高約為野生型七成，且 n＝7、缺「同型合子只帶 MB247」的對照。[[s-vogt-2014-shared-visual-olfactory-circuits]] 是同一個問題的第二例：嫌惡顏色記憶回復到約 97%、欲求只回到約 58%，而論文一律寫成 restores both forms，星號只畫在「突變 vs 救援」之間。**兩篇都用 *dumb²* ＋ MB247 這同一套救援，兩篇都沒有檢定「救援 vs 野生型」。** 見 [[e-dumb2]]。
 - **突變與 RNAi 結果不一定一致。** Cohn 2015 的 DopR2 突變是「倒轉」，RNAi 是「變平」；可能是減量不完全，也可能有 KC 以外的 DopR2 參與（該來源頁的推論，論文未討論）。突變為全身性，不能單獨定位到 KC。
 - **量的東西不同，方向不能直接拼。** Cohn 量末梢鈣分布（不是突觸強弱，也不是配對後）；Handler 量配對後的 KC→MBON 突觸；Ichinose 量行為。Cohn 只看到 DopR2 影響 KC 末梢的鈣分布；說 DopR2 與突觸「變強」有關，是該篇討論段的推測，配對實驗中沒有操弄受體（見 [[s-cohn-2015-coordinated-neuromodulation]] 第六節）。
 - **Handler 的 DopR1−/− 在順向配對後反成弱增強，Handler 的模型解釋不了。** 這個模型把突觸變化看成兩條路相減：DopR1（cAMP）推向減弱，DopR2（內質網放鈣）推向增強；內質網只在多巴胺先到時才放鈣（見 [[e-gcamp]]），DopR1−/− 在順向配對時也沒有放鈣。照模型，拿掉 DopR1 只會讓「減弱」消失，不會變成增強（見 [[s-handler-2019-dopamine-receptor-timing]] 3.6）。
@@ -67,5 +69,5 @@ confidence: medium
 - 細胞：[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]
 - 概念：[[c-camp-signaling]]、[[c-kc-mbon-plasticity]]、[[c-coincidence-detection]]、[[c-presynaptic-calcium]]、[[c-memory-consolidation]]
 - 品系：[[e-c739-gal4]]
-- 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]
-- 來源：[[s-cohn-2015-coordinated-neuromodulation]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-kaldun-2025-dop1r2-memory-phases]]
+- 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]、[[t-visual-learning-circuits]]
+- 來源：[[s-cohn-2015-coordinated-neuromodulation]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-kaldun-2025-dop1r2-memory-phases]]、[[s-vogt-2014-shared-visual-olfactory-circuits]]（見 [[e-dumb2]]）

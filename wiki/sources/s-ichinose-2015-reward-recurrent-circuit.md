@@ -495,7 +495,7 @@ flowchart TD
 - 主題：[[t-mbon-dan-feedback]]（MBON-α1 → PAM-α1 迴圈）、[[t-memory-updating]]（訓練後第一小時的鞏固窗）、[[t-dopamine-to-plasticity]]、[[t-timing-rules]]
 - 本批（2026-10-25 第二批）已開頁、與本篇相關：[[e-pam-alpha1]]、[[e-c739-gal4]]、[[e-shibire-ts]]、[[e-dopamine-receptor]]、[[c-memory-consolidation]]、[[t-mbon-dan-feedback]]、[[c-odor-generalization]]
 - 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-aso-2014-mb-architecture]]、[[s-burke-2012-octopamine-dopamine-reward]]
-- 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，如細胞、基因、工具，`c-` 開頭為概念頁）：[[e-mbon-alpha1]]、`e-mb310c`、`e-mb323b`、`e-mb008b`、`e-mb247-gal4`、`e-nmda-receptor`、[[e-grasp]]、[[e-mcfo]]、[[c-appetitive-memory]]
+- 待開頁面（本庫尚未建立的頁面名稱；`e-` 開頭為實體頁，如細胞、基因、工具，`c-` 開頭為概念頁）：[[e-mbon-alpha1]]、`e-mb310c`、`e-mb323b`、[[e-mb008b]]（2026-11-21 已開頁）、[[e-mb247-gal4]]（2026-11-21 已開頁）、`e-nmda-receptor`、[[e-grasp]]、[[e-mcfo]]、[[c-appetitive-memory]]
 
 ## 出處
 
