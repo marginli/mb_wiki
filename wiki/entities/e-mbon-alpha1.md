@@ -19,7 +19,7 @@ confidence: medium
 - **LI、PI**：行為分數，一群果蠅在兩種氣味間選擇換算成的一個數，0＝沒有偏好（見 [[c-performance-index]]）。
 - **驅動品系**：讓外加基因只在選定神經元表現的果蠅品系；split-GAL4 把 GAL4 拆成兩半，兩半都在的細胞才有作用（[[e-split-gal4]]）。基因型「X/+」是只帶一個品系的對照組。
 - **工具**：CsChrimson 照紅光讓神經元放電（[[e-cschrimson]]）；dTrpA1 遇熱讓神經元放電（`e-dtrpa1`）；shibire^ts1（shi）升溫時暫時關掉神經元的輸出（[[e-shibire-ts]]）；GRASP 檢驗兩顆細胞的膜是否緊貼（[[e-grasp]]）；全細胞記錄＝把玻璃電極接上細胞、直接量電位（[[c-whole-cell-patch-clamp]]）。
-- **連結體、hemibrain**：用電子顯微鏡重建的全腦接線圖；hemibrain 是其中一份（[[e-hemibrain]]）。「兩跳」＝中間隔兩個神經元的路徑。
+- **連結體、hemibrain**：用電子顯微鏡重建的神經接線圖；hemibrain 是其中一份（[[e-hemibrain]]），只涵蓋半邊中央腦。「兩跳」＝中間隔兩個神經元的路徑。
 - **UpWiN**：Aso 2023 命名的一群「迎風神經元」，活化時果蠅轉向上風。
 - **標記**：※ 推論＝本庫推得、原文沒明說；？待查＝要靠其他資料確認；「從圖判讀」＝從圖上估讀的值；「該頁」指表格同一列的來源頁。
 
