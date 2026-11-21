@@ -101,7 +101,7 @@ confidence: high
 15. （2026-11-20 Dylla 2017 補跑冷讀）[[s-dylla-2017-trace-conditioning-dan-plasticity]] 3.6 原寫「0.6–1.0 是訓練期間各回合平均值的範圍」。依圖 5B，這個範圍涵蓋第 4–10 與第 13 回合中有給 CS 的回合，**包含訓練後**；起點（第 2 回合）兩組都約 0.7，配對組第 13 回合約 1.0，原文說訓練前後「equally similar」。
 16. （同上）同頁電流相關分析的隻數原寫「每區 19–40 隻；40 大於單組隻數，應是兩組合併」。依圖 3B–C 面板標示改為 DAN 每區 35–40 隻、KC 每區 19–38 隻，並寫明它比任一組多、卻比兩組相加（41 隻以上）少，原因 `？待查`。
 
-### 丙、宣稱唯一性（7 處）
+### 丙、宣稱唯一性（8 處）
 
 1. [[s-tomchik-2009-camp-dynamics]] 的「為什麼重要」寫了「本篇是第一批用遺傳編碼 cAMP 感測器在果蠅腦裡看見這件事的研究之一」。原文沒有這樣的優先權宣稱，改為引述作者自己的措辭。由整合者在第二輪冷讀修改時發現。
 2. （第二批）[[s-felsenberg-2017-re-evaluation]] 初稿寫「本庫第一篇用阻斷操作 DAN」，撰寫者自己依寫作紀律第 10 條（`ingest-paper` skill 的寫作規則：「不要宣稱唯一性，除非全部讀完」）刪除。
@@ -111,8 +111,9 @@ confidence: high
 5. （第一批 11 篇，平行撰寫造成）[[s-eschbach-2021-learned-innate-valence-integration]] 寫「本庫的成蟲論文目前沒有任何一篇處理 MBON 下游的哪一顆細胞讀出記憶」，同批的 Aso 2023 正是這樣的論文。平行撰寫的來源頁看不到彼此。已改正。
 6. （Aso 2019 補跑冷讀）[[s-aso-2019-nitric-oxide-cotransmitter]] 第五節第 2 條原寫「唯一的成像是 MBON 的鈣」。方法節的鈣成像有兩組受測細胞（MBON-γ1pedc，以及 γ3、γ4、γ5 的 PAM DAN，照光強度 1.2 與 0.89 mW/mm²），改為「唯一量到細胞活動的成像是鈣成像」並列出兩組。
 7. （Eschbach 2021 補跑冷讀）[[s-eschbach-2021-learned-innate-valence-integration]] 專業文第一節寫「本庫收錄的成蟲論文**都**在處理『學習怎麼改變 KC→MBON』」，但同頁第六節自己就寫了同批的 [[s-aso-2023-upwind-neurons]] 處理 MBON 的下游。改為「多半停在」並補指第六節。這一頁 2026-11-13 已更正過一次同類的全稱句（本類第 5 條），是同一處殘留。
+8. （Pribbenow 2022 補跑冷讀）[[s-pribbenow-2022-postsynaptic-plasticity]] 寫「本庫第一篇直接操作突觸後那一側的分子」，但 [[s-ichinose-2015-reward-recurrent-circuit]] 已在 MBON-α1 用 RNAi 降低多巴胺受體 DopR1（該頁圖 6A），[[s-eschbach-2021-learned-innate-valence-integration]] 也用 mecamylamine 阻斷菸鹼型乙醯膽鹼受體並量 KC→MBON-m1 的反應。收窄為「本庫第一篇在 MBON 裡專一地操作『接收 KC 訊號』的受體（nAChR）與固定它的支架蛋白 Dlg」。第二個反例是改寫代理回查後拒絕執行主持者的原指示才找到的。
 
-### 丁、把論文的條件句或引用讀成斷言（14 處）
+### 丁、把論文的條件句或引用讀成斷言（16 處）
 
 1. [[s-tomchik-2009-camp-dynamics]] 原把正文「多巴胺的反應在 11.9% 飽和」讀成感測器本身的上限。圖 2B、2D 顯示 forskolin 可達約 40%，改為「多巴胺能啟動的 cAMP 上限」，並據此說明配對反應沒有撞到感測器天花板。
 2. [[s-handler-2019-dopamine-receptor-timing]] 原把「DopR2 即 DAMB」當成論文明說。grep 後只出現在參考文獻與抗體名稱中，改寫為非論文明說。
@@ -129,8 +130,10 @@ confidence: high
 12. （同上）同頁「為什麼重要」寫 NO「改變 KC 內的 cGMP 濃度」。本篇沒有量過 cGMP，這一步是從「sGC 是必要的」推出來的，已加註。
 13. （同上）同頁兩處（為什麼重要、科普文）把「NO 把突觸拉高」寫成結果。這是模型假設，本篇沒有直接量到（PDF 第 13 頁作者自寫 testing this idea … will require physiological experiments），已加註。
 14. （同上）同頁科普文原寫「作者自己的說法是，這是平衡、不是遺忘」。原文是「can be viewed as a balance … rather than the loss of information」（PDF 第 17 頁），改為作者認為「可以看成」平衡，並補上作者自承要確認得先了解下游路徑。
+15. （Pribbenow 2022 補跑冷讀）[[s-pribbenow-2022-postsynaptic-plasticity]] 寫「脊椎動物的記憶**很大一部分**存在收訊號的一側」。本頁自己的摘要中譯是「有**數種**與記憶有關的突觸可塑性涉及麩胺酸受體在突觸後的重新排列」（several forms），已改回原文的力道。
+16. （同上）同頁把 α1、α2、α5 降低後的 3 小時獎賞記憶寫成「記憶**消失**」。原文對這三者用 significant memory impairment（顯著受損），只對 Dlg 用 abolished（PDF 第 7 頁），已改為「顯著受損」。
 
-### 戊、其他：數錯、混數、誤認資料（36 處）
+### 戊、其他：數錯、混數、誤認資料（41 處）
 
 1. [[s-tomchik-2009-camp-dynamics]] 3.2 節原寫「同一群細胞、同一次給藥，樹突與軸突結果不同」。第一輪冷讀者抓出前後矛盾，回查圖 3D 圖說，萼部與葉部的紀錄來自兩組不同的腦，改為「組間比較，證據比字面弱」。
 2. [[s-tomchik-2009-camp-dynamics]] 章魚胺配對實驗原寫「四個條件中三個顯著」，圖 5J 有五個條件，改為「五個中三個」。
@@ -171,6 +174,11 @@ confidence: high
 34. （同上）同頁四、主張四寫「只解釋了其中 NOS 陽性的 γ1pedc 一型」，六、未來又寫「NOS 陽性的 α′2α2」，兩處互相衝突。改為寫出 TPM 與門檻（γ1pedc 22、α′2α2 8，低於火山圖的 10 TPM 門檻，圖 9B 的 NOS 列標「−」）。
 35. （同上）同頁二、方法把推斷出的 γ 值寫成「分別為 14.8 與 12.6」，隱含了與某一組條件的對應。原文「the inferred values of g are similar for the two cases; 14.8 and 12.6, respectively」裡的 the two cases 有兩種讀法（DA-null／NO-null 的順序，或 A_D／A_N 的順序），結果剛好相反，改為不做對應並標 `？待查`。
 36. （同上）同頁第五節第 1 條漏了圖 6B（正常果蠅餵 L-NNA 的陰性結果）、第 6 條漏了 γ4 的抗體與 RNA 不一致、第 3 條把圖 6E 與圖 6D 當成同等強度的補強，三處已補齊或分級。
+37. （Pribbenow 2022 補跑冷讀）[[s-pribbenow-2022-postsynaptic-plasticity]] 科普文把升溫阻斷的時程寫成「訓練時關掉 KC，**30 分鐘後恢復常溫再測**」。實際是訓練前 30 分鐘就升到 32 °C、訓練全程維持、訓練一結束降回約 23 °C、訓練後 30 分鐘才測驗（PDF 第 3–4 頁與方法節、圖 1 圖說）。同頁專業文 3.1 與方法節原本就寫對——科普文與自己的專業文矛盾。
+38. （同上）同頁把 FRAP 的恢復速度讀成「外面的受體**搬進來得越多**」。FRAP 量的是分子在動，分不出新受體插上來還是旁邊既有的受體移過來，也不等於總量變化（本頁用語表與「圖」小節對圖 6 的解讀都寫對），已改。
+39. （同上）同頁兩節都漏掉唯一的嫌惡記憶例外：3 小時嫌惡記憶只有 α7 受影響（PDF 圖 2d 段「with the exception of α7 at the 3-hr time point」，專業文 3.2 的表格也列著），而科普文與「為什麼重要」各寫成「電擊記憶幾乎都正常」「找不到突觸後的需求」。
+40. （同上）同頁把 TTX 寫成「讓整個腦的神經放電停下」，與同段「紅光仍讓 PAM 釋放多巴胺」字面打架。改用圖 3 原圖說的說法（壓住迴路的回饋訊號與整體網路活動）；用語表那一列也同步，並標明本篇沒有解釋 TTX 下紅光為何仍有效（`？待查`）。
+41. （同上）同頁把 α5 寫成只影響立即記憶，與專業文 3.2 的表格牴觸。原文是 α5 的立即與 3 小時獎賞記憶都受影響，α1、α2 只在 3 小時（PDF 第 5 頁、圖 2b 圖說），已改。
 
 ### 庚、敘述沒跟著改（3 處）
 
@@ -290,9 +298,9 @@ Gervasi 等 2010 在 10-27 寫完來源頁（冷讀 4 輪）後就停住：主�
 
 ## 現在的狀態
 
-- 24 篇來源、6 條主題、22 個概念、46 個實體、2 個綜述，分屬兩個研究問題群。第一批 11 篇的整合已於 2026-11-13 換模型後補完（主題頁、概念與實體頁、新建 6 個實體頁、來源頁交叉連結、矛盾清單空缺 3.16–3.20）。**本批收錄時未經冷讀**（使用者決定；見 log 2026-11-13），之後分批補跑：2026-11-13／14 完成 5 頁（[[t-mbon-to-action]]、[[t-innate-learned-integration]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-aso-2014-mb-architecture]]、[[s-burke-2012-octopamine-dopamine-reward]]），2026-11-19／20 完成 [[s-dylla-2017-trace-conditioning-dan-plasticity]] 與 [[s-aso-2014-mbon-valence]]，2026-11-21 完成 [[s-aso-2019-nitric-oxide-cotransmitter]] 與 [[s-eschbach-2021-learned-innate-valence-integration]]，**尚餘 4 頁未跑**（Pribbenow 2022、Aso 2023、Yamada 2023、Kaldun 2025）。**自 Eschbach 2021 起範圍縮小為只冷讀「為什麼重要」與「科普文」兩段**（使用者 2026-11-21 的決定，為控制額度；專業文與其餘小節逐字不動，驗收讀者仍讀完整頁面以便對照抓錯）。
+- 24 篇來源、6 條主題、22 個概念、46 個實體、2 個綜述，分屬兩個研究問題群。第一批 11 篇的整合已於 2026-11-13 換模型後補完（主題頁、概念與實體頁、新建 6 個實體頁、來源頁交叉連結、矛盾清單空缺 3.16–3.20）。**本批收錄時未經冷讀**（使用者決定；見 log 2026-11-13），之後分批補跑：2026-11-13／14 完成 5 頁（[[t-mbon-to-action]]、[[t-innate-learned-integration]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-aso-2014-mb-architecture]]、[[s-burke-2012-octopamine-dopamine-reward]]），2026-11-19／20 完成 [[s-dylla-2017-trace-conditioning-dan-plasticity]] 與 [[s-aso-2014-mbon-valence]]，2026-11-21 完成 [[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-eschbach-2021-learned-innate-valence-integration]] 與 [[s-pribbenow-2022-postsynaptic-plasticity]]，**尚餘 3 頁未跑**（Aso 2023、Yamada 2023、Kaldun 2025）。**自 Eschbach 2021 起範圍縮小為只冷讀「為什麼重要」與「科普文」兩段**（使用者 2026-11-21 的決定，為控制額度；專業文與其餘小節逐字不動，驗收讀者仍讀完整頁面以便對照抓錯）。
 - 範圍自 2026-11-12 起為「果蠅的學習與記憶，以及蕈狀體本身」，由原本只收蕈狀體擴大而來。
-- 待裁決的跨來源矛盾 11 條；沒有人處理的空缺 21 條（編號到 3.21，其中 3.5 已轉為矛盾 1.8，編號保留不重排），見 [[syn-contradictions]]。
+- 待裁決的跨來源矛盾 12 條（2026-11-21 新增 1.12：Pribbenow 2022 把 Hige 2015 讀成「已排除突觸後」，Hige 2015 自己未裁定）；沒有人處理的空缺 21 條（編號到 3.21，其中 3.5 已轉為矛盾 1.8，編號保留不重排），見 [[syn-contradictions]]。
 - Tully 1985 本來就沒有補充資料（1985 年）、Tumkaya 2025 沒有補充圖表；其餘十篇中只有 Felsenberg 2017、2018 附了部分補充資料（Huang 2024 的 PDF 含延伸圖，但模型參數所在的 Supplementary Information 未取得），其餘都未取得，需人工下載（網址見 `intake.md`）。
 - 公開網站：GitHub Pages，全文連 PMC（Tully 1985 無免費全文，只給 DOI），原圖逐圖標出處。
 
