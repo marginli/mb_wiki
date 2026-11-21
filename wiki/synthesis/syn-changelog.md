@@ -300,7 +300,7 @@ Gervasi 等 2010 在 10-27 寫完來源頁（冷讀 4 輪）後就停住：主�
 
 - 24 篇來源、6 條主題、22 個概念、46 個實體、2 個綜述，分屬兩個研究問題群。第一批 11 篇的整合已於 2026-11-13 換模型後補完（主題頁、概念與實體頁、新建 6 個實體頁、來源頁交叉連結、矛盾清單空缺 3.16–3.20）。**本批收錄時未經冷讀**（使用者決定；見 log 2026-11-13），之後分批補跑：2026-11-13／14 完成 5 頁（[[t-mbon-to-action]]、[[t-innate-learned-integration]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-aso-2014-mb-architecture]]、[[s-burke-2012-octopamine-dopamine-reward]]），2026-11-19／20 完成 [[s-dylla-2017-trace-conditioning-dan-plasticity]] 與 [[s-aso-2014-mbon-valence]]，2026-11-21 完成 [[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-eschbach-2021-learned-innate-valence-integration]] 與 [[s-pribbenow-2022-postsynaptic-plasticity]]，**尚餘 3 頁未跑**（Aso 2023、Yamada 2023、Kaldun 2025）。**自 Eschbach 2021 起範圍縮小為只冷讀「為什麼重要」與「科普文」兩段**（使用者 2026-11-21 的決定，為控制額度；專業文與其餘小節逐字不動，驗收讀者仍讀完整頁面以便對照抓錯）。
 - 範圍自 2026-11-12 起為「果蠅的學習與記憶，以及蕈狀體本身」，由原本只收蕈狀體擴大而來。
-- 待裁決的跨來源矛盾 12 條（2026-11-21 新增 1.12：Pribbenow 2022 把 Hige 2015 讀成「已排除突觸後」，Hige 2015 自己未裁定）；沒有人處理的空缺 21 條（編號到 3.21，其中 3.5 已轉為矛盾 1.8，編號保留不重排），見 [[syn-contradictions]]。
+- 待裁決的跨來源矛盾 11 條（編號到 1.12，其中 1.12 於 2026-11-21 經使用者裁決為「不算矛盾、算 Pribbenow 2022 轉述前人的過度簡化」，編號保留不重排）；沒有人處理的空缺 21 條（編號到 3.21，其中 3.5 已轉為矛盾 1.8，編號保留不重排），見 [[syn-contradictions]]。
 - Tully 1985 本來就沒有補充資料（1985 年）、Tumkaya 2025 沒有補充圖表；其餘十篇中只有 Felsenberg 2017、2018 附了部分補充資料（Huang 2024 的 PDF 含延伸圖，但模型參數所在的 Supplementary Information 未取得），其餘都未取得，需人工下載（網址見 `intake.md`）。
 - 公開網站：GitHub Pages，全文連 PMC（Tully 1985 無免費全文，只給 DOI），原圖逐圖標出處。
 
