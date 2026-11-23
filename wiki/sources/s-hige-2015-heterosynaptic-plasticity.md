@@ -2,7 +2,7 @@
 title: "Heterosynaptic Plasticity Underlies Aversive Olfactory Learning in Drosophila"
 citation: "Neuron 88(5), 985–998 (2015). doi: 10.1016/j.neuron.2015.11.003 [全文（PMC 免費閱讀）](https://pmc.ncbi.nlm.nih.gov/articles/PMC4674068/)"
 created: 2026-10-25
-updated: 2026-11-12
+updated: 2026-11-24
 tags: [source, active, mb-learning]
 confidence: high
 ---
@@ -364,6 +364,7 @@ flowchart TD
 - [[numbers]] — 本篇貢獻 MBON-γ1pedc 的 LTD 幅度（尖峰 −80%、電荷 −90%）、CS− 的部分抑制（27% vs 20%）、KC 重疊（30%／33%）、類化相關 r = 0.90、各實驗 n 與協定參數
 - 本庫已有的相關頁：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-split-gal4]]、[[e-cschrimson]]、[[e-gcamp]]、[[c-kc-mbon-plasticity]]、[[c-mb-compartment]]、[[c-cs-us-timing]]、[[c-us-substitution]]、[[c-performance-index]]、[[e-dopaminergic-neuron]]、[[e-mbon]]
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]；矛盾與空缺：[[syn-contradictions]]
+- 主題：[[t-stereotypy-to-individualization]]（本篇是該線唯一同時量到「KC 的代碼沒動、MBON 的輸入降約九成」的一篇；其引言也是庫內確認 Hige 2015 *Nature* 個體化那篇出處的來源）
 - 本批（2026-10-25 第二批）已開頁、與本篇相關：[[e-mbon-gamma1pedc]]、[[e-ppl1-gamma1pedc]]、[[e-mbon-gamma2alpha1]]、[[e-mb099c]]、[[e-th-gal4]]、[[c-odor-generalization]]、[[c-whole-cell-patch-clamp]]
 - 概念：[[c-sparse-coding]]（本篇與 [[s-minnick-2026-untrained-connectome]] 使它在 2026-11-12 達到開頁門檻）
 - 實體：[[e-mbon-alpha2sc]]、[[e-ppl1-alpha2alpha2]]（因 [[s-huang-2024-dopamine-memory-dynamics]] 在 2026-11-13 達到開頁門檻）

@@ -716,6 +716,7 @@ Fly Bowl 的結果是：各品系的活動量與各自的 GAL4/+ 對照有高低
 
 - [[numbers]] — 本篇貢獻了 MBON 型別與細胞數（21 型 34 顆、加萼部共 22 型）、光遺傳協定參數（617 nm、34 µW/mm²、n＝11–29）、篩檢的顯著品系數、軌跡分析的相關係數、各記憶作業的協定與效果量、睡眠協定
 - 主題：[[t-mbon-dan-feedback]]（MBON 末梢落在別格 DAN 樹突的解剖觀察；「與 DAN 相反」通則是各篇回饋模型的前提）、[[t-timing-rules]]（「突觸變弱或變強對行為的意義」表的方向全部引自本篇）、[[t-dopamine-to-plasticity]]（本篇推論多巴胺讓 KC→MBON 變弱）、[[t-memory-updating]]（多層前饋網路處理新舊記憶衝突的提議；酒精記憶由嫌惡轉獎賞）
+- 主題：[[t-stereotypy-to-individualization]]（本篇提供「重建出來的秩序長什麼樣」：21 型 MBON 的固定分工，以及「學習只改讀出、不改 KC 的代碼」這個框架）
 - 概念：[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-us-substitution]]、[[c-performance-index]]、[[c-spaced-training]]
 - 實體：[[e-mbon]]、[[e-mbon-gamma1pedc]]、[[e-mbon-gamma2alpha1]]、[[e-mbon-gamma4]]、[[e-mbon-gamma5beta2a]]、[[e-mbon-alpha2sc]]、[[e-ppl1-gamma1pedc]]、[[e-dopaminergic-neuron]]、[[e-split-gal4]]、[[e-cschrimson]]、[[e-shibire-ts]]、[[e-t-maze]]、[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-dtrpa1]]
 - 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-huang-2024-dopamine-memory-dynamics]]

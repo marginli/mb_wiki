@@ -261,7 +261,7 @@ split-GAL4 找到 **20 型 DAN**（PAM 14 型、PPL1 6 型）、超過 100 顆�
 
 **主張一：蕈狀體葉的基本計算單元是區室。** 證據強。三條獨立線索一致：MBON 樹突鋪滿且互不重疊（對位＋雙色標記）、DAN 末梢對齊同一格、交界處突觸密度較低。弱點是「單元」的功能含意完全未測——本篇沒有任何生理或行為資料，區室是否真的是獨立的學習單元，要靠 [[s-hige-2015-heterosynaptic-plasticity]]（越界測試）與 [[s-aso-2016-dan-cell-type-rules]]（逐格行為規則）這類後續研究。
 
-**主張二：KC 的亂序輸入與極端收斂，是為了「先攤開、再壓扁」。** 這是把本篇的數字（2000 顆 KC、每顆 6.4 個隨機爪、34 顆 MBON）接到既有理論上的詮釋，引 Perez-Orive et al. 2002、Huerta et al. 2004、Caron et al. 2013 等。論證合理但不是本篇測出來的；「MBON 表示狀態量而非氣味身分」當時還沒有生理證據——這篇論文的正文引的是 Hige et al. 未發表，「未發表」指的是本篇 2014 年投稿當時的狀態（那份資料後來以哪一篇發表，本頁沒有記載，？待查）。
+**主張二：KC 的亂序輸入與極端收斂，是為了「先攤開、再壓扁」。** 這是把本篇的數字（2000 顆 KC、每顆 6.4 個隨機爪、34 顆 MBON）接到既有理論上的詮釋，引 Perez-Orive et al. 2002、Huerta et al. 2004、Caron et al. 2013 等。論證合理但不是本篇測出來的；「MBON 表示狀態量而非氣味身分」當時還沒有生理證據——這篇論文的正文引的是 Hige et al. 未發表，「未發表」指的是本篇 2014 年投稿當時的狀態。**那份資料後來發表為 Hige, T., Aso, Y., Rubin, G.M. & Turner, G.C. (2015) "Plasticity-driven individualization of olfactory coding in mushroom body output neurons", *Nature* 526, 258–262**（2026-11-24 解除原本的 `？待查`）。依據是庫內 [[s-hige-2015-heterosynaptic-plasticity]]：該篇的參考文獻列出完整出處，而其引言在**同一個語境**下引用它——「MBON 在天真的動物之間就已經有差異，顯示 MBON 的反應是透過經驗依賴的可塑性被個體化的」——與本篇討論節那句「同一型 MBON 的氣味反應在不同果蠅之間不一樣，而這些差異看起來取決於可塑性」內容相符，作者群也相符。該篇本庫尚未收錄，見 [[t-stereotypy-to-individualization]] 的缺口第二條。
 
 **主張三：多層前饋網路使「學習例外」成為可能**——先學會「這一類氣味都是壞的」，之後發現其中某一個其實安全時，不必整類重學。這是純推論，作者自己用的句型是「Consider a learning scenario…」。本篇沒有測三型前饋 MBON 中任何一型的功能。
 
@@ -617,6 +617,7 @@ split-GAL4 找到 **20 型 DAN**（PAM 14 型、PPL1 6 型）、超過 100 顆�
 
 - [[numbers]] — 本篇貢獻了蕈狀體的規模數字（7／21／20 型、約 2000／34／約 130 顆、15 區室、37 基本分區、七型 KC 各自的顆數）、PAM 顆數的三套估計、收斂比上下限、神經氈分布的百分比，以及 split-GAL4 篩選的規模
 - 主題：[[t-dopamine-to-plasticity]]（區室是「訊號限在一格之內」這個問題的前提）、[[t-mbon-dan-feedback]]（MBON 末梢與 DAN 樹突重疊，是整條線的解剖起點）、[[t-timing-rules]]（各格的規則差異建立在本篇的分格上）、[[t-memory-updating]]（三型前饋 MBON 被作者提為「修改舊學習」的機制）
+- 主題：[[t-stereotypy-to-individualization]]（這條線的骨架全部出自本篇：入口層刻板、萼部「丟棄」秩序、下游必須重建秩序。**三句都是引言與討論節的論述，不是本篇的量測**）
 - 概念：[[c-mb-compartment]]（本頁是該概念的出處）、[[c-sparse-coding]]、[[c-kc-mbon-plasticity]]
 - 實體：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-mbon]]、[[e-dopaminergic-neuron]]、[[e-split-gal4]]、[[e-mb504b]]、[[e-mb099c]]、[[e-th-gal4]]、[[e-r58e02]]、[[e-ppl1-gamma1pedc]]、[[e-ppl1-gamma2alpha1]]、[[e-ppl1-alpha2alpha2]]、[[e-ppl1-alpha3]]、[[e-pam-alpha1]]、[[e-mbon-gamma1pedc]]、[[e-mbon-gamma2alpha1]]、[[e-mbon-gamma4]]、[[e-mbon-gamma5beta2a]]、[[e-mbon-alpha2sc]]
 - 姊妹篇：[[s-aso-2014-mbon-valence]]（同一套品系的行為與功能測試）

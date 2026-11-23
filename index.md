@@ -107,6 +107,20 @@ MBON 的活動怎麼變成果蠅的動作？成蟲的逐型活化顯示推動靠
 
 ---
 
+## 氣味代碼的刻板性與個體化
+
+**同一個氣味在每隻果蠅的嗅葉點亮同一組嗅小球，在蕈狀體卻點亮一群至今找不出固定樣式的 Kenyon 細胞。** 這是 2026-11-24 成立的問題群（tag `mb-odor-coding`），由使用者讀 [[s-aso-2014-mb-architecture]] 的科普文時提出的兩個問題逼出來：「真的每隻果蠅都不一樣嗎」與「學習會不會改變 PN 到 KC 的接線」。前者使本庫發現自己把一句三手轉述寫成了定論，後者使本庫發現庫內 28 篇來源沒有一篇測過這件事。這一群關心的是**學習之前**的那張代碼表——它在哪一層固定、在哪一層失去固定、以及固定與否如何限制了「能從一份連結體推論到哪裡」。
+
+### [[t-stereotypy-to-individualization]]｜氣味代碼在哪一層不再固定
+
+嗅葉那一層固定得很徹底（氣味對應一組位置固定的嗅小球，PN 的形態在個體間可疊合，被認為是基因決定的），而蕈狀體的萼「丟棄」了這個秩序：每顆 Kenyon 細胞從約 200 條投射神經元裡抓 6 條左右，知道一條推不出其餘。但「丟棄」不等於均勻亂灑——[[s-li-2020-mb-connectome]] 實測出結構，而結構在「KC 型別 × 嗅小球」這個層級（相對幅度 9–14%，γ 型看不到偏離），不在單顆 KC 的組合；[[s-ganguly-2024-visual-inputs-to-kc]] 在視覺側連隨機與刻板兩個模型都分不開。秩序在輸出端以另一種形式回來：**回來的是 21 型 MBON「誰讀哪一段、推動靠近還是走開」的固定分工，不是內容**——同一型 MBON 的氣味反應在天真個體之間就已經分歧，而且被歸因於可塑性。學習寫在 KC→MBON 那一層而不是接線上（[[s-hige-2015-heterosynaptic-plasticity]] 直接量到 KC 的代碼沒動、MBON 的輸入降約九成），但「接線不會因學習而變」在本庫是**沒有人測過**，不是已被否證。
+
+- 概念：[[c-sparse-coding]]、[[c-mb-compartment]]、[[c-valence-coding]]
+- 實體：[[e-kenyon-cell]]、[[e-mbon]]、[[e-accessory-calyx]]
+- 來源：[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-li-2020-mb-connectome]]、[[s-ganguly-2024-visual-inputs-to-kc]]
+
+---
+
 ## 實驗工具（實體頁）
 
 不屬於單一主題、但讀實驗細節時常要查的工具：

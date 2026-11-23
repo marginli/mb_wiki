@@ -2,7 +2,7 @@
 title: "Diversity of visual inputs to Kenyon cells of the Drosophila mushroom body"
 citation: "Nature Communications 15, 5698 (2024)（文章編號制，無期號與起迄頁；PDF 共 18 頁）. doi: 10.1038/s41467-024-49616-z [全文（PMC 免費閱讀）](https://pmc.ncbi.nlm.nih.gov/articles/PMC11228034/)"
 created: 2026-11-21
-updated: 2026-11-21
+updated: 2026-11-24
 tags: [source, active, visual-learning]
 confidence: high
 ---
@@ -397,6 +397,7 @@ VPN 到 LVIN 的連結**不是隨機的**。LC15 的每一顆只接到 PVLP.SCL.
 ## 相關
 
 - 主題：[[t-visual-learning-circuits]] — 本篇在這條線上提供的是**供給面**（視覺訊息進得了蕈狀體），功能那一半完全沒有測
+- 主題：[[t-stereotypy-to-individualization]]（本篇在該線上有兩個角色：視覺側同樣看不出刻板，以及提供庫內唯一的入口層陽性對照（嗅覺感覺神經元→投射神經元）。但其檢定分不開隨機與刻板兩個模型，見本頁稽核第 7 條）
 - ⚠️ **矛盾 1.14｜視覺 Kenyon 細胞有幾顆｜未裁決**：[[s-aso-2014-mb-architecture]] 的 γd 約 75 顆（光學標核計數）對本篇 FlyWire 的 147 顆（連結體逐顆計數），差近一倍；兩者的量法與分型依據都不同，所以先查定義。另見 1.13（視覺記憶需不需要蕈狀體，本篇引用的兩篇正是對立的兩側）。詳見 [[syn-contradictions]]
 - 概念：[[c-sparse-coding]]（本篇提供的是解剖層的稀疏——每顆 KC 只收 1–7 個輸入、中位數 3——與該頁現有的活動層稀疏不是同一個量）
 - 實體：[[e-kenyon-cell]]、[[e-mushroom-body]]、[[e-hemibrain]]（本篇只拿它當第二隻腦的對照，並說明它因未重建視葉而無法辨識 VPN 身分）、[[e-apl-neuron]]（APL 對每顆 KCγ-d 平均 16／10 個突觸）、[[e-mbon]]（只提及 MBON19、MBON27、MBON33 以視覺 KC 輸入為主）

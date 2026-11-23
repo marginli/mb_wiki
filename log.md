@@ -504,3 +504,14 @@
 - 「每隻果蠅不一樣」無連結體層級證據：Li 2020 只有一個腦。
 
 改了三處：科普文第一句改成「像從籤筒裡抽來的一把、至今沒有人在不同果蠅身上找出固定的分法」並註明不是本篇量的；`s-aso-2014-mb-architecture` 的「一、概述」新增一段，附原文與兩句各自的後續（含 `※ 推論` 寫出「沒人找得到固定樣式」是上限）；`s-aso-2014-mbon-valence` 的背景列加指向。登記 `syn-changelog` 丁類第 23 條（兼庚類）。
+
+## [2026-11-24] 新頁 | t-stereotypy-to-individualization（氣味代碼在哪一層不再固定）＋ 第四個問題群
+
+起因是使用者讀網站版 `s-aso-2014-mb-architecture` 科普文的兩個追問：「真的每隻果蠅都不一樣？」與「同一隻果蠅會不會因學習改變 PN→KC 的接線？」。兩個問題在既有三個問題群底下都沒有歸屬（前三群問「學習如何發生」，這一對問「學習之前的代碼表」），依 `CLAUDE.md` 新增一個 H2。
+
+- **新問題群**「氣味代碼的刻板性與個體化」，tag `mb-odor-coding`，寫進 `index.md`（排在「視覺的學習與記憶」之後、「實驗工具」之前）。
+- **新主題頁** `wiki/topics/t-stereotypy-to-individualization.md`（約 2,100 字，confidence medium）。沒有收新論文，六篇庫內來源：Aso 2014a／2014b、Hige 2015、Dylla 2017、Li 2020、Ganguly 2024。論述線是「固定的程度沿 ORN→PN→KC 遞減，到輸出端以『分工固定、內容個體化』的形式回來」。
+- 門檻判定的依據：三篇都在問「KC 取樣隨不隨機」，但分別問單顆組合、型別偏好、個體一致性三件不同的事（Ganguly 2024 的檢定分不開隨機與刻板），所以過「說的不一樣」這一關。
+- **解除一條 `？待查`**：Aso 2014a 討論節的「Hige et al. 未發表」＝ Hige, Aso, Rubin & Turner 2015, *Nature* 526:258–262（Plasticity-driven individualization of olfactory coding in MBONs）。依據是庫內 `s-hige-2015-heterosynaptic-plasticity` 的參考文獻與同語境引用句（「MBONs are diverse across naive animals, suggesting that MBON responses are individualized through experience-dependent plasticity」）。該篇本身仍未收錄，列為新主題頁的缺口第二條。
+- 回查「學習是否改變 PN→KC 接線」：`grep` 28 篇來源頁交叉「PN→KC／uPN→KC」與「學習／訓練／配對／可塑」零命中。Hige 2015 圖 2 直接量到配對不改變 KC 的族群反應樣式（p = 0.58，但含對照三組都有小幅顯著下降，故結論是「沒有專一於 CS+ 的改變」）；Dylla 2017 在痕跡制約後量到 α′/β′ KC 反應減弱（已登記 `syn-contradictions` 3.2）。主題頁寫明「沒有人測過，不是已被否證」。
+- 六篇來源頁的「相關」各加一行指向新主題頁並寫出該頁在這條線上的位置；`syn-changelog` 新增階段十一、規模表新列（120 頁）、現在的狀態改為四個問題群。

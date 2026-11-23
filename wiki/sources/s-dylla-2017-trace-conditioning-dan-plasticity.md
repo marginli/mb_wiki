@@ -2,7 +2,7 @@
 title: "Trace Conditioning in Drosophila Induces Associative Plasticity in Mushroom Body Kenyon Cells and Dopaminergic Neurons"
 citation: "Front Neural Circuits 11, 42 (2017). doi: 10.3389/fncir.2017.00042 [全文（PMC 免費閱讀）](https://pmc.ncbi.nlm.nih.gov/articles/PMC5476701/)"
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-24
 tags: [source, active, mb-learning]
 confidence: medium
 ---
@@ -667,6 +667,7 @@ KC 組的雜交沒有列 mb247-DsRed。論文方法節說，KC 的區室依 GCaM
 
 - [[numbers]] — 本篇的協定參數（10 秒 CS、5 秒空白、90 V × 4 × 1.5 秒、回合間隔 210 秒）、電流相關係數與斜率、圖 6A 第 10 回合的各區差值、空間樣式夾角
 - 主題：[[t-timing-rules]]（痕跡制約下的神經資料；*rutabaga* 是否為痕跡制約的巧合偵測器）、[[t-mbon-dan-feedback]]（DAN 對 CS 的習得反應來自 KC→DAN 還是 MBON 回饋）、[[t-dopamine-to-plasticity]]（配對後 KC 軸突鈣在 β′ 減弱）
+- 主題：[[t-stereotypy-to-individualization]]（本篇是該線上的反例一側：KC 層也量到聯結式的反應減弱，與「KC 的代碼不動」並存的方式尚未解決，見 [[syn-contradictions]] 3.2）
 - 概念：[[c-cs-us-timing]]、[[c-coincidence-detection]]、[[c-mb-compartment]]、[[c-kc-mbon-plasticity]]、[[c-prediction-error]]（本庫以 `c-prediction-error` 取代原待開清單中的 `c-reward-prediction-error`）
 - 實體：[[e-dopaminergic-neuron]]、[[e-kenyon-cell]]、[[e-th-gal4]]、[[e-gcamp]]、[[e-mushroom-body]]、[[e-ppl1-gamma1pedc]]、[[e-ppl1-gamma2alpha1]]、[[e-rutabaga]]、[[e-ok107-gal4]]
 - 來源：[[s-tully-1985-classical-conditioning]]、[[s-tomchik-2009-camp-dynamics]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-felsenberg-2018-memory-extinction]]、[[s-cohn-2015-coordinated-neuromodulation]]

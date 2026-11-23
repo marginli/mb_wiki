@@ -39,6 +39,7 @@
 - [t-innate-learned-integration](wiki/topics/t-innate-learned-integration.md)：先天與習得的價值在哪裡整合
 - [t-mbon-to-action](wiki/topics/t-mbon-to-action.md)：學到的價值怎麼變成動作：MBON 下游的讀出
 - [t-visual-learning-circuits](wiki/topics/t-visual-learning-circuits.md)：果蠅用哪一塊腦記住看到的東西
+- [t-stereotypy-to-individualization](wiki/topics/t-stereotypy-to-individualization.md)：氣味代碼在哪一層不再固定
 
 **來源（論文，依發表年）**
 - [s-tully-1985-classical-conditioning](wiki/sources/s-tully-1985-classical-conditioning.md)：Tully & Quinn 1985, *J Comp Physiol A*
