@@ -97,6 +97,16 @@ def convert(pg):
     return h
 
 # ---------- 側欄 ----------
+def nav_key(p):
+    """側欄排序鍵。來源頁依**發表年份由舊到新**（同年依第一作者姓氏，所以
+    Aso 2014a 的 mb-architecture 排在 2014b 的 mbon-valence 前面）；
+    其餘頁型仍依頁名。年份取自頁名的 `s-<姓氏>-<西元年>-`，與 citation 的年份一致；
+    抓不到年份的頁排到該區段最後，讓它在側欄上顯眼而不是靜靜混在中間。"""
+    if p['layer'] == 'sources':
+        m = re.match(r'^s-[a-z]+-(\d{4})-', p['slug'])
+        return (int(m.group(1)) if m else 9999, p['slug'])
+    return (0, p['slug'])
+
 def sidebar(cur):
     out = ['<nav id="side">',
            '<input id="q" placeholder="搜尋全文…" autocomplete="off">',
@@ -107,7 +117,7 @@ def sidebar(cur):
             out.append(f'<a{k} href="{slug}.html">{label}</a>')
     for d, label in LAYERS:
         ps = sorted((p for p in pages.values() if p['layer'] == d),
-                    key=lambda x: x['slug'])
+                    key=nav_key)
         if not ps: continue
         out.append(f'<div class="grp">{label}<span class="n">{len(ps)}</span></div>')
         for p in ps:

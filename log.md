@@ -515,3 +515,7 @@
 - **解除一條 `？待查`**：Aso 2014a 討論節的「Hige et al. 未發表」＝ Hige, Aso, Rubin & Turner 2015, *Nature* 526:258–262（Plasticity-driven individualization of olfactory coding in MBONs）。依據是庫內 `s-hige-2015-heterosynaptic-plasticity` 的參考文獻與同語境引用句（「MBONs are diverse across naive animals, suggesting that MBON responses are individualized through experience-dependent plasticity」）。該篇本身仍未收錄，列為新主題頁的缺口第二條。
 - 回查「學習是否改變 PN→KC 接線」：`grep` 28 篇來源頁交叉「PN→KC／uPN→KC」與「學習／訓練／配對／可塑」零命中。Hige 2015 圖 2 直接量到配對不改變 KC 的族群反應樣式（p = 0.58，但含對照三組都有小幅顯著下降，故結論是「沒有專一於 CS+ 的改變」）；Dylla 2017 在痕跡制約後量到 α′/β′ KC 反應減弱（已登記 `syn-contradictions` 3.2）。主題頁寫明「沒有人測過，不是已被否證」。
 - 六篇來源頁的「相關」各加一行指向新主題頁並寫出該頁在這條線上的位置；`syn-changelog` 新增階段十一、規模表新列（120 頁）、現在的狀態改為四個問題群。
+
+## [2026-11-24] 網站 | 側欄的來源清單改為依年份由舊到新
+
+使用者要求。`tools/build_site.py` 新增 `nav_key()`：來源頁的側欄順序由頁名的字母序改為 `(西元年, 頁名)`，年份取自頁名 `s-<姓氏>-<西元年>-`（28 篇全部符合此樣式，與各頁 citation 的年份一致）；同年依第一作者姓氏，所以 Aso 2014a（mb-architecture）排在 2014b（mbon-valence）之前。主題、概念、實體、綜述四區仍依頁名排序。側欄頂端的 index／README 等固定連結不受影響。
