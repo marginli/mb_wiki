@@ -493,3 +493,14 @@
 ## [2026-10-25] lint | 建庫
 
 自母庫 `research_with_AI` 移植規範與工具：`CLAUDE.md`（範圍改為果蠅蘑菇體、授權改為私有 repo、網站改本機 8788 埠）、`docs/thematic-page-rules.md`、`.claude/skills/ingest-paper/`、`tools/`（scan、links、build_site、serve）。`papers/` 放入三篇，登記為待處理。
+
+## [2026-11-24] 更正 | Aso 2014a 科普文的「隨機」與「每隻果蠅都不一樣」
+
+使用者讀網站版 `s-aso-2014-mb-architecture` 的科普文第一句，問「真的每隻果蠅都不一樣？」。回查 `.cache` 文字層：
+
+- 行 117–120（引言）：「each KC receives on average 6.4 inputs from a random combination of glomeruli; … **and connections differ in different flies** (Murthy et al., 2008; Caron et al., 2013; Gruntman and Turner, 2013)」；行 1424（討論）：「not determined or stereotyped but appear random」。
+- 兩句都是本篇**引述前人**，本篇沒有量 PN→KC、沒有比較個體（只有雌蠅解剖圖譜）。那三篇本庫未收錄、本機無 PDF，所以本庫原來的寫法是三手轉述。
+- 「近乎隨機」與同庫 `s-li-2020-mb-connectome`（3.3、圖 13 解讀）牴觸：該篇結論是不是隨機，但偏離來自「KC 型別 × 嗅小球」的交互作用、相對差 9–14%、γ KC 看不到偏離。`c-sparse-coding` 第 8 條已寫對，來源頁沒跟著改。
+- 「每隻果蠅不一樣」無連結體層級證據：Li 2020 只有一個腦。
+
+改了三處：科普文第一句改成「像從籤筒裡抽來的一把、至今沒有人在不同果蠅身上找出固定的分法」並註明不是本篇量的；`s-aso-2014-mb-architecture` 的「一、概述」新增一段，附原文與兩句各自的後續（含 `※ 推論` 寫出「沒人找得到固定樣式」是上限）；`s-aso-2014-mbon-valence` 的背景列加指向。登記 `syn-changelog` 丁類第 23 條（兼庚類）。

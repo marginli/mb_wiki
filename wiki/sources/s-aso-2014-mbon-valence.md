@@ -2,7 +2,7 @@
 title: "Mushroom body output neurons encode valence and guide memory-based action selection in Drosophila"
 citation: "eLife 3, e04580 (2014). doi: 10.7554/eLife.04580 [全文（PMC 免費閱讀）](https://pmc.ncbi.nlm.nih.gov/articles/PMC4273436/)"
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-24
 tags: [source, active, mb-learning, mb-memory-dynamics]
 confidence: medium
 ---
@@ -179,7 +179,7 @@ confidence: medium
 
 **發表當時的領域現狀（2014）。** 以下依本篇引言：
 
-- PN 把氣味訊號送進萼部交給 KC，但 PN→KC 的接線每隻果蠅都不一樣（Murthy et al. 2008、Caron et al. 2013）。
+- PN 把氣味訊號送進萼部交給 KC，但 PN→KC 的接線每隻果蠅都不一樣（Murthy et al. 2008、Caron et al. 2013）。**這是本篇引述前人，姊妹篇 [[s-aso-2014-mb-architecture]] 的「一、概述」有這句的原文與分寸**：「近乎隨機」後來被 [[s-li-2020-mb-connectome]] 修正（不是隨機，但偏離來自 KC 型別 × 嗅小球，不是個別 KC 的組合），「每隻不一樣」則至今沒有連結體層級的檢驗。
 - KC 以稀疏活動代表氣味，也就是一個氣味只活化一小群 KC（Perez-Orive et al. 2002、Turner et al. 2008）。
 - ※ 推論（這個記號表示該句是本頁的推論，非原文所述）：接線既然因個體而異，同一個氣味在不同果蠅活化到的就是不同的一小群 KC；既然無法事先用基因寫死「某一群 KC 代表壞事」，KC 這層的氣味代碼本身就不帶先天的好壞，好壞得靠學習在下游讀出。本庫作此連結；本篇引言只分別交代這兩點背景。
 - KC 內有一條接收多巴胺訊號的分子路徑（D1 類多巴胺受體與 *rutabaga* 所屬的 cAMP 路徑），記憶形成需要它（Zars et al. 2000、Schwaerzel et al. 2003、Qin et al. 2012；本庫 [[s-gervasi-2010-pka-dynamics]] 亦被引用）。「D1 類」是多巴胺受體的分類名（原文作 D1-like），本篇未說明分類依據。*rutabaga* 是果蠅的一個基因，編碼一個受鈣訊號調控的腺苷酸環化酶，也就是合成 cAMP 的酵素；cAMP 是細胞內傳遞訊號的小分子。

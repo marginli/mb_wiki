@@ -125,7 +125,7 @@ confidence: high
 14. （同上）同頁寫「能這樣寫下一階獎賞記憶的 DAN **有四組**」。圖 4C 圖說列了九型（PAM01、02、04、06、07、08、10、11、15），改成「作者挑了四組來比」並註明不只四組。
 15. （視覺學習三篇）[[e-mb504b]] 原寫「所以 MB504B 標到哪幾型，**仍只能靠** Felsenberg 2017 的延伸圖 6c」。[[s-vogt-2014-shared-visual-olfactory-circuits]] 是這條品系的**原始發表**（正文「MB504B is a Split GAL4 line we generated to specifically label four individual dopamine neurons in the PPL1 cluster…」），比 Felsenberg 2017 更早也更直接，該句的全稱斷言不成立。已改寫成「有兩份獨立依據，最早的是 Vogt 2014 的原始描述」，並在該頁留更正紀錄、同步調整「已知的問題」第一條的語氣與 [[syn-contradictions]] 4.4。本類的來歷正是這種句型：**「仍只能靠某一份資料」是對庫內全部來源的全稱斷言，而它只要出現一份更早的來源就會被推翻。**
 
-### 丁、把論文的條件句或引用讀成斷言（22 處）
+### 丁、把論文的條件句或引用讀成斷言（23 處）
 
 1. [[s-tomchik-2009-camp-dynamics]] 原把正文「多巴胺的反應在 11.9% 飽和」讀成感測器本身的上限。圖 2B、2D 顯示 forskolin 可達約 40%，改為「多巴胺能啟動的 cAMP 上限」，並據此說明配對反應沒有撞到感測器天花板。
 2. [[s-handler-2019-dopamine-receptor-timing]] 原把「DopR2 即 DAMB」當成論文明說。grep 後只出現在參考文獻與抗體名稱中，改寫為非論文明說。
@@ -150,6 +150,8 @@ confidence: high
 20. （同上）同頁把「剩下的部分走別的路」寫成已知事實。殘餘的部分走哪條路論文沒有討論，已改。
 21. （Li 2020 收錄，2026-11-24）[[s-ganguly-2024-visual-inputs-to-kc]] 寫「Li et al. 2020 報告 KCγ-d **沒有爪狀樹突**」。原文兩處（正文與圖 10 圖說）的主詞都是**突觸**：「VPN 與 LVIN 打在 KCγd 樹突上的突觸，不具主萼裡 PN→KC 突觸那種爪狀構造」。換掉主詞之後，句子從「這些接點長得不一樣」變成「這群細胞缺一種構造」，兩者可被推翻的條件不同。已就地改回原文措辭；**這條矛盾本身在更正後仍然成立**（Ganguly 2024 說的正是突觸形態），已登記為 [[syn-contradictions]] 1.15。
 22. （同上）[[s-yamada-2023-second-order-conditioning]] 與 [[s-huang-2024-dopamine-memory-dynamics]] 把「幼蟲與成蟲 DAN 的突觸輸入有很大一部分來自蕈狀體本身」當成 Li 2020 的結果。查證結果：那是 Yamada 2023 引言裡的句子（它同時引了 Eschbach 2020 與 Li 2020），而 **Li 2020 本身沒有報告這個比例**——它量的是「有多少顆 DAN 收到直接 MBON 輸入」（150 顆 PAM 中 99 顆、5 顆 PPL1 全部），而且它的 DAN 輸入分析（圖 27、28、31 與方法節）**系統性地把 KC、其他 DAN、APL、DPM 與 MBON 排除在外**。成蟲那一半的出處因此存疑，唯一還沒核對的可能來源是本庫未取得的 Figure 27—figure supplement 3（`？待查`）。兩頁已加註。
+
+23. （使用者 2026-11-24 就科普文第一句提問）[[s-aso-2014-mb-architecture]] 的科普文寫「每個人手上的幾條街是**隨機**湊成的一把，而且**每隻果蠅湊法都不一樣**」。兩句都是 Aso 2014a **引言引述前人**（Murthy et al. 2008、Caron et al. 2013、Gruntman & Turner 2013；原文 "and connections differ in different flies"），本篇沒有量過 PN→KC，也沒有比較過兩隻果蠅的萼部接線，所以本庫這句是三手。而且「隨機」已被 [[s-li-2020-mb-connectome]] 修正為「不是隨機，但偏離來自 KC 型別 × 嗅小球的交互作用，不是個別 KC 挑特定組合」——**本庫同時存在兩種說法，而 [[c-sparse-coding]] 第 8 條已經寫對，來源頁的科普文沒跟著改**（兼庚類）。已改科普文的措辭、在「一、概述」補一段寫明誰說的與兩句各自的後續，並在姊妹篇 [[s-aso-2014-mbon-valence]] 的同一條背景加指向。「每隻不一樣」維持為前人結論，不升級為定論：連結體至今只有單一個腦，測不到個體差異。
 
 ### 戊、其他：數錯、混數、誤認資料（63 處）
 

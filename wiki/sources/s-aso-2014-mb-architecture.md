@@ -2,7 +2,7 @@
 title: "The neuronal architecture of the mushroom body provides a logic for associative learning"
 citation: "eLife 3, e04577 (2014). doi: 10.7554/eLife.04577 [全文（PMC 免費閱讀）](https://pmc.ncbi.nlm.nih.gov/articles/PMC4273437/)"
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-24
 tags: [source, active, mb-learning, mb-memory-dynamics]
 confidence: high
 ---
@@ -61,7 +61,7 @@ confidence: high
 
 ## 科普文
 
-想像一間郵局要把信送到全城。城裡有兩千個投遞員，而他們負責的路線不是按地段分配的：每個人手上的幾條街是隨機湊成的一把，而且**每隻果蠅湊法都不一樣**。一個氣味飄過來，就有一小群投遞員同時出動——哪一群出動，就代表哪個氣味。這聽起來像一團亂，可是這團亂正是果蠅學習的起點——因為沒有先天的意義，所以「這個氣味代表什麼」只能靠這隻果蠅自己的經驗寫上去。問題是：意義要寫在哪裡？這篇論文的答案是，寫在投遞員交件的櫃台上，而櫃台只有幾十個，還整整齊齊地排成一列。
+想像一間郵局要把信送到全城。城裡有兩千個投遞員，而他們負責的路線不是按地段分配的：每個人手上的幾條街像是從一個籤筒裡抽出來的一把，看不出按什麼規則分，**而且到今天還沒有人在不同的果蠅身上找出固定的分法**。（這兩句都不是本篇自己量的，而是本篇引言引別人的結論；籤筒裡有些街的籤其實特別多，所以也不是完全均等地抽——見「一、概述」末段。）一個氣味飄過來，就有一小群投遞員同時出動——哪一群出動，就代表哪個氣味。這聽起來像一團亂，可是這團亂正是果蠅學習的起點——因為沒有先天的意義，所以「這個氣味代表什麼」只能靠這隻果蠅自己的經驗寫上去。問題是：意義要寫在哪裡？這篇論文的答案是，寫在投遞員交件的櫃台上，而櫃台只有幾十個，還整整齊齊地排成一列。
 
 **先交代三種角色。** 果蠅聞到氣味時，觸角上的嗅覺神經元先活化嗅葉（antennal lobe）裡的「嗅小球」（glomerulus，同一種受體的神經元匯聚成的小球）。嗅葉有 51 個嗅小球，每個派出 3 到 4 個投射神經元（projection neuron, PN），全腦約 200 個，把訊號送進蕈狀體（mushroom body）。蕈狀體裡約 2000 顆 Kenyon 細胞（Kenyon cell, KC）接收它們：每顆 KC 平均只伸出 6.4 個「爪」去抓 PN——全腦約 200 個 PN 之中只抓到 6 個左右——而且抓到哪幾個幾乎是隨機的。KC 的軸突（送出訊號的長枝）像一束平行的電線往前延伸，組成蕈狀體的「葉」（lobe）。在葉上，蕈狀體輸出神經元（MB output neuron, MBON）伸出樹突（接收端）去接這束電線；多巴胺神經元（dopaminergic neuron, DAN）則把末梢伸進同一段，送來「剛剛發生了好事或壞事」的訊號。
 
@@ -140,6 +140,11 @@ confidence: high
 **重要性。** 蕈狀體的學習模型要求「多巴胺在局部改寫 KC→MBON 突觸」。這項要求不是本篇自己提出的假設，而是下一段「發表當時的領域現狀」所列研究的共同結論（DAN 的活動是學習所需、人工活化 DAN 可以取代真的獎懲、KC 上的多巴胺受體是形成記憶所需）。但在本篇之前，沒有人確定局部到底有多局部、每一格由誰負責。先前的研究（Ito et al. 1998；Tanaka et al. 2008；Mao & Davis 2009，即本庫 [[s-mao-2009-dopaminergic-neuron-types]]；Pech et al. 2013）各自描述了一些「子域」，但如引言所說，這些研究「沒有確立子域之間精確的解剖關係」。本篇要的是一份完整清單加一套能操作的遺傳工具。
 
 **發表當時的領域現狀（2014）。** 引言引的座標如下：KC 分 γ、α′/β′、α/β 三大類（Crittenden et al. 1998；Lee et al. 1999）；每顆 KC 平均 6.4 個樹突爪、各由一個 PN 支配，而且組合近乎隨機（Butcher et al. 2012；Murthy et al. 2008；Caron et al. 2013；Gruntman & Turner 2013）；氣味只活化稀疏的一小群 KC（Turner et al. 2008；Honegger et al. 2011；Campbell et al. 2013）；DAN 的活動是學習所需，而人工活化 DAN 可以取代真的獎懲（Schwaerzel et al. 2003；Claridge-Chang et al. 2009；Aso et al. 2010, 2012；Burke et al. 2012，即本庫 [[s-burke-2012-octopamine-dopamine-reward]]；Liu et al. 2012）；KC 上的 D1 型多巴胺受體是形成嗅覺記憶所需（Kim et al. 2007）。葉的分段最接近的前身是 Tanaka et al. 2008 提出的「每條葉分五個子域」，本篇的 15 區室與它一致。
+
+**「KC 的輸入近乎隨機、而且每隻果蠅不一樣」這句要標清楚是誰說的。** 原文（引言，行 117–120）：「each KC receives on average 6.4 inputs from a random combination of glomeruli; that is, knowledge of a single input to a KC provides no information about the identity of the additional inputs, **and connections differ in different flies**」，討論節（行 1424）再寫一次「not determined or stereotyped but appear random」。**兩句都是本篇引述 Murthy et al. 2008、Caron et al. 2013、Gruntman & Turner 2013，本篇自己沒有量過 PN→KC 的連結，也沒有比較過兩隻果蠅的萼部接線**（本篇只有雌蠅的解剖圖譜，見「五、問題與限制」第 4 點）。那三篇本庫都未收錄，所以本庫引用這句時是三手，不得寫成本篇的結果。兩句的後續命運也不同：
+
+- **「近乎隨機」已被 [[s-li-2020-mb-connectome]] 修正。** 該篇用主成分分析與空間洗牌直接檢驗，結論是**不是隨機**——但偏離的幅度小（第一主成分相對差 9–14%，且分葉之後 γ KC 看不到偏離），而且結構的來源是「KC 型別 × 嗅小球」的交互作用（α′/β′ 與 α/β 偏重 DP1m、DM1 等少數嗅小球），**不是「個別 KC 挑特定的 PN 組合」**。也就是說，本句真正被推翻的是「均等地抽」，「單顆 KC 抓哪幾個看不出規則」這一半仍然站得住。
+- **「每隻果蠅不一樣」至今沒有連結體層級的檢驗。** Li et al. 2020 只有一個腦（該頁「尚未被回答的」第五點），無法測個體差異。`※ 推論`：目前可說的上限是「沒有人找得到跨個體的固定樣式」，不是「已證實每隻都不同」——依據是上述三篇的方法（光學顯微鏡與生理記錄）只能否證刻板性、不能列舉個體。
 
 **那本篇新增的是什麼。** 分段本身不是新的。本篇補上兩件前人沒做的事：(1) 指出每一段各由哪一型 MBON 的樹突與哪一型 DAN 的末梢負責，把住戶填進格子裡；(2) 證明 MBON 的分段與 DAN 的分段互相對齊，是同一套格子而不是兩套各自為政的分法。引言說先前研究「沒有確立子域之間精確的解剖關係」，指的就是這兩件事。
 
