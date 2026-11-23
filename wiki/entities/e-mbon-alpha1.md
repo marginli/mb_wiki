@@ -1,7 +1,7 @@
 ---
 title: MBON-α1（α1 輸出神經元）
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-24
 tags: [entity, active, cross-domain]
 confidence: medium
 ---
@@ -25,7 +25,7 @@ confidence: medium
 
 ## 是什麼
 
-**MBON-α1 是樹突在蕈狀體 α1 區室的輸出神經元，用麩胺酸（glutamate）傳訊，每側腦 2 顆。** 短名 MBON-07（Aso 2014b 表 1；hemibrain 寫 MBON07），與 MBON-γ4>γ1γ2、MBON-β1>α 同屬細胞體聚在一起的 MV2 群（Aso 2014b）。同一格的 DAN 是 [[e-pam-alpha1]]。在本庫它以兩件事出名：Ichinose 2015 的「PAM-α1 → KC → MBON-α1 → PAM-α1」迴圈，被認為是獎賞長期記憶形成所需；Yamada 2023 與 Aso 2023 則把它接到別格的 DAN 與迎風行為。依 Yamada 2023（引 Li 2020），它是唯一一型不直接接到其他區室 DAN 的 MBON，只接回同格的 PAM-α1。
+**MBON-α1 是樹突在蕈狀體 α1 區室的輸出神經元，用麩胺酸（glutamate）傳訊，每側腦 2 顆。** 短名 MBON-07（Aso 2014b 表 1；hemibrain 寫 MBON07），與 MBON-γ4>γ1γ2、MBON-β1>α 同屬細胞體聚在一起的 MV2 群（Aso 2014b）。同一格的 DAN 是 [[e-pam-alpha1]]。在本庫它以兩件事出名：Ichinose 2015 的「PAM-α1 → KC → MBON-α1 → PAM-α1」迴圈，被認為是獎賞長期記憶形成所需；Yamada 2023 與 Aso 2023 則把它接到別格的 DAN 與迎風行為。依 Yamada 2023（引 Li 2020），它是唯一一型不直接接到其他區室 DAN 的 MBON，只接回同格的 PAM-α1。**⚠️ 這句轉述的主詞被換掉了。** 2026-11-24 回查原文（[[s-li-2020-mb-connectome]]）：原句是「Only the **α1 compartment** displays exclusively self-feedback」——**「唯一」掛在「區室」上，不是掛在「MBON 型」上**。正確的措辭是「**只有 α1 區室只有自我回饋**」。在 α1 這個個案上兩種講法指向同一件事（α1 區室只有 MBON-α1 一型 MBON 的樹突，兩顆細胞各自填滿整個區室），所以方向沒錯；**但字面上的「唯一一型」站不住**，因為同一段原文說 20 型典型中有 19 型、14 型非典型中有 12 型會直接接到 DAN——**剩下 3 型根本不接任何 DAN**，當然也不接別區室的。
 
 ## 版本與規模（標記它的品系）
 
@@ -45,11 +45,13 @@ confidence: medium
 | [[s-ichinose-2015-reward-recurrent-circuit]] | MB310C、MB323B；光學顯微解剖與 GRASP；shi 在訓練時、訓練後、測試時阻斷；dTrpA1 活化；在它身上降低 DopR1 | 末梢貼在 PAM-α1 的樹突旁（SIP、SLP），GRASP 有訊號。訓練時阻斷：5 分鐘記憶不顯著，24 小時記憶剩對照的約 34%（MB310C）、44%（MB323B）；訓練後 0–1 小時阻斷剩約 24%，22 小時後阻斷無效；測試時阻斷 LI 約 0.09、0.12，對照約 0.28–0.29；不給糖、活化它 1 分鐘配氣味，24 小時 LI 約 0.15，對照約 −0.05 與 0.00；降低它的 DopR1 不影響（皆 ※ 從圖判讀） |
 | [[s-yamada-2023-second-order-conditioning]] | hemibrain 找它到 DAN 的兩跳路徑；活體全細胞記錄 | 主路是 MBON-α1 →（SMP353／SMP354）→ SMP108 → 多型獎賞 DAN。正文報告光活化 PAM-α1 配氣味後，它對該氣味的反應被壓低（資料在未取得的補充圖 3-2）；機制假設它的麩胺酸對下游是抑制，未直接測 |
 | [[s-aso-2023-upwind-neurons]] | hemibrain 連結數；MB310C 驅動 Chrimson88 光活化，全細胞記錄 UpWiN；離體鈣成像；單獨活化看迎風 | 2 顆 → SMP354 共 268 個突觸、→ SMP353 共 67 個；活化它讓 17 顆 UpWiN 中 4 顆（12 隻）被抑制；鈣成像看不到下降；單獨活化不引起迎風 |
+| [[s-li-2020-mb-connectome]] | hemibrain v1.1 右半腦：把全部 34 型 MBON 到 DAN 的直接連結畫成三種迴路基序（圖 26）；在 α1 區室內把 PAM-α1 分成三個亞型，看它們各接哪些 KC 與 MBON（圖 30） | **α1 是 15 個區室裡唯一「只有自我回饋」的區室**（原句主詞是區室，見上）；**α1 區室只有 MBON-α1 一型 MBON，兩顆細胞各自填滿整個區室，所以三個 PAM-α1 亞型全部接到它**——α1 的亞型分化只體現在 KC 側（PAM11-nc 優先接視覺流的 KCα/βp、避開 KCα/βc 與 KCα/βm），輸出側分不開（對照 γ5 是兩側都分化）；圖 26D「只收同區室」那一列的 3 顆 PAM `※ 推論`正是 PAM11-aad 那三顆（圖 28C 三顆全帶星號），論文沒有把這兩處接起來 |
 
 Aso 2016 與 Kaldun 2025 只在討論或引言引用 Ichinose 2015 的迴圈，沒有操作它，不列入表。
 
 ## 已知的問題
 
+- **「唯一」這句話的底層證據自己對不上，所以不能再加碼。** [[s-li-2020-mb-connectome]] 的圖 26 是檢查這句話的唯一依據，而圖與正文差一型：正文寫「20 型典型中有 **19 型**接到 DAN」，但把圖 26 A–C 三格出現過的 MBON 編號抽出來只有 **18 型典型**（缺 MBON14 與 MBON22）。非典型那一半則完全吻合（14 型中缺 MBON20 與 MBON24，正好是正文的「12 of 14」）。`※ 推論`：**完全不接任何 DAN 的非典型兩型是 MBON20 與 MBON24**，典型那一型落在 MBON14（α3）與 MBON22（萼）之間、無法再縮小。依據是圖 26 的圖說自陳 (A) 格列出了「每一個我們觀察到的實例」、B 與 C 兩格體例相同。**不確定範圍：若圖 26 只畫了達到某個未標示門檻的連結，缺席就不等於不存在，而論文沒有為圖 26 標門檻。** 另外圖 26D 右半的「提供回饋的 MBON 型數」三列相加是 27、超過典型總數 20（同一型會被重複計數），**不能拿它去驗證「19 of 20」**。
 - **它推動靠近還是走開，各頁讀法不同。** Aso 2014b 活化 MB310C 沒有偏好，卻是獎賞記憶所需；該來源頁說它的角色是「價值」還是「回饋給 DAN」仍待直接檢驗。Ichinose 2015 的作者模型（圖 11）是：提取時它經 PAM-α1 以外的下游推動「趨近」。Ichinose 來源頁 3.8 另提一種讀法（它推動走開、學習壓低它對 CS+ 的反應），並註明 Aso 2014b 的活化結果不直接支持這個讀法、但一條品系的陰性結果也不能排除。Aso 2023 則說單獨活化無效與「它抑制 UpWiN」不矛盾。本頁不裁決（見 [[syn-contradictions]] 3.6）。
 - **麩胺酸的正負號沒有人在同一個下游量過。** Ichinose 2015 主張它經 PAM-α1 的 NMDA 受體提供**興奮性**回饋；Yamada 2023 的機制需要它對 SMP353/354 是**抑制**；Aso 2023 量到它抑制 UpWiN（SMP353/354 屬於 UpWiN）。下游不同，Yamada 來源頁不列為跨篇矛盾。另外 Aso 2014a 自己對它是麩胺酸性的把握較低（dVGluT 弱）。
 - **學習後它對 CS+ 的反應往哪變。** Ichinose 的迴圈需要它在訓練後還能驅動 PAM-α1；Yamada 2023 報告配對後反應下降，但資料在未取得的補充圖、用的是光活化而非真糖（[[syn-contradictions]] 3.6 只填上一半）。Aso 2023 摘要把這一步寫得像自己的觀察，其實是引 Yamada 2023（該頁第五節第 2 條）。
@@ -62,5 +64,5 @@ Aso 2016 與 Kaldun 2025 只在討論或引言引用 Ichinose 2015 的迴圈，�
 - 品系與工具：[[e-split-gal4]]、[[e-shibire-ts]]、`e-dtrpa1`、[[e-cschrimson]]、[[e-grasp]]、[[e-hemibrain]]
 - 概念：[[c-appetitive-memory]]、[[c-memory-consolidation]]、[[c-us-substitution]]、[[c-second-order-conditioning]]、[[c-valence-coding]]、[[c-kc-mbon-plasticity]]
 - 主題：[[t-mbon-dan-feedback]]、[[t-mbon-to-action]]；矛盾與未解：[[syn-contradictions]]
-- 來源：[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-yamada-2023-second-order-conditioning]]、[[s-aso-2023-upwind-neurons]]
+- 來源：[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-yamada-2023-second-order-conditioning]]、[[s-aso-2023-upwind-neurons]]、[[s-li-2020-mb-connectome]]（「唯一」的正確措辭與 α1 區室的亞型結構）
 - 待開頁面：`e-mb310c`、`e-upwin`

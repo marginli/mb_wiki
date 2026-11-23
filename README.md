@@ -59,6 +59,7 @@
 - [s-vogt-2014-shared-visual-olfactory-circuits](wiki/sources/s-vogt-2014-shared-visual-olfactory-circuits.md)：Vogt et al. 2014, *eLife*
 - [s-dylla-2017-trace-conditioning-dan-plasticity](wiki/sources/s-dylla-2017-trace-conditioning-dan-plasticity.md)：Dylla 2017, *Front Neural Circuits*
 - [s-aso-2019-nitric-oxide-cotransmitter](wiki/sources/s-aso-2019-nitric-oxide-cotransmitter.md)：Aso 2019, *eLife*
+- [s-li-2020-mb-connectome](wiki/sources/s-li-2020-mb-connectome.md)：Li et al. 2020, *eLife*
 - [s-eschbach-2021-learned-innate-valence-integration](wiki/sources/s-eschbach-2021-learned-innate-valence-integration.md)：Eschbach 2021, *eLife*
 - [s-pribbenow-2022-postsynaptic-plasticity](wiki/sources/s-pribbenow-2022-postsynaptic-plasticity.md)：Pribbenow 2022, *eLife*
 - [s-aso-2023-upwind-neurons](wiki/sources/s-aso-2023-upwind-neurons.md)：Aso 2023, *eLife*
@@ -148,6 +149,12 @@
 - [e-ppl1-alpha3prime](wiki/entities/e-ppl1-alpha3prime.md)：PPL1-α′3 多巴胺神經元（PPL1-α′3）
 - [e-tnt](wiki/entities/e-tnt.md)：破傷風毒素輕鏈（TNT / TeNT / TnT / TNTe）
 - [e-vt1211](wiki/entities/e-vt1211.md)：VT1211 驅動品系（VT1211-GAL4／-LexA）
+- [e-accessory-calyx](wiki/entities/e-accessory-calyx.md)：副萼（accessory calyx）
+- [e-fafb](wiki/entities/e-fafb.md)：FAFB 全腦電顯影像體積（FAFB）
+- [e-lvin](wiki/entities/e-lvin.md)：局部視覺中間神經元（local visual interneuron, LVIN）
+- [e-nblast](wiki/entities/e-nblast.md)：NBLAST 形態比對演算法（NBLAST）
+- [e-neuprint](wiki/entities/e-neuprint.md)：neuPrint 連結體查詢介面（neuPrint）
+- [e-visual-projection-neuron](wiki/entities/e-visual-projection-neuron.md)：視覺投射神經元（visual projection neuron, VPN）
 
 **綜述與登記簿**
 - [syn-contradictions](wiki/synthesis/syn-contradictions.md)：矛盾、空缺與本庫的不確定性

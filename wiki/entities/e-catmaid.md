@@ -50,4 +50,4 @@ CATMAID 的軟體版本，兩篇都沒寫：？待查。
 - 細胞：[[e-mbon]]、[[e-mbon-gamma1pedc]]、[[e-mbon-gamma5beta2a]]
 - 主題：[[t-mbon-dan-feedback]]、[[t-innate-learned-integration]]、[[t-memory-updating]]
 - 來源：[[s-felsenberg-2018-memory-extinction]]、[[s-eschbach-2021-learned-innate-valence-integration]]
-- 待開頁面：`e-fafb`、`e-banc`
+- 待開頁面：[[e-fafb]]、`e-banc`

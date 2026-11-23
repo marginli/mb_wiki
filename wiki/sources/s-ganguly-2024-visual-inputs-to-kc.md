@@ -175,7 +175,7 @@ flowchart TD
 
 FlyWire 中 KCγ-d 左 147 顆、右 148 顆；KCαβ-p 左 67 顆、右 61 顆。左半腦的 KCγ-d 共有 **74 個突觸前夥伴 ＝ 49 個 VPN ＋ 25 個 LVIN**，視覺突觸共 **7,445 個 ＝ 5,647（VPN，75.8%）＋ 1,798（LVIN，24.2%）**。KCαβ-p 則相反：**24 個夥伴 ＝ 9 VPN ＋ 15 LVIN**，突觸 **2,040 ＝ 327（VPN，16%）＋ 1,713（LVIN，84%）**。兩群共用的夥伴只有 7 個。
 
-這個「腹側走直接、背側走間接」的分工與 hemibrain 的結果一致，是本篇少數可以跨資料集直接核對的描述。作者也修正了先前一項說法：Li et al. 2020 報告 KCγ-d 沒有爪狀樹突，本篇在補充圖 1 中觀察到 KCγ-d 確實形成豆莢—爪與沿途兩種突觸，且兩類視覺輸入做豆莢—爪的比例大致相同、整體以豆莢—爪居多（補充圖 1D，本庫未取得：？待查）。
+這個「腹側走直接、背側走間接」的分工與 hemibrain 的結果一致，是本篇少數可以跨資料集直接核對的描述。作者也修正了先前一項說法：Li et al. 2020 報告 KCγ-d 沒有爪狀樹突（⚠️ 2026-11-24 回查原文更正本庫的轉述：[[s-li-2020-mb-connectome]] 兩處說的都是「VPN 與 LVIN 打在 KCγd 樹突上的**突觸**不呈主萼裡那種爪狀構造」，主詞是突觸不是樹突），本篇在補充圖 1 中觀察到 KCγ-d 確實形成豆莢—爪與沿途兩種突觸，且兩類視覺輸入做豆莢—爪的比例大致相同、整體以豆莢—爪居多（補充圖 1D，本庫未取得：？待查）。
 
 #### 3.2 直接輸入來自三個視葉神經氈
 
@@ -403,7 +403,7 @@ VPN 到 LVIN 的連結**不是隨機的**。LC15 的每一顆只接到 PVLP.SCL.
 - 來源：[[s-aso-2014-mb-architecture]]（KC 七型計數，其中 γd 約 75 顆，與本篇 FlyWire 的 147 顆已登記為 [[syn-contradictions]] 1.14）、[[s-minnick-2026-untrained-connectome]]（另一篇以連結體原樣建模的來源，其「待開頁面」亦列有 `e-flywire`）、[[s-pribbenow-2022-postsynaptic-plasticity]]（同樣用連結體數 KC 的突觸後夥伴）
 - **本篇直接引用、且同一批一起收錄的兩篇**：[[s-vogt-2014-shared-visual-olfactory-circuits]]（本篇文獻 36，*eLife* 3, e02395，視覺與嗅覺記憶共用蕈狀體迴路——本篇引它來支持「藍綠顏色學習需要蕈狀體」）、[[s-ofstad-2011-visual-place-learning]]（本篇文獻 38，*Nature* 474, 204–207，視覺位置學習——本篇引它來說明**位置學習靠的是中央複合體而不是蕈狀體**，是本篇用來界定蕈狀體視覺功能邊界的對照）
 - [[numbers]] — 本篇貢獻 FlyWire 視覺 KC 的細胞與突觸計數、三個視葉神經氈的分配、感受野大小與 t 檢定、參與比 9.1 vs 15.4，以及跨半腦與跨連結體的配對數
-- 待開頁面：`e-flywire`（FlyWire 全腦連結體，本篇的主資料集）、`e-codex`（FlyWire 的查詢介面）、`e-fafb`（FlyWire 所依據的電顯影像體積）、[[c-neurotransmitter-prediction]]（2026-11-21 已開頁；由電顯影像預測傳遞物質，本篇與 [[s-yamada-2023-second-order-conditioning]]、[[s-minnick-2026-untrained-connectome]] 都用到）、`e-nblast`（形態相似度演算法）、`e-natverse`（natverse／fafbseg 工具組）、`c-receptive-field`（感受野與眼圖法）、`e-optic-lobe`（視葉四神經氈）、`e-accessory-medulla`（副髓質與 aMe12）、`e-visual-projection-neuron`（VPN）、`e-local-visual-interneuron`（LVIN）、`e-accessory-calyx`（背側與腹側副萼）、`c-expansion-layer`（擴張層編碼）、`c-participation-ratio`（參與比）、`e-lc-neuron`（小葉柱狀神經元 LC15、LC24 等）、`e-mbon19`、`c-translational-invariance`（平移不變性）
+- 待開頁面：`e-flywire`（FlyWire 全腦連結體，本篇的主資料集）、`e-codex`（FlyWire 的查詢介面）、[[e-fafb]]（FlyWire 所依據的電顯影像體積）、[[c-neurotransmitter-prediction]]（2026-11-21 已開頁；由電顯影像預測傳遞物質，本篇與 [[s-yamada-2023-second-order-conditioning]]、[[s-minnick-2026-untrained-connectome]] 都用到）、[[e-nblast]]（形態相似度演算法）、`e-natverse`（natverse／fafbseg 工具組）、`c-receptive-field`（感受野與眼圖法）、`e-optic-lobe`（視葉四神經氈）、`e-accessory-medulla`（副髓質與 aMe12）、[[e-visual-projection-neuron]]（VPN）、[[e-lvin]]（LVIN）、[[e-accessory-calyx]]（背側與腹側副萼）、`c-expansion-layer`（擴張層編碼）、`c-participation-ratio`（參與比）、`e-lc-neuron`（小葉柱狀神經元 LC15、LC24 等）、`e-mbon19`、`c-translational-invariance`（平移不變性）
 
 ## 出處
 

@@ -1,7 +1,7 @@
 ---
 title: 蕈狀體輸出神經元（mushroom body output neuron, MBON）
 created: 2026-10-25
-updated: 2026-11-13
+updated: 2026-11-24
 tags: [entity, active, mb-learning]
 confidence: medium
 ---
@@ -11,6 +11,17 @@ confidence: medium
 ## 是什麼
 
 讀取 [[e-kenyon-cell]]（KC）訊號、再把結果送出 [[e-mushroom-body]] 去影響行為的神經元。每型 MBON 的樹突佔據葉上的一個區室（[[c-mb-compartment]]），在那裡收 KC 軸突送來的訊號；同一區室裡另有一型 [[e-dopaminergic-neuron]]（DAN）調整這個「KC → MBON」突觸的強弱。MBON 以所在區室命名，例如 MBON-γ1pedc 的樹突在 γ1pedc 區室。
+
+**清單有幾型：連結體把 22 型改成 34 型。** 光學顯微鏡時代的名單是 22 型（[[s-aso-2014-mb-architecture]]、Takemura et al. 2017）。[[s-li-2020-mb-connectome]] 在 [[e-hemibrain]] 裡找到其中除 **MBON08** 以外的全部（**MBON08 不在這隻果蠅裡**），並另外加上 **14 型「非典型」MBON**，最終是 **34 型 ＝ 20 型典型 ＋ 14 型非典型**，編號的聯集是 MBON01–MBON35 扣掉 MBON08。
+
+| | 典型（typical） | 非典型（atypical） |
+|---|---|---|
+| 型數 | 20 | 14 |
+| 定義 | 樹突幾乎全在蕈狀體葉內 | 樹突除了在葉內收大量 KC 輸入，還**延伸到葉外**的鄰近腦區 |
+| 來歷 | 沿用舊名單 | **12 型由 Li 2020 首次描述**；另兩型（**MBON10、MBON20**）是把 Aso 2014a 描述過的細胞**由典型改判為非典型** |
+| 輸出偏好 | 多投到蕈狀體**背側**的腦區（GABA 型有 83% 落在 CRE） | **6 型投到腹側**，特別是側副葉（LAL；GABA 型有 37% 落在 LAL、只有 11% 在 CRE） |
+
+這 14 型非典型 MBON 是「學習的輸出怎麼接上運動」這條線的主角（見 [[t-mbon-to-action]]）：**典型 MBON 幾乎不往腹側去，而腹側正是下行神經元樹突所在。** 但 12 型是首次描述，意思是**還沒有 GAL4 品系可以單獨操作它們**，Li 2020 自己寫「no experimental data yet exists on their function(s) or physiology」。
 
 **價值（valence）**：直接活化不同的 MBON，會讓果蠅靠近或走開。Hige 2015 與 Handler 2019 都引 Aso et al. 2014b 說明這件事；Hige 2015 另引該文說，一般而言 MBON 推動的行為方向，與同區室 DAN 傳遞的價值相反（例如懲罰 DAN 配推動靠近的 MBON）；這條通則在 Aso 2014b 原文只寫到「一般而言」，而且是依傳遞物質分組，有反例（見「已知的問題」）。而懲罰 DAN 放出的多巴胺，會讓同區室 KC→MBON 的突觸變弱（例：Hige 2015 的 γ1pedc，見下表）。因此學到「這個氣味不好」，就是把推動靠近的 MBON 對該氣味的反應壓低。
 
@@ -29,9 +40,10 @@ confidence: medium
 | [[s-aso-2014-mbon-valence]] | **22 型的篩檢**（31 條 split-GAL4，光遺傳用 25 條、覆蓋 22 型中的 20 型） | **本篇自己測**：25 條中 9 條顯著——走開 3 條全標麩胺酸 MBON，靠近 6 條全標 GABA 或乙醯膽鹼 MBON；16 條不顯著（含 MBON-α1、β2β′2a、β′1） | CsChrimson 光遺傳活化（未訓練、無氣味的四象限場地）；shibire<sup>ts</sup> 阻斷六種記憶作業；dTrpA1 活化看睡眠 | 2 小時嫌惡氣味與嫌惡顏色記憶需要 MBON-γ1pedc>α/β；獎賞記憶需要多型；24 小時長期記憶的讀出需要 V2 群整群；走開型促醒、靠近型促眠；**全篇沒有量任何 MBON 的生理反應** |
 | [[s-eschbach-2021-learned-innate-valence-integration]] | **幼蟲**的 24 型 MBON（a1…q1，幼蟲自己的命名，不對應成蟲型別）；功能實驗集中在 MBON-m1（SS02163） | **該篇自己測**：15 個品系涵蓋 18 型——正價值（推動靠近）8 型：a1、b1、b2、d1、e1、g1、g2、m1；負價值（推動走開）6 型：a2、e2、h1、h2、i1、k1；無效果 4 型 | 三齡幼蟲光活化看轉彎與爬行速度；一齡幼蟲鈣成像（GCaMP6f）；電顯追出全部下游 | 負價值 MBON 多住在獎賞記憶的區室、正價值多住在懲罰記憶的區室；價值相反的 MBON 之間有 9 處側向抑制；下游共 167 對；MBON-m1 同時收側角輸入，嫌惡訓練後對 CS+ 的反應約剩三成（※ 從圖判讀） |
 | [[s-pribbenow-2022-postsynaptic-plasticity]] | **M4/6 群**（M6 ＝ MBON-γ5β′2a，另含 β′2mp、β2β′2a、β′2mp bilateral；MB011B 或 VT1211-GAL4）；**α′3 的 MBON**（MB027B） | M4/6：高活動把天平推向躲避（該篇圖 9，引 Owald & Waddell 2015）。α′3：Pribbenow 2022 未說明，？待查 | 行為（RNAi 後的 T 迷宮與理毛測驗）；GCaMP6f 量樹突與軸突；內生 GFP 標記的受體做 FRAP | 獎賞記憶需要 M4/6 上的 α5（立即）與 α1／α2／Dlg（3 小時），嫌惡記憶不需要；α′3 的熟悉度學習需要 α5 與 α2；重複給同一氣味十次後 α′3 的 MBON 反應降到約 0.07，同格 KC 不變 |
-| [[s-yamada-2023-second-order-conditioning]] | **MBON-α1**（麩胺酸性）、**MBON-γ5β′2a**（SS01308） | 依該篇所引，獎賞記憶區室的 MBON 多為麩胺酸性 | 活體全細胞記錄 | 光活化 PAM-α1 配氣味後，MBON-α1 對該氣味的反應下降（補充圖 3-2，本庫未取得）；二階制約後 MBON-γ5β′2a 對 S2+ 的次閾值反應下降。**MBON-α1 是唯一不直接接到其他區室 DAN 的 MBON**（引 Li et al. 2020） |
+| [[s-yamada-2023-second-order-conditioning]] | **MBON-α1**（麩胺酸性）、**MBON-γ5β′2a**（SS01308） | 依該篇所引，獎賞記憶區室的 MBON 多為麩胺酸性 | 活體全細胞記錄 | 光活化 PAM-α1 配氣味後，MBON-α1 對該氣味的反應下降（補充圖 3-2，本庫未取得）；二階制約後 MBON-γ5β′2a 對 S2+ 的次閾值反應下降。**MBON-α1 是唯一不直接接到其他區室 DAN 的 MBON**（Yamada 2023 的句子，引 Li et al. 2020；⚠️ 2026-11-24 回查原文：[[s-li-2020-mb-connectome]] 寫的是「只有 **α1 區室**只有自我回饋」，唯一掛在區室上而不是 MBON 型，而且同一段寫 20 型典型 MBON 有 19 型、14 型非典型有 12 型會直接接到 DAN——另外 3 型根本不接任何 DAN，當然也不接別區室的，所以字面上的「唯一」過強） |
 | [[s-aso-2023-upwind-neurons]] | **未記錄 MBON 本身**：光活化 MBON-α1（MB310C）與 MBON-α3（MB082C；離體鈣成像改用 G0239-GAL4），記錄下游的迎風神經元 UpWiN | 活化篩選中 MBON-γ2α′1（MB077B）與 MBON-γ3／γ3β′1（MB083C）達校正後顯著的迎風；MBON-α3（MB082C）只達未校正的顯著；MBON-α1（MB310C）無效果 | 活體全細胞記錄下游；離體 GCaMP6s；hemibrain 連結體 | MBON-α1（麩胺酸）抑制 UpWiN（17 顆中 4 顆），MBON-α3（乙醯膽鹼）興奮 UpWiN（11 顆中 3 顆）；兩者同時活化時相抵；連結體上 SMP354 收 MBON-α1 268 個、MBON-α3 319 個突觸 |
 | [[s-huang-2024-dopamine-memory-dynamics]] | **γ1pedc>α/β、γ2α′1、α2sc、α′2、α3、α′3m** 六型（split-GAL4；阻斷與活化 γ1pedc>α/β 用 MB085C、阻斷 α3 用 MB093C） | 未逐型說明；MBON 對五種氣味都是放電上升，幅度與氣味價值無關（延伸圖 4g） | 頭固定、腳踩小球的活果蠅，電壓成像（pAce）量單次放電；TnT 阻斷、CsChrimson 活化 | 自發約 11–38 次／s（※ 從圖判讀）；電擊訓練後 γ1pedc>α/β、γ2α′1 對 CS+ 下降、約 1 小時恢復，α3 下降持續 24 小時以上；阻斷 α3 → 3 小時記憶消失；γ1pedc>α/β 對 PPL1-α3 的抑制性回饋閘控 α3 的長期改變 |
+| [[s-li-2020-mb-connectome]] | **全部 34 型**（20 典型 ＋ 14 非典型），以 [[e-hemibrain]] v1.1 右半腦的形態與連結重新清點 | 本篇未測行為；傳遞物質 14 型非典型中只有 MBON10 是實測（GABA），其餘 13 型全是預測值（見 [[c-neurotransmitter-prediction]]） | 連結體：電顯重建的形態分群（NBLAST）＋ 逐一數突觸；傳遞物質在 **FAFB** 上用 Eckstein et al. 2020 的模型預測 | 清單從 22 型變 34 型（12 型首次描述、MBON08 不在這隻果蠅裡、MBON10 與 MBON20 由典型改判非典型）；下游以 10 突觸為門檻有約 1,550 顆神經元、其中約 600 顆收到**至少兩個 MBON 細胞型**的輸入（零模型預期 ~3,200 顆、只有 14% 收兩型以上）；20 型典型中 19 型、14 型非典型中 12 型直接接到 DAN（[[t-mbon-dan-feedback]]）；四型非典型 MBON 直接接到下行神經元 DNa03（[[t-mbon-to-action]]） |
 
 數字（降幅、n、協定）見 [[numbers]] 與 [[c-kc-mbon-plasticity]]。
 
@@ -46,7 +58,9 @@ confidence: medium
 - **「推動靠近或走開」多數是引用 Aso 2014b**；Hige 2015、Handler 2019 都沒有自己檢驗所記錄 MBON 的行為效果。**回到 [[s-aso-2014-mbon-valence]] 原文，各型的證據層級並不相同**：單一型別就顯著的只有 MBON-γ4>γ1γ2（MB298B）、MBON-γ1pedc>α/β（只有 MB112C 一條，依 Aso 2014b 的方法只算「提示性」）與 MBON-γ2α′1（MB077B、MB090C 兩條）；**γ5β′2a「走開」只有 M4/M6 三型合併（MB011B）的證據**，單標子集的 MB210B、MB002B 不顯著；γ3 與 γ3β′1 沒有品系能分開，只能當一組。引用某一型的方向時要先查它屬於哪一級。
 - **「與同區室 DAN 的價值相反」是通則，不是逐格成立。** Aso 2014b 原文寫的是「in general」，而且是**依傳遞物質**分組（麩胺酸＝走開；GABA、乙醯膽鹼＝靠近），不是依 DAN 群（PAM／PPL1）分。原文自己就有反例：γ3、γ3β′1 是 GABA 性 MBON、位在 PAM 支配的範圍，活化後推動靠近；同在 PAM 範圍的 MBON-α1（MB310C）與 MBON-β2β′2a（MB399B）活化後完全沒有偏好（中位數約 0）。所以「PAM 的格裡 MBON 推動走開」不能當成推論某一型方向的依據。
 - **「傳遞物質決定推動方向」只在成蟲成立。** 成蟲（Aso 2014b）顯著推動走開的全是麩胺酸性。幼蟲（Eschbach 2021）推動走開的 6 型中有 GABA 性（h1、h2）與乙醯膽鹼性（a2）（※ 依該篇圖 3d 的符號推論，見該來源頁）。引用這條通則時要註明是成蟲。
-- **「MBON」的定義是解剖的，不是功能的。** [[s-aso-2014-mb-architecture]] 的定義是「樹突在蕈狀體裡的神經元」，不分傳遞物質，也不管它是不是真的把訊號送出蕈狀體——其中三型的軸突其實送回葉內。另外，短名編到 MBON-22，但「21 型」不含第 22 個（MBON-calyx 樹突在萼部與柄，被歸為非典型），讀到「MBON-22」不要以為有 22 型葉上 MBON。
+- **「MBON」的定義是解剖的，不是功能的。** [[s-aso-2014-mb-architecture]] 的定義是「樹突在蕈狀體裡的神經元」，不分傳遞物質，也不管它是不是真的把訊號送出蕈狀體——其中三型的軸突其實送回葉內。另外，短名編到 MBON-22，但「21 型」不含第 22 個（MBON-calyx 樹突在萼部與柄，被歸為非典型），讀到「MBON-22」不要以為有 22 型葉上 MBON。**[[s-li-2020-mb-connectome]] 之後編號擴到 MBON35，而「非典型」在兩篇裡不是同一個意思**：Aso 2014a 的非典型指 MBON-calyx（樹突在萼部與柄），Li 2020 的非典型指「樹突有一部分在葉外」的 14 型，**MBON22（萼）在 Li 2020 被算進 20 型典型裡**。引用「幾型」之前要先確定用的是哪一篇的分類。
+- **「非典型」沒有量化門檻，而這個分類撐著後面所有「典型 vs 非典型」的對照。** [[s-li-2020-mb-connectome]] 的圖 8 圖說寫「樹突只有一部分在葉內」，正文寫「除了在葉內收大量 KC 輸入之外還延伸到葉外」——兩種說法強度不同，而**論文沒有說突觸後位點在葉外的比例低於多少就算典型**。這不是吹毛求疵：三顆 MBON10 的葉外比例分別是 **69%、68%、50%**，第三顆剛好卡在一半。**如果 MBON10 被歸回典型，那麼「典型 20 型 vs 非典型 14 型」的所有對照（輸出腦區分布、下游匯聚的兩張直方圖、MBON→DAN 回饋表）分母全部要重算。** 引用「14 型非典型」時要知道它是一個沒有數值界線的分類。
+- **非典型 MBON 的傳遞物質幾乎全是預測值。** 同篇圖 8 的 14 格裡只有 MBON10 畫實線（實測 GABA），其餘 13 格都是虛線（預測），**包含圖說直接稱為「the GABAergic MBON10 and MBON20」的 MBON20**（⚠️ 圖說把預測寫成事實，見 [[c-neurotransmitter-prediction]]）。這有實質後果：「非典型 GABA」那一欄 37% 的輸出落在側副葉，是「非典型 MBON 直通運動系統」的核心數字，**而那一欄其實只有一型是量到的**。
 - **傳遞物質與葉的對應只是趨勢。** Aso 2014a 正文寫「乙醯膽鹼性在垂直葉、麩胺酸性在內側葉、GABA 性在交界」，但同篇表 1 的 MBON-α1、MBON-β1>α 是麩胺酸性而與 α 葉有關，MBON-γ2α′1 是乙醯膽鹼性而樹突有一半在 γ2（⚠️ 單篇自身不一致，見該來源頁第五節）。照字面當分類規則會出錯。
 - **「推動靠近或走開」與「推動迎風」是不同的讀數。** Aso 2023：活化 MBON-γ2α′1 讓已經朝上風的果蠅維持朝向，活化 UpWiN 則讓果蠅主動轉往上風；兩者在迎風位移上都顯著，但運動策略不同。同一型 MBON 在二選一偏好上沒有效果（MBON-α1），不表示它對下游沒有作用。
 - **有些品系有「第二條品系結果不一致」的前例。** Aso 2014b 表 2 記 MB093C 標 MBON-α3 並弱標 MBON-α′2，而該篇長期記憶（圖 10）與酒精記憶（圖 11）中，MB093C 與另一條 α3 品系 MB082C 的結果不一致，作者推測是非目標表現或遺傳背景不同。Huang 2024 阻斷 MBON-α3 用的正是 MB093C。
@@ -61,4 +75,4 @@ confidence: medium
 - 工具：[[e-gcamp]]、[[e-split-gal4]]、[[e-cschrimson]]
 - 概念：[[c-kc-mbon-plasticity]]、[[c-mb-compartment]]、[[c-cs-us-timing]]
 - 主題：[[t-dopamine-to-plasticity]]、[[t-timing-rules]]、[[t-mbon-dan-feedback]]、[[t-memory-updating]]、[[t-mbon-to-action]]、[[t-innate-learned-integration]]；矛盾：[[syn-contradictions]]
-- 來源：[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-eschbach-2021-learned-innate-valence-integration]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-yamada-2023-second-order-conditioning]]、[[s-aso-2023-upwind-neurons]]
+- 來源：[[s-li-2020-mb-connectome]]（34 型的清單）、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-eschbach-2021-learned-innate-valence-integration]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-yamada-2023-second-order-conditioning]]、[[s-aso-2023-upwind-neurons]]

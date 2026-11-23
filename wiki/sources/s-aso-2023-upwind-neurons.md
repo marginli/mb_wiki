@@ -142,7 +142,7 @@ confidence: medium
 
 - MBON 代表價值：Aso et al. 2014b（本庫 [[s-aso-2014-mbon-valence]]）、Owald et al. 2015。多型 MBON 一起活化時效果大致相加（Aso 2014b）。
 - 學習讓 KC→MBON 突觸在區室內長期變弱：Hige et al. 2015a（本庫 [[s-hige-2015-heterosynaptic-plasticity]]）、Cohn et al. 2015（[[s-cohn-2015-coordinated-neuromodulation]]）、Owald et al. 2015、Berry et al. 2018。
-- MBON 下游的匯聚：Li et al. 2020 的蕈狀體連結體顯示，1550 顆 MBON 突觸後神經元中有 600 顆（39%）同時收至少另一型 MBON 的輸入。
+- MBON 下游的匯聚：Li et al. 2020 的蕈狀體連結體顯示，1550 顆 MBON 突觸後神經元中有 600 顆同時收至少另一型 MBON 的輸入。（2026-11-24 更正：本庫原本在這裡寫「（39%）」，那是本庫自己算的。Aso 2023 的引言原句是「600 out of 1550」，沒有算百分比；[[s-li-2020-mb-connectome]] 原文寫的是 nearly 40%。該篇的零模型預期為約 3200 顆下游、其中只有 14% 收到兩型以上，這個對照才是「匯聚超出隨機」的依據，本庫先前也漏掉了。）
 - 各獎賞區室的記憶性質不同：α1 學得慢、可維持一天以上；γ5β′2a 一次就學會但短暫、易被覆寫（Aso & Rubin 2016，本庫 [[s-aso-2016-dan-cell-type-rules]]；Ichinose 2021；Yamada 2023）。α1 與營養價值學習有關（Yamagata 2015），γ4、β′2 與水的獎賞有關（Lin 2014）。
 - 循風導航：果蠅遇到吸引的氣味時轉向上風並加速（Álvarez-Salvado 2018、Steck 2012、van Breugel & Dickinson 2014）；風向由觸角芒（arista）與 Johnston 器偵測，在中央複合體表示（Okubo 2020、Matheson 2022、Suver 2019）。Matheson 2022 已報告活化某些 MBON（含 MBON-α3、MBON-γ2α′1）會引發迎風移動。Handler 2019（本庫 [[s-handler-2019-dopamine-receptor-timing]]）用 DAN 光活化做假想訓練，能增加或減少迎風移動。
 

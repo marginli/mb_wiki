@@ -76,14 +76,14 @@
 
 - 概念：[[c-memory-consolidation]]、[[c-memory-extinction]]、[[c-ex-vivo-explant]]
 - 實體：[[e-pam-alpha1]]、[[e-mbon-gamma2alpha1]]、[[e-ppl1-gamma2alpha1]]、[[e-mbon-gamma5beta2a]]、[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-p2x2]]、[[e-ppl1-alpha3]]、[[e-ppl1-alpha2alpha2]]、[[e-mbon-alpha2sc]]
-- 來源：[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-yamada-2023-second-order-conditioning]]、[[s-aso-2023-upwind-neurons]]、[[s-eschbach-2021-learned-innate-valence-integration]]
+- 來源：[[s-cohn-2015-coordinated-neuromodulation]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]、[[s-burke-2012-octopamine-dopamine-reward]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-yamada-2023-second-order-conditioning]]、[[s-aso-2023-upwind-neurons]]、[[s-eschbach-2021-learned-innate-valence-integration]]、[[s-li-2020-mb-connectome]]
 
 
 ### [[t-mbon-to-action]]｜學到的價值怎麼變成動作：MBON 下游的讀出
 
 MBON 的活動怎麼變成果蠅的動作？成蟲的逐型活化顯示推動靠近或走開大致依傳遞物質分邊，而迎風神經元把兩型 MBON 的訊號整合成迎風移動；二選一的分數和迎風行為可以分開，所以「學到了」和「怎麼走過去」是兩件事。幼蟲的通則與成蟲不同。
 
-- 來源：[[s-aso-2014-mbon-valence]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-eschbach-2021-learned-innate-valence-integration]]、[[s-tully-1985-classical-conditioning]]、[[s-vogt-2014-shared-visual-olfactory-circuits]]
+- 來源：[[s-aso-2014-mbon-valence]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-eschbach-2021-learned-innate-valence-integration]]、[[s-tully-1985-classical-conditioning]]、[[s-vogt-2014-shared-visual-olfactory-circuits]]、[[s-li-2020-mb-connectome]]
 
 ### [[t-innate-learned-integration]]｜先天與習得的價值在哪裡整合
 
@@ -95,15 +95,15 @@ MBON 的活動怎麼變成果蠅的動作？成蟲的逐型活化顯示推動靠
 
 ## 視覺的學習與記憶
 
-**果蠅記住看到的東西時用的是哪一塊腦，本庫三份來源給出三個互不相容的答案。** 這是 2026-11-21 成立的問題群（tag `visual-learning`），也是本庫第一個不以蕈狀體為中心的問題群。本庫原有的二十餘篇幾乎都以氣味為條件刺激，多巴胺、KC 與 MBON 的規則全是在嗅覺裡量出來的；把「要記住的東西」換成顏色或地點之後，連「蕈狀體參不參與」都還沒有定論。這一群目前只有三篇，所以它記錄的是爭點而不是結論。
+**果蠅記住看到的東西時用的是哪一塊腦，本庫目前的來源給出互不相容的答案。** 這是 2026-11-21 成立的問題群（tag `visual-learning`），也是本庫第一個不以蕈狀體為中心的問題群。本庫原有的二十餘篇幾乎都以氣味為條件刺激，多巴胺、KC 與 MBON 的規則全是在嗅覺裡量出來的；把「要記住的東西」換成顏色或地點之後，連「蕈狀體參不參與」都還沒有定論。這一群目前有四篇（2026-11-24 加入蕈狀體連結體），所以它記錄的是爭點而不是結論。
 
 ### [[t-visual-learning-circuits]]｜果蠅用哪一塊腦記住看到的東西
 
-一篇說視覺**位置**學習完全不需要蕈狀體、必要節點在橢球體的 R1 環；一篇說**顏色**記憶需要蕈狀體的 γ 葉、而且走的是同一批多巴胺神經元與同一個受體；一篇在全腦連結體裡確認視覺訊息確實進得了蕈狀體，但完全沒有測功能。三者的作業、操作範圍與讀數刻度都不同，所以現在還不能說誰對；**不能裁決的理由本身就是這一頁的主要內容**（登記為 [[syn-contradictions]] 1.13）。另一個關聯的分歧是「視覺 Kenyon 細胞有幾顆」：光學計數約 75 顆、連結體計數 147 顆，差近一倍（1.14），而在它被釐清之前，「某個遺傳操作有沒有蓋到視覺 KC」就沒有分母可算。
+一篇說視覺**位置**學習完全不需要蕈狀體、必要節點在橢球體的 R1 環；一篇說**顏色**記憶需要蕈狀體的 γ 葉、而且走的是同一批多巴胺神經元與同一個受體；兩篇在連結體裡確認視覺訊息確實進得了蕈狀體——一份用 hemibrain 半腦（[[s-li-2020-mb-connectome]]，約 8% 的 Kenyon 細胞以視覺為主，而且腹側與背側副萼走的是直接與間接兩條相反的路），一份用 FlyWire 全腦——但兩篇都完全沒有測功能，而且它們對視覺 Kenyon 細胞的突觸形態說法相反（[[syn-contradictions]] 1.15）。三者的作業、操作範圍與讀數刻度都不同，所以現在還不能說誰對；**不能裁決的理由本身就是這一頁的主要內容**（登記為 [[syn-contradictions]] 1.13）。另一個關聯的分歧是「視覺 Kenyon 細胞有幾顆」：光學計數約 75 顆、連結體計數 147 顆，差近一倍（1.14），而在它被釐清之前，「某個遺傳操作有沒有蓋到視覺 KC」就沒有分母可算。
 
 - 概念：[[c-acquisition-vs-retrieval]]、[[c-neurotransmitter-prediction]]、[[c-sparse-coding]]、[[c-performance-index]]、[[c-us-substitution]]
 - 實體：[[e-ellipsoid-body]]、[[e-kir2-1]]、[[e-color-conditioning-arena]]、[[e-dumb2]]、[[e-mb247-gal4]]、[[e-mb008b]]
-- 來源：[[s-ofstad-2011-visual-place-learning]]、[[s-vogt-2014-shared-visual-olfactory-circuits]]、[[s-ganguly-2024-visual-inputs-to-kc]]
+- 來源：[[s-ofstad-2011-visual-place-learning]]、[[s-vogt-2014-shared-visual-olfactory-circuits]]、[[s-ganguly-2024-visual-inputs-to-kc]]、[[s-li-2020-mb-connectome]]
 
 ---
 
@@ -128,6 +128,10 @@ MBON 的活動怎麼變成果蠅的動作？成蟲的逐型活化顯示推動靠
 - [[c-acquisition-vs-retrieval]]：只在訓練時或只在測驗時阻斷，用來分辨「記憶寫不進去」與「記憶讀不出來」
 - [[c-neurotransmitter-prediction]]：由電顯影像預測突觸用哪一種傳遞物質；連結體研究的「興奮或抑制」多半來自它，而它是預測不是量測
 - [[e-ellipsoid-body]]：中央複合體裡的環狀構造，本庫唯一一個「不經過蕈狀體的學習」的必要腦區
+- [[e-hemibrain]]、[[e-neuprint]]：半邊中央腦的電顯連結體資料集，與查詢它的網頁介面與資料庫。兩頁分工：資料集涵蓋什麼、缺什麼看前者，怎麼問、問法強加了什麼限制看後者
+- [[e-fafb]]、[[e-catmaid]]：另一份成年果蠅全腦的電顯**影像體積**（不是連結體）與追蹤它的平台；庫內多篇在 hemibrain 查不到的東西靠它補
+- [[e-nblast]]：比對兩顆神經元形態像不像的演算法，連結體研究拿它分亞型與跨資料集配對；它量的是形狀，不是功能
+- [[e-accessory-calyx]]、[[e-visual-projection-neuron]]、[[e-lvin]]：三個副萼，以及把視覺訊息送進去的兩類神經元（直接送來的投射神經元，與轉一手的局部中間神經元）
 
 ---
 
@@ -153,6 +157,7 @@ MBON 的活動怎麼變成果蠅的動作？成蟲的逐型活化顯示推動靠
 - [[s-felsenberg-2018-memory-extinction]] — Felsenberg et al., *Cell*：懲罰記憶的消退由獎賞型多巴胺神經元寫下一筆相反的記憶，新舊兩筆在一顆叫 M6 的輸出神經元（讀取 γ5 格）上整合 · 2026-10-25
 - [[s-handler-2019-dopamine-receptor-timing]] — Handler et al., *Cell*：DopR1 與 DopR2 兩條路徑讓同一突觸依先後變弱或變強 · 2026-10-25
 - [[s-aso-2019-nitric-oxide-cotransmitter]] — Aso et al., *eLife*：部分 DAN 以一氧化氮為共同傳遞物，經 cGMP 路徑讓各區室的記憶動態不同 · 2026-11-13
+- [[s-li-2020-mb-connectome]] — Li et al., *eLife*：把整塊蕈狀體的突觸層級接線圖攤開，重畫了三份清單——MBON 從 22 型變 34 型（14 型非典型，12 型首次描述）、Kenyon 細胞細分成 14 個亞型、15 個區室底下再拆出 40 個多巴胺神經元亞型；並第一次量化 MBON 回頭接 DAN 的規模與視覺怎麼進蕈狀體 · 2026-11-24
 - [[s-eschbach-2021-learned-innate-valence-integration]] — Eschbach et al., *eLife*（幼蟲）：電顯追蹤 MBON 與側角輸出的下游，找到兩邊匯聚的神經元 · 2026-11-13
 - [[s-pribbenow-2022-postsynaptic-plasticity]] — Pribbenow et al., *eLife*：MBON 上乙醯膽鹼受體次單元是獎賞與熟悉度記憶所需，給出突觸後可塑性的證據 · 2026-11-13
 - [[s-aso-2023-upwind-neurons]] — Aso et al., *eLife*：迎風神經元整合 MBON-α1 與 MBON-α3 的輸入，把學到的氣味價值轉成迎風移動 · 2026-11-13

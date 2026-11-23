@@ -1,7 +1,7 @@
 ---
 title: 蕈狀體區室（MB compartment）
 created: 2026-10-25
-updated: 2026-11-21
+updated: 2026-11-24
 tags: [concept, active, mb-learning]
 confidence: high
 ---
@@ -25,7 +25,10 @@ confidence: high
 
 - **界定**：依 DAN 與 MBON 的解剖投射範圍（[[s-aso-2014-mb-architecture]]）。細胞以所在區室命名，例如 PPL1-γ1pedc（投射到 γ1pedc 的多巴胺神經元）、MBON-α2sc、γ4 MBON。該篇把 21 型 MBON 的樹突與 20 型 DAN 的末梢分別對位到同一個標準腦，看它們如何鋪排，並以雙色標記與 MCFO 檢驗相鄰區室的界線。
 - **區室之下還有一層**：每個區室再依「哪幾型 KC 的軸突經過那一層」細分成**基本分區**（elemental subdivision，Tanaka et al. 2008 稱 synaptic unit），全葉共 37 個（含 pedc）。MBON-α2sc 只取表層與核心層的 KC、MBON-α2p3p 只取後層，差別就在這一層（見陷阱 9）。
-- **實驗用法**：用 [[e-split-gal4]] 等驅動品系只活化某一格的 DAN，再記錄同一格或鄰格的 MBON，看改變會不會越界。
+- **DAN 這一側也有一層：15 個區室底下有 40 個 DAN 亞型／功能群。** [[s-li-2020-mb-connectome]] 在 [[e-hemibrain]] 上依「樹突收到的上游輸入」把 DAN 兩兩比對，辨識出 **40 個推定功能群 ＝ 34 個 PAM 亞型 ＋ 6 個 PPL1 型**（`※ 推論`：40 正好等於該篇圖 31 的 40 列；論文報告了 40 這個數，沒有寫這個拆法）。這些亞型用形態分群（NBLAST）或用上游連結分群會得到**同一組**結果（Mantel 檢定三組都顯著：PAM01 r = 0.764、PAM12 r = 0.838、PAM11 r = 0.779）。
+  **為什麼這一層重要：同一個區室裡不同亞型接的 KC 與 MBON 不一樣，所以一個區室不是一個學習單位，而是好幾個。** 各亞型的軸突各佔區室的一小塊、合起來鋪滿整格（論文用 "together tile"，**是定性說法、重疊程度沒有量化**）。三個被逐一細查的例子：γ5 裡 PAM01-nc 主要接視覺流的 KCγd、PAM01-fb 主要接嗅覺的 KCγm；γ3 裡 PAM12-md 供應 KCγd、PAM12-dd 偏向 KCγm 與 KCγt；α1 裡 PAM11-nc 優先接視覺流的 KCα/βp、避開 KCα/βc 與 KCα/βm。該篇的通則是「**每一個被多顆 DAN 支配的區室都含一個以上的 DAN 亞型，而且一般來說每個區室裡只有一個亞型收到直接的 MBON 輸入**」——這讓同一格裡不同組的突觸權重可以被獨立調整。**更強的一步是價性**：γ3 裡的兩個 PAM12 亞型被指為**相反的價性**（PAM12-dd ＝ 負、PAM12-md ＝ 正），也就是同一個區室可以同時跑方向相反的學習（⚠️ 該篇圖 32 圖說把 dd 標成 positive，與正文和圖 39 相反，是單篇自身不一致；⚠️ 價性的指派只從「與誰共享上游輸入」推來，而共享的那些輸入在任何一顆 DAN 身上都只佔 7.23% 以下，**推論基礎很薄**）。
+- **三層要分清楚**：**15** 個區室（MBON 樹突與 DAN 末梢界定）→ **37** 個基本分區（再依 KC 的層細分，Aso 2014a）→ **40** 個 DAN 亞型／功能群（依 DAN 的上游輸入與軸突位置細分，Li 2020）。後兩者**不是同一種切法**，切的軸一個在 KC 側、一個在 DAN 側，數字接近純屬巧合，不要互相換算。
+- **實驗用法**：用 [[e-split-gal4]] 等驅動品系只活化某一格的 DAN，再記錄同一格或鄰格的 MBON，看改變會不會越界。**DAN 亞型這一層目前沒有對應的驅動品系**，所以它還不能用上面這套實驗操作（Li 2020 也沒說這些亞型在 neuPrint v1.1 裡有沒有對應標籤）。
 
 ## 庫內的用法
 
@@ -48,6 +51,7 @@ confidence: high
 | [[s-aso-2023-upwind-neurons]] | 比較四個獎賞區室（α1、β1β2、γ4、γ5β′2a）的記憶在讀出時叫出什麼動作 | 四組的二選一 PI 都顯著，但只有 α1、β1β2 的記憶引發迎風移動。作者推測 α/β 葉等成蟲專有的輸出路徑專職循風趨性，γ、β′ 葉多源自幼蟲——**這是假說，本篇沒有檢驗** |
 | [[s-yamada-2023-second-order-conditioning]] | 以區室為單位比較「誰能當老師、誰是學生」：光活化四組 PAM 分別寫入 α1、γ5/β′2a、β1/β2、γ4，再測它們教出二階記憶的能力；另以多巴胺感測器 DA2m 看活化 SMP108 時各區室收到多少多巴胺 | 只有 α1 的記憶在一天後仍能當老師（γ5/β′2a 只在訓練完 2 分鐘時有效）。活化 SMP108 時 β′2（約 0.8）、γ4（約 0.6）最亮，γ5、β2、β1 較小，**α1 不亮**（N＝8–12，※ 從圖 6B 判讀）。論文說 DAN 與 MBON 在 KC 軸突上形成 **16 個**區室（與 Aso 2014a 的 15 不同，見陷阱 10） |
 | [[s-pribbenow-2022-postsynaptic-plasticity]] | 以 CRISPR 內生 GFP 標記量七種成分（α1、α2、α4–α7、Dlg；**α3 次單元未做成標記**）在各區室的相對螢光；RNAi 後以鄰格正規化（γ5 對 γ4、β′2 對 β′1） | 每個次單元的分布都不同，受體組成在各格並不一致：α5 在整個 γ 葉含 γ5 都高、β′2 略低，α2 在 β′2 與 γ5 同樣偏高，兩者在 α′3 也測得到。**正文寫「至少 15 個區室」，但圖 4b 的熱圖橫軸只有 13 格**（γ5、γ4、γ3、γ2、γ1、β′2、β2、β′1、β1、α′1/1、α′2/2、α′3、α3；※ 從圖判讀），論文沒有說明少了哪幾格 |
+| [[s-li-2020-mb-connectome]] | **把區室往下拆一層。** 先依樹突輸入的相似度在區室內把 DAN 分群（不改順序），再看這些群對 KC 與 MBON 的輸出有沒有同樣的結構；另以形態分群（NBLAST）獨立驗證，兩者以 Mantel 檢定比對 | 15 個區室底下有 **40 個 DAN 亞型／功能群**（34 PAM 亞型 ＋ 6 PPL1 型）；同格不同亞型接的 KC 與 MBON 不同（γ5、γ3、α1 三例），等於可獨立學習的次單位；γ3 的兩個 PAM12 亞型被指為相反價性。**這裡有一個誠實的負結果**：β1、β′1、γ4 用這個分析看得到保留下來的結構，α1、γ3、γ5 看不到，所以作者改用逐一細查 |
 | [[s-eschbach-2021-learned-innate-valence-integration]] | **幼蟲**的區室系統：萼、柄、側附區、垂直葉、垂直葉上段、內側葉——**與成蟲的 α/β、α′/β′、γ 葉 15 格不是同一套命名**，論文沒有把兩者對應。區室的記憶方向引自 Eschbach 2020 | 正價值（推動靠近）MBON 多半（4/6）住在懲罰記憶的區室，負價值多半（3/5）住在獎賞記憶的區室——與成蟲同一個原則。萼與垂直葉上段各有一對效果相反的 MBON（a1/a2、e1/e2） |
 
 > 數值見 [[numbers]]。
@@ -66,7 +70,9 @@ confidence: high
 
 9. **「15」與「37」是兩個層級。** 15 是區室（MBON 樹突鋪出來的格），37 是基本分區（再依 KC 的層細分）。[[s-aso-2014-mb-architecture]] 的圖 12A 矩陣是後者，圖 10G–L 是前者；該來源頁已逐欄數過 37。庫內寫「每格由一型 DAN 與一型 MBON 負責」時，實際上有三種樣式（一對一、一型 MBON 配兩型 DAN、一型 DAN 配三型 MBON），該篇圖 12B–D 各舉一例。
 
-10. **格數在庫內至少有五個數字，來源各不相同。** [[s-aso-2014-mb-architecture]] 的頭條數字是 **15**（不含柄核心），但它的圖 1C 把 pedc 畫成與區室並列的第 16 格、圖 12A 的矩陣也給它一欄、圖 17J 更把「γ1 ＋ pedc」算成「跨葉」的一例（圖 12C 則只算四型跨葉）；[[s-yamada-2023-second-order-conditioning]] 寫 **16**；[[s-aso-2016-dan-cell-type-rules]] 正文寫六組品系涵蓋 15 格中的 11 格、圖 5B 卻數得出 12 格（單篇自身不一致，根源就是 pedc 算不算）；[[s-dylla-2017-trace-conditioning-dan-plasticity]] 說葉共 15 格，但它實際分析的是自訂的**九區**（含 junction 與合併的 α1/α′1）；[[s-pribbenow-2022-postsynaptic-plasticity]] 正文寫「至少 15」，熱圖只量了 **13** 格。引用任何一個數字前，先確認它指的是「Aso 2014a 的 15 格」「含 pedc 的 16」「某篇自己量到的幾格」還是「37 個基本分區」。
+10. **格數在庫內至少有五個數字，來源各不相同。** [[s-aso-2014-mb-architecture]] 的頭條數字是 **15**（不含柄核心），但它的圖 1C 把 pedc 畫成與區室並列的第 16 格、圖 12A 的矩陣也給它一欄、圖 17J 更把「γ1 ＋ pedc」算成「跨葉」的一例（圖 12C 則只算四型跨葉）；[[s-yamada-2023-second-order-conditioning]] 寫 **16**；[[s-aso-2016-dan-cell-type-rules]] 正文寫六組品系涵蓋 15 格中的 11 格、圖 5B 卻數得出 12 格（單篇自身不一致，根源就是 pedc 算不算）；[[s-dylla-2017-trace-conditioning-dan-plasticity]] 說葉共 15 格，但它實際分析的是自訂的**九區**（含 junction 與合併的 α1/α′1）；[[s-pribbenow-2022-postsynaptic-plasticity]] 正文寫「至少 15」，熱圖只量了 **13** 格。[[s-li-2020-mb-connectome]] 與 Aso 2014a 一致（葉上 **15** 格，另有一型 MBON 與一型 DAN 支配柄遠端核心 pedc），但它同時引進了第三個數字 **40**（DAN 亞型／功能群）。引用任何一個數字前，先確認它指的是「Aso 2014a 的 15 格」「含 pedc 的 16」「某篇自己量到的幾格」「37 個基本分區」還是「Li 2020 的 40 個 DAN 亞型」。
+
+15. **「亞型」這個單位本身還很鬆。** [[s-li-2020-mb-connectome]] 用的詞是 subtype 而不是 cell type，論文沒有說這些亞型在 neuPrint v1.1 裡有沒有對應標籤，也沒有驅動品系可以單獨操作它們——**所以「一個區室可以跑好幾種獨立的學習」目前是解剖推論，沒有功能驗證**。「各亞型的軸突合起來鋪滿一格」是定性說法，重疊程度沒有量化。此外，該篇的 DAN 上游分析全部落在蕈狀體之外的腦區，而那正是該篇自陳「重建常常遠不完整」的地方（見 [[e-hemibrain]]），**這一層的證據強度低於葉內的結果**。亞型在個體之間穩不穩定也還不知道：只有一隻果蠅、只用右半腦。
 
 11. **幼蟲的區室不是成蟲的區室。** [[s-eschbach-2021-learned-innate-valence-integration]] 用的是幼蟲命名（萼、柄、側附區、垂直葉、垂直葉上段、內側葉）與幼蟲 MBON 編號（a1…q1），論文沒有把兩套系統逐一對應。可以借用的是**原則**（推動靠近的 MBON 多住在懲罰記憶的區室、推動走開的多住在獎賞記憶的區室），不能借用名字。該篇也顯示另一條成蟲通則在幼蟲不成立：成蟲推動走開的 MBON 全是麩胺酸性，幼蟲推動走開的卻有 GABA 性（h1、h2）與乙醯膽鹼性（a2）（※ 依該篇圖 3d 符號推論）。
 
@@ -82,4 +88,4 @@ confidence: high
 - 概念：[[c-kc-mbon-plasticity]]、[[c-camp-signaling]]、[[c-memory-consolidation]]
 - 實體：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]、[[e-mbon]]、[[e-split-gal4]]、[[e-mb099c]]、[[e-p2x2]]、[[e-gcamp]]、[[e-th-gal4]]、[[e-mcfo]]
 - 綜述：[[syn-contradictions]]
-- 來源：[[s-aso-2014-mb-architecture]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-eschbach-2021-learned-innate-valence-integration]]
+- 來源：[[s-aso-2014-mb-architecture]]、[[s-li-2020-mb-connectome]]（15 個區室底下的 40 個 DAN 亞型）、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-hige-2015-heterosynaptic-plasticity]]、[[s-handler-2019-dopamine-receptor-timing]]、[[s-tomchik-2009-camp-dynamics]]、[[s-gervasi-2010-pka-dynamics]]、[[s-cohn-2015-coordinated-neuromodulation]]、[[s-aso-2016-dan-cell-type-rules]]、[[s-ichinose-2015-reward-recurrent-circuit]]、[[s-felsenberg-2017-re-evaluation]]、[[s-felsenberg-2018-memory-extinction]]、[[s-huang-2024-dopamine-memory-dynamics]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-aso-2023-upwind-neurons]]、[[s-yamada-2023-second-order-conditioning]]、[[s-pribbenow-2022-postsynaptic-plasticity]]、[[s-eschbach-2021-learned-innate-valence-integration]]

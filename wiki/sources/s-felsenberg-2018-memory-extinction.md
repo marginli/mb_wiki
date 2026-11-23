@@ -470,7 +470,7 @@ flowchart TD
 - 主題：[[t-timing-rules]]、[[t-dopamine-to-plasticity]]；矛盾與空缺：[[syn-contradictions]]
 - 本批（2026-10-25 第二批）已開頁、與本篇相關：[[c-memory-extinction]]、[[t-mbon-dan-feedback]]、[[t-memory-updating]]、[[e-shibire-ts]]、[[e-mbon-gamma5beta2a]]、[[e-mbon-gamma1pedc]]、[[e-dopaminergic-neuron]]、[[e-r58e02]]、[[e-mb504b]]
 - 2026-11-13 第一批整合時補上的連結 — 正文提到、相關節原本漏列的來源：[[s-aso-2014-mb-architecture]]、[[s-aso-2014-mbon-valence]]
-- 待開頁面：[[c-feedforward-inhibition]]、`e-mbon-beta2mp`（M4β′）、`e-fafb`、[[e-catmaid]]
+- 待開頁面：[[c-feedforward-inhibition]]、`e-mbon-beta2mp`（M4β′）、[[e-fafb]]、[[e-catmaid]]
 
 ## 出處
 

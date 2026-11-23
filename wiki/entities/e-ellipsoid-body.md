@@ -1,14 +1,14 @@
 ---
 title: 橢球體（ellipsoid body, EB）
 created: 2026-11-21
-updated: 2026-11-21
+updated: 2026-11-24
 tags: [entity, active, cross-domain]
 confidence: medium
 ---
 
 # 橢球體（ellipsoid body, EB）
 
-**腦正中央的一個環狀構造，屬於中央複合體（central complex）；本庫唯一一份關於它的功能證據說它的最內環是視覺位置學習所必需，而本庫沒有任何關於它活動的量測。** 在庫內它出現在兩種角色上：一篇的主角，兩篇的對照。
+**腦正中央的一個環狀構造，屬於中央複合體（central complex）；本庫唯一一份關於它的功能證據說它的最內環是視覺位置學習所必需，而本庫沒有任何關於它活動的量測。** 在庫內它出現在三種角色上：一篇的主角，兩篇的對照，還有一篇**連結體的陰性結果**——[[s-li-2020-mb-connectome]] 明說**橢球體沒有任何 MBON 的直接標的**。
 
 ## 是什麼
 
@@ -33,6 +33,7 @@ confidence: medium
 | [[s-ofstad-2011-visual-place-learning]] | **主角。** 以 [[e-kir2-1]] 配 [[e-gal80ts]] 在成蟲期靜音三條橢球體 GAL4 品系，測視覺位置學習與（同一批果蠅的）嗅覺學習 | 兩條標到 R1 的品系（R15B07、R28D01）靜音後，探測學習指數中位數由 0.485／0.46 掉到 0.065／0.05（降 87%／89%，※ 從圖 4g 判讀，\*\*\* P < 0.001，單尾 t 檢定比較誘導前後）；只標 R4 的 R38H02 不受影響（0.53 → 0.36）。三組的嗅覺學習與對照無異（圖 4m），走路速度、熱躲避、視動反應、綁飛圖樣辨別四項也都無異。**所以必需的不是「橢球體」，是「橢球體裡的 R1 環」** |
 | [[s-dylla-2017-trace-conditioning-dan-plasticity]] | **陰性對照。** 在痕跡制約的鈣成像中一併量橢球體（與扇形體 FB1、FB2）的多巴胺神經元，問「配對造成的改變是否只發生在蕈狀體」 | 三格的配對—不配對差值都在 ±0.05 內且不顯著，而蕈狀體九區中有八區顯著（圖 6A）。**這組對照在同一隻果蠅身上，所以它排除的是「全腦 DAN 一起變」這個解釋** |
 | [[s-mao-2009-dopaminergic-neuron-types]] | 解剖描述的附帶觀察 | TH-GAL4 的多巴胺末梢分布到橢球體（圖 3D）。該篇不討論功能 |
+| [[s-li-2020-mb-connectome]] | **陰性結果。** 在 [[e-hemibrain]] v1.1 裡把 34 型 MBON 的下游全部查出來（門檻 10 個突觸），看蕈狀體的輸出打到中央複合體的哪些部位 | **橢球體與原腦橋（protocerebral bridge）完全沒有任何 MBON 的直接標的**（論文自己下的否定句）。MBON 直接接到的中央複合體部位只有兩個：**扇形體**（21 型 MBON、3,705 個突觸，集中在第 4、5 層）與**結節（noduli）**（三型非典型 MBON 在側副葉接到三型軸突終止於結節的細胞）。反方向也幾乎不存在：論文說沒有找到任何中央複合體神經元直接輸入 KC、[[e-apl-neuron]] 或 [[e-dpm-neuron]] 的例子，只找到 3 例在 DAN 上游 |
 
 [[s-aso-2019-nitric-oxide-cotransmitter]] 另引 Kuntz 2017，說橢球體環狀神經元的視覺工作記憶需要一氧化氮／cGMP，並說那裡的 NOS 被認為是細胞自身作用。**那是引用，不是該篇自己的資料**，所以不列進上表。
 
@@ -42,13 +43,14 @@ confidence: medium
 - **本庫沒有任何橢球體的活動量測。** 庫內三篇都沒有在導航或學習期間記錄環狀神經元的放電或鈣。Ofstad 2011 只做到必要性，作者自己把「量活動」列為下一步；Dylla 2017 量的是橢球體的**多巴胺神經元**，不是環狀神經元，而且只在痕跡制約下量。所以「橢球體裡裝著什麼」在本庫是空的（見 [[syn-contradictions]]）。
 - **必要性不等於編碼。** Ofstad 2011 自己把動詞寫成三個並列：那些神經元「可能在實作、儲存，或讀取」空間資訊（原文 implementing, storing, or reading）。行為上的必要性分不開這三件事，也分不出它是通路的入口、出口還是記憶本身所在。**本庫沒有任何資料顯示果蠅腦裡有哺乳類式的位置細胞。**
 - **驅動品系的表現不限於橢球體。** Ofstad 2011 的三條都是一般 GAL4、沒有做交集限制，圖 4d–f 顯示三條都有橢球體以外的表現（見該來源頁對圖 4 的解讀）。見 [[e-split-gal4]]。
-- **它與蕈狀體的關係在本庫是對立面，不是接續。** 庫內關於它的唯一功能資料，正好是用來說明「這個學習不經過蕈狀體」。這條分界是否成立，與 [[s-vogt-2014-shared-visual-olfactory-circuits]] 的「顏色記憶需要蕈狀體」構成本庫的待裁決矛盾 1.13（見 [[syn-contradictions]]）。
+- **它與蕈狀體的關係在本庫是對立面，不是接續。** 庫內關於它的唯一功能資料，正好是用來說明「這個學習不經過蕈狀體」。這條分界是否成立，與 [[s-vogt-2014-shared-visual-olfactory-circuits]] 的「顏色記憶需要蕈狀體」構成本庫的待裁決矛盾 1.13（見 [[syn-contradictions]]）。**而 [[s-li-2020-mb-connectome]] 替這條分界加了一個解剖上的陰性事實：蕈狀體的輸出神經元一條都沒有直接接到橢球體。** 這不是說兩者無關——中間隔幾個神經元的路徑本篇沒有排除，扇形體與結節是確實存在的直接出口——但「蕈狀體學到的東西直接交給橢球體」這種讀法，在成蟲連結體上沒有依據。對本頁「視覺位置學習靠橢球體」那條線，這表示**如果橢球體的視覺位置學習要用到蕈狀體的學習結果，那條路至少要轉一手**：？待查（本庫沒有來源追過這條間接路徑）。
 
 ## 相關
 
 - 主題：[[t-visual-learning-circuits]]
 - 腦區與細胞：[[e-mushroom-body]]、[[e-kenyon-cell]]、[[e-dopaminergic-neuron]]
 - 工具：[[e-kir2-1]]、[[e-gal80ts]]、[[e-split-gal4]]
-- 來源：[[s-ofstad-2011-visual-place-learning]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-aso-2019-nitric-oxide-cotransmitter]]
+- 來源：[[s-ofstad-2011-visual-place-learning]]、[[s-dylla-2017-trace-conditioning-dan-plasticity]]、[[s-mao-2009-dopaminergic-neuron-types]]、[[s-aso-2019-nitric-oxide-cotransmitter]]、[[s-li-2020-mb-connectome]]（MBON 沒有直接標的）
+- 細胞：[[e-mbon]]
 - 矛盾與空缺：[[syn-contradictions]]
 - 待開頁面：`e-ring-neuron`（環狀神經元 R1–R4）、`e-fan-shaped-body`（扇形體）、`e-r15b07`、`e-r28d01`、`e-r38h02`
