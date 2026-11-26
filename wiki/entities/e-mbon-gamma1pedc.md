@@ -50,7 +50,7 @@ confidence: medium
 |---|---|---|
 | [[s-aso-2014-mb-architecture]] | 命名與形態的原始出處（表 1、圖 9B、15E、17C） | GABA 性（推定）、每半腦 1 顆；三型「軸突送回葉內」的 MBON 之一，作者據此提出多層前饋網路的構想（純推論，沒有測功能） |
 | [[s-aso-2014-mbon-valence]] | CsChrimson 光遺傳活化（MB112C，未訓練、無氣味）；shibire^ts 阻斷（MB112C、MB085C、MB262B）；MCFO 單細胞形態；與 PPL1-γ1pedc 雙色標記 | 活化 → **推動靠近**（MB112C，中位數約 0.26，※ 從圖 4 的單獨品系判讀），但光遺傳只有這一條品系；與 GABA 的 MB083C 一起活化沒有加成（約 0.24）。阻斷 → 2 小時嫌惡氣味記憶由對照的約 −0.45～−0.57 降到約 −0.25（MB112C；複篩後唯一剩下的品系），嫌惡顏色記憶由約 −0.12～−0.17 降到約 −0.03（皆 ※ 從圖判讀）；獎賞記憶與睡眠篩檢都沒有它的效果。樹突與 PPL1-γ1pedc 的末梢在 γ1、pedc 精確重疊 |
-| [[s-hige-2015-heterosynaptic-plasticity]] | 全細胞膜片鉗（[[c-whole-cell-patch-clamp]]），氣味配一顆 PPL1-γ1pedc 的光活化 | 配對氣味的放電降 80% ± 5.7%、突觸電荷降 90% ± 3.7%，至少 40 分鐘；逆向配對無效；MBON 不放電也會發生（見 [[c-kc-mbon-plasticity]]） |
+| [[s-hige-2015-heterosynaptic-plasticity]] | 全細胞膜片鉗（[[c-whole-cell-patch-clamp]]），氣味配一顆 PPL1-γ1pedc 的光活化 | 配對氣味的放電降 80% ± 5.7%（這一項**至少持續 40 分鐘**，PDF 第 987 頁；原寫法把 40 分鐘也掛在電荷上，而電荷那一組沒有做時間歷程，已更正）、突觸電荷降 90% ± 3.7%；逆向配對無效；MBON 不放電也會發生（見 [[c-kc-mbon-plasticity]]） |
 | [[s-felsenberg-2017-re-evaluation]] | 在糖記憶再活化期間以 [[e-shibire-ts]] 阻斷 | 不影響消退與再鞏固；作者用它確認消退需要的是 V2 群 MBON（α、α′ 葉上的一群 MBON），不是與它相鄰的 MVP2 |
 | [[s-felsenberg-2018-memory-extinction]] | 電擊訓練後活體雙光子鈣成像樹突；FAFB 電顯追蹤 | 訓練後對 CS+ 的反應比 CS− 小，消退後**仍然**比較小（中位數約 0.2 vs 0.4，從圖判讀）；接到 M6R 17 個、M6L 16 個、M4β′ 47 個突觸，接 M6 的點靠近樹突根部 |
 | [[s-aso-2019-nitric-oxide-cotransmitter]] | 離體腦鈣成像：TH 突變背景（不能合成多巴胺）下光活化 PPL1-γ1pedc（5 次、間隔 30 秒、最高 1.2 mW/mm²），餵或不餵 NOS 抑制劑 L-NNA；RNA 定序的預試細胞型 | 它的鈣**長時間上升**，且被 L-NNA 壓制 → 一氧化氮作用到這顆 MBON（該篇唯一的生理量測，細節在圖 5 補充圖 2，本庫未取得）。RNA 定序先拿它試水溫：三個重複、每個約 350 顆細胞，平均 5.3 µg cDNA |

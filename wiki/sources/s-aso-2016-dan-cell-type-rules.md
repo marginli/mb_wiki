@@ -2,7 +2,7 @@
 title: "Dopaminergic neurons write and update memories with cell-type-specific rules"
 citation: "eLife 5, e16135 (2016). doi: 10.7554/eLife.16135 [全文（PMC 免費閱讀）](https://pmc.ncbi.nlm.nih.gov/articles/PMC4987137/)"
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-11-26
 tags: [source, active, mb-learning, mb-memory-dynamics]
 confidence: medium
 ---

@@ -2,7 +2,7 @@
 title: "The neuronal architecture of the mushroom body provides a logic for associative learning"
 citation: "eLife 3, e04577 (2014). doi: 10.7554/eLife.04577 [全文（PMC 免費閱讀）](https://pmc.ncbi.nlm.nih.gov/articles/PMC4273437/)"
 created: 2026-11-13
-updated: 2026-11-24
+updated: 2026-11-26
 tags: [source, active, mb-learning, mb-memory-dynamics]
 confidence: high
 ---

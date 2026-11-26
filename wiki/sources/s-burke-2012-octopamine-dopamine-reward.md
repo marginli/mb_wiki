@@ -2,7 +2,7 @@
 title: "Layered reward signaling through octopamine and dopamine in *Drosophila*"
 citation: "Nature 492(7429), 433–437 (2012). doi: 10.1038/nature11614 [全文（PMC 免費閱讀）](https://pmc.ncbi.nlm.nih.gov/articles/PMC3528794/)"
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-26
 tags: [source, active, mb-learning]
 confidence: medium
 ---

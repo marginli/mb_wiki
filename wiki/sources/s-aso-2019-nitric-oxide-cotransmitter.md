@@ -2,7 +2,7 @@
 title: "Nitric oxide acts as a cotransmitter in a subset of dopaminergic neurons to diversify memory dynamics"
 citation: "eLife 8, e49257 (2019). doi: 10.7554/eLife.49257 [全文（PMC 免費閱讀）](https://pmc.ncbi.nlm.nih.gov/articles/PMC6948953/)"
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-26
 tags: [source, active, mb-learning, mb-memory-dynamics]
 confidence: medium
 ---

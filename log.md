@@ -701,3 +701,30 @@
 未採用的 4 項：3 小時保存溫度的 `？待查` 保留（方法只寫「存放在濕濾紙小管中直到測驗」，沒有溫度）；MB-MP1 的支配範圍與 Liu 的轉述在專業文本來就寫得比科普文保守，不必改專業文；其餘兩項為措辭層級。另外我自己第一次 grep「both control groups」沒抓到（原文斷行），回查後確認驗收輪是對的。
 
 登記在 [[syn-changelog]] 乙 19、丁 48、戊 119、辛 9–11、壬 22–24。`tools/scan.py` 異常 0、`tools/links.py` 壞連結 0／孤兒頁 0、`git ls-files` 無 PDF。
+
+## 2026-11-26　科普文全面檢查（第 7–28 篇）與驗收輪
+
+使用者 2026-11-25 要求「用六條寫法原則把知識庫裡所有的科普文都檢查一遍」，第七篇起改為「剩下的所有篇一起做」。
+做法：22 篇平行處理，每篇一個 agent 自查原文、改寫「為什麼重要」與「科普文」兩節、跑自己的冷讀輪並回報；
+整合者逐條回查 PDF、套用跨節修改，並獨佔共用檔（[[syn-changelog]]、本檔、[[numbers]]、[[syn-contradictions]]）與所有 git 操作。
+22 篇改寫後科普文長度 70–248 行。
+
+新增步驟「驗收輪」：讀整頁、對原文，找新寫的兩節與沒動過的專業文或 PDF 之間的事實衝突。
+已對 7 篇執行（Dylla、Eschbach、Felsenberg 2017、Felsenberg 2018、Ganguly、Gervasi、Handler），每篇都抓到冷讀輪沒抓到的事實錯誤。
+影響核心結論的四條：
+
+1. [[s-handler-2019-dopamine-receptor-timing]]「本篇完全沒有量 PPL 區室的 MBON」——方法節明寫量了 γ2、γ4、γ5 三格 MBON，γ2 正是 PPL1 支配的區室。
+2. [[s-felsenberg-2018-memory-extinction]] 假訓練對照的面板歸屬讀錯；真正缺對照的是 M6 軸突（R66C08），即圖 6C／6F、該篇核心結論的證據來源。
+3. [[s-ganguly-2024-visual-inputs-to-kc]] 把 Li 2020 的 `49 VPNs, including 26 ME and 21 LO` 寫成「合計 47 條」，連帶抹掉「49 對 49」的巧合與 [[numbers]] 自己的警告。
+4. [[s-dylla-2017-trace-conditioning-dan-plasticity]] 科普文小標漏掉「誤差」兩字，變成與論文結論（DAN 編碼 US-prediction、不編碼 prediction error）相反。
+
+另記一條特殊的：[[s-eschbach-2021-learned-innate-valence-integration]] 的專業文原本正確寫著「恆定藍光的作用是遮蔽紅光」，
+本庫同日先把它「更正」為本頁的推論而刪掉，驗收輪指出原文結果節就有 `under a constant blue light (that masked the red light)`，已回復。
+**這是本庫第一次記錄到「更正本身是錯的」。**
+
+[[numbers]] 補登：Eschbach 的 9 項參數、Gervasi 圖 5A2 的約 14%、Ganguly 的 aMe12 約 1,150 與 CB0156 四個圖面讀數、Dylla 的「兩組都錄到氣味 9 次」；
+更正一處定義錯置（Ganguly 的「中位數 5–6」屬嗅覺 KC 一般，不是 KCγ-m），已確認全庫零殘留。
+[[syn-contradictions]] 新增 1.16「常規 T 迷宮制約是一個訓練回合還是六個回合」（Huang 2024 對 Tully & Quinn 1985），未裁決。
+
+登記在 [[syn-changelog]]：甲 5–6、乙 20–21、丙 18–20、丁 49–55、戊 121–138、庚 6–7、辛 12–18、壬 25–34、癸 4，另新增階段十二。
+28 篇來源頁的 `updated:` 統一改為 2026-11-26。`tools/scan.py` 異常 0、`tools/links.py` 壞連結 0／孤兒頁 0。

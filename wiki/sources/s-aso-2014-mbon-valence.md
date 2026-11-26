@@ -2,7 +2,7 @@
 title: "Mushroom body output neurons encode valence and guide memory-based action selection in Drosophila"
 citation: "eLife 3, e04580 (2014). doi: 10.7554/eLife.04580 [全文（PMC 免費閱讀）](https://pmc.ncbi.nlm.nih.gov/articles/PMC4273436/)"
 created: 2026-11-13
-updated: 2026-11-24
+updated: 2026-11-26
 tags: [source, active, mb-learning, mb-memory-dynamics]
 confidence: medium
 ---

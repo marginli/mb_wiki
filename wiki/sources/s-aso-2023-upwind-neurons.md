@@ -2,7 +2,7 @@
 title: "Neural circuit mechanisms for transforming learned olfactory valences into wind-oriented movement"
 citation: "eLife 12, e85756 (2023). doi: 10.7554/eLife.85756 [全文（PMC 免費閱讀）](https://pmc.ncbi.nlm.nih.gov/articles/PMC10588983/)"
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-26
 tags: [source, active, mb-memory-dynamics]
 confidence: medium
 ---
